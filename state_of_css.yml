@@ -103,11 +103,6 @@
   tags:
     - css_missing_features
 
-- id: masonry
-  name: Masonry Layout
-  tags:
-    - css_missing_features
-
 - id: simplicty
   name: Simplicity
   tags:
@@ -147,6 +142,52 @@
     - regions
   tags:
     - css_missing_features
+
+# pain points
+
+- id: safari
+  name: Safari
+  patterns:
+    - webkit
+  tags: 
+    - css_pain_points
+
+- id: email
+  name: Email
+  tags: 
+    - css_pain_points
+
+- id: ios
+  name: iOS
+  tags: 
+    - css_pain_points
+    
+- id: performance
+  name: Performance
+  patterns:
+    - perf
+  tags: 
+    - css_pain_points
+
+- id: ie
+  name: Internet Explorer
+  patterns:
+    - ie( |-)?11
+  tags: 
+    - css_pain_points
+
+- id: responsive_design
+  name: Responsive/Mobile Design
+  patterns:
+    - responsive
+    - mobile
+  tags: 
+    - css_pain_points
+
+- id: animation
+  name: Animation
+  tags:
+    - css_pain_points
 
 # first steps
 
@@ -240,49 +281,6 @@
   name: Scrollbar Styling
   tags: 
     - browser_interoperability
-
-
-# pain points
-
-- id: safari
-  name: Safari
-  patterns:
-    - webkit
-  tags: 
-    - css_pain_points
-
-- id: email
-  name: Email
-  tags: 
-    - css_pain_points
-
-- id: ios
-  name: iOS
-  tags: 
-    - css_pain_points
-    
-- id: performance
-  name: Performance
-  patterns:
-    - perf
-  tags: 
-    - css_pain_points
-
-- id: ie
-  name: Internet Explorer
-  patterns:
-    - ie( |-)?11
-  tags: 
-    - css_pain_points
-
-- id: responsive_design
-  name: Responsive/Mobile Design
-  patterns:
-    - responsive
-    - mobile
-  tags: 
-    - css_pain_points
-
 
 # disability status
 

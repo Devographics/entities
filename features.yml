@@ -125,6 +125,8 @@
   patterns:
     - '@container'
     - container
+    - container( |-)(media|width)? ?quer(y|ies)
+    - (element|object|component)s? (based )?(media )?quer(y|ies)
   tags:
       - css
       - css_layout
@@ -400,6 +402,8 @@
   name: Animations
   mdn: /en-US/docs/Web/CSS/CSS_Animations
   caniuse: css-animation
+  patterns:
+    - animation
   tags:
       - css
       - css_animations_and_transforms

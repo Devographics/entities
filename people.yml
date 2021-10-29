@@ -14,6 +14,8 @@
   twitterName: sarah_edo
   name: Sarah Drasner
   homepage: https://sarahdrasnerdesign.com/
+  patterns:
+    - sara drasner
   tags:
     - javascript
     - blogs
@@ -41,6 +43,7 @@
     - blogs
   patterns:
     - kent( )?c(.)?( )?do(o)?dds
+    - kent dodds
 
 - id: dan_abramov
   twitterName: overreacted
@@ -146,6 +149,10 @@
   twitterName: sarasoueidan
   name: Sara Soueidan
   homepage: https://www.sarasoueidan.com/
+  patterns:
+    - sarah soueidan
+    - saoudan
+    - souidan
   tags:
     - css
     - blogs
@@ -184,6 +191,8 @@
     - css
   patterns:
     - kevin powell
+    - kevin powel
+    - ken powell
 
 - id: harry_roberts
   twitterName: csswizardry
@@ -199,6 +208,9 @@
   twitterName: walterstephanie
   name: Stéphanie Walter
   homepage: https://stephaniewalter.design/
+  patterns: 
+    - stefanie walter             
+    - stéphanie walter             
   tags:
     - css
 
@@ -228,6 +240,7 @@
   homepage: https://wesbos.com/
   tags:
     - courses
+    - css
   patterns:
     - wes ?bos
 
@@ -242,11 +255,14 @@
   patterns: 
     - Chris Coier
     - Chris Coiyer
+    - Chris Coyer
 
 - id: christian_heilmann
   twitterName: codepo8
   name: Christian Heilmann
   homepage: https://christianheilmann.com/
+  patterns:
+    - Chris Heilmann
   tags:
     - css
 
@@ -374,6 +390,8 @@
 - id: adam_wathan
   twitterName: adamwathan
   name: Adam Wathan
+  patterns:
+    - adam watham
   homepage: https://adamwathan.me/
   tags:
     - css
@@ -509,6 +527,8 @@
   homepage:
   blog: 
   rss: 
+  patterns:
+    - cassido
   tags: 
     - css
 
@@ -542,9 +562,12 @@
 - id: manuel_matuzovic
   name: Manuel Matuzović
   twitterName: mmatuzo
-  homepage:
+  homepage: https://www.matuzo.at/
   blog: 
   rss: 
+  patterns:
+    - htm_hell
+    - html hell
   tags: 
     - css
 
@@ -593,6 +616,7 @@
   rss: 
   tags: 
     - css
+    - js
 
 - id: jeffrey_zeldman
   name: Jeffrey Zeldman
@@ -920,6 +944,8 @@
     - css
   patterns: 
     - Вадим Макеев
+    - makeev
+    - pepelsbey
 
 - id: julia_evans
   name: Julia Evans
@@ -941,6 +967,7 @@
   patterns:
     - jonmircha
     - JhonMircha
+    - jon mircha
 
 - id: brad_traversy
   name: Brad Traversy
@@ -948,6 +975,8 @@
   homepage:
   blog: 
   rss: 
+  patterns:
+    - Traversy
   tags: 
     - css
 
@@ -1016,6 +1045,148 @@
   tags: 
     - css
     - accessibility
+
+- id: scott_tolinski
+  name: Scott Tolinski
+  twitterName: stolinski
+  homepage: https://leveluptutorials.com/
+  blog: 
+  rss: 
+  related: 
+    - syntax
+  tags:
+    - javascript 
+    - css
+
+- id: marcy_sutton
+  name: Marcy Sutton
+  twitterName: marcysutton
+  homepage: https://marcysutton.com/
+  blog: 
+  rss: 
+  tags: 
+    - accessibility
+    - css
+
+- id: mark_otto
+  name: Mark Otto
+  twitterName: mdo
+  homepage:
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+
+- id: jonas_schmedtman
+  name: Jonas Schmedtmann
+  twitterName: jonasschmedtman
+  homepage: https://codingheroes.io/
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+- id: sacha_greif
+  name: Sacha Greif
+  twitterName:  SachaGreif
+  homepage: https://sachagreif.com
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+- id: colm_tuite
+  name: Colm Tuite
+  twitterName: colmtuite
+  homepage: https://www.colmtuite.com/
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+- id: martin_michalek
+  name: Martin Michálek
+  twitterName: machal
+  homepage: https://www.vzhurudolu.cz/
+  blog: 
+  rss: 
+  patterns:
+    - Michálek
+  tags: 
+    - css
+
+- id: filipe_deschamps
+  name: Filipe Deschamps
+  twitterName: filipedeschamps
+  homepage: https://filipedeschamps.com.br/
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+- id: chris_ferdinandi
+  name: Chris Ferdinandi
+  twitterName: ChrisFerdinandi
+  homepage: https://gomakethings.com/
+  blog: 
+  rss: 
+  tags: 
+    - javascript
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
 
 # - id: 
 #   name: 
