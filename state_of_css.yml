@@ -121,6 +121,8 @@
     - form styling
     - form input
     - input element
+    - form element
+    - form fields
   tags:
     - css_missing_features
 
@@ -169,7 +171,7 @@
   tags: 
     - css_pain_points
 
-- id: ie
+- id: internet_explorer
   name: Internet Explorer
   patterns:
     - ie( |-)?11
@@ -186,6 +188,21 @@
 
 - id: animation
   name: Animation
+  tags:
+    - css_pain_points
+
+- id: z_index
+  name: z-index
+  tags:
+    - css_pain_points
+
+- id: css_in_js
+  name: CSS-in-JS
+  tags:
+    - css_pain_points
+
+- id: svg
+  name: SVG
   tags:
     - css_pain_points
 
@@ -279,27 +296,38 @@
 
 - id: scrollbar
   name: Scrollbar Styling
+  patterns:
+    - scroll( )?bar
   tags: 
     - browser_interoperability
 
-# disability status
+- id: flex_gap
+  name: Flex-gap
+  patterns:
+    - gap
+  tags: 
+    - browser_interoperability
 
-- id: adhd
-  name: ADHD
-  tags:
-    - disabilities
+- id: scroll_behavior
+  name: scroll-behavior
+  patterns:
+    - scroll(-| )?behavio(u)?r
+  tags: 
+    - browser_interoperability
 
-- id: autism
-  name: Autism
-  tags:
-    - disabilities
+- id: scroll_behavior
+  name: scroll-behavior
+  patterns:
+    - scroll(-| )?behavio(u)?r
+  tags: 
+    - browser_interoperability
 
-- id: glasses
-  name: Glasses
-  tags:
-    - disabilities
+- id: overflow
+  name: overflow
+  tags: 
+    - browser_interoperability
 
-- id: old
-  name: Old Age
-  tags:
-    - disabilities
+- id: clamp
+  name: clamp
+  tags: 
+    - browser_interoperability

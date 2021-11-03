@@ -221,6 +221,8 @@
   homepage: https://www.vzhurudolu.cz/
   patterns:
     - vzhůru ?dolů
+    - vzhududolu
+    - vzhuru dolu
   tags:
     - podcasts
 

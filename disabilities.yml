@@ -1,0 +1,28 @@
+
+# disability status
+
+- id: adhd
+  name: ADHD
+  patterns:
+    - add
+
+- id: autism
+  name: Autism
+
+- id: aspergers
+  name: Aspergers
+
+- id: glasses
+  name: Glasses
+
+- id: old
+  name: Old Age
+
+- id: back_pain
+  name: Back Pain
+  patterns:
+    - weak back
+    - back pain
+  
+- id: epilepsy
+  name: Epilepsy

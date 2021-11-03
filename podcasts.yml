@@ -219,3 +219,15 @@
 - id: enjoy_the_vue
   name: Enjoy The Vue
   homepage: https://enjoythevue.io/
+
+- id: compressed_fm
+  name: Compressed.fm
+  homepage: https://www.compressed.fm/
+
+- id: chats_with_kent
+  name: Chats With Kent
+  homepage: https://kentcdodds.com/chats/
+
+- id: web_rush
+  name: Web Rush
+  homepage: https://webrush.io/
