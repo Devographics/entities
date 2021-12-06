@@ -488,7 +488,7 @@
 - id: lynn_fisher
   name: Lynn Fisher
   twitterName: lynnandtonic
-  homepage:
+  homepage: https://lynnandtonic.com/
   blog: 
   rss: 
   tags: 
@@ -497,7 +497,7 @@
 - id: cassie_evans
   name: Cassie Evans
   twitterName: cassiecodes
-  homepage:
+  homepage: https://www.cassie.codes/
   blog: 
   rss: 
   tags: 
@@ -524,7 +524,7 @@
 - id: cassidy_williams
   name: Cassidy Williams
   twitterName: cassidoo
-  homepage:
+  homepage: https://cassidoo.co/
   blog: 
   rss: 
   patterns:
@@ -535,7 +535,7 @@
 - id: jake_archibald
   name: Jake Archibald
   twitterName: jaffathecake
-  homepage:
+  homepage: https://jakearchibald.com/
   blog: 
   rss: 
   tags: 
@@ -544,7 +544,7 @@
 - id: andy_clarke
   name: Andy Clarke
   twitterName: malarkey
-  homepage:
+  homepage: https://stuffandnonsense.co.uk/
   blog: 
   rss: 
   tags: 
@@ -602,7 +602,7 @@
 - id: zach_leatherman
   name: Zach Leatherman
   twitterName: zachleat
-  homepage:
+  homepage: https://www.zachleat.com/
   blog: 
   rss: 
   tags: 
@@ -685,7 +685,7 @@
 - id: addy_osmani
   name: Addy Osmani
   twitterName: addyosmani
-  homepage:
+  homepage: https://addyosmani.com/
   blog: 
   rss: 
   tags: 
@@ -739,7 +739,7 @@
 - id: evan_you
   name: Evan You
   twitterName: youyuxi
-  homepage:
+  homepage: https://evanyou.me/
   blog: 
   rss: 
   tags: 
@@ -749,7 +749,7 @@
 - id: paul_irish
   name: Paul Irish
   twitterName: paul_irish
-  homepage:
+  homepage: https://www.paulirish.com/
   blog: 
   rss: 
   tags: 
@@ -758,7 +758,7 @@
 - id: surma
   name: Surma
   twitterName: dassurma
-  homepage:
+  homepage: https://surma.dev/
   blog: 
   rss: 
   tags: 
@@ -849,9 +849,10 @@
 - id: miguel_angel_duran 
   name: Miguel Ángel Durán
   twitterName: midudev
-  homepage:
+  homepage: 
   blog: 
   rss: 
+  youtube: https://www.youtube.com/c/midudev
   tags: 
     - css
   patterns:
@@ -860,7 +861,7 @@
 - id: jason_lengstorf
   name: Jason Lengstorf
   twitterName: jlengstorf
-  homepage:
+  homepage: https://www.lengstorf.com/
   blog: 
   rss: 
   tags: 
@@ -937,7 +938,7 @@
 - id: vadim_makeev
   name: Vadim Makeev
   twitterName: pepelsbey_
-  homepage:
+  homepage: https://pepelsbey.net/
   blog: 
   rss: 
   tags: 
@@ -972,7 +973,7 @@
 - id: brad_traversy
   name: Brad Traversy
   twitterName: traversymedia
-  homepage:
+  homepage: https://www.traversymedia.com/
   blog: 
   rss: 
   patterns:
@@ -1001,7 +1002,7 @@
 - id: emma_bostian
   name: Emma Bostian
   twitterName: EmmaBostian
-  homepage:
+  homepage: https://www.compiled.blog/
   blog: 
   rss: 
   related: 

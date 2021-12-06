@@ -1865,9 +1865,10 @@
   description: Tiny & elegant HTTP client based on window.fetch
   homepage: https://github.com/sindresorhus/ky
 
-- id: n
-  name: N
-  homepage: https://github.com/tj/n
+# matches too many patterns!
+# - id: n
+#   name: N
+#   homepage: https://github.com/tj/n
 
 - id: nx
   name: Nx

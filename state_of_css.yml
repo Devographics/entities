@@ -209,6 +209,7 @@
 # first steps
 
 - id: copy_paste
+  normalizationOnly: true
   name: Copy/paste
   tags: 
     - css_first_steps
@@ -217,6 +218,7 @@
     - copying
 
 - id: view_source
+  normalizationOnly: true
   name: View Source
   tags: 
     - css_first_steps
@@ -225,6 +227,7 @@
     - inspect
 
 - id: blogs
+  normalizationOnly: true
   name: Blogs
   tags: 
     - css_first_steps
@@ -233,16 +236,12 @@
     - blogger
     
 - id: forums
+  normalizationOnly: true
   name: Forums
   tags: 
     - css_first_steps
   patterns: 
     - forum
-
-- id: twitch
-  name: Twitch
-  tags: 
-    - css_first_steps
 
 # what do you use CSS for
 
@@ -298,13 +297,6 @@
   name: Scrollbar Styling
   patterns:
     - scroll( )?bar
-  tags: 
-    - browser_interoperability
-
-- id: flex_gap
-  name: Flex-gap
-  patterns:
-    - gap
   tags: 
     - browser_interoperability
 

@@ -325,7 +325,7 @@
       - css_typography
 
 - id: initial_letter
-  name: initial_letter
+  name: initial-letter
   mdn: /en-US/docs/Web/CSS/initial-letter
   caniuse: css-initial-letter
   tags:
@@ -473,9 +473,16 @@
 - id: focus_visible
   name: <code>:focus-visible</code
   mdn: /en-US/docs/Web/CSS/:focus-visible
-  caniuse: https://caniuse.com/css-focus-visible
+  caniuse: css-focus-visible
   tags: 
     - css
+    - accessibility
+
+- id: tabindex
+  name: tabindex
+  mdn: /en-US/docs/Web/HTML/Global_attributes/tabindex
+  caniuse: tabindex-attr
+  tags: 
     - accessibility
 
 #################################################
@@ -578,15 +585,23 @@
       - css_other
 
 - id: viewport_units
-  name: Viewport Units (<code>vh</code>, <code>vw</code>)
+  name: Viewport Units (vh, vw)
   mdn: /en-US/docs/Web/CSS/length
-  caniuse: https://caniuse.com/viewport-units
+  caniuse: viewport-units
   patterns:
     - vh
     - vw
   tags:
       - css
       - css_other
+
+- id: marker
+  name: ::marker
+  mdn: /en-US/docs/Web/CSS/::marker
+  caniuse: css-marker-pseudo
+  tags: 
+    - css
+    - css_other
 
 #################################################
 #
