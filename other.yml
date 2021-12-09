@@ -112,3 +112,26 @@
 - id: jspm
   name: jspm
   homepage: https://jspm.org/
+
+- id: css_comb
+  name: CSScomb
+  homepage: https://github.com/csscomb/csscomb.js
+  github: csscomb/csscomb.js
+  tags:
+    - css
+    - utilities
+
+- id: csso
+  name: CSSO
+  homepage: https://css.github.io/csso/csso.html
+  github: css/csso
+  tags:
+    - css
+    - utilities
+
+- id: codekit
+  name: CodeKit
+  homepage: https://codekitapp.com/
+  tags:
+    - css
+    - utilities

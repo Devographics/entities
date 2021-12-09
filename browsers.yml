@@ -109,3 +109,7 @@
 - id: sidekick
   name: Sidekick
   homepage: https://www.meetsidekick.com/
+
+- id: qutebrowser
+  name: Qutebrowser
+  homepage: https://qutebrowser.org/

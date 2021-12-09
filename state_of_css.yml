@@ -145,6 +145,11 @@
   tags:
     - css_missing_features
 
+- id: aspect_ratio
+  name: Aspect Ratio
+  tags:
+    - css_missing_features
+    
 # pain points
 
 - id: safari
@@ -206,6 +211,11 @@
   tags:
     - css_pain_points
 
+- id: select
+  name: Selects
+  tags:
+    - css_pain_points
+
 # first steps
 
 - id: copy_paste
@@ -242,6 +252,34 @@
     - css_first_steps
   patterns: 
     - forum
+    
+- id: w3schools
+  name: W3Schools
+  tags: 
+    - css_first_steps
+    
+- id: w3c
+  name: W3C
+  patterns:
+    - specification
+    - spec
+  tags: 
+    - css_first_steps
+    
+- id: twitter
+  name: Twitter
+  tags: 
+    - css_first_steps
+
+- id: freecodecamp
+  name: freeCodeCamp
+  tags: 
+    - css_first_steps
+
+- id: selfhtml
+  name: SelfHTML
+  tags: 
+    - css_first_steps
 
 # what do you use CSS for
 
@@ -259,6 +297,28 @@
 
 - id: portfolio
   name: Portfolio Sites
+  tags: 
+    - css_uses
+
+- id: data_visualization
+  name: Data Visualization
+  patterns:
+    - data visualisation
+  tags: 
+    - css_uses
+
+- id: svg
+  name: SVG
+  tags: 
+    - css_uses
+
+- id: desktop
+  name: Desktop Applications
+  tags: 
+    - css_uses
+
+- id: games
+  name: Video Games
   tags: 
     - css_uses
 
@@ -288,6 +348,18 @@
 
 - id: zoom
   name: Zoom Support
+  tags: 
+    - accessibility_features
+
+- id: aria_live
+  name: Aria-live Regions
+  tags: 
+    - accessibility_features
+
+- id: landmarks
+  name: Landmarks
+  patterns:
+    - landmark
   tags: 
     - accessibility_features
 
