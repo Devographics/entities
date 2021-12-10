@@ -1135,14 +1135,16 @@
   tags: 
     - javascript
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: raphael_benitte
+  name: Raphaël Benitte
+  twitterName: benitteraphael
+  homepage: https://nivo.rocks/
+  blog: 
+  rss: 
+  tags: 
+    - css
+    - js
+    - dataviz
 
 # - id: 
 #   name: 

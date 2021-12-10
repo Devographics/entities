@@ -471,7 +471,7 @@
     - accessibility
 
 - id: focus_visible
-  name: <code>:focus-visible</code
+  name: :focus-visible
   mdn: /en-US/docs/Web/CSS/:focus-visible
   caniuse: css-focus-visible
   tags: 
