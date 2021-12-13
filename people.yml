@@ -1146,23 +1146,25 @@
     - js
     - dataviz
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: dan_cowell
+  name: Dan Cowell
+  twitterName: dfcowell
+  homepage:
+  blog: 
+  github: dfcowell
+  rss: 
+  tags: 
+    - credits
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: ben_szabo
+  name: Ben Szabo
+  twitterName: b3nk3
+  homepage:
+  blog: 
+  rss: 
+  github: b3nk3
+  tags: 
+    - credits
 
 # - id: 
 #   name: 
