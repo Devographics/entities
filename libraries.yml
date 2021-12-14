@@ -309,7 +309,7 @@
 - id: styled_system
   name: Styled System
   contexts: [state_of_css]
-  homepage: Styled System
+  homepage: https://styled-system.com/
   tags:
     - css
     - js
