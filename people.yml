@@ -676,7 +676,7 @@
 - id: rich_harris
   name: Rich Harris
   twitterName: Rich_Harris
-  homepage:
+  homepage: https://twitter.com/Rich_Harris
   blog: 
   rss: 
   tags: 
@@ -849,7 +849,7 @@
 - id: miguel_angel_duran 
   name: Miguel Ángel Durán
   twitterName: midudev
-  homepage: 
+  homepage: https://midu.dev/
   blog: 
   rss: 
   youtube: https://www.youtube.com/c/midudev
@@ -1166,14 +1166,15 @@
   tags: 
     - credits
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: alexey_pyltsyn
+  name: Alexey Pyltsyn
+  twitterName:
+  homepage:
+  blog: 
+  rss: 
+  github: lex111
+  tags: 
+    - css
 
 # - id: 
 #   name: 
