@@ -234,6 +234,7 @@
 - id: color_contrast
   name: color-contrast()
   mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
+  caniuse: mdn-css_types_color_color-contrast
   tags:
       - css
       - css_shapes_and_graphics
