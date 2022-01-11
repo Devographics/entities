@@ -610,6 +610,8 @@
 #
 #################################################
 
+# APIs
+
 - id: destructuring
   name: Destructuring
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
@@ -702,6 +704,39 @@
   name: WebVR
   mdn: /en-US/docs/Web/API/WebVR_API
 
+- id: page_visibility
+  name: Page Visibility API
+  mdn: /en-US/docs/Web/API/Page_Visibility_API
+  caniuse: /pagevisibility
+
+- id: broadcast_channel
+  name: Broadcast Channel API
+  mdn: /en-US/docs/Web/API/Broadcast_Channel_API
+  caniuse: /broadcastchannel
+
+- id: geolocation
+  name: Geolocation API
+  mdn: /en-US/docs/Web/API/Geolocation_API
+  caniuse: /geolocation
+  
+- id: file_system_access
+  name: File System Access API
+  mdn: /en-US/docs/Web/API/File_System_Access_API
+  caniuse: /native-filesystem-api
+  
+- id: web_share
+  name: Web Share API
+  mdn: /en-US/docs/Web/API/Web_Share_API
+  caniuse: /web-share
+  
+- id: webxr
+  name: WebXR Device API
+  mdn: /en-US/docs/Web/API/WebXR_Device_API
+  caniuse: /webxr
+  
+  
+# Other Features
+
 - id: pwa
   name: Progressive Web Apps
   mdn: /en-US/docs/Web/Progressive_web_apps
@@ -709,6 +744,8 @@
 - id: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly
+
+# Language
 
 - id: nullish_coalescing
   name: Nullish Coalescing
@@ -747,3 +784,37 @@
 - id: shadow_dom
   name: Shadow DOM
   mdn: /en-US/docs/Web/Web_Components
+
+- id: numeric_separators
+  name: Numeric Separators
+  mdn: /en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+  caniuse: mdn-javascript_grammar_numeric_separators
+
+- id: string_replace_all
+  name: String.prototype.replaceAll()
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
+  caniuse: /mdn-javascript_builtins_string_replaceall
+
+- id: string_match_all
+  name: String.prototype.matchAll()
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
+  caniuse: /mdn-javascript_builtins_string_matchall
+
+- id: logical_assignment
+  name: Logical Assignment
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment
+  caniuse: /mdn-javascript_operators_logical_and_assignment
+
+- id: promise_any
+  name: Promise.any()
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
+  caniuse: /mdn-javascript_builtins_promise_any
+
+- id: array_at
+  name: Array.prototype.at()
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at
+  caniuse: /mdn-javascript_builtins_array_at
+
+- id: top_level_await
+  name: Top Level Await
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/await

@@ -584,15 +584,20 @@
   description: 'Scala.js, the Scala to JavaScript compiler'
   homepage: 'https://www.scala-js.org/'
   
-- id: aurelia
-  name: Aurelia
-  npm: aurelia-framework
-  github: aurelia/framework
-  description: >-
-      The Aurelia 1 framework entry point, bringing together all the required
-      sub-modules of Aurelia.
-  homepage: https://aurelia.io/
-
+- id: rescript
+  name: Scala.js
+  npm: null
+  github: rescript-association/rescript-lang.org
+  description: Fast, Simple, Fully Typed JavaScript from the Future
+  homepage: https://rescript-lang.org/
+  
+- id: imba
+  name: Imba
+  npm: imba
+  github: imba/imba
+  description: The friendly full-stack language
+  homepage: https://imba.io/
+  
 #################################################
 # Front-end Frameworks
 #################################################
@@ -674,11 +679,14 @@
     markup.
 
 - id: litelement
-  name: LitElement
-  npm: lit-element
-  github: Polymer/lit-element
-  description: "A simple base class for creating fast, lightweight web components"
-  homepage: "https://lit-element.polymer-project.org"
+  name: Lit
+  npm: lit
+  github: lit/lit
+  description: >
+    Simple. Fast. Web Components.
+  homepage: "https://lit.dev/"
+  patterns:
+    - lit
 
 - id: stimulus
   name: Stimulus
@@ -776,6 +784,15 @@
   github: knockout/knockout
   description: 'Knockout makes it easier to create rich, responsive UIs with JavaScript'
   homepage: 'http://knockoutjs.com/'
+
+- id: aurelia
+  name: Aurelia
+  npm: aurelia-framework
+  github: aurelia/framework
+  description: >-
+      The Aurelia 1 framework entry point, bringing together all the required
+      sub-modules of Aurelia.
+  homepage: https://aurelia.io/
 
 #################################################
 # Data Layer
@@ -1120,6 +1137,38 @@
       directory of templates (of varying types) into HTML.
   homepage: 'https://www.11ty.dev/'
 
+- id: astro
+  name: Astro
+  npm: astro
+  github: withastro/astro
+  description: >-
+      Build faster websites with less client-side Javascript
+  homepage: https://astro.build/
+
+- id: blitz
+  name: Blitz
+  npm: blitz
+  github: blitz-js/blitz
+  description: >-
+      The Fullstack React Framework
+  homepage: https://blitzjs.com/
+
+- id: remix
+  name: Remix
+  npm: create-remix
+  github: remix-run/remix
+  description: >-
+      Build Better Websites. Create modern, resilient user experiences with web fundamentals.
+  homepage: https://remix.run/
+
+- id: sveltekit
+  name: SvelteKit
+  npm: "@sveltejs/kit"
+  github: sveltejs/kit
+  description: >-
+      The fastest way to build Svelte apps
+  homepage: https://kit.svelte.dev/
+
 #################################################
 # Testing
 #################################################
@@ -1296,6 +1345,13 @@
   github: angular/protractor
   description: E2E test framework for Angular apps
   homepage: 'http://www.protractortest.org'
+
+- id: vitest
+  name: Vitest
+  npm: vitest
+  github: vitest-dev/vitest
+  description: A blazing fast unit-test framework powered by Vite
+  homepage: https://vitest.dev/
 
 #################################################
 # Animation & Graphics
@@ -1514,6 +1570,52 @@
       the browser
   homepage: 'https://broccoli.build'
 
+- id: wmr
+  name: WMR
+  npm: wmr
+  github: preactjs/wmr
+  description: >-
+      Modern web app development without the wait.
+  homepage: https://wmr.dev/
+
+- id: turborepo
+  name: Turborepo
+  npm: create-turbo
+  github: vercel/turborepo
+  description: >-
+      Turborepo is a high-performance build system for JavaScript and TypeScript codebases.
+  homepage: https://turborepo.org/
+
+#################################################
+# Monorepo Tools
+#################################################
+
+- id: pnpm
+  name: pnpm
+  npm: pnpm
+  github: pnpm/pnpm
+  description: 'Fast, disk space efficient package manager'
+  homepage: 'https://pnpm.js.org'
+
+- id: yarn_workspaces
+  name: Yarn Workspaces
+  description: >-
+      Yarn workspaces aim to make working with monorepos easy
+  hompepage: https://yarnpkg.com/features/workspaces/
+
+- id: npm_workspaces
+  name: npm Workspaces
+  description: >-
+      Manage multiple packages from your local file system from within a singular top-level, root package.
+  hompepage: https://docs.npmjs.com/cli/v8/using-npm/workspaces
+
+- id: yalc
+  name: Yalc
+  description: >-
+    Work with yarn/npm packages locally like a boss.
+  github: wclr/yalc
+  homepage: https://github.com/wclr/yalc
+
 #################################################
 # Mobile
 #################################################
@@ -1637,6 +1739,13 @@
   description: Full featured HTML framework for building iOS & Android apps
   homepage: 'http://framework7.io'
 
+- id: tauri
+  name: Tauri
+  npm: tauri
+  github: tauri-apps/tauri
+  description: Build smaller, faster, and more secure desktop applications with a web frontend
+  homepage: https://tauri.studio/
+
 #################################################
 # Runtimes
 #################################################
@@ -1655,6 +1764,9 @@
   name: JSC
   homepage: https://mbbill.github.io/JSC.js/
   
+- id: serverless_workers
+  name: Serverless Workers
+
 #################################################
 # Other Tools
 #################################################
@@ -1784,17 +1896,14 @@
   description: "Fast, reliable, and secure dependency management."
   homepage: "https://classic.yarnpkg.com"
 
-- id: node
-  name: Node.js
-  homepage: https://nodejs.org/en/
-
-# TODO: avoid duplicate
 - id: nodejs
   name: Node.js
   npm: null
   github: nodejs/node
   description: Node.js JavaScript runtime
   homepage: 'https://nodejs.org/'
+  patterns:
+    - node
 
 - id: chakracore
   name: ChakraCore
@@ -1807,13 +1916,6 @@
   github: facebook/hermes
   description: ' A small and lightweight JavaScript engine optimized for running React Native on Android'
   homepage: 'https://hermesengine.dev'
-
-- id: pnpm
-  name: pnpm
-  npm: pnpm
-  github: pnpm/pnpm
-  description: 'Fast, disk space efficient package manager'
-  homepage: 'https://pnpm.js.org'
 
 - id: create_react_app
   name: Create React App
@@ -1983,3 +2085,16 @@
   github: vuejs/vue-cli
   description: Standard Tooling for Vue.js Development
   homepage: 'https://cli.vuejs.org/'
+
+- id: zx
+  name: zx
+  npm: zx
+  github: google/zx
+  description: A tool for writing better scripts
+  homepage: https://github.com/google/zx
+
+- id: volta
+  name: Volta
+  github: volta-cli/volta
+  description: The Hassle-Free JavaScript Tool Manager
+  homepage: https://volta.sh/
