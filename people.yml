@@ -1176,23 +1176,23 @@
   tags: 
     - css
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: shawn_wang
+  name: Shawn Wang
+  twitterName: swyx
+  homepage: https://www.swyx.io/
+  blog: https://www.swyx.io/ideas/
+  rss: https://www.swyx.io/rss.xml
+  tags: 
+    - js
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: mark_erikson
+  name: Mark Erikson
+  twitterName: acemarke
+  homepage: https://blog.isquaredsoftware.com/
+  blog: https://blog.isquaredsoftware.com/
+  rss: https://blog.isquaredsoftware.com/index.xml
+  tags: 
+    - js
 
 # - id: 
 #   name: 
