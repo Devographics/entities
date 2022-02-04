@@ -8,9 +8,14 @@
 
 - id: autism
   name: Autism
+  patterns:
+    - asd
+    - autistic
 
 - id: aspergers
   name: Aspergers
+  patterns:
+    - asperger
 
 - id: glasses
   name: Glasses
@@ -26,3 +31,23 @@
   
 - id: epilepsy
   name: Epilepsy
+
+- id: color_blindness
+  name: Color Blindness
+  patterns: 
+    - color( )?blind
+    - colour( )?blind
+
+- id: carpal_tunnel
+  name: Carpal Tunnel
+  patterns: 
+    - carpal
+
+- id: diabetes
+  name: Diabetes
+  
+- id: anxiety
+  name: Anxiety
+  
+- id: dyslexia
+  name: Dyslexia

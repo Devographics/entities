@@ -1,5 +1,7 @@
 - id: csharp
   name: 'C#'
+  patterns:
+    - c\#
 - id: c_cplusplus
   name: C/C++
   patterns:
@@ -70,3 +72,37 @@
   name: Julia
 - id: groovy
   name: Groovy
+- id: solidity
+  name: Solidity
+- id: flutter
+  name: Flutter
+- id: r
+  name: R
+  exact: true
+- id: typescript
+  name: TypeScript
+- id: typescript
+  name: TypeScript
+- id: gdscript
+  name: GDScript
+- id: purescript
+  name: PureScript
+- id: crystal
+  name: Crystal
+- id: zig
+  name: Zig
+- id: powershell
+  name: Powershell
+- id: coldfusion
+  name: ColdFusion
+- id: smalltalk
+  name: SmallTalk
+- id: abap
+  name: ABAP
+- id: delphi
+  name: Delphi
+- id: vb
+  name: VB
+- id: nim
+  name: Nim
+  

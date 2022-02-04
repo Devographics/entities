@@ -1,8 +1,103 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
+
+- id: stateofjs
+  name: State of JS
+  homepage: https://stateofjs.com
+  patterns:
+    - state( |-)?of( |-)?js
+    - state( |-)?of( |-)?javascript
+    - newsletter
+    # match "previous years, etc."
+    - year 
+    - previous
+    - past
+
 - id: work
   name: Work
   patterns:
     - co( |-)workers
     - coll?ea?gu?a?es?
     - company
+
+- id: duckduckgo
+  name: DuckDuckGo
+  homepage: https://duckduckgo.com/
+
+- id: word_of_mouth
+  name: Word Of Mouth
+  patterns:
+    - friend
+    - family
+
+- id: vk
+  name: VK
+  patterns:
+    - away.vk.com
+
+- id: discord
+  name: Discord
+
+- id: svelte_community
+  name: Svelte Community
+  patterns:
+    - svelte
+
+- id: astro_community
+  name: Astro Community
+  patterns:
+    - astro
+
+- id: reactiflux
+  name: Reactiflux
+  homepage: https://www.reactiflux.com/
+
+- id: ionic_community
+  name: Ionic Community
+  homepage: https://ionicframework.com/subscribe
+  patterns:
+    - ionic
+
+- id: capacitor_community
+  name: Capacitor Community
+  homepage: https://capacitorjs.com/
+  patterns:
+    - capacitor
+
+- id: elm_community
+  name: Elm Community
+  homepage: https://discourse.elm-lang.org/
+  patterns:
+    - elm
+
+- id: meteor_community
+  name: Meteor Community
+  homepage: https://forums.meteor.com/
+  patterns:
+    - meteor
+
+- id: angular_community
+  name: Angular Community
+  homepage: https://angular.io/
+  patterns:
+    - angular
+
+- id: vue_community
+  name: Vue Community
+  homepage: https://vuejs.org/
+  patterns:
+    - vue
+
+- id: remix_community
+  name: Remix Community
+  homepage: https://remix.run
+  patterns:
+    - remix
+
+- id: bing
+  name: Bing
+  homepage: https://www.bing.com
+
+- id: baidu
+  name: Baidu
+  homepage: https://www.baidu.com/

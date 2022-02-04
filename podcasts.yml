@@ -231,3 +231,44 @@
 - id: web_rush
   name: Web Rush
   homepage: https://webrush.io/
+
+- id: learn_with_jason
+  name: Learn With Jason
+  homepage: https://www.learnwithjason.dev/
+
+- id: hipsters_tech
+  name: Hipsters Ponto Tech
+  homepage: https://hipsters.tech/
+  patterns:
+    - hipster
+    - hispter
+
+- id: no_plans_to_merge
+  name: No Plans To Merge
+  homepage: https://noplanstomerge.simplecast.com/
+
+- id: hTML_all_the_things 
+  name: HTML All The Things 
+  homepage: https://www.htmlallthethings.com/
+
+- id: devtalles
+  name: DevTalles
+  homepage: https://anchor.fm/fernando-her85
+
+- id: podlodka
+  name: Podlodka
+  homepage: https://podlodka.io/
+
+- id: programmier_bar
+  name: Programmier.bar
+  homepage: https://www.programmier.bar/
+  language: de-DE
+  patterns:
+    - programmier
+
+- id: mozaic_fm
+  name: Mozaic.fm
+  homepage: https://mozaic.fm/
+  patterns:
+    - mozaic
+  language: ja-JP

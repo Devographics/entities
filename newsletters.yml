@@ -94,3 +94,7 @@
 - id: a11y_weekly
   name: A11y Weekly
   homepage: https://a11yweekly.com/
+
+- id: bytes
+  name: Bytes
+  homepage: https://bytes.dev/

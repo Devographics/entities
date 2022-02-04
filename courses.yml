@@ -131,3 +131,39 @@
 - id: odin_project
   name: The Odin Project
   homepage: https://www.theodinproject.com/
+
+- id: academind
+  name: Academind
+  homepage: https://academind.com/
+
+- id: zero_to_mastery
+  name: Zero To Mastery
+  homepage: https://zerotomastery.io/
+  patterns:
+    - ztm
+
+- id: codehs
+  name: CodeHS
+  homepage: https://codehs.com/
+
+- id: educative
+  name: Educative
+  homepage: https://www.educative.io/
+
+- id: codely
+  name: Codely
+  homepage: https://codely.io/
+
+- id: net_ninja
+  name: Net Ninja
+  homepage: https://netninja.dev/
+
+- id: openclassrooms
+  name: Openclassrooms
+  homepage: https://openclassrooms.com/
+  patterns:
+    - openclassroom
+
+- id: ionic_academy
+  name: Ionic Academy
+  homepage: https://ionicacademy.com/

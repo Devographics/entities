@@ -166,7 +166,7 @@
     - css
     - js
   patterns:
-    - josh ?w?( |.)?com(m)?eau
+    - josh ?w?( |.|. )?com(m)?eau
 
 - id: rachel_andrew
   twitterName: rachelandrew
@@ -208,13 +208,13 @@
   twitterName: walterstephanie
   name: Stéphanie Walter
   homepage: https://stephaniewalter.design/
-  patterns: 
-    - stefanie walter             
-    - stéphanie walter             
+  patterns:
+    - stefanie walter
+    - stéphanie walter
   tags:
     - css
 
-- id: tania_rasca
+- id: tania_rascia
   name: Tania Rascia
   homepage: https://www.taniarascia.com/
   tags:
@@ -252,7 +252,7 @@
   homepage: https://css-tricks.com
   tags:
     - css
-  patterns: 
+  patterns:
     - Chris Coier
     - Chris Coiyer
     - Chris Coyer
@@ -384,6 +384,9 @@
   twitterName: bramus
   name: Bramus Van Damme
   homepage: https://www.bram.us/
+  patterns:
+    - bram.us
+    - bramus
   tags:
     - css
 
@@ -481,121 +484,121 @@
   twitterName: notwaldorf
   homepage:
   blog:
-  rss: 
-  tags: 
+  rss:
+  tags:
     - css
 
 - id: lynn_fisher
   name: Lynn Fisher
   twitterName: lynnandtonic
   homepage: https://lynnandtonic.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: cassie_evans
   name: Cassie Evans
   twitterName: cassiecodes
   homepage: https://www.cassie.codes/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: mandy_michael
   name: Mandy Michael
   twitterName: Mandy_Kerr
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: charlie_gerard
   name: Charlie Gerard
   twitterName: devdevcharlie
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: cassidy_williams
   name: Cassidy Williams
   twitterName: cassidoo
   homepage: https://cassidoo.co/
-  blog: 
-  rss: 
+  blog:
+  rss:
   patterns:
     - cassido
-  tags: 
+  tags:
     - css
 
 - id: jake_archibald
   name: Jake Archibald
   twitterName: jaffathecake
   homepage: https://jakearchibald.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: andy_clarke
   name: Andy Clarke
   twitterName: malarkey
   homepage: https://stuffandnonsense.co.uk/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: viljami_salminen
   name: Viljami Salminen
   twitterName: viljamis
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: manuel_matuzovic
   name: Manuel Matuzović
   twitterName: mmatuzo
   homepage: https://www.matuzo.at/
-  blog: 
-  rss: 
+  blog:
+  rss:
   patterns:
     - htm_hell
     - html hell
-  tags: 
+  tags:
     - css
 
 - id: scott_de_jonge
   name: Scott De Jonge
   twitterName: scottdejonge
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: max_bock
   name: Max Böck
   twitterName: mxbck
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: sarah_higley
   name: Sarah Higley
   twitterName: codingchaos
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
     - accessibility
 
@@ -603,18 +606,18 @@
   name: Zach Leatherman
   twitterName: zachleat
   homepage: https://www.zachleat.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: mark_dalgeish
   name: Mark Dalgleish
   twitterName: markdalgleish
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
     - js
 
@@ -622,27 +625,27 @@
   name: Jeffrey Zeldman
   twitterName: zeldman
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: diana_smith
   name: Diana Smith
   twitterName: cyanharlow
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: brad_westfall
   name: Brad Westfall
   twitterName: bradwestfall
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
     - javascript
 
@@ -650,99 +653,101 @@
   name: Alex Trost
   twitterName: trostcodes
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: anthony_fu
   name: Anthony Fu
   twitterName: antfu7
-  homepage:
-  blog: 
-  rss: 
-  tags: 
+  homepage: https://antfu.me/
+  blog:
+  rss:
+  patterns:
+    - antfu
+  tags:
     - css
 
 - id: george_francis
   name: George Francis
   twitterName: georgedoescode
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: rich_harris
   name: Rich Harris
   twitterName: Rich_Harris
   homepage: https://twitter.com/Rich_Harris
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: addy_osmani
   name: Addy Osmani
   twitterName: addyosmani
   homepage: https://addyosmani.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: adam_kuhn
   name: Adam Kuhn
   twitterName: cobra_winfrey
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: jeremy_wagner
   name: Jeremy Wagner
   twitterName: malchata
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: zell_liew
   name: Zell Liew
   twitterName: zellwk
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: sia_karamalegos
   name: Sia Karamalegos
   twitterName: TheGreenGreek
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: sarah_dayan
   name: Sarah Dayan
   twitterName: frontstuff_io
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: evan_you
   name: Evan You
   twitterName: youyuxi
   homepage: https://evanyou.me/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - javascript
     - vue
 
@@ -750,27 +755,27 @@
   name: Paul Irish
   twitterName: paul_irish
   homepage: https://www.paulirish.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: surma
   name: Surma
   twitterName: dassurma
   homepage: https://surma.dev/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: lee_robinson
   name: Lee Robinson
   twitterName: leeerob
-  homepage:
-  blog: 
-  rss: 
-  tags: 
+  homepage: https://leerob.io/
+  blog:
+  rss:
+  tags:
     - css
     - javascript
 
@@ -778,121 +783,123 @@
   name: Paul Boag
   twitterName: boagworld
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: anna_debenham
   name: Anna Debenham
   twitterName: anna_debenham
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: robin_rendle
   name: Robin Rendle
   twitterName: robinrendle
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: douglas_bowman
   name: Douglas Bowman
   twitterName: stop
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: dave_shea
   name: Dave Shea
   twitterName: mezzoblue
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: khoi_vinh
   name: Khoi Vinh
   twitterName: khoi
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: scott_jehl
   name: Scott Jehl
   twitterName: scottjehl
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: pedro_duarte
   name: Pedro Duarte
   twitterName: peduarte
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
-- id: miguel_angel_duran 
+- id: miguel_angel_duran
   name: Miguel Ángel Durán
   twitterName: midudev
   homepage: https://midu.dev/
-  blog: 
-  rss: 
+  blog:
+  rss:
   youtube: https://www.youtube.com/c/midudev
-  tags: 
+  tags:
     - css
   patterns:
     - midudev
+    - midu
+    - Miguel Ángel Durán
 
 - id: jason_lengstorf
   name: Jason Lengstorf
   twitterName: jlengstorf
   homepage: https://www.lengstorf.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: matt_perry
   name: Matt Perry
   twitterName: mattgperry
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: dan_abramov
   name: Dan Abramov
   twitterName: dan_abramov
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - js
     - react
 
 - id: tim_neutkens
-  name: Tim Neutkens 
+  name: Tim Neutkens
   twitterName: timneutkens
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - javascript
     - nextjs
 
@@ -900,9 +907,9 @@
   name: Ryan Dahl
   twitterName:
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - js
     - node
 
@@ -910,40 +917,40 @@
   name: Mattias Petter Johansson
   twitterName: mpjme
   homepage:
-  blog: 
-  rss: 
+  blog:
+  rss:
   patterns:
     - mpg
-  tags: 
+  tags:
     - css
 
 - id: kyle_simpson
   name: Kyle Simpson
   twitterName: getify
-  homepage:
-  blog: 
-  rss: 
-  tags: 
+  homepage: https://me.getify.com/
+  blog:
+  rss:
+  tags:
     - javascript
 
 - id: ben_awad
   name: Ben Awad
   twitterName: benawad
-  homepage:
-  blog: 
-  rss: 
-  tags: 
+  homepage: https://voidpet.com/benawad
+  blog:
+  rss:
+  tags:
     - css
 
 - id: vadim_makeev
   name: Vadim Makeev
   twitterName: pepelsbey_
   homepage: https://pepelsbey.net/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
-  patterns: 
+  patterns:
     - Вадим Макеев
     - makeev
     - pepelsbey
@@ -952,18 +959,18 @@
   name: Julia Evans
   twitterName: b0rk
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: jonathan_mircha
   name: Jonathan MirCha
   twitterName: jonmircha
   homepage: https://jonmircha.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
   patterns:
     - jonmircha
@@ -974,76 +981,76 @@
   name: Brad Traversy
   twitterName: traversymedia
   homepage: https://www.traversymedia.com/
-  blog: 
-  rss: 
+  blog:
+  rss:
   patterns:
     - Traversy
-  tags: 
+  tags:
     - css
 
 - id: tab_atkins
   name: Tab Atkins
   twitterName: tabatkins
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: nicole_sullivan
   name: Nicole Sullivan
   twitterName: stubbornella
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: emma_bostian
   name: Emma Bostian
   twitterName: EmmaBostian
   homepage: https://www.compiled.blog/
-  blog: 
-  rss: 
-  related: 
+  blog:
+  rss:
+  related:
     - ladybug
-  tags: 
+  tags:
     - css
 
 - id: elad_shechter
   name: Elad Shechter
   twitterName: eladsc
   homepage: https://eladsc.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: ali_spittel
   name: Ali Spittel
   twitterName: ASpittel
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: mina_markham
   name: Mina Markham
   twitterName: MinaMarkham
   homepage: http://mina.codes/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: jens_oliver_meiert
   name: Jens Oliver Meiert
   twitterName: j9t
   homepage: https://meiert.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
     - accessibility
 
@@ -1051,21 +1058,21 @@
   name: Scott Tolinski
   twitterName: stolinski
   homepage: https://leveluptutorials.com/
-  blog: 
-  rss: 
-  related: 
+  blog:
+  rss:
+  related:
     - syntax
   tags:
-    - javascript 
+    - javascript
     - css
 
 - id: marcy_sutton
   name: Marcy Sutton
   twitterName: marcysutton
   homepage: https://marcysutton.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - accessibility
     - css
 
@@ -1073,75 +1080,74 @@
   name: Mark Otto
   twitterName: mdo
   homepage:
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
-
 
 - id: jonas_schmedtman
   name: Jonas Schmedtmann
   twitterName: jonasschmedtman
   homepage: https://codingheroes.io/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: sacha_greif
   name: Sacha Greif
-  twitterName:  SachaGreif
+  twitterName: SachaGreif
   homepage: https://sachagreif.com
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: colm_tuite
   name: Colm Tuite
   twitterName: colmtuite
   homepage: https://www.colmtuite.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: martin_michalek
   name: Martin Michálek
   twitterName: machal
   homepage: https://www.vzhurudolu.cz/
-  blog: 
-  rss: 
+  blog:
+  rss:
   patterns:
     - Michálek
-  tags: 
+  tags:
     - css
 
 - id: filipe_deschamps
   name: Filipe Deschamps
   twitterName: filipedeschamps
   homepage: https://filipedeschamps.com.br/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
 
 - id: chris_ferdinandi
   name: Chris Ferdinandi
   twitterName: ChrisFerdinandi
   homepage: https://gomakethings.com/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - javascript
 
 - id: raphael_benitte
   name: Raphaël Benitte
   twitterName: benitteraphael
   homepage: https://nivo.rocks/
-  blog: 
-  rss: 
-  tags: 
+  blog:
+  rss:
+  tags:
     - css
     - js
     - dataviz
@@ -1150,30 +1156,30 @@
   name: Dan Cowell
   twitterName: dfcowell
   homepage:
-  blog: 
+  blog:
   github: dfcowell
-  rss: 
-  tags: 
+  rss:
+  tags:
     - credits
 
 - id: ben_szabo
   name: Ben Szabo
   twitterName: b3nk3
   homepage:
-  blog: 
-  rss: 
+  blog:
+  rss:
   github: b3nk3
-  tags: 
+  tags:
     - credits
 
 - id: alexey_pyltsyn
   name: Alexey Pyltsyn
   twitterName: lex111_
   homepage:
-  blog: 
-  rss: 
+  blog:
+  rss:
   github: lex111
-  tags: 
+  tags:
     - css
 
 - id: shawn_wang
@@ -1182,7 +1188,11 @@
   homepage: https://www.swyx.io/
   blog: https://www.swyx.io/ideas/
   rss: https://www.swyx.io/rss.xml
-  tags: 
+  patterns:
+    - swyx
+    - sywx
+    - swxy
+  tags:
     - js
 
 - id: mark_erikson
@@ -1191,41 +1201,243 @@
   homepage: https://blog.isquaredsoftware.com/
   blog: https://blog.isquaredsoftware.com/
   rss: https://blog.isquaredsoftware.com/index.xml
-  tags: 
+  tags:
     - js
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: david_khourshid
+  name: David Khourshid
+  twitterName: DavidKPiano
+  homepage: https://davidk.dev/
+  tags:
+    - js
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: sindre_sorhus
+  name: Sindre Sorhus
+  twitterName: sindresorhus
+  homepage: https://sindresorhus.com/
+  tags:
+    - js
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: josh_morony
+  name: Josh Morony
+  twitterName: joshuamorony
+  homepage: https://www.joshmorony.com/
+  tags:
+    - js
 
-# - id: 
-#   name: 
+- id: simon_grimm
+  name: Simon Grimm
+  twitterName: schlimmson
+  homepage: https://devdactic.com/
+  tags:
+    - js
+
+- id: maximilian_schwarzmuller
+  name: Maximilian Schwarzmüller
+  twitterName: maxedapps
+  homepage: https://academind.com/courses
+  tags:
+    - js
+
+- id: jeff_delaney
+  name: Jeff Delaney
+  twitterName: jeffdelaney23
+  homepage: https://jeffdelaney.me/
+  tags:
+    - js
+
+- id: victor_savkin
+  name: Victor Savkin
+  twitterName: victorsavkin
+  homepage: https://blog.nrwl.io/
+  blog: https://blog.nrwl.io/
+  tags:
+    - js
+
+- id: james_q_quick
+  name: James Q. Quick
+  twitterName: jamesqquick
+  homepage: https://www.jamesqquick.com/
+  patterns:
+    - james quick
+  tags:
+    - js
+
+- id: martin_fowler
+  name: Martin Fowler
+  twitterName: martinfowler
+  homepage: https://martinfowler.com/
+  tags:
+    - js
+
+- id: scott_hanselman
+  name:  Scott Hanselman
+  twitterName: shanselman
+  homepage: https://www.hanselman.com/
+  tags:
+    - js
+
+- id: ryan_carniato
+  name: Ryan Carniato
+  twitterName: ryancarniato
+  homepage: https://dev.to/ryansolid
+  tags:
+    - js
+
+- id: ben_ilegbodu
+  name: Ben Ilegbodu
+  twitterName: benmvp
+  homepage: https://www.benmvp.com/
+  tags:
+    - js
+
+- id: michael_jackson
+  name: Michael Jackson
+  twitterName: mjackson
+  homepage: https://remix.run/
+  tags:
+    - js
+
+- id: stefan_judis
+  name: Stefan Judis
+  twitterName: stefanjudis
+  homepage: https://www.stefanjudis.com/
+  tags:
+    - js
+
+- id: dillon_kearns
+  name: Dillon Kearns
+  twitterName: dillontkearns
+  homepage: https://incrementalelm.com/
+  tags:
+    - js
+
+- id: evan_czaplicki
+  name: Evan Czaplicki
+  twitterName: evancz
+  tags:
+    - js
+
+- id: jeroen_engels
+  name: Jeroen Engels
+  twitterName: jfmengels
+  homepage: https://jfmengels.net/
+  tags:
+    - js
+
+- id: richard_feldman
+  name: Richard Feldman
+  twitterName: rtfeldman
+  tags:
+    - js
+
+- id: amelia_wattenberger
+  name: Amelia Wattenberger
+  twitterName: Wattenberger
+  homepage: https://wattenberger.com/
+  tags:
+    - js
+
+- id: andrei_neagoie
+  name: Andrei Neagoie
+  twitterName: andreineagoie
+  homepage: https://zerotomastery.io/
+  tags:
+    - js
+
+- id: axel_rauschmayer
+  name: Axel Rauschmayer
+  twitterName: rauschma
+  homepage: https://2ality.com/
+  blog: https://2ality.com/
+  rss:
+  tags:
+    - js
+
+- id: jack_herrington
+  name: Jack Herrington
+  twitterName: jherr
+  homepage: https://www.jackherrington.com/
+  blog:
+  rss:
+  tags:
+    - js
+
+- id: john_papa
+  name: John Papa
+  twitterName: John_Papa
+  homepage: https://johnpapa.net/
+  blog:
+  rss:
+  tags:
+    - js
+
+- id: ben_lesh
+  name: Ben Lesh
+  twitterName: BenLesh
+  homepage: https://benlesh.com/
+  blog:
+  rss:
+  tags:
+    - js
+
+- id: illya_klymov
+  name: Illya Klymov
+  twitterName: xanf_ua
+  homepage: https://javascript.ninja/
+  blog:
+  rss:
+  patterns:
+    - Ilya Klimov
+    - Illya Klimov
+    - Ilya Klymov
+  tags:
+    - js
+
+- id: douglas_crockford
+  name: Douglas Crockford
+  homepage: https://www.crockford.com/
+  blog:
+  rss:
+  tags:
+    - js
+
+- id: paul_henschel
+  name: Paul Henschel
+  twitterName: 0xca0a
+  tags:
+    - js
+
+- id: tanner_linsley
+  name: tanner_linsley
+  twitterName: tannerlinsley
+  homepage: https://tanstack.com/
+  tags:
+    - js
+
+# - id:
+#   name:
 #   twitterName:
 #   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js

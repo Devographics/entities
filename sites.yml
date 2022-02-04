@@ -289,3 +289,43 @@
 - id: twitch
   name: Twitch
   homepage: https://twitch.tv
+
+- id: logrocket
+  name: LogRocket
+  homepage: https://blog.logrocket.com/
+
+- id: doka
+  name: Doka
+  homepage: https://doka.guide/
+
+- id: tutorialspoint
+  name: Tutorialspoint
+  homepage: https://www.tutorialspoint.com/
+
+- id: ui_dev
+  name: ui.dev
+  homepage: https://ui.dev/
+
+- id: hexlet
+  name: Hexlet
+  homepage: https://en.hexlet.io/
+
+- id: morioh
+  name: Morioh
+  homepage: https://morioh.com
+
+- id: javascript_ninja
+  name: JavaScript.ninja
+  homepage: https://javascript.ninja/
+
+- id: pointer
+  name: Pointer
+  homepage: http://www.pointer.io/
+
+- id: jser
+  name: JSer.info
+  homepage: https://jser.info/
+
+- id: heise
+  name: Heise Online
+  homepage: https://www.heise.de/
