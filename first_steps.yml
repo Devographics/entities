@@ -37,6 +37,7 @@
     
 - id: w3schools
   name: W3Schools
+  homepage: https://www.w3schools.com/
   tags: 
     - css_first_steps
     

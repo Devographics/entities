@@ -76,6 +76,7 @@
   name: Solidity
 - id: flutter
   name: Flutter
+  homepage: https://flutter.io/
 - id: r
   name: R
   exact: true

@@ -1,6 +1,5 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
-
 - id: stateofjs
   name: State of JS
   homepage: https://stateofjs.com

@@ -838,8 +838,8 @@
   name: OpenUI5
   homepage: https://openui5.org/
 
-- id: HTMX
-  name: Aurelia
+- id: htmx
+  name: HTMX
   homepage: https://htmx.org/
 
 #################################################
@@ -894,6 +894,7 @@
 
 - id: firebase
   name: Firebase
+  homepage: https://firebase.google.com/
 
 - id: vuex
   name: Vuex
@@ -1221,6 +1222,10 @@
   name: Apollo Server
   homepage: https://www.apollographql.com/docs/apollo-server/
 
+- id: directus
+  name: Directus
+  homepage: https://directus.io/
+  
 #################################################
 # Testing
 #################################################
@@ -1409,6 +1414,12 @@
   name: CodeceptJS
   homepage: https://codecept.io/
 
+- id: uvu
+  name: uvu
+  homepage: https://github.com/lukeed/uvu
+  github: lukeed/uvu
+  npm: uvu
+
 #################################################
 # Animation & Graphics
 #################################################
@@ -1590,7 +1601,7 @@
   homepage: null
 
 - id: tsc
-  name: TypeScript (tsc CLI)
+  name: tsc CLI
   npm: typescript
   github: microsoft/TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output.
@@ -1810,6 +1821,14 @@
   description: Build smaller, faster, and more secure desktop applications with a web frontend
   homepage: https://tauri.studio/
 
+- id: neutralino
+  name: Neutralinojs
+  homepage: https://neutralino.js.org/
+
+- id: nodegui
+  name: NodeGUI
+  homepage: https://docs.nodegui.org/
+
 #################################################
 # Runtimes
 #################################################
@@ -1961,6 +1980,19 @@
   description: Find and fix problems in your JavaScript code.
   homepage: "https://eslint.org"
 
+- id: verdaccio
+  name: Verdaccio
+  npm: verdaccio
+  github: verdaccio/verdaccio
+  description: A lightweight Node.js private proxy registry
+  homepage: https://verdaccio.org/
+
+- id: typescript_eslint
+  name: TypeScript ESLint
+  github: typescript-eslint/typescript-eslint
+  description: Tooling which enables ESLint to support TypeScript
+  homepage: https://typescript-eslint.io/
+
 - id: nvm
   name: nvm
   npm: null
@@ -2065,10 +2097,10 @@
   description: Tiny & elegant HTTP client based on window.fetch
   homepage: https://github.com/sindresorhus/ky
 
-# matches too many patterns!
-# - id: n
-#   name: N
-#   homepage: https://github.com/tj/n
+- id: n
+  name: N
+  homepage: https://github.com/tj/n
+  apiOnly: true # not used for normalization
 
 - id: nx
   name: Nx
