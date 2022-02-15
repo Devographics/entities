@@ -1225,7 +1225,11 @@
 - id: directus
   name: Directus
   homepage: https://directus.io/
-  
+
+- id: keystone
+  name: Keystone
+  homepage: https://keystonejs.com/
+
 #################################################
 # Testing
 #################################################
@@ -1598,7 +1602,7 @@
   npm: esbuild
   github: evanw/esbuild
   description: An extremely fast JavaScript bundler and minifier
-  homepage: null
+  homepage: https://esbuild.github.io/
 
 - id: tsc
   name: tsc CLI
