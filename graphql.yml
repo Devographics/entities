@@ -1,0 +1,141 @@
+# GraphQL Servers
+  
+- id: graphql_js
+  name: GraphQL.js
+  homepage: https://github.com/graphql/graphql-js
+- id: apollo_server
+  name: Apollo Server
+  homepage: https://www.apollographql.com/docs/apollo-server/
+- id: yoga
+  name: Yoga
+  homepage: https://www.graphql-yoga.com/
+- id: helix
+  name: Helix
+  homepage: https://www.graphql-helix.com/
+- id: express_graphql
+  name: Express-GraphQL
+  homepage: https://github.com/graphql/express-graphql
+- id: mercurius
+  name: Mercurius
+  homepage: https://mercurius.dev/
+
+# GraphQL Clients
+
+- id: relay
+  name: Relay
+  homepage: https://relay.dev/
+- id: apollo_client
+  name: Apollo Client
+  homepage: https://www.apollographql.com/docs/react/
+- id: urql
+  name: URQL
+  homepage: https://formidable.com/open-source/urql/
+- id: react_query
+  name: React Query
+  homepage: https://react-query.tanstack.com/
+- id: apollo_ios
+  name: Apollo iOS
+  homepage: https://www.apollographql.com/docs/ios
+- id: swift_graphql
+  name: SwiftGraphQL
+  homepage: https://www.swift-graphql.com/
+- id: apollo_kotlin
+  name: Apollo Kotlin
+  homepage: https://www.apollographql.com/docs/kotlin
+- id: graphql_hooks
+  name: GraphQL Hooks
+  homepage: https://github.com/nearform/graphql-hooks
+- id: graphql_request
+  name: graphql-request
+  homepage: https://github.com/prisma-labs/graphql-request
+- id: fetch
+  name: fetch or equivalent (no GraphQL client)
+  homepage: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+# GraphQL API Generators
+- id: prisma
+  name: Prisma
+  homepage: https://www.prisma.io/graphql
+- id: graphile
+  name: Graphile
+  homepage: https://www.graphile.org/
+- id: hasura
+  name: Hasura
+  homepage: https://hasura.io/
+- id: graphcms
+  name: GraphCMS
+  homepage: https://graphcms.com/
+- id: sanity
+  name: Sanity
+  homepage: https://www.sanity.io/docs/graphql
+- id: wpgraphql
+  name: WPGraphQL
+  homepage: https://www.wpgraphql.com/
+- id: wundergraph
+  name: WunderGraph
+  homepage: https://wundergraph.com/
+- id: fauna
+  name: Fauna
+  homepage: https://fauna.com/graphql
+- id: dgraph
+  name: Dgraph
+  homepage: https://dgraph.io/
+- id: graphql_editor
+  name: GraphQL Editor
+  homepage: https://graphqleditor.com/
+- id: strapi
+  name: Strapi
+  homepage: https://docs.strapi.io/developer-docs/latest/plugins/graphql.html
+- id: appsync
+  name: AWS AppSync
+  homepage: https://aws.amazon.com/appsync/
+- id: contentful
+  name: Contentful
+  homepage: https://www.contentful.com/developers/docs/references/graphql/
+- id: nest
+  name: Nest
+  homepage: https://docs.nestjs.com/graphql/quick-start
+
+# GraphQL Code Generators
+- id: graphql_zeus
+  name: GraphQL Zeus
+  homepage: https://github.com/graphql-editor/graphql-zeus
+- id: genql
+  name: Genql
+  homepage: https://genql.vercel.app/
+- id: graphql_code_generator
+  name: GraphQL Code Generator
+  homepage: https://www.graphql-code-generator.com/
+- id: nexus
+  name: Nexus
+  homepage: https://nexusjs.org/
+  
+# GraphQL IDEs
+
+- id: graphiql
+  name: GraphiQL
+  homepage: https://github.com/graphql/graphiql
+- id: graphql_playground
+  name: GraphQL Playground
+  homepage: https://github.com/graphql/graphql-playground
+- id: apollo_studio
+  name: Apollo Studio
+  homepage: https://studio.apollographql.com/
+- id: altair
+  name: Altair
+  homepage: https://altair.sirmuel.design/
+- id: insomnia
+  name: Insomnia
+  homepage: https://insomnia.rest/
+- id: postman
+  name: Postman
+  homepage: https://www.postman.com/
+- id: graphql_editor
+  name: GraphQL Editor
+  homepage: https://graphqleditor.com/
+
+# Other Tools
+
+- id: graphqurl
+  name: graphqurl
+  homepage: https://github.com/hasura/graphqurl

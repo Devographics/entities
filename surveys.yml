@@ -1,0 +1,15 @@
+- id: stack_overflow_survey
+  name: Stack Overflow Annual Developer Survey
+  homepage: https://insights.stackoverflow.com/survey/
+- id: jetbrains_survey
+  name: JetBrains State of Developer Ecosystem
+  homepage: https://www.jetbrains.com/lp/devecosystem-2021/
+- id: codingame_survey
+  name: CodinGame Developer Survey
+  homepage: https://www.codingame.com/work/codingame-developer-survey-2021/
+- id: uxtools_survey
+  name: Design Tools Survey
+  homepage: https://uxtools.co/survey-2021/
+- id: postman_survey
+  name: Postman State of the API Report
+  homepage: https://www.postman.com/state-of-api/
