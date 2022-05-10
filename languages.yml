@@ -83,8 +83,6 @@
   exact: true
 - id: typescript
   name: TypeScript
-- id: typescript
-  name: TypeScript
 - id: gdscript
   name: GDScript
 - id: purescript
@@ -107,4 +105,6 @@
   name: VB
 - id: nim
   name: Nim
+- id: javascript
+  name: JavaScript
   

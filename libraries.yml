@@ -1230,6 +1230,13 @@
   name: Keystone
   homepage: https://keystonejs.com/
 
+- id: vulcan_js
+  name: Vulcan
+  npm: null
+  github: vulcanjs/vulcan-next
+  description: The full-stack React+GraphQL framework
+  homepage: "https://vulcanjs.org"
+
 #################################################
 # Testing
 #################################################

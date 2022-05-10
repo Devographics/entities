@@ -18,6 +18,9 @@
 - id: mercurius
   name: Mercurius
   homepage: https://mercurius.dev/
+- id: hot_chocolate
+  name: Hot Chocolate
+  homepage: https://chillicream.com/docs/hotchocolate
 
 # GraphQL Clients
 
@@ -109,7 +112,10 @@
 - id: nexus
   name: Nexus
   homepage: https://nexusjs.org/
-  
+- id: typegraphql
+  name: TypeGraphQL
+  homepage: https://typegraphql.com/
+
 # GraphQL IDEs
 
 - id: graphiql
@@ -136,6 +142,27 @@
 
 # Other Tools
 
+- id: envelop
+  name: Envelop
+  homepage: https://www.envelop.dev/
+- id: graphql_mesh
+  name: GraphQL Mesh
+  homepage: https://www.graphql-mesh.com/
+- id: graphql_shield
+  name: GraphQL Shield
+  homepage: https://www.graphql-shield.com/
+- id: dataloader
+  name: Dataloader
+  homepage: https://github.com/graphql/dataloader
+- id: graphql_voyager
+  name: GraphQL Voyager
+  homepage: https://apis.guru/graphql-voyager/
 - id: graphqurl
   name: graphqurl
   homepage: https://github.com/hasura/graphqurl
+- id: graphcdn
+  name: GraphCDN
+  homepage: https://graphcdn.io/
+- id: apollo_client_devtools
+  name: Apollo Client Devtools
+  homepage: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US
