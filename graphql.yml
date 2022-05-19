@@ -21,6 +21,27 @@
 - id: hot_chocolate
   name: Hot Chocolate
   homepage: https://chillicream.com/docs/hotchocolate
+- id: graphql_java
+  name: GraphQL Java
+  homepage: https://www.graphql-java.com/
+- id: dgs
+  name: DGS
+  homepage: https://netflix.github.io/dgs/
+- id: strawberry
+  name: Strawberry
+  homepage: https://strawberry.rocks/
+- id: sangria
+  name: Sangria
+  homepage: https://sangria-graphql.github.io/
+- id: graphql_dotnet
+  name: GraphQL .NET
+  homepage: https://graphql-dotnet.github.io/
+- id: absinthe
+  name: Absinthe
+  homepage: http://absinthe-graphql.org/
+- id: graphql_go
+  name: GraphQL-Go
+  homepage: https://github.com/graph-gophers/graphql-go
 
 # GraphQL Clients
 
@@ -59,9 +80,9 @@
 - id: prisma
   name: Prisma
   homepage: https://www.prisma.io/graphql
-- id: graphile
-  name: Graphile
-  homepage: https://www.graphile.org/
+- id: postgraphile
+  name: PostGraphile
+  homepage: https://github.com/graphile/postgraphile
 - id: hasura
   name: Hasura
   homepage: https://hasura.io/
@@ -98,6 +119,12 @@
 - id: nest
   name: Nest
   homepage: https://docs.nestjs.com/graphql/quick-start
+- id: pothos
+  name: Pothos
+  homepage: https://pothos-graphql.dev/
+- id: datocms
+  name: DatoCMS
+  homepage: https://www.datocms.com/
 
 # GraphQL Code Generators
 - id: graphql_zeus
@@ -115,6 +142,9 @@
 - id: typegraphql
   name: TypeGraphQL
   homepage: https://typegraphql.com/
+- id: gqlgen
+  name: gqlgen
+  homepage: https://gqlgen.com/
 
 # GraphQL IDEs
 
@@ -139,6 +169,9 @@
 - id: graphql_editor
   name: GraphQL Editor
   homepage: https://graphqleditor.com/
+- id: apollo_sandbox
+  name: Apollo Sandbox
+  homepage: https://sandbox.apollo.dev/
 
 # Other Tools
 
@@ -166,3 +199,45 @@
 - id: apollo_client_devtools
   name: Apollo Client Devtools
   homepage: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US
+- id: graphql_hive
+  name: GraphQL Hive
+  homepage: https://graphql-hive.com/
+- id: graphql_inspector
+  name: GraphQL Inspector
+  homepage: https://www.graphql-inspector.com/
+- id: graphql_scalars
+  name: GraphQL Scalars
+  homepage: https://www.graphql-scalars.dev/
+- id: graphql_config
+  name: GraphQL Config
+  homepage: https://www.graphql-config.com/
+- id: graphql_modules
+  name: GraphQL Modules
+  homepage: https://www.graphql-modules.com/
+- id: graphql_modules
+  name: GraphQL Modules
+  homepage: https://www.graphql-modules.com/
+- id: datasources
+  name: Data Sources
+  homepage: https://www.apollographql.com/docs/apollo-server/data/data-sources/
+- id: stepzen
+  name: StepZen
+  homepage: https://stepzen.com/
+- id: mulesoft
+  name: MuleSoft
+  homepage: https://www.mulesoft.com/
+- id: graphene
+  name: Graphene
+  homepage: https://graphene-python.org/
+- id: apollo_federation
+  name: Apollo Federation
+  homepage: https://www.apollographql.com/docs/federation/
+- id: schema_stitching
+  name: Schema Stitching
+  homepage: https://www.apollographql.com/docs/graphql-tools/schema-stitching.html
+- id: hasura_data_federation
+  name: Hasura Data Federation
+  homepage: https://hasura.io/docs/latest/graphql/core/data-federation/index/
+- id: graphql_eslint
+  name: GraphQL ESLint
+  homepage: https://github.com/B2o5T/graphql-eslint

@@ -1064,7 +1064,7 @@
   homepage: "https://www.gatsbyjs.com"
 
 - id: nest
-  name: Nest
+  name: NestJS
   npm: "@nestjs/core"
   github: nestjs/nest
   description: >-
