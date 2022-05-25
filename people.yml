@@ -1417,14 +1417,101 @@
   tags:
     - js
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: benjie_gillam
+  name: Benjie Gillam
+  twitterName: Benjie
+  companyName: graphile
+  homepage: https://www.benjiegillam.com/
+  blog:
+  rss:
+  tags:
+    - graphql
+
+- id: charly_poly
+  name: Charly Poly
+  twitterName: whereischarly
+  companyName: the_guild
+  homepage: https://charlypoly.com/
+  blog:
+  rss:
+  tags:
+    - graphql
+
+- id: praveen_durairaju
+  name: Praveen Durairaju
+  twitterName: praveenweb
+  companyName: hasura
+  homepage:
+  blog:
+  rss:
+  tags:
+    - graphql
+
+
+- id: john_p_vajda
+  name: John P. Vajda
+  twitterName: johnpvajda
+  companyName: apollo
+  homepage: 
+  blog:
+  rss:
+  tags:
+    - graphql
+
+- id: uri_goldshtein
+  name: Uri Goldshtein
+  twitterName: UriGoldshtein
+  companyName: the_guild
+  patterns:
+    - urigo
+  homepage:
+  blog:
+  rss:
+  tags:
+    - graphql
+
+
+- id: laurin_quast
+  name: Laurin Quast
+  twitterName: n1rual
+  companyName: the_guild
+  homepage:
+  blog:
+  rss:
+  tags:
+    - graphql
+
+- id: gavin_ray
+  name: Gavin Ray
+  twitterName: GavinRayDev
+  companyName: hasura
+  homepage:
+  blog:
+  rss:
+  tags:
+    - js
+
+
+- id: phil_prasek
+  name: Phil Prasek
+  twitterName: prasek
+  companyName: apollo
+  homepage:
+  blog:
+  rss:
+  tags:
+    - js
+
+- id: michael_hayes
+  name: Michael Hayes
+  twitterName: yavascript
+  # companyName: airbnb
+  homepage:
+  blog:
+  rss:
+  tags:
+    - js
+
 
 # - id:
 #   name:
@@ -1443,3 +1530,100 @@
 #   rss:
 #   tags:
 #     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+

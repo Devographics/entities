@@ -167,3 +167,7 @@
 - id: ionic_academy
   name: Ionic Academy
   homepage: https://ionicacademy.com/
+
+- id: edx
+  name: edx
+  homepage: https://www.edx.org/

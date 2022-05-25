@@ -217,8 +217,8 @@
 - id: graphql_modules
   name: GraphQL Modules
   homepage: https://www.graphql-modules.com/
-- id: datasources
-  name: Data Sources
+- id: apollo_datasources
+  name: Apollo Data Sources
   homepage: https://www.apollographql.com/docs/apollo-server/data/data-sources/
 - id: stepzen
   name: StepZen
@@ -241,3 +241,15 @@
 - id: graphql_eslint
   name: GraphQL ESLint
   homepage: https://github.com/B2o5T/graphql-eslint
+
+# Other
+
+- id: graphile
+  name: Graphile
+  homepage: https://www.graphile.org/
+- id: the_guild
+  name: The Guild
+  homepage: https://www.the-guild.dev/
+- id: apollo
+  name: Apollo
+  homepage: https://www.apollographql.com/
