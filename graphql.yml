@@ -241,6 +241,9 @@
 - id: graphql_eslint
   name: GraphQL ESLint
   homepage: https://github.com/B2o5T/graphql-eslint
+- id: apollo_workbench
+  name: Apollo Workbench
+  homepage: https://www.apollographql.com/docs/federation/v1/workbench/overview/
 
 # Other
 
