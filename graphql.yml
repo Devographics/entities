@@ -193,8 +193,8 @@
 - id: graphqurl
   name: graphqurl
   homepage: https://github.com/hasura/graphqurl
-- id: graphcdn
-  name: GraphCDN
+- id: stellate
+  name: Stellate (formerly GraphCDN)
   homepage: https://graphcdn.io/
 - id: apollo_client_devtools
   name: Apollo Client Devtools
