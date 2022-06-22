@@ -1,0 +1,7 @@
+
+- id: supabase
+  name: Supabase
+  homepage: https://supabase.com/
+  tags:
+    - graphql
+    - databases

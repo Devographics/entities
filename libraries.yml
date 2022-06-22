@@ -892,9 +892,6 @@
   description: State machines and statecharts for the modern web.
   homepage: "https://xstate.js.org/docs"
 
-- id: firebase
-  name: Firebase
-  homepage: https://firebase.google.com/
 
 - id: vuex
   name: Vuex

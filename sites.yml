@@ -1,3 +1,16 @@
+
+- id: google
+  name: Google
+  homepage: https://google.com
+
+- id: github
+  name: GitHub
+  homepage: https://github.com
+
+- id: youtube
+  name: YouTube
+  homepage: https://youtube.com
+
 - id: css_tricks
   name: CSS-Tricks
   homepage: https://css-tricks.com/

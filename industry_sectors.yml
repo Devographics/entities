@@ -1,8 +1,10 @@
-- id: foo
-  name: bar
+- id: science
+  name: Science
   
-# - id: human_resources
-#   name: Human Resources
+- id: human_resources
+  name: Human Resources
+  patterns:
+    - HR
 
 # - id: security
 #   name: Security

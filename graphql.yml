@@ -75,6 +75,9 @@
 - id: fetch
   name: fetch or equivalent (no GraphQL client)
   homepage: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+- id: gquery
+  name: gQuery
+  homepage: https://gquery.leveluptutorials.com/
 
 # GraphQL API Generators
 - id: prisma
@@ -142,6 +145,8 @@
 - id: typegraphql
   name: TypeGraphQL
   homepage: https://typegraphql.com/
+  patterns:
+    - typegraph
 - id: gqlgen
   name: gqlgen
   homepage: https://gqlgen.com/
@@ -172,6 +177,12 @@
 - id: apollo_sandbox
   name: Apollo Sandbox
   homepage: https://sandbox.apollo.dev/
+- id: hoppscotch
+  name: Hoppscotch
+  homepage: https://hoppscotch.io/
+- id: paw
+  name: Paw
+  homepage: https://paw.cloud/
 
 # Other Tools
 
@@ -245,6 +256,44 @@
   name: Apollo Workbench
   homepage: https://www.apollographql.com/docs/federation/v1/workbench/overview/
 
+# Sites
+- id: how_to_graphql
+  name: How To GraphQL
+  homepage: https://www.howtographql.com/
+  tags: 
+    - sites
+    - courses
+
+- id: one_week_graphql
+  name: One Week GraphQL
+  homepage: https://oneweekgraphql.com/
+  tags: 
+    - sites
+    - courses
+
+- id: graphql_wtf
+  name: GraphQL.wtf
+  homepage: https://graphql.wtf/
+  tags: 
+    - sites
+    - courses
+    - youtube
+
+- id: graphql_org
+  name: GraphQL.org
+  homepage: https://graphql.org/
+  tags: 
+    - sites
+  patterns:
+    - official graphql
+
+- id: production_ready_graphql
+  name: Production Ready GraphQL
+  homepage: https://book.productionreadygraphql.com/
+  tags: 
+    - sites
+    - books
+
 # Other
 
 - id: graphile
@@ -256,3 +305,10 @@
 - id: apollo
   name: Apollo
   homepage: https://www.apollographql.com/
+- id: cli
+  name: CLI
+- id: server_to_server
+  name: Server to Server
+  patterns: 
+    - s2s
+    - server 2 server

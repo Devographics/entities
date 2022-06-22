@@ -1513,52 +1513,60 @@
     - js
 
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: lee_byron
+  name: Lee Byron
+  twitterName: leeb
+  homepage: https://leebyron.com/
+  blog:
+  rss:
+  tags:
+    - js
+    - graphql
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
-
-
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
-
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: marc_andre_giroux
+  name: Marc-André Giroux
+  twitterName: __xuorig__
+  homepage: https://productionreadygraphql.com/
+  blog:
+  rss:
+  patterns:
+    - Marc-André Giroux
+    - giroux
+  tags:
+    - js
+    - graphql
 
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: mandi_wise
+  name: Mandi Wise
+  twitterName: mandiwise
+  homepage: https://dev.to/mandiwise
+  blog:
+  rss:
+  tags:
+    - js
+    - graphql
+
+- id: max_stoiber
+  name: Max Stoiber
+  twitterName: mxstbr
+  homepage: https://mxstbr.com/
+  blog:
+  rss:
+  tags:
+    - js
+    - css
+    - graphql
+
+
+- id: jamie_barton
+  name: Jamie Barton
+  twitterName: notrab
+  homepage: https://graphql.wtf/
+  blog:
+  rss:
+  tags:
+    - graphql
 
 # - id:
 #   name:

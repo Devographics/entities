@@ -57,6 +57,7 @@
   homepage: https://syntax.fm/
   patterns:
     - syntax
+    - syntax.fm
 
 - id: css_podcast
   name: The CSS Podcast
@@ -272,3 +273,15 @@
   patterns:
     - mozaic
   language: ja-JP
+
+- id: graphql_radio
+  name: GraphQL Radio
+  homepage: https://graphqlradio.com/
+  tags:
+    - graphql
+
+- id: graphql_fm
+  name: GraphQL.fm
+  homepage: https://www.twitch.tv/graphqlfm
+  tags:
+    - graphql
