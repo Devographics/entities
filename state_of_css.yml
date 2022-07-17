@@ -307,20 +307,6 @@
   tags: 
     - browser_interoperability
 
-- id: scroll_behavior
-  name: scroll-behavior
-  patterns:
-    - scroll(-| )?behavio(u)?r
-  tags: 
-    - browser_interoperability
-
-- id: scroll_behavior
-  name: scroll-behavior
-  patterns:
-    - scroll(-| )?behavio(u)?r
-  tags: 
-    - browser_interoperability
-
 - id: overflow
   name: overflow
   tags: 

@@ -3,6 +3,12 @@
 - id: survey_devographics_com
   name: N/A
 
+- id: twitter
+  name: Twitter
+  homepage: https://www.twitter.com/
+  patterns:
+    - t.co
+
 - id: stateofjs
   name: State of JS
   homepage: https://stateofjs.com
@@ -103,3 +109,29 @@
 - id: baidu
   name: Baidu
   homepage: https://www.baidu.com/
+
+- id: reddit_graphql
+  name: r/graphql
+  homepage: https://www.reddit.com/r/graphql/
+  tags: 
+    - graphql
+
+- id: apollo
+  name: Apollo
+  homepage: https://www.apollographql.com/
+  tags: 
+    - graphql
+
+- id: graphile_discord
+  name: Graphile Discord
+  homepage: https://www.graphile.org/
+  patterns:
+    - graphile
+  tags: 
+    - graphql
+
+- id: prisma_slack
+  name: Prisma Slack
+  homepage: https://www.prisma.io/
+  tags: 
+    - graphql

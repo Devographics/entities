@@ -131,6 +131,20 @@
       - css
       - css_layout
 
+- id: object_view_box
+  name: object-view-box
+  tags: 
+      - css
+      - css_layout
+
+- id: viewport_percentage_length_units
+  name: Viewport-percentage Length Units
+  mdn: /en-US/docs/Web/CSS/length#relative_length_units_based_on_viewport
+  caniuse: mdn-css_types_length_viewport_percentage_units_small
+  tags: 
+      - css
+      - css_layout
+
 #################################################
 # CSS shapes & graphics
 #################################################
@@ -215,13 +229,18 @@
       - css
       - css_shapes_and_graphics
 
+
+#################################################
+# Colors
+#################################################
+
 - id: color_function
   name: color()
   mdn: /en-US/docs/Web/CSS/color_value/color()
   caniuse: css-color-function
   tags:
       - css
-      - css_shapes_and_graphics
+      - css_colors
 
 - id: accent_color
   name: accent-color
@@ -237,7 +256,61 @@
   caniuse: mdn-css_types_color_color-contrast
   tags:
       - css
-      - css_shapes_and_graphics
+      - css_colors
+
+- id: currentcolor
+  name: currentcolor
+  mdn: /en-US/docs/Web/CSS/color_value#currentcolor_keyword
+  exampleLanguage: html
+  example: >
+    <div style="color: blue; border: 1px dashed currentcolor;">
+      Blue text and blue border.
+      <div style="background: currentcolor;">
+        Blue background.
+      </div>
+    </div>
+  caniuse: currentcolor
+  tags:
+      - css
+      - css_colors
+
+- id: color_mix
+  name: color-mix()
+  mdn: /en-US/docs/Web/CSS/color_value/color-mix
+  exampleLanguage: css
+  example: >
+    color-mix(in lch, peru 40%, lightgoldenrod);
+    color-mix(in srgb, #34c9eb 20%, white);
+  caniuse: mdn-css_types_color_color-mix
+  tags:
+      - css
+      - css_colors
+
+- id: wide_gamut_colors
+  name: Wide Gamut Colors (lab & lch)
+  mdn: /en-US/docs/Web/CSS/color_value/lch
+  caniuse: css-lch-lab
+  exampleLanguage: css
+  example: >
+    background-color: lab(29.2345% 39.3825 20.0664);
+    background-color: lch(29.2345% 44.2 27);
+  tags:
+      - css
+      - css_colors
+
+- id: relative_colors
+  name: Relative Colors
+  w3c: TR/css-color-5/#relative-colors
+  exampleLanguage: css
+  example: >
+    .something {
+      --color: #4488dd;
+      /* transform a color value into `rgb` */
+      background-color: rgb(from var(--color) r g b / .5);
+    }
+  tags:
+      - css
+      - css_colors
 
 #################################################
 # CSS interactions
@@ -290,9 +363,36 @@
       - css
       - css_interactions
 
+- id: scroll_behavior
+  name: scroll-behavior
+  mdn: en-US/docs/Web/CSS/scroll-behavior
+  caniuse: css-scroll-behavior
+  exampleLanguage: css
+  example: >
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+  patterns:
+    - scroll(-| )?behavio(u)?r
+  tags:
+      - css
+      - css_interactions
+      - browser_interoperability
+
+- id: scroll_padding
+  name: scroll-padding
+  mdn: en-US/docs/Web/CSS/scroll-padding
+  caniuse: mdn-css_properties_scroll-padding
+  exampleLanguage: css
+  example: >
+    scroll-padding: 20px;
+  tags:
+      - css
+      - css_interactions
+
 #################################################
 # CSS typography
 #################################################
+
 - id: web_fonts
   name: |
       @font-face
@@ -379,6 +479,26 @@
       - css
       - css_typography
 
+- id: font_palette
+  name: font-palette
+  caniuse: css-font-palette
+  w3c: /TR/css-fonts-4/#propdef-font-palette
+  exampleLanguage: css
+  example: >
+    @font-palette-values --PinkAndGray {
+      font-family: bungee;
+      override-colors:
+        0 #c1cbed,
+        1 #ff3a92;
+    }
+    .grays {
+      font-family: bungee;
+      font-palette: --PinkAndGray;
+    }
+  tags:
+      - css
+      - css_typography
+
 #################################################
 # CSS animations & transforms
 #################################################
@@ -416,6 +536,100 @@
   tags:
       - css
       - css_animations_and_transforms
+
+#################################################
+# CSS Selectors
+#################################################
+
+- id: marker
+  name: ::marker
+  mdn: /en-US/docs/Web/CSS/::marker
+  caniuse: css-marker-pseudo
+  tags: 
+    - css
+    - css_selectors
+
+- id: has_selector
+  name: ":has() Selector"
+  mdn: /en-US/docs/Web/CSS/:has
+  caniuse: css-has
+  exampleLanguage: css
+  example: >
+    /* Matching <a> elements that directly contain an <img> */
+    a:has(> img)
+  patterns:
+    - \:has
+    - has\(\)
+  tags:
+    - css
+    - css_selectors
+
+- id: where_selector
+  name: ":where() Selector"
+  mdn: /en-US/docs/Web/CSS/:where
+  caniuse: css-where
+  exampleLanguage: css
+  example: >
+    /* Selects any paragraph inside a header, main
+      or footer element that is being hovered */
+    :where(header, main, footer) p:hover {
+      color: red;
+      cursor: pointer;
+    }
+  tags:
+    - css
+    - css_selectors
+
+#################################################
+# JavaScript APIs
+#################################################
+
+- id: houdini_paint_api
+  name: Houdini Paint API
+  mdn: /en-US/docs/Web/API/CSS_Painting_API
+  caniuse: css-paint-api
+  exampleLanguage: css
+  example: >
+    aside {
+      background-image: paint(myPaintedImage);
+    }
+  tags:
+    - css
+    - css_javascript_apis
+
+- id: houdini_typed_om
+  name: Houdini Typed OM
+  mdn: 
+  caniuse:
+  tags:
+    - css
+    - css_javascript_apis
+
+- id: houdini_layout_api
+  name: Houdini Layout API
+  mdn: /en-US/docs/Web/Guide/Houdini#css_layout_api
+  caniuse: css-paint-api
+  exampleLanguage: css
+  example: >
+    aside {
+      background-image: paint(myPaintedImage);
+    }
+  tags:
+    - css
+    - css_javascript_apis
+
+- id: houdini_animation_worklet
+  name: Houdini Animation Worklet
+  mdn: /en-US/docs/Web/API/CSS_Painting_API
+  caniuse: css-paint-api
+  exampleLanguage: css
+  example: >
+    aside {
+      background-image: paint(myPaintedImage);
+    }
+  tags:
+    - css
+    - css_javascript_apis
 
 #################################################
 # CSS media queries/Accessibility
@@ -596,13 +810,49 @@
       - css
       - css_other
 
-- id: marker
-  name: ::marker
-  mdn: /en-US/docs/Web/CSS/::marker
-  caniuse: css-marker-pseudo
-  tags: 
-    - css
-    - css_other
+- id: cascade_layers
+  name: Cascade Layers
+  mdn: /en-US/docs/Web/CSS/@layer
+  caniuse: css-cascade-layers
+  exampleLanguage: css
+  example: >
+    @layer layer-name {rules}
+  tags:
+      - css
+      - css_other
+
+- id: trigonometric_functions
+  name: Trigonometric Functions
+  mdn: 
+  caniuse:
+  tags:
+      - css
+      - css_other
+
+- id: stepped_value_functions
+  name: Stepped Value Functions
+  mdn:
+  caniuse:
+  tags:
+      - css
+      - css_other
+
+- id: css_nesting
+  name: CSS Nesting
+  w3c: TR/css-nesting-1/
+  mdn:
+  caniuse:
+  tags:
+      - css
+      - css_other
+
+- id: env_function
+  name: env() Function
+  mdn:
+  caniuse:
+  tags:
+      - css
+      - css_other
 
 #################################################
 #
