@@ -42,6 +42,9 @@
 - id: graphql_go
   name: GraphQL-Go
   homepage: https://github.com/graph-gophers/graphql-go
+- id: lighthouse
+  name: Lighthouse
+  homepage: https://lighthouse-php.com/
 
 # GraphQL Clients
 
@@ -78,6 +81,9 @@
 - id: gquery
   name: gQuery
   homepage: https://gquery.leveluptutorials.com/
+- id: villus
+  name: Villus
+  homepage: https://villus.logaretm.com/
 
 # GraphQL API Generators
 - id: prisma
@@ -90,8 +96,8 @@
   name: Hasura
   homepage: https://hasura.io/
 - id: graphcms
-  name: GraphCMS
-  homepage: https://graphcms.com/
+  name: Hygraph (ex-GraphCMS)
+  homepage: https://hygraph.com/
 - id: sanity
   name: Sanity
   homepage: https://www.sanity.io/docs/graphql
@@ -128,6 +134,9 @@
 - id: datocms
   name: DatoCMS
   homepage: https://www.datocms.com/
+- id: prismic
+  name: Prismic
+  homepage: https://prismic.io/
 
 # GraphQL Code Generators
 - id: graphql_zeus
@@ -255,6 +264,9 @@
 - id: apollo_workbench
   name: Apollo Workbench
   homepage: https://www.apollographql.com/docs/federation/v1/workbench/overview/
+- id: grpc
+  name: gRPC
+  homepage: https://grpc.io/
 
 # Sites
 - id: how_to_graphql
@@ -286,6 +298,12 @@
     - sites
   patterns:
     - official graphql
+    - graphql docs
+    - graphql documentation
+    - graphql site
+    - graphql spec
+    - state_of_graphql||sites_courses||official documentation
+    - state_of_graphql||first_steps||documentation
 
 - id: production_ready_graphql
   name: Production Ready GraphQL

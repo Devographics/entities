@@ -1,3 +1,12 @@
+- id: state_of_js_survey
+  name: State of JavaScript Survey
+  homepage: https://stateofjs.com
+- id: state_of_css_survey
+  name: State of CSS Survey
+  homepage: https://stateofcss.com
+- id: state_of_graphql_survey
+  name: State of GraphQL Survey
+  homepage: https://stateofgraphql.com
 - id: stack_overflow_survey
   name: Stack Overflow Annual Developer Survey
   homepage: https://insights.stackoverflow.com/survey/

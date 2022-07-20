@@ -1,7 +1,12 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
-- id: survey_devographics_com
-  name: N/A
+- id: unknown
+  name: Unknown
+  patterns:
+    - stateofgraphql
+    - survey.stateofgraphql.com
+    - stateofgraphql.com
+    - devographics.com
 
 - id: twitter
   name: Twitter

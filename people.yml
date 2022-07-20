@@ -1558,6 +1558,14 @@
     - css
     - graphql
 
+- id: tim_suchanek
+  name: Tim Suchanek
+  twitterName: timsuchanek
+  homepage: https://www.suchanek.co/
+  blog:
+  rss:
+  tags:
+    - graphql
 
 - id: jamie_barton
   name: Jamie Barton
@@ -1568,24 +1576,24 @@
   tags:
     - graphql
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: peggy_rayzis
+  name: Peggy Rayzis
+  twitterName: peggyrayzis
+  homepage:
+  blog:
+  rss:
+  tags:
+    - graphql
 
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: eve_porcello
+  name: Eve Porcello
+  twitterName: eveporcello
+  homepage: https://www.moonhighway.com/
+  blog:
+  rss:
+  tags:
+    - graphql
 
 # - id:
 #   name:

@@ -862,14 +862,15 @@
     framework and GraphQL server
   homepage: "https://apollographql.com/client"
 
-- id: graphql
-  name: GraphQL
-  npm: graphql-relay
-  github: graphql/graphql-spec
-  description: >-
-    GraphQL is a query language and execution engine tied to any backend
-    service.
-  homepage: "https://spec.graphql.org"
+# removed because it matches too many libraries in the GraphQL ecosystem
+# - id: graphql
+#   name: GraphQL
+#   npm: graphql-relay
+#   github: graphql/graphql-spec
+#   description: >-
+#     GraphQL is a query language and execution engine tied to any backend
+#     service.
+#   homepage: "https://spec.graphql.org"
 
 - id: mobx
   name: MobX
