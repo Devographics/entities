@@ -235,8 +235,12 @@
 #################################################
 
 - id: color_function
-  name: color()
+  name: "`color()` (Predefined Colorspaces)"
   mdn: /en-US/docs/Web/CSS/color_value/color()
+  exampleLanguage: css
+  example: >
+    color(display-p3 1 0.5 0);
+    color(display-p3 1 0.5 0 / .5);
   caniuse: css-color-function
   tags:
       - css
@@ -287,7 +291,8 @@
       - css_colors
 
 - id: wide_gamut_colors
-  name: Wide Gamut Colors (lab & lch)
+  name: Wide Gamut colors (`lch()`, `lab()`, `oklch()`, `oklab()`)
+  description: 
   mdn: /en-US/docs/Web/CSS/color_value/lch
   caniuse: css-lch-lab
   exampleLanguage: css
@@ -357,15 +362,16 @@
       - css_interactions
 
 - id: scroll_timeline
-  name: scroll-timeline
+  name: '@scroll-timeline'
   caniuse: css-scroll-timeline
+  mdn: /en-US/docs/Web/CSS/@scroll-timeline
   tags:
       - css
       - css_interactions
 
 - id: scroll_behavior
   name: scroll-behavior
-  mdn: en-US/docs/Web/CSS/scroll-behavior
+  mdn: /en-US/docs/Web/CSS/scroll-behavior
   caniuse: css-scroll-behavior
   exampleLanguage: css
   example: >
@@ -380,7 +386,7 @@
 
 - id: scroll_padding
   name: scroll-padding
-  mdn: en-US/docs/Web/CSS/scroll-padding
+  mdn: /en-US/docs/Web/CSS/scroll-padding
   caniuse: mdn-css_properties_scroll-padding
   exampleLanguage: css
   example: >
@@ -654,7 +660,7 @@
       - accessibility
 
 - id: color_gamut
-  name: color-gamut
+  name: "`@media (color-gamut)`"
   mdn: /en-US/docs/Web/CSS/@media/color-gamut
   caniuse: mdn-css_at-rules_media_color-gamut
   tags:

@@ -84,7 +84,9 @@
 - id: villus
   name: Villus
   homepage: https://villus.logaretm.com/
-
+- id: no_client
+  name: No Client
+  
 # GraphQL API Generators
 - id: prisma
   name: Prisma
@@ -216,6 +218,8 @@
 - id: stellate
   name: Stellate (formerly GraphCDN)
   homepage: https://graphcdn.io/
+  patterns:
+    - graphcdn
 - id: apollo_client_devtools
   name: Apollo Client Devtools
   homepage: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US
@@ -311,6 +315,91 @@
   tags: 
     - sites
     - books
+
+# Features
+
+# common features
+- id: custom_directives
+  name: Custom Directives
+  homepage: https://www.apollographql.com/docs/apollo-server/schema/creating-directives/
+- id: custom_scalars
+  name: Custom Scalars
+  homepage: https://www.apollographql.com/docs/apollo-server/schema/custom-scalars/
+- id: fragments
+  name: Fragments
+  homepage: https://graphql.org/learn/queries/#:~:text=request.-,Fragments
+- id: unions
+  name: Unions
+  homepage: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/
+- id: interfaces
+  name: Interfaces
+  homepage: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/
+
+# directives
+- id: at_skip
+  name: '@skip'
+  homepage: https://dgraph.io/docs/graphql/queries/skip-include/
+- id: at_include
+  name: '@include'
+  homepage: https://dgraph.io/docs/graphql/queries/skip-include/
+- id: at_deprecated
+  name: '@deprecated'
+  homepage: https://dgraph.io/docs/graphql/schema/deprecated/
+- id: at_specified_by
+  name: '@specifiedBy'
+  homepage: https://spec.graphql.org/draft/#sec--specifiedBy
+- id: at_defer
+  name: '@defer'
+  homepage: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
+- id: at_stream
+  name: '@stream'
+  homepage: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
+
+# security & performance
+- id: persisted_queries
+  name: Persisted Queries
+  homepage: https://www.apollographql.com/docs/apollo-server/performance/apq/
+- id: query_allowlisting
+  name: Query Allow-listing
+  homepage: https://www.apollographql.com/blog/graphql/security/securing-your-graphql-api-from-malicious-queries/
+- id: query_timeouts
+  name: Query Timeouts
+  homepage: https://medium.com/workflowgen/graphql-query-timeout-and-complexity-management-fab4d7315d8d
+- id: query_rate_limit
+  name: Query Rate Limiting
+  homepage: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
+- id: query_depth_limit
+  name: Query Depth Limiting
+  homepage: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
+- id: query_amount_limit
+  name: Query Amount Limiting
+  homepage: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
+- id: query_cost_analysis
+  name: Query Cost Analysis
+  homepage: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
+- id: disabling_introspection
+  name: Disabling Introspection
+  homepage: https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/
+- id: ip_allowlisting
+  name: IP Allow-listing
+  homepage: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/
+- id: require_authentication
+  name: Requiring Authentication
+  homepage: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/
+
+# other features
+- id: graphql_subscriptions
+  name: GraphQL Subscriptions
+  homepage: https://www.apollographql.com/docs/react/data/subscriptions/
+- id: live_queries
+  name: Live Queries
+  homepage: https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql
+- id: apollo_federation
+  name: Apollo Federation
+  homepage: https://www.apollographql.com/docs/federation/
+- id: schema_stitching
+  name: Schema Stitching
+  homepage: https://blog.logrocket.com/understanding-schema-stitching-graphql/
 
 # Other
 

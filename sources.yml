@@ -20,11 +20,11 @@
   patterns:
     - state( |-)?of( |-)?js
     - state( |-)?of( |-)?javascript
-    - newsletter
+    # - newsletter
     # match "previous years, etc."
-    - year 
-    - previous
-    - past
+    # - year 
+    # - previous
+    # - past
 
 - id: work
   name: Work

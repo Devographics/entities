@@ -417,7 +417,7 @@
     - css_irl
 
 - id: sarah_fossheim
-  twitterName: liatrisbian
+  twitterName: SarahFossheim
   name: Sarah Fossheim
   homepage: https://fossheim.io/
   tags:
@@ -1595,14 +1595,14 @@
   tags:
     - graphql
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: tanmai_gopal
+  name: Tanmai Gopal
+  twitterName: tanmaigo
+  homepage: https://hasura.io/
+  blog:
+  rss:
+  tags:
+    - graphql
 
 
 # - id:
