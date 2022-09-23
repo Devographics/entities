@@ -1605,14 +1605,14 @@
     - graphql
 
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: gift_egwuenu
+  name: Gift Egwuenu
+  twitterName: lauragift_
+  homepage: https://www.liinks.co/lauragift
+  blog:
+  rss:
+  tags:
+    - js
 
 # - id:
 #   name:

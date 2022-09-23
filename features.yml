@@ -52,6 +52,12 @@
   name: Writing Modes
   mdn: /en-US/docs/Web/CSS/CSS_Writing_Modes
   caniuse: css-writing-mode
+  example:
+    language: css
+    code : |
+      .vertical-text {
+        writing-mode: vertical-lr;
+      }
   tags:
       - css
       - css_layout
@@ -64,7 +70,7 @@
       - css_layout
 
 - id: position_sticky
-  name: 'CSS position:sticky'
+  name: "`position:sticky`"
   mdn: /en-US/docs/Web/CSS/position
   caniuse: css-sticky
   patterns:
@@ -77,20 +83,33 @@
   name: CSS Logical Properties
   mdn: /en-US/docs/Web/CSS/CSS_Logical_Properties
   caniuse: css-logical-props
+  example:
+    language: css
+    code : |
+      section {
+        border-block: 8px solid blue;
+        border-inline: 8px solid green;
+      }
   tags:
       - css
       - css_layout
 
 - id: aspect_ratio
-  name: 'CSS property: aspect-ratio'
+  name: "`aspect-ratio`"
   mdn: /en-US/docs/Web/CSS/aspect-ratio
   caniuse: mdn-css_properties_aspect-ratio
+  example:
+    language: css
+    code : |
+      .square {
+        aspect-ratio: 1 / 1;
+      }
   tags:
       - css
       - css_layout
 
 - id: content_visibility
-  name: CSS content-visibility
+  name: "`content-visibility`"
   caniuse: css-content-visibility
   tags:
       - css
@@ -114,14 +133,29 @@
   name: Break Rules
   mdn: /en-US/docs/Web/CSS/break-before
   caniuse: mdn-css_properties_break-before_paged_context
+  example: 
+    language: css
+    code : |
+      .element {
+        break-before: page;
+      }
   tags:
       - css
       - css_layout
 
 - id: at_container
-  name: 'CSS property: @container'
+  name: "`@container`"
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
   caniuse: css-container-queries
+  example:
+    language: css
+    code : |
+      @container (min-width: 700px) {
+        .card {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+        }
+      }
   patterns:
     - '@container'
     - container
@@ -132,15 +166,47 @@
       - css_layout
 
 - id: object_view_box
-  name: object-view-box
+  name: "`object-view-box`"
+  example:
+    language: css
+    code : |
+      img {
+        aspect-ratio: 1;
+        width: 300px;
+        object-view-box: inset(25% 20% 15% 0%);
+      }
   tags: 
       - css
       - css_layout
 
 - id: viewport_percentage_length_units
-  name: Viewport-percentage Length Units
+  name: Viewport-Percentage Length Units (`sv*`, `lv*`, `dv*`)
   mdn: /en-US/docs/Web/CSS/length#relative_length_units_based_on_viewport
+  resources:
+    - title: The Large, Small, and Dynamic Viewports
+      url: https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/
   caniuse: mdn-css_types_length_viewport_percentage_units_small
+  example: 
+    language: css
+    code : |
+      body {
+        height: 100dvh;
+      }
+  tags: 
+      - css
+      - css_layout
+
+- id: media_queries_range_contexts
+  name: Media Queries Range Contexts
+  # mdn:
+  w3c: https://www.w3.org/TR/mediaqueries-4/#mq-range-context
+  caniuse: css-media-range-syntax
+  example: 
+    language: css
+    code : |
+      @media (400px < width < 1000px) {
+        /* ... */
+      }
   tags: 
       - css
       - css_layout
@@ -158,7 +224,7 @@
       - css_shapes_and_graphics
 
 - id: object_fit
-  name: object-fit
+  name: "`object-fit`"
   mdn: /en-US/docs/Web/CSS/object-fit
   caniuse: object-fit
   tags:
@@ -166,7 +232,7 @@
       - css_shapes_and_graphics
 
 - id: clip_path
-  name: clip-path
+  name: "`clip-path`"
   mdn: /en-US/docs/Web/CSS/clip-path
   caniuse: css-clip-path
   tags:
@@ -182,7 +248,7 @@
       - css_shapes_and_graphics
 
 - id: blend_modes
-  name: blend-mode
+  name: "`blend-mode`"
   mdn: /en-US/docs/Web/CSS/blend-mode
   caniuse: css-mixblendmode
   tags:
@@ -214,7 +280,7 @@
       - css_shapes_and_graphics
 
 - id: repeating_linear_gradient
-  name: repeating-linear-gradient()
+  name: "`repeating-linear-gradient()`"
   mdn: /en-US/docs/Web/CSS/gradient/repeating-linear-gradient()
   caniuse: mdn-css_types_image_gradient_repeating-linear-gradient
   tags:
@@ -222,7 +288,7 @@
       - css_shapes_and_graphics
 
 - id: conic_gradient
-  name: conic-gradient()
+  name: "`conic-gradient()`"
   mdn: /en-US/docs/Web/CSS/gradient/conic-gradient()
   caniuse: mdn-css_types_image_gradient_conic-gradient
   tags:
@@ -237,17 +303,20 @@
 - id: color_function
   name: "`color()` (Predefined Colorspaces)"
   mdn: /en-US/docs/Web/CSS/color_value/color()
-  exampleLanguage: css
-  example: >
-    color(display-p3 1 0.5 0);
-    color(display-p3 1 0.5 0 / .5);
+  example: 
+    language: css
+    code : |
+      .foo {
+        color(display-p3 1 0.5 0);
+        color(display-p3 1 0.5 0 / .5);
+      }
   caniuse: css-color-function
   tags:
       - css
       - css_colors
 
 - id: accent_color
-  name: accent-color
+  name: "`accent-color`"
   mdn: /en-US/docs/Web/CSS/accent-color
   caniuse: mdn-css_properties_accent-color
   tags:
@@ -255,7 +324,7 @@
       - css_shapes_and_graphics
 
 - id: color_contrast
-  name: color-contrast()
+  name: "`color-contrast()`"
   mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
   caniuse: mdn-css_types_color_color-contrast
   tags:
@@ -263,28 +332,32 @@
       - css_colors
 
 - id: currentcolor
-  name: currentcolor
+  name: "`currentcolor`"
   mdn: /en-US/docs/Web/CSS/color_value#currentcolor_keyword
-  exampleLanguage: html
-  example: >
-    <div style="color: blue; border: 1px dashed currentcolor;">
-      Blue text and blue border.
-      <div style="background: currentcolor;">
-        Blue background.
-      </div>
-    </div>
+  example: 
+    language: css
+    code : |
+      .blue-text {
+        color: blue;
+      }
+      .blue-text .blue-background {
+        background: currentColor;
+      }
   caniuse: currentcolor
   tags:
       - css
       - css_colors
 
 - id: color_mix
-  name: color-mix()
+  name: "`color-mix()`"
   mdn: /en-US/docs/Web/CSS/color_value/color-mix
-  exampleLanguage: css
-  example: >
-    color-mix(in lch, peru 40%, lightgoldenrod);
-    color-mix(in srgb, #34c9eb 20%, white);
+  example: 
+    language: css
+    code : |
+      .foo {
+        color-mix(in lch, peru 40%, lightgoldenrod);
+        color-mix(in srgb, #34c9eb 20%, white);
+      }
   caniuse: mdn-css_types_color_color-mix
   tags:
       - css
@@ -295,10 +368,13 @@
   description: 
   mdn: /en-US/docs/Web/CSS/color_value/lch
   caniuse: css-lch-lab
-  exampleLanguage: css
-  example: >
-    background-color: lab(29.2345% 39.3825 20.0664);
-    background-color: lch(29.2345% 44.2 27);
+  example: 
+    language: css
+    code : |
+      .foo {
+        background-color: lab(29.2345% 39.3825 20.0664);
+        background-color: lch(29.2345% 44.2 27);
+      }
   tags:
       - css
       - css_colors
@@ -306,13 +382,49 @@
 - id: relative_colors
   name: Relative Colors
   w3c: TR/css-color-5/#relative-colors
-  exampleLanguage: css
-  example: >
-    .something {
-      --color: #4488dd;
-      /* transform a color value into `rgb` */
-      background-color: rgb(from var(--color) r g b / .5);
-    }
+  resources:
+    - title: Create a color theme with CSS Relative Color Syntax, CSS color-mix(), and CSS color-contrast()
+      url: https://www.bram.us/2021/04/28/create-a-color-theme-with-css-relative-color-syntax-css-color-mix-and-css-color-contrast/
+      language: en-US
+  example: 
+    language: css
+    code : |
+      .foo {
+        --color: #4488dd;
+        background-color: rgb(from var(--color) r g b / .5);
+      }
+  tags:
+      - css
+      - css_colors
+
+- id: forced_colors
+  name: "`forced-colors`"
+  mdn: /en-US/docs/Web/CSS/@media/forced-colors
+  caniuse: mdn-css_at-rules_media_forced-colors
+  example: 
+    language: css
+    code : |
+      @media (forced-colors: active) {
+        .button {
+          border: 2px green solid;
+        }
+      }
+  tags:
+      - css
+      - css_colors
+
+- id: prefers_contrast
+  name: "`prefers-contrast`"
+  mdn: /en-US/docs/Web/CSS/@media/prefers-contrast
+  caniuse: mdn-css_at-rules_media_prefers-contrast
+  example: 
+    language: css
+    code : |
+      @media (prefers-contrast: more) {
+        .contrast {
+          outline: 2px solid black;
+        }
+      }
   tags:
       - css
       - css_colors
@@ -330,7 +442,7 @@
       - css_interactions
 
 - id: overscroll_behavior
-  name: overscroll-behavior
+  name: "`overscroll-behavior`"
   mdn: /en-US/docs/Web/CSS/overscroll-behavior
   caniuse: css-overscroll-behavior
   tags:
@@ -338,7 +450,7 @@
       - css_interactions
 
 - id: overflow_anchor
-  name: overflow-anchor
+  name: "`overflow-anchor`"
   mdn: /en-US/docs/Web/CSS/overflow-anchor
   caniuse: css-overflow-anchor
   tags:
@@ -346,7 +458,7 @@
       - css_interactions
 
 - id: touch_action
-  name: touch-action
+  name: "`touch-action`"
   mdn: /en-US/docs/Web/CSS/touch-action
   caniuse: css-touch-action
   tags:
@@ -354,7 +466,7 @@
       - css_interactions
 
 - id: pointer_events
-  name: pointer-events
+  name: "`pointer-events`"
   mdn: /en-US/docs/Web/CSS/pointer-events
   caniuse: pointer-events
   tags:
@@ -362,7 +474,7 @@
       - css_interactions
 
 - id: scroll_timeline
-  name: '@scroll-timeline'
+  name: "`@scroll-timeline`"
   caniuse: css-scroll-timeline
   mdn: /en-US/docs/Web/CSS/@scroll-timeline
   tags:
@@ -370,13 +482,14 @@
       - css_interactions
 
 - id: scroll_behavior
-  name: scroll-behavior
+  name: "`scroll-behavior`"
   mdn: /en-US/docs/Web/CSS/scroll-behavior
   caniuse: css-scroll-behavior
-  exampleLanguage: css
-  example: >
-    scroll-behavior: auto;
-    scroll-behavior: smooth;
+  example: 
+    language: css
+    code : |
+      scroll-behavior: auto;
+      scroll-behavior: smooth;
   patterns:
     - scroll(-| )?behavio(u)?r
   tags:
@@ -385,12 +498,27 @@
       - browser_interoperability
 
 - id: scroll_padding
-  name: scroll-padding
+  name: "`scroll-padding`"
   mdn: /en-US/docs/Web/CSS/scroll-padding
   caniuse: mdn-css_properties_scroll-padding
-  exampleLanguage: css
-  example: >
-    scroll-padding: 20px;
+  example: 
+    language: css
+    code : |
+      scroll-padding: 20px;
+  tags:
+      - css
+      - css_interactions
+
+- id: scrollbar_gutter
+  name: "`scrollbar-gutter`"
+  mdn: /en-US/docs/Web/CSS/scrollbar-gutter
+  caniuse: mdn-css_properties_scrollbar-gutter
+  example: 
+    language: css
+    code : |
+      .container {
+        scrollbar-gutter: stable;
+      }
   tags:
       - css
       - css_interactions
@@ -400,8 +528,7 @@
 #################################################
 
 - id: web_fonts
-  name: |
-      @font-face
+  name: "`@font-face`"
   mdn: /en-US/docs/Web/CSS/@font-face
   caniuse: fontface
   tags:
@@ -424,7 +551,7 @@
       - css_typography
 
 - id: font_variant
-  name: font-variant
+  name: "`font-variant`"
   mdn: /en-US/docs/Web/CSS/font-variant
   caniuse: font-variant-alternates
   tags:
@@ -432,7 +559,7 @@
       - css_typography
 
 - id: initial_letter
-  name: initial-letter
+  name: "`initial-letter`"
   mdn: /en-US/docs/Web/CSS/initial-letter
   caniuse: css-initial-letter
   tags:
@@ -440,7 +567,7 @@
       - css_typography
 
 - id: font_variant_numeric
-  name: font-variant-numeric
+  name: "`font-variant-numeric`"
   mdn: /en-US/docs/Web/CSS/font-variant-numeric
   caniuse: font-variant-numeric
   tags:
@@ -448,7 +575,7 @@
       - css_typography
 
 - id: font_display
-  name: font-display
+  name: "`font-display`"
   mdn: /en-US/docs/Web/CSS/@font-face/font-display
   caniuse: css-font-rendering-controls
   tags:
@@ -456,7 +583,7 @@
       - css_typography
 
 - id: line_clamp
-  name: line-clamp
+  name: "`line-clamp`"
   mdn: /en-US/docs/Web/CSS/-webkit-line-clamp
   caniuse: css-line-clamp
   tags:
@@ -464,13 +591,13 @@
       - css_typography
 
 - id: leading_trim
-  name: leading-trim
+  name: "`leading-trim`"
   tags:
       - css
       - css_typography
 
 - id: direction
-  name: direction
+  name: "`direction`"
   mdn: /en-US/docs/Web/CSS/direction
   caniuse: mdn-css_properties_direction
   tags:
@@ -478,7 +605,7 @@
       - css_typography
 
 - id: text_decoration_style
-  name: text-decoration-style
+  name: "`text-decoration-style`"
   mdn: /en-US/docs/Web/CSS/text-decoration-style
   caniuse: text-decoration
   tags:
@@ -486,21 +613,22 @@
       - css_typography
 
 - id: font_palette
-  name: font-palette
+  name: "`font-palette`"
   caniuse: css-font-palette
   w3c: /TR/css-fonts-4/#propdef-font-palette
-  exampleLanguage: css
-  example: >
-    @font-palette-values --PinkAndGray {
-      font-family: bungee;
-      override-colors:
-        0 #c1cbed,
-        1 #ff3a92;
-    }
-    .grays {
-      font-family: bungee;
-      font-palette: --PinkAndGray;
-    }
+  example: 
+    language: css
+    code : |
+      @font-palette-values --PinkAndGray {
+        font-family: bungee;
+        override-colors:
+          0 #c1cbed,
+          1 #ff3a92;
+      }
+      .grays {
+        font-family: bungee;
+        font-palette: --PinkAndGray;
+      }
   tags:
       - css
       - css_typography
@@ -548,7 +676,7 @@
 #################################################
 
 - id: marker
-  name: ::marker
+  name: "`::marker`"
   mdn: /en-US/docs/Web/CSS/::marker
   caniuse: css-marker-pseudo
   tags: 
@@ -556,13 +684,14 @@
     - css_selectors
 
 - id: has_selector
-  name: ":has() Selector"
+  name: "`:has()`"
   mdn: /en-US/docs/Web/CSS/:has
   caniuse: css-has
-  exampleLanguage: css
-  example: >
-    /* Matching <a> elements that directly contain an <img> */
-    a:has(> img)
+  example: 
+    language: css
+    code : |
+      /* Matching <a> elements that directly contain an <img> */
+      a:has(> img)
   patterns:
     - \:has
     - has\(\)
@@ -571,17 +700,18 @@
     - css_selectors
 
 - id: where_selector
-  name: ":where() Selector"
+  name: "`:where()`"
   mdn: /en-US/docs/Web/CSS/:where
   caniuse: css-where
-  exampleLanguage: css
-  example: >
-    /* Selects any paragraph inside a header, main
-      or footer element that is being hovered */
-    :where(header, main, footer) p:hover {
-      color: red;
-      cursor: pointer;
-    }
+  example: 
+    language: css
+    code : |
+      /* Selects any paragraph inside a header, main
+        or footer element that is being hovered */
+      :where(header, main, footer) p:hover {
+        color: red;
+        cursor: pointer;
+      }
   tags:
     - css
     - css_selectors
@@ -594,11 +724,12 @@
   name: Houdini Paint API
   mdn: /en-US/docs/Web/API/CSS_Painting_API
   caniuse: css-paint-api
-  exampleLanguage: css
-  example: >
-    aside {
-      background-image: paint(myPaintedImage);
-    }
+  example: 
+    language: css
+    code : |
+      aside {
+        background-image: paint(myPaintedImage);
+      }
   tags:
     - css
     - css_javascript_apis
@@ -615,11 +746,12 @@
   name: Houdini Layout API
   mdn: /en-US/docs/Web/Guide/Houdini#css_layout_api
   caniuse: css-paint-api
-  exampleLanguage: css
-  example: >
-    aside {
-      background-image: paint(myPaintedImage);
-    }
+  example: 
+    language: css
+    code : |
+      aside {
+        background-image: paint(myPaintedImage);
+      }
   tags:
     - css
     - css_javascript_apis
@@ -628,11 +760,12 @@
   name: Houdini Animation Worklet
   mdn: /en-US/docs/Web/API/CSS_Painting_API
   caniuse: css-paint-api
-  exampleLanguage: css
-  example: >
-    aside {
-      background-image: paint(myPaintedImage);
-    }
+  example: 
+    language: css
+    code : |
+      aside {
+        background-image: paint(myPaintedImage);
+      }
   tags:
     - css
     - css_javascript_apis
@@ -642,7 +775,7 @@
 #################################################
 
 - id: prefers_reduced_motion
-  name: prefers-reduced-motion
+  name: "`prefers-reduced-motion`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-motion
   caniuse: prefers-reduced-motion
   tags:
@@ -651,7 +784,7 @@
       - accessibility
 
 - id: prefers_color_scheme
-  name: prefers-color-scheme
+  name: "`prefers-color-scheme`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-color-scheme
   caniuse: prefers-color-scheme
   tags:
@@ -668,7 +801,7 @@
       - accessibility
 
 - id: prefers_reduced_data
-  name: prefers-reduced-data
+  name: "`prefers-reduced-data`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-data
   caniuse: mdn-css_at-rules_media_prefers-reduced-data
   tags:
@@ -677,7 +810,7 @@
       - accessibility
 
 - id: color_scheme
-  name: color-scheme
+  name: "`color-scheme`"
   mdn: /en-US/docs/Web/CSS/color-scheme
   caniuse: mdn-css_properties_color-scheme
   tags: 
@@ -692,7 +825,7 @@
     - accessibility
 
 - id: focus_visible
-  name: :focus-visible
+  name: "`:focus-visible`"
   mdn: /en-US/docs/Web/CSS/:focus-visible
   caniuse: css-focus-visible
   tags: 
@@ -700,7 +833,7 @@
     - accessibility
 
 - id: tabindex
-  name: tabindex
+  name: "`tabindex`"
   mdn: /en-US/docs/Web/HTML/Global_attributes/tabindex
   caniuse: tabindex-attr
   tags: 
@@ -718,9 +851,15 @@
       - css_other
 
 - id: feature_support_queries
-  name: '@supports'
+  name: "`@supports`"
   mdn: /en-US/docs/Web/CSS/@supports
   caniuse: css-supports-api
+  example:
+    language: css
+    code : |
+      @supports (display: table-cell) and (display: list-item) {
+        //...
+      }
   patterns:
     - '@supports'
     - supports
@@ -736,7 +875,7 @@
       - css_other
 
 - id: will_change
-  name: will-change
+  name: "`will-change`"
   mdn: /en-US/docs/Web/CSS/will-change
   caniuse: will-change
   tags:
@@ -744,7 +883,7 @@
       - css_other
 
 - id: calc
-  name: calc()
+  name: "`calc()`"
   mdn: /en-US/docs/Web/CSS/calc
   caniuse: calc
   tags:
@@ -767,7 +906,7 @@
       - css_other
 
 - id: scroll_margin_scroll_padding
-  name: scroll-padding
+  name: "`scroll-padding`"
   mdn: /en-US/docs/Web/CSS/scroll-padding
   caniuse: mdn-css_properties_scroll-padding
   tags:
@@ -775,22 +914,30 @@
       - css_other
 
 - id: at_property
-  name: '@property'
+  name: "`@property`"
   mdn: /en-US/docs/Web/CSS/@property
   caniuse: mdn-css_at-rules_property
+  example: 
+    language: css
+    code : |
+      @property --property-name {
+        syntax: "<color>";
+        inherits: false;
+        initial-value: #c0ffee;
+      }
   tags:
       - css
       - css_other
 
 - id: at_layer
-  name: '@layer'
+  name: "`@layer`"
   w3c: https://www.w3.org/TR/css-cascade-5/
   tags:
       - css
       - css_other
 
 - id: resize
-  name: resize
+  name: "`resize`"
   mdn: /en-US/docs/Web/CSS/resize
   caniuse: css-resize
   tags:
@@ -798,7 +945,7 @@
       - css_other
 
 - id: content_visibility
-  name: content-visibility
+  name: "`content-visibility`"
   mdn: /en-US/docs/Web/CSS/content-visibility
   caniuse: css-content-visibility
   tags:
@@ -806,7 +953,7 @@
       - css_other
 
 - id: viewport_units
-  name: Viewport Units (vh, vw)
+  name: Viewport Units (`vh`, `vw`)
   mdn: /en-US/docs/Web/CSS/length
   caniuse: viewport-units
   patterns:
@@ -820,9 +967,10 @@
   name: Cascade Layers
   mdn: /en-US/docs/Web/CSS/@layer
   caniuse: css-cascade-layers
-  exampleLanguage: css
-  example: >
-    @layer layer-name {rules}
+  example: 
+    language: css
+    code : |
+      @layer layer-name {rules}
   tags:
       - css
       - css_other
@@ -853,9 +1001,70 @@
       - css_other
 
 - id: env_function
-  name: env() Function
+  name: "`env()` Function"
   mdn:
   caniuse:
+  tags:
+      - css
+      - css_other
+
+- id: shadow_dom_part
+  name: Shadow DOM `::part()`
+  mdn: /en-US/docs/Web/CSS/::part
+  caniuse: mdn-api_element_part
+  example:
+    language: css
+    code : |
+      custom-element::part(foo) {
+        /* Styles to apply to the `foo` part */
+      }
+  tags:
+      - css
+      - css_shadow_dom
+      - css_other
+
+- id: shadow_dom_host
+  name: Shadow DOM `:host()`
+  mdn: /en-US/docs/Web/CSS/:host_function
+  caniuse: mdn-api_shadowroot_host
+  example: 
+    language: css
+    code : |
+      :host(.special-custom-element) {
+        font-weight: bold;
+      }
+  tags:
+      - css
+      - css_shadow_dom
+      - css_other
+
+- id: shadow_dom_slotted
+  name: Shadow DOM `::slotted()`
+  mdn: /en-US/docs/Web/CSS/::slotted
+  caniuse: mdn-css_selectors_slotted
+  example: 
+    language: css
+    code : |
+      ::slotted(*) {
+        font-weight: bold;
+      }
+  tags:
+      - css
+      - css_shadow_dom
+      - css_other
+
+- id: image_set
+  name: "`image-set()`"
+  mdn: /en-US/docs/Web/CSS/image/image-set
+  caniuse: css-image-set
+  example: 
+    language: css
+    code : |
+      .box {
+        background-image: image-set(
+          url("small-balloons.jpg") 1x,
+          url("large-balloons.jpg") 2x);
+      }
   tags:
       - css
       - css_other
