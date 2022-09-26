@@ -173,8 +173,6 @@
   github: tailwindcss/tailwindcss
   npm: tailwindcss
   homepage: https://tailwindcss.com/
-  aliases:
-    - Tailwind CSS
   tags:
     - css
     - css_frameworks
@@ -683,7 +681,7 @@
   github: angular/angular.js
   description: AngularJS - HTML enhanced for web apps!
   homepage: "https://angularjs.org"
-  aliases:
+  patterns:
     - angularjs
 
 - id: preact
@@ -808,7 +806,7 @@
   github: cyclejs/cyclejs
   description: A functional and reactive JavaScript framework for predictable code
   homepage: "http://cycle.js.org"
-  aliases:
+  patterns:
     - cycle
 
 - id: riotjs
@@ -1319,7 +1317,7 @@
   github: webdriverio/webdriverio
   description: Next-gen browser and mobile automation test framework for Node.js
   homepage: "http://webdriver.io"
-  aliases:
+  patterns:
     - webdriver
 
 - id: testcafe
@@ -1372,7 +1370,7 @@
   github: tapjs/node-tap
   description: Test Anything Protocol tools for node
   homepage: "https://www.node-tap.org/"
-  aliases:
+  patterns:
     - node_tap
 
 - id: react_testing_library
@@ -1499,8 +1497,6 @@
   github: greensock/GSAP
   description: GreenSock's GSAP JavaScript animation library (including Draggable).
   homepage: "https://greensock.com"
-  aliases:
-    - gsap
   patterns:
     - green( |-)sock
     - gsap

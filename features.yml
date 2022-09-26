@@ -81,6 +81,8 @@
 
 - id: logical_properties
   name: CSS Logical Properties
+  description: >
+    `margin-block-start`, `padding-inline-end`, `border-inline-start`
   mdn: /en-US/docs/Web/CSS/CSS_Logical_Properties
   caniuse: css-logical-props
   example:
@@ -131,6 +133,8 @@
 
 - id: break_rules
   name: Break Rules
+  description: >
+    `break-inside`, `break-before`, `break-after`
   mdn: /en-US/docs/Web/CSS/break-before
   caniuse: mdn-css_properties_break-before_paged_context
   example: 
@@ -211,14 +215,31 @@
       - css
       - css_layout
 
+- id: media_queries
+  name: Media Queries
+  mdn: /en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+  caniuse: css-mediaqueries
+  tags: 
+      - css
+      - css_layout
+
 #################################################
 # CSS shapes & graphics
 #################################################
 
 - id: shapes
   name: Shapes
+  description: >
+    `shape-image-threshold`, `shape-margin`, `shape-outside`
   mdn: /en-US/docs/Web/CSS/CSS_Shapes
   caniuse: css-shapes
+  example:
+    language: css
+    code: |
+      img {
+        float: left;
+        shape-outside: circle(50%);
+      }
   tags:
       - css
       - css_shapes_and_graphics
@@ -227,6 +248,12 @@
   name: "`object-fit`"
   mdn: /en-US/docs/Web/CSS/object-fit
   caniuse: object-fit
+  example:
+    language: css
+    code: |
+      .contain {
+        object-fit: contain;
+      }
   tags:
       - css
       - css_shapes_and_graphics
@@ -249,32 +276,63 @@
 
 - id: blend_modes
   name: "`blend-mode`"
+  description: >
+    `mix-blend-mode()`, `background-blend-mode()`, `isolation`
   mdn: /en-US/docs/Web/CSS/blend-mode
   caniuse: css-mixblendmode
+  example:
+    language: css
+    code: |
+      .item2 {
+        color: #000;
+        mix-blend-mode: overlay;
+      }
   tags:
       - css
       - css_shapes_and_graphics
 
 - id: filter_effects
   name: Filters & Effects
+  description: >
+    `blur()`, `brightness()`, `contrast()`…
   mdn: /en-US/docs/Web/CSS/filter
   caniuse: css-filters
+  example:
+    language: css
+    code: |
+      .image{
+        filter: contrast(175%) blur(5px)
+      }
   tags:
       - css
       - css_shapes_and_graphics
 
 - id: backdrop_filter
-  name: backdrop-filter
+  name: "`backdrop-filter`"
   mdn: /en-US/docs/Web/CSS/backdrop-filter
   caniuse: css-backdrop-filter
+  example:
+    language: css
+    code: |
+      .box {
+        backdrop-filter: blur(10px);
+      }
   tags:
       - css
       - css_shapes_and_graphics
 
 - id: intrinsic_sizing
   name: Intrinsic Sizing
+  description: >
+    `min-content`, `max-content`, `fit-content`
   mdn: /en-US/docs/Web/CSS/min-content
   caniuse: intrinsic-width
+  example: 
+    language: css
+    code: |
+      h2 {
+        width: max-content;
+      }
   tags:
       - css
       - css_shapes_and_graphics
@@ -291,6 +349,20 @@
   name: "`conic-gradient()`"
   mdn: /en-US/docs/Web/CSS/gradient/conic-gradient()
   caniuse: mdn-css_types_image_gradient_conic-gradient
+  example:
+    language: css
+    code: |
+      .blue-to-red {
+        conic-gradient(from 45deg, blue, red);
+      }
+  tags:
+      - css
+      - css_shapes_and_graphics
+
+- id: border_image
+  name: "`border-image`"
+  mdn: /en-US/docs/Web/CSS/border-image
+  caniuse: border-image
   tags:
       - css
       - css_shapes_and_graphics
@@ -301,12 +373,12 @@
 #################################################
 
 - id: color_function
-  name: "`color()` (Predefined Colorspaces)"
+  name: "`color()`"
   mdn: /en-US/docs/Web/CSS/color_value/color()
   example: 
     language: css
     code : |
-      .foo {
+      .specified-colorspace {
         color(display-p3 1 0.5 0);
         color(display-p3 1 0.5 0 / .5);
       }
@@ -364,8 +436,9 @@
       - css_colors
 
 - id: wide_gamut_colors
-  name: Wide Gamut colors (`lch()`, `lab()`, `oklch()`, `oklab()`)
-  description: 
+  name: Wide Gamut Colors
+  description: >
+    `lch()`, `lab()`, `oklch()`, `oklab()`
   mdn: /en-US/docs/Web/CSS/color_value/lch
   caniuse: css-lch-lab
   example: 
@@ -435,8 +508,22 @@
 
 - id: scroll_snap
   name: Scroll Snap
+  description: >
+    `scroll-snap-type`, `scroll-snap-align`, `scroll-padding`…
   mdn: /en-US/docs/Web/CSS/CSS_Scroll_Snap
   caniuse: css-snappoints
+  example:
+    language: css
+    code: |
+      .scroller {
+        height: 300px;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+      }
+
+      .scroller section {
+        scroll-snap-align: start;
+      }
   tags:
       - css
       - css_interactions
@@ -445,6 +532,14 @@
   name: "`overscroll-behavior`"
   mdn: /en-US/docs/Web/CSS/overscroll-behavior
   caniuse: css-overscroll-behavior
+  example: 
+    language: css
+    code: |
+      .foo {
+        height: 200px;
+        overflow: auto;
+        overscroll-behavior-y: contain;
+      }
   tags:
       - css
       - css_interactions
@@ -487,9 +582,11 @@
   caniuse: css-scroll-behavior
   example: 
     language: css
-    code : |
-      scroll-behavior: auto;
-      scroll-behavior: smooth;
+    code: |
+      .foo {
+        scroll-behavior: auto;
+        scroll-behavior: smooth;
+      }
   patterns:
     - scroll(-| )?behavio(u)?r
   tags:
@@ -503,8 +600,10 @@
   caniuse: mdn-css_properties_scroll-padding
   example: 
     language: css
-    code : |
-      scroll-padding: 20px;
+    code: |
+      .foo {
+        scroll-padding: 20px;
+      }
   tags:
       - css
       - css_interactions
@@ -545,6 +644,8 @@
 
 - id: line_breaking
   name: Line Breaking Properties
+  description: >
+    `overflow-wrap`, `word-break`, `line-break`, `hyphens`
   mdn: /en-US/docs/Web/CSS/line-break
   tags:
       - css
@@ -664,9 +765,18 @@
       - css_animations_and_transforms
 
 - id: perspective
-  name: Perspective
+  name: "`perspective`"
   mdn: /en-US/docs/Web/CSS/perspective
   caniuse: mdn-api_cssperspective
+  example: 
+    language: css
+    code: | 
+      .scene {
+        perspective: 400px;
+      }
+      .square {
+        transform: rotateY(45deg);
+      }
   tags:
       - css
       - css_animations_and_transforms
@@ -796,6 +906,14 @@
   name: "`@media (color-gamut)`"
   mdn: /en-US/docs/Web/CSS/@media/color-gamut
   caniuse: mdn-css_at-rules_media_color-gamut
+  example:
+    language: css
+    code: |
+      @media (color-gamut: srgb) {
+        p {
+          background: #f4ae8a;
+        }
+      } 
   tags:
       - css
       - accessibility
@@ -846,6 +964,15 @@
   name: Variables
   mdn: /en-US/docs/Web/CSS/CSS_Variables
   caniuse: css-variables
+  example:
+    language: css
+    code: |
+      :root {
+        --main-bg-color: brown;
+      }
+      .foo {
+        background-color: var(--main-bg-color);
+      }
   tags:
       - css
       - css_other
@@ -894,13 +1021,6 @@
   name: CSS Houdini
   mdn: /en-US/docs/Web/Houdini
   caniuse: css-paint-api
-  tags:
-      - css
-      - css_other
-
-- id: comparison_functions
-  name: CSS Comparison Functions
-  caniuse: css-math-functions
   tags:
       - css
       - css_other
@@ -975,10 +1095,53 @@
       - css
       - css_other
 
+
+- id: math_functions
+  name: CSS Math Functions
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  tags:
+      - css
+      - css_other
+
+- id: comparison_functions
+  name: CSS Comparison Functions
+  description: >
+    `min()`, `max()`, `clamp()`
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  example: 
+    language: css
+    code: |
+      .element {
+        width: clamp(100px, 50vw, 600px); 
+      }
+  tags:
+      - css
+      - css_other
+
 - id: trigonometric_functions
   name: Trigonometric Functions
-  mdn: 
-  caniuse:
+  description: >
+    `sin()`, `cos()`, `tan()`…
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  tags:
+      - css
+      - css_other
+
+- id: exponential_functions
+  name: Exponential Functions
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  tags:
+      - css
+      - css_other
+
+- id: sign_related_functions
+  name: Exponential Functions
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
   tags:
       - css
       - css_other
@@ -1006,6 +1169,31 @@
   caniuse:
   tags:
       - css
+      - css_other
+
+- id: shadow_dom_css
+  name: Shadow DOM Features
+  description: >
+    `::part()`, `:host()`, `::slotted()`
+  mdn: /en-US/docs/Web/CSS/::part
+  caniuse: mdn-api_element_part
+  example:
+    language: css
+    code : |
+      custom-element::part(foo) {
+        /* Styles to apply to the `foo` part */
+      }
+
+      :host(.special-custom-element) {
+        font-weight: bold;
+      }
+
+      ::slotted(*) {
+        font-weight: bold;
+      }
+  tags:
+      - css
+      - css_shadow_dom
       - css_other
 
 - id: shadow_dom_part
@@ -1065,6 +1253,28 @@
           url("small-balloons.jpg") 1x,
           url("large-balloons.jpg") 2x);
       }
+  tags:
+      - css
+      - css_other
+
+- id: image_function
+  name: "`image()`"
+  mdn: /en-US/docs/Web/CSS/image/image
+  caniuse: mdn-css_types_image_image
+  example: 
+    language: css
+    code : |
+      .foo {
+        background-image: image("myimage.webp#xywh=0,20,40,60");
+      }
+  tags:
+      - css
+      - css_other
+
+- id: attr_function
+  name: "`attr()`"
+  mdn: /en-US/docs/Web/CSS/attr
+  caniuse: css3-attr
   tags:
       - css
       - css_other

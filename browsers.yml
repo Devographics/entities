@@ -30,7 +30,7 @@
   name: Firefox Quantum
   homepage: https://www.mozilla.org/en-US/firefox/developer/
 
-  aliases:
+  patterns:
     - Firefox Developers Edition
 - id: firefox_android
   name: Firefox Android
@@ -42,7 +42,7 @@
 - id: internet_explorer_8_9_10
   name: Internet Explorer 8/9/10
   homepage: https://www.microsoft.com/en-us/download/internet-explorer.aspx
-  aliases:
+  patterns:
     - Internet Explorer
 
 - id: opera
@@ -57,7 +57,7 @@
   name: Samsung Internet
   homepage: https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_US
 
-  aliases:
+  patterns:
     - Samsung
 - id: ucbrowser
   name: UC Browser

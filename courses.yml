@@ -8,11 +8,10 @@
 
 - id: levelup
   name: Level Up Tutorials
-  aliases:
-    - LevelUp Tutorials
   homepage: https://www.leveluptutorials.com/
   patterns:
     - level( |-|_)?up
+    - LevelUp Tutorials
 
 - id: udemy
   name: Udemy
@@ -91,7 +90,7 @@
 - id: traversy_media
   name: Traversy Media
   homepage: https://www.traversymedia.com/
-  aliases:
+  patterns:
     - traversy
 
 - id: javascript_info

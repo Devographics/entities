@@ -48,7 +48,6 @@
 - id: dan_abramov
   twitterName: overreacted
   name: Dan Abramov
-  otherName: Overreacted
   homepage: https://overreacted.io/
   tags:
     - js
@@ -108,7 +107,6 @@
 - id: andy_bell
   twitterName: piccalilli_
   name: Andy Bell
-  otherName: Piccalilli
   homepage: https://piccalil.li/
   tags:
     - css
@@ -197,7 +195,6 @@
 - id: harry_roberts
   twitterName: csswizardry
   name: Harry Roberts
-  otherName: CSS Wizardry
   homepage: https://css_wizardry.com
   tags:
     - css
@@ -248,7 +245,6 @@
   twitterName: chriscoyier
   name: Chris Coyier
   bio: Creator of CSS Tricks and Codepen.
-  otherName: CSS Tricks
   homepage: https://css-tricks.com
   tags:
     - css

@@ -16,7 +16,7 @@
   homepage: https://css-tricks.com/
   tags:
     - blogs
-  aliases:
+  patterns:
     - CSS-Tricks
 
 - id: smashing_magazine
@@ -191,7 +191,7 @@
 - id: web_dev
   name: Web.dev
   homepage: https://web.dev/
-  aliases:
+  patterns:
     - web-dev
 
 - id: elm_slack

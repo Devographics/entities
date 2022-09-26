@@ -21,10 +21,9 @@
 - id: visual_studio
   name: 'VS Code'
   homepage: https://code.visualstudio.com/
-  aliases:
-      - vs_code
   patterns: 
-    - vs( |-)?code
+    - vs_code
+    - vs( |-|_)?code
 
 - id: visual_studio_not_code
   name: Visual Studio
