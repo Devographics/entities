@@ -400,6 +400,12 @@
   name: "`color-contrast()`"
   mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
   caniuse: mdn-css_types_color_color-contrast
+  example:
+    language: css
+    code: |
+      .high-contrast {
+        color-contrast(#008080 vs olive, var(--myColor), #d2691e)
+      }
   tags:
       - css
       - css_colors
@@ -510,10 +516,7 @@
     language: css
     code : |
       .gradient {
-        background-image: linear-gradient(
-          to right in hsl,
-          black, white
-        );
+        background: linear-gradient(in oklab, hsl(80 90% 50%), red);
       }
   tags:
       - css
@@ -913,6 +916,14 @@
   name: "`prefers-reduced-motion`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-motion
   caniuse: prefers-reduced-motion
+  example:
+    language: css
+    code: |
+      @media (prefers-reduced-motion) {
+        .animation {
+          animation: none;
+        }
+      }
   tags:
       - css
       - css_media_queries
@@ -922,6 +933,15 @@
   name: "`prefers-color-scheme`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-color-scheme
   caniuse: prefers-color-scheme
+  example:
+    language: css
+    code: |
+      @media (prefers-color-scheme: dark) {
+        .foo {
+          background: #333;
+          color: white;
+        }
+      }
   tags:
       - css
       - css_media_queries
@@ -947,6 +967,14 @@
   name: "`prefers-reduced-data`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-data
   caniuse: mdn-css_at-rules_media_prefers-reduced-data
+  example:
+    language: css
+    code: |
+      @media (prefers-reduced-data: reduce) {
+        body {
+          font-family: system-ui;
+        }
+      }
   tags:
       - css
       - css_media_queries
@@ -956,6 +984,12 @@
   name: "`color-scheme`"
   mdn: /en-US/docs/Web/CSS/color-scheme
   caniuse: mdn-css_properties_color-scheme
+  example: 
+    language: css
+    code: |
+      .foo {
+        color-scheme: light dark;
+      }
   tags: 
     - css
     - accessibility
@@ -971,6 +1005,12 @@
   name: "`:focus-visible`"
   mdn: /en-US/docs/Web/CSS/:focus-visible
   caniuse: css-focus-visible
+  example:
+    language: css
+    code: |
+      .focus-visible-only:focus-visible {
+        outline: 2px dashed darkorange;
+      }
   tags: 
     - css
     - accessibility
@@ -1184,6 +1224,17 @@
   w3c: TR/css-nesting-1/
   mdn:
   caniuse:
+  example:
+    language: css
+    code: |
+      .button {
+        &.small { 
+          font-size: .8rem; 
+        }
+        @nest .small & { 
+          font-size: .7rem; 
+        }
+      }
   tags:
       - css
       - css_other
