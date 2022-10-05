@@ -1,5 +1,14 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
+- id: state_of_css_email
+  name: State of CSS Email List
+
+- id: state_of_js_email
+  name: State of JS Email List
+
+- id: state_of_graphql_email
+  name: State of GraphQL Email List
+
 - id: unknown
   name: Unknown
   patterns:

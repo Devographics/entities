@@ -828,8 +828,9 @@
   example: 
     language: css
     code : |
-      /* Matching <a> elements that directly contain an <img> */
-      a:has(> img)
+      a:has(> img) {
+        border: 2px solid grey;
+      }
   patterns:
     - \:has
     - has\(\)
@@ -844,8 +845,6 @@
   example: 
     language: css
     code : |
-      /* Selects any paragraph inside a header, main
-        or footer element that is being hovered */
       :where(header, main, footer) p:hover {
         color: red;
         cursor: pointer;
