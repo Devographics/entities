@@ -48,6 +48,10 @@
 - id: linkedin_learning
   name: LinkedIn Learning
   homepage: https://www.linkedin.com/learning/
+  patterns:
+    - lynda
+    - linkedin
+    - linked( |-)in
 
 - id: academind
   name: Academind
