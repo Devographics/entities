@@ -135,3 +135,20 @@
   tags:
     - css
     - utilities
+
+#################################################
+# Form Factors
+#################################################
+
+- id: browserstack
+  name: BrowserStack
+  homepage: https://www.browserstack.com/
+  tags: 
+    - css 
+    - form_factors
+
+- id: voice
+  name: Voice Control
+  tags: 
+    - css 
+    - form_factors

@@ -1,22 +1,5 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
-- id: state_of_css_email
-  name: State of CSS Email List
-
-- id: state_of_js_email
-  name: State of JS Email List
-
-- id: state_of_graphql_email
-  name: State of GraphQL Email List
-
-- id: unknown
-  name: Unknown
-  patterns:
-    - stateofgraphql
-    - survey.stateofgraphql.com
-    - stateofgraphql.com
-    - devographics.com
-
 - id: twitter
   name: Twitter
   homepage: https://www.twitter.com/
@@ -35,22 +18,22 @@
     # - previous
     # - past
 
-- id: work
-  name: Work
-  patterns:
-    - co( |-)workers
-    - coll?ea?gu?a?es?
-    - company
+# - id: work
+#   name: Work
+#   patterns:
+#     - co( |-)workers
+#     - coll?ea?gu?a?es?
+#     - company
 
 - id: duckduckgo
   name: DuckDuckGo
   homepage: https://duckduckgo.com/
 
-- id: word_of_mouth
-  name: Word Of Mouth
-  patterns:
-    - friend
-    - family
+# - id: word_of_mouth
+#   name: Word Of Mouth
+#   patterns:
+#     - friend
+#     - family
 
 - id: vk
   name: VK

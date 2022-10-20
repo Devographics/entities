@@ -64,6 +64,15 @@
     - css
     - css_pre_post_processors
 
+- id: lightning_css
+  name: Lightning CSS
+  contexts: [state_of_css]
+  github: parcel-bundler/lightningcss
+  homepage: https://lightningcss.dev/
+  tags:
+    - css
+    - css_pre_post_processors
+
 #################################################
 # CSS frameworks
 #################################################
@@ -224,6 +233,94 @@
   homepage: https://www.radix-ui.com/
   github: radix-ui/primitives
   npm: "@radix-ui"
+  tags:
+    - css
+    - css_frameworks
+
+- id: uno_css
+  name: UnoCSS
+  contexts: [state_of_css]
+  homepage: https://uno.antfu.me/
+  github: unocss/unocss
+  tags:
+    - css
+    - css_frameworks
+
+- id: open_props
+  name: Open Props
+  contexts: [state_of_css]
+  homepage: https://open-props.style/
+  github: argyleink/open-props
+  tags:
+    - css
+    - css_frameworks
+
+- id: mantine
+  name: Mantine
+  contexts: [state_of_css]
+  homepage: https://mantine.dev/
+  github: mantinedev/mantine
+  tags:
+    - css
+    - css_frameworks
+
+- id: pico_css
+  name: Pico.css
+  contexts: [state_of_css]
+  homepage: https://picocss.com/
+  github: picocss/pico
+  tags:
+    - css
+    - css_frameworks
+
+- id: shoelace
+  name: Shoelace
+  contexts: [state_of_css]
+  homepage: https://shoelace.style/
+  github: shoelace-style/shoelace
+  tags:
+    - css
+    - css_frameworks
+
+- id: daisy_ui
+  name: daisyUI
+  contexts: [state_of_css]
+  homepage: https://daisyui.com/
+  github: saadeghi/daisyui
+  tags:
+    - css
+    - css_frameworks
+
+- id: water_css
+  name: Water.css
+  contexts: [state_of_css]
+  homepage: https://watercss.kognise.dev/
+  github: kognise/water.css
+  tags:
+    - css
+    - css_frameworks
+
+- id: master_css
+  name: Master CSS
+  contexts: [state_of_css]
+  homepage: https://css.master.co/
+  github: master-co/css
+  tags:
+    - css
+    - css_frameworks
+
+- id: automatic_css
+  name: Automatic.css
+  contexts: [state_of_css]
+  homepage: https://automaticcss.com/
+  tags:
+    - css
+    - css_frameworks
+
+- id: milligram
+  name: Milligram
+  contexts: [state_of_css]
+  homepage: https://milligram.io/
   tags:
     - css
     - css_frameworks
@@ -505,6 +602,14 @@
 - id: css_nano
   name: cssnano
   homepage: https://cssnano.co/
+  tags:
+    - css
+    - css_utilities
+
+- id: clean_css
+  name: clean-css
+  homepage: https://clean-css.github.io/
+  github: clean-css/clean-css
   tags:
     - css
     - css_utilities

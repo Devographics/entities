@@ -1,14 +1,6 @@
 
 # missing features
 
-- id: container_queries
-  name: Container Queries
-  patterns:
-    - container( |-)(media|width)? ?quer(y|ies)
-    - (element|object|component)s? (based )?(media )?quer(y|ies)
-  tags:
-    - css_missing_features
-
 - id: parent_selector
   name: Parent Selector
   patterns:
@@ -17,28 +9,6 @@
     - parent (of )?(an )?element
     - \:parent
     - (target|select|style) (a )?parent
-  tags:
-    - css_missing_features
-
-- id: nesting
-  name: Nesting
-  patterns:
-    - nested select(or|ion)
-  tags:
-    - css_missing_features
-
-- id: subgrid
-  name: Subgrid
-  patterns:
-    - sub( |-)?grid
-  tags:
-    - css_missing_features
-
-- id: has_selector
-  name: ":has Selector"
-  patterns:
-    - \:has
-    - has\(\)
   tags:
     - css_missing_features
 
@@ -145,11 +115,6 @@
   tags:
     - css_missing_features
 
-- id: aspect_ratio
-  name: Aspect Ratio
-  tags:
-    - css_missing_features
-    
 # pain points
 
 - id: safari
@@ -298,7 +263,7 @@
   tags: 
     - accessibility_features
 
-# browser interoperability
+# browser interoperability, missing features, pain points
 
 - id: scrollbar
   name: Scrollbar Styling
@@ -313,6 +278,65 @@
     - browser_interoperability
 
 - id: clamp
-  name: clamp
+  name: clamp()
   tags: 
     - browser_interoperability
+
+- id: gap
+  name: gap
+  tags: 
+    - browser_interoperability
+
+- id: display_contents
+  name: "`display: contents`"
+  patterns:
+    - "display: content"
+    - "display:content"
+  tags: 
+    - browser_interoperability
+
+- id: styling_select
+  name: Styling `select` Inputs
+  patterns:
+    - select input
+    - select menu
+    - select styling
+  tags: 
+    - css_missing_features
+
+- id: random
+  name: "`random()` Function"
+  tags: 
+    - css_missing_features
+
+- id: popups_popovers
+  name: Popups & Popovers
+  patterns:
+    - popup
+    - popover
+  tags: 
+    - css_missing_features
+
+# sources
+
+- id: state_of_css_email
+  name: State of CSS Email List
+  patterns:
+    - state of css
+    - email
+  tags: 
+    - sources_stateofcss
+
+- id: state_of_graphql_email
+  name: State of GraphQL Email List
+  patterns:
+    - state of graphql
+  tags: 
+    - sources_stateofcss
+
+- id: state_of_js_email
+  name: State of JS Email List
+  patterns:
+    - state of js
+  tags: 
+    - sources_stateofcss

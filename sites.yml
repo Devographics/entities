@@ -280,6 +280,8 @@
   homepage: https://www.w3.org/
   patterns:
     - w3( |-|-|.)?org
+    - w3 spec
+    - css spec
 
 - id: indie_hackers
   name: Indie Hackers
@@ -294,6 +296,9 @@
   name: Modern CSS Solutions
   homepage: http://moderncss.dev/
   rss: https://moderncss.dev/feed/
+  patterns:
+    - ModernCSS+Newsletter
+    - modern css
 
 - id: zen_garden
   name: CSS Zen Garden
@@ -342,3 +347,27 @@
 - id: heise
   name: Heise Online
   homepage: https://www.heise.de/
+
+- id: defensive_css
+  name: Defensive CSS
+  homepage: https://defensivecss.dev/
+
+- id: frontend_dogma
+  name: Frontend Dogma
+  homepage: https://frontenddogma.com/
+
+- id: quirksmode
+  name: QuirksMode
+  homepage: https://www.quirksmode.org/
+
+- id: web_design_weekly
+  name: Web Design Weekly
+  homepage: https://web-design-weekly.com/
+  tags:
+    - newsletters
+
+- id: friday_front_end
+  name: Friday Front-End
+  homepage: https://fridayfrontend.com/
+  tags:
+    - newsletters

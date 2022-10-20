@@ -285,3 +285,15 @@
   homepage: https://www.twitch.tv/graphqlfm
   tags:
     - graphql
+
+- id: word_wrap
+  name: Word Wrap
+  homepage: https://wordwrap.dev/
+  tags:
+    - css
+
+- id: wo_wir_sind_ist_vorne
+  name: Wo Wir Sind Ist Vorne
+  homepage: https://wowirsindistvorne.show/
+  tags:
+    - css

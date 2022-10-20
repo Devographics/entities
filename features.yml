@@ -22,8 +22,9 @@
   patterns:
     - sub( |-)?grid
   tags:
-      - css
-      - css_layout
+    - css
+    - css_layout
+
 
 - id: regions
   name: CSS Regions
@@ -144,8 +145,8 @@
         break-before: page;
       }
   tags:
-      - css
-      - css_layout
+    - css
+    - css_layout
 
 - id: at_container
   name: "`@container`"
@@ -166,8 +167,8 @@
     - container( |-)(media|width)? ?quer(y|ies)
     - (element|object|component)s? (based )?(media )?quer(y|ies)
   tags:
-      - css
-      - css_layout
+    - css
+    - css_layout
 
 - id: object_view_box
   name: "`object-view-box`"
@@ -404,7 +405,7 @@
     language: css
     code: |
       .high-contrast {
-        color-contrast(#008080 vs olive, var(--myColor), #d2691e)
+        color: color-contrast(#008080 vs olive, var(--myColor), #d2691e);
       }
   tags:
       - css
@@ -1234,9 +1235,11 @@
           font-size: .7rem; 
         }
       }
+  patterns:
+    - nested select(or|ion)
   tags:
-      - css
-      - css_other
+    - css
+    - css_other
 
 - id: env_function
   name: "`env()` Function"

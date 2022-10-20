@@ -113,3 +113,11 @@
 - id: qutebrowser
   name: Qutebrowser
   homepage: https://qutebrowser.org/
+
+- id: orion
+  name: Orion
+  homepage: https://browser.kagi.com/
+
+- id: arc
+  name: Arc
+  homepage: https://arc.net/

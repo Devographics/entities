@@ -51,3 +51,15 @@
   
 - id: dyslexia
   name: Dyslexia
+  
+- id: chronic_fatigue
+  name: Chronic Fatigue
+  
+- id: chronic_pain
+  name: Chronic Pain
+  
+- id: ocd
+  name: OCD
+  
+- id: migraine
+  name: Migraine

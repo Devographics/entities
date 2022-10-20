@@ -607,7 +607,7 @@
   tags:
     - css
 
-- id: mark_dalgeish
+- id: mark_dalgleish
   name: Mark Dalgleish
   twitterName: markdalgleish
   homepage:
@@ -616,6 +616,9 @@
   tags:
     - css
     - js
+  patterns:
+    - dalgeish
+    - dagleish
 
 - id: jeffrey_zeldman
   name: Jeffrey Zeldman
@@ -1610,6 +1613,30 @@
   tags:
     - js
 
+- id: temani_afif
+  name: Temani Afif
+  twitterName: ChallengesCss
+  homepage: https://css-challenges.com/
+  blog:
+  rss:
+  tags:
+    - css
+  patterns:
+    - afif
+
+
+- id: jhey_tompkins
+  name: Jhey Tompkins
+  twitterName: jh3yy
+  homepage: https://jhey.dev/
+  blog:
+  rss:
+  tags:
+    - css
+  patterns:
+    - jhey
+    - jh3y
+    
 # - id:
 #   name:
 #   twitterName:
@@ -1619,15 +1646,6 @@
 #   tags:
 #     - js
 
-
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
 
 # - id:
 #   name:

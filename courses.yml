@@ -174,3 +174,7 @@
 - id: edx
   name: edx
   homepage: https://www.edx.org/
+
+- id: css_for_js_devs
+  name: CSS for JS Devs
+  homepage: https://css-for-js.dev/

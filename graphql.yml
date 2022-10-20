@@ -45,6 +45,28 @@
 - id: lighthouse
   name: Lighthouse
   homepage: https://lighthouse-php.com/
+- id: graphql_ruby
+  name: GraphQL Ruby
+  homepage: https://graphql-ruby.org/
+  patterns: 
+    - graphql-rb
+- id: async_graphql
+  name: async-graphql
+  homepage: https://github.com/async-graphql/async-graphql
+- id: async_graphql
+  name: async-graphql
+  homepage: https://async-graphql.github.io/
+- id: juniper
+  name: Juniper
+  homepage: https://github.com/graphql-rust/juniper
+- id: ariadne
+  name: Ariadne
+  homepage: https://ariadnegraphql.org/
+- id: graphql_php
+  name: graphql-php
+  homepage: https://webonyx.github.io/graphql-php/
+  patterns:
+    - webonyx
 
 # GraphQL Clients
 
@@ -84,6 +106,11 @@
 - id: villus
   name: Villus
   homepage: https://villus.logaretm.com/
+- id: aws_amplify
+  name: AWS Amplify
+  homepage: https://aws.amazon.com/amplify/
+  patterns:
+    - amplify
 - id: no_client
   name: No Client
   
@@ -139,6 +166,9 @@
 - id: prismic
   name: Prismic
   homepage: https://prismic.io/
+- id: amplication
+  name: Amplication
+  homepage: https://amplication.com/
 
 # GraphQL Code Generators
 - id: graphql_zeus
@@ -474,3 +504,27 @@
   patterns: 
     - s2s
     - server 2 server
+
+# sources
+
+- id: state_of_graphql_email
+  name: State of GraphQL Email List
+  patterns:
+    - state of graphql
+    - email
+  tags: 
+    - sources_stateofgraphql
+
+- id: state_of_js_email
+  name: State of JS Email List
+  patterns:
+    - state of js
+  tags: 
+    - sources_stateofgraphql
+
+- id: state_of_css_email
+  name: State of CSS Email List
+  patterns:
+    - state of css
+  tags: 
+    - sources_stateofgraphql
