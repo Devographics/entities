@@ -210,25 +210,10 @@
 
 # sources
 
-- id: state_of_js_email
-  name: State of JS Email List
+- id: state_of_js_survey
+  normalizationOnly: true
   patterns:
-    - state of js
     - email
+    - devographics.com
   tags: 
-    - sources_stateofjs
-
-- id: state_of_css_email
-  name: State of CSS Email List
-  patterns:
-    - state of css
-  tags: 
-    - sources_stateofjs
-
-- id: state_of_graphql_email
-  name: State of GraphQL Email List
-  patterns:
-    - state of graphql
-  tags: 
-    - sources_stateofjs
-
+    - sources_state_of_js

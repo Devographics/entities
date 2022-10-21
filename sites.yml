@@ -74,19 +74,6 @@
   name: The CSS Specs
   homepage: https://www.w3.org/Style/CSS/specs.en.html
 
-- id: stateofjs
-  name: State of JS
-  homepage: https://stateofjs.com
-  patterns:
-    - state( |-)?of( |-)?js
-    - state( |-)?of( |-)?javascript
-
-- id: stateofcss
-  name: State of CSS
-  homepage: https://stateofcss.com
-  patterns:
-    - state( |-)?of( |-)?css
-
 - id: one_page_love
   name: One Page Love
   homepage: https://onepagelove.com/
@@ -371,3 +358,19 @@
   homepage: https://fridayfrontend.com/
   tags:
     - newsletters
+
+- id: speckyboy
+  name: Speckyboy
+  homepage: https://speckyboy.com/
+
+- id: velog
+  name: Velog
+  homepage: https://velog.io/
+
+- id: kode24
+  name: Kode24
+  homepage: https://www.kode24.no/
+
+- id: vived
+  name: Vived
+  homepage: https://vived.io/

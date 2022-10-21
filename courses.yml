@@ -12,6 +12,7 @@
   patterns:
     - level( |-|_)?up
     - LevelUp Tutorials
+    - leveluptutorials
 
 - id: udemy
   name: Udemy

@@ -1,0 +1,4 @@
+- id: browser_support
+  name: Browser Support
+  patterns:
+    - supported

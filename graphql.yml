@@ -507,24 +507,10 @@
 
 # sources
 
-- id: state_of_graphql_email
-  name: State of GraphQL Email List
+- id: state_of_graphql_survey
+  normalizationOnly: true
   patterns:
-    - state of graphql
     - email
+    - devographics.com
   tags: 
-    - sources_stateofgraphql
-
-- id: state_of_js_email
-  name: State of JS Email List
-  patterns:
-    - state of js
-  tags: 
-    - sources_stateofgraphql
-
-- id: state_of_css_email
-  name: State of CSS Email List
-  patterns:
-    - state of css
-  tags: 
-    - sources_stateofgraphql
+    - sources_state_of_graphql

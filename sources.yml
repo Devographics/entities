@@ -18,12 +18,12 @@
     # - previous
     # - past
 
-# - id: work
-#   name: Work
-#   patterns:
-#     - co( |-)workers
-#     - coll?ea?gu?a?es?
-#     - company
+- id: work
+  name: Workplace
+  patterns:
+    - co( |-)worker
+    - coll?ea?gu?a?es?
+    - company
 
 - id: duckduckgo
   name: DuckDuckGo
@@ -37,6 +37,7 @@
 
 - id: vk
   name: VK
+  homepage: https://vk.com/
   patterns:
     - away.vk.com
 
@@ -132,3 +133,7 @@
   homepage: https://www.prisma.io/
   tags: 
     - graphql
+
+- id: mozilla
+  name: Mozilla
+  homepage: https://www.mozilla.org/

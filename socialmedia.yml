@@ -73,3 +73,10 @@
 - id: habr
   name: Habr
   homepage: https://habr.com/en/
+
+- id: microsoft_teams
+  name: Microsoft Teams
+  homepage: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+  patterns:
+    - teams
+    - statics.teams.cdn.office.net
