@@ -22,6 +22,8 @@
 - id: smashing_magazine
   name: Smashing Magazine
   homepage: https://www.smashingmagazine.com/
+  patterns:
+    - smashing_mag
   tags:
     - blogs
 

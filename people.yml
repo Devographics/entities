@@ -362,6 +362,8 @@
   homepage: https://ericwbailey.design/
   tags:
     - css
+  patterns:
+    - eric bailey
 
 - id: max_bock
   twitterName: mxbck
@@ -1638,6 +1640,66 @@
     - jhey
     - jh3y
     
+- id: samuel_kraft
+  name: Samuel Kraft
+  twitterName: samuelkraft
+  homepage: https://samuelkraft.com/
+  # blog:
+  # rss:
+  tags:
+    - css
+
+
+- id: alyssa_nicoll
+  name: Alyssa Nicoll
+  twitterName: AlyssaNicoll
+  # homepage:
+  # blog:
+  # rss:
+  tags:
+    - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
+
+
 # - id:
 #   name:
 #   twitterName:

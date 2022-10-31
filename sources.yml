@@ -1,6 +1,7 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
 - id: twitter
+  normalizationOnly: true
   name: Twitter
   homepage: https://www.twitter.com/
   patterns:

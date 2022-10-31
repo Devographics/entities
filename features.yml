@@ -111,13 +111,6 @@
       - css
       - css_layout
 
-- id: content_visibility
-  name: "`content-visibility`"
-  caniuse: css-content-visibility
-  tags:
-      - css
-      - css_layout
-
 - id: flexbox_gap
   name: Flexbox `gap`
   mdn: /en-US/docs/Web/CSS/gap
@@ -1513,21 +1506,31 @@
 - id: private_fields
   name: Private Fields
   mdn: /en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
-
+  example:
+    language: js
+    code: |
+      class ClassWithPrivateField { 
+        #privateField 
+      }
+      
 - id: promise_all_settled
-  name: Promise.allSettled()
+  name: "`Promise.allSettled()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
 
 - id: dynamic_import
   name: Dynamic Import
   mdn: /en-US/docs/Web/JavaScript/Reference/Statements/import
-
+  example:
+    language: js
+    code: |
+      await import('/modules/my-module.js')
+      
 - id: big_int
-  name: BigInt
+  name: "`BigInt`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
 
 - id: intl
-  name: Intl
+  name: "`Intl`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
 
 - id: custom_elements
@@ -1544,12 +1547,12 @@
   caniuse: mdn-javascript_grammar_numeric_separators
 
 - id: string_replace_all
-  name: String.prototype.replaceAll()
+  name: "`String.prototype.replaceAll()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
   caniuse: mdn-javascript_builtins_string_replaceall
 
 - id: string_match_all
-  name: String.prototype.matchAll()
+  name: "`String.prototype.matchAll()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
   caniuse: mdn-javascript_builtins_string_matchall
 
@@ -1559,15 +1562,64 @@
   caniuse: mdn-javascript_operators_logical_and_assignment
 
 - id: promise_any
-  name: Promise.any()
+  name: "`Promise.any()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
   caniuse: mdn-javascript_builtins_promise_any
 
 - id: array_at
-  name: Array.prototype.at()
+  name: "`Array.prototype.at()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at
   caniuse: mdn-javascript_builtins_array_at
 
 - id: top_level_await
-  name: Top Level Await
+  name: Top Level `await()`
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/await
+
+- id: temporal
+  name: Temporal
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+- id: array_findlast
+  name: "`Array.findLast()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
+  example: 
+    language: js
+    code: |
+      const array1 = [5, 12, 50, 130, 44];
+      const found = array1.findLast((element) => element > 45);
+      console.log(found); 
+      // expected output: 130
+
+- id: error_cause
+  name: "`Error.prototype.cause`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause
+  example: 
+    language: js
+    code: |
+      try {
+        connectToDatabase();
+      } catch (err) {
+        throw new Error('Connecting to database failed.', { cause: err });
+      }
+
+- id: object_hasown
+  name: "`Object.hasOwn()`"
+  example: 
+    language: js
+    code: |
+      const object1 = {
+        prop: 'exists'
+      };
+      console.log(Object.hasOwn(object1, 'prop'));
+      // expected output: true
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
+
+- id: regexp_match_indices
+  name: Regexp Match Indices
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/hasIndices
+  example: 
+    language: js
+    code: |
+      const str1 = "foo bar foo";
+      const regex1 = /foo/dg;
+      console.log(regex1.exec(str1).indices[0]); // Output: Array [0, 3]

@@ -52,9 +52,6 @@
 - id: twitter
   name: Twitter
   homepage: https://twitter.com
-  patterns:
-    - twee?t,
-    - https\:\/\/t\.co
 
 - id: instagram
   name: Instagram

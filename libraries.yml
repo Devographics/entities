@@ -1984,6 +1984,68 @@
   tags:
     - runtimes
 
+- id: bun
+  name: Bun
+  homepage: https://bun.sh/
+  tags:
+    - runtimes
+
+- id: aws_lambda
+  name: AWS Lambda
+  homepage: https://aws.amazon.com/lambda/
+  tags:
+    - runtimes
+    - edge_runtimes
+
+- id: netlify_edge_functions
+  name: Netlify Edge Functions
+  homepage: https://docs.netlify.com/edge-functions/overview/
+  tags:
+    - runtimes
+    - edge_runtimes
+
+- id: fastly_edge_compute
+  name: Fastly Edge Compute
+  homepage: https://www.fastly.com/products/edge-compute
+  tags:
+    - runtimes
+    - edge_runtimes
+
+- id: google_cloud_functions
+  name: Google Cloud Functions
+  homepage: https://cloud.google.com/functions
+  tags:
+    - runtimes
+    - edge_runtimes
+
+- id: akamai_edge_workers
+  name: Akamai EdgeWorkers
+  homepage: https://developer.akamai.com/akamai-edgeworkers-overview
+  tags:
+    - runtimes
+    - edge_runtimes
+
+- id: nextjs_edge_runtime
+  name: Next.js Edge Runtime
+  homepage: https://nextjs.org/docs/api-reference/edge-runtime
+  tags:
+    - runtimes
+    - edge_runtimes
+
+- id: netlify_edge_functions
+  name: Netlify Edge Functions
+  homepage: https://docs.netlify.com/edge-functions/overview/
+  tags:
+    - runtimes
+    - edge_runtimes
+
+- id: fly_io
+  name: Fly.io
+  homepage: https://fly.io/
+  tags:
+    - runtimes
+    - edge_runtimes
+    
 #################################################
 # Other Tools
 #################################################
