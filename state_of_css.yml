@@ -222,6 +222,13 @@
   tags: 
     - css_uses
 
+- id: extensions
+  name: Browser Extensions
+  tags: 
+    - css_uses
+  patterns:
+    - extension
+
 # accessibility features
 
 - id: wcag_2_1_aa
@@ -295,6 +302,53 @@
   tags: 
     - browser_interoperability
 
+- id: has_selector
+  normalizationOnly: true
+  patterns:
+    - has
+  tags: 
+    - browser_interoperability
+
+- id: css_nesting
+  normalizationOnly: true
+  patterns:
+    - nest
+    - nesting
+    - nested
+  tags: 
+    - browser_interoperability
+    - css_missing_features
+
+- id: loops
+  name: For Loops
+  patterns:
+    - loop
+  tags: 
+    - css_missing_features
+
+- id: multi_column
+  normalizationOnly: true
+  patterns:
+    - column
+  tags: 
+    - browser_interoperability
+
+- id: input_styling
+  name: Input Styling 
+  patterns:
+    - styling input
+    - form controls
+  tags: 
+    - browser_interoperability
+    - css_missing_features
+
+- id: cmyk_colors
+  name: CMYK Colors
+  patterns:
+    - cmyk
+  tags: 
+    - css_missing_features
+
 - id: styling_select
   name: Styling `select` Inputs
   patterns:
@@ -316,6 +370,42 @@
     - popover
   tags: 
     - css_missing_features
+
+- id: animate_to_auto
+  name: Animate to Auto
+  patterns:
+    - to auto
+    - to/from auto
+    - "height(:| )auto"
+  tags: 
+    - css_missing_features
+
+- id: specificity
+  name: Specificity
+  tags: 
+    - css_pain_points
+
+- id: naming
+  name: Naming
+  tags: 
+    - css_pain_points
+
+- id: forms
+  name: Forms
+  tags: 
+    - css_pain_points
+
+- id: debugging
+  name: Debugging
+  patterns:
+    - debug
+  tags: 
+    - css_pain_points
+
+- id: compatibility
+  name: Compatibility
+  tags: 
+    - css_pain_points
 
 # sources
 

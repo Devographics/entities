@@ -131,9 +131,11 @@
   name: Ladybug Podcast
   homepage: https://ladybug.dev/
 
-- id: real_talk_javascript
-  name: Real Talk JavaScript
-  homepage: https://realtalkjavascript.simplecast.com/
+- id: web_rush
+  name: Web Rush
+  homepage: https://webrush.io/
+  patterns:
+    - real talk javascript
 
 - id: undefined_podcast
   name: The Undefined Podcast

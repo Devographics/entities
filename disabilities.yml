@@ -5,6 +5,7 @@
   name: ADHD
   patterns:
     - add
+    - attention deficit
 
 - id: autism
   name: Autism
@@ -51,6 +52,9 @@
   
 - id: dyslexia
   name: Dyslexia
+  patterns:
+    - dyslexic
+    - dislexic
   
 - id: chronic_fatigue
   name: Chronic Fatigue
@@ -63,3 +67,14 @@
   
 - id: migraine
   name: Migraine
+  patterns:
+    - headache
+  
+- id: speech_impairment
+  name: Speech Impairment
+  patterns:
+    - stutter
+    - speech impediment
+  
+- id: crohn
+  name: Crohn's Disease

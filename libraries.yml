@@ -945,6 +945,12 @@
   name: HTMX
   homepage: https://htmx.org/
 
+- id: qwik
+  name: Qwik
+  # npm: null
+  github: builderIO/Qwik
+  homepage: https://qwik.builder.io/
+
 #################################################
 # Data Layer
 #################################################
@@ -1319,6 +1325,16 @@
     The fastest way to build Svelte apps
   homepage: https://kit.svelte.dev/
 
+- id: solidstart
+  name: SolidStart
+  github: solidjs/solid-start
+  homepage: https://start.solidjs.com/
+
+- id: docusaurus
+  name: Docusaurus
+  github: facebook/docusaurus
+  homepage: https://docusaurus.io/
+
 - id: apollo_server
   name: Apollo Server
   homepage: https://www.apollographql.com/docs/apollo-server/
@@ -1532,6 +1548,11 @@
   github: lukeed/uvu
   npm: uvu
 
+- id: selenium
+  name: Selenium
+  github: seleniumhq/selenium
+  homepage: https://www.selenium.dev/
+
 #################################################
 # Animation & Graphics
 #################################################
@@ -1543,49 +1564,32 @@
   description: "Bring data to life with SVG, Canvas and HTML."
   homepage: "https://d3js.org"
 
-- id: threejs
+- id: three_js
   name: Three.js
   npm: three
   github: mrdoob/three.js
   description: JavaScript 3D library.
   homepage: "https://threejs.org/"
+  tags:
+    - animation
 
-- id: fabricjs
+- id: fabric_js
   name: Fabric.js
   npm: fabric
   github: fabricjs/fabric.js
   description: "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser"
   homepage: "http://fabricjs.com"
+  tags:
+    - animation
 
-- id: visx
-  name: visx
-  npm: null
-  github: airbnb/visx
-  description: "A collection of expressive, low-level visualization primitives for React"
-  homepage: "https://airbnb.io/visx"
-
-- id: nivo
-  name: Nivo
-  npm: nivo
-  github: plouc/nivo
-  description: >-
-    nivo provides a rich set of dataviz components, built on top of the awesome
-    d3 and Reactjs libraries
-  homepage: "https://nivo.rocks"
-
-- id: recharts
-  name: Recharts
-  npm: recharts
-  github: recharts/recharts
-  description: Redefined chart library built with React and D3
-  homepage: "http://recharts.org"
-
-- id: animejs
+- id: anime_js
   name: Anime.js
   npm: animejs
   github: juliangarnier/anime
   description: JavaScript animation engine
   homepage: "https://animejs.com"
+  tags:
+    - animation
 
 - id: popmotion
   name: Popmotion
@@ -1595,6 +1599,8 @@
   homepage: "https://popmotion.io"
   patterns:
     - pop( |-|.)?motion
+  tags:
+    - animation
 
 - id: greensock
   name: Greensock
@@ -1605,6 +1611,8 @@
   patterns:
     - green( |-)sock
     - gsap
+  tags:
+    - animation
 
 - id: lottie
   name: Lottie
@@ -1613,7 +1621,9 @@
   description: >-
     Render After Effects animations natively on Web, Android and iOS, and React
     Native.
-  homepage: null
+  homepage: https://airbnb.io/lottie/
+  tags:
+    - animation
 
 - id: velocity
   name: Velocity
@@ -1621,6 +1631,119 @@
   github: julianshapiro/velocity
   description: Accelerated JavaScript animation.
   homepage: "http://velocityjs.org/"
+  tags:
+    - animation
+
+- id: react_spring
+  name: React-Spring
+  homepage: https://react-spring.dev/
+  tags:
+    - animation
+
+- id: framer_motion
+  name: Framer Motion
+  homepage: https://www.framer.com/motion/
+  tags:
+    - animation
+
+- id: theatre_js
+  name: Theatre.js
+  homepage: https://www.theatrejs.com/
+  tags:
+    - animation
+
+#################################################
+# Data Visualization
+#################################################
+
+- id: visx
+  name: Visx
+  npm: null
+  github: airbnb/visx
+  description: "A collection of expressive, low-level visualization primitives for React"
+  homepage: "https://airbnb.io/visx"
+  tags:
+    - data_visualization
+
+- id: nivo
+  name: Nivo
+  npm: nivo
+  github: plouc/nivo
+  description: >-
+    nivo provides a rich set of dataviz components, built on top of the awesome
+    d3 and Reactjs libraries
+  homepage: "https://nivo.rocks"
+  tags:
+    - data_visualization
+
+- id: recharts
+  name: Recharts
+  npm: recharts
+  github: recharts/recharts
+  description: Redefined chart library built with React and D3
+  homepage: "http://recharts.org"
+  tags:
+    - data_visualization
+
+- id: mermaid
+  name: Mermaid
+  homepage: https://mermaid-js.github.io/mermaid/
+  tags:
+    - data_visualization
+
+- id: victory
+  name: Victory
+  homepage: https://formidable.com/open-source/victory/
+  tags:
+    - data_visualization
+
+- id: chart_js
+  name: Chart.js
+  homepage: https://www.chartjs.org/
+  tags:
+    - data_visualization
+
+- id: plotly
+  name: Plotly
+  homepage: https://plotly.com/javascript/
+  tags:
+    - data_visualization
+
+- id: highcharts
+  name: Highcharts
+  homepage: https://www.highcharts.com/
+  tags:
+    - data_visualization
+
+- id: echarts
+  name: ECharts
+  homepage: https://echarts.apache.org/en/index.html
+  tags:
+    - data_visualization
+
+#################################################
+# Data Fetching
+#################################################
+
+- id: trpc
+  name: tRPC
+  homepage: https://trpc.io/
+  tags: 
+    - data_fetching
+
+- id: tanstack_query
+  name: TanStack Query (React Query)
+  homepage: https://tanstack.com/query/v4
+  patterns:
+    - react query
+  tags: 
+    - data_fetching
+
+- id: swr
+  name: SWR
+  homepage: https://swr.vercel.app/
+  tags: 
+    - data_fetching
 
 #################################################
 # Build Tools
@@ -1770,6 +1893,16 @@
 - id: shadow_cljs
   name: Shadow CLJS
   homepage: http://shadow-cljs.org/
+
+- id: turbopack
+  name: Turbopack
+  homepage: https://turbo.build/pack
+
+- id: tsup
+  name: tsup
+  homepage: https://tsup.egoist.dev/
+  github: egoist/tsup
+  npm: tsup
 
 #################################################
 # Monorepo Tools
@@ -1994,56 +2127,54 @@
   name: AWS Lambda
   homepage: https://aws.amazon.com/lambda/
   tags:
-    - runtimes
     - edge_runtimes
 
 - id: netlify_edge_functions
   name: Netlify Edge Functions
   homepage: https://docs.netlify.com/edge-functions/overview/
   tags:
-    - runtimes
     - edge_runtimes
 
 - id: fastly_edge_compute
   name: Fastly Edge Compute
   homepage: https://www.fastly.com/products/edge-compute
   tags:
-    - runtimes
     - edge_runtimes
 
 - id: google_cloud_functions
   name: Google Cloud Functions
   homepage: https://cloud.google.com/functions
   tags:
-    - runtimes
     - edge_runtimes
 
 - id: akamai_edge_workers
   name: Akamai EdgeWorkers
   homepage: https://developer.akamai.com/akamai-edgeworkers-overview
   tags:
-    - runtimes
     - edge_runtimes
 
 - id: nextjs_edge_runtime
   name: Next.js Edge Runtime
   homepage: https://nextjs.org/docs/api-reference/edge-runtime
   tags:
-    - runtimes
     - edge_runtimes
 
 - id: netlify_edge_functions
   name: Netlify Edge Functions
   homepage: https://docs.netlify.com/edge-functions/overview/
   tags:
-    - runtimes
     - edge_runtimes
 
 - id: fly_io
   name: Fly.io
   homepage: https://fly.io/
   tags:
-    - runtimes
+    - edge_runtimes
+
+- id: digital_ocean_functions
+  name: Digital Ocean Functions
+  homepage: https://www.digitalocean.com/products/functions
+  tags:
     - edge_runtimes
     
 #################################################
@@ -2418,17 +2549,9 @@
   name: MUI
   homepage: https://mui.com/
 
-- id: highcharts
-  name: Highcharts
-  homepage: https://www.highcharts.com/
-
 - id: zod
   name: Zod
   homepage: https://github.com/colinhacks/zod
-
-- id: echarts
-  name: ECharts
-  homepage: https://echarts.apache.org/en/index.html
 
 - id: swiper
   name: Swiper
@@ -2441,3 +2564,35 @@
 - id: fnm
   name: Fast Node Manager
   homepage: https://github.com/Schniz/fnm
+
+- id: partytown
+  name: Partytown
+  homepage: https://github.com/BuilderIO/partytown
+
+- id: mitosis
+  name: Mitosis
+  homepage: https://github.com/BuilderIO/mitosis
+
+- id: 
+  name: 
+  homepage: 
+
+- id: 
+  name: 
+  homepage: 
+
+- id: 
+  name: 
+  homepage: 
+
+- id: 
+  name: 
+  homepage: 
+
+- id: 
+  name: 
+  homepage: 
+
+- id: 
+  name: 
+  homepage: 

@@ -39,3 +39,57 @@
 - id: postman_survey
   name: Postman State of the API Report
   homepage: https://www.postman.com/state-of-api/
+  patterns:
+    - postman
+
+- id: state_of_elm
+  name: State of Elm
+  homepage: https://state-of-elm.lamdera.app/
+  patterns:
+    - elm
+
+- id: state_of_octoverse
+  name: GitHub State of the Octoverse
+  homepage: https://octoverse.github.com/
+  patterns:
+    - github
+
+- id: state_of_go
+  name: Go Developer Survey
+  homepage: https://go.dev/blog/survey2021-results
+
+- id: state_of_frontend
+  name: State of Frontend
+  homepage: https://tsh.io/state-of-frontend/
+  patterns:
+    - frontend
+
+- id: state_of_laravel
+  name: State of Laravel
+  homepage: https://stateoflaravel.com/
+  patterns:
+    - laravel
+
+- id: wordpress_survey
+  name: WordPress Annual Survey
+  homepage: https://wordpress.org/news/2021/11/take-the-2021-wordpress-annual-survey-and-view-the-2020-results/
+  patterns:
+    - wordpress
+
+- id: developer_nation
+  name: Developer Nation Survey
+  homepage: https://www.developereconomics.net/
+  patterns:
+    - nation
+
+- id: state_of_rust
+  name: State of Rust
+  homepage: https://blog.rust-lang.org/2021/12/08/survey-launch.html
+  patterns:
+    - rust
+
+- id: jamstack_survey
+  name: Jamstack Community Survey
+  homepage: https://jamstack.org/survey/
+  patterns:
+    - jamstack

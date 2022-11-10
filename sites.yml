@@ -376,3 +376,29 @@
 - id: vived
   name: Vived
   homepage: https://vived.io/
+
+- id: css_for_js
+  name: CSS For JavaScript Developers
+  homepage: https://css-for-js.dev/
+
+- id: skillshare
+  name: Skillshare
+  homepage: https://www.skillshare.com/
+
+- id: frontend_mentor
+  name: Frontend Mentor
+  homepage: https://www.frontendmentor.io/
+
+- id: grafikart
+  name: Grafikart
+  homepage: https://grafikart.fr/
+
+- id: lenguaje_css
+  name: Lenguaje CSS
+  homepage: https://lenguajecss.com/
+
+- id: tailwind_blog
+  name: Tailwind Blog
+  homepage: https://tailwindcss.com/blog
+  patterns:
+    - tailwind

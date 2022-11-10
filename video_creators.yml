@@ -1,0 +1,97 @@
+# YouTube channels
+
+- id: fun_fun_function
+  name: Fun Fun Function
+  homepage: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
+  tags: 
+    - youtube
+
+- id: design_course
+  name: Design Course
+  homepage: https://www.youtube.com/user/designcourse
+  tags: 
+    - youtube
+
+- id: fireship
+  name: Fireship
+  homepage: https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA
+  tags: 
+    - youtube
+
+- id: theo_browne
+  name: Theo - ping․gg
+  homepage: https://www.youtube.com/c/theobrowne1017
+  patterns:
+    - ping
+  tags: 
+    - youtube
+
+- id: tina_huang
+  name: Tina Huang
+  homepage: https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww
+  tags: 
+    - youtube
+
+- id: jason_goodison
+  name: Jason Goodison
+  homepage: https://www.youtube.com/c/JasonGoodison
+  tags: 
+    - youtube
+
+- id: programming_with_mosh
+  name: Programming with Mosh
+  homepage: https://www.youtube.com/c/programmingwithmosh
+  patterns:
+    - mosh hamedani
+  tags: 
+    - youtube
+
+- id: clever_programmer
+  name: Clever Programmer
+  homepage: https://www.youtube.com/c/CleverProgrammer
+  patterns:
+    - rafeh qazi
+  tags: 
+    - youtube
+
+- id: web_dev_simplified
+  name: Web Dev Simplified
+  homepage: https://www.youtube.com/c/WebDevSimplified/
+  patterns:
+    - kyle cook
+  tags: 
+    - youtube
+
+- id: coding_train
+  name: The Coding Train
+  homepage: https://www.youtube.com/user/shiffman
+  patterns:
+    - daniel shiffman
+  tags: 
+    - youtube
+
+- id: net_ninja
+  name: The Net Ninja
+  homepage: https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg
+  tags: 
+    - youtube
+
+- id: the_primeagen
+  name: The Primeagen
+  homepage: https://www.youtube.com/c/ThePrimeagen
+  tags: 
+    - youtube
+
+- id: kent_c_dodds
+  name: Kent C. Dodds
+  homepage: https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw
+  tags: 
+    - youtube
+
+- id: traversy_media
+  name: TraversyMedia
+  homepage: https://www.youtube.com/c/TraversyMedia/videos
+  patterns:
+    - brad traversy
+  tags: 
+    - youtube

@@ -63,3 +63,17 @@
   name: SelfHTML
   tags: 
     - css_first_steps
+
+- id: trial_and_error
+  name: Trial & Error
+  patterns: 
+    - trial
+    - error
+    - trying
+  tags: 
+    - css_first_steps
+
+- id: documentation
+  name: Documentation
+  tags: 
+    - css_first_steps

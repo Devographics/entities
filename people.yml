@@ -165,6 +165,8 @@
     - js
   patterns:
     - josh ?w?( |.|. )?com(m)?eau
+    - comeau
+    - josh w c
 
 - id: rachel_andrew
   twitterName: rachelandrew
@@ -321,6 +323,8 @@
   twitterName: 5t3ph
   name: Stephanie Eckles
   homepage: https://moderncss.dev/
+  patterns:
+    - steph eckles
   related:
     - moderncss
   tags:
@@ -570,6 +574,7 @@
   patterns:
     - htm_hell
     - html hell
+    - matuzović
   tags:
     - css
 
@@ -854,7 +859,7 @@
     - css
 
 - id: miguel_angel_duran
-  name: Miguel Ángel Durán
+  name: Miguel Ángel Durán (midu.dev)
   twitterName: midudev
   homepage: https://midu.dev/
   blog:
