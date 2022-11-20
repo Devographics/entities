@@ -704,7 +704,7 @@
     - javascript_flavors
 
 - id: rescript
-  name: Rescript
+  name: ReScript
   npm: null
   github: rescript-association/rescript-lang.org
   description: Fast, Simple, Fully Typed JavaScript from the Future
