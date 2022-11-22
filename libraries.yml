@@ -1652,6 +1652,16 @@
   tags:
     - animation
 
+- id: motion_one
+  name: Motion One
+  npm: motion
+  github: motiondivision/motionone
+  homepage: https://motion.dev/
+  patterns:
+    - motion.dev
+  tags:
+    - animation
+    
 #################################################
 # Data Visualization
 #################################################
