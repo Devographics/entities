@@ -105,7 +105,19 @@
     - youtube
 
 - id: midudev
-  name: midudev
+  name: Midudev
   homepage: https://www.youtube.com/c/midudev
+  tags:
+    - youtube
+
+- id: mayuko
+  name: Mayuko
+  homepage: https://www.youtube.com/channel/UCEDkO7wshcDZ7UZo17rPkzQ
+  tags:
+    - youtube
+
+- id: coding_garden
+  name: Coding Garden
+  homepage: https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw
   tags:
     - youtube
