@@ -1665,14 +1665,15 @@
     - js
 
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: david_east
+  name: David East
+  twitterName: _davideast
+  homepage: https://davidea.st/
+  blog:
+  rss:
+  tags:
+    - css
+    - js
 
 
 # - id:

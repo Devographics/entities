@@ -98,3 +98,11 @@
 - id: bytes
   name: Bytes
   homepage: https://bytes.dev/
+
+- id: react_status
+  name: React Status
+  homepage: https://react.statuscode.com/
+
+- id: this_week_in_react
+  name: This Week In React
+  homepage: https://thisweekinreact.com/

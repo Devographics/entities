@@ -95,3 +95,11 @@
     - brad traversy
   tags: 
     - youtube
+
+- id: jack_herrington
+  name: Jack Herrington
+  homepage: https://www.youtube.com/@jherr
+  patterns:
+    - blue collar
+  tags: 
+    - youtube
