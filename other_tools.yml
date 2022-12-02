@@ -3,27 +3,35 @@
 
 - id: other_tools_package_managers
   name: Package managers
+- id: other_tools_package_managers_npm
+  name: npm
+- id: other_tools_package_managers_yarn
+  name: yarn
+- id: other_tools_package_managers_yarn_berry
+  name: yarn berry (yarn v2+)
+- id: other_tools_package_managers_pnpm
+  name: pnpm
 
 - id: other_tools_swift_ui
-  name: Other mobile app building solutions do you use - Swift UI
+  name: Swift UI
 
 - id: other_tools_flutter
-  name: Other mobile app building solutions do you use - Flutter
+  name: Flutter
 
 - id: other_tools_jetpack_compose
-  name: Other mobile app building solutions do you use - Jetpack Compose
+  name: Jetpack Compose
 
 - id: other_tools_xamarin
-  name: Other mobile app building solutions do you use - Xamarin
+  name: Xamarin
 
 - id: other_tools_cordova
-  name: Other mobile app building solutions do you use - Cordova
+  name: Cordova
 
 - id: other_tools_ionic
-  name: Other mobile app building solutions do you use - Ionic
+  name: Ionic
 
 - id: other_tools_native_script
-  name: Other mobile app building solutions do you use - NativeScript
+  name: NativeScript
 
 - id: other_tools_kotlin
-  name: Other mobile app building solutions do you use - Kotlin Multiplatform Mobile
+  name: Kotlin Multiplatform Mobile

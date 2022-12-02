@@ -1,5 +1,30 @@
 - id: resources_initially_learn_react_native
   name: When first starting out, how did you initially learn React Native?
+- id: resources_initially_learn_react_native_official_docs
+  name: Official React Native docs
+- id: resources_initially_learn_react_native_books
+  name: Books
+- id: resources_initially_learn_react_native_videos
+  name: Videos
+- id: resources_initially_learn_react_native_online_courses_free
+  name: Online courses (free)
+- id: resources_initially_learn_react_native_online_courses_paid
+  name: Online courses (paid)
+- id: resources_initially_learn_react_native_school_higher_education
+  name: School / higher education
+- id: resources_initially_learn_react_native_podcasts
+  name: Podcasts
+- id: resources_initially_learn_react_native_coding_bootcamp
+  name: Coding bootcamp
+- id: resources_initially_learn_react_native_on_the_job_training
+  name: On-the-job training
+- id: resources_initially_learn_react_native_mentoring
+  name: Mentoring
+- id: resources_initially_learn_react_native_self_directed_learning
+  name: Self-directed learning
+- id: resources_initially_learn_react_native_other
+  name: Other
+
 
 - id: resources_read
   name: Which blogs/magazines/etc. do you read?
@@ -8,13 +33,33 @@
   name: Which sites/courses/etc. do you consult?
 
 - id: resources_podcast
-  name: Which programming-related podcasts do you listen to? (freeform field, comma-separated names).
+  name: Which programming-related podcasts do you listen to?.
 
 - id: resources_video
-  name: Video Creators. Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. (freeform field, comma-separated names).
+  name: Video Creators. Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc.
 
 - id: resources_people
-  name: People you read, follow, or just want to highlight for their work (freeform field, comma-separated names).
+  name: People you read, follow, or just want to highlight for their work.
 
 - id: resources_surveys
   name: Other Surveys Which other developer surveys do you participate in?
+- id: resources_surveys_state_of_js
+  name: State of JS
+- id: resources_surveys_state_of_css
+  name: State of CSS
+- id: resources_surveys_state_of_graphql
+  name: State of GraphQL
+- id: resources_surveys_jetbrains
+  name: JetBrains State of Developer Ecosystem
+- id: resources_surveys_stack_overflow
+  name: Stack Overflow Annual Developer Survey
+- id: resources_surveys_codingame
+  name: CodinGame Developer Survey
+- id: resources_surveys_design_tools
+  name: Design Tools Survey
+- id: resources_surveys_postman
+  name: Postman State of the API Report
+- id: resources_surveys_jamstack
+  name: Jamstack Community Survey
+- id: resources_surveys_other
+  name: Other

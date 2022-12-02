@@ -13,7 +13,7 @@
 - id: react_native_app_aspects_state_management_apollo
   name: Apollo Client
 - id: react_native_app_aspects_state_management_react_query
-  name: React Query
+  name: TanStack Query (React Query)
 - id: react_native_app_aspects_state_management_other
   name: Other
 
@@ -71,9 +71,9 @@
 - id: react_native_app_aspects_navigation_solutions
   name: Navigation solutions
 - id: react_native_app_aspects_navigation_solutions_r_navigation
-  name: react-avigation
+  name: React Navigation
 - id: react_native_app_aspects_navigation_solutions_rn_navigation
-  name: react-native-navigation
+  name: React Native Navigation
 - id: react_native_app_aspects_navigation_solutions_navigation
   name: Navigation
 - id: react_native_app_aspects_navigation_solutions_r_router
@@ -81,39 +81,120 @@
 - id: react_native_app_aspects_navigation_solutions_e_router
   name: Expo Router
 - id: react_native_app_aspects_navigation_solutions_other
-  name: other
+  name: Other
 
 - id: react_native_app_aspects_animations
   name: Animations
 - id: react_native_app_aspects_animations_animated_api
   name: Animated API
-- id: react_native_app_aspects_animations_
-  name: 
-- id: react_native_app_aspects_animations_
-  name: 
-- id: react_native_app_aspects_animations_
-  name: 
-- id: react_native_app_aspects_animations_
-  name: 
-- id: react_native_app_aspects_animations_
-  name: 
-- id: react_native_app_aspects_animations_
-  name: 
+- id: react_native_app_aspects_animations_react_native_reanimated
+  name: React Native Reanimated
+- id: react_native_app_aspects_animations_moti
+  name: Moti
+- id: react_native_app_aspects_animations_skia
+  name: React Native Skia
+- id: react_native_app_aspects_animations_react_native_animatable
+  name: React Native Animatable
+- id: react_native_app_aspects_animations_threejs
+  name: Three.js
+- id: react_native_app_aspects_animations_lottie
+  name: Lottie
+- id: react_native_app_aspects_animations_other
+  name: Other
 
 - id: react_native_app_aspects_gestures
   name: Gestures
+- id: react_native_app_aspects_gestures_panresponder_api  
+  name: PanResponder API
+- id: react_native_app_aspects_gestures_react_native_gesture_handler
+  name: React Native Gesture Handler
+- id: react_native_app_aspects_gestures_other
+  name: Other
 
 - id: react_native_app_aspects_internationalization
   name: Internationalization
+- id: react_native_app_aspects_internationalization_react_native_localize
+  name: react-native-localize
+- id: react_native_app_aspects_internationalization_react_i18next
+  name: react-i18next
+- id: react_native_app_aspects_internationalization_other
+  name: Other
 
 - id: react_native_app_aspects_analytics
   name: Analytics
+- id: react_native_app_aspects_analytics_firebase_analytics
+  name: Firebase Analytics
+- id: react_native_app_aspects_analytics_appcenter_analytics
+  name: AppCenter Analytics
+- id: react_native_app_aspects_analytics_amplitude
+  name: Amplitude
+- id: react_native_app_aspects_analytics_amplify_analytics
+  name: Amplify Analytics
+- id: react_native_app_aspects_analytics_mixpanel
+  name: Mixpanel
+- id: react_native_app_aspects_analytics_segment
+  name: Segment
+- id: react_native_app_aspects_analytics_appsflyer
+  name: AppsFlyer
+- id: react_native_app_aspects_analytics_flurry
+  name: Flurry
+- id: react_native_app_aspects_analytics_other
+  name: Other
 
 - id: react_native_app_aspects_crash_reporting
   name: Crash Reporting
+- id: react_native_app_aspects_crash_reporting_sentry
+  name: Sentry
+- id: react_native_app_aspects_crash_reporting_datadog
+  name: Datadog
+- id: react_native_app_aspects_crash_reporting_instabug
+  name: Instabug
+- id: react_native_app_aspects_crash_reporting_new_relic
+  name: New Relic
+- id: react_native_app_aspects_crash_reporting_appdynamics
+  name: AppDynamics
+- id: react_native_app_aspects_crash_reporting_amazon_cloudwatch
+  name: Amazon CloudWatch
+- id: react_native_app_aspects_crash_reporting_elastic_observability
+  name: Elastic Observability
+- id: react_native_app_aspects_crash_reporting_bugsnag
+  name: Bugsnag
+- id: react_native_app_aspects_crash_reporting_firebase_crashlytics
+  name: Firebase Crashlytics
+- id: react_native_app_aspects_crash_reporting_appcenter_crashes
+  name: AppCenter Crashes
+- id: react_native_app_aspects_crash_reporting_other
+  name: Other
 
 - id: react_native_app_aspects_testing
-  name: How do you test your RN app?
+  name: How do you test your React Native apps?
+- id: react_native_app_aspects_testing_jest
+  name: Jest
+- id: react_native_app_aspects_testing_react_native_testing_library
+  name: React Native Testing Library
+- id: react_native_app_aspects_testing_detox
+  name: Detox
+- id: react_native_app_aspects_testing_appium
+  name: Appium
+- id: react_native_app_aspects_testing_dont_test
+  name: I don't test my app
+- id: react_native_app_aspects_testing_other
+  name: Other
 
 - id: react_native_app_aspects_storage
   name: Storage
+- id: react_native_app_aspects_storage_react_native_async_storage
+  name: React Native Async Storage
+- id: react_native_app_aspects_storage_realm
+  name: Realm
+- id: react_native_app_aspects_storage_watermelondb
+  name: WatermelonDB
+- id: react_native_app_aspects_storage_react_native_mmkv
+  name: React Native MMKV
+- id: react_native_app_aspects_storage_react_native_mmkv_storage
+  name: React Native MMKV Storage
+- id: react_native_app_aspects_storage_react_native_sqlite_storage
+  name: React Native SQLite Storage
+- id: react_native_app_aspects_storage_other
+  name: Other
+
