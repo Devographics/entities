@@ -1,0 +1,38 @@
+- id: react_native_features_version
+  name: Which version do you use mainly? Check single or all that apply?
+
+- id: react_native_features_fabric
+  name: Fabric
+
+- id: react_native_features_custom_native_modules
+  name: Custom native modules
+
+- id: react_native_features_custom_native_views
+  name: Custom native views
+
+- id: react_native_features_jsc_runtime
+  name: JSC runtime
+
+- id: react_native_features_hermes_runtime
+  name: Hermes runtime
+
+- id: react_native_features_v8_runtime
+  name: V8 runtime
+
+- id: react_native_features_jsi
+  name: JSI
+
+- id: react_native_features_debugging
+  name: How do you debug your RN apps?
+
+- id: react_native_features_performance_profile
+  name: What do you do to profile RN app performance?
+
+- id: react_native_features_green_brown
+  name: Do you integrate React Native with applications written using other technology?
+
+- id: react_native_features_device_testing
+  name: How do you test the app?
+
+- id: react_native_features_oau
+  name: Do you use Over The Air Updates?

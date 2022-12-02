@@ -1,0 +1,20 @@
+- id: resources_initially_learn_react_native
+  name: When first starting out, how did you initially learn React Native?
+
+- id: resources_read
+  name: Which blogs/magazines/etc. do you read?
+
+- id: resources_course
+  name: Which sites/courses/etc. do you consult?
+
+- id: resources_podcast
+  name: Which programming-related podcasts do you listen to? (freeform field, comma-separated names).
+
+- id: resources_video
+  name: Video Creators. Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. (freeform field, comma-separated names).
+
+- id: resources_people
+  name: People you read, follow, or just want to highlight for their work (freeform field, comma-separated names).
+
+- id: resources_surveys
+  name: Other Surveys Which other developer surveys do you participate in?

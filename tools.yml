@@ -1,0 +1,14 @@
+- id: tools_js_ts
+  name: JavaScript/TypeScript Balance. How do you divide your time between writing JavaScript and TypeScript code?
+
+- id: tools_expo
+  name: Expo
+
+- id: tools_building
+  name: How do you build your app for the AppStore/PlayStore?
+
+- id: tools_no_code
+  name: What Low-code/no-code solutions do you use?
+
+- id: tools_supporting
+  name: What supporting dev tools do you use? Check all that apply.

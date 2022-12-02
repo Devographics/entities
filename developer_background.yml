@@ -1,0 +1,157 @@
+- id: developer_background_before
+  name: What was your background before you started using React Native? Check all that apply.
+- id: developer_background_before.answer.a
+  name: React frontend developer
+- id: developer_background_before.answer.b
+  name: other frontend developer (JavaScript, etc)
+- id: developer_background_before.answer.c
+  name: Backend developer (PHP, NodeJS, JVM, Python, etc)
+- id: developer_background_before.answer.d
+  name: Native mobile developer (iOS, Android)
+- id: developer_background_before_other
+  name: Other
+
+- id: developer_background_primarily_system
+  name: What desktop system do you primarily use?
+- id: developer_background_primarily_system.answer.a
+  name: MacOS
+- id: developer_background_primarily_system.answer.b
+  name: Linux
+- id: developer_background_primarily_system.answer.c
+  name: Windows
+
+- id: developer_background_users_count
+  name: How many users use your most popular React Native app?
+- id: developer_background_users_count.answer.a
+  name: Only me
+- id: developer_background_users_count.answer.b
+  name: 2-100
+- id: developer_background_users_count.answer.c
+  name: 101-1k
+- id: developer_background_users_count.answer.d
+  name: 1k-10k
+- id: developer_background_users_count.answer.e
+  name: 10k-100k
+- id: developer_background_users_count.answer.f
+  name: 100k-1M
+- id: developer_background_users_count.answer.g
+  name: 1M and more
+
+- id: developer_background_team_size
+  name: What is your mobile app team size?
+- id: developer_background_team_size.answer.a
+  name: Solo developer
+- id: developer_background_team_size.answer.b
+  name: '2'
+- id: developer_background_team_size.answer.c
+  name: 3-5
+- id: developer_background_team_size.answer.d
+  name: 6-10
+- id: developer_background_team_size.answer.e
+  name: more than 10
+
+- id: developer_background_platforms
+  name: Platforms that you use React Native for. Check all that apply.
+- id: developer_background_platforms.answer.a
+  name: iOS
+- id: developer_background_platforms.answer.b
+  name: Android
+- id: developer_background_platforms.answer.c
+  name: WEB
+- id: developer_background_platforms.answer.d
+  name: macOS
+- id: developer_background_platforms.answer.e
+  name: Windows
+- id: developer_background_platforms.answer.f
+  name: Android TV
+- id: developer_background_platforms.answer.g
+  name: tvOS
+- id: developer_background_platforms_other
+  name: Other
+
+- id: developer_background_contribution_to_rn
+  name: Have you ever contributed to React Native (merged pull requests)?
+
+- id: developer_background_contribution_to_lib
+  name: Have you ever contributed to any React Native community library?
+
+- id: developer_background_releases_count
+  name: How many React Native apps have you released on Google Play / App Store?
+- id: developer_background_releases_count.answer.a
+  name: None
+- id: developer_background_releases_count.answer.b
+  name: '1'
+- id: developer_background_releases_count.answer.c
+  name: 2-5
+- id: developer_background_releases_count.answer.d
+  name: 5-10
+- id: developer_background_releases_count.answer.e
+  name: More than 10
+
+- id: developer_background_os_target
+  name: What mobile OS versions do you target?
+- id: developer_background_os_target.answer.a
+  name: Most recent ones (iOS 15+, Android 12+)
+- id: developer_background_os_target.answer.b
+  name: Reasonably current (iOS 12+, Android 10+)
+- id: developer_background_os_target.answer.c
+  name: Old (iOS 10+, Android 7+)
+- id: developer_background_os_target.answer.d
+  name: As old as possible (iOS 8+, Android 5+)
+
+- id: developer_background_industry_sector
+  name: Industry Sector. Which industry sector(s) are you using React Native in?
+- id: developer_background_industry_sector.answer.a
+  name: Ecommerce & Retail
+- id: developer_background_industry_sector.answer.b
+  name: News, Media, & Blogging
+- id: developer_background_industry_sector.answer.c
+  name: Healthcare
+- id: developer_background_industry_sector.answer.d
+  name: Finance
+- id: developer_background_industry_sector.answer.e
+  name: Crypto & Web3
+- id: developer_background_industry_sector.answer.f
+  name: Programming & Technical Tools
+- id: developer_background_industry_sector.answer.g
+  name: Social Media
+- id: developer_background_industry_sector.answer.h
+  name: Marketing/Sales/Analytics Tools
+- id: developer_background_industry_sector.answer.i
+  name: Education
+- id: developer_background_industry_sector.answer.j
+  name: Real Estate
+- id: developer_background_industry_sector.answer.k
+  name: Government
+- id: developer_background_industry_sector.answer.l
+  name: Entertainment
+- id: developer_background_industry_sector.answer.n
+  name: Consulting & Services
+- id: developer_background_industry_sector.answer.m
+  name: Travel
+- id: developer_background_industry_sector.answer.o
+  name: Insurance
+- id: developer_background_industry_sector.answer.p
+  name: Logistics
+- id: developer_background_industry_sector.answer.q
+  name: Energy
+- id: developer_background_industry_sector.answer.r
+  name: Telecommunications
+- id: developer_background_industry_sector.answer.s
+  name: Student
+- id: developer_background_industry_sector.answer.t
+  name: Hospitality
+- id: developer_background_industry_sector.answer.u
+  name: Cyber Security
+- id: developer_background_industry_sector.answer.v
+  name: Construction
+- id: developer_background_industry_sector.answer.w
+  name: Automotive
+- id: developer_background_industry_sector.answer.x
+  name: Agriculture
+- id: developer_background_industry_sector.answer.y
+  name: Transport
+- id: developer_background_industry_sector.answer.z
+  name: Manufacturing
+- id: developer_background_industry_sector_other
+  name: Other

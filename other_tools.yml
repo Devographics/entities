@@ -1,0 +1,29 @@
+- id: other_tools_libraries
+  name: Libraries. Which other libraries (not covered previously) do you regularly use?
+
+- id: other_tools_package_managers
+  name: Package managers
+
+- id: other_tools_swift_ui
+  name: Other mobile app building solutions do you use - Swift UI
+
+- id: other_tools_flutter
+  name: Other mobile app building solutions do you use - Flutter
+
+- id: other_tools_jetpack_compose
+  name: Other mobile app building solutions do you use - Jetpack Compose
+
+- id: other_tools_xamarin
+  name: Other mobile app building solutions do you use - Xamarin
+
+- id: other_tools_cordova
+  name: Other mobile app building solutions do you use - Cordova
+
+- id: other_tools_ionic
+  name: Other mobile app building solutions do you use - Ionic
+
+- id: other_tools_native_script
+  name: Other mobile app building solutions do you use - NativeScript
+
+- id: other_tools_kotlin
+  name: Other mobile app building solutions do you use - Kotlin Multiplatform Mobile

@@ -1,0 +1,119 @@
+- id: platform_apis_offline_mode
+  name: Offline mode
+
+- id: platform_apis_sensors
+  name: Sensors
+
+- id: platform_apis_camera
+  name: Camera
+
+- id: platform_apis_audio
+  name: Audio
+
+- id: platform_apis_security
+  name: Security
+
+- id: platform_apis_encryption
+  name: Encryption
+
+- id: platform_apis_appearance
+  name: Appearance / System themes
+
+- id: platform_apis_accessibility
+  name: Accessibility
+
+- id: platform_apis_microphone
+  name: Microphone
+
+- id: platform_apis_media_library
+  name: Media library (gallery)
+
+- id: platform_apis_file_system
+  name: File System
+
+- id: platform_apis_haptics
+  name: Haptics
+
+- id: platform_apis_video_playback
+  name: Video (playback)
+
+- id: platform_apis_clipboard
+  name: Clipboard
+
+- id: platform_apis_openGL
+  name: OpenGL
+
+- id: platform_apis_telephony
+  name: Telephony (SMS/email/phone call)
+
+- id: platform_apis_location
+  name: Location
+
+- id: platform_apis_maps
+  name: Maps
+
+- id: platform_apis_screen_orientation
+  name: Screen orientation info
+
+- id: platform_apis_battery_level
+  name: Battery level info
+
+- id: platform_apis_bluetooth
+  name: Bluetooth
+
+- id: platform_apis_nfc
+  name: NFC
+
+- id: platform_apis_rtl
+  name: RTL
+
+- id: platform_apis_biometric_authentication
+  name: Biometric authentication
+
+- id: platform_apis_cryptography
+  name: Cryptography
+
+- id: platform_apis_filesystem
+  name: Filesystem
+
+- id: platform_apis_notifications
+  name: Notifications
+
+- id: platform_apis_in_app_payments
+  name: In-app payments
+
+- id: platform_apis_in_app_reviews
+  name: In-app reviews
+
+- id: platform_apis_ads
+  name: Ads
+
+- id: platform_apis_webview
+  name: WebView
+
+- id: platform_apis_database
+  name: SQL database / Room (Work with local SQLite databases or Room)
+
+- id: platform_apis_deep_links
+  name: Deep links
+
+- id: platform_apis_concurrency
+  name: Background processing / Concurrency
+
+- id: platform_apis_printer
+  name: Printer
+
+- id: platform_apis_ocr
+  name: OCR
+
+- id: platform_apis_ar_av
+  name: AR / VR
+
+- id: platform_apis_ml
+  name: ML / AI
+
+- id: platform_apis_permissions
+  name: Permissions
+
+- id: platform_apis_other
+  name: Other

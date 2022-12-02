@@ -1,0 +1,17 @@
+- id: opinions_right_direction
+  name: React Native is moving in the right direction
+
+- id: opinions_complex
+  name: Building React Native apps is overly complex right now
+
+- id: opinions_pain_points
+  name: React Native Pain Points. Pick the top 3 aspects of React Native you struggle with the most.
+
+- id: opinions_missing
+  name: What do you feel is currently missing from React Native? Pick the top 3 features you'd most like to be able to use in React Native today.
+
+- id: opinions_advantages
+  name: Advantages of React Native over other solutions? Pick the top 3 aspects you care most about.
+
+- id: opinions_happy
+  name: How happy are you with the general state of React Native?

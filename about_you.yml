@@ -1,0 +1,35 @@
+- id: about_you_country
+  name: Your Country or Region? Where do you currently reside?
+
+- id: about_you_age
+  name: Your Age? How old are you, in years?
+
+- id: about_you_experience
+  name: Years of Experience as a programmer?
+
+- id: about_you_experience_in_rn
+  name: Years of Experience in React Native? How long have you been working or studying in React Native, in years?
+
+- id: about_you_company_size
+  name: Company Size? How big is your company, in the number of employees?
+
+- id: about_you_education_degree
+  name: Higher Education Degree? Do you have a higher education degree?
+
+- id: about_you_salary
+  name: Yearly Salary? Your yearly salary in U.S. dollars?
+
+- id: about_you_gender
+  name: Your gender? Which of the following options describes you, if any?
+
+- id: about_you_race
+  name: Race & Ethnicity? Which of the following options describe you, if any? Please check all that apply.
+
+- id: about_you_disability
+  name: Disability Status? Which of the following disabilities do you experience, if any? Please check all that apply. Note that this can include temporary disabilities or injuries.
+
+- id: about_you_how_you_know
+  name: How did you find out about this survey?
+
+- id: about_you_what_to_improve
+  name: How could we improve this survey?
