@@ -1,5 +1,5 @@
 - id: react_native_features_version
-  name: Which version do you use mainly? Check single or all that apply?
+  name: Which version do you use mainly?
 - id: react_native_features_version_0_63_or_lower
   name: 0.63 or lower
 - id: react_native_features_version_0_64
@@ -19,8 +19,17 @@
 - id: react_native_features_version_0_71
   name: "0.71"
 
+- id: react_native_features_new_architecture
+  name: New Architecture
+
 - id: react_native_features_fabric
   name: Fabric
+
+- id: react_native_features_turbo_modules
+  name: Turbo Native Modules
+
+- id: react_native_features_codegen
+  name: Codegen
 
 - id: react_native_features_custom_native_modules
   name: Custom native modules
@@ -40,24 +49,31 @@
 - id: react_native_features_jsi
   name: JSI
 
+- id: react_native_features_expo_modules
+  name: Expo Modules
+
 - id: react_native_features_debugging
   name: How do you debug your React Native apps?
 - id: react_native_features_debugging_react_native_debugger
   name: React Native Debugger
+- id: react_native_features_debugging_chrome_dev_tools
+  name: Chrome DevTools
 - id: react_native_features_debugging_console_log
-  name: console.log
+  name: Console logs
 - id: react_native_features_debugging_reactotron
   name: Reactotron
 - id: react_native_features_debugging_native_debugging
   name: Native debugging (Xcode, Android Studio)
 - id: react_native_features_debugging_flipper
   name: Flipper
+- id: react_native_features_debugging_react_dev_tools
+  name: React Developer Tools
 - id: react_native_features_debugging_other
   name: Other
 
 
 - id: react_native_features_performance_profile
-  name: What do you do to profile React Native app performance?
+  name: How do you profile React Native app performance?
 - id: react_native_features_performance_profile_react_native_performance
   name: React Native Performance
 - id: react_native_features_performance_profile_react_native_performance_monitor
@@ -66,6 +82,11 @@
   name: Flipper
 - id: react_native_features_performance_native
   name: Native profiling (Xcode, Android Studio)
+- id: react_native_features_debugging_remote_debugger
+  name: Remote debugger
+- id: react_native_features_performance_profile_flipper_performance_plugin
+  name: React Native Flipper Performance Plugin
+
 - id: react_native_features_performance_profile_other
   name: Other
 
@@ -79,7 +100,7 @@
   name: I work on both standalone and brownfield apps
 
 - id: react_native_features_device_testing
-  name: How do you test the app?
+  name: How do you test your React Native app?
 - id: react_native_features_device_testing_physical_devices
   name: Physical devices
 - id: react_native_features_device_testing_emulators_simulators
@@ -90,9 +111,9 @@
   name: Other
 
 - id: react_native_features_ota_updates
-  name: Do you use Over The Air Updates?
+  name: Do you use over-the-air updates?
 - id: react_native_features_ota_updates_code_push
-  name: Code Push
+  name: App Center CodePush
 - id: react_native_features_ota_updates_eas_update
   name: Expo EAS Update
 - id: react_native_features_ota_updates_expo_publish

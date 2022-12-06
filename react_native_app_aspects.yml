@@ -1,5 +1,5 @@
 - id: react_native_app_aspects_state_management
-  name: State management solutions
+  name: State management
 - id: react_native_app_aspects_state_management_rn_build_in
   name: React built-in (useState, useReducer, useContext)
 - id: react_native_app_aspects_state_management_jotai
@@ -16,9 +16,11 @@
   name: TanStack Query (React Query)
 - id: react_native_app_aspects_state_management_other
   name: Other
+  description: Other data fetching libraries not listed above
+
 
 - id: react_native_app_aspects_data_fetching
-  name: Data Fetching
+  name: Data fetching
 - id: react_native_app_aspects_data_fetching_trpc
   name: tRPC
 - id: react_native_app_aspects_data_fetching_fetch
@@ -35,15 +37,18 @@
   name: Relay
 - id: react_native_app_aspects_data_fetching_other
   name: Other
+  description: Other data fetching libraries not listed above
 
 - id: react_native_app_aspects_styling_techniques
-  name: Styling techniques
+  name: Styling techniques / libraries
 - id: react_native_app_aspects_styling_techniques_style_sheet
   name: StyleSheet API
-- id: react_native_app_aspects_styling_techniques_tailwind
-  name: Tailwind
+- id: react_native_app_aspects_styling_techniques_nativewind
+  name: NativeWind
+- id: react_native_app_aspects_styling_techniques_tailwind_rn
+  name: "tailwind-rn"
 - id: react_native_app_aspects_styling_techniques_styled_components
-  name: Styled Components
+  name: styled components
 - id: react_native_app_aspects_styling_techniques_emotion
   name: Emotion
 - id: react_native_app_aspects_styling_techniques_restyle
@@ -54,7 +59,7 @@
   name: Other
 
 - id: react_native_app_aspects_component_libraries
-  name: Component libraries
+  name: UI Components libraries
 - id: react_native_app_aspects_component_libraries_rn_paper
   name: react-native-paper
 - id: react_native_app_aspects_component_libraries_ui_kitten
@@ -65,6 +70,8 @@
   name: NativeBase
 - id: react_native_app_aspects_component_libraries_rn_ui_lib
   name: react-native-ui-lib
+- id: react_native_app_aspects_component_libraries_tamagui
+  name: Tamagui
 - id: react_native_app_aspects_component_libraries_other
   name: Other
 
@@ -74,8 +81,6 @@
   name: React Navigation
 - id: react_native_app_aspects_navigation_solutions_rn_navigation
   name: React Native Navigation
-- id: react_native_app_aspects_navigation_solutions_navigation
-  name: Navigation
 - id: react_native_app_aspects_navigation_solutions_r_router
   name: React Router
 - id: react_native_app_aspects_navigation_solutions_e_router
@@ -84,7 +89,7 @@
   name: Other
 
 - id: react_native_app_aspects_animations
-  name: Animations
+  name: Graphics and animations
 - id: react_native_app_aspects_animations_animated_api
   name: Animated API
 - id: react_native_app_aspects_animations_react_native_reanimated
@@ -99,6 +104,8 @@
   name: Three.js
 - id: react_native_app_aspects_animations_lottie
   name: Lottie
+- id: react_native_app_aspects_animations_expo_gl
+  name: Expo GL
 - id: react_native_app_aspects_animations_other
   name: Other
 
@@ -167,7 +174,7 @@
   name: Other
 
 - id: react_native_app_aspects_testing
-  name: How do you test your React Native apps?
+  name: Testing
 - id: react_native_app_aspects_testing_jest
   name: Jest
 - id: react_native_app_aspects_testing_react_native_testing_library
@@ -190,11 +197,13 @@
 - id: react_native_app_aspects_storage_watermelondb
   name: WatermelonDB
 - id: react_native_app_aspects_storage_react_native_mmkv
-  name: React Native MMKV
+  name: react-native-mmkv
 - id: react_native_app_aspects_storage_react_native_mmkv_storage
-  name: React Native MMKV Storage
+  name: react-native-mmkv-storage
 - id: react_native_app_aspects_storage_react_native_sqlite_storage
   name: React Native SQLite Storage
+- id: react_native_app_aspects_storage_expo_sqlite
+  name: Expo SQLite
 - id: react_native_app_aspects_storage_other
   name: Other
 

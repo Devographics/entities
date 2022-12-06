@@ -1,23 +1,28 @@
+- id: platform_apis_questions
+  name: Which Platform APIs have you used in 2022 in React Native?
+
+# TODO alphabetize
+
 - id: platform_apis_offline_mode
   name: Offline mode
 
 - id: platform_apis_sensors
-  name: Sensors
+  name: Sensors (gyroscope, accelerometer, etc.)
 
 - id: platform_apis_camera
   name: Camera
 
 - id: platform_apis_audio
-  name: Audio
+  name: Audio playback
 
 - id: platform_apis_security
   name: Security
 
-- id: platform_apis_encryption
-  name: Encryption
+- id: platform_apis_cryptography
+  name: Cryptography (e.g. hardware encryption)
 
 - id: platform_apis_appearance
-  name: Appearance / System themes
+  name: Appearance
 
 - id: platform_apis_accessibility
   name: Accessibility
@@ -35,7 +40,7 @@
   name: Haptics
 
 - id: platform_apis_video_playback
-  name: Video (playback)
+  name: Video playback
 
 - id: platform_apis_clipboard
   name: Clipboard
@@ -44,7 +49,7 @@
   name: OpenGL
 
 - id: platform_apis_telephony
-  name: Telephony (SMS/email/phone call)
+  name: Telephony (SMS, email, dialing, etc.)
 
 - id: platform_apis_location
   name: Location
@@ -53,10 +58,10 @@
   name: Maps
 
 - id: platform_apis_screen_orientation
-  name: Screen orientation info
+  name: Screen orientation
 
 - id: platform_apis_battery_level
-  name: Battery level info
+  name: Battery
 
 - id: platform_apis_bluetooth
   name: Bluetooth
@@ -69,12 +74,6 @@
 
 - id: platform_apis_biometric_authentication
   name: Biometric authentication
-
-- id: platform_apis_cryptography
-  name: Cryptography
-
-- id: platform_apis_filesystem
-  name: Filesystem
 
 - id: platform_apis_notifications
   name: Notifications
@@ -91,14 +90,14 @@
 - id: platform_apis_webview
   name: WebView
 
-- id: platform_apis_database
-  name: SQL database / Room (Work with local SQLite databases or Room)
+- id: platform_apis_storage
+  name: Persistent storage (e.g. SQL database)
 
 - id: platform_apis_deep_links
   name: Deep links
 
 - id: platform_apis_concurrency
-  name: Background processing / Concurrency
+  name: Background processing
 
 - id: platform_apis_printer
   name: Printer

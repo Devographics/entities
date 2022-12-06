@@ -2,40 +2,16 @@
   name: JavaScript/TypeScript Balance. How do you divide your time between writing JavaScript and TypeScript code?
 
 - id: tools_expo
-  name: Expo
+  name: Expo CLI
 
 - id: tools_building
-  name: How do you build your app for the AppStore/PlayStore?
+  name: How do you build your app for the App Store or Google Play?
 - id: tools_building_manually
-  name: Manually with Xcode/Android Studio
+  name: Manually with Xcode and Android Studio
 - id: tools_building_fastlane
   name: Fastlane
 - id: tools_building_expo_eas
-  name: Expo EAS
+  name: Expo EAS Build
 - id: tools_building_other
-  name: Other
-
-- id: tools_no_code
-  name: What Low-Code/No-Code solutions do you use?
-- id: tools_no_code_draftbit
-  name: Draftbit
-- id: tools_no_code_teleporthq
-  name: TeleportHQ
-- id: tools_no_code_other
-  name: Other
-
-- id: tools_supporting
-  name: What supporting development tools do you use? Check all that apply.
-- id: tools_supporting_eslint
-  name: ESLint
-- id: tools_supporting_prettier
-  name: Prettier
-- id: tools_supporting_storybook
-  name: Storybook
-- id: tools_supporting_copilot
-  name: Copilot or similar AI assistant
-- id: tools_supporting_snippets
-  name: Snippets
-- id: tools_supporting_other
   name: Other
 

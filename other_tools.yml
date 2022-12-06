@@ -12,8 +12,8 @@
 - id: other_tools_package_managers_pnpm
   name: pnpm
 
-- id: other_tools_swift_ui
-  name: Swift UI
+- id: other_tools_swiftui
+  name: SwiftUI
 
 - id: other_tools_flutter
   name: Flutter
