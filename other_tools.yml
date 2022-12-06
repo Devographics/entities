@@ -1,0 +1,37 @@
+- id: other_tools_libraries
+  name: Libraries. Which other libraries (not covered previously) do you regularly use?
+
+- id: other_tools_package_managers
+  name: Package managers
+- id: other_tools_package_managers_npm
+  name: npm
+- id: other_tools_package_managers_yarn
+  name: yarn
+- id: other_tools_package_managers_yarn_berry
+  name: yarn berry (yarn v2+)
+- id: other_tools_package_managers_pnpm
+  name: pnpm
+
+- id: other_tools_swift_ui
+  name: Swift UI
+
+- id: other_tools_flutter
+  name: Flutter
+
+- id: other_tools_jetpack_compose
+  name: Jetpack Compose
+
+- id: other_tools_xamarin
+  name: Xamarin
+
+- id: other_tools_cordova
+  name: Cordova
+
+- id: other_tools_ionic
+  name: Ionic
+
+- id: other_tools_native_script
+  name: NativeScript
+
+- id: other_tools_kotlin
+  name: Kotlin Multiplatform Mobile

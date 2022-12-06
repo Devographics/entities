@@ -1,0 +1,103 @@
+- id: react_native_features_version
+  name: Which version do you use mainly? Check single or all that apply?
+- id: react_native_features_version_0_63_or_lower
+  name: 0.63 or lower
+- id: react_native_features_version_0_64
+  name: "0.64"
+- id: react_native_features_version_0_65
+  name: "0.65"
+- id: react_native_features_version_0_66
+  name: "0.66"
+- id: react_native_features_version_0_67
+  name: "0.67"
+- id: react_native_features_version_0_68
+  name: "0.68"
+- id: react_native_features_version_0_69
+  name: "0.69"
+- id: react_native_features_version_0_70
+  name: "0.70"
+- id: react_native_features_version_0_71
+  name: "0.71"
+
+- id: react_native_features_fabric
+  name: Fabric
+
+- id: react_native_features_custom_native_modules
+  name: Custom native modules
+
+- id: react_native_features_custom_native_views
+  name: Custom native views
+
+- id: react_native_features_jsc_runtime
+  name: JSC runtime
+
+- id: react_native_features_hermes_runtime
+  name: Hermes runtime
+
+- id: react_native_features_v8_runtime
+  name: V8 runtime
+
+- id: react_native_features_jsi
+  name: JSI
+
+- id: react_native_features_debugging
+  name: How do you debug your React Native apps?
+- id: react_native_features_debugging_react_native_debugger
+  name: React Native Debugger
+- id: react_native_features_debugging_console_log
+  name: console.log
+- id: react_native_features_debugging_reactotron
+  name: Reactotron
+- id: react_native_features_debugging_native_debugging
+  name: Native debugging (Xcode, Android Studio)
+- id: react_native_features_debugging_flipper
+  name: Flipper
+- id: react_native_features_debugging_other
+  name: Other
+
+
+- id: react_native_features_performance_profile
+  name: What do you do to profile React Native app performance?
+- id: react_native_features_performance_profile_react_native_performance
+  name: React Native Performance
+- id: react_native_features_performance_profile_react_native_performance_monitor
+  name: React Native Performance Monitor
+- id: react_native_features_performance_profile_flipper
+  name: Flipper
+- id: react_native_features_performance_native
+  name: Native profiling (Xcode, Android Studio)
+- id: react_native_features_performance_profile_other
+  name: Other
+
+- id: react_native_features_brownfield
+  name: Do you integrate React Native with applications written using other technology?
+- id: react_native_features_brownfield_green
+  name: I mainly work on standalone React Native apps (greenfield)
+- id: react_native_features_brownfield_brown
+  name: I mainly work on integrated React Native apps (brownfield)
+- id: react_native_features_brownfield_both
+  name: I work on both standalone and brownfield apps
+
+- id: react_native_features_device_testing
+  name: How do you test the app?
+- id: react_native_features_device_testing_physical_devices
+  name: Physical devices
+- id: react_native_features_device_testing_emulators_simulators
+  name: Emulators / simulators
+- id: react_native_features_device_testing_device_farm
+  name: Device farm (AWS Device Farm, BrowserStack, etc.)
+- id: react_native_features_device_testing_other
+  name: Other
+
+- id: react_native_features_ota_updates
+  name: Do you use Over The Air Updates?
+- id: react_native_features_ota_updates_code_push
+  name: Code Push
+- id: react_native_features_ota_updates_eas_update
+  name: Expo EAS Update
+- id: react_native_features_ota_updates_expo_publish
+  name: (Classic) Expo Publish
+- id: react_native_features_ota_updates_dont_use
+  name: I don't use OTA updates
+- id: react_native_features_ota_updates_other
+  name: Other

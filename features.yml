@@ -7,6 +7,11 @@
 #################################################
 # CSS layout
 #################################################
+
+- id: mleko
+  name: Mleko
+  mdn: /en-US/docs/Web/API/Service_Worker_API
+
 - id: grid
   name: Grid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
@@ -1431,6 +1436,10 @@
 
 - id: webgl
   name: WebGL
+  mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
+
+- id: webgl2
+  name: WebGL2
   mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
 
 - id: webrtc
