@@ -1,27 +1,39 @@
 - id: developer_background_before
-  name: What was your background before you started using React Native? Check all that apply.
+  name: What was your background before you started using React Native?
 - id: developer_background_before.answer.a
-  name: React frontend developer
+  name: React developer 
 - id: developer_background_before.answer.b
-  name: other frontend developer (JavaScript, etc)
+  name: iOS developer
 - id: developer_background_before.answer.c
-  name: Backend developer (PHP, NodeJS, JVM, Python, etc)
+  name: Android developer
 - id: developer_background_before.answer.d
-  name: Native mobile developer (iOS, Android)
+  name: Frontend developer (other than React e.g. Vue, Angular, SolidJS, Svelte, etc.)
+- id: developer_background_before.answer.e
+  name: Backend developer (PHP, Node.js, JVM, Python, etc.)
+- id: developer_background_before.answer.f
+  name: Desktop developer (e.g. macOS, Windows, Linux)
+- id: developer_background_before.answer.g
+  name: QA engineer
+- id: developer_background_before.answer.h
+  name: DevOps
+- id: developer_background_before.answer.i
+  name: Embedded developer
+- id: developer_background_before.answer.j
+  name: Non-technical role
 - id: developer_background_before_other
   name: Other
 
 - id: developer_background_primarily_system
-  name: What desktop system do you primarily use?
+  name: What desktop OS do you primarily use?
 - id: developer_background_primarily_system.answer.a
-  name: MacOS
+  name: macOS
 - id: developer_background_primarily_system.answer.b
   name: Linux
 - id: developer_background_primarily_system.answer.c
   name: Windows
 
 - id: developer_background_users_count
-  name: How many users use your most popular React Native app?
+  name: What is the user count of your top React Native app?
 - id: developer_background_users_count.answer.a
   name: Only me
 - id: developer_background_users_count.answer.b
@@ -51,13 +63,13 @@
   name: more than 10
 
 - id: developer_background_platforms
-  name: Platforms that you use React Native for. Check all that apply.
+  name: Platforms that you use React Native for.
 - id: developer_background_platforms.answer.a
   name: iOS
 - id: developer_background_platforms.answer.b
   name: Android
 - id: developer_background_platforms.answer.c
-  name: WEB
+  name: Web
 - id: developer_background_platforms.answer.d
   name: macOS
 - id: developer_background_platforms.answer.e
@@ -70,13 +82,13 @@
   name: Other
 
 - id: developer_background_contribution_to_rn
-  name: Have you ever contributed to React Native (merged pull requests)?
+  name: Have you ever contributed to React Native?
 
 - id: developer_background_contribution_to_lib
   name: Have you ever contributed to any React Native community library?
 
 - id: developer_background_releases_count
-  name: How many React Native apps have you released on Google Play / App Store?
+  name: How many React Native apps have you released on Google Play or App Store?
 - id: developer_background_releases_count.answer.a
   name: None
 - id: developer_background_releases_count.answer.b
@@ -91,7 +103,7 @@
 - id: developer_background_os_target
   name: What mobile OS versions do you target?
 - id: developer_background_os_target.answer.a
-  name: Most recent ones (iOS 15+, Android 12+)
+  name: Most recent ones (iOS 16+, Android 13+)
 - id: developer_background_os_target.answer.b
   name: Reasonably current (iOS 12+, Android 10+)
 - id: developer_background_os_target.answer.c
@@ -100,7 +112,7 @@
   name: As old as possible (iOS 8+, Android 5+)
 
 - id: developer_background_industry_sector
-  name: Industry Sector. Which industry sector(s) are you using React Native in?
+  name: Industry Sector.
 - id: developer_background_industry_sector.answer.a
   name: Ecommerce & Retail
 - id: developer_background_industry_sector.answer.b

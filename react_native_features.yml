@@ -113,12 +113,12 @@
 - id: react_native_features_ota_updates
   name: Do you use over-the-air updates?
 - id: react_native_features_ota_updates_code_push
-  name: App Center CodePush
+  name: CodePush
 - id: react_native_features_ota_updates_eas_update
-  name: Expo EAS Update
+  name: EAS Update
 - id: react_native_features_ota_updates_expo_publish
-  name: (Classic) Expo Publish
-- id: react_native_features_ota_updates_dont_use
-  name: I don't use OTA updates
+  name: Expo Publish
+- id: react_native_features_ota_updates_self_hosted
+  name: Self-hosted
 - id: react_native_features_ota_updates_other
   name: Other

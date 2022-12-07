@@ -42,7 +42,8 @@
   name: People you read, follow, or just want to highlight for their work.
 
 - id: resources_surveys
-  name: Other Surveys Which other developer surveys do you participate in?
+  name: Other Surveys
+  description: Which other developer surveys do you participate in?
 - id: resources_surveys_state_of_js
   name: State of JS
 - id: resources_surveys_state_of_css

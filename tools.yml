@@ -1,8 +1,7 @@
 - id: tools_js_ts
   name: JavaScript/TypeScript Balance. How do you divide your time between writing JavaScript and TypeScript code?
 
-- id: tools_expo
-  name: Expo CLI
+
 
 - id: tools_building
   name: How do you build your app for the App Store or Google Play?
@@ -11,7 +10,48 @@
 - id: tools_building_fastlane
   name: Fastlane
 - id: tools_building_expo_eas
-  name: Expo EAS Build
+  name: EAS Build
 - id: tools_building_other
   name: Other
 
+
+- id: tools_libraries
+  name: Libraries. Which other libraries (not covered previously) do you regularly use?
+
+- id: tools_package_managers
+  name: Package managers
+- id: tools_package_managers_npm
+  name: npm
+- id: tools_package_managers_yarn
+  name: yarn
+- id: tools_package_managers_yarn_berry
+  name: yarn berry (yarn v2+)
+- id: tools_package_managers_pnpm
+  name: pnpm
+
+- id: tools_expo
+  name: Expo
+
+- id: tools_swiftui
+  name: SwiftUI
+
+- id: tools_flutter
+  name: Flutter
+
+- id: tools_jetpack_compose
+  name: Jetpack Compose
+
+- id: tools_xamarin
+  name: Xamarin
+
+- id: tools_cordova
+  name: Cordova
+
+- id: tools_ionic
+  name: Ionic
+
+- id: tools_native_script
+  name: NativeScript
+
+- id: tools_kotlin
+  name: Kotlin Multiplatform Mobile

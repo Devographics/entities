@@ -67,23 +67,11 @@
 - id: about_you_education_degree
   name: Higher Education Degree? Do you have a higher education degree?
 - id: about_you_education_degree_no
-  name: No
-- id: about_you_education_degree_undergraduate
-  name: Undergraduate, related to my profession
-- id: about_you_education_degree_undergraduate_unrelated
-  name: Undergraduate, unrelated to my profession
-- id: about_you_education_degree_graduate
-  name: Graduate, related to my profession
-- id: about_you_education_degree_graduate_unrelated
-  name: Graduate, unrelated to my profession
-- id: about_you_education_degree_postgraduate
-  name: Postgraduate, related to my profession
-- id: about_you_education_degree_postgraduate_unrelated
-  name: Postgraduate, unrelated to my profession
-- id: about_you_education_degree_phd
-  name: PhD, related to my profession
-- id: about_you_education_degree_phd_unrelated
-  name: PhD, unrelated to my profession
+  name: "No"
+- id: about_you_education_degree_yes_related
+  name: Yes, related to my profession
+- id: about_you_education_degree_yes_unrelated
+  name: Yes, unrelated to my profession
 
 
 - id: about_you_salary
