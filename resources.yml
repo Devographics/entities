@@ -62,5 +62,8 @@
   name: Postman State of the API Report
 - id: resources_surveys_jamstack
   name: Jamstack Community Survey
+- id: resources_communities
+  name: Communities (e.g. Slack, Discord, etc.)
+
 - id: resources_surveys_other
   name: Other
