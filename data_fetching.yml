@@ -1,0 +1,19 @@
+- id: data_fetching
+  name: Data fetching
+- id: data_fetching_trpc
+  name: tRPC
+- id: data_fetching_fetch
+  name: Fetch API
+- id: data_fetching_apollo
+  name: Apollo Client
+- id: data_fetching_axios
+  name: Axios
+- id: data_fetching_tan_stack
+  name: TanStack Query (React Query)
+- id: data_fetching_swr
+  name: SWR
+- id: data_fetching_relay
+  name: Relay
+- id: data_fetching_other
+  name: Other
+  description: Other data fetching libraries not listed above
