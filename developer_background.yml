@@ -23,6 +23,15 @@
 - id: developer_background_before_other
   name: Other
 
+- id: developer_background_usage_type
+  name: How do you use React Native?
+- id: developer_background_usage_type.answer.a
+  name: Professionally
+- id: developer_background_usage_type.answer.b
+  name: As a student
+- id: developer_background_usage_type.answer.c
+  name: As a hobby
+
 - id: developer_background_primarily_system
   name: What desktop OS do you primarily use?
 - id: developer_background_primarily_system.answer.a

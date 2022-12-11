@@ -98,7 +98,7 @@
 - id: about_you_gender_male
   name: Male
 - id: about_you_gender_non_binary
-  name: Non binary
+  name: Non-binary
 - id: about_you_gender_not_listed
   name: Not listed
 
