@@ -1,0 +1,20 @@
+- id: animations
+  name: Graphics and animations
+- id: animations_animated_api
+  name: Animated API
+- id: animations_react_native_reanimated
+  name: React Native Reanimated
+- id: animations_moti
+  name: Moti
+- id: animations_skia
+  name: React Native Skia
+- id: animations_react_native_animatable
+  name: React Native Animatable
+- id: animations_threejs
+  name: Three.js
+- id: animations_lottie
+  name: Lottie
+- id: animations_expo_gl
+  name: Expo GL
+- id: animations_other
+  name: Other

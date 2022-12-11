@@ -1,0 +1,12 @@
+- id: navigation
+  name: Navigation solutions
+- id: navigation_react_navigation
+  name: React Navigation
+- id: navigation_react_native_navigation
+  name: React Native Navigation
+- id: navigation_react_router
+  name: React Router
+- id: navigation_expo_router
+  name: Expo Router
+- id: navigation_other
+  name: Other
