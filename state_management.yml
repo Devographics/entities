@@ -1,0 +1,19 @@
+- id: state_management
+  name: State management
+- id: state_management_rn_build_in
+  name: React built-in (useState, useReducer, useContext)
+- id: state_management_jotai
+  name: Jotai
+- id: state_management_zustand
+  name: Zustand
+- id: state_management_redux
+  name: Redux
+- id: state_management_recoil
+  name: Recoil
+- id: state_management_apollo
+  name: Apollo Client
+- id: state_management_react_query
+  name: TanStack Query (React Query)
+- id: state_management_other
+  name: Other
+  description: Other data fetching libraries not listed above
