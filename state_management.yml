@@ -15,5 +15,4 @@
 - id: state_management_react_query
   name: TanStack Query (React Query)
 - id: state_management_other
-  name: Other
-  description: Other data fetching libraries not listed above
+  name: Other state management

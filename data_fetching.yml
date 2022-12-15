@@ -15,5 +15,4 @@
 - id: data_fetching_relay
   name: Relay
 - id: data_fetching_other
-  name: Other
-  description: Other data fetching libraries not listed above
+  name: Other data fetching

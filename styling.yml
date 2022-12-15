@@ -15,7 +15,7 @@
 - id: styling_techniques_inline
   name: Inline styling
 - id: styling_techniques_other
-  name: Other
+  name: Other styling techniques
 
 - id: styling_component_libraries
   name: UI Components libraries
@@ -32,4 +32,4 @@
 - id: styling_component_libraries_tamagui
   name: Tamagui
 - id: styling_component_libraries_other
-  name: Other
+  name: Other styling component libraries
