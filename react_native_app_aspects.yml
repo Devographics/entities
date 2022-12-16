@@ -5,7 +5,7 @@
 - id: react_native_app_aspects_gestures_react_native_gesture_handler
   name: React Native Gesture Handler
 - id: react_native_app_aspects_gestures_other
-  name: Other
+  name: Other gestures
 
 - id: react_native_app_aspects_internationalization
   name: Internationalization
@@ -14,7 +14,7 @@
 - id: react_native_app_aspects_internationalization_react_i18next
   name: react-i18next
 - id: react_native_app_aspects_internationalization_other
-  name: Other
+  name: Other internationalization
 
 - id: react_native_app_aspects_analytics
   name: Analytics
@@ -35,7 +35,7 @@
 - id: react_native_app_aspects_analytics_flurry
   name: Flurry
 - id: react_native_app_aspects_analytics_other
-  name: Other
+  name: Other analytics
 
 - id: react_native_app_aspects_crash_reporting
   name: Crash Reporting
@@ -60,7 +60,7 @@
 - id: react_native_app_aspects_crash_reporting_appcenter_crashes
   name: AppCenter Crashes
 - id: react_native_app_aspects_crash_reporting_other
-  name: Other
+  name: Other crash reporting
 
 - id: react_native_app_aspects_testing
   name: Testing
@@ -75,7 +75,7 @@
 - id: react_native_app_aspects_testing_dont_test
   name: I don't test my app
 - id: react_native_app_aspects_testing_other
-  name: Other
+  name: Other testing
 
 - id: react_native_app_aspects_storage
   name: Storage
@@ -94,5 +94,5 @@
 - id: react_native_app_aspects_storage_expo_sqlite
   name: Expo SQLite
 - id: react_native_app_aspects_storage_other
-  name: Other
+  name: Other storage
 

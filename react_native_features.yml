@@ -69,7 +69,7 @@
 - id: react_native_features_debugging_react_dev_tools
   name: React Developer Tools
 - id: react_native_features_debugging_other
-  name: Other
+  name: Other debugging tools
 
 
 - id: react_native_features_performance_profile
@@ -88,7 +88,7 @@
   name: React Native Flipper Performance Plugin
 
 - id: react_native_features_performance_profile_other
-  name: Other
+  name: Other performance profiling 
 
 - id: react_native_features_brownfield
   name: Do you integrate React Native with applications written using other technology?
@@ -108,7 +108,7 @@
 - id: react_native_features_device_testing_device_farm
   name: Device farm (AWS Device Farm, BrowserStack, etc.)
 - id: react_native_features_device_testing_other
-  name: Other
+  name: Other ways to test
 
 - id: react_native_features_ota_updates
   name: Do you use over-the-air updates?
@@ -121,4 +121,4 @@
 - id: react_native_features_ota_updates_self_hosted
   name: Self-hosted
 - id: react_native_features_ota_updates_other
-  name: Other
+  name: Other OTA update solutions

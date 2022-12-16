@@ -11,6 +11,6 @@
 - id: navigation_navigation
   name: navigation-react-native
 - id: navigation_other
-  name: Other
+  name: Other navigation solutions
 - id: navigation_happiness
   name: Overall happiness
