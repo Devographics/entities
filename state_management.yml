@@ -14,5 +14,7 @@
   name: Apollo Client
 - id: state_management_react_query
   name: TanStack Query (React Query)
+- id: state_management_legend_state
+  name: Legend State
 - id: state_management_other
   name: Other state management

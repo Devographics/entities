@@ -14,6 +14,8 @@
   name: Restyle
 - id: styling_techniques_inline
   name: Inline styling
+- id: styling_techniques_tamagui
+  name: Tamagui
 - id: styling_techniques_other
   name: Other styling techniques
 

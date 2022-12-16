@@ -12,7 +12,7 @@
 - id: tools_building_expo_eas
   name: EAS Build
 - id: tools_building_other
-  name: Other
+  name: Other ways to build app for the App Store or Google Play
 
 
 - id: tools_libraries
@@ -28,6 +28,22 @@
   name: yarn berry (yarn v2+)
 - id: tools_package_managers_pnpm
   name: pnpm
+
+
+- id: tools_starter_templates
+  name: Which starter templates do you use to bootstrap React Native apps?
+- id: tools_starter_templates_expo
+  name: create-expo-app
+- id: tools_starter_templates_react_native_cli
+  name: react-native init
+- id: tools_starter_templates_ignite_cli
+  name: ignite-cli
+- id: tools_starter_templates_solito
+  name: solito
+- id: tools_starter_templates_create_t3_turbo
+  name: create-t3-turbo
+- id: tools_starter_templates_other
+  name: Other starter templates
 
 - id: tools_expo
   name: Expo

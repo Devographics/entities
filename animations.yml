@@ -16,5 +16,7 @@
   name: Lottie
 - id: animations_expo_gl
   name: Expo GL
+- id: animations_legend_motion
+  name: Legend Motion
 - id: animations_other
   name: Other
