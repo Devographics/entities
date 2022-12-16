@@ -1,0 +1,12 @@
+- id: deployment_manually_xcode
+  name: Manually with Xcode
+- id: deployment_manually_android_studio
+  name: Manually with Android Studio
+- id: deployment_fastlane
+  name: Fastlane
+- id: deployment_eas_build
+  name: EAS Build
+- id: deployment_eas_submit
+  name: EAS Submit
+- id: deployment_other
+  name: Other ways to build app and submit for the App Store or Google Play
