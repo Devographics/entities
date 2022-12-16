@@ -1,5 +1,5 @@
 - id: tools_js_ts
-  name: JavaScript/TypeScript Balance. How do you divide your time between writing JavaScript and TypeScript code?
+  name: JavaScript/TypeScript Balance
 
 
 - id: tools_libraries
@@ -18,7 +18,7 @@
 
 
 - id: tools_starter_templates
-  name: Which starter templates do you use to bootstrap React Native apps?
+  name: Starter templates
 - id: tools_starter_templates_expo
   name: create-expo-app
 - id: tools_starter_templates_react_native_cli

@@ -38,7 +38,7 @@
   name: Other analytics
 
 - id: react_native_app_aspects_crash_reporting
-  name: Crash Reporting
+  name: Crash reporting
 - id: react_native_app_aspects_crash_reporting_sentry
   name: Sentry
 - id: react_native_app_aspects_crash_reporting_datadog
@@ -72,8 +72,8 @@
   name: Detox
 - id: react_native_app_aspects_testing_appium
   name: Appium
-- id: react_native_app_aspects_testing_dont_test
-  name: I don't test my app
+- id: react_native_app_aspects_testing_maestro
+  name: Maestro
 - id: react_native_app_aspects_testing_other
   name: Other testing
 

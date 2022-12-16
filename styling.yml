@@ -31,8 +31,8 @@
   name: NativeBase
 - id: styling_component_libraries_rn_ui_lib
   name: react-native-ui-lib
-- id: styling_component_libraries_tamagui
-  name: Tamagui
+- id: styling_component_libraries_dripsy
+  name: Dripsy
 - id: styling_component_libraries_other
   name: Other styling component libraries
 

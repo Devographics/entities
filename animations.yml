@@ -12,6 +12,8 @@
   name: React Native Animatable
 - id: animations_threejs
   name: Three.js
+- id: animations_react_three_fiber
+  name: React Three Fiber
 - id: animations_lottie
   name: Lottie
 - id: animations_expo_gl

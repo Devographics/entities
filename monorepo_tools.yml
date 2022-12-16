@@ -1,0 +1,17 @@
+- id: monorepo_tools_yarn_workspaces
+  name: yarn workspaces
+- id: monorepo_tools_npm_workspaces
+  name: npm workspaces
+- id: monorepo_tools_turborepo
+  name: Turborepo
+- id: monorepo_tools_lerna
+  name: Lerna
+- id: monorepo_tools_pnpm
+  name: pnpm
+- id: monorepo_tools_nx
+  name: Nx
+- id: monorepo_tools_rush
+  name: Rush
+
+- id: monorepo_tools_other
+  name: Other monorepo tools
