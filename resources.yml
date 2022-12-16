@@ -23,7 +23,7 @@
 - id: resources_initially_learn_react_native_self_directed_learning
   name: Self-directed learning
 - id: resources_initially_learn_react_native_other
-  name: Other
+  name: Other resources
 
 
 - id: resources_read
@@ -42,7 +42,7 @@
   name: People you read, follow, or just want to highlight for their work.
 
 - id: resources_surveys
-  name: Other Surveys
+  name: Other surveys
   description: Which other developer surveys do you participate in?
 - id: resources_surveys_state_of_js
   name: State of JS
@@ -66,4 +66,4 @@
   name: Communities (e.g. Slack, Discord, etc.)
 
 - id: resources_surveys_other
-  name: Other
+  name: Other surveys not mentioned above

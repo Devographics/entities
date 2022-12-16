@@ -18,3 +18,5 @@
   name: Legend State
 - id: state_management_other
   name: Other state management
+- id: state_management_happiness
+  name: Overall happiness

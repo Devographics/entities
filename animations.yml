@@ -19,4 +19,7 @@
 - id: animations_legend_motion
   name: Legend Motion
 - id: animations_other
-  name: Other
+  name: Other graphics and animations
+- id: animations_happiness
+  name: Overall happiness
+

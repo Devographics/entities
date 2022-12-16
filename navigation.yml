@@ -1,12 +1,16 @@
 - id: navigation
   name: Navigation solutions
 - id: navigation_react_navigation
-  name: React Navigation
+  name: react-navigation
 - id: navigation_react_native_navigation
-  name: React Native Navigation
+  name: react-native-navigation
 - id: navigation_react_router
-  name: React Router
+  name: react-router
 - id: navigation_expo_router
-  name: Expo Router
+  name: expo-router
+- id: navigation_navigation
+  name: navigation-react-native
 - id: navigation_other
   name: Other
+- id: navigation_happiness
+  name: Overall happiness

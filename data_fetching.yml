@@ -16,3 +16,5 @@
   name: Relay
 - id: data_fetching_other
   name: Other data fetching
+- id: data_fetching_happiness
+  name: Overall happiness
