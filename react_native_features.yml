@@ -53,7 +53,7 @@
   name: Expo Modules
 
 - id: react_native_features_debugging
-  name: How do you debug your React Native apps?
+  name: Debugging tools
 - id: react_native_features_debugging_react_native_debugger
   name: React Native Debugger
 - id: react_native_features_debugging_chrome_dev_tools
@@ -73,7 +73,7 @@
 
 
 - id: react_native_features_performance_profile
-  name: How do you profile React Native app performance?
+  name: Performance profiling
 - id: react_native_features_performance_profile_react_native_performance
   name: React Native Performance
 - id: react_native_features_performance_profile_react_native_performance_monitor
@@ -111,7 +111,7 @@
   name: Other ways to test
 
 - id: react_native_features_ota_updates
-  name: Do you use over-the-air updates?
+  name: OTA updates solutions
 - id: react_native_features_ota_updates_code_push
   name: CodePush
 - id: react_native_features_ota_updates_eas_update
@@ -121,4 +121,4 @@
 - id: react_native_features_ota_updates_self_hosted
   name: Self-hosted
 - id: react_native_features_ota_updates_other
-  name: Other OTA update solutions
+  name: Other OTA updates solutions

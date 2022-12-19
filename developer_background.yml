@@ -1,5 +1,5 @@
 - id: developer_background_before
-  name: What was your background before you started using React Native?
+  name: Before React Native
 - id: developer_background_before.answer.a
   name: React developer 
 - id: developer_background_before.answer.b
@@ -21,7 +21,7 @@
 - id: developer_background_before.answer.j
   name: Non-technical role
 - id: developer_background_before_other
-  name: Other
+  name: Other Background
 
 - id: developer_background_usage_type
   name: How do you use React Native?
@@ -33,7 +33,7 @@
   name: As a hobby
 
 - id: developer_background_primarily_system
-  name: What desktop OS do you primarily use?
+  name: Desktop OS
 - id: developer_background_primarily_system.answer.a
   name: macOS
 - id: developer_background_primarily_system.answer.b
@@ -42,7 +42,7 @@
   name: Windows
 
 - id: developer_background_users_count
-  name: What is the user count of your top React Native app?
+  name: Top React Native app user count
 - id: developer_background_users_count.answer.a
   name: Only me
 - id: developer_background_users_count.answer.b
@@ -59,7 +59,7 @@
   name: 1M and more
 
 - id: developer_background_team_size
-  name: What is your mobile app team size?
+  name: Team size
 - id: developer_background_team_size.answer.a
   name: Solo developer
 - id: developer_background_team_size.answer.b
@@ -72,7 +72,7 @@
   name: more than 10
 
 - id: developer_background_platforms
-  name: Platforms that you use React Native for.
+  name: Target platforms
 - id: developer_background_platforms.answer.a
   name: iOS
 - id: developer_background_platforms.answer.b
@@ -88,16 +88,16 @@
 - id: developer_background_platforms.answer.g
   name: tvOS
 - id: developer_background_platforms_other
-  name: Other
+  name: Other target platforms
 
 - id: developer_background_contribution_to_rn
-  name: Have you ever contributed to React Native?
+  name: Contribution to React Native
 
 - id: developer_background_contribution_to_lib
-  name: Have you ever contributed to any React Native community library?
+  name: Contribution to React Native libraries
 
 - id: developer_background_releases_count
-  name: How many React Native apps have you released on Google Play or App Store?
+  name: Number of released apps 
 - id: developer_background_releases_count.answer.a
   name: None
 - id: developer_background_releases_count.answer.b
@@ -175,4 +175,4 @@
 - id: developer_background_industry_sector.answer.z
   name: Manufacturing
 - id: developer_background_industry_sector_other
-  name: Other
+  name: Other industry sectors

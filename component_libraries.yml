@@ -1,0 +1,20 @@
+- id: component_libraries
+  name: UI Components libraries
+- id: component_libraries_rn_paper
+  name: react-native-paper
+- id: component_libraries_ui_kitten
+  name: ui-kitten
+- id: component_libraries_rn_elements
+  name: React Native Elements
+- id: component_libraries_native_base
+  name: NativeBase
+- id: component_libraries_rn_ui_lib
+  name: react-native-ui-lib
+- id: component_libraries_dripsy
+  name: Dripsy
+- id: component_libraries_shoutem_ui
+  name: Shoutem UI
+- id: component_libraries_other
+  name: Other styling component libraries
+- id: component_libraries_happiness
+  name: Overall happiness

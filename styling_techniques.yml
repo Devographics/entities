@@ -1,0 +1,20 @@
+- id: styling_techniques
+  name: Styling techniques / libraries
+- id: styling_techniques_style_sheet
+  name: StyleSheet API
+- id: styling_techniques_nativewind
+  name: NativeWind
+- id: styling_techniques_tailwind_rn
+  name: "tailwind-rn"
+- id: styling_techniques_styled_components
+  name: styled components
+- id: styling_techniques_restyle
+  name: Restyle
+- id: styling_techniques_inline
+  name: Inline styling
+- id: styling_techniques_tamagui
+  name: Tamagui
+- id: styling_techniques_other
+  name: Other styling techniques
+- id: styling_techniques_happiness
+  name: Overall happiness

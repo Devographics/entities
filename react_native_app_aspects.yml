@@ -13,6 +13,8 @@
   name: react-native-localize
 - id: react_native_app_aspects_internationalization_react_i18next
   name: react-i18next
+- id: react_native_app_aspects_internationalization_fbt
+  name: FBT
 - id: react_native_app_aspects_internationalization_other
   name: Other internationalization
 
@@ -93,6 +95,23 @@
   name: React Native SQLite Storage
 - id: react_native_app_aspects_storage_expo_sqlite
   name: Expo SQLite
+- id: react_native_app_aspects_storage_rxdb
+  name: RxDB
 - id: react_native_app_aspects_storage_other
   name: Other storage
+
+
+- id: react_native_app_aspects_data_visualisation
+  name: Data Visualisation
+- id: react_native_app_aspects_data_visualisation_victory_native
+  name: Victory Native
+- id: react_native_app_aspects_data_visualisation_react_native_svg
+  name: react-native-svg
+- id: react_native_app_aspects_data_visualisation_recharts
+  name: Recharts
+- id: react_native_app_aspects_data_visualisation_react_native_charts_kit
+  name: React Native Charts Kit
+- id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
+  name: React Native Charts Wrapper
+- id: react_native_app_aspects_data_visualisation_other
 

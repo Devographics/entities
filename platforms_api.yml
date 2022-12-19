@@ -1,7 +1,5 @@
 - id: platform_apis_questions
-  name: Which Platform APIs have you used in 2022 in React Native?
-
-# TODO alphabetize
+  name: Platform APIs Usage
 
 - id: platform_apis_offline_mode
   name: Offline mode
@@ -115,4 +113,4 @@
   name: Permissions
 
 - id: platform_apis_other
-  name: Other Platform APIs
+  name: Other Platform APIs Usage
