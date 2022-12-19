@@ -47,22 +47,22 @@
   name: Company Size
 - id: about_you_company_size_1_employee
   name: 1 employee
-- id: about_you_company_size_2_to_4
-  name: 2 to 4
-- id: about_you_company_size_5_to_9
-  name: 5 to 9
-- id: about_you_company_size_10_to_19
-  name: 10 to 19
-- id: about_you_company_size_20_to_49
-  name: 20 to 49
-- id: about_you_company_size_50_to_99
-  name: 50 to 99
-- id: about_you_company_size_100_to_499
-  name: 100 to 499
-- id: about_you_company_size_500_to_999
-  name: 500 to 999
+- id: about_you_company_size_2_to_5
+  name: 2 to 5 employees
+- id: about_you_company_size_6_to_10
+  name: 6 to 10 employees
+- id: about_you_company_size_11_to_20
+  name: 11 to 20 employees
+- id: about_you_company_size_21_to_50
+  name: 21 to 50 employees
+- id: about_you_company_size_51_to_100
+  name: 51 to 100 employees
+- id: about_you_company_size_101_to_500
+  name: 101 to 500 employees
+- id: about_you_company_size_501_to_1000
+  name: 501 to 1000 employees
 - id: about_you_company_size_1000_or_more
-  name: 1000 or more
+  name: more than 1000
 
 - id: about_you_education_degree
   name: Higher Education Degree
