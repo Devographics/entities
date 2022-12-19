@@ -76,6 +76,10 @@
   name: Appium
 - id: react_native_app_aspects_testing_maestro
   name: Maestro
+- id: react_native_app_aspects_testing_xcuitest
+  name: XCUITest
+- id: react_native_app_aspects_testing_espresso
+  name: Espresso
 - id: react_native_app_aspects_testing_other
   name: Other testing solutions
 

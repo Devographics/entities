@@ -1,0 +1,27 @@
+
+- id: react_native_alternatives_swiftui
+  name: SwiftUI
+
+- id: react_native_alternatives_flutter
+  name: Flutter
+
+- id: react_native_alternatives_jetpack_compose
+  name: Jetpack Compose
+
+- id: react_native_alternatives_xamarin
+  name: Xamarin
+
+- id: react_native_alternatives_cordova
+  name: Cordova
+
+- id: react_native_alternatives_ionic
+  name: Ionic
+
+- id: react_native_alternatives_native_script
+  name: NativeScript
+
+- id: react_native_alternatives_kotlin
+  name: Kotlin Multiplatform Mobile
+
+- id: react_native_alternatives_felgo
+  name: Felgo

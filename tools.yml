@@ -34,27 +34,4 @@
 
 - id: tools_expo
   name: Expo
-
-- id: tools_swiftui
-  name: SwiftUI
-
-- id: tools_flutter
-  name: Flutter
-
-- id: tools_jetpack_compose
-  name: Jetpack Compose
-
-- id: tools_xamarin
-  name: Xamarin
-
-- id: tools_cordova
-  name: Cordova
-
-- id: tools_ionic
-  name: Ionic
-
-- id: tools_native_script
-  name: NativeScript
-
-- id: tools_kotlin
-  name: Kotlin Multiplatform Mobile
+  
