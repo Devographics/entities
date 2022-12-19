@@ -1,8 +1,8 @@
 - id: about_you_country
-  name: Your Country or Region
+  name: Your country or region
 
 - id: about_you_age
-  name: Your Age
+  name: Your age
 - id: about_you_age_18_or_youger
   name: 18 or younger
 - id: about_you_age_19_24
@@ -19,7 +19,7 @@
   name: 65 or older
 
 - id: about_you_experience
-  name: Years of Experience
+  name: Years of experience
 - id: about_you_experience_1_year_or_less
   name: 1 year or less
 - id: about_you_experience_2_to_3_years
@@ -28,12 +28,13 @@
   name: 4 to 5 years
 - id: about_you_experience_6_to_10_years
   name: 6 to 10 years
-- id: about_you_experience_11_years_or_more
-  name: 11 years or more
-
+- id: about_you_experience_11_to_20_years
+  name: 11 to 20 years
+- id: about_you_experience_20_years_or_more
+  name: More than 20 years
 
 - id: about_you_experience_in_rn
-  name: Years of Experience in React Native
+  name: Years of experience in React Native
 - id: about_you_experience_in_rn_1_year_or_less
   name: 1 year or less
 - id: about_you_experience_in_rn_2_to_3_years
@@ -44,7 +45,7 @@
   name: 6 years or more
 
 - id: about_you_company_size
-  name: Company Size
+  name: Company size
 - id: about_you_company_size_1_employee
   name: 1 employee
 - id: about_you_company_size_2_to_5
@@ -65,7 +66,7 @@
   name: more than 1000
 
 - id: about_you_education_degree
-  name: Higher Education Degree
+  name: Higher education degree
 - id: about_you_education_degree_no
   name: "No"
 - id: about_you_education_degree_yes_related
@@ -75,7 +76,7 @@
 
 
 - id: about_you_salary
-  name: Yearly Salary
+  name: Yearly salary
 - id: about_you_salary_free
   name: I work for free
 - id: about_you_salary_0_to_10k

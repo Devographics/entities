@@ -1,5 +1,5 @@
 - id: resources_initially_learn_react_native
-  name: First learning methods.
+  name: First learning methods
 - id: resources_initially_learn_react_native_official_docs
   name: Official React Native docs
 - id: resources_initially_learn_react_native_books
@@ -23,16 +23,16 @@
 - id: resources_initially_learn_react_native_self_directed_learning
   name: Self-directed learning
 - id: resources_initially_learn_react_native_other
-  name: Other first learning methods.
+  name: Other first learning methods
 
 - id: resources_read
   name: Blogs & magazines
 - id: resources_course
-  name: Sites & Courses
+  name: Sites & courses
 - id: resources_podcast
   name: Podcasts
 - id: resources_video
-  name: Video Creators
+  name: Video creators
 - id: resources_people
   name: People
 - id: resources_communities

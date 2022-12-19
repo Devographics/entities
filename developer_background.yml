@@ -21,7 +21,7 @@
 - id: developer_background_before.answer.j
   name: Non-technical role
 - id: developer_background_before_other
-  name: Other Background
+  name: Other background
 
 - id: developer_background_usage_type
   name: How do you use React Native?
@@ -121,7 +121,7 @@
   name: As old as possible (iOS 8+, Android 5+)
 
 - id: developer_background_industry_sector
-  name: Industry Sector.
+  name: Industry sector
 - id: developer_background_industry_sector.answer.a
   name: Ecommerce & Retail
 - id: developer_background_industry_sector.answer.b

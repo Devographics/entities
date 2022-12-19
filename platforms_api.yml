@@ -1,5 +1,5 @@
 - id: platform_apis_questions
-  name: Platform APIs Usage
+  name: Platform APIs usage
 
 - id: platform_apis_offline_mode
   name: Offline mode
@@ -113,4 +113,4 @@
   name: Permissions
 
 - id: platform_apis_other
-  name: Other Platform APIs Usage
+  name: Other platform APIs usage

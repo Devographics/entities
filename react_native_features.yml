@@ -1,5 +1,5 @@
 - id: react_native_features_version
-  name: Which version do you use mainly?
+  name: React Native version
 - id: react_native_features_version_0_63_or_lower
   name: 0.63 or lower
 - id: react_native_features_version_0_64
@@ -88,7 +88,7 @@
   name: React Native Flipper Performance Plugin
 
 - id: react_native_features_performance_profile_other
-  name: Other performance profiling 
+  name: Other performance profiling tools
 
 - id: react_native_features_brownfield
   name: Do you integrate React Native with applications written using other technology?

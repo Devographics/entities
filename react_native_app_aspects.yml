@@ -5,7 +5,7 @@
 - id: react_native_app_aspects_gestures_react_native_gesture_handler
   name: React Native Gesture Handler
 - id: react_native_app_aspects_gestures_other
-  name: Other gestures
+  name: Other gestures solutions
 
 - id: react_native_app_aspects_internationalization
   name: Internationalization
@@ -16,7 +16,7 @@
 - id: react_native_app_aspects_internationalization_fbt
   name: FBT
 - id: react_native_app_aspects_internationalization_other
-  name: Other internationalization
+  name: Other internationalization solutions
 
 - id: react_native_app_aspects_analytics
   name: Analytics
@@ -37,7 +37,7 @@
 - id: react_native_app_aspects_analytics_flurry
   name: Flurry
 - id: react_native_app_aspects_analytics_other
-  name: Other analytics
+  name: Other analytics solutions
 
 - id: react_native_app_aspects_crash_reporting
   name: Crash reporting
@@ -62,7 +62,7 @@
 - id: react_native_app_aspects_crash_reporting_appcenter_crashes
   name: AppCenter Crashes
 - id: react_native_app_aspects_crash_reporting_other
-  name: Other crash reporting
+  name: Other crash reporting solutions
 
 - id: react_native_app_aspects_testing
   name: Testing
@@ -77,7 +77,7 @@
 - id: react_native_app_aspects_testing_maestro
   name: Maestro
 - id: react_native_app_aspects_testing_other
-  name: Other testing
+  name: Other testing solutions
 
 - id: react_native_app_aspects_storage
   name: Storage
@@ -98,7 +98,7 @@
 - id: react_native_app_aspects_storage_rxdb
   name: RxDB
 - id: react_native_app_aspects_storage_other
-  name: Other storage
+  name: Other storage solutions
 
 
 - id: react_native_app_aspects_data_visualisation
@@ -114,4 +114,4 @@
 - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
   name: React Native Charts Wrapper
 - id: react_native_app_aspects_data_visualisation_other
-
+  name: Other data visualisation solutions

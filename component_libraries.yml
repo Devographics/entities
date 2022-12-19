@@ -1,5 +1,5 @@
 - id: component_libraries
-  name: UI Components libraries
+  name: UI components libraries
 - id: component_libraries_rn_paper
   name: react-native-paper
 - id: component_libraries_ui_kitten
@@ -15,6 +15,6 @@
 - id: component_libraries_shoutem_ui
   name: Shoutem UI
 - id: component_libraries_other
-  name: Other styling component libraries
+  name: Other UI components libraries
 - id: component_libraries_happiness
   name: Overall happiness
