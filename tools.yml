@@ -35,3 +35,8 @@
 - id: tools_expo
   name: Expo
   
+- id: tools_rnx_kit
+  name: rnx-kit
+
+- id: tools_other_tools
+  name: Other development tools

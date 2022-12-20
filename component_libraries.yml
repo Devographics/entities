@@ -6,6 +6,8 @@
   name: ui-kitten
 - id: component_libraries_rn_elements
   name: React Native Elements
+- id: component_libraries_react_native_material_ui
+  name: react-native-material-ui
 - id: component_libraries_native_base
   name: NativeBase
 - id: component_libraries_rn_ui_lib

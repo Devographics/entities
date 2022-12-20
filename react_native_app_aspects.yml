@@ -1,11 +1,13 @@
-- id: react_native_app_aspects_gestures
-  name: Gestures
-- id: react_native_app_aspects_gestures_panresponder_api  
+- id: react_native_app_aspects_interactions
+  name: Interactions
+- id: react_native_app_aspects_interactions_panresponder_api  
   name: PanResponder API
-- id: react_native_app_aspects_gestures_react_native_gesture_handler
+- id: react_native_app_aspects_interactions_touchables
+  name: Touchables/Pressables
+- id: react_native_app_aspects_interactions_react_native_gesture_handler
   name: React Native Gesture Handler
-- id: react_native_app_aspects_gestures_other
-  name: Other gestures solutions
+- id: react_native_app_aspects_interactions_other
+  name: Other interactions solutions
 
 - id: react_native_app_aspects_internationalization
   name: Internationalization

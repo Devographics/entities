@@ -1,7 +1,7 @@
 - id: state_management
   name: State management
-- id: state_management_rn_build_in
-  name: React built-in (useState, useReducer, useContext)
+- id: state_management_rn_built_in
+  name: React (useState, useReducer, useContext, this.state)
 - id: state_management_jotai
   name: Jotai
 - id: state_management_zustand

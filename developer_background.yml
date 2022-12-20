@@ -20,6 +20,8 @@
   name: Embedded developer
 - id: developer_background_before.answer.j
   name: Non-technical role
+- id: developer_background_before.answer.k
+  name: Started with React Native
 - id: developer_background_before_other
   name: Other background
 
