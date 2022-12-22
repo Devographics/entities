@@ -8,5 +8,7 @@
   name: EAS Build
 - id: deployment_eas_submit
   name: EAS Submit
+- id: deployment_app_center
+  name: App Center
 - id: deployment_other
   name: Other ways to build app and submit for the App Store or Google Play

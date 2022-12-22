@@ -117,8 +117,23 @@
 - id: react_native_features_ota_updates_eas_update
   name: EAS Update
 - id: react_native_features_ota_updates_expo_publish
-  name: Expo Publish
+  name: Expo Classic Updates
 - id: react_native_features_ota_updates_self_hosted
   name: Self-hosted
 - id: react_native_features_ota_updates_other
   name: Other OTA updates solutions
+
+- id: react_native_features_mobile_web_code_sharing
+  name: Code sharing
+- id: react_native_features_mobile_web_code_sharing_react_native_web
+  name: React Native Web
+- id: react_native_features_mobile_web_code_sharing_solito
+  name: Solito
+- id: react_native_features_mobile_web_code_sharing_webview
+  name: React Native WebView running mobile version of a website
+- id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
+  name: Common business logic, independent UI components
+- id: react_native_features_mobile_web_code_sharing_independent_projects
+  name: Independent projects
+- id: react_native_features_mobile_web_code_sharing_other
+  name: Other code sharing

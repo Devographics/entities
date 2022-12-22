@@ -1,9 +1,11 @@
 - id: resources_initially_learn_react_native
-  name: First learning methods
+  name: Learning methods
 - id: resources_initially_learn_react_native_official_docs
   name: Official React Native docs
 - id: resources_initially_learn_react_native_expo_docs
   name: Expo docs
+- id: resources_initially_learn_react_native_react_native_directory
+  name: React Native Directory
 - id: resources_initially_learn_react_native_books
   name: Books
 - id: resources_initially_learn_react_native_videos
@@ -25,7 +27,7 @@
 - id: resources_initially_learn_react_native_self_directed_learning
   name: Self-directed learning
 - id: resources_initially_learn_react_native_other
-  name: Other first learning methods
+  name: Other learning methods
 
 - id: resources_read
   name: Blogs & magazines

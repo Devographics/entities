@@ -32,9 +32,16 @@
 - id: tools_starter_templates_other
   name: Other starter templates
 
-- id: tools_expo
-  name: Expo
-  
+- id: tools_expo_snack
+  name: Expo Snack
+- id: tools_expo_cli
+  name: Expo CLI
+- id: tools_eas_cli
+  name: EAS CLI
+- id: tools_react_native_cli
+  name: React Native CLI
+- id: tools_ignite_cli
+  name: Ignite CLI
 - id: tools_rnx_kit
   name: rnx-kit
 

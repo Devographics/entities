@@ -108,7 +108,7 @@
 
 
 - id: react_native_app_aspects_data_visualisation
-  name: Data Visualisation
+  name: Data visualisation
 - id: react_native_app_aspects_data_visualisation_victory_native
   name: Victory Native
 - id: react_native_app_aspects_data_visualisation_react_native_svg
