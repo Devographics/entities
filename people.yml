@@ -618,7 +618,7 @@
 - id: mark_dalgleish
   name: Mark Dalgleish
   twitterName: markdalgleish
-  homepage:
+  homepage: https://twitter.com/markdalgleish
   blog:
   rss:
   tags:
@@ -998,7 +998,7 @@
 - id: tab_atkins
   name: Tab Atkins
   twitterName: tabatkins
-  homepage:
+  homepage: https://twitter.com/tabatkins
   blog:
   rss:
   tags:
@@ -1007,7 +1007,7 @@
 - id: nicole_sullivan
   name: Nicole Sullivan
   twitterName: stubbornella
-  homepage:
+  homepage: https://twitter.com/stubbornella
   blog:
   rss:
   tags:

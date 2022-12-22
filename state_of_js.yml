@@ -215,5 +215,6 @@
   patterns:
     - email
     - devographics.com
+    - stateofjs_email_announcement
   tags: 
     - sources_state_of_js

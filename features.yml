@@ -1601,7 +1601,7 @@
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 - id: array_findlast
-  name: "`Array.findLast()`"
+  name: "`Array.prototype.findLast()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
   example: 
     language: js

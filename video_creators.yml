@@ -121,3 +121,33 @@
   homepage: https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw
   tags:
     - youtube
+
+- id: coder_coder
+  name: Coder Coder
+  homepage: https://www.youtube.com/thecodercoder
+  tags:
+    - youtube
+  patterns:
+    - jess chan
+
+- id: ania_kubow
+  name: Ania Kubów
+  homepage: https://www.youtube.com/aniakubow
+  tags:
+    - youtube
+  patterns:
+    - ania
+
+- id: trash
+  twitter: trashh_dev
+  name: trash
+  homepage: https://www.twitch.tv/trash_dev
+  tags:
+    - twitch
+
+- id: bashbunni
+  twitter: sudobunni
+  name: bashbunni
+  homepage: https://www.twitch.tv/bashbunni
+  tags:
+    - twitch

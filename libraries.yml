@@ -2164,7 +2164,7 @@
     - edge_runtimes
 
 - id: nextjs_edge_runtime
-  name: Next.js Edge Runtime
+  name: Vercel Edge Runtime
   homepage: https://nextjs.org/docs/api-reference/edge-runtime
   tags:
     - edge_runtimes
