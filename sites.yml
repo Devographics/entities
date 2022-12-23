@@ -57,6 +57,8 @@
 - id: mdn
   name: MDN
   homepage: https://developer.mozilla.org/en-US/
+  patterns:
+    - developer.mozilla.org
 
 - id: w3schools
   name: W3Schools
@@ -402,3 +404,22 @@
   homepage: https://tailwindcss.com/blog
   patterns:
     - tailwind
+
+- id: qiita
+  name: Qiita
+  homepage: https://qiita.com/
+  patterns:
+    - tailwind
+
+- id: zenn
+  name: Zenn
+  homepage: https://zenn.dev/
+
+- id: chatgpt
+  name: ChatGPT
+  tags: 
+    - first_steps
+
+- id: codewars
+  name: Codewars
+  homepage: https://www.codewars.com/

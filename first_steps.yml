@@ -75,5 +75,9 @@
 
 - id: documentation
   name: Documentation
+  patterns:
+    - docs
+    - documents
   tags: 
     - css_first_steps
+

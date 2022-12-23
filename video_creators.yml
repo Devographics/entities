@@ -79,6 +79,8 @@
 - id: the_primeagen
   name: The Primeagen
   homepage: https://www.youtube.com/c/ThePrimeagen
+  patterns:
+    - primeagen
   tags: 
     - youtube
 
@@ -137,6 +139,8 @@
     - youtube
   patterns:
     - ania
+    - anya
+    - kubow
 
 - id: trash
   twitter: trashh_dev
@@ -151,3 +155,252 @@
   homepage: https://www.twitch.tv/bashbunni
   tags:
     - twitch
+
+- id: akshay_saini
+  name: Akshay Saini
+  homepage: https://www.youtube.com/c/akshaymarch7
+  tags: 
+    - youtube
+
+- id: ben_eater
+  name: Ben Eater
+  homepage: https://www.youtube.com/beneater
+  tags: 
+    - youtube
+
+- id: benjamin_code
+  name: Benjamin Code
+  homepage: https://www.youtube.com/c/BenjaminCode
+  tags: 
+    - youtube
+
+- id: code_bullet
+  name: Code Bullet
+  homepage: https://www.youtube.com/c/CodeBullet
+  youtube: https://www.youtube.com/c/CodeBullet
+  tags: 
+    - youtube
+
+- id: code_aesthetic
+  name: CodeAesthetic
+  homepage: https://www.youtube.com/@CodeAesthetic
+  youtube: https://www.youtube.com/@CodeAesthetic
+  tags: 
+    - youtube
+
+- id: codevolution
+  name: Codevolution
+  homepage: https://www.youtube.com/c/Codevolution
+  youtube: https://www.youtube.com/c/Codevolution
+  tags: 
+    - youtube
+
+- id: coding_addict
+  name: CodingAddict
+  homepage: https://www.youtube.com/c/CodingAddict
+  youtube: https://www.youtube.com/c/CodingAddict
+  tags: 
+    - youtube
+
+- id: coding_tech
+  name: Coding Tech
+  homepage: https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ
+  youtube: https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ
+  tags: 
+    - youtube
+
+- id: coding_in_public
+  name: Coding in Public
+  homepage: https://www.youtube.com/c/codinginpublic
+  youtube: https://www.youtube.com/c/codinginpublic
+  tags: 
+    - youtube
+
+- id: continuous_delivery
+  name: Continuous Delivery
+  homepage: https://www.youtube.com/c/ContinuousDelivery
+  youtube: https://www.youtube.com/c/ContinuousDelivery
+  tags: 
+    - youtube
+
+- id: dave_gray
+  name: Dave Gray
+  homepage: https://www.youtube.com/c/DaveGrayTeachesCode
+  youtube: https://www.youtube.com/c/DaveGrayTeachesCode
+  tags: 
+    - youtube
+
+- id: decoded_frontend
+  name: Decoded Frontend
+  homepage: https://www.youtube.com/c/decodedfrontend
+  tags: 
+    - youtube
+
+- id: joshua_morony
+  name: Joshua Morony
+  homepage: https://www.youtube.com/channel/UCbVZdLngJH6KOJvpAOO3qTw
+  youtube: https://www.youtube.com/channel/UCbVZdLngJH6KOJvpAOO3qTw
+  tags: 
+    - youtube
+
+- id: developed_by_ed
+  name: DevelopedByEd
+  homepage: https://www.youtube.com/c/DevEd
+  youtube: https://www.youtube.com/c/DevEd
+  patterns:
+    - deved
+    - dev ed
+  tags: 
+    - youtube
+
+- id: fazt
+  name: Fazt
+  homepage: https://www.youtube.com/c/FaztTech/videos
+  youtube: https://www.youtube.com/c/FaztTech/videos
+  tags: 
+    - youtube
+
+- id: http_203
+  name: HTTP 203
+  homepage: https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9
+  youtube: https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9
+  tags: 
+    - youtube
+
+- id: hitesh_choudhary
+  name: Hitesh Choudhary
+  youtube: https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A
+  homepage: https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A
+  tags: 
+    - youtube
+
+- id: hola_mundo
+  name: HolaMundo
+  youtube: https://www.youtube.com/c/HolaMundoDev/videos
+  homepage: https://www.youtube.com/c/HolaMundoDev/videos
+  tags: 
+    - youtube
+
+- id: hyperplexed
+  name: Hyperplexed
+  youtube: https://www.youtube.com/c/Hyperplexed
+  homepage: https://www.youtube.com/c/Hyperplexed
+  tags: 
+    - youtube
+
+- id: javaScript_mastery
+  name: JavaScript Mastery
+  youtube: https://www.youtube.com/c/javascriptmastery
+  homepage: https://www.youtube.com/c/javascriptmastery
+  tags: 
+    - youtube
+
+- id: joma_tech
+  name: Joma Tech
+  youtube: https://www.youtube.com/c/jomaoppa
+  homepage: https://www.youtube.com/c/jomaoppa
+  patterns:
+    - joma
+  tags: 
+    - youtube
+
+- id: joy_of_code
+  name: Joy of Code
+  youtube: https://www.youtube.com/c/joyofcodedev
+  homepage: https://www.youtube.com/c/joyofcodedev
+  tags: 
+    - youtube
+
+- id: learn_with_jason
+  name: Learn With Jason
+  youtube: https://www.youtube.com/channel/UCnty0z0pNRDgnuoirYXnC5A
+  homepage: https://www.youtube.com/channel/UCnty0z0pNRDgnuoirYXnC5A
+  tags: 
+    - youtube
+
+- id: no_boilerplate
+  name: No Boilerplate
+  youtube: https://www.youtube.com/c/NoBoilerplate
+  homepage: https://www.youtube.com/c/NoBoilerplate
+  tags: 
+    - youtube
+
+- id: sam_selikoff
+  name: Sam Selikoff
+  youtube: https://www.youtube.com/c/SamSelikoff
+  homepage: https://www.youtube.com/c/SamSelikoff
+  tags: 
+    - youtube
+
+- id: sonny_sangha
+  name: Sonny Sangha
+  youtube: https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA
+  homepage: https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA
+  tags: 
+    - youtube
+
+- id: tech_with_tim
+  name: Tech With Tim
+  youtube: https://www.youtube.com/c/TechWithTim
+  homepage: https://www.youtube.com/c/TechWithTim
+  tags: 
+    - youtube
+
+- id: li_hau_tan
+  name: Li Hau Tan
+  youtube: https://www.youtube.com/c/lihautan
+  homepage: https://www.youtube.com/c/lihautan
+  patterns:
+    - tan li hau
+  tags: 
+    - youtube
+
+- id: timur_shemsedinov
+  name: Timur Shemsedinov
+  youtube: https://www.youtube.com/channel/UChSGI2R2kRMjzXJuYqHWQZg
+  homepage: https://www.youtube.com/channel/UChSGI2R2kRMjzXJuYqHWQZg
+  tags: 
+    - youtube
+
+- id: william_candillon
+  name: William Candillon
+  youtube: https://www.youtube.com/channel/UC806fwFWpiLQV5y-qifzHnA
+  homepage: https://www.youtube.com/channel/UC806fwFWpiLQV5y-qifzHnA
+  tags: 
+    - youtube
+
+- id: yuri_artiukh
+  name: Yuri Artiukh
+  youtube: https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g
+  homepage: https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g
+  tags: 
+    - youtube
+
+- id: low_byte_productions
+  name: Low Byte Productions
+  youtube: https://www.youtube.com/c/lowleveljavascript
+  homepage: https://www.youtube.com/c/lowleveljavascript
+  tags: 
+    - youtube
+
+# - id: 
+#   name: 
+#   youtube: 
+#   homepage: 
+#   tags: 
+#     - youtube
+
+# - id: 
+#   name: 
+#   youtube: 
+#   homepage: 
+#   tags: 
+#     - youtube
+
+# - id: 
+#   name: 
+#   youtube: 
+#   homepage: 
+#   tags: 
+#     - youtube
+

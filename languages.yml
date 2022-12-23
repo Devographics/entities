@@ -107,4 +107,26 @@
   name: Nim
 - id: javascript
   name: JavaScript
+- id: gleam
+  name: Gleam
+- id: nix
+  name: Nix
+- id: pascal
+  name: Pascal
+- id: visual_basic
+  name: Visual Basic
+- id: apex
+  name: Apex
+- id: vala
+  name: Vala
+- id: vlang
+  name: VLang
+  homepage: https://vlang.io/
+- id: assembly
+  name: Assembly
+- id: lucee
+  name: Lucee
+- id: glsl
+  name: GLSL
+  homepage: https://en.wikipedia.org/wiki/OpenGL_Shading_Language
   

@@ -191,3 +191,75 @@
 - id: coursera
   name: Coursera
   homepage: https://www.coursera.com/
+
+- id: alura
+  name: Alura
+  homepage: https://www.alura.com.br/
+
+- id: execute_program
+  name: Execute Program
+  homepage: https://www.executeprogram.com/
+
+- id: exercism
+  name: Exercism
+  homepage: https://exercism.org/
+
+- id: geeks_for_geeks
+  name: GeeksforGeeks
+  homepage: https://www.geeksforgeeks.org/
+
+- id: khan_academy
+  name: Khan Academy
+  homepage: https://www.khanacademy.org/
+
+- id: rocketseat
+  name: Rocketseat
+  homepage: https://www.rocketseat.com.br/
+
+- id: skillcrush
+  name: Skillcrush
+  homepage: https://skillcrush.com/
+
+- id: sololearn
+  name: Sololearn
+  homepage: https://www.sololearn.com/
+
+- id: three_js_journey
+  name: Three.js Journey
+  homepage: https://threejs-journey.com/
+
+- id: vue_school
+  name: Vue School
+  homepage: https://vueschool.io/
+
+- id: learn_javascript_ru
+  name: Javascript.ru
+  patterns:
+    - javascript.ru
+  homepage: https://learn.javascript.ru/
+
+- id: 100devs
+  name: 100Devs
+  homepage: https://leonnoel.com/100devs/
+
+- id: angular_university
+  name: Angular University
+  homepage: https://angular-university.io/
+
+- id: code_with_mosh
+  name: Code With Mosh
+  homepage: https://codewithmosh.com/
+
+- id: domestika
+  name: Domestika
+  homepage: https://www.domestika.org/
+
+- id: fernando_herrera
+  name: Fernando Herrera
+  homepage: https://fernando-herrera.com/
+  tags:
+    - video_creators
+
+- id: code_with_harry
+  name: Code With Harry
+  homepage: https://www.codewithharry.com/

@@ -1240,9 +1240,12 @@
     - js
 
 - id: maximilian_schwarzmuller
-  name: Maximilian Schwarzmüller
+  name: Maximilian Schwarzmüller
   twitterName: maxedapps
   homepage: https://academind.com/courses
+  patterns:
+    - schwarzmüller
+    - schwarzmuller
   tags:
     - js
 
@@ -1664,7 +1667,6 @@
   tags:
     - js
 
-
 - id: david_east
   name: David East
   twitterName: _davideast
@@ -1675,6 +1677,47 @@
     - css
     - js
 
+- id: ben_holmes
+  name: Ben Holmes
+  twitterName: bholmesdev
+  homepage: https://bholmes.dev/
+  tags:
+    - js
+
+- id: bob_ziroll
+  name: Bob Ziroll
+  twitterName: bobziroll
+  homepage: https://twitter.com/bobziroll
+  tags:
+    - js
+
+- id: carlos_azaustre
+  name: Carlos Azaustre
+  twitterName: carlosazaustre
+  homepage: https://carlosazaustre.es/
+  youtube: https://www.youtube.com/carlosazaustre
+  rss:
+  tags:
+    - js
+
+- id: leon_noel
+  name: Leon Noel
+  twitterName: leonnoel
+  homepage: https://leonnoel.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+
+- id: matt_pocock
+  name: Matt Pocock
+  twitterName: mattpocockuk
+  homepage: https://www.mattpocock.com/
+  # blog:
+  # rss:
+  tags:
+    - js
 
 # - id:
 #   name:
@@ -1685,6 +1728,14 @@
 #   tags:
 #     - js
 
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
 
 # - id:
 #   name:
@@ -1695,7 +1746,6 @@
 #   tags:
 #     - js
 
-
 # - id:
 #   name:
 #   twitterName:
@@ -1704,17 +1754,6 @@
 #   rss:
 #   tags:
 #     - js
-
-
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
-
 
 # - id:
 #   name:

@@ -119,6 +119,34 @@
   patterns:
     - concurency
 
+- id: multithreading
+  name: Multithreading
+  tags: 
+    - js_missing_features
+  patterns:
+    - thread
+
+- id: operator_overloading
+  name: Operator Overloading
+  tags: 
+    - js_missing_features
+  patterns:
+    - overload
+
+- id: deep_clone
+  name: Deep Clone
+  tags: 
+    - js_missing_features
+  patterns:
+    - deep
+
+- id: enums
+  name: Enums
+  tags: 
+    - js_missing_features
+  patterns:
+    - enum
+
 # pain points
 
 - id: esm
@@ -207,6 +235,188 @@
   tags: 
     - js_pain_points
 
+- id: immutability
+  name: Immutability
+  patterns:
+    - mutable
+    - mutability
+  tags: 
+    - js_pain_points
+
+- id: esm_cjs
+  name: ESM & CJS
+  patterns:
+    - esm
+    - cjs
+    - esmodules
+    - es modules
+    - commonjs
+    - common js
+  tags: 
+    - js_pain_points
+
+- id: data_fetching
+  name: Data Fetching
+  tags: 
+    - js_pain_points
+
+- id: monorepos
+  name: Monorepos
+  patterns:
+    - monorepo
+  tags: 
+    - js_pain_points
+
+- id: react
+  name: React
+  normalizationOnly: true
+  tags: 
+    - js_pain_points
+
+- id: caching
+  name: Caching
+  tags: 
+    - js_pain_points
+
+- id: ssr
+  name: SSR
+  tags: 
+    - js_pain_points
+
+- id: typescript
+  name: TypeScript
+  normalizationOnly: true
+  tags: 
+    - js_pain_points
+
+- id: type_safety
+  name: Type Safety
+  tags: 
+    - js_pain_points
+
+- id: browser_compatibility
+  name: Browser Compatibility
+  tags: 
+    - js_pain_points
+
+- id: debugging
+  name: Debugging
+  tags: 
+    - js_pain_points
+
+- id: tooling
+  name: Tooling
+  tags: 
+    - js_pain_points
+
+- id: multithreading
+  name: Multithreading
+  patterns:
+    - thread
+  tags: 
+    - js_pain_points
+
+# use cases
+
+- id: developer_tooling
+  name: Developer Tooling
+  patterns:
+    - tooling
+    - tools
+  tags:
+    - js_uses
+
+- id: command_line_tools
+  name: Command Line Tools
+  patterns:
+    - command
+    - cli
+  tags:
+    - js_uses
+
+- id: scripting
+  name: Scripting
+  patterns:
+    - script
+  tags:
+    - js_uses
+
+- id: browser_extensions
+  name: Browser Extensions
+  patterns:
+    - extension
+  tags:
+    - js_uses
+
+- id: automation
+  name: Automation
+  patterns:
+    - automated
+    - automating
+  tags:
+    - js_uses
+
+- id: testing
+  name: Testing
+  tags:
+    - js_uses
+
+- id: bots
+  name: Bots
+  patterns:
+    - bot
+    - discord
+    - slack
+  tags:
+    - js_uses
+
+- id: prototyping
+  name: Prototyping
+  tags:
+    - js_uses
+
+- id: blockchain
+  name: Blockchain
+  tags:
+    - js_uses
+
+- id: iot
+  name: IoT
+  tags:
+    - js_uses
+
+- id: education
+  name: Education
+  patterns:
+    - teaching
+  tags:
+    - js_uses
+
+# js_patterns
+
+- id: microfrontend
+  name: Microfrontend
+  patterns:
+    - micro
+  tags:
+    - js_patterns
+
+- id: pwa
+  name: Progressive Web App
+  patterns:
+    - progressive
+  tags:
+    - js_patterns
+
+- id: resumability
+  name: Resumability
+  tags:
+    - js_patterns
+
+- id: pespa
+  name: PESPA
+  tags:
+    - js_patterns
 
 # sources
 

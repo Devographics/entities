@@ -19,13 +19,19 @@
   name: Communication
   
 - id: sports
-  name: Sports
+  name: Sports & Fitness
+  patterns:
+    - sport
+    - fitness
   
 - id: music
   name: Music
   
 - id: gaming
   name: Gaming
+  patterns: 
+    - game
+    - games
   
 - id: saas
   name: SaaS
@@ -44,4 +50,77 @@
 
 - id: food
   name: Food
-  
+
+- id: non_profit
+  name: Non-Profit
+  patterns:
+    - nonprofit
+
+- id: research
+  name: Research
+  patterns:
+    - academia
+    - scientific
+    - science
+
+- id: adult_industry
+  name: Adult Industry
+  patterns:
+    - adult
+
+- id: gambling
+  name: Gambling
+
+- id: aerospace
+  name: Aerospace & Aviation
+  patterns:
+    - aviation
+
+- id: gis
+  name: GIS
+  patterns:
+    - map
+
+- id: web3
+  name: Web3
+
+- id: blockchain
+  name: Blockchain
+
+- id: transportation
+  name: Transportation
+  patterns:
+    - transport
+
+- id: biotech
+  name: Biotech
+
+- id: pharma
+  name: Pharma
+
+- id: advertising
+  name: Advertising
+  patterns:
+    - adtech
+
+- id: iot
+  name: IoT
+
+- id: art
+  name: Art
+
+- id: banking
+  name: Banking
+  patterns:
+    - bank
+
+- id: law
+  name: Law
+  patterns:
+    - legal
+
+- id: education
+  name: Education
+  patterns:
+    - teaching
+    - edtech

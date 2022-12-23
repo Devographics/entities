@@ -106,3 +106,13 @@
 - id: this_week_in_react
   name: This Week In React
   homepage: https://thisweekinreact.com/
+
+- id: tldr
+  name: TLDR
+  homepage: https://tldr.tech/
+  patterns:
+    - tl;dr
+
+- id: elm_weekly
+  name: Elm Weekly
+  homepage: https://www.elmweekly.nl/

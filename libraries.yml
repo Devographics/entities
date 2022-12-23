@@ -700,6 +700,8 @@
   github: scala-js/scala-js
   description: "Scala.js, the Scala to JavaScript compiler"
   homepage: "https://www.scala-js.org/"
+  patterns:
+    - scala
   tags:
     - javascript_flavors
 
@@ -738,6 +740,18 @@
   name: Dart
   description: Dart is a client-optimized language for fast apps on any platform
   homepage: https://dart.dev/
+  tags:
+    - javascript_flavors
+
+- id: kotlin
+  name: Kotlin
+  homepage: https://kotlinlang.org/
+  tags:
+    - javascript_flavors
+
+- id: jsx
+  name: JSX
+  homepage: https://reactjs.org/docs/introducing-jsx.html
   tags:
     - javascript_flavors
 
@@ -2133,6 +2147,50 @@
   tags:
     - runtimes
 
+- id: web_workers
+  name: Web Workers
+  homepage: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+  tags:
+    - runtimes
+
+- id: gjs
+  name: gjs
+  homepage: https://gitlab.gnome.org/GNOME/gjs
+  tags:
+    - runtimes
+
+- id: graalvm
+  name: GraalVM JavaScript
+  homepage: https://bun.sh/
+  patterns:
+    - graal
+  tags:
+    - runtimes
+
+- id: spidermonkey
+  name: SpiderMonkey
+  homepage: https://spidermonkey.dev/
+  tags:
+    - runtimes
+
+- id: nashorn
+  name: Nashorn
+  homepage: https://www.oracle.com/technical-resources/articles/java/jf14-nashorn.html
+  tags:
+    - runtimes
+
+- id: workerd
+  name: workerd
+  homepage: https://github.com/cloudflare/workerd
+  tags:
+    - runtimes
+
+- id: v8
+  name: V8
+  homepage: https://v8.dev/
+  tags:
+    - runtimes
+
 - id: aws_lambda
   name: AWS Lambda
   homepage: https://aws.amazon.com/lambda/
@@ -2166,6 +2224,9 @@
 - id: nextjs_edge_runtime
   name: Vercel Edge Runtime
   homepage: https://nextjs.org/docs/api-reference/edge-runtime
+  patterns:
+    - next
+    - vercel
   tags:
     - edge_runtimes
 
@@ -2184,6 +2245,45 @@
 - id: digital_ocean_functions
   name: Digital Ocean Functions
   homepage: https://www.digitalocean.com/products/functions
+  tags:
+    - edge_runtimes
+
+- id: azure_functions
+  name: Azure Functions
+  homepage: https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview
+  patterns:
+    - azure
+  tags:
+    - edge_runtimes
+
+- id: firebase_functions
+  name: Cloud Functions for Firebase
+  homepage: https://firebase.google.com/docs/functions
+  patterns:
+    - firebase
+  tags:
+    - edge_runtimes
+
+- id: supabase_functions
+  name: Supabase Edge Functions
+  homepage: https://supabase.com/docs/guides/functions
+  patterns:
+    - supabase
+  tags:
+    - edge_runtimes
+
+- id: google_cloud_run
+  name: Google Cloud Run
+  homepage: https://cloud.google.com/run
+  patterns:
+    - google
+    - cloud run
+  tags:
+    - edge_runtimes
+
+- id: openfaas
+  name: OpenFaaS
+  homepage: https://www.openfaas.com/
   tags:
     - edge_runtimes
     
