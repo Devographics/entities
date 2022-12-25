@@ -116,3 +116,7 @@
 - id: elm_weekly
   name: Elm Weekly
   homepage: https://www.elmweekly.nl/
+
+- id: es_next_news
+  name: ES.next News
+  homepage: http://esnextnews.com/

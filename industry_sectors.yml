@@ -124,3 +124,53 @@
   patterns:
     - teaching
     - edtech
+
+- id: cloud_computing
+  name: Cloud Computing
+  patterns:
+    - cloud
+
+- id: defense
+  name: Defense
+  patterns:
+    - defence
+
+- id: enterprise
+  name: Enterprise
+
+- id: entertainment
+  name: Entertainment
+
+- id: environment
+  name: Environment & Sustainability
+  patterns:
+    - sustainability
+
+- id: financial_services
+  name: Financial Services
+  patterns:
+    - finance
+    - financial
+    - fintech
+
+- id: industrial
+  name: Industrial
+  patterns:
+    - industrial
+
+- id: recruiting
+  name: Recruiting & Hiring
+  patterns:
+    - hiring
+    - recruitment
+
+- id: travel
+  name: Travel
+
+- id: mining
+  name: Mining
+
+- id: business
+  name: Business & Consulting
+  patterns:
+    - consulting

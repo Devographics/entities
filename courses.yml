@@ -263,3 +263,7 @@
 - id: code_with_harry
   name: Code With Harry
   homepage: https://www.codewithharry.com/
+
+- id: learn_vue
+  name: Learn Vue
+  homepage: https://learnvue.co/

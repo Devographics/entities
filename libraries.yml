@@ -615,147 +615,6 @@
     - css_utilities
 
 #################################################
-# JavaScript Flavors
-#################################################
-
-- id: typescript
-  name: TypeScript
-  npm: typescript
-  github: microsoft/TypeScript
-  description: A superset of JavaScript that compiles to clean JavaScript output.
-  homepage: https://www.typescriptlang.org
-  tags:
-    - javascript_flavors
-
-- id: reason
-  name: Reason
-  npm: null
-  github: facebook/reason
-  homepage: https://reasonml.github.io/
-  description: >-
-    Simple, fast & type safe code that leverages the JavaScript & OCaml
-    ecosystems
-  tags:
-    - javascript_flavors
-
-- id: elm
-  name: Elm
-  npm: null
-  github: elm/compiler
-  description: "Compiler for Elm, a functional language for reliable webapps."
-  homepage: https://elm-lang.org/
-  tags:
-    - javascript_flavors
-
-- id: clojurescript
-  name: ClojureScript
-  npm: null
-  github: clojure/clojurescript
-  description: Clojure to JS compiler
-  homepage: https://clojurescript.org/
-  tags:
-    - javascript_flavors
-
-- id: purescript
-  name: PureScript
-  npm: null
-  github: purescript/purescript
-  description: A strongly-typed language that compiles to JavaScript
-  homepage: https://www.purescript.org
-  tags:
-    - javascript_flavors
-
-- id: coffeescript
-  name: CoffeeScript
-  npm: coffeescript
-  github: jashkenas/coffeescript
-  description: Unfancy JavaScript
-  homepage: "https://coffeescript.org/"
-  tags:
-    - javascript_flavors
-
-- id: flow
-  name: Flow
-  npm: flow-bin
-  github: facebook/flow
-  description: >-
-    Adds static typing to JavaScript to improve developer productivity and code
-    quality.
-  homepage: "https://flow.org/"
-  tags:
-    - javascript_flavors
-
-- id: assemblyscript
-  name: AssemblyScript
-  npm: null
-  github: AssemblyScript/assemblyscript
-  description: Definitely not a TypeScript to WebAssembly compiler
-  homepage: "https://assemblyscript.org"
-  tags:
-    - javascript_flavors
-
-- id: scalajs
-  name: Scala.js
-  npm: null
-  github: scala-js/scala-js
-  description: "Scala.js, the Scala to JavaScript compiler"
-  homepage: "https://www.scala-js.org/"
-  patterns:
-    - scala
-  tags:
-    - javascript_flavors
-
-- id: rescript
-  name: ReScript
-  npm: null
-  github: rescript-association/rescript-lang.org
-  description: Fast, Simple, Fully Typed JavaScript from the Future
-  homepage: https://rescript-lang.org/
-  tags:
-    - javascript_flavors
-
-- id: imba
-  name: Imba
-  npm: imba
-  github: imba/imba
-  description: The friendly full-stack language
-  homepage: https://imba.io/
-  tags:
-    - javascript_flavors
-
-- id: vanilla
-  name: Vanilla JavaScript
-  description: Regular, plain old JavaScript
-  tags:
-    - javascript_flavors
-
-- id: fable
-  name: Fable
-  description: Fable is a compiler that brings F# into the JavaScript ecosystem
-  homepage: https://fable.io/
-  tags:
-    - javascript_flavors
-
-- id: dart
-  name: Dart
-  description: Dart is a client-optimized language for fast apps on any platform
-  homepage: https://dart.dev/
-  tags:
-    - javascript_flavors
-
-- id: kotlin
-  name: Kotlin
-  homepage: https://kotlinlang.org/
-  tags:
-    - javascript_flavors
-
-- id: jsx
-  name: JSX
-  homepage: https://reactjs.org/docs/introducing-jsx.html
-  tags:
-    - javascript_flavors
-
-#################################################
 # Front-end Frameworks
 #################################################
 
@@ -1305,7 +1164,10 @@
   description: >-
     A simpler static site generator. An alternative to Jekyll. Transforms a
     directory of templates (of varying types) into HTML.
+  patterns:
+    - https://www.11ty.dev/
   homepage: "https://www.11ty.dev/"
+  
 
 - id: astro
   name: Astro

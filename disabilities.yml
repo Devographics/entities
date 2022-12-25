@@ -55,6 +55,7 @@
   patterns:
     - dyslexic
     - dislexic
+    - dyslectic
   
 - id: chronic_fatigue
   name: Chronic Fatigue
@@ -78,3 +79,17 @@
   
 - id: crohn
   name: Crohn's Disease
+
+- id: bipolar
+  name: Bipolar Disorder
+
+- id: depression
+  name: Depression
+
+- id: mental_illness
+  name: Mental Illness
+  patterns:
+    - mental health
+
+- id: ptsd
+  name: PTSD

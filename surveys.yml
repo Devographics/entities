@@ -93,3 +93,27 @@
   homepage: https://jamstack.org/survey/
   patterns:
     - jamstack
+
+- id: angular_devceloper_survey
+  name: Angular Developer Survey
+  homepage: https://blog.angular.io/developer-survey-2021-results-38e653cbb36b
+  patterns:
+    - angular
+
+- id: state_of_clojure
+  name: State of Clojure
+  homepage: https://clojure.org/news/2022/06/02/state-of-clojure-2022
+  patterns:
+    - clojure
+
+- id: state_of_devops
+  name: State of DevOps
+  homepage: https://cloud.google.com/devops/state-of-devops
+  patterns:
+    - devops
+
+- id: state_of_purescript
+  name: State of PureScript
+  homepage: https://discourse.purescript.org/t/the-state-of-purescript-survey-2022-the-results-are-in/2966
+  patterns:
+    - purescript

@@ -299,3 +299,85 @@
   homepage: https://wowirsindistvorne.show/
   tags:
     - css
+
+- id: dot_net_rocks
+  name: .NET Rocks!
+  homepage: https://discoverdot.net/broadcasts/dotnetrocks
+  patterns:
+    - .net rocks
+
+- id: all_the_code
+  name: All The Code
+  homepage: https://allthecode.co/podcast
+
+- id: angular_plus_show
+  name: The Angular Plus Show
+  homepage: https://www.spreaker.com/show/angular-show
+
+- id: coder_radio
+  name: Coder Radio
+  homepage: https://coder.show/
+
+- id: corecursive
+  name: CoRecursive
+  homepage: https://corecursive.com/
+
+- id: coding_cat
+  name: CodingCat.dev
+  homepage: https://codingcat.dev/podcasts
+
+- id: darknet_diaries
+  name: Darknet Diaries
+  homepage: https://darknetdiaries.com/
+
+- id: double_slash
+  name: Double Slash
+  homepage: https://double-slash.dev/
+
+- id: dev_interrupted
+  name: Dev interrupted
+  homepage: https://devinterrupted.com/
+
+- id: gitbar
+  name: Gitbar
+  homepage: https://www.gitbar.it/
+
+- id: kodsnack
+  name: Kodsnack
+  homepage: https://kodsnack.se/
+
+- id: no_me_da_la_vida
+  name: No me da la vida
+  homepage: https://anchor.fm/no-me-da-la-vida
+
+- id: podrocket
+  name: PodRocket
+  homepage: https://podrocket.logrocket.com/
+
+- id: react_native_radio
+  name: React Native Radio
+  homepage: https://reactnativeradio.com/
+
+- id: software_unscripted
+  name: Software Unscripted
+  homepage: https://feeds.resonaterecordings.com/software-unscripted
+
+- id: whiskey_web_and_whatnot 
+  name: Whiskey Web and Whatnot 
+  homepage: https://www.whiskeywebandwhatnot.fm/
+
+- id: go_time
+  name: Go Time
+  homepage: https://changelog.com/gotime
+
+- id: rebuild_fm
+  name: Rebuild.fm
+  homepage: https://rebuild.fm/
+
+- id: radio_t
+  name: Radio T
+  homepage: https://radio-t.com/
+
+# - id: 
+#   name: 
+#   homepage: 

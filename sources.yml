@@ -8,6 +8,7 @@
     - t.co
 
 - id: stateofjs
+  normalizationOnly: true
   name: State of JS
   homepage: https://stateofjs.com
   patterns:
@@ -20,6 +21,7 @@
     # - past
 
 - id: work
+  normalizationOnly: true
   name: Workplace
   patterns:
     - co( |-)worker
@@ -27,101 +29,121 @@
     - company
 
 - id: duckduckgo
+  normalizationOnly: true
   name: DuckDuckGo
   homepage: https://duckduckgo.com/
 
-# - id: word_of_mouth
-#   name: Word Of Mouth
-#   patterns:
-#     - friend
-#     - family
+- id: word_of_mouth
+  normalizationOnly: true
+  name: Word Of Mouth
+  patterns:
+    - friend
+    - family
 
 - id: vk
+  normalizationOnly: true
   name: VK
   homepage: https://vk.com/
   patterns:
     - away.vk.com
 
 - id: discord
+  normalizationOnly: true
   name: Discord
 
 - id: svelte_community
+  normalizationOnly: true
   name: Svelte Community
   patterns:
     - svelte
 
 - id: astro_community
+  normalizationOnly: true
   name: Astro Community
   patterns:
     - astro
 
 - id: reactiflux
+  normalizationOnly: true
   name: Reactiflux
   homepage: https://www.reactiflux.com/
 
 - id: ionic_community
+  normalizationOnly: true
   name: Ionic Community
   homepage: https://ionicframework.com/subscribe
   patterns:
     - ionic
 
 - id: capacitor_community
+  normalizationOnly: true
   name: Capacitor Community
   homepage: https://capacitorjs.com/
   patterns:
     - capacitor
 
 - id: elm_community
+  normalizationOnly: true
   name: Elm Community
   homepage: https://discourse.elm-lang.org/
   patterns:
     - elm
 
 - id: meteor_community
+  normalizationOnly: true
   name: Meteor Community
   homepage: https://forums.meteor.com/
   patterns:
     - meteor
 
 - id: angular_community
+  normalizationOnly: true
   name: Angular Community
-  homepage: https://angular.io/
+  homepage: angular.io
   patterns:
     - angular
+    - angular.io
 
 - id: vue_community
+  normalizationOnly: true
   name: Vue Community
   homepage: https://vuejs.org/
   patterns:
     - vue
 
 - id: remix_community
+  normalizationOnly: true
   name: Remix Community
   homepage: https://remix.run
   patterns:
     - remix
 
 - id: bing
+  normalizationOnly: true
   name: Bing
   homepage: https://www.bing.com
 
 - id: baidu
+  normalizationOnly: true
   name: Baidu
   homepage: https://www.baidu.com/
 
 - id: reddit_graphql
+  normalizationOnly: true
   name: r/graphql
   homepage: https://www.reddit.com/r/graphql/
   tags: 
     - graphql
 
 - id: apollo
+  normalizationOnly: true
   name: Apollo
   homepage: https://www.apollographql.com/
   tags: 
     - graphql
 
 - id: graphile_discord
+  normalizationOnly: true
   name: Graphile Discord
   homepage: https://www.graphile.org/
   patterns:
@@ -130,11 +152,72 @@
     - graphql
 
 - id: prisma_slack
+  normalizationOnly: true
   name: Prisma Slack
   homepage: https://www.prisma.io/
   tags: 
     - graphql
 
 - id: mozilla
+  normalizationOnly: true
   name: Mozilla
   homepage: https://www.mozilla.org/
+
+- id: mastodon
+  normalizationOnly: true
+  name: Mastodon
+  homepage: https://mastodon.social/
+
+- id: brave
+  normalizationOnly: true
+  name: Brave
+  patterns:
+    - search.brave.com
+  homepage: https://brave.com
+
+- id: eleventy
+  normalizationOnly: true
+  name: Eleventy
+  patterns:
+    - 11ty.dev
+  homepage: "https://www.11ty.dev/"
+
+- id: startpage
+  normalizationOnly: true
+  name: Startpage
+  homepage: https://www.startpage.com/
+
+- id: fireship
+  normalizationOnly: true
+  name: Fireship
+  homepage: https://fireship.io/
+
+- id: youtube
+  normalizationOnly: true
+  name: YouTube
+  homepage: https://youtube.com/
+
+- id: google
+  normalizationOnly: true
+  name: Google
+  homepage: https://google.com/
+
+- id: diversify_tech
+  normalizationOnly: true
+  name: Diversify Tech
+  homepage: https://www.diversifytech.co/
+
+- id: ecosia
+  normalizationOnly: true
+  name: Ecosia
+  homepage: https://www.ecosia.org/
+
+- id: yuque
+  normalizationOnly: true
+  name: Yuque
+  homepage: https://www.yuque.com/
+
+- id: yandex
+  normalizationOnly: true
+  name: Yandex
+  homepage: https://yandex.com/

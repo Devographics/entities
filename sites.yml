@@ -423,3 +423,19 @@
 - id: codewars
   name: Codewars
   homepage: https://www.codewars.com/
+
+- id: v2ex
+  name: v2ex
+  homepage: https://www.v2ex.com/
+
+- id: the_pragmatic_engineer
+  name: The Pragmatic Engineer
+  homepage: https://blog.pragmaticengineer.com/
+
+- id: svelte_dev
+  name: Svelte.dev
+  homepage: https://svelte.dev/
+
+- id: learn_javascript
+  name: Learn JavaScript
+  homepage: https://learnjavascript.online/

@@ -44,6 +44,7 @@
   homepage: https://linkedin.com/
   patterns:
     - linked( |-)?in
+    - lnkd
 
 - id: hangouts
   name: Hangouts
@@ -52,6 +53,8 @@
 - id: twitter
   name: Twitter
   homepage: https://twitter.com
+  patterns:
+    - t.co
 
 - id: instagram
   name: Instagram

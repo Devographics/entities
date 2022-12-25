@@ -20,12 +20,13 @@
 
 - id: blogs
   normalizationOnly: true
-  name: Blogs
+  name: Blogs & Articles
   tags: 
     - css_first_steps
   patterns: 
     - blog
     - blogger
+    - articles
     
 - id: forums
   normalizationOnly: true

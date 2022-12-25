@@ -672,6 +672,7 @@
   blog:
   rss:
   patterns:
+    - antony fu
     - antfu
   tags:
     - css
@@ -871,6 +872,8 @@
     - midudev
     - midu
     - Miguel Ángel Durán
+    - Miguel Angel
+    - duran
 
 - id: jason_lengstorf
   name: Jason Lengstorf
@@ -1246,6 +1249,12 @@
   patterns:
     - schwarzmüller
     - schwarzmuller
+    - maximilian
+    - maxmillian
+    - scharzmüller
+    - schwarzemüller
+    - schwarzmueller
+    - maxmilian
   tags:
     - js
 
@@ -1719,32 +1728,280 @@
   tags:
     - js
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: brandon_roberts
+  name: Brandon Roberts
+  twitterName: brandontroberts
+  homepage: https://brandonroberts.dev/
+  blog: https://brandonroberts.dev/blog
+  patterns:
+    - brandon robert
+  # rss:
+  tags:
+    - js
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: alex_russel
+  name: Alex Russel
+  twitterName: slightlylate
+  homepage: https://infrequently.org/
+  # blog:
+  # rss:
+  tags:
+    - js
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: bruno_simon
+  name: Bruno Simon
+  twitterName: bruno_simon
+  homepage: https://bruno-simon.com/
+  blog:
+  rss:
+  tags:
+    - js
+
+- id: caleb_porzio
+  name: Caleb Porzio
+  twitterName: calebporzio
+  homepage: https://calebporzio.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: carlos_caballero
+  name: Carlos Caballero
+  twitterName: carlillo
+  homepage: https://www.carloscaballero.io/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: cory_house 
+  name: Cory House 
+  twitterName: housecor
+  homepage: https://www.bitnative.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: diego_fernandes
+  name: Diego Fernandes
+  twitterName: dieegosf
+  homepage: https://github.com/diego3g
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: eric_elliott
+  name: Eric Elliott
+  twitterName: _ericelliott
+  homepage: https://ericelliottjs.com/
+  patterns:
+    - eric eliot
+    - eric elliot
+    - eric elliot
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: erick_wendel
+  name: Erick Wendel
+  twitterName: erickwendel_
+  homepage: https://erickwendel.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: giulio_canti
+  name: Giulio Canti
+  twitterName: giuliocanti
+  homepage: https://gcanti.github.io/
+  blog: 
+  rss:
+  tags:
+    - js
+
+- id: james_sinclair
+  name: James Sinclair
+  twitterName: jrsinclair
+  homepage: https://jrsinclair.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: jarred_sumner
+  name: Jarred Sumner
+  twitterName: jarredsumner
+  homepage: https://oven.rippling-ats.com/
+  # blog:
+  # rss:
+  patterns:
+    - jared sumner
+    - jarred summer
+    - jared summer
+  tags:
+    - js
+
+- id: jason_miller
+  name: Jason Miller
+  twitterName: _developit
+  homepage: https://github.com/developit
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: jeffrey_way
+  name: Jeffrey Way
+  twitterName: jeffrey_way
+  homepage: https://laracasts.com/
+  patterns:
+    - jeffery way
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: john_smilga
+  name: John Smilga
+  twitterName: john_smilga
+  homepage: https://www.johnsmilga.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: justin_fagnani 
+  name: Justin Fagnani 
+  twitterName: justinfagnani
+  homepage: https://justinfagnani.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: ken_wheeler
+  name: Ken Wheeler
+  twitterName: ken_wheeler
+  homepage: http://kenwheeler.github.io/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: matteo_collina
+  name: Matteo Collina
+  twitterName: matteocollina
+  homepage: https://nodeland.dev/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: minko_gechev
+  name: Minko Gechev
+  twitterName: mgechev
+  homepage: https://blog.mgechev.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: misko_hevery
+  name: Misko Hevery
+  twitterName: mhevery
+  homepage: http://misko.hevery.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: netanel_basal
+  name: Netanel Basal
+  twitterName: netanelbasal
+  homepage: https://netbasal.com/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: per_harald_borgen
+  name: Per Harald Borgen
+  twitterName: https://scrimba.com/
+  homepage: perborgen
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: quincy_larson
+  name: Quincy Larson
+  twitterName: ossia
+  homepage: https://www.freecodecamp.org/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: ryan_florence
+  name: Ryan Florence
+  twitterName: ryanflorence
+  homepage: https://ryanflorence.com/
+  # blog:
+  # rss:
+  patterns:
+    - ryan florance
+  tags:
+    - js
+
+- id: bob_martin
+  name: Bob Martin (Uncle Bob)
+  twitterName: unclebobmartin
+  homepage: http://cleancoder.com/products
+  # blog:
+  # rss:
+  patterns:
+    - uncle bob
+  tags:
+    - js
+
+- id: andrey_sitnik
+  name: Andrey Sitnik
+  twitterName: andreysitnik
+  homepage: https://sitnik.ru/en/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: lex_fridman
+  name: Lex Fridman
+  twitterName: lexfridman
+  homepage: https://lexfridman.com/
+  tags: 
+    - podcasts
+
+- id: manfred_steyer 
+  name: Manfred Steyer 
+  twitterName: ManfredSteyer
+  homepage: https://www.angulararchitects.io/en/
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: sebastian_lorber
+  name: Sebastian Lorber
+  twitterName: sebastienlorber
+  homepage: https://thisweekinreact.com/
+  # blog:
+  # rss:
+  tags:
+    - js
 
 # - id:
 #   name:

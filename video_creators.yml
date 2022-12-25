@@ -23,6 +23,7 @@
   homepage: https://www.youtube.com/c/theobrowne1017
   patterns:
     - ping
+    - theo
   tags: 
     - youtube
 
@@ -81,6 +82,7 @@
   homepage: https://www.youtube.com/c/ThePrimeagen
   patterns:
     - primeagen
+    - primagen
   tags: 
     - youtube
 
@@ -103,6 +105,8 @@
   homepage: https://www.youtube.com/@jherr
   patterns:
     - blue collar
+    - jack harrington
+    - jack herington
   tags: 
     - youtube
 
@@ -382,6 +386,44 @@
   homepage: https://www.youtube.com/c/lowleveljavascript
   tags: 
     - youtube
+
+- id: program_with_erik
+  name: Program With Erik
+  youtube: https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
+  homepage: https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
+  patterns:
+    - programming with erik
+    - program with eric
+  tags: 
+    - youtube
+
+- id: the_cherno
+  name: The Cherno
+  youtube: https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw
+  homepage: https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw
+  tags: 
+    - youtube
+
+- id: ulbi_tv
+  name: Ulbi TV
+  youtube: https://www.youtube.com/c/ulbitv
+  homepage: https://www.youtube.com/c/ulbitv
+  tags: 
+    - youtube
+
+# - id: 
+#   name: 
+#   youtube: 
+#   homepage: 
+#   tags: 
+#     - youtube
+
+# - id: 
+#   name: 
+#   youtube: 
+#   homepage: 
+#   tags: 
+#     - youtube
 
 # - id: 
 #   name: 

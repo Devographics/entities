@@ -217,11 +217,10 @@
   tags: 
     - js_pain_points
 
-- id: too_many_frameworks
-  name: Too Many Frameworks
+- id: too_many_choices
+  name: Too Many Choices
   patterns:
-    - too many libs
-    - too many ways
+    - too many
   tags: 
     - js_pain_points
 
@@ -289,8 +288,9 @@
   tags: 
     - js_pain_points
 
-- id: type_safety
-  name: Type Safety
+- id: types
+  name: Types
+
   tags: 
     - js_pain_points
 
@@ -392,6 +392,18 @@
   tags:
     - js_uses
 
+- id: infrastructure_as_code
+  name: Infrastructure as Code
+  patterns:
+    - infrastructure
+  tags:
+    - js_uses
+
+- id: smart_tv
+  name: Smart TV Apps
+  tags:
+    - js_uses
+
 # js_patterns
 
 - id: microfrontend
@@ -426,5 +438,10 @@
     - email
     - devographics.com
     - stateofjs_email_announcement
+    - newsletter
+    - stateofjs.com
+    - survey.devographics.com
+    - post_survey_share
+    - mail
   tags: 
     - sources_state_of_js
