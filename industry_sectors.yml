@@ -70,16 +70,26 @@
 
 - id: gambling
   name: Gambling
+  patterns:
+    - betting
 
 - id: aerospace
   name: Aerospace & Aviation
   patterns:
     - aviation
+    - geospatial
+    - space
 
 - id: gis
   name: GIS
   patterns:
     - map
+
+- id: tech_it
+  name: Tech & IT
+  patterns:
+    - tech
+    - it
 
 - id: web3
   name: Web3
@@ -94,6 +104,9 @@
 
 - id: biotech
   name: Biotech
+  patterns:
+    - bioinformatics
+    - biometric
 
 - id: pharma
   name: Pharma
@@ -174,3 +187,6 @@
   name: Business & Consulting
   patterns:
     - consulting
+
+- id: design
+  name: Design

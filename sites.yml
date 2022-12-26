@@ -439,3 +439,11 @@
 - id: learn_javascript
   name: Learn JavaScript
   homepage: https://learnjavascript.online/
+
+- id: neet_code
+  name: NeetCode
+  homepage: https://neetcode.io/
+
+- id: packt
+  name: Packt
+  homepage: https://www.packtpub.com/

@@ -2148,6 +2148,12 @@
   homepage: https://www.openfaas.com/
   tags:
     - edge_runtimes
+
+- id: railway
+  name: Railway
+  homepage: https://railway.app/
+  tags:
+    - edge_runtimes
     
 #################################################
 # Other Tools

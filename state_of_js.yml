@@ -288,9 +288,10 @@
   tags: 
     - js_pain_points
 
-- id: types
-  name: Types
-
+- id: typing
+  name: Typing
+  patterns:
+    - type
   tags: 
     - js_pain_points
 
@@ -313,6 +314,35 @@
   name: Multithreading
   patterns:
     - thread
+  tags: 
+    - js_pain_points
+
+- id: javascript_fatigue
+  name: JavaScript Fatigue
+  tags: 
+    - js_pain_points
+
+- id: legacy_support
+  name: Legacy Code & Support
+  patterns:
+    - legacy
+  tags: 
+    - js_pain_points
+
+- id: type_safety
+  name: Type Safety
+  tags: 
+    - js_pain_points
+
+- id: node_modules
+  name: node_modules Directory
+  tags: 
+    - js_pain_points
+
+- id: internationalization
+  name: Internationalization
+  patterns:
+    - i18n
   tags: 
     - js_pain_points
 
@@ -404,12 +434,28 @@
   tags:
     - js_uses
 
+- id: serverless
+  name: Serverless
+  tags:
+    - js_uses
+
+- id: api
+  name: APIs
+  tags:
+    - js_uses
+
+- id: devops
+  name: DevOps
+  tags:
+    - js_uses
+
 # js_patterns
 
-- id: microfrontend
+- id: micro_frontend
   name: Microfrontend
   patterns:
-    - micro
+    - micro frontend
+    - micro-frontend
   tags:
     - js_patterns
 
@@ -427,6 +473,19 @@
 
 - id: pespa
   name: PESPA
+  tags:
+    - js_patterns
+
+- id: serverless
+  name: Serverless
+  tags:
+    - js_patterns
+
+- id: domain_driven_design
+  name: Domain-Driven Design
+  patterns:
+    - ddd
+  homepage: https://en.wikipedia.org/wiki/Domain-driven_design
   tags:
     - js_patterns
 

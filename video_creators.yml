@@ -83,6 +83,7 @@
   patterns:
     - primeagen
     - primagen
+    - primeagean
   tags: 
     - youtube
 
@@ -411,12 +412,12 @@
   tags: 
     - youtube
 
-# - id: 
-#   name: 
-#   youtube: 
-#   homepage: 
-#   tags: 
-#     - youtube
+- id: nick_chapsas
+  name: Nick Chapsas
+  youtube: https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg
+  homepage: https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg
+  tags: 
+    - youtube
 
 # - id: 
 #   name: 
