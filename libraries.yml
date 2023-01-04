@@ -1167,7 +1167,6 @@
   patterns:
     - https://www.11ty.dev/
   homepage: "https://www.11ty.dev/"
-  
 
 - id: astro
   name: Astro
@@ -1230,6 +1229,34 @@
   description: The full-stack React+GraphQL framework
   homepage: "https://vulcanjs.org"
 
+- id: fresh
+  name: Fresh
+  homepage: https://fresh.deno.dev/
+
+- id: nuxt_3
+  name: Nuxt 3
+  homepage: https://nuxtjs.org/
+
+- id: nextjs_landing_page_template
+  name: NextJS Landing Page Template
+  homepage: https://creativedesignsguru.com/
+
+- id: solid_start
+  name: SolidStart
+  homepage: https://start.solidjs.com/
+
+- id: vuepress
+  name: VuePress
+  homepage: https://vuepress.vuejs.org/
+
+- id: oak
+  name: Oak
+  homepage: https://oakserver.github.io/oak/
+
+- id: payload
+  name: Payload
+  homepage: https://payloadcms.com/
+  
 #################################################
 # Testing
 #################################################
@@ -1429,6 +1456,14 @@
   github: seleniumhq/selenium
   homepage: https://www.selenium.dev/
 
+- id: web_test_runner
+  name: Web Test Runner
+  homepage: https://modern-web.dev/docs/test-runner/overview/
+
+- id: japa
+  name: Japa
+  homepage: https://japa.dev/docs
+
 #################################################
 # Animation & Graphics
 #################################################
@@ -1606,6 +1641,34 @@
   homepage: https://echarts.apache.org/en/index.html
   tags:
     - data_visualization
+
+- id: apexcharts
+  name: ApexCharts
+  homepage: https://apexcharts.com/
+
+- id: vega
+  name: Vega
+  homepage: https://vega.github.io/vega/
+
+- id: chartistjs
+  name: ChartistJS
+  homepage: https://gionkunz.github.io/chartist-js/
+
+- id: ant_design_charts
+  name: Ant Design Charts
+  homepage: https://charts.ant.design/
+
+- id: uplot
+  name: uPlot
+  homepage: https://github.com/leeoniya/uPlot
+
+- id: undici
+  name: Undici
+  homepage: https://undici.nodejs.org/
+
+- id: superagent
+  name: SuperAgent
+  homepage: https://ladjs.github.io/superagent/
 
 #################################################
 # Data Fetching
@@ -1820,6 +1883,18 @@
   github: wclr/yalc
   homepage: https://github.com/wclr/yalc
 
+- id: moon
+  name: Moon
+  homepage: https://moonrepo.dev/
+
+- id: bit
+  name: Bit
+  homepage: https://bit.dev/
+
+- id: lage
+  name: Lage
+  homepage: https://microsoft.github.io/lage/
+
 #################################################
 # Mobile
 #################################################
@@ -1918,15 +1993,6 @@
   description: Svelte controlling native components via Nativescript
   homepage: https://svelte-native.technology/
 
-- id: tauri
-  name: Tauri
-  npm: null
-  github: tauri-apps/tauri
-  description: >-
-    A framework for building tiny, blazing fast binaries for all major desktop
-    platforms
-  homepage: "https://tauri.studio"
-
 - id: vue_native
   name: Vue Native
   npm: vue-native
@@ -1957,6 +2023,10 @@
 - id: nodegui
   name: NodeGUI
   homepage: https://docs.nodegui.org/
+
+- id: titanium
+  name: Titanium
+  homepage: https://titaniumsdk.com/
 
 #################################################
 # Runtimes
@@ -2551,26 +2621,15 @@
   name: Mitosis
   homepage: https://github.com/BuilderIO/mitosis
 
-- id: 
-  name: 
-  homepage: 
+- id: js_joda
+  name: js-joda
+  homepage: https://js-joda.github.io/js-joda/
 
-- id: 
-  name: 
-  homepage: 
+- id: spacetime
+  name: Spacetime
+  homepage: http://spacetime.how/
 
-- id: 
-  name: 
-  homepage: 
+- id: react_intl
+  name: React Intl
+  homepage: https://formatjs.io/
 
-- id: 
-  name: 
-  homepage: 
-
-- id: 
-  name: 
-  homepage: 
-
-- id: 
-  name: 
-  homepage: 

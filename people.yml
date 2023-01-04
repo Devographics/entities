@@ -3,6 +3,7 @@
 - id: tyler_mcginnis
   name: Tyle McGinnis
   homepage: https://tylermcginnis.com/
+  twitterName: tylermcginnis
   tags:
     - courses
     - react
@@ -62,15 +63,17 @@
 - id: robin_wieruch
   name: Robin Wieruch
   homepage: https://www.robinwieruch.de/
+  twitterName: rwieruch
   tags:
     - js
     - blogs
   patterns:
     - wieruch
 
-- id: pony_foo
-  name: Pony Foo
+- id: nicolas_bevacqua
+  name: Nicolás Bevacqua
   homepage: https://ponyfoo.com/
+  twitterName: ponyfoo
   tags:
     - js
     - blogs
@@ -80,6 +83,7 @@
 - id: david_walsh
   name: David Walsh
   homepage: https://davidwalsh.name/
+  twitterName: davidwalshblog
   tags:
     - js
     - blogs
@@ -216,6 +220,7 @@
 
 - id: tania_rascia
   name: Tania Rascia
+  twitterName: taniarascia
   homepage: https://www.taniarascia.com/
   tags:
     - javascript
@@ -1430,7 +1435,7 @@
     - js
 
 - id: tanner_linsley
-  name: tanner_linsley
+  name: Tanner Linsley
   twitterName: tannerlinsley
   homepage: https://tanstack.com/
   tags:
@@ -1931,8 +1936,8 @@
 
 - id: per_harald_borgen
   name: Per Harald Borgen
-  twitterName: https://scrimba.com/
-  homepage: perborgen
+  twitterName: perborgen
+  homepage: https://scrimba.com/
   # blog:
   # rss:
   tags:
@@ -2002,6 +2007,33 @@
   # rss:
   tags:
     - js
+
+- id: alba_silvente
+  name: Alba Silvente
+  twitterName: dawntraoz
+  # homepage:
+  # blog:
+  # rss:
+  tags:
+    - js
+
+- id: kathryn_grayson_nanz
+  name: Kathryn Grayson Nanz
+  twitterName: kathryngrayson
+  # homepage:
+  # blog:
+  # rss:
+  tags:
+    - js
+
+# - id:
+#   name:
+#   twitterName:
+#   homepage:
+#   blog:
+#   rss:
+#   tags:
+#     - js
 
 # - id:
 #   name:

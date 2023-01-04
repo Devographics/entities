@@ -2,26 +2,10 @@
 
 - id: twitter
   normalizationOnly: true
-  name: Twitter
-  homepage: https://www.twitter.com/
   patterns:
     - t.co
 
-- id: stateofjs
-  normalizationOnly: true
-  name: State of JS
-  homepage: https://stateofjs.com
-  patterns:
-    - state( |-)?of( |-)?js
-    - state( |-)?of( |-)?javascript
-    # - newsletter
-    # match "previous years, etc."
-    # - year 
-    # - previous
-    # - past
-
 - id: work
-  normalizationOnly: true
   name: Workplace
   patterns:
     - co( |-)worker
@@ -34,7 +18,6 @@
   homepage: https://duckduckgo.com/
 
 - id: word_of_mouth
-  normalizationOnly: true
   name: Word Of Mouth
   patterns:
     - friend
@@ -49,7 +32,6 @@
 
 - id: discord
   normalizationOnly: true
-  name: Discord
 
 - id: svelte_community
   normalizationOnly: true
@@ -97,7 +79,6 @@
     - meteor
 
 - id: angular_community
-  normalizationOnly: true
   name: Angular Community
   homepage: angular.io
   patterns:
@@ -105,7 +86,6 @@
     - angular.io
 
 - id: vue_community
-  normalizationOnly: true
   name: Vue Community
   homepage: https://vuejs.org/
   patterns:

@@ -80,3 +80,7 @@
   patterns:
     - teams
     - statics.teams.cdn.office.net
+
+- id: discord
+  name: Discord
+  homepage: https://discord.com/

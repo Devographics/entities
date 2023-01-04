@@ -5,7 +5,8 @@
     - state( |-|_)?of( |-|_)?js
     - state( |-)?of( |-)?javascript
     - state_of_js_email
-
+    - stateofjs
+    - stateofjs.com
 - id: state_of_css_survey
   name: State of CSS
   homepage: https://stateofcss.com

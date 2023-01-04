@@ -51,7 +51,7 @@
     - css_first_steps
     
 - id: twitter
-  name: Twitter
+  normalizationOnly: true
   tags: 
     - css_first_steps
 
