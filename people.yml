@@ -2115,14 +2115,14 @@
     - youtube
     - video_creators
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: sebastien_lorber
+  name: Sebastien Lorber
+  twitterName: sebastienlorber
+  homepage: https://thisweekinreact.com/
+  # blog:
+  # rss:
+  tags:
+    - js
 
 # - id:
 #   name:
