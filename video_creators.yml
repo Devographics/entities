@@ -14,18 +14,11 @@
 
 - id: fireship
   name: Fireship
+  twitterName: fireship_dev
   homepage: https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA
   tags: 
     - youtube
-
-- id: theo_browne
-  name: Theo - ping․gg
-  homepage: https://www.youtube.com/c/theobrowne1017
-  patterns:
-    - ping
-    - theo
-  tags: 
-    - youtube
+    - people
 
 - id: tina_huang
   name: Tina Huang
@@ -80,12 +73,17 @@
 - id: the_primeagen
   name: The Primeagen
   homepage: https://www.youtube.com/c/ThePrimeagen
+  twitterName: ThePrimeagen
+  twitchName: theprimeagen
+  youtubeName: ThePrimeagen
+  youtubeUrl: https://www.youtube.com/c/ThePrimeagen
   patterns:
     - primeagen
     - primagen
     - primeagean
   tags: 
     - youtube
+    - people
 
 - id: kent_c_dodds
   name: Kent C. Dodds
@@ -104,18 +102,14 @@
 - id: jack_herrington
   name: Jack Herrington
   homepage: https://www.youtube.com/@jherr
+  twitterName: jherr
   patterns:
     - blue collar
     - jack harrington
     - jack herington
   tags: 
     - youtube
-
-- id: midudev
-  name: Midudev
-  homepage: https://www.youtube.com/c/midudev
-  tags:
-    - youtube
+    - people
 
 - id: mayuko
   name: Mayuko
@@ -150,6 +144,7 @@
 - id: trash
   twitter: trashh_dev
   name: trash
+  twitchName: trash_dev
   homepage: https://www.twitch.tv/trash_dev
   tags:
     - twitch
@@ -182,56 +177,56 @@
 - id: code_bullet
   name: Code Bullet
   homepage: https://www.youtube.com/c/CodeBullet
-  youtube: https://www.youtube.com/c/CodeBullet
+  youtubeUrl: https://www.youtube.com/c/CodeBullet
   tags: 
     - youtube
 
 - id: code_aesthetic
   name: CodeAesthetic
   homepage: https://www.youtube.com/@CodeAesthetic
-  youtube: https://www.youtube.com/@CodeAesthetic
+  youtubeUrl: https://www.youtube.com/@CodeAesthetic
   tags: 
     - youtube
 
 - id: codevolution
   name: Codevolution
   homepage: https://www.youtube.com/c/Codevolution
-  youtube: https://www.youtube.com/c/Codevolution
+  youtubeUrl: https://www.youtube.com/c/Codevolution
   tags: 
     - youtube
 
 - id: coding_addict
   name: CodingAddict
   homepage: https://www.youtube.com/c/CodingAddict
-  youtube: https://www.youtube.com/c/CodingAddict
+  youtubeUrl: https://www.youtube.com/c/CodingAddict
   tags: 
     - youtube
 
 - id: coding_tech
   name: Coding Tech
   homepage: https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ
-  youtube: https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ
+  youtubeUrl: https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ
   tags: 
     - youtube
 
 - id: coding_in_public
   name: Coding in Public
   homepage: https://www.youtube.com/c/codinginpublic
-  youtube: https://www.youtube.com/c/codinginpublic
+  youtubeUrl: https://www.youtube.com/c/codinginpublic
   tags: 
     - youtube
 
 - id: continuous_delivery
   name: Continuous Delivery
   homepage: https://www.youtube.com/c/ContinuousDelivery
-  youtube: https://www.youtube.com/c/ContinuousDelivery
+  youtubeUrl: https://www.youtube.com/c/ContinuousDelivery
   tags: 
     - youtube
 
 - id: dave_gray
   name: Dave Gray
   homepage: https://www.youtube.com/c/DaveGrayTeachesCode
-  youtube: https://www.youtube.com/c/DaveGrayTeachesCode
+  youtubeUrl: https://www.youtube.com/c/DaveGrayTeachesCode
   tags: 
     - youtube
 
@@ -244,14 +239,14 @@
 - id: joshua_morony
   name: Joshua Morony
   homepage: https://www.youtube.com/channel/UCbVZdLngJH6KOJvpAOO3qTw
-  youtube: https://www.youtube.com/channel/UCbVZdLngJH6KOJvpAOO3qTw
+  youtubeUrl: https://www.youtube.com/channel/UCbVZdLngJH6KOJvpAOO3qTw
   tags: 
     - youtube
 
 - id: developed_by_ed
   name: DevelopedByEd
   homepage: https://www.youtube.com/c/DevEd
-  youtube: https://www.youtube.com/c/DevEd
+  youtubeUrl: https://www.youtube.com/c/DevEd
   patterns:
     - deved
     - dev ed
@@ -261,48 +256,48 @@
 - id: fazt
   name: Fazt
   homepage: https://www.youtube.com/c/FaztTech/videos
-  youtube: https://www.youtube.com/c/FaztTech/videos
+  youtubeUrl: https://www.youtube.com/c/FaztTech/videos
   tags: 
     - youtube
 
 - id: http_203
   name: HTTP 203
   homepage: https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9
-  youtube: https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9
+  youtubeUrl: https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9
   tags: 
     - youtube
 
 - id: hitesh_choudhary
   name: Hitesh Choudhary
-  youtube: https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A
+  youtubeUrl: https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A
   homepage: https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A
   tags: 
     - youtube
 
 - id: hola_mundo
   name: HolaMundo
-  youtube: https://www.youtube.com/c/HolaMundoDev/videos
+  youtubeUrl: https://www.youtube.com/c/HolaMundoDev/videos
   homepage: https://www.youtube.com/c/HolaMundoDev/videos
   tags: 
     - youtube
 
 - id: hyperplexed
   name: Hyperplexed
-  youtube: https://www.youtube.com/c/Hyperplexed
+  youtubeUrl: https://www.youtube.com/c/Hyperplexed
   homepage: https://www.youtube.com/c/Hyperplexed
   tags: 
     - youtube
 
 - id: javaScript_mastery
   name: JavaScript Mastery
-  youtube: https://www.youtube.com/c/javascriptmastery
+  youtubeUrl: https://www.youtube.com/c/javascriptmastery
   homepage: https://www.youtube.com/c/javascriptmastery
   tags: 
     - youtube
 
 - id: joma_tech
   name: Joma Tech
-  youtube: https://www.youtube.com/c/jomaoppa
+  youtubeUrl: https://www.youtube.com/c/jomaoppa
   homepage: https://www.youtube.com/c/jomaoppa
   patterns:
     - joma
@@ -311,49 +306,49 @@
 
 - id: joy_of_code
   name: Joy of Code
-  youtube: https://www.youtube.com/c/joyofcodedev
+  youtubeUrl: https://www.youtube.com/c/joyofcodedev
   homepage: https://www.youtube.com/c/joyofcodedev
   tags: 
     - youtube
 
 - id: learn_with_jason
   name: Learn With Jason
-  youtube: https://www.youtube.com/channel/UCnty0z0pNRDgnuoirYXnC5A
+  youtubeUrl: https://www.youtube.com/channel/UCnty0z0pNRDgnuoirYXnC5A
   homepage: https://www.youtube.com/channel/UCnty0z0pNRDgnuoirYXnC5A
   tags: 
     - youtube
 
 - id: no_boilerplate
   name: No Boilerplate
-  youtube: https://www.youtube.com/c/NoBoilerplate
+  youtubeUrl: https://www.youtube.com/c/NoBoilerplate
   homepage: https://www.youtube.com/c/NoBoilerplate
   tags: 
     - youtube
 
 - id: sam_selikoff
   name: Sam Selikoff
-  youtube: https://www.youtube.com/c/SamSelikoff
+  youtubeUrl: https://www.youtube.com/c/SamSelikoff
   homepage: https://www.youtube.com/c/SamSelikoff
   tags: 
     - youtube
 
 - id: sonny_sangha
   name: Sonny Sangha
-  youtube: https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA
+  youtubeUrl: https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA
   homepage: https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA
   tags: 
     - youtube
 
 - id: tech_with_tim
   name: Tech With Tim
-  youtube: https://www.youtube.com/c/TechWithTim
+  youtubeUrl: https://www.youtube.com/c/TechWithTim
   homepage: https://www.youtube.com/c/TechWithTim
   tags: 
     - youtube
 
 - id: li_hau_tan
   name: Li Hau Tan
-  youtube: https://www.youtube.com/c/lihautan
+  youtubeUrl: https://www.youtube.com/c/lihautan
   homepage: https://www.youtube.com/c/lihautan
   patterns:
     - tan li hau
@@ -362,35 +357,35 @@
 
 - id: timur_shemsedinov
   name: Timur Shemsedinov
-  youtube: https://www.youtube.com/channel/UChSGI2R2kRMjzXJuYqHWQZg
+  youtubeUrl: https://www.youtube.com/channel/UChSGI2R2kRMjzXJuYqHWQZg
   homepage: https://www.youtube.com/channel/UChSGI2R2kRMjzXJuYqHWQZg
   tags: 
     - youtube
 
 - id: william_candillon
   name: William Candillon
-  youtube: https://www.youtube.com/channel/UC806fwFWpiLQV5y-qifzHnA
+  youtubeUrl: https://www.youtube.com/channel/UC806fwFWpiLQV5y-qifzHnA
   homepage: https://www.youtube.com/channel/UC806fwFWpiLQV5y-qifzHnA
   tags: 
     - youtube
 
 - id: yuri_artiukh
   name: Yuri Artiukh
-  youtube: https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g
+  youtubeUrl: https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g
   homepage: https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g
   tags: 
     - youtube
 
 - id: low_byte_productions
   name: Low Byte Productions
-  youtube: https://www.youtube.com/c/lowleveljavascript
+  youtubeUrl: https://www.youtube.com/c/lowleveljavascript
   homepage: https://www.youtube.com/c/lowleveljavascript
   tags: 
     - youtube
 
 - id: program_with_erik
   name: Program With Erik
-  youtube: https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
+  youtubeUrl: https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
   homepage: https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
   patterns:
     - programming with erik
@@ -400,49 +395,49 @@
 
 - id: the_cherno
   name: The Cherno
-  youtube: https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw
+  youtubeUrl: https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw
   homepage: https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw
   tags: 
     - youtube
 
 - id: ulbi_tv
   name: Ulbi TV
-  youtube: https://www.youtube.com/c/ulbitv
+  youtubeUrl: https://www.youtube.com/c/ulbitv
   homepage: https://www.youtube.com/c/ulbitv
   tags: 
     - youtube
 
 - id: nick_chapsas
   name: Nick Chapsas
-  youtube: https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg
+  youtubeUrl: https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg
   homepage: https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg
   tags: 
     - youtube
 
 # - id: 
 #   name: 
-#   youtube: 
+#   youtubeUrl: 
 #   homepage: 
 #   tags: 
 #     - youtube
 
 # - id: 
 #   name: 
-#   youtube: 
+#   youtubeUrl: 
 #   homepage: 
 #   tags: 
 #     - youtube
 
 # - id: 
 #   name: 
-#   youtube: 
+#   youtubeUrl: 
 #   homepage: 
 #   tags: 
 #     - youtube
 
 # - id: 
 #   name: 
-#   youtube: 
+#   youtubeUrl: 
 #   homepage: 
 #   tags: 
 #     - youtube

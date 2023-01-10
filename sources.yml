@@ -145,15 +145,11 @@
 
 - id: mastodon
   normalizationOnly: true
-  name: Mastodon
-  homepage: https://mastodon.social/
 
 - id: brave
   normalizationOnly: true
-  name: Brave
   patterns:
     - search.brave.com
-  homepage: https://brave.com
 
 - id: eleventy
   normalizationOnly: true

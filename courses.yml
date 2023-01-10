@@ -254,12 +254,6 @@
   name: Domestika
   homepage: https://www.domestika.org/
 
-- id: fernando_herrera
-  name: Fernando Herrera
-  homepage: https://fernando-herrera.com/
-  tags:
-    - video_creators
-
 - id: code_with_harry
   name: Code With Harry
   homepage: https://www.codewithharry.com/

@@ -84,3 +84,7 @@
 - id: discord
   name: Discord
   homepage: https://discord.com/
+
+- id: mastodon
+  name: Mastodon
+  homepage: https://mastodon.social/
