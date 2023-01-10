@@ -41,7 +41,9 @@
   homepage: https://kentcdodds.com/blog/
   blog: https://kentcdodds.com/blog
   rss: https://kentcdodds.com/blog/rss.xml
-  tags:
+  youtubeUrl: https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw
+  tags: 
+    - youtube
     - js
     - react
     - blogs
@@ -1048,8 +1050,7 @@
   name: Brad Traversy
   twitterName: traversymedia
   homepage: https://www.traversymedia.com/
-  blog:
-  rss:
+  youtubeUrl: https://www.youtube.com/c/TraversyMedia/videos
   patterns:
     - Traversy
   tags:
@@ -2123,6 +2124,117 @@
   # rss:
   tags:
     - js
+
+- id: tina_huang
+  name: Tina Huang
+  homepage: https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww
+  tags: 
+    - youtube
+    - video_creators
+
+- id: jason_goodison
+  name: Jason Goodison
+  homepage: https://www.youtube.com/c/JasonGoodison
+  tags: 
+    - youtube
+    - video_creators
+
+- id: jack_herrington
+  name: Jack Herrington
+  homepage: https://www.youtube.com/@jherr
+  twitterName: jherr
+  patterns:
+    - blue collar
+    - jack harrington
+    - jack herington
+  tags: 
+    - youtube
+    - video_creators
+
+- id: ania_kubow
+  name: Ania Kubów
+  youtubeUrl: https://www.youtube.com/aniakubow
+  youtubeName: aniakubow
+  tags:
+    - youtube
+    - video_creators
+  patterns:
+    - ania
+    - anya
+    - kubow
+
+
+- id: joshua_morony
+  name: Joshua Morony
+  youtubeUrl: https://www.youtube.com/channel/UCbVZdLngJH6KOJvpAOO3qTw
+  tags: 
+    - youtube
+    - video_creators
+
+- id: hitesh_choudhary
+  name: Hitesh Choudhary
+  youtubeUrl: https://www.youtube.com/channel/UCXgGY0wkgOzynnHvSEVmE3A
+  tags: 
+    - youtube
+    - video_creators
+
+- id: sam_selikoff
+  name: Sam Selikoff
+  youtubeUrl: https://www.youtube.com/c/SamSelikoff
+  tags: 
+    - youtube
+    - video_creators
+
+- id: sonny_sangha
+  name: Sonny Sangha
+  youtubeUrl: https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA
+  tags: 
+    - youtube
+    - video_creators
+
+- id: li_hau_tan
+  name: Li Hau Tan
+  youtubeUrl: https://www.youtube.com/c/lihautan
+  patterns:
+    - tan li hau
+  tags: 
+    - youtube
+    - video_creators
+
+- id: timur_shemsedinov
+  name: Timur Shemsedinov
+  youtubeUrl: https://www.youtube.com/channel/UChSGI2R2kRMjzXJuYqHWQZg
+  tags: 
+    - youtube
+    - video_creators
+
+- id: william_candillon
+  name: William Candillon
+  youtubeUrl: https://www.youtube.com/channel/UC806fwFWpiLQV5y-qifzHnA
+  tags: 
+    - youtube
+    - video_creators
+
+- id: yuri_artiukh
+  name: Yuri Artiukh
+  youtubeUrl: https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g
+  tags: 
+    - youtube
+    - video_creators
+
+- id: nick_chapsas
+  name: Nick Chapsas
+  youtubeUrl: https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg
+  tags: 
+    - youtube
+    - video_creators
+
+- id: dave_gray
+  name: Dave Gray
+  youtubeUrl: https://www.youtube.com/c/DaveGrayTeachesCode
+  tags: 
+    - youtube
+    - video_creators
 
 # - id:
 #   name:
