@@ -1,8 +1,9 @@
 # personal sites and blogs
 
 - id: tyler_mcginnis
-  name: Tyle McGinnis
-  homepage: https://tylermcginnis.com/
+  name: Tyler McGinnis
+  homepage: https://ui.dev/
+  blog: https://ui.dev/blog 
   twitterName: tylermcginnis
   tags:
     - courses
@@ -15,6 +16,7 @@
   twitterName: sarah_edo
   name: Sarah Drasner
   homepage: https://sarahdrasnerdesign.com/
+  blog: https://sarahdrasnerdesign.com/writing
   patterns:
     - sara drasner
   tags:
@@ -24,7 +26,7 @@
 
 - id: heydon_pickering
   twitterName: heydonworks
-  mastodonName: heydon@mastodon.social
+  mastodonName: heydon@front-end.social
   name: Heydon Pickering
   homepage: https://heydonworks.com/
   blog: https://heydonworks.com/latest/
@@ -38,10 +40,11 @@
 - id: kent_c_dodds
   twitterName: kentcdodds
   name: Kent C. Dodds
-  homepage: https://kentcdodds.com/blog/
+  homepage: https://kentcdodds.com/
   blog: https://kentcdodds.com/blog
   rss: https://kentcdodds.com/blog/rss.xml
-  youtubeUrl: https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw
+  youtubeUrl: https://www.youtube.com/@KentCDodds-vids
+  youtubeName: KentCDodds-vids
   tags: 
     - youtube
     - js
@@ -52,7 +55,7 @@
     - kent dodds
 
 - id: dan_abramov
-  twitterName: overreacted
+  twitterName: dan_abramov
   name: Dan Abramov
   homepage: https://overreacted.io/
   blog: https://overreacted.io/
@@ -70,6 +73,8 @@
 - id: robin_wieruch
   name: Robin Wieruch
   homepage: https://www.robinwieruch.de/
+  blog: https://www.robinwieruch.de/blog/
+  rss: https://www.robinwieruch.de/index.xml
   twitterName: rwieruch
   tags:
     - js
@@ -80,6 +85,8 @@
 - id: nicolas_bevacqua
   name: Nicolás Bevacqua
   homepage: https://ponyfoo.com/
+  blog: https://ponyfoo.com/articles
+  rss: https://feeds.feedburner.com/ponyfoo
   twitterName: ponyfoo
   tags:
     - js
@@ -90,6 +97,8 @@
 - id: david_walsh
   name: David Walsh
   homepage: https://davidwalsh.name/
+  blog: https://davidwalsh.name/
+  rss: https://davidwalsh.name/feed
   twitterName: davidwalshblog
   tags:
     - js
@@ -99,6 +108,8 @@
   twitterName: flaviocopes
   name: Flavio Copes
   homepage: https://flaviocopes.com/
+  blog: https://flaviocopes.com/all/
+  rss: https://flaviocopes.com/rss.xml
   tags:
     - js
     - blogs
@@ -109,6 +120,8 @@
   twitterName: shadeed9
   name: Ahmad Shadeed
   homepage: https://ishadeed.com/
+  blog: https://ishadeed.com/articles/
+  rss: https://ishadeed.com/feed.xml
   tags:
     - css
     - blogs
@@ -120,6 +133,8 @@
   mastodonName: andy@bell.bz
   name: Andy Bell
   homepage: https://piccalil.li/
+  blog: https://piccalil.li/blog/
+  rss: https://piccalil.li/feed.xml
   tags:
     - css
     - blogs
@@ -132,6 +147,8 @@
   mastodonName: huijing@tech.lgbt
   name: Chen Hui Jing
   homepage: https://chenhuijing.com/
+  blog: https://chenhuijing.com/blog/
+  rss: https://chenhuijing.com/feed.xml
   tags:
     - css
     - blogs
@@ -143,6 +160,8 @@
   mastodonName: adactio@mastodon.social
   name: Jeremy Keith
   homepage: https://adactio.com/
+  blog: https://adactio.com/articles
+  rss: https://adactio.com/rss/
   tags:
     - css
     - blogs
@@ -150,16 +169,18 @@
     - jeremy ?keith
 
 - id: lea_verou
-  twitterName: leaverou
+  twitterName: LeaVerou
   mastodonName: leaverou@front-end.social
   name: Lea Verou
   homepage: https://lea.verou.me/
+  blog: https://lea.verou.me/
+  rss: http://feeds.feedburner.com/leaverou
   tags:
     - css
     - blogs
 
 - id: sara_soueidan
-  twitterName: sarasoueidan
+  twitterName: SaraSoueidan
   name: Sara Soueidan
   homepage: https://www.sarasoueidan.com/
   blog: https://www.sarasoueidan.com/blog/
@@ -174,7 +195,7 @@
 
 - id: josh_comeau
   twitterName: JoshWComeau
-  name: Josh Comeau
+  name: Josh W. Comeau
   homepage: https://joshwcomeau.com/
   blog: https://www.joshwcomeau.com/
   rss: https://www.joshwcomeau.com/rss.xml
@@ -191,6 +212,9 @@
   twitterName: rachelandrew
   name: Rachel Andrew
   homepage: https://rachelandrew.co.uk/
+  blog: https://rachelandrew.co.uk/archives/
+  rss: https://rachelandrew.co.uk/feed/
+  mastodonName: rachelandrew@front-end.social
   tags:
     - css
 
@@ -199,14 +223,19 @@
   mastodonName: jensimmons@front-end.social
   name: Jen Simmons
   homepage: https://jensimmons.com/
+  youtubeUrl: https://www.youtube.com/@LayoutLand/
+  youtubeName: LayoutLand
   tags:
     - css
 
 - id: kevin_j_powell
-  twitterName: kevinjpowell
+  twitterName: KevinJPowell
   name: Kevin Powell
   homepage: https://www.kevinpowell.co/
-  youtubeName: kevinpowell
+  blog: https://www.kevinpowell.co/articles/
+  youtubeUrl: https://www.youtube.com/@KevinPowell
+  youtubeName: KevinPowell
+  twitchName: KevinPowellCSS
   tags:
     - css
   patterns:
@@ -2236,14 +2265,15 @@
     - youtube
     - video_creators
 
-# - id:
-#   name:
-#   twitterName:
-#   homepage:
-#   blog:
-#   rss:
-#   tags:
-#     - js
+- id: shaundai_person
+  name: Shaundai Person
+  twitterName: shaundai
+  mastodonName: shaundai@mas.to
+  homepage: https://www.tsforjs.com/
+  # blog:
+  # rss:
+  tags:
+    - js
 
 # - id:
 #   name:
