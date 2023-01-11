@@ -247,16 +247,21 @@
 - id: harry_roberts
   twitterName: csswizardry
   name: Harry Roberts
-  homepage: https://css_wizardry.com
+  homepage: https://csswizardry.com/
+  blog: https://csswizardry.com/archive/
+  rss: https://feeds.feedburner.com/csswizardry
   tags:
     - css
   patterns:
     - harry ?roberts
 
 - id: stephanie_walter
-  twitterName: walterstephanie
+  twitterName: WalterStephanie
   name: Stéphanie Walter
   homepage: https://stephaniewalter.design/
+  blog: https://stephaniewalter.design/blog/
+  rss: https://stephaniewalter.design/blog/feed/
+  mastodonName: stephaniewalter@front-end.social
   patterns:
     - stefanie walter
     - stéphanie walter
@@ -267,6 +272,9 @@
   name: Tania Rascia
   twitterName: taniarascia
   homepage: https://www.taniarascia.com/
+  homepage2: https://tania.dev/
+  blog: https://www.taniarascia.com/blog/
+  rss: https://www.taniarascia.com/rss.xml
   tags:
     - javascript
 
@@ -275,6 +283,8 @@
   mastodonName: brad_frost@mastodon.social
   name: Brad Frost
   homepage: http://bradfrost.com/
+  blog: https://bradfrost.com/blog/
+  rss: http://feeds.feedburner.com/brad-frosts-blog
   tags:
     - css
 
@@ -282,6 +292,8 @@
   twitterName: davatron5000
   name: Dave Rupert
   homepage: https://daverupert.com/
+  blog: https://daverupert.com/archive/
+  rss: https://daverupert.com/atom.xml
   tags:
     - css
 
@@ -289,6 +301,9 @@
   twitterName: wesbos
   name: Wes Bos
   homepage: https://wesbos.com/
+  blog: https://wesbos.com/blog
+  youtubeUrl: https://www.youtube.com/wesbos
+  youtubeName: WesBos
   tags:
     - courses
     - css
@@ -297,10 +312,12 @@
 
 - id: chris_coyier
   twitterName: chriscoyier
-  mastodonName: css@front-end.social
+  mastodonName: chriscoyier@front-end.social
   name: Chris Coyier
   bio: Creator of CSS Tricks and Codepen.
-  homepage: https://css-tricks.com
+  homepage: https://chriscoyier.net/
+  blog: https://chriscoyier.net/archives/
+  rss: https://chriscoyier.net/feed/
   tags:
     - css
   patterns:
@@ -312,6 +329,8 @@
   twitterName: codepo8
   name: Christian Heilmann
   homepage: https://christianheilmann.com/
+  blog: https://christianheilmann.com/
+  rss: https://christianheilmann.com/feed/
   patterns:
     - Chris Heilmann
   tags:
@@ -321,6 +340,9 @@
   twitterName: aardrian
   name: Adrian Roselli
   homepage: https://adrianroselli.com/
+  blog: https://adrianroselli.com/posts
+  rss: https://adrianroselli.com/feed
+  mastodonName: aardrian@toot.cafe
   tags:
     - css
 
@@ -329,22 +351,27 @@
   mastodonName: brucelawson@vivaldi.net
   name: Bruce Lawson
   homepage: https://brucelawson.co.uk/
+  blog: https://brucelawson.co.uk/
+  rss: https://brucelawson.co.uk/feed/
   tags:
     - css
 
 - id: eric_meyer
   twitterName: meyerweb
-  mastodonName: meyerweb@mastodon.social
+  mastodonName: Meyerweb@mastodon.social
   name: Eric Meyer
   homepage: https://meyerweb.com/
+  blog: https://meyerweb.com/eric/thoughts/
   tags:
     - css
 
 - id: peter_paul_koch
   twitterName: ppk
   mastodonName: ppk@front-end.social
-  name: Peter Paul Koch
+  name: Peter-Paul Koch
   homepage: https://www.quirksmode.org/
+  blog: https://www.quirksmode.org/blog/
+  rss: https://www.quirksmode.org/blog/index.xml 
   tags:
     - css
     - blogs
@@ -352,10 +379,14 @@
     - ppk
 
 - id: una_kravets
-  twitterName: una
-  mastodonName: una@front-end.social
+  twitterName: Una
+  mastodonName: Una@front-end.social
   name: Una Kravets
   homepage: https://una.im/
+  blog: https://una.im/archive/
+  rss: https://una.im/feed.xml
+  youtubeUrl: https://www.youtube.com/@UnaKravets
+  youtubeName: UnaKravets
   tags:
     - css
   patterns:
@@ -365,13 +396,18 @@
   twitterName: beep
   name: Ethan Marcotte
   homepage: https://ethanmarcotte.com/
+  blog: https://ethanmarcotte.com/wrote/
+  rss: https://ethanmarcotte.com/wrote/feed.xml
+  mastodonName: beep@follow.ethanmarcotte.com
   tags:
     - css
 
 - id: kitty_giraudel
-  twitterName: kittygiraudel
+  twitterName: KittyGiraudel
   name: Kitty Giraudel
   homepage: https://kittygiraudel.com/
+  blog: https://kittygiraudel.com/blog/
+  rss: https://kittygiraudel.com/rss/index.xml
   tags:
     - css
 
@@ -379,7 +415,12 @@
   twitterName: 5t3ph
   mastodonName: 5t3ph@front-end.social
   name: Stephanie Eckles
-  homepage: https://moderncss.dev/
+  homepage: https://thinkdobecreate.com/
+  blog: https://thinkdobecreate.com/articles/
+  rss: https://thinkdobecreate.com/feed/
+  youtubeUrl: https://www.youtube.com/@learnhowtomakeawebsitewith7981
+  youtubeName: learnhowtomakeawebsitewith7981
+  twitchName: 5t3phdev
   patterns:
     - steph eckles
   related:
@@ -390,8 +431,10 @@
 - id: hidde_de_vries
   twitterName: hdv
   mastodonName: hdv@front-end.social
-  name: Hidde De Vries
-  homepage: https://hiddedevries.nl/en/
+  name: Hidde de Vries
+  homepage: https://hidde.blog/
+  blog: https://hidde.blog/blog/
+  rss: https://hidde.blog/feed
   tags:
     - css
 
@@ -399,13 +442,16 @@
   twitterName: argyleink
   name: Adam Argyle
   homepage: https://nerdy.dev/
+  rss: https://nerdy.dev/rss.xml
   tags:
     - css
 
 - id: ana_tudor
   twitterName: anatudor
   name: Ana Tudor
-  homepage: https://www.patreon.com/anatudor
+  mastodonName: anatudor@mastodon.social
+  youtubeUrl: https://www.youtube.com/@anatudor/
+  youtubeName: anatudor
   patterns:
     - anna tudor
   tags:
@@ -415,14 +461,19 @@
   twitterName: kilianvalkhof
   name: Kilian Valkhof
   homepage: https://kilianvalkhof.com/
+  blog: https://kilianvalkhof.com/
+  rss: http://feeds.feedburner.com/Kilianvalkhofcom
+  mastodonName: Kilian@mastodon.social
   tags:
     - css
 
 - id: eric_w_bailey
   twitterName: ericwbailey
-  mastodonName: ericwbailey@front-end.social
+  mastodonName: eric@social.ericwbailey.website
   name: Eric Bailey
   homepage: https://ericwbailey.design/
+  blog: https://ericwbailey.design/published/
+  rss: https://ericwbailey.design/feed/feed.xml
   tags:
     - css
   patterns:
@@ -433,14 +484,17 @@
   mastodonName: mxbck@front-end.social
   name: Max Böck
   homepage: https://mxb.dev/
+  blog: https://mxb.dev/blog/
+  rss: https://mxb.dev/feed.xml
   tags:
     - css
 
 - id: miriam_suzanne
   twitterName: TerribleMia
   mastodonName: mia@front-end.social
-  name: Miriam Suzanne
+  name: Miriam Eric Suzanne
   homepage: https://www.miriamsuzanne.com/
+  rss: https://www.miriamsuzanne.com/feed.xml
   tags:
     - css
 
@@ -448,6 +502,9 @@
   twitterName: bramus
   name: Bramus Van Damme
   homepage: https://www.bram.us/
+  blog: https://www.bram.us/
+  rss: https://www.bram.us/feed/
+  mastodonName: bramus@front-end.social
   patterns:
     - bram.us
     - bramus
@@ -460,6 +517,8 @@
   homepage: https://adamwathan.me/
   blog: https://adamwathan.me/articles/
   rss: https://adamwathan.me/rss/index.xml
+  youtubeUrl: https://www.youtube.com/adamwathan
+  youtubeName: AdamWathan
   patterns:
     - adam watham
   tags:
@@ -469,14 +528,18 @@
   twitterName: philwalton
   name: Philip Walton
   homepage: https://philipwalton.com/
+  blog: https://philipwalton.com/articles/
+  rss: https://feeds.feedburner.com/philipwalton
   tags:
     - js
 
 - id: michelle_barker
   twitterName: MicheBarks
   name: Michelle Barker
-  homepage: https://css-irl.info/
+  homepage: https://michellebarker.co.uk/
+  blog: https://css-irl.info/
   rss: https://css-irl.info/rss.xml
+  mastodonName: michelle@front-end.social
   tags:
     - css
   related:
@@ -485,8 +548,10 @@
 - id: sarah_fossheim
   twitterName: SarahFossheim
   mastodonName: fossheim@tech.lgbt
-  name: Sarah Fossheim
+  name: Sarah L. Fossheim
   homepage: https://fossheim.io/
+  blog: https://fossheim.io/writing/
+  rss: https://fossheim.io/feed.xml
   tags:
     - css
     - javascript
@@ -496,17 +561,17 @@
   twitterName: foolip
   mastodonName: foolip@mastodon.nu
   name: Philip Jägenstedt
-  homepage: https://foolip.org/
+  homepage: https://blog.foolip.org/
   blog: https://blog.foolip.org/
+  rss: https://blog.foolip.org/feed/
   tags:
     - css
     - blogs
 
 - id: scott_kellum
-  twitterName: ScottKellum
   mastodonName: scott@typetura.social
   name: Scott Kellum
-  homepage: https://typetura.com/
+  homepage: https://scottkellum.com/
   tags:
     - css
 
@@ -524,6 +589,7 @@
   twitterName: codeability
   name: EJ Mason
   homepage: https://www.ejmason.com/
+  blog: https://www.ejmason.com/writing/
   tags:
     - accessibility
 
@@ -543,6 +609,7 @@
 
 - id: leonie_watson
   twitterName: LeonieWatson
+  name: Léonie Watson
   mastodonName: tink@front-end.social
   homepage: https://tink.uk/
   blog: https://tink.uk/
@@ -553,9 +620,9 @@
 - id: monica_dinculescu
   name: Monica Dinculescu
   twitterName: notwaldorf
-  homepage:
-  blog:
-  rss:
+  homepage: https://meowni.ca/
+  blog: https://meowni.ca/blog/
+  rss: https://meowni.ca/blog.xml
   tags:
     - css
 
@@ -564,8 +631,8 @@
   twitterName: lynnandtonic
   mastodonName: lynnandtonic@front-end.social
   homepage: https://lynnandtonic.com/
-  blog:
-  rss:
+  blog: https://lynnandtonic.com/thoughts/
+  rss: https://lynnandtonic.com/feed.xml
   tags:
     - css
 
@@ -574,17 +641,17 @@
   twitterName: cassiecodes
   mastodonName: cassiecodes@front-end.social
   homepage: https://www.cassie.codes/
-  blog:
-  rss:
+  blog: https://www.cassie.codes/writing/
+  rss: https://www.cassie.codes/feed.xml
   tags:
     - css
 
 - id: mandy_michael
   name: Mandy Michael
   twitterName: Mandy_Kerr
-  homepage:
-  blog:
-  rss:
+  homepage: https://mandy.dev/
+  blog: https://medium.com/@mandy.michael
+  rss: https://medium.com/feed/@mandy.michael
   tags:
     - css
 
@@ -592,9 +659,9 @@
   name: Charlie Gerard
   twitterName: devdevcharlie
   mastodonName: devdevcharlie@hachyderm.io
-  homepage:
-  blog:
-  rss:
+  homepage: https://charliegerard.dev/
+  blog: https://charliegerard.dev/blog/
+  rss: https://charliegerard.dev/rss.xml
   tags:
     - css
 
@@ -602,8 +669,9 @@
   name: Cassidy Williams
   twitterName: cassidoo
   homepage: https://cassidoo.co/
-  blog:
+  blog: 
   rss:
+  twitchName: cassidoo
   patterns:
     - cassido
   tags:
@@ -616,6 +684,8 @@
   homepage: https://jakearchibald.com/
   blog: https://jakearchibald.com/
   rss: https://jakearchibald.com/posts.rss
+  youtubeUrl: https://www.youtube.com/@jakearchibald
+  youtubeName: jakearchibald
   tags:
     - css
 
@@ -624,18 +694,20 @@
   twitterName: malarkey
   mastodonName: malarkey@mastodon.social
   homepage: https://stuffandnonsense.co.uk/
-  blog:
+  blog: https://stuffandnonsense.co.uk/blog
   rss:
+  youtubeUrl: https://www.youtube.com/@StuffandNonsenseLtdGwaenysgor
+  youtubeName: StuffandNonsenseLtdGwaenysgor
   tags:
     - css
 
 - id: viljami_salminen
-  name: Viljami Salminen
-  twitterName: viljamis
-  mastodonName: viljamis@mastodon.social
-  homepage:
-  blog:
-  rss:
+  name: Ariel Salminen
+  twitterName: arielsalminen
+  mastodonName: ariel@social.design.systems
+  homepage: https://arie.ls/
+  blog: https://arie.ls/
+  rss: https://arie.ls/atom.xml
   tags:
     - css
 
@@ -644,7 +716,7 @@
   twitterName: mmatuzo
   mastodonName: matuzo@front-end.social
   homepage: https://www.matuzo.at/
-  blog:
+  blog: https://www.matuzo.at/blog/
   rss:
   patterns:
     - htm_hell
@@ -654,20 +726,22 @@
     - css
 
 - id: scott_de_jonge
-  name: Scott De Jonge
+  name: Scott de Jonge
   twitterName: scottdejonge
-  homepage:
-  blog:
+  homepage: https://scottdejonge.com/
+  blog: https://scottdejonge.com/writing/
   rss:
+  mastodonName: scottdejonge@mastodon.social
   tags:
     - css
 
-- id: max_bock
-  name: Max Böck
+- id: max_bock # DUPLICATE
   twitterName: mxbck
-  homepage:
-  blog:
-  rss:
+  mastodonName: mxbck@front-end.social
+  name: Max Böck
+  homepage: https://mxb.dev/
+  blog: https://mxb.dev/blog/
+  rss: https://mxb.dev/feed.xml
   tags:
     - css
 
@@ -675,9 +749,9 @@
   name: Sarah Higley
   twitterName: codingchaos
   mastodonName: codingchaos@vis.social
-  homepage:
-  blog:
-  rss:
+  homepage: https://sarahmhigley.com/
+  blog: https://sarahmhigley.com/writing/
+  rss: https://sarahmhigley.com/feed.xml
   tags:
     - css
     - accessibility
@@ -686,16 +760,17 @@
   name: Zach Leatherman
   twitterName: zachleat
   homepage: https://www.zachleat.com/
-  blog:
-  rss:
+  blog: https://www.zachleat.com/web/
+  rss: https://www.zachleat.com/web/feed/
+  mastodonName: zachleat@zachleat.com
   tags:
     - css
 
 - id: mark_dalgleish
   name: Mark Dalgleish
   twitterName: markdalgleish
-  homepage: https://twitter.com/markdalgleish
-  blog:
+  homepage: http://markdalgleish.com/
+  blog: http://markdalgleish.com/blog/archives/
   rss:
   tags:
     - css
@@ -707,16 +782,16 @@
 - id: jeffrey_zeldman
   name: Jeffrey Zeldman
   twitterName: zeldman
-  homepage:
-  blog:
-  rss:
+  homepage: https://www.zeldman.com/
+  blog: https://www.zeldman.com/
+  rss: https://www.zeldman.com/feed/
   tags:
     - css
 
 - id: diana_smith
   name: Diana Smith
   twitterName: cyanharlow
-  homepage:
+  homepage: https://diana-adrianne.com/
   blog:
   rss:
   tags:
@@ -725,9 +800,11 @@
 - id: brad_westfall
   name: Brad Westfall
   twitterName: bradwestfall
-  homepage:
-  blog:
+  homepage: http://bradwestfall.com/
+  blog: http://bradwestfall.com/articles/
   rss:
+  youtubeUrl: https://www.youtube.com/@BradWestfall
+  youtubeName: BradWestfall
   tags:
     - css
     - javascript
@@ -736,9 +813,12 @@
   name: Alex Trost
   twitterName: trostcodes
   mastodonName: trostcodes@notacult.social
-  homepage:
-  blog:
+  homepage: https://trost.codes/
+  blog: https://trost.codes/posts/
   rss:
+  youtubeUrl: https://www.youtube.com/@TrostCodes
+  youtubeName: TrostCodes
+  twitchName: trostcodes
   tags:
     - css
 
@@ -749,6 +829,8 @@
   homepage: https://antfu.me/
   blog: https://antfu.me/posts
   rss: https://antfu.me/feed.xml
+  youtubeUrl: https://www.youtube.com/@antfu
+  youtubeName: antfu
   patterns:
     - antony fu
     - antfu
@@ -758,8 +840,8 @@
 - id: george_francis
   name: George Francis
   twitterName: georgedoescode
-  homepage:
-  blog:
+  homepage: https://georgefrancis.dev/
+  blog: https://georgefrancis.dev/writing/
   rss:
   tags:
     - css
@@ -768,7 +850,7 @@
   name: Rich Harris
   twitterName: Rich_Harris
   mastodonName: rich_harris@toot.cafe
-  homepage: https://twitter.com/Rich_Harris
+  homepage:
   blog:
   rss:
   tags:
@@ -778,8 +860,8 @@
   name: Addy Osmani
   twitterName: addyosmani
   homepage: https://addyosmani.com/
-  blog:
-  rss:
+  blog: https://addyosmani.com/blog/
+  rss: https://addyosmani.com/feed.xml
   tags:
     - css
 
@@ -796,37 +878,38 @@
 - id: jeremy_wagner
   name: Jeremy Wagner
   twitterName: malchata
-  homepage:
-  blog:
-  rss:
+  homepage: https://jlwagner.net/
+  blog: https://jlwagner.net/
+  rss: https://jlwagner.net/rss.php
   tags:
     - css
 
 - id: zell_liew
   name: Zell Liew
   twitterName: zellwk
-  homepage:
-  blog:
-  rss:
+  homepage: https://zellwk.com/
+  blog: https://zellwk.com/blog/
+  rss: https://zellwk.com/feed.xml
+  youtubeUrl: https://www.youtube.com/@zellwk
+  youtubeName: zellwk
   tags:
     - css
 
 - id: sia_karamalegos
   name: Sia Karamalegos
-  twitterName: TheGreenGreek
   mastodonName: sia@front-end.social
-  homepage:
-  blog:
-  rss:
+  homepage: https://sia.codes/
+  blog: https://sia.codes/feed/feed.xml
+  rss: https://sia.codes/posts/
   tags:
     - css
 
 - id: sarah_dayan
   name: Sarah Dayan
   twitterName: frontstuff_io
-  homepage:
-  blog:
-  rss:
+  homepage: https://www.sarahdayan.dev/
+  blog: https://frontstuff.io/
+  rss: https://frontstuff.io/feed.xml
   tags:
     - css
 
@@ -845,18 +928,18 @@
   twitterName: paul_irish
   mastodonName: paul_irish@toot.cafe
   homepage: https://www.paulirish.com/
-  blog:
-  rss:
+  blog: https://www.paulirish.com/
+  rss: https://feeds.feedburner.com/paul-irish
   tags:
     - css
 
 - id: surma
   name: Surma
-  twitterName: dassurma
+  twitterName: DasSurma
   mastodonName: surma@toot.cafe
   homepage: https://surma.dev/
-  blog:
-  rss:
+  blog: https://surma.dev/things/
+  rss: https://surma.dev/index.xml
   tags:
     - css
 
@@ -864,8 +947,10 @@
   name: Lee Robinson
   twitterName: leeerob
   homepage: https://leerob.io/
-  blog:
+  blog: https://leerob.io/blog
   rss:
+  youtubeUrl: https://www.youtube.com/@leerob/
+  youtubeName: leerob
   tags:
     - css
     - javascript
@@ -873,17 +958,17 @@
 - id: paul_boag
   name: Paul Boag
   twitterName: boagworld
-  homepage:
-  blog:
-  rss:
+  homepage: https://boagworld.com/
+  blog: https://boagworld.com/blog
+  rss: https://boagworld.com/feed/
   tags:
     - css
 
 - id: anna_debenham
   name: Anna Debenham
   twitterName: anna_debenham
-  homepage:
-  blog:
+  homepage: https://www.maban.co.uk/
+  blog: https://www.maban.co.uk/writing/
   rss:
   tags:
     - css
@@ -891,17 +976,18 @@
 - id: robin_rendle
   name: Robin Rendle
   twitterName: robinrendle
-  homepage:
-  blog:
-  rss:
+  homepage: https://www.robinrendle.com/
+  blog: https://www.robinrendle.com/
+  rss: https://www.robinrendle.com/feed.xml
+  mastodonName: fonts@sfba.social
   tags:
     - css
 
 - id: douglas_bowman
   name: Douglas Bowman
   twitterName: stop
-  homepage:
-  blog:
+  homepage: https://stopdesign.com/
+  blog: https://stopdesign.com/
   rss:
   tags:
     - css
@@ -910,18 +996,18 @@
   name: Dave Shea
   twitterName: mezzoblue
   mastodonName: daveshea@tilde.zone
-  homepage:
-  blog:
-  rss:
+  homepage: http://daveshea.com/
+  blog: http://daveshea.com/blog/
+  rss: http://daveshea.com/feed.xml
   tags:
     - css
 
 - id: khoi_vinh
   name: Khoi Vinh
   twitterName: khoi
-  homepage:
-  blog:
-  rss:
+  homepage: https://www.subtraction.com/
+  blog: https://www.subtraction.com/
+  rss: https://www.subtraction.com/feed/
   tags:
     - css
 
@@ -929,7 +1015,7 @@
   name: Scott Jehl
   twitterName: scottjehl
   mastodonName: scottjehl@mstdn.social
-  homepage:
+  homepage: https://scottjehl.com/
   blog:
   rss:
   tags:
@@ -938,19 +1024,21 @@
 - id: pedro_duarte
   name: Pedro Duarte
   twitterName: peduarte
-  homepage:
-  blog:
+  homepage: https://ped.ro/
+  blog: https://ped.ro/writing
   rss:
   tags:
     - css
 
 - id: miguel_angel_duran
-  name: Miguel Ángel Durán (midu.dev)
+  name: Miguel Ángel Durán
   twitterName: midudev
   homepage: https://midu.dev/
-  blog:
-  rss:
-  youtube: https://www.youtube.com/c/midudev
+  blog: https://midu.dev/
+  rss: https://midu.dev/index.xml
+  youtubeUrl: https://www.youtube.com/@midudev
+  youtubeName: midudev
+  twitchName: midudev
   tags:
     - css
     - youtube
@@ -965,22 +1053,25 @@
   name: Jason Lengstorf
   twitterName: jlengstorf
   mastodonName: jlengstorf@hachyderm.io
-  homepage: https://www.lengstorf.com/
-  blog:
-  rss:
+  homepage: https://www.jason.af/
+  blog: https://www.jason.af/posts/
+  rss: https://www.jason.af/feed.xml
+  youtubeUrl: https://www.youtube.com/@learnwithjason/
+  youtubeName: learnwithjason
+  twitchName: jlengstorf
   tags:
     - css
 
 - id: matt_perry
   name: Matt Perry
   twitterName: mattgperry
-  homepage:
+  homepage: https://motion.dev/
   blog:
   rss:
   tags:
     - css
 
-- id: dan_abramov
+- id: dan_abramov # DUPLICATE
   name: Dan Abramov
   twitterName: dan_abramov
   homepage:
@@ -993,7 +1084,7 @@
 - id: tim_neutkens
   name: Tim Neutkens
   twitterName: timneutkens
-  homepage:
+  homepage: https://timn.tech/
   blog:
   rss:
   tags:
@@ -1003,9 +1094,9 @@
 - id: ryan_dahl
   name: Ryan Dahl
   twitterName:
-  homepage:
-  blog:
-  rss:
+  homepage: https://tinyclouds.org/
+  blog: https://tinyclouds.org/
+  rss: https://tinyclouds.org/feed
   tags:
     - js
     - node
@@ -1016,6 +1107,9 @@
   homepage:
   blog:
   rss:
+  youtubeUrl: https://www.youtube.com/@funfunfunction/
+  youtubeName: funfunfunction
+  twitchName: funfunfunction
   patterns:
     - mpg
   tags:
@@ -1033,9 +1127,11 @@
 - id: ben_awad
   name: Ben Awad
   twitterName: benawad
-  homepage: https://voidpet.com/benawad
+  homepage:
   blog:
   rss:
+  youtubeUrl: https://www.youtube.com/@bawad/
+  youtubeName: bawad
   tags:
     - css
 
@@ -1043,8 +1139,9 @@
   name: Vadim Makeev
   twitterName: pepelsbey_dev
   homepage: https://pepelsbey.dev/
-  blog:
-  rss:
+  blog: https://pepelsbey.dev/articles/
+  rss: https://pepelsbey.dev/feed/
+  mastodonName: pepelsbey@mastodon.social
   tags:
     - css
   patterns:
@@ -1056,9 +1153,10 @@
   name: Julia Evans
   twitterName: b0rk
   mastodonName: b0rk@mastodon.social
-  homepage:
-  blog:
-  rss:
+  homepage: https://jvns.ca/
+  homepage2: https://wizardzines.com/
+  blog: https://jvns.ca/
+  rss: https://jvns.ca/atom.xml
   tags:
     - css
 
@@ -1066,8 +1164,10 @@
   name: Jonathan MirCha
   twitterName: jonmircha
   homepage: https://jonmircha.com/
-  blog:
+  blog: https://jonmircha.com/blog
   rss:
+  youtubeUrl: https://www.youtube.com/@jonmircha
+  youtubeName: jonmircha
   tags:
     - css
   patterns:
@@ -1079,18 +1179,19 @@
   name: Brad Traversy
   twitterName: traversymedia
   homepage: https://www.traversymedia.com/
-  youtubeUrl: https://www.youtube.com/c/TraversyMedia/videos
+  youtubeUrl: https://www.youtube.com/@TraversyMedia/
+  youtubeName: TraversyMedia
   patterns:
     - Traversy
   tags:
     - css
 
 - id: tab_atkins
-  name: Tab Atkins
+  name: Tab Atkins-Bittner
   twitterName: tabatkins
-  homepage: https://twitter.com/tabatkins
-  blog:
-  rss:
+  homepage: https://www.xanthir.com/
+  blog: https://www.xanthir.com/blog/
+  rss: https://www.xanthir.com/blog/atom/
   tags:
     - css
 
@@ -1098,16 +1199,16 @@
   name: Nicole Sullivan
   twitterName: stubbornella
   mastodonName: stubbornella@front-end.social
-  homepage: https://twitter.com/stubbornella
-  blog:
-  rss:
+  homepage: http://www.stubbornella.org/content/
+  blog: http://www.stubbornella.org/content/
+  rss: http://www.stubbornella.org/content/feed/
   tags:
     - css
 
 - id: emma_bostian
   name: Emma Bostian
   twitterName: EmmaBostian
-  homepage: https://www.compiled.blog/
+  homepage: https://technicalinterviews.dev/
   blog:
   rss:
   related:
@@ -1119,17 +1220,20 @@
   name: Elad Shechter
   twitterName: eladsc
   homepage: https://eladsc.com/
-  blog:
-  rss:
+  blog: https://eladsc.dev/category/blog/
+  rss: https://eladsc.dev/feed/
   tags:
     - css
 
 - id: ali_spittel
   name: Ali Spittel
   twitterName: ASpittel
-  homepage:
-  blog:
-  rss:
+  homepage: https://welearncode.com/
+  blog: https://welearncode.com/recent-posts
+  rss: https://welearncode.com/rss.xml
+  youtubeUrl: https://www.youtube.com/@AliSpittelDev
+  youtubeName: AliSpittelDev
+  twitchName: aspittel
   tags:
     - css
 
@@ -1147,8 +1251,9 @@
   name: Jens Oliver Meiert
   twitterName: j9t
   homepage: https://meiert.com/
-  blog:
-  rss:
+  blog: https://meiert.com/en
+  rss: https://meiert.com/en/feed/
+  mastodonName: j9t@mas.to
   tags:
     - css
     - accessibility
@@ -1156,9 +1261,12 @@
 - id: scott_tolinski
   name: Scott Tolinski
   twitterName: stolinski
-  homepage: https://leveluptutorials.com/
-  blog:
+  homepage: https://scotttolinski.com/
+  homepage2: https://levelup.video/
+  blog: https://levelup.video/posts
   rss:
+  youtubeUrl: https://www.youtube.com/@LevelUpTuts
+  youtubeName: LevelUpTuts
   related:
     - syntax
   tags:
@@ -1166,11 +1274,11 @@
     - css
 
 - id: marcy_sutton
-  name: Marcy Sutton
+  name: Marcy Sutton Todd
   twitterName: marcysutton
   homepage: https://marcysutton.com/
-  blog:
-  rss:
+  blog: https://marcysutton.com/writing/
+  rss: https://marcysutton.com/rss.xml
   tags:
     - accessibility
     - css
@@ -1178,9 +1286,9 @@
 - id: mark_otto
   name: Mark Otto
   twitterName: mdo
-  homepage:
-  blog:
-  rss:
+  homepage: https://markdotto.com/
+  blog: https://markdotto.com/
+  rss: https://markdotto.com/atom.xml
   tags:
     - css
 
@@ -1216,8 +1324,8 @@
   name: Martin Michálek
   twitterName: machal
   homepage: https://www.vzhurudolu.cz/
-  blog:
-  rss:
+  blog: https://www.vzhurudolu.cz/
+  rss: https://feeds.feedburner.com/vzhurudolu
   patterns:
     - Michálek
   tags:
@@ -1229,6 +1337,8 @@
   homepage: https://filipedeschamps.com.br/
   blog:
   rss:
+  youtubeUrl: https://www.youtube.com/@FilipeDeschamps
+  youtubeName: FilipeDeschamps
   tags:
     - css
 
@@ -1236,8 +1346,8 @@
   name: Chris Ferdinandi
   twitterName: ChrisFerdinandi
   homepage: https://gomakethings.com/
-  blog:
-  rss:
+  blog: https://gomakethings.com/articles/
+  rss: https://gomakethings.com/feed/index.xml
   tags:
     - javascript
 
@@ -1245,6 +1355,7 @@
   name: Raphaël Benitte
   twitterName: benitteraphael
   homepage: https://nivo.rocks/
+  homepage2: http://mozaik.rocks/
   blog:
   rss:
   tags:
@@ -1263,7 +1374,7 @@
     - credits
 
 - id: ben_szabo
-  name: Ben Szabo
+  name: Bence Szabo
   twitterName: b3nk3
   homepage:
   blog:
@@ -1289,6 +1400,8 @@
   homepage: https://www.swyx.io/
   blog: https://www.swyx.io/ideas/
   rss: https://www.swyx.io/rss.xml
+  youtubeUrl: https://www.youtube.com/@swyxTV
+  youtubeName: swyxTV
   patterns:
     - swyx
     - sywx
@@ -1309,9 +1422,12 @@
   name: David Khourshid
   twitterName: DavidKPiano
   homepage: https://davidk.dev/
+  homepage2: https://stately.ai/
+  blog: https://stately.ai/blog
+  rss: https://stately.ai/blog/feeds/rss.xml
   tags:
     - js
-
+    
 - id: sindre_sorhus
   name: Sindre Sorhus
   twitterName: sindresorhus
