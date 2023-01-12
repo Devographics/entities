@@ -2548,3 +2548,15 @@
   rss: https://dev.to/feed/shaundai
   tags:
     - js
+
+- id: mattias_petter_johansson
+  name: Mattias Petter Johansson
+  twitterName: mpjme
+  patterns:
+    - mpj
+
+- id: gary_simon
+  name: Gary Simon
+  twitterName: designcoursecom
+  homepage: https://designcourse.com/
+  youtubeName: designcourse
