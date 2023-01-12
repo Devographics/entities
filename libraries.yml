@@ -1,4 +1,28 @@
 #################################################
+# Non-JS Stuff
+#################################################
+
+- id: rails
+  name: Rails
+  homepage: https://rubyonrails.org/
+  tags:
+    - non-js
+    - ruby
+
+- id: laravel
+  name: Laravel
+  homepage: https://laravel.com/
+  tags:
+    - non-js
+    - php
+
+- id: django
+  name: Django
+  tags:
+    - non-js
+    - python
+
+#################################################
 # CSS pre/post processors
 #################################################
 
