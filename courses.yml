@@ -53,10 +53,6 @@
     - lynda
     - linkedin
     - linked( |-)in
-
-- id: academind
-  name: Academind
-  homepage: academind
     
 - id: ultimate_courses
   name: Ultimate Courses
@@ -113,10 +109,6 @@
   homepage: https://htmlacademy.org/
   tags: 
     - css
-
-- id: fireship
-  name: Fireship
-  homepage: https://fireship.io/
 
 - id: in_depth_dev
   name: In Depth Dev

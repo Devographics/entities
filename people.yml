@@ -223,6 +223,7 @@
   mastodonName: jensimmons@front-end.social
   name: Jen Simmons
   homepage: https://jensimmons.com/
+  homepage2: https://www.layout.land/
   youtubeUrl: https://www.youtube.com/@LayoutLand/
   youtubeName: LayoutLand
   tags:
@@ -735,16 +736,6 @@
   tags:
     - css
 
-- id: max_bock # DUPLICATE
-  twitterName: mxbck
-  mastodonName: mxbck@front-end.social
-  name: Max Böck
-  homepage: https://mxb.dev/
-  blog: https://mxb.dev/blog/
-  rss: https://mxb.dev/feed.xml
-  tags:
-    - css
-
 - id: sarah_higley
   name: Sarah Higley
   twitterName: codingchaos
@@ -1071,16 +1062,6 @@
   tags:
     - css
 
-- id: dan_abramov # DUPLICATE
-  name: Dan Abramov
-  twitterName: dan_abramov
-  homepage:
-  blog:
-  rss:
-  tags:
-    - js
-    - react
-
 - id: tim_neutkens
   name: Tim Neutkens
   twitterName: timneutkens
@@ -1114,6 +1095,7 @@
     - mpg
   tags:
     - css
+    - youtube
 
 - id: kyle_simpson
   name: Kyle Simpson
@@ -1447,6 +1429,8 @@
   youtubeName: JoshuaMorony
   tags:
     - js
+    - youtube
+    - video_creators
 
 - id: simon_grimm
   name: Simon Grimm
@@ -1642,7 +1626,13 @@
   rss: https://www.jackherrington.com/rss/
   youtubeUrl: https://www.youtube.com/@jherr
   youtubeName: jherr
-  tags:
+  patterns:
+    - blue collar
+    - jack harrington
+    - jack herington
+  tags: 
+    - youtube
+    - video_creators
     - js
 
 - id: john_papa
@@ -1829,7 +1819,6 @@
     - js
     - graphql
 
-
 - id: mandi_wise
   name: Mandi Wise
   twitterName: mandiwise
@@ -1881,7 +1870,6 @@
   rss:
   tags:
     - graphql
-
 
 - id: eve_porcello
   name: Eve Porcello
@@ -2114,7 +2102,6 @@
   twitterName: erickwendel_
   homepage: https://erickwendel.com/
   blog: https://erickwendel.com/posts/1
-  rss: 
   youtubeUrl: https://www.youtube.com/@ErickWendelTraining
   youtubeName: ErickWendelTraining
   tags:
@@ -2320,8 +2307,8 @@
   tags:
     - js
 
-- id: sebastian_lorber
-  name: Sebastian Lorber
+- id: sebastien_lorber
+  name: Sebastien Lorber
   twitterName: sebastienlorber
   homepage: https://thisweekinreact.com/
   homepage2: https://sebastienlorber.com/
@@ -2336,6 +2323,7 @@
   homepage: https://www.dawntraoz.com/
   homepage2: https://dev.to/dawntraoz
   blog: https://www.dawntraoz.com/blog/
+  # rss:
   youtubeUrl: https://www.youtube.com/@dawntraoz/
   youtubeName: dawntraoz
   twitchName: dawntraoz
@@ -2378,15 +2366,6 @@
     - youtube
     - video_creators
 
-- id: sebastien_lorber # DUPLICATE
-  name: Sebastien Lorber
-  twitterName: sebastienlorber
-  homepage: https://thisweekinreact.com/
-  # blog:
-  # rss:
-  tags:
-    - js
-
 - id: tina_huang
   name: Tina Huang
   homepage: https://www.hellotinah.com/
@@ -2406,18 +2385,6 @@
     - youtube
     - video_creators
 
-- id: jack_herrington # DUPLICATE
-  name: Jack Herrington
-  homepage: https://www.youtube.com/@jherr
-  twitterName: jherr
-  patterns:
-    - blue collar
-    - jack harrington
-    - jack herington
-  tags: 
-    - youtube
-    - video_creators
-
 - id: ania_kubow
   name: Ania Kubów
   homepage: https://www.codewithania.com/
@@ -2431,14 +2398,6 @@
     - ania
     - anya
     - kubow
-
-
-- id: joshua_morony # DUPLICATE
-  name: Joshua Morony
-  youtubeUrl: https://www.youtube.com/channel/UCbVZdLngJH6KOJvpAOO3qTw
-  tags: 
-    - youtube
-    - video_creators
 
 - id: hitesh_choudhary
   name: Hitesh Choudhary
@@ -2552,6 +2511,7 @@
 - id: mattias_petter_johansson
   name: Mattias Petter Johansson
   twitterName: mpjme
+  youtubeName: funfunfunction
   patterns:
     - mpj
 
@@ -2559,4 +2519,307 @@
   name: Gary Simon
   twitterName: designcoursecom
   homepage: https://designcourse.com/
-  youtubeName: designcourse
+  blog: https://designcourse.com/blog
+  youtubeUrl: https://www.youtube.com/@DesignCourse
+  youtubeName: DesignCourse
+  tags: 
+    - youtube
+
+- id: mosh_hamedani
+  name: Mosh Hamedani
+  homepage: https://programmingwithmosh.com/
+  homepage2: https://codewithmosh.com/
+  blog: https://programmingwithmosh.com/
+  rss: https://programmingwithmosh.com/feed/
+  twitterName: https://twitter.com/moshhamedani
+  youtubeUrl: https://www.youtube.com/@programmingwithmosh
+  youtubeName: programmingwithmosh
+  patterns:
+    - mosh hamedani
+  tags: 
+    - youtube
+
+- id: rafeh_qazi
+  name: Rafeh Qazi
+  homepage: https://www.rafehqazi.com/
+  homepage2: https://www.cleverprogrammer.com/
+  twitterName: cleverqazi
+  youtubeUrl: https://www.youtube.com/@CleverProgrammer
+  youtubeName: CleverProgrammer
+  patterns:
+    - rafeh qazi
+  tags: 
+    - youtube
+
+- id: kyle_cook
+  name: Kyle Cook
+  homepage: https://courses.webdevsimplified.com/
+  blog: https://blog.webdevsimplified.com/
+  twitterName: DevSimplified
+  youtubeUrl: https://www.youtube.com/@WebDevSimplified
+  youtubeName: WebDevSimplified
+  patterns:
+    - kyle cook
+  tags: 
+    - youtube
+
+- id: daniel_shiffman
+  name: Daniel Shiffman
+  homepage: https://shiffman.net/
+  homepage2: https://thecodingtrain.com/
+  twitterName: shiffman
+  youtubeUrl: https://www.youtube.com/@TheCodingTrain
+  youtubeName: TheCodingTrain
+  twitchName: CodingTrainChooChoo
+  patterns:
+    - daniel shiffman
+  tags: 
+    - youtube
+
+- id: shaun_pelling
+  name: Shaun Pelling
+  homepage: https://netninja.dev/
+  twitterName: thenetninjauk
+  youtubeUrl: https://www.youtube.com/@NetNinja
+  youtubeName: NetNinja
+  tags: 
+    - youtube
+
+- id: mayuko_inoue
+  name: Mayuko Inoue
+  homepage: https://www.hellomayuko.com/
+  twitterName: hellomayuko
+  youtubeUrl: https://www.youtube.com/@hellomayuko
+  youtubeName: hellomayuko
+  twitchName: hellomayuko
+  tags:
+    - youtube
+
+- id: jessica_chan
+  name: Jessica Chan
+  homepage: https://coder-coder.com/
+  blog: https://coder-coder.com/blog/
+  rss: https://coder-coder.com/feed/
+  twitterName: thecodercoder
+  youtubeUrl: https://www.youtube.com/@TheCoderCoder
+  youtubeName: TheCoderCoder
+  tags:
+    - youtube
+  patterns:
+    - jess chan
+
+- id: christopher_bautista
+  name: Christopher Bautista
+  homepage: https://www.bautistaphotos.com/
+  twitterName: trashh_dev
+  youtubeUrl: https://www.youtube.com/@trash_dev
+  youtubeName: trash_dev
+  twitchName: trash_dev
+  tags:
+    - twitch
+
+- id: akshay_saini
+  name: Akshay Saini
+  homepage: https://akshaysaini.in/
+  twitterName: akshaymarch7
+  youtubeUrl: https://www.youtube.com/@akshaymarch7
+  youtubeName: akshaymarch7
+  tags: 
+    - youtube
+
+- id: ben_eater
+  name: Ben Eater
+  homepage: https://eater.net/
+  twitterName: ben_eater
+  youtubeUrl: https://www.youtube.com/@BenEater
+  youtubeName: BenEater
+  tags: 
+    - youtube
+
+- id: benjamin_debon
+  name: Benjamin Debon
+  homepage: https://benjamincode.tv/
+  twitterName: benjamincode
+  youtubeUrl: https://www.youtube.com/@BenjaminCode
+  youtubeName: BenjaminCode
+  twitchName: BenjaminCode
+  tags: 
+    - youtube
+    
+- id: vishwas_gopinath
+  name: Vishwas Gopinath
+  homepage: https://learn.codevolution.dev/
+  twitterName: CodevolutionWeb
+  youtubeUrl: https://www.youtube.com/@Codevolution
+  youtubeName: Codevolution
+  tags: 
+    - youtube
+
+- id: john_smilga
+  name: John Smilga
+  homepage: https://www.johnsmilga.com/
+  twitterName: john_smilga
+  youtubeUrl: https://www.youtube.com/@CodingAddict
+  youtubeName: CodingAddict
+  tags: 
+    - youtube
+
+- id: yuriy_matso
+  name: Yuriy Matso
+  homepage: https://yuriymatso.com/
+  twitterName: yuriymatso
+  youtubeUrl: https://www.youtube.com/@CodingTech
+  youtubeName: CodingTech
+
+- id: chris_pennington
+  name: Chris Pennington
+  homepage: https://codinginpublic.dev/
+  homepage2: https://chrispennington.blog/
+  blog: https://chrispennington.blog/
+  rss: https://chrispennington.blog/blog/index.xml
+  twitterName: cpenned
+  youtubeUrl: https://www.youtube.com/@CodinginPublic
+  youtubeName: CodinginPublic
+  tags: 
+    - youtube
+
+- id: dave_farley
+  name: Dave Farley
+  homepage: https://www.continuous-delivery.co.uk/
+  homepage2: http://www.davefarley.net/
+  blog: http://www.davefarley.net/
+  rss: https://www.davefarley.net/?feed=rss2
+  twitterName: davefarley77
+  youtubeUrl: https://www.youtube.com/@ContinuousDelivery
+  youtubeName: ContinuousDelivery
+  tags: 
+    - youtube
+
+- id: dmytro_mezhenskyi
+  name: Dmytro Mezhenskyi
+  homepage: https://www.decodedfrontend.io/
+  blog: https://www.decodedfrontend.io/tutorials/
+  rss: https://www.decodedfrontend.io/feed/
+  twitterName: DecodedFrontend
+  youtubeUrl: https://www.youtube.com/@DecodedFrontend
+  youtubeName: DecodedFrontend
+  tags: 
+    - youtube
+
+- id: simo_edwin
+  name: Simo Edwin
+  homepage: https://developedbyed.com/
+  twitterName: developedbyed
+  youtubeUrl: https://www.youtube.com/@developedbyed
+  youtubeName: developedbyed
+  patterns:
+    - deved
+    - dev ed
+  tags: 
+    - youtube
+
+- id: nicolas_schurmann
+  name: Nicolás Schürmann
+  homepage: https://holamundo.io/
+  blog: https://holamundo.io/
+  rss: https://holamundo.io/feed/
+  twitterName: _nasch_
+  youtubeUrl: https://www.youtube.com/@HolaMundoDev
+  youtubeName: HolaMundoDev
+  tags: 
+    - youtube
+
+- id: adrian_hajdin
+  name: Adrian Hajdin
+  homepage: https://www.jsmastery.pro/
+  twitterName: jsmasterypro
+  youtubeUrl: https://www.youtube.com/@javascriptmastery
+  youtubeName: javascriptmastery
+  tags: 
+    - youtube
+
+- id: jonathan_ma
+  name: Jonathan Ma (Joma)
+  homepage: https://www.jomaclass.com/
+  twitterName: jomaoppa
+  youtubeUrl: https://www.youtube.com/@jomaoppa
+  youtubeName: jomaoppa
+  patterns:
+    - joma
+  tags: 
+    - youtube
+
+- id: jason_lengstorf
+  name: Jason Lengstorf
+  homepage: https://www.jason.af/
+  homepage2: https://www.learnwithjason.dev/
+  blog: https://www.jason.af/posts/
+  rss: https://www.jason.af/feed.xml
+  twitterName: jlengstorf
+  youtubeUrl: https://www.youtube.com/@learnwithjason
+  youtubeName: learnwithjason
+  twitchName: jlengstorf
+  tags: 
+    - youtube
+
+- id: tristram_oaten
+  name: Tristram Oaten
+  homepage: https://www.0atman.com/
+  blog: https://www.0atman.com/
+  rss: https://www.0atman.com/feed.xml
+  twitterName: 0atman
+  youtubeUrl: https://www.youtube.com/@NoBoilerplate
+  youtubeName: NoBoilerplate
+  mastodonName: noboilerplate@tech.lgbt
+  tags: 
+    - youtube
+
+- id: tim_ruscica
+  name: Tim Ruscica
+  homepage: https://www.techwithtim.net/
+  twitterName: TechWithTimm
+  youtubeUrl: https://www.youtube.com/@TechWithTim
+  youtubeName: TechWithTim
+  tags: 
+    - youtube
+
+- id: francis_stokes
+  name: Francis Stokes
+  twitterName: fstokesman
+  youtubeUrl: https://www.youtube.com/@LowByteProductions
+  youtubeName: LowByteProductions
+  tags: 
+    - youtube
+
+- id: erik_hanchett
+  name: Erik Hanchett
+  homepage: https://www.programwitherik.com/
+  blog: https://www.programwitherik.com/
+  rss: https://www.programwitherik.com/rss/
+  twitterName: ErikCH
+  youtubeUrl: https://www.youtube.com/@ProgramWithErik
+  youtubeName: ProgramWithErik
+  patterns:
+    - programming with erik
+    - program with eric
+  tags: 
+    - youtube
+
+- id: yan_chernikov
+  name: Yan Chernikov
+  twitterName: TheCherno
+  homepage: https://hazelengine.com/
+  homepage2: https://chernothreads.com/
+  youtubeUrl: https://www.youtube.com/@TheCherno
+  youtubeName: TheCherno
+  twitchName: thecherno
+  tags: 
+    - youtube
+
+- id: ulbi_timur
+  name: Ulbi Timur
+  homepage: https://ulbitv.ru/
+  youtubeUrl: https://www.youtube.com/@UlbiTV
+  youtubeName: UlbiTV
+  tags: 
+    - youtube
