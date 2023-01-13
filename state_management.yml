@@ -2,22 +2,55 @@
   name: State management
 - id: state_management_rn_built_in
   name: React (useState, useReducer, useContext, this.state)
+  homepage: https://beta.reactjs.org/reference/react
+  npm: react
+  github: https://github.com/facebook/react
+
 - id: state_management_jotai
   name: Jotai
+  homepage: https://jotai.org/
+  github: https://github.com/pmndrs/jotai
+  npm: jotai
+
 - id: state_management_zustand
   name: Zustand
+  homepage: zustand
+  github: https://github.com/pmndrs/zustand
+
 - id: state_management_redux
   name: Redux
+  homepage: https://redux.js.org/
+  github: https://github.com/reduxjs/redux
+  npm: redux
+
 - id: state_management_recoil
   name: Recoil
+  homepage: https://recoiljs.org/
+  github: https://github.com/facebookexperimental/Recoil
+  npm: recoil
+
 - id: state_management_apollo
   name: Apollo Client
+  npm: "@apollo/client"
+  homepage: https://www.apollographql.com/docs/react/
+  github: https://github.com/apollographql/apollo-client
+
 - id: state_management_react_query
   name: TanStack Query (React Query)
+  npm: "@tanstack/react-query"
+  homepage: https://tanstack.com/query/latest/docs/react/overview
+  github: https://github.com/TanStack/query
 - id: state_management_legend_state
   name: Legend State
+  homepage: https://legendapp.com/open-source/state/
+  npm: "@legendapp/state"
+  github: https://github.com/LegendApp/legend-state
+
 - id: state_management_react_easy_state
   name: React Easy State
+  npm: "@risingstack/react-easy-state"
+  github: https://github.com/RisingStack/react-easy-state
+  
 - id: state_management_other
   name: Other state management
 - id: state_management_happiness
