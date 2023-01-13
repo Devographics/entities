@@ -1,27 +1,36 @@
 
 - id: react_native_alternatives_swiftui
   name: SwiftUI
+  homepage: https://developer.apple.com/xcode/swiftui/
 
 - id: react_native_alternatives_flutter
   name: Flutter
+  homepage: https://flutter.dev/
 
 - id: react_native_alternatives_jetpack_compose
   name: Jetpack Compose
+  homepage: https://developer.android.com/jetpack/compose
 
 - id: react_native_alternatives_xamarin
   name: Xamarin
+  homepage: https://dotnet.microsoft.com/apps/xamarin
 
 - id: react_native_alternatives_cordova
   name: Cordova
+  homepage: https://cordova.apache.org/
 
 - id: react_native_alternatives_ionic
   name: Ionic
+  homepage: https://ionicframework.com/
 
 - id: react_native_alternatives_native_script
   name: NativeScript
+  homepage: https://nativescript.org/
 
 - id: react_native_alternatives_kotlin
   name: Kotlin Multiplatform Mobile
+  homepage: https://kotlinlang.org/lp/mobile/
 
 - id: react_native_alternatives_felgo
   name: Felgo
+  homepage: https://felgo.com/

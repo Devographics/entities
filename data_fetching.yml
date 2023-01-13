@@ -2,18 +2,44 @@
   name: Data fetching
 - id: data_fetching_trpc
   name: tRPC
+  homepage: https://trpc.io/
+  npm: "@trpc/client"
+  github: https://github.com/trpc/trpc
+
 - id: data_fetching_fetch
   name: Fetch API
+  homepage: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
 - id: data_fetching_apollo
   name: Apollo Client
+  homepage: https://www.apollographql.com/docs/react/
+  npm: "@apollo/client"
+  github: https://github.com/apollographql/apollo-client
+
 - id: data_fetching_axios
   name: Axios
+  homepage: https://axios-http.com/docs/intro
+  npm: axios
+  github: https://github.com/axios/axios
+
 - id: data_fetching_tan_stack
   name: TanStack Query (React Query)
+  homepage: https://tanstack.com/query/latest/docs/react/overview
+  npm: "@tanstack/react-query"
+  github: https://github.com/TanStack/query
+
 - id: data_fetching_swr
   name: SWR
+  homepage: https://swr.vercel.app/
+  npm: swr
+  github: https://github.com/vercel/swr
+
 - id: data_fetching_relay
   name: Relay
+  homepage: https://relay.dev/
+  github: https://github.com/facebook/relay
+  npm: react-relay
+
 - id: data_fetching_other
   name: Other data fetching
 - id: data_fetching_happiness
