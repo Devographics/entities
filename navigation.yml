@@ -2,14 +2,29 @@
   name: Navigation solutions
 - id: navigation_react_navigation
   name: react-navigation
+  homepage: https://reactnavigation.org/
+  npm: "@react-navigation/native"
+
 - id: navigation_react_native_navigation
   name: react-native-navigation
+  homepage: https://wix.github.io/react-native-navigation/
+  npm: react-native-navigation
+
 - id: navigation_react_router
   name: react-router
+  homepage: https://reactrouter.com/en/main/router-components/native-router
+  npm: react-router-native
+
 - id: navigation_expo_router
   name: expo-router
+  homepage: https://expo.github.io/router/docs/
+  npm: expo-router
+
 - id: navigation_navigation
   name: navigation-react-native
+  homepage: http://grahammendick.github.io/navigation/native/
+  npm: navigation-react-native
+  
 - id: navigation_other
   name: Other navigation solutions
 - id: navigation_happiness

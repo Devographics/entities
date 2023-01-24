@@ -2,10 +2,13 @@
   name: Interactions
 - id: react_native_app_aspects_interactions_panresponder_api  
   name: PanResponder API
+  homepage: https://reactnative.dev/docs/panresponder
 - id: react_native_app_aspects_interactions_touchables
   name: Touchables/Pressables
 - id: react_native_app_aspects_interactions_react_native_gesture_handler
   name: React Native Gesture Handler
+  homepage: https://docs.swmansion.com/react-native-gesture-handler/
+  npm: react-native-gesture-handler
 - id: react_native_app_aspects_interactions_other
   name: Other interactions solutions
 
@@ -13,10 +16,13 @@
   name: Internationalization
 - id: react_native_app_aspects_internationalization_react_native_localize
   name: react-native-localize
+  npm: react-native-localize
 - id: react_native_app_aspects_internationalization_react_i18next
   name: react-i18next
+  npm: react-i18next
 - id: react_native_app_aspects_internationalization_fbt
   name: FBT
+  npm: fbt
 - id: react_native_app_aspects_internationalization_other
   name: Other internationalization solutions
 
@@ -24,20 +30,28 @@
   name: Analytics
 - id: react_native_app_aspects_analytics_firebase_analytics
   name: Firebase Analytics
+  homepage: https://firebase.google.com/docs/analytics
 - id: react_native_app_aspects_analytics_appcenter_analytics
   name: AppCenter Analytics
+  homepage: https://docs.microsoft.com/en-us/appcenter/analytics/
 - id: react_native_app_aspects_analytics_amplitude
   name: Amplitude
+  homepage: https://amplitude.com/
 - id: react_native_app_aspects_analytics_amplify_analytics
   name: Amplify Analytics
+  homepage: https://docs.amplify.aws/lib/analytics/getting-started/q/platform/js
 - id: react_native_app_aspects_analytics_mixpanel
   name: Mixpanel
+  homepage: https://mixpanel.com/
 - id: react_native_app_aspects_analytics_segment
   name: Segment
+  homepage: https://segment.com/
 - id: react_native_app_aspects_analytics_appsflyer
   name: AppsFlyer
+  homepage: https://www.appsflyer.com/
 - id: react_native_app_aspects_analytics_flurry
   name: Flurry
+  homepage: https://developer.yahoo.com/flurry/docs/
 - id: react_native_app_aspects_analytics_other
   name: Other analytics solutions
 
@@ -45,24 +59,34 @@
   name: Crash reporting
 - id: react_native_app_aspects_crash_reporting_sentry
   name: Sentry
+  homepage: https://sentry.io/
 - id: react_native_app_aspects_crash_reporting_datadog
   name: Datadog
+  homepage: https://www.datadoghq.com/
 - id: react_native_app_aspects_crash_reporting_instabug
   name: Instabug
+  homepage: https://instabug.com/
 - id: react_native_app_aspects_crash_reporting_new_relic
   name: New Relic
+  homepage: https://newrelic.com/
 - id: react_native_app_aspects_crash_reporting_appdynamics
   name: AppDynamics
+  homepage: https://www.appdynamics.com/
 - id: react_native_app_aspects_crash_reporting_amazon_cloudwatch
   name: Amazon CloudWatch
+  homepage: https://aws.amazon.com/cloudwatch/
 - id: react_native_app_aspects_crash_reporting_elastic_observability
   name: Elastic Observability
+  homepage: https://www.elastic.co/observability
 - id: react_native_app_aspects_crash_reporting_bugsnag
   name: Bugsnag
+  homepage: https://www.bugsnag.com/
 - id: react_native_app_aspects_crash_reporting_firebase_crashlytics
   name: Firebase Crashlytics
+  homepage: https://firebase.google.com/docs/crashlytics
 - id: react_native_app_aspects_crash_reporting_appcenter_crashes
   name: AppCenter Crashes
+  homepage: https://docs.microsoft.com/en-us/appcenter/sdk/crashes/react-native
 - id: react_native_app_aspects_crash_reporting_other
   name: Other crash reporting solutions
 
@@ -70,18 +94,25 @@
   name: Testing
 - id: react_native_app_aspects_testing_jest
   name: Jest
+  homepage: https://jestjs.io/
 - id: react_native_app_aspects_testing_react_native_testing_library
   name: React Native Testing Library
+  homepage: https://callstack.github.io/react-native-testing-library/
 - id: react_native_app_aspects_testing_detox
   name: Detox
+  homepage: https://wix.github.io/Detox/
 - id: react_native_app_aspects_testing_appium
   name: Appium
+  homepage: https://appium.io/
 - id: react_native_app_aspects_testing_maestro
   name: Maestro
+  homepage: https://maestro.mobile.dev/
 - id: react_native_app_aspects_testing_xcuitest
   name: XCUITest
+  homepage: https://developer.apple.com/documentation/xctest
 - id: react_native_app_aspects_testing_espresso
   name: Espresso
+  homepage: https://developer.android.com/training/testing/espresso
 - id: react_native_app_aspects_testing_other
   name: Other testing solutions
 
@@ -89,20 +120,33 @@
   name: Storage
 - id: react_native_app_aspects_storage_react_native_async_storage
   name: React Native Async Storage
+  homepage: https://react-native-async-storage.github.io/async-storage/
+  npm: "@react-native-async-storage/async-storage"
 - id: react_native_app_aspects_storage_realm
   name: Realm
+  npm: realm
+  homepage: https://realm.io/
 - id: react_native_app_aspects_storage_watermelondb
   name: WatermelonDB
+  npm: "@nozbe/watermelondb"
+  homepage: https://nozbe.github.io/WatermelonDB/
 - id: react_native_app_aspects_storage_react_native_mmkv
   name: react-native-mmkv
+  homepage: https://github.com/mrousavy/react-native-mmkv#readme
 - id: react_native_app_aspects_storage_react_native_mmkv_storage
   name: react-native-mmkv-storage
+  npm: "@react-native-mmkv-storage/mmkv"
 - id: react_native_app_aspects_storage_react_native_sqlite_storage
   name: React Native SQLite Storage
+  npm: react-native-sqlite-storage
 - id: react_native_app_aspects_storage_expo_sqlite
   name: Expo SQLite
+  npm: expo-sqlite
+  homepage: https://docs.expo.io/versions/latest/sdk/sqlite/
 - id: react_native_app_aspects_storage_rxdb
   name: RxDB
+  npm: rxdb
+  homepage: https://rxdb.info/
 - id: react_native_app_aspects_storage_other
   name: Other storage solutions
 
@@ -111,13 +155,19 @@
   name: Data visualisation
 - id: react_native_app_aspects_data_visualisation_victory_native
   name: Victory Native
+  homepage: https://formidable.com/open-source/victory/docs/native
+  npm: victory-native
 - id: react_native_app_aspects_data_visualisation_react_native_svg
   name: react-native-svg
+  npm: react-native-svg
 - id: react_native_app_aspects_data_visualisation_recharts
   name: Recharts
+  npm: recharts
 - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
   name: React Native Charts Kit
+  npm: react-native-charts-kit
 - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
   name: React Native Charts Wrapper
+  npm: react-native-charts-wrapper
 - id: react_native_app_aspects_data_visualisation_other
   name: Other data visualisation solutions
