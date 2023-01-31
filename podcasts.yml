@@ -299,3 +299,40 @@
   homepage: https://wowirsindistvorne.show/
   tags:
     - css
+
+- id: react_native_radio
+  name: React Native Radio
+- id: react_native_show
+  name: The React Native Show
+- id: react_native_podcast
+  name: React Native Podcast
+- id: syntax
+  name: Syntax.fm
+- id: changelog
+  name: The Changelog Podcast
+- id: react_podcast
+  name: React Podcast
+- id: podrocket
+  name: PodRocket
+- id: flight_review
+  name: Flight Review
+- id: devtools_fm
+  name: DevTools.fm
+- id: eric_normand_podcast
+  name: The Eric Normand Podcast
+- id: coding_blocks
+  name: Coding Blocks
+- id: shoptalk
+  name: ShopTalk Show
+- id: william_candillon
+  name: William Candillon
+- id: rocketseat
+  name: Rocketseat
+- id: ladybug
+  name: Ladybug Podcast
+- id: artisan_d_veloppeur
+  name: Artisan Développeur
+- id: swift_by_sundell
+  name: Swift by Sundell
+- id: firebase_podcast
+  name: Firebase Podcast
