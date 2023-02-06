@@ -2,20 +2,51 @@
   name: UI components libraries
 - id: component_libraries_rn_paper
   name: react-native-paper
+  homepage: https://reactnativepaper.com/
+  github: https://github.com/callstack/react-native-paper
+  description: Material Design for React Native (Android & iOS)
+  npm: react-native-paper
 - id: component_libraries_ui_kitten
   name: ui-kitten
+  description: 💥 React Native UI Library based on Eva Design System
+  github: https://github.com/akveo/react-native-ui-kitten
+  npm: "@ui-kitten/components"
+  homepage: https://akveo.github.io/react-native-ui-kitten/
 - id: component_libraries_rn_elements
   name: React Native Elements
+  npm: react-native-elements
+  homepage: https://reactnativeelements.com/
+  github: https://github.com/react-native-elements/react-native-elements
+  description: Cross-Platform React Native UI Toolkit
 - id: component_libraries_react_native_material_ui
   name: react-native-material-ui
+  npm: react-native-material-ui
+  github: https://github.com/xotahal/react-native-material-ui
+  description: Highly customizable material design components for React Native
 - id: component_libraries_native_base
   name: NativeBase
+  homepage: https://nativebase.io/
+  github: https://github.com/GeekyAnts/nativebase
+  description: Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.
+  npm: native-base
 - id: component_libraries_rn_ui_lib
   name: react-native-ui-lib
+  npm: react-native-ui-lib
+  description: UI Components Library for React Native
+  github: https://github.com/wix/react-native-ui-lib
+  homepage: https://wix.github.io/react-native-ui-lib/
 - id: component_libraries_dripsy
   name: Dripsy
+  homepage: https://www.dripsy.xyz/
+  npm: dripsy
+  description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
+  github: https://github.com/nandorojo/dripsy
 - id: component_libraries_shoutem_ui
   name: Shoutem UI
+  github: https://github.com/shoutem/ui
+  description: Customizable set of components for React Native applications
+  npm: "@shoutem/ui"
+  homepage: https://shoutem.github.io/docs/ui-toolkit/introduction
 - id: component_libraries_other
   name: Other UI components libraries
 - id: component_libraries_happiness
