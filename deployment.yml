@@ -1,14 +1,20 @@
 - id: deployment_manually_xcode
   name: Manually with Xcode
+  homepage: https://developer.apple.com/xcode/
 - id: deployment_manually_android_studio
   name: Manually with Android Studio
+  homepage: https://developer.android.com/studio
 - id: deployment_fastlane
   name: Fastlane
+  homepage: https://fastlane.tools/
 - id: deployment_eas_build
   name: EAS Build
+  homepage: https://expo.dev/eas
 - id: deployment_eas_submit
   name: EAS Submit
+  homepage: https://expo.dev/eas
 - id: deployment_app_center
   name: App Center
+  homepage: https://appcenter.ms/
 - id: deployment_other
   name: Other ways to build app and submit for the App Store or Google Play

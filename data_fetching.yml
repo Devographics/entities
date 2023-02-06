@@ -5,6 +5,7 @@
   homepage: https://trpc.io/
   npm: "@trpc/client"
   github: https://github.com/trpc/trpc
+  description: 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
 
 - id: data_fetching_fetch
   name: Fetch API
@@ -15,30 +16,35 @@
   homepage: https://www.apollographql.com/docs/react/
   npm: "@apollo/client"
   github: https://github.com/apollographql/apollo-client
+  description: 🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.
 
 - id: data_fetching_axios
   name: Axios
   homepage: https://axios-http.com/docs/intro
   npm: axios
   github: https://github.com/axios/axios
+  description: Promise based HTTP client for the browser and node.js
 
 - id: data_fetching_tan_stack
   name: TanStack Query (React Query)
   homepage: https://tanstack.com/query/latest/docs/react/overview
   npm: "@tanstack/react-query"
   github: https://github.com/TanStack/query
+  description: 🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.
 
 - id: data_fetching_swr
   name: SWR
   homepage: https://swr.vercel.app/
   npm: swr
   github: https://github.com/vercel/swr
+  description: React Hooks for Data Fetching
 
 - id: data_fetching_relay
   name: Relay
   homepage: https://relay.dev/
   github: https://github.com/facebook/relay
   npm: react-relay
+  description: Relay is a JavaScript framework for building data-driven React applications.
 
 - id: data_fetching_other
   name: Other data fetching
