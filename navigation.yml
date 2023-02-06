@@ -4,26 +4,36 @@
   name: react-navigation
   homepage: https://reactnavigation.org/
   npm: "@react-navigation/native"
+  description: Routing and navigation for your React Native apps
+  github: https://github.com/react-navigation/react-navigation
 
 - id: navigation_react_native_navigation
   name: react-native-navigation
   homepage: https://wix.github.io/react-native-navigation/
   npm: react-native-navigation
+  github: https://github.com/wix/react-native-navigation
+  description: A complete native navigation solution for React Native
 
 - id: navigation_react_router
   name: react-router
   homepage: https://reactrouter.com/en/main/router-components/native-router
   npm: react-router-native
+  github: https://github.com/remix-run/react-router
+  description: Declarative routing for React
 
 - id: navigation_expo_router
   name: expo-router
   homepage: https://expo.github.io/router/docs/
   npm: expo-router
+  github: https://github.com/expo/router
+  description: The new File-based router for universal React Native apps!
 
 - id: navigation_navigation
   name: navigation-react-native
   homepage: http://grahammendick.github.io/navigation/native/
   npm: navigation-react-native
+  github: https://github.com/grahammendick/navigation
+  description: Scene-Based Navigation for React and React Native
   
 - id: navigation_other
   name: Other navigation solutions

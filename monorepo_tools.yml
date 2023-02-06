@@ -1,17 +1,42 @@
 - id: monorepo_tools_yarn_workspaces
   name: yarn workspaces
+  homepage: https://yarnpkg.com/features/workspaces/#gatsby-focus-wrapper
+  npm: yarn
+  github: https://github.com/yarnpkg/berry
 - id: monorepo_tools_npm_workspaces
   name: npm workspaces
+  homepage: https://docs.npmjs.com/cli/v7/using-npm/workspaces
+  npm: npm
 - id: monorepo_tools_turborepo
   name: Turborepo
+  homepage: https://turbo.build/
+  github: https://github.com/vercel/turbo
+  npm: turbo
+  description: Turbo is an incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust.
 - id: monorepo_tools_lerna
   name: Lerna
+  description: A tool for managing JavaScript projects with multiple packages.
+  npm: lerna
+  github: https://github.com/lerna/lerna
+  homepage: https://lerna.js.org/
 - id: monorepo_tools_pnpm
   name: pnpm
+  npm: pnpm
+  description: Fast, disk space efficient package manager
+  github: https://github.com/pnpm/pnpm
+  homepage: https://pnpm.io/
 - id: monorepo_tools_nx
   name: Nx
+  description: Smart, Fast and Extensible Build System
+  homepage: https://nx.dev/
+  npm: nx
+  github: https://github.com/nrwl/nx
 - id: monorepo_tools_rush
   name: Rush
+  npm: "@microsoft/rush"
+  github: https://github.com/microsoft/rushstack
+  homepage: https://rushjs.io/
+  description: A scalable monorepo manager for the web
 
 - id: monorepo_tools_other
   name: Other monorepo tools

@@ -6,31 +6,47 @@
 - id: react_native_alternatives_flutter
   name: Flutter
   homepage: https://flutter.dev/
+  description: Flutter makes it easy and fast to build beautiful apps for mobile and beyond
+  github: https://github.com/flutter/flutter
 
 - id: react_native_alternatives_jetpack_compose
   name: Jetpack Compose
   homepage: https://developer.android.com/jetpack/compose
+  description: Build better apps faster with Jetpack Compose
+  github: https://github.com/androidx/androidx/tree/androidx-main/compose
 
 - id: react_native_alternatives_xamarin
   name: Xamarin
   homepage: https://dotnet.microsoft.com/apps/xamarin
+  description: An app platform for building Android and iOS apps with .NET and C#.
+  github: https://github.com/xamarin/Xamarin.Forms
 
 - id: react_native_alternatives_cordova
   name: Cordova
   homepage: https://cordova.apache.org/
+  github: https://github.com/apache/cordova
+  npm: cordova
 
 - id: react_native_alternatives_ionic
   name: Ionic
   homepage: https://ionicframework.com/
+  npm: "@ionic/core"
+  github: https://github.com/ionic-team/ionic-framework
+  description: A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.
 
 - id: react_native_alternatives_native_script
   name: NativeScript
   homepage: https://nativescript.org/
+  description: ⚡ Empowering JavaScript with native platform APIs. ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java). Use what you love ❤️ Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible.
+  github: https://github.com/NativeScript/NativeScript
+  npm: nativescript
 
 - id: react_native_alternatives_kotlin
   name: Kotlin Multiplatform Mobile
   homepage: https://kotlinlang.org/lp/mobile/
+  description: Share the logic of your iOS and Android apps while keeping the UX native
 
 - id: react_native_alternatives_felgo
   name: Felgo
   homepage: https://felgo.com/
+  github: https://github.com/FelgoSDK
