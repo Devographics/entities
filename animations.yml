@@ -2,24 +2,59 @@
   name: Graphics and animations
 - id: animations_animated_api
   name: Animated API
+  homepage: https://reactnative.dev/docs/animated
+  description: The Animated library is designed to make animations fluid, powerful, and painless to build and maintain.
 - id: animations_react_native_reanimated
   name: React Native Reanimated
+  npm: react-native-reanimated
+  homepage: https://docs.swmansion.com/react-native-reanimated/
+  github: https://github.com/software-mansion/react-native-reanimated
+  description: React Native's Animated library reimplemented
 - id: animations_moti
   name: Moti
+  description: 🐼 The React Native (+ Web) animation library, powered by Reanimated 2.
+  github: https://github.com/nandorojo/moti
+  npm: moti
 - id: animations_skia
   name: React Native Skia
+  github: https://github.com/Shopify/react-native-skia
+  description: High-performance React Native Graphics using Skia
+  npm: "@shopify/react-native-skia"
 - id: animations_react_native_animatable
   name: React Native Animatable
+  npm: react-native-animatable
+  description: Standard set of easy to use animations and declarative transitions for React Native
+  github: https://github.com/oblador/react-native-animatable
 - id: animations_threejs
   name: Three.js
+  homepage: https://threejs.org/
+  github: https://github.com/mrdoob/three.js/
+  description: JavaScript 3D Library.
+  npm: three
 - id: animations_react_three_fiber
   name: React Three Fiber
+  npm: "@react-three/fiber"
+  github: https://github.com/pmndrs/react-three-fiber
+  description: "🇨🇭 A React renderer for Three.js"
+  homepage: https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
 - id: animations_lottie
   name: Lottie
+  homepage: https://airbnb.design/lottie
+  github: https://github.com/lottie-react-native/lottie-react-native
+  description: Lottie wrapper for React Native.
+  npm: lottie-react-native
 - id: animations_expo_gl
   name: Expo GL
+  homepage: https://docs.expo.dev/versions/latest/sdk/gl-view/
+  description: Expo module providing WebGL2 implementation
+  github: https://github.com/expo/expo
+  npm: expo-gl
 - id: animations_legend_motion
   name: Legend Motion
+  npm: "@legendapp/motion"
+  github: https://github.com/LegendApp/legend-motion
+  description: Legend Motion is a declarative animations library for React Native, to make it easy to transition between styles without needing to manage animations.
+  homepage: https://legendapp.com/open-source/motion/
 - id: animations_other
   name: Other graphics and animations solutions
 - id: animations_happiness
