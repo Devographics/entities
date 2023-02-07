@@ -8,7 +8,9 @@
 - id: react_native_app_aspects_interactions_react_native_gesture_handler
   name: React Native Gesture Handler
   homepage: https://docs.swmansion.com/react-native-gesture-handler/
+  description: Declarative API exposing platform native touch and gesture system to React Native
   npm: react-native-gesture-handler
+  github: https://github.com/software-mansion/react-native-gesture-handler/
 - id: react_native_app_aspects_interactions_other
   name: Other interactions solutions
 
@@ -17,12 +19,20 @@
 - id: react_native_app_aspects_internationalization_react_native_localize
   name: react-native-localize
   npm: react-native-localize
+  github: https://github.com/zoontek/react-native-localize
+  description: 🌍 A toolbox for your React Native app localization
 - id: react_native_app_aspects_internationalization_react_i18next
   name: react-i18next
   npm: react-i18next
+  github: https://github.com/i18next/react-i18next
+  homepage: https://react.i18next.com/
+  description: Internationalization for react done right. Using the i18next i18n ecosystem.
 - id: react_native_app_aspects_internationalization_fbt
   name: FBT
   npm: fbt
+  github: https://github.com/facebook/fbt
+  description: A JavaScript Internationalization Framework
+  homepage: https://facebook.github.io/fbt/
 - id: react_native_app_aspects_internationalization_other
   name: Other internationalization solutions
 
@@ -94,19 +104,33 @@
   name: Testing
 - id: react_native_app_aspects_testing_jest
   name: Jest
+  github: https://github.com/facebook/jest
   homepage: https://jestjs.io/
+  description: Delightful JavaScript Testing.
+  npm: jest
 - id: react_native_app_aspects_testing_react_native_testing_library
   name: React Native Testing Library
   homepage: https://callstack.github.io/react-native-testing-library/
+  github: https://github.com/callstack/react-native-testing-library
+  description: 🦉 Simple and complete React Native testing utilities that encourage good testing practices.
+  npm: "@testing-library/react-native"
 - id: react_native_app_aspects_testing_detox
   name: Detox
   homepage: https://wix.github.io/Detox/
+  description: Gray box end-to-end testing and automation framework for mobile apps
+  github: https://github.com/wix/Detox
+  npm: detox
 - id: react_native_app_aspects_testing_appium
   name: Appium
   homepage: https://appium.io/
+  npm: appium
+  github: https://github.com/appium/appium
+  description: Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol
 - id: react_native_app_aspects_testing_maestro
   name: Maestro
   homepage: https://maestro.mobile.dev/
+  github: https://github.com/mobile-dev-inc/maestro
+  description: Painless Mobile UI Automation
 - id: react_native_app_aspects_testing_xcuitest
   name: XCUITest
   homepage: https://developer.apple.com/documentation/xctest
@@ -122,23 +146,36 @@
   name: React Native Async Storage
   homepage: https://react-native-async-storage.github.io/async-storage/
   npm: "@react-native-async-storage/async-storage"
+  github: https://github.com/react-native-async-storage/async-storage
+  description: An asynchronous, persistent, key-value storage system for React Native.
 - id: react_native_app_aspects_storage_realm
   name: Realm
   npm: realm
   homepage: https://realm.io/
+  github: https://github.com/realm/realm-js
+  description: "Realm is a mobile database: an alternative to SQLite & key-value stores"
 - id: react_native_app_aspects_storage_watermelondb
   name: WatermelonDB
   npm: "@nozbe/watermelondb"
   homepage: https://nozbe.github.io/WatermelonDB/
+  github: https://github.com/Nozbe/WatermelonDB
+  description: 🍉 Reactive & asynchronous database for powerful React and React Native apps ⚡️
 - id: react_native_app_aspects_storage_react_native_mmkv
   name: react-native-mmkv
-  homepage: https://github.com/mrousavy/react-native-mmkv#readme
+  github: https://github.com/mrousavy/react-native-mmkv
+  description: ⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!
+  npm: react-native-mmkv
 - id: react_native_app_aspects_storage_react_native_mmkv_storage
   name: react-native-mmkv-storage
-  npm: "@react-native-mmkv-storage/mmkv"
+  npm: react-native-mmkv-storage
+  github: https://github.com/ammarahm-ed/react-native-mmkv-storage
+  description: An ultra fast (0.0002s read/write), small & encrypted mobile key-value storage framework for React Native written in C++ using JSI
+  homepage: https://rnmmkv.vercel.app/
 - id: react_native_app_aspects_storage_react_native_sqlite_storage
   name: React Native SQLite Storage
   npm: react-native-sqlite-storage
+  github: https://github.com/andpor/react-native-sqlite-storage
+  description: Full featured SQLite3 Native Plugin for React Native (Android and iOS)
 - id: react_native_app_aspects_storage_expo_sqlite
   name: Expo SQLite
   npm: expo-sqlite
@@ -147,6 +184,8 @@
   name: RxDB
   npm: rxdb
   homepage: https://rxdb.info/
+  github: https://github.com/pubkey/rxdb
+  description: A fast, offline-first, reactive database for JavaScript Applications
 - id: react_native_app_aspects_storage_other
   name: Other storage solutions
 
@@ -157,17 +196,26 @@
   name: Victory Native
   homepage: https://formidable.com/open-source/victory/docs/native
   npm: victory-native
+  github: https://github.com/FormidableLabs/victory
+  description: A collection of composable React components for building interactive data visualizations
 - id: react_native_app_aspects_data_visualisation_react_native_svg
   name: react-native-svg
   npm: react-native-svg
+  github: https://github.com/software-mansion/react-native-svg
+  description: SVG library for React Native, React Native Web, and plain React web projects.
 - id: react_native_app_aspects_data_visualisation_recharts
   name: Recharts
   npm: recharts
+  github: https://github.com/recharts/recharts
+  description: Redefined chart library built with React and D3
+  homepage: https://recharts.org/
 - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
   name: React Native Charts Kit
   npm: react-native-charts-kit
 - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
   name: React Native Charts Wrapper
   npm: react-native-charts-wrapper
+  github: https://github.com/wuxudong/react-native-charts-wrapper
+  description: a react native charts wrapper (support android & iOS)
 - id: react_native_app_aspects_data_visualisation_other
   name: Other data visualisation solutions

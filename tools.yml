@@ -9,26 +9,52 @@
   name: Package managers
 - id: tools_package_managers_npm
   name: npm
+  npm: npm
+  github: https://github.com/npm/cli
+  homepage: https://docs.npmjs.com/cli
+  description: the package manager for JavaScript
 - id: tools_package_managers_yarn
   name: yarn
+  npm: yarn
+  homepage: https://classic.yarnpkg.com/
+  github: https://github.com/yarnpkg/yarn
 - id: tools_package_managers_yarn_berry
   name: yarn berry (yarn v2+)
+  github: https://github.com/yarnpkg/berry
+  homepage: https://yarnpkg.com/
+  npm: yarn
 - id: tools_package_managers_pnpm
   name: pnpm
+  npm: pnpm
+  github: https://github.com/pnpm/pnpm
+  description: Fast, disk space efficient package manager
+  homepage: https://pnpm.io/
 
 
 - id: tools_starter_templates
   name: Starter templates
 - id: tools_starter_templates_expo
   name: create-expo-app
+  homepage: https://docs.expo.dev/get-started/create-a-new-app/
+  npm: create-expo-app
+  github: https://github.com/expo/expo-cli
 - id: tools_starter_templates_react_native_cli
   name: react-native init
 - id: tools_starter_templates_ignite_cli
   name: ignite-cli
+  npm: ignite-cli
+  github: https://github.com/infinitered/ignite
+  description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
 - id: tools_starter_templates_solito
   name: solito
+  homepage: https://solito.dev/
+  description: 🧍‍♂️ React Native + Next.js, unified.
+  github: https://github.com/nandorojo/solito
+  npm: solito
 - id: tools_starter_templates_create_t3_turbo
   name: create-t3-turbo
+  github: https://github.com/t3-oss/create-t3-turbo
+  description: Clean and simple starter repo using the T3 Stack along with Expo React Native
 - id: tools_starter_templates_other
   name: Other starter templates
 
