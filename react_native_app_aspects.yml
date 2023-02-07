@@ -249,3 +249,53 @@
 - id: matomo
   name: Matomo
   homepage: https://matomo.org/
+
+
+- id: react_native_skia
+  name: React Native Skia
+  github: https://github.com/Shopify/react-native-skia
+  description: High-performance React Native Graphics using Skia
+  npm: "@shopify/react-native-skia"
+- id: react_native_graph
+  description: "📈 Beautiful, high-performance Graphs and Charts for React Native"
+  github: https://github.com/margelo/react-native-graph
+  npm: react-native-graph
+  name: react-native-graph
+
+- id: lingui
+  name: Lingui
+  description: "🌍📖 A readable, automated, and optimized (5 kb) internationalization for JavaScript"
+  homepage: https://lingui.dev/
+  npm: "@lingui/react"
+  github: https://github.com/lingui/js-lingui
+
+- id: react_intl
+  name: React Intl
+  npm: react-intl
+  homepage: https://formatjs.io/docs/react-intl/
+  github: https://github.com/formatjs/formatjs
+- id: expo_localization
+  name: Expo Localization
+  npm: expo-localization
+  homepage: https://docs.expo.dev/versions/latest/sdk/localization/
+- id: i18n_js
+  name: i18n-js
+  npm: i18n-js
+  github: https://github.com/fnando/i18n
+  description: A small library to provide the I18n translations on the JavaScript.
+  homepage: https://fnando.github.io/i18n/
+- id: "@shopify/react-i18n"
+  name: "@shopify/react-i18n"
+  npm: "@shopify/react-i18n"
+- id: polyglot
+  name: Polyglot.js
+  npm: node-polyglot
+  description: Give your JavaScript the ability to speak many languages.
+  github: https://github.com/airbnb/polyglot.js
+  homepage: https://airbnb.io/polyglot.js/
+- id: typesafe_i18n
+  npm: typesafe-i18n
+  name: typesafe-i18n
+  github: https://github.com/ivanhofer/typesafe-i18n
+  description: A fully type-safe and lightweight internationalization library for all your TypeScript and JavaScript projects.
+
