@@ -32,6 +32,7 @@
   name: Tamagui
   homepage: https://tamagui.dev/
   github: https://github.com/tamagui/tamagui
+  description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
   npm: tamagui
 - id: styling_techniques_other
   name: Other styling techniques

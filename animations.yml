@@ -60,3 +60,17 @@
 - id: animations_happiness
   name: Overall happiness
 
+
+# freeform
+- id: rive
+  name: Rive
+  homepage: https://rive.app/
+  npm: rive-react-native
+  github: https://github.com/rive-app/rive-react-native
+
+- id: tamagui
+  name: Tamagui
+  homepage: https://tamagui.dev/
+  github: https://github.com/tamagui/tamagui
+  description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
+  npm: tamagui

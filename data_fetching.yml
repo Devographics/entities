@@ -50,3 +50,31 @@
   name: Other data fetching
 - id: data_fetching_happiness
   name: Overall happiness
+
+
+# freeform
+- id: rtkquery
+  name: RTK Query
+  homepage: https://redux-toolkit.js.org/rtk-query/overview
+  npm: "@reduxjs/toolkit"
+  github: https://github.com/reduxjs/redux-toolkit
+
+- id: urql
+  npm: urql
+  name: URQL
+  homepage: https://formidable.com/open-source/urql/
+  github: https://github.com/urql-graphql/urql
+  description: The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.
+
+- id: apisauce
+  name: Apisauce
+  npm: apisauce
+  github: https://github.com/infinitered/apisauce
+  description: Axios + standardized errors + request/response transforms.
+
+- id: wretch
+  name: Wretch
+  npm: wretch
+  github: https://github.com/elbywan/wretch
+  description: A tiny wrapper built around fetch with an intuitive syntax. 🍬
+  homepage: https://elbywan.github.io/wretch/

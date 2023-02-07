@@ -51,3 +51,18 @@
   name: Other UI components libraries
 - id: component_libraries_happiness
   name: Overall happiness
+
+
+# freeform
+- id: magnus_ui
+  name: magnus
+  homepage: https://magnus-ui.com/
+  description: A Utility-First React Native UI Framework 🚀🧩
+  github: https://github.com/jsartisan/react-native-magnus
+  npm: react-native-magnus
+
+- id: ignite
+  name: ignite-cli
+  npm: ignite-cli
+  github: https://github.com/infinitered/ignite
+  description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
