@@ -103,3 +103,34 @@
 - id: start_react_native
   name: Start React Native
   homepage: https://start-react-native.dev/
+
+- id: dev_to
+  name: DEV Community
+  homepage: https://dev.to/
+- id: expo_blog
+  name: Exposition
+  homepage: https://blog.expo.dev/
+- id: reactnative_dev
+  name: React Native docs
+  homepage: https://reactnative.dev/ 
+- id: software_mansion_blog
+  name: Software Mansion
+  homepage: https://blog.swmansion.com/
+- id: overreacted
+  name: Overreacted
+  homepage: https://overreacted.io/
+- id: react_native_newsletter
+  name: The React Native Newsletter
+  homepage: https://reactnativenewsletter.com/
+- id: callstack_blog
+  name: Callstack
+  homepage: https://www.callstack.com/blog
+- id: shopify_engineering
+  name: Shopify Engineering
+  homepage: https://shopify.engineering/
+- id: bam_tech
+  name: BAM
+  homepage: https://www.bam.tech/
+- id: wix_engineering
+  name: Wix Engineering
+  homepage: https://www.wix.engineering/

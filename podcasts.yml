@@ -302,18 +302,24 @@
 
 - id: react_native_radio
   name: React Native Radio
+  homepage: https://reactnativeradio.com/
 - id: react_native_show
   name: The React Native Show
+  homepage: https://www.callstack.com/podcast-react-native-show
 - id: react_native_podcast
   name: React Native Podcast
 - id: syntax
   name: Syntax.fm
+  homepage: https://syntax.fm/
 - id: changelog
   name: The Changelog Podcast
+  homepage: https://changelog.com/podcast
 - id: react_podcast
   name: React Podcast
+  homepage: https://reactpodcast.simplecast.com/
 - id: podrocket
   name: PodRocket
+  homepage: https://podrocket.logrocket.com/
 - id: flight_review
   name: Flight Review
 - id: devtools_fm
