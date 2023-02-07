@@ -18,3 +18,148 @@
 
 - id: opinions_happy
   name: How happy are you with the general state of React Native?
+
+# freeform
+- id: web_technologies
+  name: Web technologies
+- id: crossplatform
+  name: Cross-platform
+- id: developer_experience
+  name: Developer experience
+- id: easy_to_learn
+  name: Easy to learn
+- id: single_codebase
+  name: Single codebase
+- id: ecosystem
+  name: Ecosystem
+- id: community
+  name: Community
+- id: native
+  name: Native
+- id: performance
+  name: Performance
+- id: code_sharing
+  name: Code sharing
+# - id: expo
+- id: over-the-air_updates
+  name: Over-the-air updates
+- id: fast_iterations
+  name: Fast iterations
+- id: time_to_market
+  name: Time to market
+- id: cost-effective
+  name: Cost-effective
+- id: hot_reloading
+  name: Hot reloading
+- id: stable
+  name: Stable
+- id: documentation
+  name: Documentation
+
+
+- id: css_features
+  name: CSS features
+- id: better_debugging/profiling
+  name: Better debugging/profiling
+- id: first_party_libraries
+  name: First-party libraries
+- id: out-of-the-box_navigation
+  name: Out-of-the-box navigation
+- id: better_web_integration
+  name: Better web integration
+- id: better_performance
+  name: Better performance
+- id: better_animations/gestures
+  name: Better animations/gestures
+- id: multithreading
+  name: Multithreading
+- id: better_documentation
+  name: Better documentation
+- id: out-of-the-box_storage
+  name: Out-of-the-box storage
+- id: out-of-the-box_audio_and_video
+  name: Out-of-the-box audio/video
+- id: better_keyboard_handling
+  name: Better keyboard handling
+- id: android_shadows
+  name: Android shadows
+- id: better_flatlist
+  name: Better FlatList
+- id: better_testing
+  name: Better testing
+- id: out-of-the-box_camera
+  name: Out-of-the-box camera
+- id: out-of-the-box_svg
+  name: Out-of-the-box SVG
+- id: swiftui/jetpack_compose_integration
+  name: SwiftUI/Jetpack Compose integration
+- id: out-of-the-box_filesystem
+  name: Out-of-the-box filesystem
+- id: stability
+  name: Stability
+- id: out-of-the-box_payments
+  name: Out-of-the-box payments
+- id: wearable_support
+  name: Wearable support
+- id: better_publishing
+  name: Better publishing
+- id: AR/VR
+  name: AR/VR
+- id: out-of-the-box_permissions
+  name: Out-of-the-box permissions
+- id: out-of-the-box_authentication
+  name: Out-of-the-box authentication
+- id: easier_upgrades
+  name: Easier upgrades
+- id: native_portals
+  name: Native portals
+
+
+- id: upgrades
+  name: Upgrades
+- id: debugging
+  name: Debugging
+- id: performance
+  name: Performance
+- id: unmaintained_packages
+  name: Unmaintained packages
+- id: reliance_on_3rd_party_libraries
+  name: Reliance on 3rd party libraries
+- id: new_architecture
+  name: New architecture
+- id: building
+  name: Building
+- id: documentation
+  name: Documentation
+- id: styling
+  name: Styling
+- id: native_modules
+  name: Native modules
+- id: platform_inconsistencies
+  name: Platform inconsistencies
+- id: navigation
+  name: Navigation
+- id: errors
+  name: Errors
+- id: keyboard
+  name: Keyboard
+- id: setup
+  name: Setup
+- id: stability
+  name: Stability
+- id: animations
+  name: Animations
+- id: deployment
+  name: Deployment
+- id: testing
+  name: Testing
+- id: complexity
+  name: Complexity
+- id: monorepo
+  name: Monorepo
+- id: web
+  name: Web
+- id: lack_of_core_team_support
+  name: Lack of core team support
+- id: state_management
+  name: State management

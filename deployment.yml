@@ -18,3 +18,20 @@
   homepage: https://appcenter.ms/
 - id: deployment_other
   name: Other ways to build app and submit for the App Store or Google Play
+
+# freeform
+- id: bitrise
+  name: Bitrise
+  homepage: https://www.bitrise.io/
+
+- id: github_actions
+  name: GitHub Actions
+  homepage: https://github.com/features/actions
+
+- id: xcode_cloud
+  name: Xcode Cloud
+  homepage: https://developer.apple.com/xcode-cloud/
+
+- id: codemagic
+  name: Codemagic
+  homepage: https://codemagic.io/

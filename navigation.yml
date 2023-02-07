@@ -39,3 +39,17 @@
   name: Other navigation solutions
 - id: navigation_happiness
   name: Overall happiness
+
+# freeform
+- id: solito
+  name: Solito
+  homepage: https://solito.dev/
+  description: 🧍‍♂️ React Native + Next.js, unified.
+  github: https://github.com/nandorojo/solito
+  npm: solito
+- id: react_native_url_router
+  name: React Native Url Router
+  github: https://github.com/software-mansion-labs/react-native-url-router
+  description: A new way to create navigation in react-native
+  npm: react-native-url-router
+  homepage: https://software-mansion-labs.github.io/react-native-url-router/docs/overview
