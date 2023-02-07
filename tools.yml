@@ -34,16 +34,32 @@
 
 - id: tools_expo_snack
   name: Expo Snack
+  homepage: https://snack.expo.dev/
 - id: tools_expo_cli
   name: Expo CLI
+  homepage: https://docs.expo.dev/workflow/expo-cli/
+  npm: "@expo/cli"
 - id: tools_eas_cli
   name: EAS CLI
+  github: https://github.com/expo/eas-cli
+  description: Fastest way to build, submit, and update iOS and Android apps
+  homepage: https://docs.expo.dev/eas/
+  npm: eas-cli
 - id: tools_react_native_cli
   name: React Native CLI
+  github: https://github.com/react-native-community/cli
+  description: React Native command line tools
+  npm: "@react-native-community/cli"
 - id: tools_ignite_cli
   name: Ignite CLI
+  npm: ignite-cli
+  github: https://github.com/infinitered/ignite
+  description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
 - id: tools_rnx_kit
   name: rnx-kit
+  github: https://github.com/microsoft/rnx-kit
+  homepage: https://microsoft.github.io/rnx-kit/
+  description: Modern, scalable tools. Exceptional developer experience.
 
 - id: tools_other_tools
   name: Other development tools

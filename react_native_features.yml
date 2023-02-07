@@ -21,53 +21,81 @@
 
 - id: react_native_features_new_architecture
   name: New Architecture
+  homepage: https://reactnative.dev/docs/next/the-new-architecture/pillars
 
 - id: react_native_features_fabric
   name: Fabric
+  homepage: https://reactnative.dev/architecture/fabric-renderer
 
 - id: react_native_features_turbo_modules
   name: Turbo Native Modules
+  homepage: https://reactnative.dev/docs/next/the-new-architecture/pillars-turbomodules
 
 - id: react_native_features_codegen
   name: Codegen
+  homepage: https://reactnative.dev/docs/next/the-new-architecture/pillars-codegen
+  npm: react-native-codegen
 
 - id: react_native_features_custom_native_modules
   name: Custom native modules
+  homepage: https://reactnative.dev/docs/native-modules-intro
 
 - id: react_native_features_custom_native_views
   name: Custom native views
+  homepage: https://reactnative.dev/docs/native-components-android
 
 - id: react_native_features_jsc_runtime
   name: JSC runtime
+  homepage: https://developer.apple.com/documentation/javascriptcore
 
 - id: react_native_features_hermes_runtime
   name: Hermes runtime
+  homepage: https://hermesengine.dev/
 
 - id: react_native_features_v8_runtime
   name: V8 runtime
+  github: https://github.com/Kudo/react-native-v8
+  npm: react-native-v8
 
 - id: react_native_features_jsi
   name: JSI
+  homepage: https://reactnative.dev/architecture/glossary#javascript-interfaces-jsi
 
 - id: react_native_features_expo_modules
   name: Expo Modules
+  homepage: https://docs.expo.dev/modules/overview/
+  npm: expo-modules-core
+
 
 - id: react_native_features_debugging
   name: Debugging tools
 - id: react_native_features_debugging_react_native_debugger
   name: React Native Debugger
+  description: The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
+  github: https://github.com/jhen0409/react-native-debugger
+  npm: react-native-debugger
 - id: react_native_features_debugging_chrome_dev_tools
   name: Chrome DevTools
+  homepage: https://reactnative.dev/docs/debugging#chrome-developer-tools
 - id: react_native_features_debugging_console_log
   name: Console logs
 - id: react_native_features_debugging_reactotron
   name: Reactotron
+  github: https://github.com/infinitered/reactotron
+  description: A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
+  npm: reactotron-react-native
 - id: react_native_features_debugging_native_debugging
   name: Native debugging (Xcode, Android Studio)
 - id: react_native_features_debugging_flipper
   name: Flipper
+  homepage: https://fbflipper.com/
+  npm: react-native-flipper
+  github: https://github.com/facebook/flipper
+  description: A desktop debugging platform for mobile developers.
 - id: react_native_features_debugging_react_dev_tools
   name: React Developer Tools
+  homepage: https://reactnative.dev/docs/debugging#react-developer-tools
+  npm: react-devtools
 - id: react_native_features_debugging_other
   name: Other debugging tools
 
@@ -76,17 +104,31 @@
   name: Performance profiling
 - id: react_native_features_performance_profile_react_native_performance
   name: React Native Performance
+  description: Performance monitoring for React Native apps
+  github: https://github.com/shopify/react-native-performance
+  npm: "@shopify/react-native-performance"
+  homepage: https://shopify.github.io/react-native-performance/
 - id: react_native_features_performance_profile_react_native_performance_monitor
   name: React Native Performance Monitor
+  github: https://github.com/Flagsmith/react-native-performance-monitor
+  description: React Native Performance Monitor - Realtime graphing of React Native render performance
+  npm: react-native-performance-monitor
+  homepage: https://react-native-performance-monitor-orpin.vercel.app/
 - id: react_native_features_performance_profile_flipper
   name: Flipper
+  homepage: https://fbflipper.com/
+  npm: react-native-flipper
+  github: https://github.com/facebook/flipper
+  description: A desktop debugging platform for mobile developers.
 - id: react_native_features_performance_native
   name: Native profiling (Xcode, Android Studio)
 - id: react_native_features_debugging_remote_debugger
   name: Remote debugger
 - id: react_native_features_performance_profile_flipper_performance_plugin
   name: React Native Flipper Performance Plugin
-
+  github: https://github.com/bamlab/react-native-flipper-performance-monitor
+  description: An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor
+  npm: react-native-flipper-performance-plugin
 - id: react_native_features_performance_profile_other
   name: Other performance profiling tools
 
@@ -114,10 +156,17 @@
   name: OTA updates solutions
 - id: react_native_features_ota_updates_code_push
   name: CodePush
+  homepage: https://learn.microsoft.com/en-us/appcenter/distribution/codepush/
+  npm: react-native-code-push
+  github: https://github.com/microsoft/react-native-code-push
 - id: react_native_features_ota_updates_eas_update
   name: EAS Update
+  homepage: https://docs.expo.dev/eas-update/introduction/
+  npm: expo-updates
+  description: Fetches and manages remotely-hosted assets and updates to your app's JS bundle.
 - id: react_native_features_ota_updates_expo_publish
   name: Expo Classic Updates
+  homepage: https://docs.expo.dev/archive/classic-updates/introduction/
 - id: react_native_features_ota_updates_self_hosted
   name: Self-hosted
 - id: react_native_features_ota_updates_other
@@ -127,8 +176,16 @@
   name: Code sharing
 - id: react_native_features_mobile_web_code_sharing_react_native_web
   name: React Native Web
+  npm: react-native-web
+  github: https://github.com/necolas/react-native-web
+  description: React Native for Web
+  homepage: https://necolas.github.io/react-native-web/
 - id: react_native_features_mobile_web_code_sharing_solito
   name: Solito
+  homepage: https://solito.dev/
+  description: 🧍‍♂️ React Native + Next.js, unified.
+  github: https://github.com/nandorojo/solito
+  npm: solito
 - id: react_native_features_mobile_web_code_sharing_webview
   name: React Native WebView running mobile version of a website
 - id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
