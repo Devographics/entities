@@ -299,3 +299,34 @@
   github: https://github.com/ivanhofer/typesafe-i18n
   description: A fully type-safe and lightweight internationalization library for all your TypeScript and JavaScript projects.
 
+- id: react_native_keychain
+  name: react-native-keychain
+  npm: react-native-keychain
+  github: https://github.com/oblador/react-native-keychain
+  description: 🔑 Keychain Access for React Native
+- id: react_native_encrypted_storage
+  name: React Native Encrypted Storage
+  npm: react-native-encrypted-storage
+  description: React Native wrapper around EncryptedSharedPreferences and Keychain to provide a secure alternative to Async Storage.
+  github: https://github.com/emeraldsanto/react-native-encrypted-storage
+- id: react_native_quick_sqlite
+  name: React Native Quick SQLite
+  npm: react-native-quick-sqlite
+  description: Fast SQLite for react-native.
+  github: https://github.com/ospfranco/react-native-quick-sqlite
+- id: file_system
+  name: react-native-fs
+  npm: react-native-fs
+  description: Native filesystem access for react-native
+  github: https://github.com/itinance/react-native-fs
+- id: expo_secure_store
+  name: expo-secure-store
+  npm: expo-secure-store
+  homepage: https://docs.expo.dev/versions/latest/sdk/securestore/
+- id: redux_persist
+  name: Redux Persist
+  github: https://github.com/rt2zz/redux-persist
+  description: persist and rehydrate a redux store
+  npm: redux-persist
+
+

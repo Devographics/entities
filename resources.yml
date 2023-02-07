@@ -68,3 +68,38 @@
 
 - id: resources_surveys_other
   name: Other surveys not mentioned above
+
+# freeform
+- id: stackoverflow
+  name: Stack Overflow
+  homepage: https://stackoverflow.com/
+- id: twitter
+  name: Twitter
+  homepage: https://twitter.com/
+- id: rocketseat
+  name: Rocketseat
+  homepage: https://rocketseat.com.br/
+- id: react_native_docs
+  name: React Native docs
+  homepage: https://reactnative.dev/ 
+- id: frontend_masters
+  name: Frontend Masters
+  homepage: https://frontendmasters.com/
+- id: notjustdev
+  name: notJust.dev
+  homepage: https://www.notjust.dev/
+- id: thisweekinreact
+  name: This Week In React
+  homepage: https://thisweekinreact.com/
+- id: william_candillon
+  name: William Candillon
+  homepage: https://www.youtube.com/wcandillon
+- id: reactjs_docs
+  name: React docs
+  homepage: https://reactjs.org/
+- id: react_native_training
+  name: React Native Training
+  homepage: https://www.callstack.com/react-native-training
+- id: start_react_native
+  name: Start React Native
+  homepage: https://start-react-native.dev/

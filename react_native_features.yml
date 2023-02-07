@@ -194,3 +194,11 @@
   name: Independent projects
 - id: react_native_features_mobile_web_code_sharing_other
   name: Other code sharing
+
+# freeform
+- id: android_performance_profiler
+  name: The Android Profiler
+  homepage: https://developer.android.com/studio/profile/android-profiler
+- id: chrome_profiler
+  name: Chrome DevTools Performance Profiler
+  homepage: https://developer.chrome.com/docs/devtools/performance/

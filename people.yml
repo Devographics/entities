@@ -1726,3 +1726,117 @@
 #     - js
 
 
+- id: evan_bacon
+  name: Evan Bacon
+  twitterName: Baconbrix
+  homepage: https://evanbacon.dev/
+- id: william_candillon
+  name: William Candillon
+  twitterName: wcandillon
+- id: marc_rousavy
+  name: Marc Rousavy
+  twitterName: mrousavy
+- id: dan_abramov
+  twitterName: dan_abramov
+- id: kent_c_dodds
+  twitterName: kentcdodds
+- id: fernando_rojo
+  twitterName: FernandoTheRojo
+  homepage: https://fernandorojo.co/
+- id: sebastien_lorber
+  name: Sébastien Lorber  
+  twitterName: sebastienlorber
+  homepage: https://thisweekinreact.com/
+- id: jamon_holmgren
+  name: Jamon Holmgren
+  twitterName: jamonholmgren
+- id: brent_vatne
+  name: Brent Vatne
+  twitterName: notbrent
+- id: theo_browne
+  twitterName: t3dotgg
+- id: tomasz_sapeta
+  name: Tomasz Sapeta
+  twitterName: tsapeta
+- id: catalin_miron
+  name: Catalin Miron
+  twitterName: mironcatalin
+  homepage: https://www.youtube.com/c/catalinmirondev
+- id: software_mansion_team
+  name: Software Mansion
+  twitterName: swmansion
+  homepage: https://swmansion.com/
+- id: krzysztof_magiera
+  name: Krzysztof Magiera
+  twitterName: kzzzf
+- id: satyajit_sahoo
+  name: Satyajit Sahoo
+  twitterName: satya164
+- id: lorenzo_sciandra
+  name: Lorenzo Sciandra
+  twitterName: Kelset
+- id: tanner_linsley
+  name: Tanner Linsley
+  twitterName: tannerlinsley
+- id: vadim_savin
+  name: Vadim Savin
+  twitterName: VadimNotJustDev
+  homepage: https://www.youtube.com/c/notjustdev
+- id: kudo_chien
+  name: Kudo Chien
+  twitterName: kudochien
+- id: callstack_team
+  name: Callstack Engineers
+  twitterName: callstackio
+  homepage: https://www.callstack.com/
+- id: oscar_franco
+  name: Oscar Franco
+  twitterName: ospfranco
+  homepage: https://ospfranco.com/
+- id: matt_pocock
+  name: Matt Pocock
+  twitterName: mattpocockuk
+- id: cedric_van_putten
+  name: Cedric van Putten
+  twitterName: cedricvanputten
+- id: daishi_kato
+  name: Daishi Kato
+  twitterName: dai_shi
+- id: infinite_red_team
+  name: Infinite Red
+  twitterName: infinite_red
+  homepage: https://infinite.red/
+- id: expo_team
+  name: Expo
+  twitterName: expo
+  homepage: https://expo.dev/
+- id: mike_grabowski
+  name: Mike Grabowski
+  twitterName: grabbou
+- id: janic_duplessis
+  name: Janic Duplessis
+  twitterName: janicduplessis
+- id: james_ide
+  name: James Ide
+  twitterName: JI
+- id: almouro
+  name: Alexandre Moureaux
+  twitterName: almouro
+- id: diego_fernandes
+  name: Diego Fernandes
+  twitterName: dieegosf
+- id: primeagen
+  name: ThePrimeagen
+  twitterName: ThePrimeagen
+  homepage: https://www.youtube.com/ThePrimeagen
+- id: dominik_tkdodo
+  name: Dominik
+  twitterName: tkdodo
+  homepage: https://tkdodo.eu/blog/
+- id: devaslife
+  name: Takuya Matsuyama
+  twitterName: inkdrop_app
+  homepage: https://www.youtube.com/devaslife
+- id: michal_pierzchala
+  name: Michał Pierzchała
+  twitterName: thymikee
