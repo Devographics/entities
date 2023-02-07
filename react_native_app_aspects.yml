@@ -219,3 +219,33 @@
   description: a react native charts wrapper (support android & iOS)
 - id: react_native_app_aspects_data_visualisation_other
   name: Other data visualisation solutions
+
+
+# freeform
+- id: posthog
+  name: PostHog
+  homepage: https://posthog.com/
+- id: adobe
+  name: Adobe Analytics
+  homepage: https://business.adobe.com/products/analytics/adobe-analytics.html
+- id: new_relic
+  name: New Relic
+  homepage: https://newrelic.com/
+- id: countly
+  name: Countly
+  homepage: https://countly.com/
+- id: adjust
+  name: Adjust
+  homepage: https://www.adjust.com
+- id: datadog
+  name: DataDog
+  homepage: https://www.datadoghq.com/product/log-management/
+- id: rudderstack
+  name: RudderStack
+  homepage: https://rudderstack.com/
+- id: heap
+  name: Heap
+  homepage: https://www.heap.io/
+- id: matomo
+  name: Matomo
+  homepage: https://matomo.org/
