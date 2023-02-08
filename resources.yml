@@ -168,7 +168,36 @@
 - id: appjs
   name: App.js Conf
   homepage: https://appjs.co/
-
 - id: theprimeagen
   name: ThePrimeagen
   homepage: https://www.youtube.com/@ThePrimeagen
+- id: expo_discord
+  name: Expo Discord
+  homepage: hhttps://discord.com/invite/TercuSpcC7
+- id: infinite_red_discord
+  name: Infinite Red Discord
+- id: infinite_red_slack
+  name: Infinite Red Community
+  homepage: https://infiniteredcommunity.slack.com/
+- id: callstack_discord
+  name: Callstack Discord
+  homepage: https://discord.com/invite/zwR2Cdh
+- id: react_native_community
+  name: React Native Community
+- id: catalin_miron_discord
+  name: Catalin Miron Dev
+  homepage: https://discord.gg/vg7hUDU
+- id: react_native_news_&_tips
+  name: React Native News & Tips
+  homepage: https://twitter.com/i/communities/1509407040095068166
+- id: theo_browne_discord
+  name: Theo's Typesafe Cult
+  homepage: https://discord.com/invite/xHdCpcPHRE
+- id: tamagui_discord
+  name: tamagui
+  homepage: https://discord.com/invite/4qh6tdcVDa
+- id: ignite_slack
+  name: Ignite Slack
+- id: react_native_eu
+  name: React Native EU
+  homepage: https://react-native.eu/
