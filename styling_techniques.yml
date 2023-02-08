@@ -38,3 +38,25 @@
   name: Other styling techniques
 - id: styling_techniques_happiness
   name: Overall happiness
+
+- id: nativebase
+  name: NativeBase
+  npm: native-base
+  homepage: https://nativebase.io/
+  github: https://github.com/GeekyAnts/nativebase
+  description: Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.
+
+- id: rxn_grife
+  npm: rxn-grife
+  name: rxn-grife
+  github: https://github.com/Luffos/rxn-grife
+
+- id: dripsy
+  npm: dripsy
+  github: https://github.com/nandorojo/dripsy
+  description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
+  homepage: https://www.dripsy.xyz/
+  name: Dripsy
+
+- id: tailwind_react_native_classnames
+  name: react-native-tailwind-classnames

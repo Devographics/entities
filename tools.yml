@@ -89,3 +89,19 @@
 
 - id: tools_other_tools
   name: Other development tools
+
+
+#  freeform
+- id: tamagui_starter
+  name: Create Tamagui App
+  npm: tamagui
+  homepage: https://tamagui.dev/docs/guides/create-tamagui-app
+  github: https://github.com/tamagui/tamagui
+  description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
+- id: create_react_native_library
+  npm: create-react-native-library
+  github: https://github.com/callstack/react-native-builder-bob
+  name: create-react-native-library
+- id: rnx_cli
+  npm: "@xmartlabs/rnx-cli"
+  github: https://github.com/xmartlabs/rnx-cli
