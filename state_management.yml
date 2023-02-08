@@ -55,3 +55,57 @@
   name: Other state management
 - id: state_management_happiness
   name: Overall happiness
+
+# freeform
+
+- id: mobx_state_tree
+  name: MobX-State-Tree
+  homepage: https://mobx-state-tree.js.org/
+  github: https://github.com/mobxjs/mobx-state-tree
+  description: Full-featured reactive state management without the boilerplate
+  npm: mobx-state-tree
+- id: rtk_query
+  name: RTK Query (Redux Toolkit)
+  homepage: https://redux-toolkit.js.org/rtk-query/overview
+  npm: "@reduxjs/toolkit"
+  github: https://github.com/reduxjs/redux-toolkit
+  description: The official, opinionated, batteries-included toolset for efficient Redux development
+- id: valtio
+  npm: valtio
+  name: valtio
+  github: https://github.com/pmndrs/valtio
+  description: 💊 Valtio makes proxy-state simple for React and Vanilla
+  homepage: https://valtio.pmnd.rs/
+- id: easy_peasy
+  npm: easy-peasy
+  name: Easy Peasy
+  github: https://github.com/ctrlplusb/easy-peasy
+  description: Vegetarian friendly state for React
+  homepage: https://easy-peasy.dev/
+- id: react_ridge_state
+  npm: react-ridge-state
+  github: https://github.com/web-ridge/react-ridge-state
+  name: react-ridge-state
+  description: Simple 💪 fast ⚡️ and small 🎈 (400 bytes) global state management for React (Native)
+- id: state_decorator
+  name: StateDecorator
+  npm: state-decorator
+  github: https://github.com/GlobalSport/state-decorator
+  description: React state management library
+- id: react_native_mmkv
+  name: react-native-mmkv
+  npm: react-native-mmkv
+  github: https://github.com/mrousavy/react-native-mmkv
+  description: ⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!
+- id: fluxible
+  name: Fluxible
+  npm: fluxible
+  github: https://github.com/yahoo/fluxible
+  description: A pluggable container for universal flux applications.
+  homepage: https://fluxible.io/
+- id: react_native_async_storage
+  npm: "@react-native-async-storage/async-storage"
+  name: React Native Async Storage
+  github: https://github.com/react-native-async-storage/async-storage
+  homepage: https://react-native-async-storage.github.io/async-storage/
+  description: An asynchronous, persistent, key-value storage system for React Native.
