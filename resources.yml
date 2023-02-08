@@ -91,9 +91,7 @@
 - id: thisweekinreact
   name: This Week In React
   homepage: https://thisweekinreact.com/
-- id: william_candillon
-  name: William Candillon
-  homepage: https://www.youtube.com/wcandillon
+
 - id: reactjs_docs
   name: React docs
   homepage: https://reactjs.org/
@@ -134,3 +132,43 @@
 - id: wix_engineering
   name: Wix Engineering
   homepage: https://www.wix.engineering/
+
+- id: reactiive
+  name: Reactiive
+  homepage: https://www.youtube.com/c/Reactiive
+- id: software_mansion_video
+  name: Software Mansion
+  homepage: https://www.youtube.com/@SoftwareMansion
+
+- id: evening_kid
+  name: Evening Kid
+  homepage: https://www.youtube.com/@eveningkid
+
+- id: callstack_video
+  name: Callstack Engineers
+  homepage: https://www.youtube.com/@CallstackEngineers
+
+- id: infinite_red_video
+  name: Infinite Red
+  homepage: https://www.youtube.com/@InfiniteRed
+
+- id: jimmy_cook
+  name: Jimmy Cook
+  homepage: https://www.youtube.com/jimck
+  twitterName: wjimmycook
+
+- id: sonny_sangha
+  name: Sonny Sangha
+  homepage: https://www.youtube.com/@SonnySangha
+
+- id: dans_react_native_lab
+  name: Dan's React Native Lab
+  homepage: https://www.youtube.com/channel/UC4Lepw3SuzwYWcHQ6SDPlEQ
+
+- id: appjs
+  name: App.js Conf
+  homepage: https://appjs.co/
+
+- id: theprimeagen
+  name: ThePrimeagen
+  homepage: https://www.youtube.com/@ThePrimeagen

@@ -1733,6 +1733,7 @@
 - id: william_candillon
   name: William Candillon
   twitterName: wcandillon
+  homepage: https://www.youtube.com/wcandillon
 - id: marc_rousavy
   name: Marc Rousavy
   twitterName: mrousavy
@@ -1755,6 +1756,7 @@
   twitterName: notbrent
 - id: theo_browne
   twitterName: t3dotgg
+  homepage: https://www.youtube.com/c/theobrowne1017
 - id: tomasz_sapeta
   name: Tomasz Sapeta
   twitterName: tsapeta
@@ -1792,10 +1794,11 @@
 - id: oscar_franco
   name: Oscar Franco
   twitterName: ospfranco
-  homepage: https://ospfranco.com/
+  homepage: https://www.youtube.com/@ospfranco
 - id: matt_pocock
   name: Matt Pocock
   twitterName: mattpocockuk
+  homepage: https://www.youtube.com/@mattpocockuk
 - id: cedric_van_putten
   name: Cedric van Putten
   twitterName: cedricvanputten
