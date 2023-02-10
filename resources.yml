@@ -90,7 +90,7 @@
   homepage: https://www.notjust.dev/
 - id: thisweekinreact
   name: This Week In React
-  homepage: https://thisweekinreact.com/
+  homepage: https://thisweekinreact.com/?utm_source=state_of_rn
 
 - id: reactjs_docs
   name: React docs
