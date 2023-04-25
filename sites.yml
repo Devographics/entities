@@ -1,19 +1,18 @@
-
 - id: google
   name: Google
-  homepage: https://google.com
+  homepageUrl: https://google.com
 
 - id: github
   name: GitHub
-  homepage: https://github.com
+  homepageUrl: https://github.com
 
 - id: youtube
   name: YouTube
-  homepage: https://youtube.com
+  homepageUrl: https://youtube.com
 
 - id: css_tricks
   name: CSS-Tricks
-  homepage: https://css-tricks.com/
+  homepageUrl: https://css-tricks.com/
   tags:
     - blogs
   patterns:
@@ -21,7 +20,7 @@
 
 - id: smashing_magazine
   name: Smashing Magazine
-  homepage: https://www.smashingmagazine.com/
+  homepageUrl: https://www.smashingmagazine.com/
   patterns:
     - smashing_mag
   tags:
@@ -29,13 +28,13 @@
 
 - id: a_list_apart
   name: A List Apart
-  homepage: https://alistapart.com/
+  homepageUrl: https://alistapart.com/
   tags:
     - blogs
 
 - id: codrops
   name: Codrops
-  homepage: https://tympanus.net/codrops/
+  homepageUrl: https://tympanus.net/codrops/
   tags:
     - blogs
   patterns:
@@ -44,29 +43,29 @@
 
 - id: sitepoint
   name: SitePoint
-  homepage: https://www.sitepoint.com/
+  homepageUrl: https://www.sitepoint.com/
   tags:
     - blogs
 
 - id: stack_overflow
   name: Stack Overflow
-  homepage: https://stackoverflow.com/
+  homepageUrl: https://stackoverflow.com/
   tags:
     - podcasts
 
 - id: mdn
   name: MDN
-  homepage: https://developer.mozilla.org/en-US/
+  homepageUrl: https://developer.mozilla.org/en-US/
   patterns:
     - developer.mozilla.org
 
 - id: w3schools
   name: W3Schools
-  homepage: https://www.w3schools.com/
+  homepageUrl: https://www.w3schools.com/
 
 - id: freecodecamp
   name: freeCodeCamp
-  homepage: https://www.freecodecamp.org/
+  homepageUrl: https://www.freecodecamp.org/
   tags:
     - courses
     - podcasts
@@ -76,74 +75,74 @@
 
 - id: css_specs
   name: The CSS Specs
-  homepage: https://www.w3.org/Style/CSS/specs.en.html
+  homepageUrl: https://www.w3.org/Style/CSS/specs.en.html
 
 - id: one_page_love
   name: One Page Love
-  homepage: https://onepagelove.com/
+  homepageUrl: https://onepagelove.com/
 
 - id: muzli
   name: Muzli
-  homepage: https://muz.li/
+  homepageUrl: https://muz.li/
 
 - id: wordpress_tavern
   name: WordPress Tavern
-  homepage: https://wptavern.com/
+  homepageUrl: https://wptavern.com/
 
 - id: caniuse
   name: Can I Use
-  homepage: https://caniuse.com/
+  homepageUrl: https://caniuse.com/
 
 - id: codepen
   name: CodePen
-  homepage: https://codepen.io/
+  homepageUrl: https://codepen.io/
   patterns:
     - (^|\s)codepen($|\s)
 
 - id: alligator
   name: Alligator.io
-  homepage: https://alligator.io/
+  homepageUrl: https://alligator.io/
   patterns:
     - al(l)?igator
 
 - id: devto
   name: Dev.to
-  homepage: https://dev.to/
+  homepageUrl: https://dev.to/
   patterns:
     - dev( |-|_|.)?to
 
 - id: medium
   name: Medium
-  homepage: https://medium.com/
+  homepageUrl: https://medium.com/
   patterns:
     - meduim
 
 - id: google
   name: Google
-  homepage: https://google.com
+  homepageUrl: https://google.com
 
 - id: flexbox_zombies
   name: Flexbox Zombies
-  homepage: https://mastery.games/p/flexbox-zombies
+  homepageUrl: https://mastery.games/p/flexbox-zombies
 
 - id: scrimba
   name: Scrimba
-  homepage: https://scrimba.com/
+  homepageUrl: https://scrimba.com/
 
 - id: devdocs
   name: devdocs.io
-  homepage: https://devdocs.io
+  homepageUrl: https://devdocs.io
 
 - id: code_newbie
   name: Code Newbie
-  homepage: https://www.codenewbie.org/
+  homepageUrl: https://www.codenewbie.org/
   tags:
     - blogs
     - podcasts
 
 - id: bestofjs
   name: Best of JavaScript
-  homepage: https://bestofjs.org/
+  homepageUrl: https://bestofjs.org/
   tags:
     - news
   patterns:
@@ -151,62 +150,62 @@
 
 - id: daily_js
   name: DailyJS
-  homepage: https://medium.com/dailyjs
+  homepageUrl: https://medium.com/dailyjs
   tags:
     - blogs
 
 - id: 2ality
   name: 2ality
-  homepage: https://2ality.com/
+  homepageUrl: https://2ality.com/
   tags:
     - blogs
 
 - id: scotchio
   name: Scotch
-  homepage: https://scotch.io
+  homepageUrl: https://scotch.io
   patterns:
     - scotch
 
 - id: hackernoon
   name: Hackernoon
-  homepage: https://hackernoon.com/
+  homepageUrl: https://hackernoon.com/
   patterns:
     - hacker( |-)?noon
 
 - id: angular_in_depth
   name: Angular In Depth
-  homepage: https://indepth.dev/
+  homepageUrl: https://indepth.dev/
   tags:
     - blogs
 
 - id: web_dev
   name: Web.dev
-  homepage: https://web.dev/
+  homepageUrl: https://web.dev/
   patterns:
     - web-dev
 
 - id: elm_slack
   name: Elm Slack
-  homepage: https://elmlang.herokuapp.com/
+  homepageUrl: https://elmlang.herokuapp.com/
   tags:
     - chats
 
 - id: oreilly
   name: O'Reilly
-  homepage: https://www.oreilly.com/
+  homepageUrl: https://www.oreilly.com/
   patterns:
     - o\'reilly
     - o reilly
 
 - id: mozilla_hacks
   name: Mozilla Hacks
-  homepage: https://hacks.mozilla.org/
+  homepageUrl: https://hacks.mozilla.org/
   tags:
     - blogs
 
 - id: gomakethings
   name: Go Make Things
-  homepage: https://gomakethings.com/
+  homepageUrl: https://gomakethings.com/
   tags:
     - blogs
   patterns:
@@ -214,7 +213,7 @@
 
 - id: codyhouse
   name: Cody House
-  homepage: https://codyhouse.co/
+  homepageUrl: https://codyhouse.co/
   tags:
     - blogs
   patterns:
@@ -222,7 +221,7 @@
 
 - id: vzhurudolu
   name: Vzhůru dolů
-  homepage: https://www.vzhurudolu.cz/
+  homepageUrl: https://www.vzhurudolu.cz/
   patterns:
     - vzhůru ?dolů
     - vzhududolu
@@ -232,7 +231,7 @@
 
 - id: daily_dev
   name: Daily Dev
-  homepage: https://daily.dev/
+  homepageUrl: https://daily.dev/
   tags:
     - news
 
@@ -245,19 +244,19 @@
 
 - id: awwwards
   name: Awwwards
-  homepage: https://www.awwwards.com/
+  homepageUrl: https://www.awwwards.com/
   tags:
     - news
 
 - id: webdesigner_depot
   name: Webdesigner Depot
-  homepage: https://www.webdesignerdepot.com/
+  homepageUrl: https://www.webdesignerdepot.com/
   tags:
     - news
 
 - id: web_standards_ru
   name: Web Standards
-  homepage: https://web-standards.ru/
+  homepageUrl: https://web-standards.ru/
   tags:
     - podcasts
   patterns:
@@ -268,7 +267,7 @@
 
 - id: w3c
   name: W3C
-  homepage: https://www.w3.org/
+  homepageUrl: https://www.w3.org/
   patterns:
     - w3( |-|-|.)?org
     - w3 spec
@@ -276,174 +275,198 @@
 
 - id: indie_hackers
   name: Indie Hackers
-  homepage: https://www.indiehackers.com/
+  homepageUrl: https://www.indiehackers.com/
 
 - id: css_irl
   name: CSS { In Real Life }
-  homepage: https://css-irl.info/
-  rss: https://css-irl.info/rss.xml
+  homepageUrl: https://css-irl.info/
+  rssUrl: https://css-irl.info/rss.xml
 
 - id: moderncss
   name: Modern CSS Solutions
-  homepage: http://moderncss.dev/
-  rss: https://moderncss.dev/feed/
+  homepageUrl: http://moderncss.dev/
+  rssUrl: https://moderncss.dev/feed/
   patterns:
     - ModernCSS+Newsletter
     - modern css
 
 - id: zen_garden
   name: CSS Zen Garden
-  homepage: https://csszengarden.com
+  homepageUrl: https://csszengarden.com
 
 - id: twitch
   name: Twitch
-  homepage: https://twitch.tv
+  homepageUrl: https://twitch.tv
 
 - id: logrocket
   name: LogRocket
-  homepage: https://blog.logrocket.com/
+  homepageUrl: https://blog.logrocket.com/
 
 - id: doka
   name: Doka
-  homepage: https://doka.guide/
+  homepageUrl: https://doka.guide/
 
 - id: tutorialspoint
   name: Tutorialspoint
-  homepage: https://www.tutorialspoint.com/
+  homepageUrl: https://www.tutorialspoint.com/
 
 - id: ui_dev
   name: ui.dev
-  homepage: https://ui.dev/
+  homepageUrl: https://ui.dev/
 
 - id: hexlet
   name: Hexlet
-  homepage: https://en.hexlet.io/
+  homepageUrl: https://en.hexlet.io/
 
 - id: morioh
   name: Morioh
-  homepage: https://morioh.com
+  homepageUrl: https://morioh.com
 
 - id: javascript_ninja
   name: JavaScript.ninja
-  homepage: https://javascript.ninja/
+  homepageUrl: https://javascript.ninja/
 
 - id: pointer
   name: Pointer
-  homepage: http://www.pointer.io/
+  homepageUrl: http://www.pointer.io/
 
 - id: jser
   name: JSer.info
-  homepage: https://jser.info/
+  homepageUrl: https://jser.info/
 
 - id: heise
   name: Heise Online
-  homepage: https://www.heise.de/
+  homepageUrl: https://www.heise.de/
 
 - id: defensive_css
   name: Defensive CSS
-  homepage: https://defensivecss.dev/
+  homepageUrl: https://defensivecss.dev/
 
 - id: frontend_dogma
   name: Frontend Dogma
-  homepage: https://frontenddogma.com/
+  homepageUrl: https://frontenddogma.com/
 
 - id: quirksmode
   name: QuirksMode
-  homepage: https://www.quirksmode.org/
+  homepageUrl: https://www.quirksmode.org/
 
 - id: web_design_weekly
   name: Web Design Weekly
-  homepage: https://web-design-weekly.com/
+  homepageUrl: https://web-design-weekly.com/
   tags:
     - newsletters
 
 - id: friday_front_end
   name: Friday Front-End
-  homepage: https://fridayfrontend.com/
+  homepageUrl: https://fridayfrontend.com/
   tags:
     - newsletters
 
 - id: speckyboy
   name: Speckyboy
-  homepage: https://speckyboy.com/
+  homepageUrl: https://speckyboy.com/
 
 - id: velog
   name: Velog
-  homepage: https://velog.io/
+  homepageUrl: https://velog.io/
 
 - id: kode24
   name: Kode24
-  homepage: https://www.kode24.no/
+  homepageUrl: https://www.kode24.no/
 
 - id: vived
   name: Vived
-  homepage: https://vived.io/
+  homepageUrl: https://vived.io/
 
 - id: css_for_js
   name: CSS For JavaScript Developers
-  homepage: https://css-for-js.dev/
+  homepageUrl: https://css-for-js.dev/
 
 - id: skillshare
   name: Skillshare
-  homepage: https://www.skillshare.com/
+  homepageUrl: https://www.skillshare.com/
 
 - id: frontend_mentor
   name: Frontend Mentor
-  homepage: https://www.frontendmentor.io/
+  homepageUrl: https://www.frontendmentor.io/
 
 - id: grafikart
   name: Grafikart
-  homepage: https://grafikart.fr/
+  homepageUrl: https://grafikart.fr/
 
 - id: lenguaje_css
   name: Lenguaje CSS
-  homepage: https://lenguajecss.com/
+  homepageUrl: https://lenguajecss.com/
 
 - id: tailwind_blog
   name: Tailwind Blog
-  homepage: https://tailwindcss.com/blog
+  homepageUrl: https://tailwindcss.com/blog
   patterns:
     - tailwind
 
 - id: qiita
   name: Qiita
-  homepage: https://qiita.com/
+  homepageUrl: https://qiita.com/
   patterns:
     - tailwind
 
 - id: zenn
   name: Zenn
-  homepage: https://zenn.dev/
+  homepageUrl: https://zenn.dev/
 
 - id: chatgpt
   name: ChatGPT
-  tags: 
+  tags:
     - first_steps
 
 - id: codewars
   name: Codewars
-  homepage: https://www.codewars.com/
+  homepageUrl: https://www.codewars.com/
 
 - id: v2ex
   name: v2ex
-  homepage: https://www.v2ex.com/
+  homepageUrl: https://www.v2ex.com/
 
 - id: the_pragmatic_engineer
   name: The Pragmatic Engineer
-  homepage: https://blog.pragmaticengineer.com/
+  homepageUrl: https://blog.pragmaticengineer.com/
 
 - id: svelte_dev
   name: Svelte.dev
-  homepage: https://svelte.dev/
+  homepageUrl: https://svelte.dev/
 
 - id: learn_javascript
   name: Learn JavaScript
-  homepage: https://learnjavascript.online/
+  homepageUrl: https://learnjavascript.online/
 
 - id: neet_code
   name: NeetCode
-  homepage: https://neetcode.io/
+  homepageUrl: https://neetcode.io/
 
 - id: packt
   name: Packt
-  homepage: https://www.packtpub.com/
+  homepageUrl: https://www.packtpub.com/
+
+- id: yandex
+  name: Yandex
+  homepageUrl: https://yandex.com/
+
+- id: yuque
+  name: Yuque
+  homepageUrl: https://www.yuque.com/
+
+- id: ecosia
+  name: Ecosia
+  homepageUrl: https://www.ecosia.org/
+
+- id: mozilla
+  name: Mozilla
+  homepageUrl: https://www.mozilla.org/
+
+- id: bing
+  name: Bing
+  homepageUrl: https://www.bing.com
+
+- id: baidu
+  name: Baidu
+  homepageUrl: https://www.baidu.com/

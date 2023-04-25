@@ -1,36 +1,36 @@
 - id: mysql
   name: MySQL
-  homepage: https://www.mysql.com/
+  homepageUrl: https://www.mysql.com/
 - id: sqlite
   name: SQLite
-  homepage: https://www.sqlite.org/
+  homepageUrl: https://www.sqlite.org/
 - id: postgresql
   name: PostgreSQL
-  homepage: https://www.postgresql.org/
+  homepageUrl: https://www.postgresql.org/
 - id: neo4j
   name: Neo4j
-  homepage: https://neo4j.com/
+  homepageUrl: https://neo4j.com/
 - id: redis
   name: Redis
-  homepage: https://redis.io/
+  homepageUrl: https://redis.io/
 - id: mongodb
   name: MongoDB
-  homepage: https://www.mongodb.com/
+  homepageUrl: https://www.mongodb.com/
 - id: elasticsearch
   name: ElasticSearch
-  homepage: https://www.elastic.co/
+  homepageUrl: https://www.elastic.co/
 - id: dynamodb
   name: DynamoDB
-  homepage: https://aws.amazon.com/dynamodb/
+  homepageUrl: https://aws.amazon.com/dynamodb/
 
 - id: firestore
   name: Firestore
-  homepage: https://firebase.google.com/docs/firestore
+  homepageUrl: https://firebase.google.com/docs/firestore
 
 - id: firebase
   name: Firebase
-  homepage: https://firebase.google.com/
+  homepageUrl: https://firebase.google.com/
 
 - id: clickhouse
   name: Clickhouse
-  homepage: https://clickhouse.com/
+  homepageUrl: https://clickhouse.com/

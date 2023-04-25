@@ -1,5 +1,5 @@
 - id: csharp
-  name: 'C#'
+  name: "C#"
   patterns:
     - c\#
 
@@ -10,11 +10,11 @@
 
 - id: dart
   name: Dart
-  homepage: https://dart.dev
+  homepageUrl: https://dart.dev
 
 - id: dotnet
   name: .NET
-  homepage: https://dotnet.microsoft.com/
+  homepageUrl: https://dotnet.microsoft.com/
 
 - id: elixir
   name: Elixir
@@ -24,7 +24,7 @@
 
 - id: kotlin
   name: Kotlin
-  homepage: https://kotlinlang.org
+  homepageUrl: https://kotlinlang.org
 
 - id: golang
   name: Go
@@ -55,7 +55,7 @@
 
 - id: scala
   name: Scala
-  homepage: https://scala-lang.org
+  homepageUrl: https://scala-lang.org
 
 - id: swift
   name: Swift
@@ -71,7 +71,7 @@
 
 - id: fsharp
   name: F#
-  patterns: 
+  patterns:
     - f#
 
 - id: sql
@@ -85,7 +85,7 @@
 
 - id: elm
   name: Elm
-  homepage: https://elm-lang.org/
+  homepageUrl: https://elm-lang.org/
 
 - id: reason
   name: Reason
@@ -110,7 +110,7 @@
 
 - id: flutter
   name: Flutter
-  homepage: https://flutter.io/
+  homepageUrl: https://flutter.io/
 
 - id: r
   name: R
@@ -175,7 +175,7 @@
 
 - id: vlang
   name: VLang
-  homepage: https://vlang.io/
+  homepageUrl: https://vlang.io/
 
 - id: assembly
   name: Assembly
@@ -185,16 +185,15 @@
 
 - id: glsl
   name: GLSL
-  homepage: https://en.wikipedia.org/wiki/OpenGL_Shading_Language
-  
+  homepageUrl: https://en.wikipedia.org/wiki/OpenGL_Shading_Language
+
 - id: liquid
   name: Liquid
-  homepage: https://shopify.github.io/liquid/
-  
+  homepageUrl: https://shopify.github.io/liquid/
+
 - id: scheme
   name: Scheme
-  homepage: https://scheme.com/
-
+  homepageUrl: https://scheme.com/
 
 #################################################
 # JavaScript Flavors
@@ -205,7 +204,7 @@
   npm: typescript
   github: microsoft/TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output.
-  homepage: https://www.typescriptlang.org
+  homepageUrl: https://www.typescriptlang.org
   tags:
     - javascript_flavors
 
@@ -213,7 +212,7 @@
   name: Reason
   npm: null
   github: facebook/reason
-  homepage: https://reasonml.github.io/
+  homepageUrl: https://reasonml.github.io/
   description: >-
     Simple, fast & type safe code that leverages the JavaScript & OCaml
     ecosystems
@@ -225,7 +224,7 @@
   npm: null
   github: elm/compiler
   description: "Compiler for Elm, a functional language for reliable webapps."
-  homepage: https://elm-lang.org/
+  homepageUrl: https://elm-lang.org/
   tags:
     - javascript_flavors
 
@@ -234,7 +233,7 @@
   npm: null
   github: clojure/clojurescript
   description: Clojure to JS compiler
-  homepage: https://clojurescript.org/
+  homepageUrl: https://clojurescript.org/
   tags:
     - javascript_flavors
 
@@ -243,7 +242,7 @@
   npm: null
   github: purescript/purescript
   description: A strongly-typed language that compiles to JavaScript
-  homepage: https://www.purescript.org
+  homepageUrl: https://www.purescript.org
   tags:
     - javascript_flavors
 
@@ -252,7 +251,7 @@
   npm: coffeescript
   github: jashkenas/coffeescript
   description: Unfancy JavaScript
-  homepage: "https://coffeescript.org/"
+  homepageUrl: "https://coffeescript.org/"
   tags:
     - javascript_flavors
 
@@ -263,7 +262,7 @@
   description: >-
     Adds static typing to JavaScript to improve developer productivity and code
     quality.
-  homepage: "https://flow.org/"
+  homepageUrl: "https://flow.org/"
   tags:
     - javascript_flavors
 
@@ -272,7 +271,7 @@
   npm: null
   github: AssemblyScript/assemblyscript
   description: Definitely not a TypeScript to WebAssembly compiler
-  homepage: "https://assemblyscript.org"
+  homepageUrl: "https://assemblyscript.org"
   tags:
     - javascript_flavors
 
@@ -281,7 +280,7 @@
   npm: null
   github: scala-js/scala-js
   description: "Scala.js, the Scala to JavaScript compiler"
-  homepage: "https://www.scala-js.org/"
+  homepageUrl: "https://www.scala-js.org/"
   tags:
     - javascript_flavors
 
@@ -290,7 +289,7 @@
   npm: null
   github: rescript-association/rescript-lang.org
   description: Fast, Simple, Fully Typed JavaScript from the Future
-  homepage: https://rescript-lang.org/
+  homepageUrl: https://rescript-lang.org/
   tags:
     - javascript_flavors
 
@@ -299,7 +298,7 @@
   npm: imba
   github: imba/imba
   description: The friendly full-stack language
-  homepage: https://imba.io/
+  homepageUrl: https://imba.io/
   tags:
     - javascript_flavors
 
@@ -312,25 +311,33 @@
 - id: fable
   name: Fable
   description: Fable is a compiler that brings F# into the JavaScript ecosystem
-  homepage: https://fable.io/
+  homepageUrl: https://fable.io/
   tags:
     - javascript_flavors
 
 - id: dart
   name: Dart
   description: Dart is a client-optimized language for fast apps on any platform
-  homepage: https://dart.dev/
+  homepageUrl: https://dart.dev/
   tags:
     - javascript_flavors
 
 - id: kotlin
   name: Kotlin
-  homepage: https://kotlinlang.org/
+  homepageUrl: https://kotlinlang.org/
   tags:
     - javascript_flavors
 
 - id: jsx
   name: JSX
-  homepage: https://reactjs.org/docs/introducing-jsx.html
+  homepageUrl: https://reactjs.org/docs/introducing-jsx.html
   tags:
     - javascript_flavors
+
+- id: yaml
+  name: YAML
+  patterns:
+    - yml
+
+- id: liquid
+  name: Liquid

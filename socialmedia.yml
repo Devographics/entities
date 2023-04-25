@@ -2,89 +2,89 @@
 
 - id: hn
   name: Hacker News
-  homepage: https://news.ycombinator.com/
+  homepageUrl: https://news.ycombinator.com/
   patterns:
     - hacker( |-|_)?news
     - ycombinator
 
 - id: reddit
   name: Reddit
-  homepage: https://reddit.com
+  homepageUrl: https://reddit.com
   patterns:
     - \/?r\/(javascript|clojure|reactjs|angular|webdev|programming)
 
 - id: designernews
   name: Designer News
-  homepage: https://www.designernews.co/
+  homepageUrl: https://www.designernews.co/
 
 - id: facebook
   name: Facebook
-  homepage: https://facebook.com
+  homepageUrl: https://facebook.com
   patterns:
     - fb
 
 - id: producthunt
   name: Product Hunt
-  homepage: https://www.producthunt.com/
+  homepageUrl: https://www.producthunt.com/
 
 - id: telegram
   name: Telegram
-  homepage: https://telegram.org/
+  homepageUrl: https://telegram.org/
 
 - id: slack
   name: Slack
-  homepage: https://slack.com/
+  homepageUrl: https://slack.com/
 
 - id: github
   name: GitHub
-  homepage: https://github.com/
+  homepageUrl: https://github.com/
 
 - id: linkedin
   name: LinkedIn
-  homepage: https://linkedin.com/
+  homepageUrl: https://linkedin.com/
   patterns:
     - linked( |-)?in
     - lnkd
 
 - id: hangouts
   name: Hangouts
-  homepage: https://tools.google.com/dlpage/hangoutplugin
+  homepageUrl: https://tools.google.com/dlpage/hangoutplugin
 
 - id: twitter
   name: Twitter
-  homepage: https://twitter.com
+  homepageUrl: https://twitter.com
   patterns:
     - t.co
 
 - id: instagram
   name: Instagram
-  homepage: https://instagram.com
+  homepageUrl: https://instagram.com
 
 - id: juejin
   name: Juejin
-  homepage: https://juejin.im/
+  homepageUrl: https://juejin.im/
 
 - id: echo_js
   name: Echo JS
-  homepage: https://echojs.com/
+  homepageUrl: https://echojs.com/
   tags:
     - news
-  
+
 - id: habr
   name: Habr
-  homepage: https://habr.com/en/
+  homepageUrl: https://habr.com/en/
 
 - id: microsoft_teams
   name: Microsoft Teams
-  homepage: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+  homepageUrl: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
   patterns:
     - teams
     - statics.teams.cdn.office.net
 
 - id: discord
   name: Discord
-  homepage: https://discord.com/
+  homepageUrl: https://discord.com/
 
 - id: mastodon
   name: Mastodon
-  homepage: https://mastodon.social/
+  homepageUrl: https://mastodon.social/

@@ -15,7 +15,7 @@
 - id: duckduckgo
   normalizationOnly: true
   name: DuckDuckGo
-  homepage: https://duckduckgo.com/
+  homepageUrl: https://duckduckgo.com/
 
 - id: word_of_mouth
   name: Word Of Mouth
@@ -26,7 +26,7 @@
 - id: vk
   normalizationOnly: true
   name: VK
-  homepage: https://vk.com/
+  homepageUrl: https://vk.com/
   patterns:
     - away.vk.com
 
@@ -48,100 +48,88 @@
 - id: reactiflux
   normalizationOnly: true
   name: Reactiflux
-  homepage: https://www.reactiflux.com/
+  homepageUrl: https://www.reactiflux.com/
 
 - id: ionic_community
   normalizationOnly: true
   name: Ionic Community
-  homepage: https://ionicframework.com/subscribe
+  homepageUrl: https://ionicframework.com/subscribe
   patterns:
     - ionic
 
 - id: capacitor_community
   normalizationOnly: true
   name: Capacitor Community
-  homepage: https://capacitorjs.com/
+  homepageUrl: https://capacitorjs.com/
   patterns:
     - capacitor
 
 - id: elm_community
   normalizationOnly: true
   name: Elm Community
-  homepage: https://discourse.elm-lang.org/
+  homepageUrl: https://discourse.elm-lang.org/
   patterns:
     - elm
 
 - id: meteor_community
   normalizationOnly: true
   name: Meteor Community
-  homepage: https://forums.meteor.com/
+  homepageUrl: https://forums.meteor.com/
   patterns:
     - meteor
 
 - id: angular_community
   name: Angular Community
-  homepage: angular.io
+  homepageUrl: angular.io
   patterns:
     - angular
     - angular.io
 
 - id: vue_community
   name: Vue Community
-  homepage: https://vuejs.org/
+  homepageUrl: https://vuejs.org/
   patterns:
     - vue
 
 - id: remix_community
   normalizationOnly: true
   name: Remix Community
-  homepage: https://remix.run
+  homepageUrl: https://remix.run
   patterns:
     - remix
 
 - id: bing
   normalizationOnly: true
-  name: Bing
-  homepage: https://www.bing.com
 
 - id: baidu
   normalizationOnly: true
-  name: Baidu
-  homepage: https://www.baidu.com/
 
 - id: reddit_graphql
   normalizationOnly: true
   name: r/graphql
-  homepage: https://www.reddit.com/r/graphql/
-  tags: 
+  homepageUrl: https://www.reddit.com/r/graphql/
+  tags:
     - graphql
 
 - id: apollo
   normalizationOnly: true
-  name: Apollo
-  homepage: https://www.apollographql.com/
-  tags: 
-    - graphql
 
 - id: graphile_discord
-  normalizationOnly: true
   name: Graphile Discord
-  homepage: https://www.graphile.org/
+  homepageUrl: https://www.graphile.org/
   patterns:
     - graphile
-  tags: 
+  tags:
     - graphql
 
 - id: prisma_slack
-  normalizationOnly: true
   name: Prisma Slack
-  homepage: https://www.prisma.io/
-  tags: 
+  homepageUrl: https://www.prisma.io/
+  tags:
     - graphql
 
 - id: mozilla
   normalizationOnly: true
-  name: Mozilla
-  homepage: https://www.mozilla.org/
 
 - id: mastodon
   normalizationOnly: true
@@ -153,47 +141,27 @@
 
 - id: eleventy
   normalizationOnly: true
-  name: Eleventy
-  patterns:
-    - 11ty.dev
-  homepage: "https://www.11ty.dev/"
 
 - id: startpage
   normalizationOnly: true
-  name: Startpage
-  homepage: https://www.startpage.com/
 
 - id: fireship
   normalizationOnly: true
-  name: Fireship
-  homepage: https://fireship.io/
 
 - id: youtube
   normalizationOnly: true
-  name: YouTube
-  homepage: https://youtube.com/
 
 - id: google
   normalizationOnly: true
-  name: Google
-  homepage: https://google.com/
 
 - id: diversify_tech
   normalizationOnly: true
-  name: Diversify Tech
-  homepage: https://www.diversifytech.co/
 
 - id: ecosia
   normalizationOnly: true
-  name: Ecosia
-  homepage: https://www.ecosia.org/
 
 - id: yuque
   normalizationOnly: true
-  name: Yuque
-  homepage: https://www.yuque.com/
 
 - id: yandex
   normalizationOnly: true
-  name: Yandex
-  homepage: https://yandex.com/

@@ -1,0 +1,196 @@
+#################################################
+# Runtimes
+#################################################
+
+- id: quickjs
+  name: QuickJS
+  homepageUrl: https://bellard.org/quickjs/
+  description: QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+  github: bellard/quickjs
+  tags:
+    - runtimes
+
+- id: jsc
+  name: JSC
+  homepageUrl: https://mbbill.github.io/JSC.js/
+  tags:
+    - runtimes
+
+- id: serverless_workers
+  name: Serverless Workers
+  tags:
+    - runtimes
+
+- id: cloudflare_workers
+  name: Cloudflare Workers
+  homepageUrl: https://workers.cloudflare.com/
+  patterns:
+    - cloudflare
+  tags:
+    - runtimes
+
+- id: rhino
+  name: Rhino
+  homepageUrl: https://github.com/mozilla/rhino
+  description: >
+    Rhino is an open-source implementation of JavaScript written entirely in Java
+  tags:
+    - runtimes
+
+- id: node
+  name: Node.js
+  homepageUrl: https://nodejs.org/en/
+  tags:
+    - runtimes
+
+- id: bun
+  name: Bun
+  homepageUrl: https://bun.sh/
+  tags:
+    - runtimes
+
+- id: web_workers
+  name: Web Workers
+  homepageUrl: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+  tags:
+    - runtimes
+
+- id: gjs
+  name: gjs
+  homepageUrl: https://gitlab.gnome.org/GNOME/gjs
+  tags:
+    - runtimes
+
+- id: graalvm
+  name: GraalVM JavaScript
+  homepageUrl: https://bun.sh/
+  patterns:
+    - graal
+  tags:
+    - runtimes
+
+- id: spidermonkey
+  name: SpiderMonkey
+  homepageUrl: https://spidermonkey.dev/
+  tags:
+    - runtimes
+
+- id: nashorn
+  name: Nashorn
+  homepageUrl: https://www.oracle.com/technical-resources/articles/java/jf14-nashorn.html
+  tags:
+    - runtimes
+
+- id: workerd
+  name: workerd
+  homepageUrl: https://github.com/cloudflare/workerd
+  tags:
+    - runtimes
+
+- id: v8
+  name: V8
+  homepageUrl: https://v8.dev/
+  tags:
+    - runtimes
+
+- id: aws_lambda
+  name: AWS Lambda
+  homepageUrl: https://aws.amazon.com/lambda/
+  tags:
+    - edge_runtimes
+
+- id: netlify_edge_functions
+  name: Netlify Edge Functions
+  homepageUrl: https://docs.netlify.com/edge-functions/overview/
+  tags:
+    - edge_runtimes
+
+- id: fastly_edge_compute
+  name: Fastly Edge Compute
+  homepageUrl: https://www.fastly.com/products/edge-compute
+  tags:
+    - edge_runtimes
+
+- id: google_cloud_functions
+  name: Google Cloud Functions
+  homepageUrl: https://cloud.google.com/functions
+  tags:
+    - edge_runtimes
+
+- id: akamai_edge_workers
+  name: Akamai EdgeWorkers
+  homepageUrl: https://developer.akamai.com/akamai-edgeworkers-overview
+  tags:
+    - edge_runtimes
+
+- id: nextjs_edge_runtime
+  name: Vercel Edge Runtime
+  homepageUrl: https://nextjs.org/docs/api-reference/edge-runtime
+  patterns:
+    - next
+    - vercel
+  tags:
+    - edge_runtimes
+
+- id: netlify_edge_functions
+  name: Netlify Edge Functions
+  homepageUrl: https://docs.netlify.com/edge-functions/overview/
+  tags:
+    - edge_runtimes
+
+- id: fly_io
+  name: Fly.io
+  homepageUrl: https://fly.io/
+  tags:
+    - edge_runtimes
+
+- id: digital_ocean_functions
+  name: Digital Ocean Functions
+  homepageUrl: https://www.digitalocean.com/products/functions
+  tags:
+    - edge_runtimes
+
+- id: azure_functions
+  name: Azure Functions
+  homepageUrl: https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview
+  patterns:
+    - azure
+  tags:
+    - edge_runtimes
+
+- id: firebase_functions
+  name: Cloud Functions for Firebase
+  homepageUrl: https://firebase.google.com/docs/functions
+  patterns:
+    - firebase
+  tags:
+    - edge_runtimes
+
+- id: supabase_functions
+  name: Supabase Edge Functions
+  homepageUrl: https://supabase.com/docs/guides/functions
+  patterns:
+    - supabase
+  tags:
+    - edge_runtimes
+
+- id: google_cloud_run
+  name: Google Cloud Run
+  homepageUrl: https://cloud.google.com/run
+  patterns:
+    - google
+    - cloud run
+  tags:
+    - edge_runtimes
+
+- id: openfaas
+  name: OpenFaaS
+  homepageUrl: https://www.openfaas.com/
+  tags:
+    - edge_runtimes
+
+- id: railway
+  name: Railway
+  homepageUrl: https://railway.app/
+  tags:
+    - edge_runtimes

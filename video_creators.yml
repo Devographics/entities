@@ -4,14 +4,14 @@
   belongsTo: mattias_petter_johansson
   name: Fun Fun Function
   youtubeUrl: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
-  tags: 
+  tags:
     - youtube
 
 - id: design_course
   belongsTo: gary_simon
   name: Design Course
   youtubeUrl: https://www.youtube.com/user/designcourse
-  tags: 
+  tags:
     - youtube
 
 - id: fireship
@@ -19,7 +19,7 @@
   name: Fireship
   twitterName: fireship_dev
   youtubeUrl: https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA
-  tags: 
+  tags:
     - youtube
     - people
 
@@ -29,7 +29,7 @@
   youtubeUrl: https://www.youtube.com/c/programmingwithmosh
   patterns:
     - mosh hamedani
-  tags: 
+  tags:
     - youtube
 
 - id: clever_programmer
@@ -38,7 +38,7 @@
   youtubeUrl: https://www.youtube.com/c/CleverProgrammer
   patterns:
     - rafeh qazi
-  tags: 
+  tags:
     - youtube
 
 - id: web_dev_simplified
@@ -47,7 +47,7 @@
   youtubeUrl: https://www.youtube.com/c/WebDevSimplified/
   patterns:
     - kyle cook
-  tags: 
+  tags:
     - youtube
 
 - id: coding_train
@@ -56,14 +56,14 @@
   youtubeUrl: https://www.youtube.com/user/shiffman
   patterns:
     - daniel shiffman
-  tags: 
+  tags:
     - youtube
 
 - id: net_ninja
   belongsTo: shaun_pelling
   name: The Net Ninja
   youtubeUrl: https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg
-  tags: 
+  tags:
     - youtube
 
 - id: the_primeagen
@@ -76,7 +76,7 @@
     - primeagen
     - primagen
     - primeagean
-  tags: 
+  tags:
     - youtube
     - people
 
@@ -121,7 +121,7 @@
   belongsTo: akshay_saini
   name: Akshay Saini
   youtubeUrl: https://www.youtube.com/c/akshaymarch7
-  tags: 
+  tags:
     - youtube
 
 - id: ben_eater
@@ -129,68 +129,68 @@
   name: Ben Eater
   youtubeUrl: https://www.youtube.com/beneater
   youtubeName: beneater
-  tags: 
+  tags:
     - youtube
 
 - id: benjamin_code
   belongsTo: benjamin_debon
   name: Benjamin Code
   youtubeUrl: https://www.youtube.com/c/BenjaminCode
-  tags: 
+  tags:
     - youtube
 
 - id: code_bullet
   name: Code Bullet
   youtubeUrl: https://www.youtube.com/c/CodeBullet
-  tags: 
+  tags:
     - youtube
 
 - id: code_aesthetic
   name: CodeAesthetic
   youtubeUrl: https://www.youtube.com/@CodeAesthetic
-  tags: 
+  tags:
     - youtube
 
 - id: codevolution
   belongsTo: vishwas_gopinath
   name: Codevolution
   youtubeUrl: https://www.youtube.com/c/Codevolution
-  tags: 
+  tags:
     - youtube
 
 - id: coding_addict
   belongsTo: john_smilga
   name: CodingAddict
   youtubeUrl: https://www.youtube.com/c/CodingAddict
-  tags: 
+  tags:
     - youtube
 
 - id: coding_tech
   belongsTo: yuriy_matso
   name: Coding Tech
   youtubeUrl: https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ
-  tags: 
+  tags:
     - youtube
 
 - id: coding_in_public
   belongsTo: chris_pennington
   name: Coding in Public
   youtubeUrl: https://www.youtube.com/c/codinginpublic
-  tags: 
+  tags:
     - youtube
 
 - id: continuous_delivery
   belongsTo: dave_farley
   name: Continuous Delivery
   youtubeUrl: https://www.youtube.com/c/ContinuousDelivery
-  tags: 
+  tags:
     - youtube
 
 - id: decoded_frontend
   belongsTo: dmytro_mezhenskyi
   name: Decoded Frontend
   youtubeUrl: https://www.youtube.com/c/decodedfrontend
-  tags: 
+  tags:
     - youtube
 
 - id: developed_by_ed
@@ -200,39 +200,39 @@
   patterns:
     - deved
     - dev ed
-  tags: 
+  tags:
     - youtube
 
 - id: fazt
   name: Fazt
   youtubeUrl: https://www.youtube.com/c/FaztTech/videos
-  tags: 
+  tags:
     - youtube
 
 - id: http_203
   name: HTTP 203
   youtubeUrl: https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9
-  tags: 
+  tags:
     - youtube
 
 - id: hola_mundo
   belongsTo: nicolas_schurmann
   name: HolaMundo
   youtubeUrl: https://www.youtube.com/c/HolaMundoDev/videos
-  tags: 
+  tags:
     - youtube
 
 - id: hyperplexed
   name: Hyperplexed
   youtubeUrl: https://www.youtube.com/c/Hyperplexed
-  tags: 
+  tags:
     - youtube
 
 - id: javaScript_mastery
   belongsTo: adrian_hajdin
   name: JavaScript Mastery
   youtubeUrl: https://www.youtube.com/c/javascriptmastery
-  tags: 
+  tags:
     - youtube
 
 - id: joma_tech
@@ -241,41 +241,41 @@
   youtubeUrl: https://www.youtube.com/c/jomaoppa
   patterns:
     - joma
-  tags: 
+  tags:
     - youtube
 
 - id: joy_of_code
   name: Joy of Code
   youtubeUrl: https://www.youtube.com/c/joyofcodedev
-  tags: 
+  tags:
     - youtube
 
 - id: learn_with_jason
   belongsTo: jason_lengstorf
   name: Learn With Jason
   youtubeUrl: https://www.youtube.com/channel/UCnty0z0pNRDgnuoirYXnC5A
-  tags: 
+  tags:
     - youtube
 
 - id: no_boilerplate
   belongsTo: tristram_oaten
   name: No Boilerplate
   youtubeUrl: https://www.youtube.com/c/NoBoilerplate
-  tags: 
+  tags:
     - youtube
 
 - id: tech_with_tim
   belongsTo: tim_ruscica
   name: Tech With Tim
   youtubeUrl: https://www.youtube.com/c/TechWithTim
-  tags: 
+  tags:
     - youtube
 
 - id: low_byte_productions
   belongsTo: francis_stokes
   name: Low Byte Productions
   youtubeUrl: https://www.youtube.com/c/lowleveljavascript
-  tags: 
+  tags:
     - youtube
 
 - id: program_with_erik
@@ -285,21 +285,21 @@
   patterns:
     - programming with erik
     - program with eric
-  tags: 
+  tags:
     - youtube
 
 - id: the_cherno
   belongsTo: yan_chernikov
   name: The Cherno
   youtubeUrl: https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw
-  tags: 
+  tags:
     - youtube
 
 - id: ulbi_tv
   belongsTo: ulbi_timur
   name: Ulbi TV
   youtubeUrl: https://www.youtube.com/c/ulbitv
-  tags: 
+  tags:
     - youtube
 
 - id: layout_land
@@ -307,27 +307,49 @@
   name: Layout Land
   youtubeUrl: https://www.youtube.com/@LayoutLand
   youtubeName: LayoutLand
-  tags: 
+  tags:
     - youtube
 
-# - id: 
-#   name: 
-#   youtubeUrl: 
-#   homepage: 
-#   tags: 
+- id: hello_ruby
+  name: Linda Liukas
+  youtubeUrl: https://www.youtube.com/channel/UCv_iIb0G-4JyFfm7IvqMk8Q
+  youtubeName: HelloRubyWorld
+  belongsTo: linda_liukas
+  tags:
+    - youtube
+
+- id: tiff_in_tech
+  belongsTo: tiffany_janzen
+  name: Tiff In Tech
+  youtubeUrl: https://www.youtube.com/user/charnelle6
+  youtubeName: TiffInTech
+  tags:
+    - youtube
+
+- id: blondie_bytes
+  belongsTo: kathryn_hodge
+  name: blondiebytes
+  youtubeUrl: https://www.youtube.com/c/KathrynHodgeblondiebytes
+  youtubeName: blondiebytes
+  tags:
+    - youtube
+# - id:
+#   name:
+#   youtubeUrl:
+#   homepageUrl:
+#   tags:
 #     - youtube
 
-# - id: 
-#   name: 
-#   youtubeUrl: 
-#   homepage: 
-#   tags: 
+# - id:
+#   name:
+#   youtubeUrl:
+#   homepageUrl:
+#   tags:
 #     - youtube
 
-# - id: 
-#   name: 
-#   youtubeUrl: 
-#   homepage: 
-#   tags: 
+# - id:
+#   name:
+#   youtubeUrl:
+#   homepageUrl:
+#   tags:
 #     - youtube
-

@@ -1,70 +1,70 @@
 # GraphQL Servers
-  
+
 - id: graphql_js
   name: GraphQL.js
-  homepage: https://github.com/graphql/graphql-js
+  homepageUrl: https://github.com/graphql/graphql-js
 - id: apollo_server
   name: Apollo Server
-  homepage: https://www.apollographql.com/docs/apollo-server/
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/
 - id: yoga
   name: Yoga
-  homepage: https://www.graphql-yoga.com/
+  homepageUrl: https://www.graphql-yoga.com/
 - id: helix
   name: Helix
-  homepage: https://www.graphql-helix.com/
+  homepageUrl: https://www.graphql-helix.com/
 - id: express_graphql
   name: Express-GraphQL
-  homepage: https://github.com/graphql/express-graphql
+  homepageUrl: https://github.com/graphql/express-graphql
 - id: mercurius
   name: Mercurius
-  homepage: https://mercurius.dev/
+  homepageUrl: https://mercurius.dev/
 - id: hot_chocolate
   name: Hot Chocolate
-  homepage: https://chillicream.com/docs/hotchocolate
+  homepageUrl: https://chillicream.com/docs/hotchocolate
 - id: graphql_java
   name: GraphQL Java
-  homepage: https://www.graphql-java.com/
+  homepageUrl: https://www.graphql-java.com/
 - id: dgs
   name: DGS
-  homepage: https://netflix.github.io/dgs/
+  homepageUrl: https://netflix.github.io/dgs/
 - id: strawberry
   name: Strawberry
-  homepage: https://strawberry.rocks/
+  homepageUrl: https://strawberry.rocks/
 - id: sangria
   name: Sangria
-  homepage: https://sangria-graphql.github.io/
+  homepageUrl: https://sangria-graphql.github.io/
 - id: graphql_dotnet
   name: GraphQL .NET
-  homepage: https://graphql-dotnet.github.io/
+  homepageUrl: https://graphql-dotnet.github.io/
 - id: absinthe
   name: Absinthe
-  homepage: http://absinthe-graphql.org/
+  homepageUrl: http://absinthe-graphql.org/
 - id: graphql_go
   name: GraphQL-Go
-  homepage: https://github.com/graph-gophers/graphql-go
+  homepageUrl: https://github.com/graph-gophers/graphql-go
 - id: lighthouse
   name: Lighthouse
-  homepage: https://lighthouse-php.com/
+  homepageUrl: https://lighthouse-php.com/
 - id: graphql_ruby
   name: GraphQL Ruby
-  homepage: https://graphql-ruby.org/
-  patterns: 
+  homepageUrl: https://graphql-ruby.org/
+  patterns:
     - graphql-rb
 - id: async_graphql
   name: async-graphql
-  homepage: https://github.com/async-graphql/async-graphql
+  homepageUrl: https://github.com/async-graphql/async-graphql
 - id: async_graphql
   name: async-graphql
-  homepage: https://async-graphql.github.io/
+  homepageUrl: https://async-graphql.github.io/
 - id: juniper
   name: Juniper
-  homepage: https://github.com/graphql-rust/juniper
+  homepageUrl: https://github.com/graphql-rust/juniper
 - id: ariadne
   name: Ariadne
-  homepage: https://ariadnegraphql.org/
+  homepageUrl: https://ariadnegraphql.org/
 - id: graphql_php
   name: graphql-php
-  homepage: https://webonyx.github.io/graphql-php/
+  homepageUrl: https://webonyx.github.io/graphql-php/
   patterns:
     - webonyx
 
@@ -72,263 +72,263 @@
 
 - id: relay
   name: Relay
-  homepage: https://relay.dev/
+  homepageUrl: https://relay.dev/
 - id: apollo_client
   name: Apollo Client
-  homepage: https://www.apollographql.com/docs/react/
+  homepageUrl: https://www.apollographql.com/docs/react/
 - id: urql
   name: URQL
-  homepage: https://formidable.com/open-source/urql/
+  homepageUrl: https://formidable.com/open-source/urql/
 - id: react_query
   name: React Query
-  homepage: https://react-query.tanstack.com/
+  homepageUrl: https://react-query.tanstack.com/
 - id: apollo_ios
   name: Apollo iOS
-  homepage: https://www.apollographql.com/docs/ios
+  homepageUrl: https://www.apollographql.com/docs/ios
 - id: swift_graphql
   name: SwiftGraphQL
-  homepage: https://www.swift-graphql.com/
+  homepageUrl: https://www.swift-graphql.com/
 - id: apollo_kotlin
   name: Apollo Kotlin
-  homepage: https://www.apollographql.com/docs/kotlin
+  homepageUrl: https://www.apollographql.com/docs/kotlin
 - id: graphql_hooks
   name: GraphQL Hooks
-  homepage: https://github.com/nearform/graphql-hooks
+  homepageUrl: https://github.com/nearform/graphql-hooks
 - id: graphql_request
   name: graphql-request
-  homepage: https://github.com/prisma-labs/graphql-request
+  homepageUrl: https://github.com/prisma-labs/graphql-request
 - id: fetch
   name: fetch or equivalent (no GraphQL client)
-  homepage: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+  homepageUrl: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - id: gquery
   name: gQuery
-  homepage: https://gquery.leveluptutorials.com/
+  homepageUrl: https://gquery.leveluptutorials.com/
 - id: villus
   name: Villus
-  homepage: https://villus.logaretm.com/
+  homepageUrl: https://villus.logaretm.com/
 - id: aws_amplify
   name: AWS Amplify
-  homepage: https://aws.amazon.com/amplify/
+  homepageUrl: https://aws.amazon.com/amplify/
   patterns:
     - amplify
 - id: no_client
   name: No Client
-  
+
 # GraphQL API Generators
 - id: prisma
   name: Prisma
-  homepage: https://www.prisma.io/graphql
+  homepageUrl: https://www.prisma.io/graphql
 - id: postgraphile
   name: PostGraphile
-  homepage: https://github.com/graphile/postgraphile
+  homepageUrl: https://github.com/graphile/postgraphile
 - id: hasura
   name: Hasura
-  homepage: https://hasura.io/
+  homepageUrl: https://hasura.io/
 - id: graphcms
   name: Hygraph (ex-GraphCMS)
-  homepage: https://hygraph.com/
+  homepageUrl: https://hygraph.com/
 - id: sanity
   name: Sanity
-  homepage: https://www.sanity.io/docs/graphql
+  homepageUrl: https://www.sanity.io/docs/graphql
 - id: wpgraphql
   name: WPGraphQL
-  homepage: https://www.wpgraphql.com/
+  homepageUrl: https://www.wpgraphql.com/
 - id: wundergraph
   name: WunderGraph
-  homepage: https://wundergraph.com/
+  homepageUrl: https://wundergraph.com/
 - id: fauna
   name: Fauna
-  homepage: https://fauna.com/graphql
+  homepageUrl: https://fauna.com/graphql
 - id: dgraph
   name: Dgraph
-  homepage: https://dgraph.io/
+  homepageUrl: https://dgraph.io/
 - id: graphql_editor
   name: GraphQL Editor
-  homepage: https://graphqleditor.com/
+  homepageUrl: https://graphqleditor.com/
 - id: strapi
   name: Strapi
-  homepage: https://docs.strapi.io/developer-docs/latest/plugins/graphql.html
+  homepageUrl: https://docs.strapi.io/developer-docs/latest/plugins/graphql.html
 - id: appsync
   name: AWS AppSync
-  homepage: https://aws.amazon.com/appsync/
+  homepageUrl: https://aws.amazon.com/appsync/
 - id: contentful
   name: Contentful
-  homepage: https://www.contentful.com/developers/docs/references/graphql/
+  homepageUrl: https://www.contentful.com/developers/docs/references/graphql/
 - id: nest
   name: Nest
-  homepage: https://docs.nestjs.com/graphql/quick-start
+  homepageUrl: https://docs.nestjs.com/graphql/quick-start
 - id: pothos
   name: Pothos
-  homepage: https://pothos-graphql.dev/
+  homepageUrl: https://pothos-graphql.dev/
 - id: datocms
   name: DatoCMS
-  homepage: https://www.datocms.com/
+  homepageUrl: https://www.datocms.com/
 - id: prismic
   name: Prismic
-  homepage: https://prismic.io/
+  homepageUrl: https://prismic.io/
 - id: amplication
   name: Amplication
-  homepage: https://amplication.com/
+  homepageUrl: https://amplication.com/
 
 # GraphQL Code Generators
 - id: graphql_zeus
   name: GraphQL Zeus
-  homepage: https://github.com/graphql-editor/graphql-zeus
+  homepageUrl: https://github.com/graphql-editor/graphql-zeus
 - id: genql
   name: Genql
-  homepage: https://genql.vercel.app/
+  homepageUrl: https://genql.vercel.app/
 - id: graphql_code_generator
   name: GraphQL Code Generator
-  homepage: https://www.graphql-code-generator.com/
+  homepageUrl: https://www.graphql-code-generator.com/
 - id: nexus
   name: Nexus
-  homepage: https://nexusjs.org/
+  homepageUrl: https://nexusjs.org/
 - id: typegraphql
   name: TypeGraphQL
-  homepage: https://typegraphql.com/
+  homepageUrl: https://typegraphql.com/
   patterns:
     - typegraph
 - id: gqlgen
   name: gqlgen
-  homepage: https://gqlgen.com/
+  homepageUrl: https://gqlgen.com/
 
 # GraphQL IDEs
 
 - id: graphiql
   name: GraphiQL
-  homepage: https://github.com/graphql/graphiql
+  homepageUrl: https://github.com/graphql/graphiql
 - id: graphql_playground
   name: GraphQL Playground
-  homepage: https://github.com/graphql/graphql-playground
+  homepageUrl: https://github.com/graphql/graphql-playground
 - id: apollo_studio
   name: Apollo Studio
-  homepage: https://studio.apollographql.com/
+  homepageUrl: https://studio.apollographql.com/
 - id: altair
   name: Altair
-  homepage: https://altair.sirmuel.design/
+  homepageUrl: https://altair.sirmuel.design/
 - id: insomnia
   name: Insomnia
-  homepage: https://insomnia.rest/
+  homepageUrl: https://insomnia.rest/
 - id: postman
   name: Postman
-  homepage: https://www.postman.com/
+  homepageUrl: https://www.postman.com/
 - id: graphql_editor
   name: GraphQL Editor
-  homepage: https://graphqleditor.com/
+  homepageUrl: https://graphqleditor.com/
 - id: apollo_sandbox
   name: Apollo Sandbox
-  homepage: https://sandbox.apollo.dev/
+  homepageUrl: https://sandbox.apollo.dev/
 - id: hoppscotch
   name: Hoppscotch
-  homepage: https://hoppscotch.io/
+  homepageUrl: https://hoppscotch.io/
 - id: paw
   name: Paw
-  homepage: https://paw.cloud/
+  homepageUrl: https://paw.cloud/
 
 # Other Tools
 
 - id: envelop
   name: Envelop
-  homepage: https://www.envelop.dev/
+  homepageUrl: https://www.envelop.dev/
 - id: graphql_mesh
   name: GraphQL Mesh
-  homepage: https://www.graphql-mesh.com/
+  homepageUrl: https://www.graphql-mesh.com/
 - id: graphql_shield
   name: GraphQL Shield
-  homepage: https://www.graphql-shield.com/
+  homepageUrl: https://www.graphql-shield.com/
 - id: dataloader
   name: Dataloader
-  homepage: https://github.com/graphql/dataloader
+  homepageUrl: https://github.com/graphql/dataloader
 - id: graphql_voyager
   name: GraphQL Voyager
-  homepage: https://apis.guru/graphql-voyager/
+  homepageUrl: https://apis.guru/graphql-voyager/
 - id: graphqurl
   name: graphqurl
-  homepage: https://github.com/hasura/graphqurl
+  homepageUrl: https://github.com/hasura/graphqurl
 - id: stellate
   name: Stellate (formerly GraphCDN)
-  homepage: https://graphcdn.io/
+  homepageUrl: https://graphcdn.io/
   patterns:
     - graphcdn
 - id: apollo_client_devtools
   name: Apollo Client Devtools
-  homepage: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US
+  homepageUrl: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US
 - id: graphql_hive
   name: GraphQL Hive
-  homepage: https://graphql-hive.com/
+  homepageUrl: https://graphql-hive.com/
 - id: graphql_inspector
   name: GraphQL Inspector
-  homepage: https://www.graphql-inspector.com/
+  homepageUrl: https://www.graphql-inspector.com/
 - id: graphql_scalars
   name: GraphQL Scalars
-  homepage: https://www.graphql-scalars.dev/
+  homepageUrl: https://www.graphql-scalars.dev/
 - id: graphql_config
   name: GraphQL Config
-  homepage: https://www.graphql-config.com/
+  homepageUrl: https://www.graphql-config.com/
 - id: graphql_modules
   name: GraphQL Modules
-  homepage: https://www.graphql-modules.com/
+  homepageUrl: https://www.graphql-modules.com/
 - id: graphql_modules
   name: GraphQL Modules
-  homepage: https://www.graphql-modules.com/
+  homepageUrl: https://www.graphql-modules.com/
 - id: apollo_datasources
   name: Apollo Data Sources
-  homepage: https://www.apollographql.com/docs/apollo-server/data/data-sources/
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/data/data-sources/
 - id: stepzen
   name: StepZen
-  homepage: https://stepzen.com/
+  homepageUrl: https://stepzen.com/
 - id: mulesoft
   name: MuleSoft
-  homepage: https://www.mulesoft.com/
+  homepageUrl: https://www.mulesoft.com/
 - id: graphene
   name: Graphene
-  homepage: https://graphene-python.org/
+  homepageUrl: https://graphene-python.org/
 - id: apollo_federation
   name: Apollo Federation
-  homepage: https://www.apollographql.com/docs/federation/
+  homepageUrl: https://www.apollographql.com/docs/federation/
 - id: schema_stitching
   name: Schema Stitching
-  homepage: https://www.apollographql.com/docs/graphql-tools/schema-stitching.html
+  homepageUrl: https://www.apollographql.com/docs/graphql-tools/schema-stitching.html
 - id: hasura_data_federation
   name: Hasura Data Federation
-  homepage: https://hasura.io/docs/latest/graphql/core/data-federation/index/
+  homepageUrl: https://hasura.io/docs/latest/graphql/core/data-federation/index/
 - id: graphql_eslint
   name: GraphQL ESLint
-  homepage: https://github.com/B2o5T/graphql-eslint
+  homepageUrl: https://github.com/B2o5T/graphql-eslint
 - id: apollo_workbench
   name: Apollo Workbench
-  homepage: https://www.apollographql.com/docs/federation/v1/workbench/overview/
+  homepageUrl: https://www.apollographql.com/docs/federation/v1/workbench/overview/
 - id: grpc
   name: gRPC
-  homepage: https://grpc.io/
+  homepageUrl: https://grpc.io/
 
 # Sites
 - id: how_to_graphql
   name: How To GraphQL
-  homepage: https://www.howtographql.com/
-  tags: 
+  homepageUrl: https://www.howtographql.com/
+  tags:
     - sites
     - courses
 
 - id: one_week_graphql
   name: One Week GraphQL
-  homepage: https://oneweekgraphql.com/
-  tags: 
+  homepageUrl: https://oneweekgraphql.com/
+  tags:
     - sites
     - courses
 
 - id: graphql_wtf
   name: GraphQL.wtf
-  homepage: https://graphql.wtf/
-  tags: 
+  homepageUrl: https://graphql.wtf/
+  tags:
     - sites
     - courses
     - youtube
 
 - id: graphql_org
   name: GraphQL.org
-  homepage: https://graphql.org/
-  tags: 
+  homepageUrl: https://graphql.org/
+  tags:
     - sites
   patterns:
     - official graphql
@@ -341,8 +341,8 @@
 
 - id: production_ready_graphql
   name: Production Ready GraphQL
-  homepage: https://book.productionreadygraphql.com/
-  tags: 
+  homepageUrl: https://book.productionreadygraphql.com/
+  tags:
     - sites
     - books
 
@@ -351,27 +351,27 @@
 # common features
 - id: custom_directives
   name: Custom Directives
-  homepage: https://www.apollographql.com/docs/apollo-server/schema/creating-directives/
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/creating-directives/
 - id: custom_scalars
   name: Custom Scalars
-  homepage: https://www.apollographql.com/docs/apollo-server/schema/custom-scalars/
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/custom-scalars/
 - id: fragments
   name: Fragments
-  homepage: https://graphql.org/learn/queries/#:~:text=request.-,Fragments
+  homepageUrl: https://graphql.org/learn/queries/#:~:text=request.-,Fragments
 - id: unions
   name: Unions
-  homepage: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/
 - id: interfaces
   name: Interfaces
-  homepage: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/
 
 # directives
 - id: at_skip
-  name: '@skip'
-  homepage: https://dgraph.io/docs/graphql/queries/skip-include/
+  name: "@skip"
+  homepageUrl: https://dgraph.io/docs/graphql/queries/skip-include/
   example:
     language: graphql
-    code: > 
+    code: >
       query ($skipTitle: Boolean!) {
         queryPost {
           id
@@ -380,8 +380,8 @@
         }
       }
 - id: at_include
-  name: '@include'
-  homepage: https://dgraph.io/docs/graphql/queries/skip-include/
+  name: "@include"
+  homepageUrl: https://dgraph.io/docs/graphql/queries/skip-include/
   example:
     language: graphql
     code: >
@@ -397,8 +397,8 @@
         }
       }
 - id: at_deprecated
-  name: '@deprecated'
-  homepage: https://dgraph.io/docs/graphql/schema/deprecated/
+  name: "@deprecated"
+  homepageUrl: https://dgraph.io/docs/graphql/schema/deprecated/
   example:
     language: graphql
     code: >
@@ -409,15 +409,15 @@
         deprecatedField: String @deprecated
       }
 - id: at_specified_by
-  name: '@specifiedBy'
-  homepage: https://spec.graphql.org/draft/#sec--specifiedBy
+  name: "@specifiedBy"
+  homepageUrl: https://spec.graphql.org/draft/#sec--specifiedBy
   example:
     language: graphql
     code: >
       scalar UUID @specifiedBy(url: "https://tools.ietf.org/html/rfc4122")
 - id: at_defer
-  name: '@defer'
-  homepage: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
+  name: "@defer"
+  homepageUrl: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
   example:
     language: graphql
     code: >
@@ -427,8 +427,8 @@
           ...HomeworldFragment @defer(label: "homeworldDefer")
       }
 - id: at_stream
-  name: '@stream'
-  homepage: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
+  name: "@stream"
+  homepageUrl: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
   example:
     language: graphql
     code: >
@@ -443,65 +443,65 @@
 # security & performance
 - id: persisted_queries
   name: Persisted Queries
-  homepage: https://www.apollographql.com/docs/apollo-server/performance/apq/
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/performance/apq/
 - id: query_allowlisting
   name: Query Allow-listing
-  homepage: https://www.apollographql.com/blog/graphql/security/securing-your-graphql-api-from-malicious-queries/
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/securing-your-graphql-api-from-malicious-queries/
 - id: query_timeouts
   name: Query Timeouts
-  homepage: https://medium.com/workflowgen/graphql-query-timeout-and-complexity-management-fab4d7315d8d
+  homepageUrl: https://medium.com/workflowgen/graphql-query-timeout-and-complexity-management-fab4d7315d8d
 - id: query_rate_limit
   name: Query Rate Limiting
-  homepage: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
+  homepageUrl: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
 - id: query_depth_limit
   name: Query Depth Limiting
-  homepage: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
+  homepageUrl: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
 - id: query_amount_limit
   name: Query Amount Limiting
-  homepage: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
+  homepageUrl: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
 - id: query_cost_analysis
   name: Query Cost Analysis
-  homepage: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
+  homepageUrl: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
 - id: disabling_introspection
   name: Disabling Introspection
-  homepage: https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/
 - id: ip_allowlisting
   name: IP Allow-listing
-  homepage: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/
 - id: require_authentication
   name: Requiring Authentication
-  homepage: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/
 
 # other features
 - id: graphql_subscriptions
   name: GraphQL Subscriptions
-  homepage: https://www.apollographql.com/docs/react/data/subscriptions/
+  homepageUrl: https://www.apollographql.com/docs/react/data/subscriptions/
 - id: live_queries
   name: Live Queries
-  homepage: https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql
+  homepageUrl: https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql
 - id: apollo_federation
   name: Apollo Federation
-  homepage: https://www.apollographql.com/docs/federation/
+  homepageUrl: https://www.apollographql.com/docs/federation/
 - id: schema_stitching
   name: Schema Stitching
-  homepage: https://blog.logrocket.com/understanding-schema-stitching-graphql/
+  homepageUrl: https://blog.logrocket.com/understanding-schema-stitching-graphql/
 
 # Other
 
 - id: graphile
   name: Graphile
-  homepage: https://www.graphile.org/
+  homepageUrl: https://www.graphile.org/
 - id: the_guild
   name: The Guild
-  homepage: https://www.the-guild.dev/
+  homepageUrl: https://www.the-guild.dev/
 - id: apollo
   name: Apollo
-  homepage: https://www.apollographql.com/
+  homepageUrl: https://www.apollographql.com/
 - id: cli
   name: CLI
 - id: server_to_server
   name: Server to Server
-  patterns: 
+  patterns:
     - s2s
     - server 2 server
 
@@ -512,5 +512,5 @@
   patterns:
     - email
     - devographics.com
-  tags: 
+  tags:
     - sources_state_of_graphql

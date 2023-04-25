@@ -3,16 +3,16 @@
 - id: copy_paste
   normalizationOnly: true
   name: Copy/paste
-  tags: 
+  tags:
     - css_first_steps
-  patterns: 
+  patterns:
     - copy
     - copying
 
 - id: view_source
   normalizationOnly: true
   name: View Source
-  tags: 
+  tags:
     - css_first_steps
   patterns:
     - source
@@ -21,57 +21,58 @@
 - id: blogs
   normalizationOnly: true
   name: Blogs & Articles
-  tags: 
+  tags:
     - css_first_steps
-  patterns: 
+  patterns:
     - blog
     - blogger
     - articles
-    
+
 - id: forums
   normalizationOnly: true
   name: Forums
-  tags: 
+  tags:
     - css_first_steps
-  patterns: 
+  patterns:
     - forum
-    
+
 - id: w3schools
   name: W3Schools
-  homepage: https://www.w3schools.com/
-  tags: 
+  homepageUrl: https://www.w3schools.com/
+  tags:
     - css_first_steps
-    
+
 - id: w3c
   name: W3C
   patterns:
     - specification
     - spec
-  tags: 
+  tags:
     - css_first_steps
-    
+
 - id: twitter
   normalizationOnly: true
-  tags: 
+  tags:
     - css_first_steps
 
 - id: freecodecamp
   name: freeCodeCamp
-  tags: 
+  normalizationOnly: true
+  tags:
     - css_first_steps
 
 - id: selfhtml
   name: SelfHTML
-  tags: 
+  tags:
     - css_first_steps
 
 - id: trial_and_error
   name: Trial & Error
-  patterns: 
+  patterns:
     - trial
     - error
     - trying
-  tags: 
+  tags:
     - css_first_steps
 
 - id: documentation
@@ -79,6 +80,5 @@
   patterns:
     - docs
     - documents
-  tags: 
+  tags:
     - css_first_steps
-

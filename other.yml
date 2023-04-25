@@ -7,7 +7,7 @@
   description: |
     You will not be surprised to hear that BEM is an abbreviation
     of the key elements of the methodology — Block, Element and Modifier.
-  homepage: "http://getbem.com/"
+  homepageUrl: "http://getbem.com/"
   tags:
     - css
     - css_methodologies
@@ -18,7 +18,7 @@
   description: |
     Atomic CSS is a CSS architecture. It is not opinionated;
     it simply defines a set of classes representing single-purpose styling units.
-  homepage: "https://acss.io"
+  homepageUrl: "https://acss.io"
   tags:
     - css
     - css_methodologies
@@ -26,7 +26,7 @@
 - id: oocss
   name: OOCSS
   contexts: [state_of_css]
-  homepage: http://oocss.org/
+  homepageUrl: http://oocss.org/
   description: |
     OOCSS, or object-oriented CSS, is a methodology to help programmers
     write CSS that is succinct and easy to maintain.
@@ -37,7 +37,7 @@
 - id: smacss
   name: SMACSS
   contexts: [state_of_css]
-  homepage: http://smacss.com/
+  homepageUrl: http://smacss.com/
   description: |
     SMACSS (pronounced “smacks”) is more style guide than rigid framework.
     There is no library within here for you to download or install.
@@ -53,7 +53,7 @@
   description: |
     ITCSS is a sane, scalable, managed
     CSS architecture from CSS Wizardry
-  homepage: https://itcss.io/
+  homepageUrl: https://itcss.io/
   tags:
     - state_of_css
     - css
@@ -61,7 +61,7 @@
 
 - id: cube_css
   name: CUBE CSS
-  homepage: https://piccalil.li/blog/cube-css/
+  homepageUrl: https://piccalil.li/blog/cube-css/
   tags:
     - css
     - css_methodologies
@@ -74,7 +74,7 @@
 
 - id: rscss
   name: RSCSS
-  homepage: https://rscss.io/
+  homepageUrl: https://rscss.io/
   tags:
     - css
     - css_methodologies
@@ -85,7 +85,7 @@
 
 - id: stylelint
   name: Stylelint
-  homepage: https://stylelint.io/
+  homepageUrl: https://stylelint.io/
   contexts: [state_of_css]
   npm: stylelint
   tags:
@@ -93,29 +93,28 @@
 
 - id: purge_css
   name: PurgeCSS
-  homepage: https://purgecss.com/
+  homepageUrl: https://purgecss.com/
   contexts: [state_of_css]
   tags:
     - css
 
 - id: purify_css
   name: PurifyCSS
-  homepage: https://purifycss.online/
+  homepageUrl: https://purifycss.online/
   contexts: [state_of_css]
   tags:
     - css
 
-  
 - id: browser_environment
   name: Browser
 
 - id: jspm
   name: jspm
-  homepage: https://jspm.org/
+  homepageUrl: https://jspm.org/
 
 - id: css_comb
   name: CSScomb
-  homepage: https://github.com/csscomb/csscomb.js
+  homepageUrl: https://github.com/csscomb/csscomb.js
   github: csscomb/csscomb.js
   tags:
     - css
@@ -123,7 +122,7 @@
 
 - id: csso
   name: CSSO
-  homepage: https://css.github.io/csso/csso.html
+  homepageUrl: https://css.github.io/csso/csso.html
   github: css/csso
   tags:
     - css
@@ -131,7 +130,7 @@
 
 - id: codekit
   name: CodeKit
-  homepage: https://codekitapp.com/
+  homepageUrl: https://codekitapp.com/
   tags:
     - css
     - utilities
@@ -142,19 +141,19 @@
 
 - id: browserstack
   name: BrowserStack
-  homepage: https://www.browserstack.com/
-  tags: 
-    - css 
+  homepageUrl: https://www.browserstack.com/
+  tags:
+    - css
     - form_factors
 
 - id: voice
   name: Voice Control
-  tags: 
-    - css 
+  tags:
+    - css
     - form_factors
 
 - id: simulator
   name: Xcode Simulator
-  tags: 
-    - css 
+  tags:
+    - css
     - form_factors

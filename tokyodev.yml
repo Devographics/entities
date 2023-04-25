@@ -1,0 +1,159 @@
+# employment_status
+
+- id: unemployed
+  patterns:
+    - not employed
+  tags:
+    - employment_status
+
+- id: self_employed
+  patterns:
+    - jieigyo
+    - 自営業
+    - freelancer
+  tags:
+    - employment_status
+
+# how_did_you_find_your_current_job
+
+- id: linked_in
+  tags:
+    - how_did_you_find_your_current_job
+- id: referral
+  tags:
+    - how_did_you_find_your_current_job
+- id: job_board
+  patterns:
+    - stack( )?overflow
+    - type.jp
+    - tokyo( )?dev
+    - japan( )?dev
+    - wantedly
+    - career cross
+  tags:
+    - how_did_you_find_your_current_job
+- id: networking
+  patterns:
+    - event
+    - hn( )?tokyo
+  tags:
+    - how_did_you_find_your_current_job
+- id: job_fair
+  tags:
+    - how_did_you_find_your_current_job
+- id: recruiter
+  patterns:
+    - headhunter
+    - agent
+  tags:
+    - how_did_you_find_your_current_job
+
+# how_to_improve_job_satisfaction
+
+- id: increase_compensation
+  patterns:
+    - pay
+    - salary
+    - compensation
+    - money
+    - wages
+    - raise
+    - salaray
+    - salaries
+    - incentive
+    - equity
+    - promotion
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: more_paid_leave
+  patterns:
+    - holiday
+    - time( )?off
+    - leave
+    - vacation
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: better_employee_retention
+  patterns:
+    - retain
+    - stop jumping from company to company
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: better_remote_work
+  patterns:
+    - remote
+    - work from home
+    - wfh
+    - hybrid
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: four_day_workweek
+  patterns:
+    - 4 day
+    - four day
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: hire_more_staff
+  patterns:
+    - hire more
+    - better trained
+    - more people
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: increase_skill_level
+  patterns:
+    - more skilled
+    - better trined
+    - more qualified
+    - well-trained
+    - educate
+    - smarter
+    - online courses
+    - training
+    - certification
+    - mentorship
+    - learning opportunities
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: improve_management
+  patterns:
+    - manage
+    - more structured
+    - more organised
+    - less micromanaging
+    - hire a pm
+    - improve organisation
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: higher_impact_work
+  patterns:
+    - high impact
+    - opportunities
+    - more interesting
+    - more challenges
+    - high stakes
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: better_technology
+  patterns:
+    - technological choices
+    - newer tech
+  tags:
+    - how_to_improve_job_satisfaction
+
+- id: improve_diversity
+  patterns:
+    - diversity
+    - international
+    - foreigners
+  tags:
+    - how_to_improve_job_satisfaction

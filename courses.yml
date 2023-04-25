@@ -1,14 +1,14 @@
 - id: codecademy
   name: Codecademy
-  homepage: https://www.codecademy.com/
+  homepageUrl: https://www.codecademy.com/
 
 - id: pluralsight
   name: Pluralsight
-  homepage: https://www.pluralsight.com/
+  homepageUrl: https://www.pluralsight.com/
 
 - id: levelup
   name: Level Up Tutorials
-  homepage: https://www.leveluptutorials.com/
+  homepageUrl: https://www.leveluptutorials.com/
   patterns:
     - level( |-|_)?up
     - LevelUp Tutorials
@@ -16,69 +16,69 @@
 
 - id: udemy
   name: Udemy
-  homepage: https://www.udemy.com/
-    
+  homepageUrl: https://www.udemy.com/
+
 - id: lynda
   name: Lynda
-  homepage: https://www.lynda.com/
+  homepageUrl: https://www.lynda.com/
 
 - id: egghead
   name: Egghead.io
-  homepage: https://egghead.io/
+  homepageUrl: https://egghead.io/
 
 - id: udacity
   name: Udacity
-  homepage: https://www.udacity.com/
-  
+  homepageUrl: https://www.udacity.com/
+
 - id: newline
   name: Newline
-  homepage: https://www.newline.co/
+  homepageUrl: https://www.newline.co/
 
 - id: superhi
   name: SuperHi
-  homepage: https://www.superhi.com/
+  homepageUrl: https://www.superhi.com/
 
 - id: laracasts
   name: Laracasts
-  homepage: https://laracasts.com/
+  homepageUrl: https://laracasts.com/
 
 - id: testingjavascript
   name: Testing JavaScript
-  homepage: https://testingjavascript.com/
+  homepageUrl: https://testingjavascript.com/
 
 - id: linkedin_learning
   name: LinkedIn Learning
-  homepage: https://www.linkedin.com/learning/
+  homepageUrl: https://www.linkedin.com/learning/
   patterns:
     - lynda
     - linkedin
     - linked( |-)in
-    
+
 - id: ultimate_courses
   name: Ultimate Courses
-  homepage: https://ultimatecourses.com/
+  homepageUrl: https://ultimatecourses.com/
 
 - id: designcode
   name: Design+Code
-  homepage: https://designcode.io/
+  homepageUrl: https://designcode.io/
 
 - id: frontendmasters
   name: Frontend Masters
-  homepage: https://frontendmasters.com/
+  homepageUrl: https://frontendmasters.com/
   patterns:
     - front( |-)?end( |-)?masters
 
 - id: treehouse
   name: Treehouse
-  homepage: https://teamtreehouse.com/
+  homepageUrl: https://teamtreehouse.com/
 
 - id: vueschool
   name: Vue School
-  homepage: https://vueschool.io/
+  homepageUrl: https://vueschool.io/
 
 - id: superhi
   name: SuperHi
-  homepage: https://www.superhi.com/
+  homepageUrl: https://www.superhi.com/
   tags:
     - courses
     - css
@@ -86,166 +86,166 @@
 
 - id: platzi
   name: Platzi
-  homepage: https://platzi.com/
+  homepageUrl: https://platzi.com/
 
 - id: traversy_media
   name: Traversy Media
-  homepage: https://www.traversymedia.com/
+  homepageUrl: https://www.traversymedia.com/
   patterns:
     - traversy
 
 - id: javascript_info
   name: JavaScript.info
-  homepage: https://javascript.info/
+  homepageUrl: https://javascript.info/
 
 - id: every_layout
   name: Every Layout
-  homepage: https://every-layout.dev/
+  homepageUrl: https://every-layout.dev/
   tags:
     - css
 
 - id: html_academy
   name: HTML Academy
-  homepage: https://htmlacademy.org/
-  tags: 
+  homepageUrl: https://htmlacademy.org/
+  tags:
     - css
 
 - id: in_depth_dev
   name: In Depth Dev
-  homepage: https://indepth.dev/
+  homepageUrl: https://indepth.dev/
   patterns:
     - in( |-)depth
 
 - id: vue_mastery
   name: Vue Mastery
-  homepage: https://www.vuemastery.com/
+  homepageUrl: https://www.vuemastery.com/
 
 - id: epic_react
   name: Epic React
-  homepage: https://epicreact.dev/
+  homepageUrl: https://epicreact.dev/
 
 - id: odin_project
   name: The Odin Project
-  homepage: https://www.theodinproject.com/
+  homepageUrl: https://www.theodinproject.com/
 
 - id: academind
   name: Academind
-  homepage: https://academind.com/
+  homepageUrl: https://academind.com/
 
 - id: zero_to_mastery
   name: Zero To Mastery
-  homepage: https://zerotomastery.io/
+  homepageUrl: https://zerotomastery.io/
   patterns:
     - ztm
 
 - id: codehs
   name: CodeHS
-  homepage: https://codehs.com/
+  homepageUrl: https://codehs.com/
 
 - id: educative
   name: Educative
-  homepage: https://www.educative.io/
+  homepageUrl: https://www.educative.io/
 
 - id: codely
   name: Codely
-  homepage: https://codely.io/
+  homepageUrl: https://codely.io/
 
 - id: openclassrooms
   name: Openclassrooms
-  homepage: https://openclassrooms.com/
+  homepageUrl: https://openclassrooms.com/
   patterns:
     - openclassroom
 
 - id: ionic_academy
   name: Ionic Academy
-  homepage: https://ionicacademy.com/
+  homepageUrl: https://ionicacademy.com/
 
 - id: edx
   name: edx
-  homepage: https://www.edx.org/
+  homepageUrl: https://www.edx.org/
 
 - id: css_for_js_devs
   name: CSS for JS Devs
-  homepage: https://css-for-js.dev/
+  homepageUrl: https://css-for-js.dev/
 
 - id: o_reilly
   name: O'Reilly
-  homepage: https://www.oreilly.com/
+  homepageUrl: https://www.oreilly.com/
 
 - id: o_reilly
   name: O'Reilly
-  homepage: https://www.oreilly.com/
+  homepageUrl: https://www.oreilly.com/
 
 - id: coursera
   name: Coursera
-  homepage: https://www.coursera.com/
+  homepageUrl: https://www.coursera.com/
 
 - id: alura
   name: Alura
-  homepage: https://www.alura.com.br/
+  homepageUrl: https://www.alura.com.br/
 
 - id: execute_program
   name: Execute Program
-  homepage: https://www.executeprogram.com/
+  homepageUrl: https://www.executeprogram.com/
 
 - id: exercism
   name: Exercism
-  homepage: https://exercism.org/
+  homepageUrl: https://exercism.org/
 
 - id: geeks_for_geeks
   name: GeeksforGeeks
-  homepage: https://www.geeksforgeeks.org/
+  homepageUrl: https://www.geeksforgeeks.org/
 
 - id: khan_academy
   name: Khan Academy
-  homepage: https://www.khanacademy.org/
+  homepageUrl: https://www.khanacademy.org/
 
 - id: rocketseat
   name: Rocketseat
-  homepage: https://www.rocketseat.com.br/
+  homepageUrl: https://www.rocketseat.com.br/
 
 - id: skillcrush
   name: Skillcrush
-  homepage: https://skillcrush.com/
+  homepageUrl: https://skillcrush.com/
 
 - id: sololearn
   name: Sololearn
-  homepage: https://www.sololearn.com/
+  homepageUrl: https://www.sololearn.com/
 
 - id: three_js_journey
   name: Three.js Journey
-  homepage: https://threejs-journey.com/
+  homepageUrl: https://threejs-journey.com/
 
 - id: vue_school
   name: Vue School
-  homepage: https://vueschool.io/
+  homepageUrl: https://vueschool.io/
 
 - id: learn_javascript_ru
   name: Javascript.ru
   patterns:
     - javascript.ru
-  homepage: https://learn.javascript.ru/
+  homepageUrl: https://learn.javascript.ru/
 
 - id: 100devs
   name: 100Devs
-  homepage: https://leonnoel.com/100devs/
+  homepageUrl: https://leonnoel.com/100devs/
 
 - id: angular_university
   name: Angular University
-  homepage: https://angular-university.io/
+  homepageUrl: https://angular-university.io/
 
 - id: code_with_mosh
   name: Code With Mosh
-  homepage: https://codewithmosh.com/
+  homepageUrl: https://codewithmosh.com/
 
 - id: domestika
   name: Domestika
-  homepage: https://www.domestika.org/
+  homepageUrl: https://www.domestika.org/
 
 - id: code_with_harry
   name: Code With Harry
-  homepage: https://www.codewithharry.com/
+  homepageUrl: https://www.codewithharry.com/
 
 - id: learn_vue
   name: Learn Vue
-  homepage: https://learnvue.co/
+  homepageUrl: https://learnvue.co/

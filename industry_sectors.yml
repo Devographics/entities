@@ -1,6 +1,6 @@
 - id: science
   name: Science
-  
+
 - id: human_resources
   name: Human Resources
   patterns:
@@ -8,37 +8,37 @@
 
 - id: security
   name: Security
-  
+
 - id: legal
   name: Legal
-  
+
 - id: payments
   name: Payments
-  
+
 - id: communication
   name: Communication
-  
+
 - id: sports
   name: Sports & Fitness
   patterns:
     - sport
     - fitness
-  
+
 - id: music
   name: Music
-  
+
 - id: gaming
   name: Gaming
-  patterns: 
+  patterns:
     - game
     - games
-  
+
 - id: saas
   name: SaaS
-  
+
 - id: tourism
   name: Tourism
-  
+
 - id: energy
   name: Energy
 
@@ -190,3 +190,10 @@
 
 - id: design
   name: Design
+
+- id: automotive
+  name: Automotive
+  patterns:
+    - auto
+    - car
+    - vehicle

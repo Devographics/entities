@@ -1,6 +1,6 @@
 - id: state_of_js_survey
   name: State of JavaScript
-  homepage: https://stateofjs.com
+  homepageUrl: https://stateofjs.com
   patterns:
     - state( |-|_)?of( |-|_)?js
     - state( |-)?of( |-)?javascript
@@ -9,112 +9,112 @@
     - stateofjs.com
 - id: state_of_css_survey
   name: State of CSS
-  homepage: https://stateofcss.com
+  homepageUrl: https://stateofcss.com
   patterns:
     - state( |-|_)?of( |-|_)?css
     - state_of_css_email
 
 - id: state_of_graphql_survey
   name: State of GraphQL
-  homepage: https://stateofgraphql.com
+  homepageUrl: https://stateofgraphql.com
   patterns:
     - state( |-|_)?of( |-|_)?graphql
     - state_of_graphql_email
 
 - id: stack_overflow_survey
   name: Stack Overflow Annual Developer Survey
-  homepage: https://insights.stackoverflow.com/survey/
+  homepageUrl: https://insights.stackoverflow.com/survey/
 
 - id: jetbrains_survey
   name: JetBrains State of Developer Ecosystem
-  homepage: https://www.jetbrains.com/lp/devecosystem-2021/
+  homepageUrl: https://www.jetbrains.com/lp/devecosystem-2021/
 
 - id: codingame_survey
   name: CodinGame Developer Survey
-  homepage: https://www.codingame.com/work/codingame-developer-survey-2021/
+  homepageUrl: https://www.codingame.com/work/codingame-developer-survey-2021/
 
 - id: uxtools_survey
   name: Design Tools Survey
-  homepage: https://uxtools.co/survey-2021/
+  homepageUrl: https://uxtools.co/survey-2021/
 
 - id: postman_survey
   name: Postman State of the API Report
-  homepage: https://www.postman.com/state-of-api/
+  homepageUrl: https://www.postman.com/state-of-api/
   patterns:
     - postman
 
 - id: state_of_elm
   name: State of Elm
-  homepage: https://state-of-elm.lamdera.app/
+  homepageUrl: https://state-of-elm.lamdera.app/
   patterns:
     - elm
 
 - id: state_of_octoverse
   name: GitHub State of the Octoverse
-  homepage: https://octoverse.github.com/
+  homepageUrl: https://octoverse.github.com/
   patterns:
     - github
 
 - id: state_of_go
   name: Go Developer Survey
-  homepage: https://go.dev/blog/survey2021-results
+  homepageUrl: https://go.dev/blog/survey2021-results
 
 - id: state_of_frontend
   name: State of Frontend
-  homepage: https://tsh.io/state-of-frontend/
+  homepageUrl: https://tsh.io/state-of-frontend/
   patterns:
     - frontend
 
 - id: state_of_laravel
   name: State of Laravel
-  homepage: https://stateoflaravel.com/
+  homepageUrl: https://stateoflaravel.com/
   patterns:
     - laravel
 
 - id: wordpress_survey
   name: WordPress Annual Survey
-  homepage: https://wordpress.org/news/2021/11/take-the-2021-wordpress-annual-survey-and-view-the-2020-results/
+  homepageUrl: https://wordpress.org/news/2021/11/take-the-2021-wordpress-annual-survey-and-view-the-2020-results/
   patterns:
     - wordpress
 
 - id: developer_nation
   name: Developer Nation Survey
-  homepage: https://www.developereconomics.net/
+  homepageUrl: https://www.developereconomics.net/
   patterns:
     - nation
 
 - id: state_of_rust
   name: State of Rust
-  homepage: https://blog.rust-lang.org/2021/12/08/survey-launch.html
+  homepageUrl: https://blog.rust-lang.org/2021/12/08/survey-launch.html
   patterns:
     - rust
 
 - id: jamstack_survey
   name: Jamstack Community Survey
-  homepage: https://jamstack.org/survey/
+  homepageUrl: https://jamstack.org/survey/
   patterns:
     - jamstack
 
 - id: angular_devceloper_survey
   name: Angular Developer Survey
-  homepage: https://blog.angular.io/developer-survey-2021-results-38e653cbb36b
+  homepageUrl: https://blog.angular.io/developer-survey-2021-results-38e653cbb36b
   patterns:
     - angular
 
 - id: state_of_clojure
   name: State of Clojure
-  homepage: https://clojure.org/news/2022/06/02/state-of-clojure-2022
+  homepageUrl: https://clojure.org/news/2022/06/02/state-of-clojure-2022
   patterns:
     - clojure
 
 - id: state_of_devops
   name: State of DevOps
-  homepage: https://cloud.google.com/devops/state-of-devops
+  homepageUrl: https://cloud.google.com/devops/state-of-devops
   patterns:
     - devops
 
 - id: state_of_purescript
   name: State of PureScript
-  homepage: https://discourse.purescript.org/t/the-state-of-purescript-survey-2022-the-results-are-in/2966
+  homepageUrl: https://discourse.purescript.org/t/the-state-of-purescript-survey-2022-the-results-are-in/2966
   patterns:
     - purescript

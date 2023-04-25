@@ -2,19 +2,19 @@
 
 - id: optional_chaining
   name: Optional Chaining
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - conditional chaining
 
 - id: battery_api
   name: Battery API
-  tags: 
+  tags:
     - js_missing_features
 
 - id: static_typing
   name: Static Typing
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - type
@@ -24,12 +24,12 @@
 
 - id: interfaces
   name: Interfaces
-  tags: 
+  tags:
     - js_missing_features
 
 - id: standard_library
   name: Standard Library
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - std
@@ -37,112 +37,112 @@
 
 - id: documentation
   name: Documentation
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - docs
 
 - id: pipe_operator
   name: Pipe Operator
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - pipe
 
 - id: pattern_matching
   name: Pattern Matching
-  tags: 
+  tags:
     - js_missing_features
 
 - id: auto_currying
   name: Auto-Currying
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - currying
 
 - id: native_observables
   name: Native Observables
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - observable
 
 - id: decorators
   name: Decorators
-  tags: 
+  tags:
     - js_missing_features
 
 - id: simplicity
   name: Simplicity
-  tags: 
+  tags:
     - js_missing_features
 
 - id: sanity
   name: Sanity
-  tags: 
+  tags:
     - js_missing_features
 
 - id: tree_shaking
   name: Tree Shaking
-  tags: 
+  tags:
     - js_missing_features
 
 - id: immutable
   name: Immutable Data Structure
-  tags: 
+  tags:
     - js_missing_features
 
 - id: multi_threading
   name: Multi Threading
-  tags: 
+  tags:
     - js_missing_features
 
 - id: date_time
   name: Date/Time Handling
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - date/time
 
 - id: monads
   name: Monads
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - monad
 
 - id: concurrency
   name: Concurrency
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - concurency
 
 - id: multithreading
   name: Multithreading
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - thread
 
 - id: operator_overloading
   name: Operator Overloading
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - overload
 
 - id: deep_clone
   name: Deep Clone
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - deep
 
 - id: enums
   name: Enums
-  tags: 
+  tags:
     - js_missing_features
   patterns:
     - enum
@@ -151,8 +151,7 @@
 
 - id: esm
   name: ESM vs CJM
-  tags: 
-    js_pain_points
+  tags: js_pain_points
   patterns:
     - es modules
     - commonjs
@@ -161,19 +160,19 @@
 
 - id: slow
   name: Slowness
-  tags: 
+  tags:
     - js_pain_points
 
 - id: build_tools
   name: Build Tools
-  tags: 
+  tags:
     - js_pain_points
   patterns:
     - build
 
 - id: bundlers
   name: Bundlers
-  tags: 
+  tags:
     - js_pain_points
   patterns:
     - bundling
@@ -181,19 +180,19 @@
 
 - id: security
   name: Security
-  tags: 
+  tags:
     - js_pain_points
 
 - id: complexity
   name: Complexity
-  tags: 
+  tags:
     - js_pain_points
   patterns:
     - complex
 
 - id: standard_library
   name: No standard library
-  tags: 
+  tags:
     - js_pain_points
   patterns:
     - std lib
@@ -201,12 +200,12 @@
 
 - id: npm
   name: npm
-  tags: 
+  tags:
     - js_pain_points
 
 - id: testing
   name: Testing
-  tags: 
+  tags:
     - js_pain_points
 
 - id: cross_browser
@@ -214,24 +213,24 @@
   patterns:
     - cross
     - cross(-| )?platform
-  tags: 
+  tags:
     - js_pain_points
 
 - id: too_many_choices
   name: Too Many Choices
   patterns:
     - too many
-  tags: 
+  tags:
     - js_pain_points
 
 - id: performance
   name: Performance
-  tags: 
+  tags:
     - js_pain_points
 
 - id: dependencies
   name: Dependencies
-  tags: 
+  tags:
     - js_pain_points
 
 - id: immutability
@@ -239,7 +238,7 @@
   patterns:
     - mutable
     - mutability
-  tags: 
+  tags:
     - js_pain_points
 
 - id: esm_cjs
@@ -251,99 +250,99 @@
     - es modules
     - commonjs
     - common js
-  tags: 
+  tags:
     - js_pain_points
 
 - id: data_fetching
   name: Data Fetching
-  tags: 
+  tags:
     - js_pain_points
 
 - id: monorepos
   name: Monorepos
   patterns:
     - monorepo
-  tags: 
+  tags:
     - js_pain_points
 
 - id: react
   name: React
   normalizationOnly: true
-  tags: 
+  tags:
     - js_pain_points
 
 - id: caching
   name: Caching
-  tags: 
+  tags:
     - js_pain_points
 
 - id: ssr
   name: SSR
-  tags: 
+  tags:
     - js_pain_points
 
 - id: typescript
   name: TypeScript
   normalizationOnly: true
-  tags: 
+  tags:
     - js_pain_points
 
 - id: typing
   name: Typing
   patterns:
     - type
-  tags: 
+  tags:
     - js_pain_points
 
 - id: browser_compatibility
   name: Browser Compatibility
-  tags: 
+  tags:
     - js_pain_points
 
 - id: debugging
   name: Debugging
-  tags: 
+  tags:
     - js_pain_points
 
 - id: tooling
   name: Tooling
-  tags: 
+  tags:
     - js_pain_points
 
 - id: multithreading
   name: Multithreading
   patterns:
     - thread
-  tags: 
+  tags:
     - js_pain_points
 
 - id: javascript_fatigue
   name: JavaScript Fatigue
-  tags: 
+  tags:
     - js_pain_points
 
 - id: legacy_support
   name: Legacy Code & Support
   patterns:
     - legacy
-  tags: 
+  tags:
     - js_pain_points
 
 - id: type_safety
   name: Type Safety
-  tags: 
+  tags:
     - js_pain_points
 
 - id: node_modules
   name: node_modules Directory
-  tags: 
+  tags:
     - js_pain_points
 
 - id: internationalization
   name: Internationalization
   patterns:
     - i18n
-  tags: 
+  tags:
     - js_pain_points
 
 # use cases
@@ -485,7 +484,7 @@
   name: Domain-Driven Design
   patterns:
     - ddd
-  homepage: https://en.wikipedia.org/wiki/Domain-driven_design
+  homepageUrl: https://en.wikipedia.org/wiki/Domain-driven_design
   tags:
     - js_patterns
 
@@ -501,5 +500,5 @@
     - survey.devographics.com
     - post_survey_share
     - mail
-  tags: 
+  tags:
     - sources_state_of_js
