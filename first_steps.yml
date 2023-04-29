@@ -37,12 +37,14 @@
     - forum
 
 - id: w3schools
+  normalizationOnly: true
   name: W3Schools
   homepageUrl: https://www.w3schools.com/
   tags:
     - css_first_steps
 
 - id: w3c
+  normalizationOnly: true
   name: W3C
   patterns:
     - specification
@@ -67,6 +69,7 @@
     - css_first_steps
 
 - id: trial_and_error
+  normalizationOnly: true
   name: Trial & Error
   patterns:
     - trial
@@ -76,6 +79,7 @@
     - css_first_steps
 
 - id: documentation
+  normalizationOnly: true
   name: Documentation
   patterns:
     - docs
