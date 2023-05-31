@@ -19,6 +19,18 @@
   name: Subgrid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
   caniuse: css-subgrid
+  example:
+    language: css
+    code: |
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+      }
+
+      .item {
+        grid-row: 1 / 4;
+      }
   patterns:
     - sub( |-)?grid
   tags:
@@ -141,7 +153,6 @@
     - css_layout
 
 - id: at_container
-  name: "`@container`"
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
   caniuse: css-container-queries
   example:
@@ -177,13 +188,12 @@
     - css_layout
 
 - id: viewport_percentage_length_units
-  name: Viewport-Percentage Length Units
   description: >
-    `sv*`, `lv*`, `dv*`
+    `lvh` / `lvw` / `lvmin` / `lvmax`, `sv*`, `dv*`, etc.
   mdn: /en-US/docs/Web/CSS/length#relative_length_units_based_on_viewport
   resources:
-    - title: The Large, Small, and Dynamic Viewports
-      url: https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/
+    - title: The large, small, and dynamic viewport units
+      url: https://web.dev/viewport-units/
   caniuse: mdn-css_types_length_viewport_percentage_units_small
   example:
     language: css
@@ -270,7 +280,6 @@
     - css_shapes_and_graphics
 
 - id: blend_modes
-  name: "`blend-mode`"
   description: >
     `mix-blend-mode`, `background-blend-mode`, `isolation`
   mdn: /en-US/docs/Web/CSS/blend-mode
@@ -362,6 +371,40 @@
     - css
     - css_shapes_and_graphics
 
+- id: linear_easing_function
+  mdn: en-US/docs/Web/CSS/easing-function#linear_easing_function
+  caniuse: mdn-css_types_easing-function_linear-function
+  example:
+    language: css
+    code: |
+      :root {
+        --bounce-easing: linear(
+          0, 0.063, 0.25 18.2%, 1 36.4%, 0.813, 0.75, 0.813, 1, 0.938, 1, 1
+        );
+      }
+  resources:
+    - title: Using linear() for better animation
+      url: https://fullystacked.net/posts/linear/
+      language: en-US
+    - title: Linear() Generator
+      url: https://linear-easing-generator.netlify.app/
+      language: en-US
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: view_transitions
+  name: ViewTransition API
+  mdn: en-US/docs/Web/API/View_Transitions_API
+  caniuse: mdn-api_viewtransition
+  resources:
+    - title: Smooth and simple transitions with the View Transitions API
+      url: https://developer.chrome.com/docs/web-platform/view-transitions/
+      language: en-US
+  tags:
+    - css
+    - css_shapes_and_graphics
+
 #################################################
 # Colors
 #################################################
@@ -403,7 +446,7 @@
     - css_colors
 
 - id: currentcolor
-  name: "`currentcolor`"
+  name: "`currentColor`"
   mdn: /en-US/docs/Web/CSS/color_value#currentcolor_keyword
   example:
     language: css
@@ -568,6 +611,12 @@
   name: "`touch-action`"
   mdn: /en-US/docs/Web/CSS/touch-action
   caniuse: css-touch-action
+  example:
+    language: css
+    code: |
+      .map {
+        touch-action: none;
+      }
   tags:
     - css
     - css_interactions
@@ -710,11 +759,17 @@
     - css
     - css_typography
 
-- id: leading_trim
-  name: "`leading-trim`"
+- id: text_box_trim
+  name: "`text-box-edge`/`text-box-trim`"
+  w3c: https://drafts.csswg.org/css-inline-3/#propdef-leading-trim
+  caniuse: css-text-box-trim
   tags:
     - css
     - css_typography
+  resources:
+    - title: "Leading-Trim: The Future of Digital Typesetting"
+      url: https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202
+      language: en-US
 
 - id: direction
   name: "`direction`"
@@ -1144,7 +1199,6 @@
     - css_other
 
 - id: viewport_units
-  name: Viewport Units (`vh`, `vw`)
   mdn: /en-US/docs/Web/CSS/length
   caniuse: viewport-units
   patterns:
@@ -1155,7 +1209,6 @@
     - css_other
 
 - id: cascade_layers
-  name: Cascade Layers
   mdn: /en-US/docs/Web/CSS/@layer
   caniuse: css-cascade-layers
   example:
@@ -1167,7 +1220,6 @@
     - css_other
 
 - id: math_functions
-  name: CSS Math Functions
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
   caniuse: css-math-functions
   tags:
@@ -1175,7 +1227,6 @@
     - css_other
 
 - id: comparison_functions
-  name: CSS Comparison Functions
   description: >
     `min()`, `max()`, `clamp()`
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
@@ -1191,7 +1242,6 @@
     - css_other
 
 - id: trigonometric_functions
-  name: Trigonometric Functions
   description: >
     `sin()`, `cos()`, `tan()`…
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
@@ -1201,7 +1251,6 @@
     - css_other
 
 - id: exponential_functions
-  name: Exponential Functions
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
   caniuse: css-math-functions
   tags:
@@ -1209,7 +1258,6 @@
     - css_other
 
 - id: sign_related_functions
-  name: Exponential Functions
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
   caniuse: css-math-functions
   tags:
@@ -1217,7 +1265,6 @@
     - css_other
 
 - id: stepped_value_functions
-  name: Stepped Value Functions
   mdn:
   caniuse:
   tags:
@@ -1225,23 +1272,25 @@
     - css_other
 
 - id: css_nesting
-  name: CSS Nesting
   w3c: TR/css-nesting-1/
   mdn:
   caniuse:
   example:
     language: css
     code: |
-      .button {
-        &.small { 
-          font-size: .8rem; 
-        }
-        @nest .small & { 
-          font-size: .7rem; 
+      .parent {
+        color: blue;
+
+        .child {
+          color: red;
         }
       }
   patterns:
     - nested select(or|ion)
+  resources:
+    - title: CSS Nesting
+      url: https://developer.chrome.com/articles/css-nesting/
+      language: en-US
   tags:
     - css
     - css_other
@@ -1255,7 +1304,6 @@
     - css_other
 
 - id: shadow_dom_css
-  name: Shadow DOM Features
   description: >
     `::part()`, `:host()`, `::slotted()`
   mdn: /en-US/docs/Web/CSS/::part
@@ -1372,6 +1420,26 @@
         translate: 50% 0;
         rotate: 30deg;
         scale: 1.2;
+      }
+  tags:
+    - css
+    - css_other
+
+- id: at_scope
+  # mdn:
+  # caniuse:
+  w3c: https://drafts.csswg.org/css-cascade-6/#scope-atrule
+  example:
+    language: css
+    code: |
+      @scope (.card) {
+        :scope {
+          padding: 1rem;
+        }
+
+        .title {
+          font-size: 1.2rem;
+        }
       }
   tags:
     - css

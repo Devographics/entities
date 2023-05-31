@@ -143,7 +143,7 @@
     - css_frameworks
 
 - id: semantic_ui
-  name: Semantic UI
+  name: Semantic UI/Fomantic UI
   contexts: [state_of_css]
   github: Semantic-Org/Semantic-UI
   homepageUrl: https://semantic-ui.com/
@@ -320,6 +320,8 @@
   contexts: [state_of_css]
   homepageUrl: https://watercss.kognise.dev/
   github: kognise/water.css
+  patterns:
+    - water
   tags:
     - css
     - css_frameworks
@@ -345,6 +347,24 @@
   name: Milligram
   contexts: [state_of_css]
   homepageUrl: https://milligram.io/
+  tags:
+    - css
+    - css_frameworks
+
+- id: blaze_ui
+  name: Blaze UI
+  homepageUrl: https://www.blazeui.com/
+  github: https://github.com/BlazeSoftware/atoms
+  tags:
+    - css
+    - css_frameworks
+
+- id: mvp_css
+  name: MVP.css
+  homepageUrl: https://andybrewer.github.io/mvp/
+  github: https://github.com/andybrewer/mvp/
+  patterns:
+    - mvp
   tags:
     - css
     - css_frameworks
@@ -623,9 +643,11 @@
     - css
     - css_utilities
 
-- id: css_nano
+- id: cssnano
   name: cssnano
   homepageUrl: https://cssnano.co/
+  patterns:
+    - css nano
   tags:
     - css
     - css_utilities

@@ -1,4 +1,3 @@
-
 # missing features
 
 - id: parent_selector
@@ -115,37 +114,73 @@
   tags:
     - css_missing_features
 
+- id: native_visually_hidden
+  tags:
+    - css_missing_features
+
+- id: generated_content_alt_text
+  tags:
+    - css_missing_features
+
+- id: animate_to_auto
+  tags:
+    - css_missing_features
+
+- id: anchored_positioning
+  tags:
+    - css_missing_features
+
+- id: flex_wrapping_detection
+  tags:
+    - css_missing_features
+
+- id: more_pseudo_elements
+  tags:
+    - css_missing_features
+
+- id: svg_in_css
+  tags:
+    - css_missing_features
+
+- id: grid_lines_styling
+  tags:
+    - css_missing_features
+
+- id: media_queries_variables
+  tags:
+    - css_missing_features
+
 # pain points
 
 - id: safari
   name: Safari
   patterns:
     - webkit
-  tags: 
+  tags:
     - css_pain_points
 
 - id: email
   name: Email
-  tags: 
+  tags:
     - css_pain_points
 
 - id: ios
   name: iOS
-  tags: 
+  tags:
     - css_pain_points
-    
+
 - id: performance
   name: Performance
   patterns:
     - perf
-  tags: 
+  tags:
     - css_pain_points
 
 - id: internet_explorer
   name: Internet Explorer
   patterns:
     - ie( |-)?11
-  tags: 
+  tags:
     - css_pain_points
 
 - id: responsive_design
@@ -153,7 +188,7 @@
   patterns:
     - responsive
     - mobile
-  tags: 
+  tags:
     - css_pain_points
 
 - id: animation
@@ -185,46 +220,46 @@
 
 - id: e_commerce
   name: E-Commerce Sites
-  tags: 
+  tags:
     - css_uses
   patterns:
     - webshop
 
 - id: electron
   name: Electron Apps
-  tags: 
+  tags:
     - css_uses
 
 - id: portfolio
   name: Portfolio Sites
-  tags: 
+  tags:
     - css_uses
 
 - id: data_visualization
   name: Data Visualization
   patterns:
     - data visualisation
-  tags: 
+  tags:
     - css_uses
 
 - id: svg
   name: SVG
-  tags: 
+  tags:
     - css_uses
 
 - id: desktop
   name: Desktop Applications
-  tags: 
+  tags:
     - css_uses
 
 - id: games
   name: Video Games
-  tags: 
+  tags:
     - css_uses
 
 - id: extensions
   name: Browser Extensions
-  tags: 
+  tags:
     - css_uses
   patterns:
     - extension
@@ -233,41 +268,41 @@
 
 - id: wcag_2_1_aa
   name: WCAG 2.1 AA
-  patterns: 
+  patterns:
     - WCAG 2.1 AA
     - AA
-  tags: 
+  tags:
     - accessibility_features
 
 - id: progressive_enhancement
   name: Progressive Enhancement
   patterns:
     - no( |-)?JS
-  tags: 
+  tags:
     - accessibility_features
 
 - id: focus_traps
   name: Focus Traps
   patterns:
     - focus( |-)?trap
-  tags: 
+  tags:
     - accessibility_features
 
 - id: zoom
   name: Zoom Support
-  tags: 
+  tags:
     - accessibility_features
 
 - id: aria_live
   name: Aria-live Regions
-  tags: 
+  tags:
     - accessibility_features
 
 - id: landmarks
   name: Landmarks
   patterns:
     - landmark
-  tags: 
+  tags:
     - accessibility_features
 
 # browser interoperability, missing features, pain points
@@ -276,22 +311,22 @@
   name: Scrollbar Styling
   patterns:
     - scroll( )?bar
-  tags: 
+  tags:
     - browser_interoperability
 
 - id: overflow
   name: overflow
-  tags: 
+  tags:
     - browser_interoperability
 
 - id: clamp
   name: clamp()
-  tags: 
+  tags:
     - browser_interoperability
 
 - id: gap
   name: gap
-  tags: 
+  tags:
     - browser_interoperability
 
 - id: display_contents
@@ -299,14 +334,14 @@
   patterns:
     - "display: content"
     - "display:content"
-  tags: 
+  tags:
     - browser_interoperability
 
 - id: has_selector
   normalizationOnly: true
   patterns:
     - has
-  tags: 
+  tags:
     - browser_interoperability
 
 - id: css_nesting
@@ -315,7 +350,7 @@
     - nest
     - nesting
     - nested
-  tags: 
+  tags:
     - browser_interoperability
     - css_missing_features
 
@@ -323,22 +358,22 @@
   name: For Loops
   patterns:
     - loop
-  tags: 
+  tags:
     - css_missing_features
 
 - id: multi_column
   normalizationOnly: true
   patterns:
     - column
-  tags: 
+  tags:
     - browser_interoperability
 
 - id: input_styling
-  name: Input Styling 
+  name: Input Styling
   patterns:
     - styling input
     - form controls
-  tags: 
+  tags:
     - browser_interoperability
     - css_missing_features
 
@@ -346,7 +381,7 @@
   name: CMYK Colors
   patterns:
     - cmyk
-  tags: 
+  tags:
     - css_missing_features
 
 - id: styling_select
@@ -355,12 +390,12 @@
     - select input
     - select menu
     - select styling
-  tags: 
+  tags:
     - css_missing_features
 
 - id: random
   name: "`random()` Function"
-  tags: 
+  tags:
     - css_missing_features
 
 - id: popups_popovers
@@ -368,7 +403,7 @@
   patterns:
     - popup
     - popover
-  tags: 
+  tags:
     - css_missing_features
 
 - id: animate_to_auto
@@ -377,34 +412,34 @@
     - to auto
     - to/from auto
     - "height(:| )auto"
-  tags: 
+  tags:
     - css_missing_features
 
 - id: specificity
   name: Specificity
-  tags: 
+  tags:
     - css_pain_points
 
 - id: naming
   name: Naming
-  tags: 
+  tags:
     - css_pain_points
 
 - id: forms
   name: Forms
-  tags: 
+  tags:
     - css_pain_points
 
 - id: debugging
   name: Debugging
   patterns:
     - debug
-  tags: 
+  tags:
     - css_pain_points
 
 - id: compatibility
   name: Compatibility
-  tags: 
+  tags:
     - css_pain_points
 
 # sources
@@ -414,5 +449,5 @@
   patterns:
     - email
     - devographics.com
-  tags: 
+  tags:
     - sources_state_of_css
