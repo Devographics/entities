@@ -114,6 +114,13 @@
   name: Flexbox `gap`
   mdn: /en-US/docs/Web/CSS/gap
   caniuse: flexbox-gap
+  example:
+    language: css
+    code: |
+      section {
+        display: flex
+        gap: 1em 2em;
+      }
   patterns:
     - gap for flex
     - Gap property for flex
@@ -1139,6 +1146,13 @@
   name: "`content-visibility`"
   mdn: /en-US/docs/Web/CSS/content-visibility
   caniuse: css-content-visibility
+  example:
+    language: css
+    code: |
+      .card {
+        content-visibility: auto;
+        contain-intrinsic-size: 350px;
+      }
   tags:
     - css
     - css_other
