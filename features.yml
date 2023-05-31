@@ -704,6 +704,19 @@
 - id: variable_fonts
   name: Variable Fonts
   mdn: /en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+  example:
+    language: css
+    code: |
+      @font-face {
+        font-family: "Fraunces";
+        src: url("fraunces.woff2") format("woff2");
+        font-weight: 200 700;
+      }
+
+      h2 {
+        font-family: "Fraunces";
+        font-variation-settings: "wght" 375, "SOFT" 100;
+      }
   caniuse: variable-fonts
   tags:
     - css
@@ -762,6 +775,15 @@
   name: "`line-clamp`"
   mdn: /en-US/docs/Web/CSS/-webkit-line-clamp
   caniuse: css-line-clamp
+  example:
+    language: css
+    code: |
+      p {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+      }
   tags:
     - css
     - css_typography
