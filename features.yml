@@ -886,6 +886,12 @@
   name: "`::marker`"
   mdn: /en-US/docs/Web/CSS/::marker
   caniuse: css-marker-pseudo
+  example:
+    language: css
+    code: |
+      li::marker {
+        content: '⭐️ ';
+      }
   tags:
     - css
     - css_selectors
@@ -917,6 +923,22 @@
       :where(header, main, footer) p:hover {
         color: red;
         cursor: pointer;
+      }
+  tags:
+    - css
+    - css_selectors
+ 
+ - id: lang_selector
+  name: "`:lang()`"
+  mdn: /en-US/docs/Web/CSS/:lang
+  caniuse: css-lang
+  example:
+    language: css
+    code: |
+      :lang(ko) {
+        [class*='heading--'] {
+          word-break: keep-all;
+        }
       }
   tags:
     - css
