@@ -404,6 +404,30 @@
   name: ViewTransition API
   mdn: en-US/docs/Web/API/View_Transitions_API
   caniuse: mdn-api_viewtransition
+  example:
+    language: css
+    code: |
+      @keyframes grow {
+        from {
+          transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+
+      ::view-transition-old(main-image),
+      ::view-transition-new(main-image) {
+        transform-origin: right top;
+      }
+
+      ::view-transition-new(main-image) {
+        animation: 400ms ease-out both grow;
+      }
+      
+      figure {
+        view-transition-name: main-image;
+      }
   resources:
     - title: Smooth and simple transitions with the View Transitions API
       url: https://developer.chrome.com/docs/web-platform/view-transitions/
