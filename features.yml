@@ -433,6 +433,12 @@
 - id: accent_color
   name: "`accent-color`"
   mdn: /en-US/docs/Web/CSS/accent-color
+  example:
+    language: css
+    code: |
+      input[type='checkbox'] {
+        accent-color: tomato;
+      }
   caniuse: mdn-css_properties_accent-color
   tags:
     - css
