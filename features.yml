@@ -424,7 +424,7 @@
       ::view-transition-new(main-image) {
         animation: 400ms ease-out both grow;
       }
-      
+
       figure {
         view-transition-name: main-image;
       }
@@ -979,8 +979,8 @@
   tags:
     - css
     - css_selectors
- 
- - id: lang_selector
+
+- id: lang_selector
   name: "`:lang()`"
   mdn: /en-US/docs/Web/CSS/:lang
   caniuse: css-lang
