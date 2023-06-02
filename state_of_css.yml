@@ -160,7 +160,7 @@
     - css_pain_points
 
 - id: email
-  name: Email
+  # name: Email
   tags:
     - css_pain_points
 
@@ -170,7 +170,7 @@
     - css_pain_points
 
 - id: performance
-  name: Performance
+  # name: Performance
   patterns:
     - perf
   tags:
@@ -184,7 +184,7 @@
     - css_pain_points
 
 - id: responsive_design
-  name: Responsive/Mobile Design
+  # name: Responsive/Mobile Design
   patterns:
     - responsive
     - mobile
@@ -192,7 +192,7 @@
     - css_pain_points
 
 - id: animation
-  name: Animation
+  # name: Animation
   tags:
     - css_pain_points
 
@@ -202,7 +202,7 @@
     - css_pain_points
 
 - id: css_in_js
-  name: CSS-in-JS
+  # name: CSS-in-JS
   tags:
     - css_pain_points
 
@@ -212,21 +212,21 @@
     - css_pain_points
 
 - id: select
-  name: Selects
+  # name: Selects
   tags:
     - css_pain_points
 
 # what do you use CSS for
 
 - id: e_commerce
-  name: E-Commerce Sites
+  # name: E-Commerce Sites
   tags:
     - css_uses
   patterns:
     - webshop
 
 - id: electron
-  name: Electron Apps
+  # name: Electron Apps
   tags:
     - css_uses
 
@@ -236,7 +236,7 @@
     - css_uses
 
 - id: data_visualization
-  name: Data Visualization
+  # name: Data Visualization
   patterns:
     - data visualisation
   tags:
@@ -248,17 +248,17 @@
     - css_uses
 
 - id: desktop
-  name: Desktop Applications
+  # name: Desktop Applications
   tags:
     - css_uses
 
 - id: games
-  name: Video Games
+  # name: Video Games
   tags:
     - css_uses
 
 - id: extensions
-  name: Browser Extensions
+  # name: Browser Extensions
   tags:
     - css_uses
   patterns:

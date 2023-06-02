@@ -407,15 +407,6 @@
   example:
     language: css
     code: |
-      @keyframes grow {
-        from {
-          transform: scale(0);
-        }
-        to {
-          transform: scale(1);
-        }
-      }
-
       ::view-transition-old(main-image),
       ::view-transition-new(main-image) {
         transform-origin: right top;
@@ -581,9 +572,12 @@
     - css_colors
 
 - id: gradient_color_spaces
-  name: Gradient Color Spaces
   # mdn:
-  # caniuse:
+  caniuse: mdn-css_types_image_gradient_conic-gradient_interpolation_color_space
+  resources:
+    - title: Using Different Color Spaces for Non-Boring Gradients
+      url: https://css-tricks.com/color-spaces-for-more-interesting-css-gradients/
+      language: en-US
   example:
     language: css
     code: |
