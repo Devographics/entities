@@ -1792,6 +1792,12 @@
   tags:
     - data_fetching
 
+- id: rtk_query
+  name: RTK Query
+  homepageUrl: https://redux-toolkit.js.org/rtk-query/overview
+  tags:
+    - data_fetching
+
 #################################################
 # Build Tools
 #################################################
@@ -2333,6 +2339,11 @@
   npm: redux-form
   github: redux-form/redux-form
   homepageUrl: https://redux-form.com/
+
+- id: react_final_form
+  name: React Final Form
+  github: final-form/react-final-form
+  homepage: https://final-form.org/react
 
 - id: yup
   name: Yup

@@ -1,198 +1,152 @@
 - id: science
-  name: Science
 
 - id: human_resources
-  name: Human Resources
   patterns:
     - HR
 
 - id: security
-  name: Security
 
 - id: legal
-  name: Legal
 
 - id: payments
-  name: Payments
 
 - id: communication
-  name: Communication
 
 - id: sports
-  name: Sports & Fitness
   patterns:
     - sport
     - fitness
 
 - id: music
-  name: Music
 
 - id: gaming
-  name: Gaming
   patterns:
     - game
     - games
 
 - id: saas
-  name: SaaS
 
 - id: tourism
-  name: Tourism
 
 - id: energy
-  name: Energy
 
 - id: crypto
-  name: Crypto
 
 - id: legal
-  name: Legal
 
 - id: food
-  name: Food
 
 - id: non_profit
-  name: Non-Profit
   patterns:
     - nonprofit
 
 - id: research
-  name: Research
   patterns:
     - academia
     - scientific
     - science
 
 - id: adult_industry
-  name: Adult Industry
   patterns:
     - adult
 
 - id: gambling
-  name: Gambling
   patterns:
     - betting
 
 - id: aerospace
-  name: Aerospace & Aviation
   patterns:
     - aviation
     - geospatial
     - space
 
 - id: gis
-  name: GIS
   patterns:
     - map
 
 - id: tech_it
-  name: Tech & IT
   patterns:
     - tech
     - it
 
 - id: web3
-  name: Web3
 
 - id: blockchain
-  name: Blockchain
 
 - id: transportation
-  name: Transportation
   patterns:
     - transport
 
 - id: biotech
-  name: Biotech
   patterns:
     - bioinformatics
     - biometric
 
 - id: pharma
-  name: Pharma
 
 - id: advertising
-  name: Advertising
   patterns:
     - adtech
 
 - id: iot
-  name: IoT
 
 - id: art
-  name: Art
 
 - id: banking
-  name: Banking
   patterns:
     - bank
 
 - id: law
-  name: Law
   patterns:
     - legal
 
 - id: education
-  name: Education
   patterns:
     - teaching
     - edtech
 
 - id: cloud_computing
-  name: Cloud Computing
   patterns:
     - cloud
 
 - id: defense
-  name: Defense
   patterns:
     - defence
 
 - id: enterprise
-  name: Enterprise
 
 - id: entertainment
-  name: Entertainment
 
 - id: environment
-  name: Environment & Sustainability
   patterns:
     - sustainability
 
 - id: financial_services
-  name: Financial Services
   patterns:
     - finance
     - financial
     - fintech
 
 - id: industrial
-  name: Industrial
   patterns:
     - industrial
 
 - id: recruiting
-  name: Recruiting & Hiring
   patterns:
     - hiring
     - recruitment
 
 - id: travel
-  name: Travel
 
 - id: mining
-  name: Mining
 
 - id: business
-  name: Business & Consulting
   patterns:
     - consulting
 
 - id: design
-  name: Design
 
 - id: automotive
-  name: Automotive
   patterns:
     - auto
     - car

@@ -474,3 +474,11 @@
 - id: csswg
   name: CSSWG (W3C CSS Working Group)
   homepageUrl: https://www.w3.org/Style/CSS/
+
+- id: reactiflux
+  name: Reactiflux
+  homepageUrl: https://www.reactiflux.com/
+
+- id: r_reactjs
+  name: r/ReactJS
+  homepageUrl: https://www.reddit.com/r/reactjs/
