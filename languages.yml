@@ -60,9 +60,6 @@
 - id: swift
   name: Swift
 
-- id: go
-  name: Go
-
 - id: bash
   name: Bash
 

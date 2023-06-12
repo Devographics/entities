@@ -1,0 +1,467 @@
+# components
+- id: fragment
+  name: >
+    `<Fragment>`
+  description: >
+    `<Fragment>`, often used via `<>...</>` syntax, lets you group elements without a wrapper node.
+  homepageUrl: https://react.dev/reference/react/Fragment
+  example:
+    language: jsx
+    code: |
+      <>
+        <OneChild />
+        <AnotherChild />
+      </>
+- id: profiler
+  name: >
+    `<Profiler>`
+  description: >
+    `<Profiler>` lets you measure rendering performance of a React tree programmatically.
+  homepageUrl: https://react.dev/reference/react/Profiler
+  example:
+    language: jsx
+    code: |
+      <Profiler id="App" onRender={onRender}>
+        <App />
+      </Profiler>
+- id: strictmode
+  name: >
+    `<StrictMode>`
+  description: >
+    `<StrictMode>` lets you find common bugs in your components early during development.
+  example:
+    language: jsx
+    code: |
+      <StrictMode>
+        <App />
+      </StrictMode>
+    homepageUrl: https://react.dev/reference/react/StrictMode
+- id: suspense
+  name: >
+    `<Suspense>`
+  description: >
+    `<Suspense>` lets you display a fallback until its children have finished loading.
+  example:
+    language: jsx
+    code: |
+      <Suspense fallback={<Loading />}>
+        <SomeComponent />
+      </Suspense>
+  homepageUrl: https://react.dev/reference/react/Suspense
+
+# hooks
+- id: usecallback
+  name: >
+    `useCallback`
+  description: >
+    `useCallback` is a React Hook that lets you cache a function definition between re-renders.
+  example:
+    language: jsx
+    code: |
+      const cachedFn = useCallback(fn, dependencies)
+  homepageUrl: https://react.dev/reference/react/useCallback
+- id: usecontext
+  name: >
+    `useContext`
+  description: >
+    `useContext` is a React Hook that lets you read and subscribe to context from your component.
+  example:
+    language: jsx
+    code: |
+      const value = useContext(SomeContext)
+  homepageUrl: https://react.dev/reference/react/useContext
+- id: usedebugvalue
+  name: >
+    `useDebugValue`
+  description: >
+    `useDebugValue` is a React Hook that lets you add a label to a custom Hook in React DevTools.
+  example:
+    language: jsx
+    code: |
+      useDebugValue(value, format?)
+  homepageUrl: https://react.dev/reference/react/useDebugValue
+- id: usedeferredvalue
+  name: >
+    `useDeferredValue`
+  description: >
+    `useDeferredValue` is a React Hook that lets you defer updating a part of the UI.
+  example:
+    language: jsx
+    code: |
+      const deferredValue = useDeferredValue(value)
+  homepageUrl: https://react.dev/reference/react/useDeferredValue
+- id: useeffect
+  name: >
+    `useEffect`
+  description: >
+    `useEffect` is a React Hook that lets you synchronize a component with an external system.
+  example:
+    language: jsx
+    code: |
+      useEffect(setup, dependencies?)
+  homepageUrl: https://react.dev/reference/react/useEffect
+- id: useid
+  name: >
+    `useId`
+  description: >
+    `useId` is a React Hook for generating unique IDs that can be passed to accessibility attributes.
+  example:
+    language: jsx
+    code: |
+      const id = useId()
+  homepageUrl: https://react.dev/reference/react/useId
+# - id: useImperativeHandle
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: useInsertionEffect
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: useLayoutEffect
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+- id: usememo
+  name: >
+    `useMemo`
+  description: >
+    `useMemo` is a React Hook that lets you cache the result of a calculation between re-renders.
+  example:
+    language: jsx
+    code: |
+      const cachedValue = useMemo(calculateValue, dependencies)
+  homepageUrl: https://react.dev/reference/react/useMemo
+- id: usereducer
+  name: >
+    `useReducer`
+  example:
+    language: jsx
+    code: |
+      const [state, dispatch] = useReducer(reducer, initialArg, init?)
+  homepageUrl: https://react.dev/reference/react/useReducer
+- id: useref
+  name: >
+    `useRef`
+  description: >
+    `useRef` is a React Hook that lets you reference a value that’s not needed for rendering.
+  example:
+    language: jsx
+    code: |
+      const ref = useRef(initialValue)
+  homepageUrl: https://react.dev/reference/react/useRef
+- id: useState
+  name: >
+    `useState`
+  description: >
+    `useState` is a React Hook that lets you add a state variable to your component.
+  example:
+    language: jsx
+    code: |
+      const [state, setState] = useState(initialState);
+  homepageUrl: https://react.dev/reference/react/useState
+- id: usesyncexternalstore
+  name: >
+    `useSyncExternalStore`
+  description: >
+    `useSyncExternalStore` is a React Hook that lets you subscribe to an external store.
+  example:
+    language: jsx
+    code: |
+      const snapshot = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot?)
+  homepageUrl: https://react.dev/reference/react/useSyncExternalStore
+- id: usetransition
+  name: >
+    `useTransition`
+  description: >
+    `useTransition` is a React Hook that lets you update the state without blocking the UI.
+  example:
+    language: jsx
+    code: |
+      const [isPending, startTransition] = useTransition()
+  homepageUrl: https://react.dev/reference/react/useTransition
+
+# apis
+- id: createcontext
+  name: "`createContext`"
+  example:
+    language: jsx
+    code: |
+      const SomeContext = createContext(defaultValue)
+  homepageUrl: https://react.dev/reference/react/createContext
+- id: forwardref
+  name: "`forwardRef`"
+  example:
+    language: jsx
+    code: |
+      const SomeComponent = forwardRef(render)
+  homepageUrl: https://react.dev/reference/react/forwardRef
+- id: lazy
+  name: "`lazy` "
+  example:
+    language: jsx
+    code: |
+      const SomeComponent = lazy(load)
+  homepageUrl: https://react.dev/reference/react/lazy
+- id: memo
+  name: "`memo`"
+  description: >
+    `memo` lets you skip re-rendering a component when its props are unchanged.
+  example:
+    language: jsx
+    code: |
+      const MemoizedComponent = memo(SomeComponent, arePropsEqual?)
+  homepageUrl: https://react.dev/reference/react/memo
+- id: starttransition
+  name: "`startTransition`"
+  description: >
+    `startTransition` lets you update the state without blocking the UI.
+  example:
+    language: jsx
+    code: |
+      startTransition(scope)
+  homepageUrl: https://react.dev/reference/react/startTransition
+
+# component_apis
+- id: createPortal
+  name: "`createPortal`"
+  example:
+    language: jsx
+    code: |
+      <div>
+        <SomeComponent />
+        {createPortal(children, domNode, key?)}
+      </div>
+  homepageUrl: https://react.dev/reference/react-dom/createPortal
+# - id: flushSync
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: findDOMNode
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: Hydrate
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: Render
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: unmountComponentAtNode
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+
+# client_apis
+- id: createroot
+  name: >
+    `createRoot`
+  description: >
+    `createRoot` lets you create a root to display React components inside a browser DOM node.
+  example:
+    language: jsx
+    code: |
+      const root = createRoot(domNode, options?)
+  homepageUrl: https://react.dev/reference/react-dom/client/createRoot
+- id: hydrateroot
+  name: >
+    `hydrateRoot`
+  description: >
+    `hydrateRoot` lets you display React components inside a browser DOM node whose HTML content was previously generated by `react-dom/server`.
+  example:
+    language: jsx
+    code: |
+      const root = hydrateRoot(domNode, reactNode, options?)
+  homepageUrl: https://react.dev/reference/react-dom/client/hydrateRoot
+
+# server_apis
+- id: react_server_components
+  name: React Server Components
+  # example:
+  #   language: jsx
+  #   code: |
+  homepageUrl: https://nextjs.org/docs/getting-started/react-essentials#server-components
+# - id: renderToNodeStream
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: renderToPipeableStream
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: renderToReadableStream
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: renderToStaticMarkup
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: renderToStaticNodeStream
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: renderToString
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+
+# legacy_apis
+- id: cloneelement
+  name: >
+    `cloneElement`
+  example:
+    language: jsx
+    code: |
+      const clonedElement = cloneElement(element, props, ...children)
+  homepageUrl: https://react.dev/reference/react/cloneElement
+- id: class_components
+  name: >
+    `Component` (class components)
+  example:
+    language: jsx
+    code: |
+      class Greeting extends Component {
+        render() {
+          return <h1>Hello, {this.props.name}!</h1>;
+        }
+      }
+
+  homepageUrl: https://react.dev/reference/react/Component
+- id: createelement
+  name: >
+    `createElement`
+  description: >
+    `createElement` lets you create a React element. It serves as an alternative to writing JSX.
+  example:
+    language: jsx
+    code: |
+      const element = createElement(type, props, ...children)
+  homepageUrl: https://react.dev/reference/react/createElement
+# - id: createFactory
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: createRef
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: isValidElement
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+# - id: PureComponent
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+
+# ui_libraries
+
+- id: react_admin
+  name: react-admin
+  homepageUrl: https://marmelab.com/react-admin/
+
+# auth
+
+- id: auth_js
+  name: Auth.js
+  homepageUrl: https://authjs.dev/
+
+- id: clerk
+  name: Clerk
+  homepageUrl: https://clerk.com/
+
+- id: fusion_auth
+  name: FusionAuth
+  homepageUrl: https://fusionauth.io/
+
+- id: passport
+  name: Passport
+  homepageUrl: https://www.passportjs.org/
+
+# new features
+- id: asset_loading
+  name: Asset Loading
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#asset-loading
+
+- id: use_hook
+  name: >
+    `use()` Hook
+  homepageUrl: https://github.com/reactjs/rfcs/pull/229
+
+- id: offscreen_rendering
+  name: Offscreen Rendering
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#offscreen-rendering
+
+- id: react_forget
+  name: React Forget
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-optimizing-compiler
+
+- id: cache
+  name: React `cache`
+  homepageUrl: https://nextjs.org/docs/app/building-your-application/data-fetching/caching#react-cache
+
+- id: new_docs
+  homepageUrl: https://react.dev/
+
+- id: transition_tracing
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#transition-tracing
+# - id:
+#   name:
+#   homepageUrl:

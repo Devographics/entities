@@ -470,3 +470,7 @@
 - id: baidu
   name: Baidu
   homepageUrl: https://www.baidu.com/
+
+- id: csswg
+  name: CSSWG (W3C CSS Working Group)
+  homepageUrl: https://www.w3.org/Style/CSS/

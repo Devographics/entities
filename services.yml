@@ -4,3 +4,47 @@
   tags:
     - graphql
     - databases
+
+- id: aws
+  name: AWS
+  homepageUrl: https://aws.amazon.com/
+
+- id: cloudflare
+  name: Cloudflare
+  homepageUrl: https://www.cloudflare.com/
+
+- id: fastly
+  name: Fastly
+  homepageUrl: https://www.fastly.com/
+
+- id: github_pages
+  name: GitHub Pages
+  homepageUrl: https://pages.github.com/
+
+- id: google_cloud
+  name: Google Cloud
+  homepageUrl: https://cloud.google.com/
+
+- id: planetscale
+  name: PlanetScale
+  homepageUrl: https://planetscale.com/
+
+- id: netlify
+  name: Netlify
+  homepageUrl: https://www.netlify.com/
+
+- id: render
+  name: Render
+  homepageUrl: https://render.com/
+
+- id: vercel
+  name: Vercel
+  homepageUrl: https://vercel.com/
+
+- id: sentry
+  name: Sentry
+  homepageUrl: https://sentry.com/
+
+- id: digital_ocean
+  name: Digital Ocean
+  homepageUrl: https://digitalocean.com/
