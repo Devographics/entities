@@ -48,3 +48,7 @@
 - id: digital_ocean
   name: Digital Ocean
   homepageUrl: https://digitalocean.com/
+
+- id: upstash
+  name: Upstash
+  homepageUrl: https://upstash.com/

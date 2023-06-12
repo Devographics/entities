@@ -1645,6 +1645,13 @@
   tags:
     - animation
 
+- id: react_motion
+  name: React Motion
+  github: chenglou/react-motion
+  homepageUrl: https://github.com/chenglou/react-motion
+  tags:
+    - animation
+
 - id: autoanimate
   name: AutoAnimate
   homepageUrl: https://auto-animate.formkit.com/
