@@ -380,3 +380,11 @@
 # - id:
 #   name:
 #   homepageUrl:
+
+- id: javascript_jam
+  name: JavaScript Jam
+  homepageUrl: https://www.javascriptjam.com/
+
+- id: react_native_show
+  name: React Native Show
+  homepageUrl: https://www.callstack.com/podcast-react-native-show

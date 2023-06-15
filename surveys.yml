@@ -118,3 +118,7 @@
   homepageUrl: https://discourse.purescript.org/t/the-state-of-purescript-survey-2022-the-results-are-in/2966
   patterns:
     - purescript
+
+- id: state_of_react_native
+  name: State of React Native
+  homepageUrl: https://results.stateofreactnative.com/

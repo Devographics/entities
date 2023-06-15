@@ -415,6 +415,7 @@
     - js_uses
 
 - id: education
+  normalizationOnly: true
   name: Education
   patterns:
     - teaching

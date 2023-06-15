@@ -52,3 +52,7 @@
 - id: upstash
   name: Upstash
   homepageUrl: https://upstash.com/
+
+- id: azure
+  name: Azure
+  homepageUrl: https://azure.microsoft.com/

@@ -333,13 +333,14 @@
   youtubeName: blondiebytes
   tags:
     - youtube
-# - id:
-#   name:
-#   youtubeUrl:
-#   homepageUrl:
-#   tags:
-#     - youtube
 
+- id: web_dev_cody
+  name: Web Dev Cody
+  youtubeUrl: https://www.youtube.com/@WebDevCody
+  youtubeName: WebDevCody
+  homepageUrl: https://www.webdevcody.com/
+  tags:
+    - youtube
 # - id:
 #   name:
 #   youtubeUrl:

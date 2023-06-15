@@ -2859,3 +2859,68 @@
   homepageUrl: https://www.bukola.dev/
   tags:
     - youtube
+
+- id: vadim_savin
+  name: Vadim Savin
+  homepageUrl: https://www.notjust.dev/
+  youtubeName: notjustdev
+  tags:
+    - youtube
+
+- id: tru_narla
+  name: Tru Narla
+  homepageUrl: https://www.mewtru.com/
+  twitterName: trunarla
+
+- id: daishi_kato
+  name: Daishi Kato
+  homepageUrl: https://blog.axlight.com/
+  twitterName: dai_shi
+
+- id: michel_westrate
+  name: Michel Westrate
+  homepageUrl: https://michel.codes/
+  twitterName: mweststrate
+
+- id: christoph_nakazawa
+  name: Christoph Nakazawa
+  homepageUrl: https://cpojer.net/
+  twitterName: cpojer
+
+- id: christopher_chedeau
+  name: Christopher Chedeau
+  homepageUrl: https://blog.vjeux.com/
+  twitterName: Vjeux
+
+- id: tejas_kumar
+  name: Tejas Kumar
+  homepageUrl: https://tej.as/
+  twitterName: TejasKumar_
+
+- id: rachel_nabors
+  name: Rachel Nabors
+  homepageUrl: http://rachelnabors.com/
+  twitterName: rachelnabors
+
+- id: shruti_kapoor
+  name: Shruti Kapoor
+  homepageUrl: https://shrutikapoor.dev/
+  twitterName: shrutikapoor08
+
+- id: joe_savona
+  name: Joe Savona
+  # homepageUrl:
+  twitterName: en_js
+
+- id: henri_helvetica
+  name: Henri Helvetica
+  # homepageUrl:
+  twitterName: HenriHelvetica
+
+- id: fred_schott
+  name: Fred K. Schott
+  homepageUrl: http://fredkschott.com/
+  twitterName: FredKSchott
+  patterns:
+    - fred k schott
+    - fred k. schott

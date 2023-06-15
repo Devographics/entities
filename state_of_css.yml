@@ -96,7 +96,8 @@
     - css_missing_features
 
 - id: print
-  name: Print Support
+  normalizationOnly: true
+  # name: Print Support
   tags:
     - css_missing_features
 
@@ -153,23 +154,25 @@
 # pain points
 
 - id: safari
-  name: Safari
+  normalizationOnly: true
   patterns:
     - webkit
   tags:
     - css_pain_points
 
 - id: email
+  normalizationOnly: true
   # name: Email
   tags:
     - css_pain_points
 
 - id: ios
-  name: iOS
+  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: performance
+  normalizationOnly: true
   # name: Performance
   patterns:
     - perf
@@ -177,13 +180,14 @@
     - css_pain_points
 
 - id: internet_explorer
-  name: Internet Explorer
+  normalizationOnly: true
   patterns:
     - ie( |-)?11
   tags:
     - css_pain_points
 
 - id: responsive_design
+  normalizationOnly: true
   # name: Responsive/Mobile Design
   patterns:
     - responsive
@@ -192,33 +196,36 @@
     - css_pain_points
 
 - id: animation
+  normalizationOnly: true
   # name: Animation
   tags:
     - css_pain_points
 
 - id: z_index
+  normalizationOnly: true
   name: z-index
   tags:
     - css_pain_points
 
 - id: css_in_js
-  # name: CSS-in-JS
+  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: svg
-  name: SVG
+  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: select
-  # name: Selects
+  normalizationOnly: true
   tags:
     - css_pain_points
 
 # what do you use CSS for
 
 - id: e_commerce
+  normalizationOnly: true
   # name: E-Commerce Sites
   tags:
     - css_uses
@@ -226,16 +233,18 @@
     - webshop
 
 - id: electron
+  normalizationOnly: true
   # name: Electron Apps
   tags:
     - css_uses
 
 - id: portfolio
-  name: Portfolio Sites
+  normalizationOnly: true
   tags:
     - css_uses
 
 - id: data_visualization
+  normalizationOnly: true
   # name: Data Visualization
   patterns:
     - data visualisation
@@ -243,21 +252,25 @@
     - css_uses
 
 - id: svg
+  normalizationOnly: true
   name: SVG
   tags:
     - css_uses
 
 - id: desktop
+  normalizationOnly: true
   # name: Desktop Applications
   tags:
     - css_uses
 
 - id: games
+  normalizationOnly: true
   # name: Video Games
   tags:
     - css_uses
 
 - id: extensions
+  normalizationOnly: true
   # name: Browser Extensions
   tags:
     - css_uses

@@ -397,6 +397,9 @@
 - id: react_bootstrap
   name: React Bootstrap
   homepageUrl: https://react-bootstrap.netlify.app/
+  tags:
+    - react
+    - ui_libraries
 
 - id: shadcn_ui
   name: shadcn/ui
@@ -405,6 +408,36 @@
 - id: blueprint_js
   name: Blueprint
   homepageUrl: https://blueprintjs.com/
+  tags:
+    - react
+    - ui_libraries
+
+- id: ariakit
+  name: Ariakit
+  description: >
+    Ariakit is an open source library that provides lower-level React components and hooks for building accessible web apps, design systems, and component libraries.
+  homepageUrl: https://ariakit.org/
+  tags:
+    - react
+    - ui_libraries
+
+- id: react_aria
+  name: React Aria
+  description: >
+    A library of React Hooks that provides accessible UI primitives for your design system.
+  homepageUrl: https://react-spectrum.adobe.com/react-aria/
+  tags:
+    - react
+    - ui_libraries
+
+- id: reach_ui
+  name: Reach UI
+  description: >
+    Reach UI seeks to become the accessible foundation of your React-based design system.
+  homepageUrl: https://reach.tech/
+  tags:
+    - react
+    - ui_libraries
 
 #################################################
 # CSS in JS
@@ -1652,6 +1685,13 @@
   tags:
     - animation
 
+- id: react_native_reanimated
+  name: React Native Reanimated
+  github: software-mansion/react-native-reanimated/
+  homepageUrl: https://docs.swmansion.com/react-native-reanimated/
+  tags:
+    - animation
+
 - id: autoanimate
   name: AutoAnimate
   homepageUrl: https://auto-animate.formkit.com/
@@ -1695,6 +1735,16 @@
     d3 and Reactjs libraries
   homepageUrl: "https://nivo.rocks"
   tags:
+    - react
+    - data_visualization
+
+- id: tremor
+  name: Tremor
+  description: >
+    The React library to build dashboards fast
+  homepageUrl: https://www.tremor.so/
+  tags:
+    - react
     - data_visualization
 
 - id: recharts
@@ -2351,6 +2401,12 @@
   github: jquense/yup
   description: Dead simple Object schema validation
   homepageUrl: https://github.com/jquense/yup
+
+- id: io_ts
+  name: io-ts
+  github: gcanti/io-ts
+  description: Runtime type system for IO decoding/encoding
+  homepageUrl: https://bestofjs.org/projects/io-ts
 
 - id: got
   name: Got
