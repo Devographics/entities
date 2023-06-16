@@ -1,0 +1,30 @@
+- id: tabnine
+  name: Tabnine
+  description: >
+    AI assistant for software developers
+  homepageUrl: https://www.tabnine.com/
+
+- id: chat_gpt
+  name: ChatGPT
+  homepageUrl: https://chat.openai.com/
+  tags:
+    - first_steps
+
+- id: bard
+  name: Google Bard
+  homepageUrl: https://bard.google.com/
+
+- id: bing
+  name: Microsoft Bing
+  homepageUrl: https://www.bing.com/?/ai
+
+- id: copilot
+  name: Copilot
+  homepageUrl: https://github.com/features/copilot
+# - id:
+#   name:
+#   homepageUrl:
+
+# - id:
+#   name:
+#   homepageUrl:

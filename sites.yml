@@ -414,11 +414,6 @@
   name: Zenn
   homepageUrl: https://zenn.dev/
 
-- id: chatgpt
-  name: ChatGPT
-  tags:
-    - first_steps
-
 - id: codewars
   name: Codewars
   homepageUrl: https://www.codewars.com/

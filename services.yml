@@ -56,3 +56,7 @@
 - id: azure
   name: Azure
   homepageUrl: https://azure.microsoft.com/
+
+- id: heroku
+  name: Heroku
+  homepageUrl: https://heroku.com/

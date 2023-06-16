@@ -1738,6 +1738,16 @@
     - react
     - data_visualization
 
+- id: react_flow
+  name: React Flow
+  description: >
+    A highly customizable React component for building node-based editors and interactive diagrams
+  homepageUrl: https://reactflow.dev/
+  github: wbkd/react-flow
+  tags:
+    - react
+    - data_visualization
+
 - id: tremor
   name: Tremor
   description: >
@@ -2406,7 +2416,7 @@
   name: io-ts
   github: gcanti/io-ts
   description: Runtime type system for IO decoding/encoding
-  homepageUrl: https://bestofjs.org/projects/io-ts
+  homepageUrl: https://gcanti.github.io/io-ts/
 
 - id: got
   name: Got
@@ -2612,3 +2622,111 @@
 - id: spring
   name: Spring
   homepageUrl: https://spring.io/
+
+#################################################
+# React Renderers
+#################################################
+
+- id: react_dom
+  name: React-DOM (React for the web)
+  description: >
+    The library for web and native user interfaces
+  homepageUrl: https://react.dev/reference/react-dom
+  tags:
+    - react
+    - react_renderer
+
+- id: react_three_fiber
+  name: React Three Fiber
+  description: >
+    React-three-fiber is a React renderer for three.js.
+  homepageUrl: https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
+  tags:
+    - react
+    - react_renderer
+
+- id: remotion
+  name: Remotion
+  description: >
+    Create real MP4 videos using React. Scale your video production using server-side rendering and parametrization.
+  homepageUrl: https://www.remotion.dev/
+  tags:
+    - react
+    - react_renderer
+
+- id: react_pdf
+  name: React-pdf
+  description: >
+    React renderer for creating PDF files on the browser and server.
+  homepageUrl: https://react-pdf.org/
+  tags:
+    - react
+    - react_renderer
+
+- id: react_email
+  name: React Email
+  description: >
+    A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript.
+  homepageUrl: https://react.email/
+  tags:
+    - react
+    - react_renderer
+
+- id: react_native_web
+  name: React Native for Web
+  description: >
+    React Native for Web is an accessible implementation of React Native's Components and APIs that is interoperable with React DOM.
+  homepageUrl: https://necolas.github.io/react-native-web/
+  tags:
+    - react
+    - react_renderer
+
+- id: react_native_ios
+  name: React Native (iOS)
+  homepageUrl: https://reactnative.dev/docs/native-components-ios
+  tags:
+    - react
+    - react_renderer
+
+- id: react_native_android
+  name: React Native (Android)
+  homepageUrl: https://reactnative.dev/docs/native-components-android
+  tags:
+    - react
+    - react_renderer
+
+- id: react_native_macos
+  name: React Native (macOS)
+  description: >
+    Bring your React Native apps to some of the most powerful devices out there
+  homepageUrl: https://microsoft.github.io/react-native-windows/docs/rnm-getting-started
+  tags:
+    - react
+    - react_renderer
+
+- id: react_native_windows
+  name: React Native (Windows)
+  description: >
+    Bring your React Native apps to some of the most powerful devices out there
+  homepageUrl: https://microsoft.github.io/react-native-windows/docs/getting-started
+  tags:
+    - react
+    - react_renderer
+
+- id: react_native_skia
+  name: React Native Skia
+  description: >
+    High Performance 2D Graphics
+  homepageUrl: https://shopify.github.io/react-native-skia/
+  tags:
+    - react
+    - react_renderer
+
+- id: react_ink
+  name: Ink
+  description: >
+    React for interactive command-line apps
+  homepageUrl: https://github.com/vadimdemedes/ink
+  tags:
+    - react
+    - react_renderer
