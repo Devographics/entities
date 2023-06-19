@@ -25,11 +25,12 @@
       .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
       }
 
       .item {
         grid-row: 1 / 4;
+        display: grid;
+        grid-template-rows: subgrid;
       }
   patterns:
     - sub( |-)?grid
