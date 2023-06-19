@@ -1527,6 +1527,38 @@
     - css
     - css_other
 
+- id: css_toggles
+  name: CSS Toggles
+  resources:
+    - title: Unofficial Proposal Draft
+      url: https://tabatkins.github.io/css-toggle/
+  example:
+    language: css
+    code: |
+      li {
+        toggle: --check self;
+      }
+      li:toggle(--check) {
+        color: silver;
+        text-decoration: line-through;
+      }
+
+- id: anchor_positioning
+  name: Anchor Positioning
+  example:
+    language: css
+    code: |
+      .slider-link {
+        anchor-name: var(--is);
+      }
+  resources:
+    - title: >
+        Future CSS: Anchor Positioning
+      url: https://kizu.dev/anchor-positioning-experiments/
+    - title: >
+        Tether elements to each other with CSS anchor positioning
+      url: https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/
+
 #################################################
 #
 #   JS

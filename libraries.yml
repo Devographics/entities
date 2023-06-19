@@ -231,6 +231,13 @@
   patterns:
     - tailwind
 
+- id: tailwind_ui
+  name: Tailwind UI
+  homepageUrl: https://tailwindui.com/
+  tags:
+    - css
+    - css_frameworks
+
 - id: pure_css
   name: PureCSS
   contexts: [state_of_css]
@@ -306,6 +313,29 @@
   tags:
     - css
     - css_frameworks
+    - react
+
+- id: ark_ui
+  name: Ark UI
+  description: >
+    Get fully customizable, accessible and unstyled UI components
+  homepageUrl: https://ark-ui.com/
+  tags:
+    - css
+    - css_frameworks
+    - react
+    - ui_libraries
+
+- id: next_ui
+  name: NextUI
+  description: >
+    Beautiful, fast and modern React UI library.
+  homepageUrl: https://nextui.org/
+  tags:
+    - css
+    - css_frameworks
+    - ui_libraries
+    - react
 
 - id: headless_ui
   github: tailwindlabs/headlessui
@@ -2588,10 +2618,6 @@
 - id: swiper
   name: Swiper
   homepageUrl: https://swiperjs.com/
-
-- id: react_three_fiber
-  name: react-three-fiber
-  homepageUrl: https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
 
 - id: fnm
   name: Fast Node Manager
