@@ -341,13 +341,15 @@
   homepageUrl: https://www.webdevcody.com/
   tags:
     - youtube
-# - id:
-#   name:
-#   youtubeUrl:
-#   homepageUrl:
-#   tags:
-#     - youtube
 
+- id: not_just_dev
+  name: notJust․dev
+  belongsTo: vadim_savin
+  youtubeUrl: https://www.youtube.com/@notjustdev
+  youtubeName: notjustdev
+  homepageUrl: https://www.notjust.dev/
+  tags:
+    - youtube
 # - id:
 #   name:
 #   youtubeUrl:

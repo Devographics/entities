@@ -1,0 +1,21 @@
+- id: european
+  normalizationOnly: true
+
+- id: human
+  normalizationOnly: true
+
+- id: indian
+  normalizationOnly: true
+
+- id: jewish
+  normalizationOnly: true
+
+- id: north_african
+  normalizationOnly: true
+  patterns:
+    - north africa
+
+- id: slav
+  normalizationOnly: true
+  patterns:
+    - slavic

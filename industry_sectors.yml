@@ -197,3 +197,30 @@
     - auto
     - car
     - vehicle
+
+- id: religion
+  normalizationOnly: true
+  patterns:
+    - church
+
+- id: culture
+  normalizationOnly: true
+  patterns:
+    - cultural
+
+- id: e_commerce
+  normalizationOnly: true
+  patterns:
+    - commerce
+    - retail
+
+- id: e_learning
+  normalizationOnly: true
+  patterns:
+    - learning
+
+- id: student
+  normalizationOnly: true
+
+- id: unemployed
+  normalizationOnly: true

@@ -27,12 +27,11 @@
   tags:
     - css_missing_features
 
-- id: functions
-  name: Functions
-  patterns:
-    - functions?
-  tags:
-    - css_missing_features
+# catches too much stuff
+# - id: functions
+#   name: Functions
+#   tags:
+#     - css_missing_features
 
 - id: browser_support
   name: Browser Support
@@ -222,6 +221,16 @@
   tags:
     - css_pain_points
 
+- id: accessibility
+  normalizationOnly: true
+  tags:
+    - css_pain_points
+
+- id: stacking_context
+  normalizationOnly: true
+  tags:
+    - css_pain_points
+
 # what do you use CSS for
 
 - id: e_commerce
@@ -231,6 +240,8 @@
     - css_uses
   patterns:
     - webshop
+    - store
+    - shop
 
 - id: electron
   normalizationOnly: true
@@ -276,6 +287,11 @@
     - css_uses
   patterns:
     - extension
+
+- id: websites
+  normalizationOnly: true
+  tags:
+    - css_uses
 
 # accessibility features
 
@@ -462,5 +478,10 @@
   patterns:
     - email
     - devographics.com
+    - e-mail
+    - e mail
+    - mail
+    - mailing list
+    - newsletter
   tags:
     - sources_state_of_css

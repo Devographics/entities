@@ -477,3 +477,9 @@
 - id: r_reactjs
   name: r/ReactJS
   homepageUrl: https://www.reddit.com/r/reactjs/
+
+- id: chat_gpt
+  name: ChatGPT
+  homepageUrl: https://chat.openai.com/
+  patterns:
+    - open( )?ai

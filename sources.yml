@@ -5,7 +5,11 @@
   patterns:
     - t.co
 
+- id: podcast
+  normalizationOnly: true
+
 - id: work
+  normalizationOnly: true
   name: Workplace
   patterns:
     - co( |-)worker
@@ -132,6 +136,9 @@
   normalizationOnly: true
 
 - id: mastodon
+  patterns:
+    - mastadon
+    - masstodon
   normalizationOnly: true
 
 - id: brave
@@ -149,6 +156,8 @@
   normalizationOnly: true
 
 - id: youtube
+  patterns:
+    - yt
   normalizationOnly: true
 
 - id: google
@@ -165,3 +174,33 @@
 
 - id: yandex
   normalizationOnly: true
+
+- id: previous_participant
+  normalizationOnly: true
+  patterns:
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+
+- id: blog
+  normalizationOnly: true
+
+- id: other_online_sources
+  normalizationOnly: true
+  patterns:
+    - internet
+    - online
+    - social media
+
+- id: kevin_powell
+  normalizationOnly: true
+  patterns:
+    - kevin
+    - powell

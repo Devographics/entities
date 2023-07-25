@@ -2,7 +2,7 @@
 
 - id: copy_paste
   normalizationOnly: true
-  name: Copy/paste
+  # name: Copy/paste
   tags:
     - css_first_steps
   patterns:
@@ -11,7 +11,7 @@
 
 - id: view_source
   normalizationOnly: true
-  name: View Source
+  # name: View Source
   tags:
     - css_first_steps
   patterns:
@@ -20,17 +20,18 @@
 
 - id: blogs
   normalizationOnly: true
-  name: Blogs & Articles
+  # name: Blogs & Articles
   tags:
     - css_first_steps
   patterns:
     - blog
     - blogger
     - articles
+    - article
 
 - id: forums
   normalizationOnly: true
-  name: Forums
+  # name: Forums
   tags:
     - css_first_steps
   patterns:
@@ -70,7 +71,7 @@
 
 - id: trial_and_error
   normalizationOnly: true
-  name: Trial & Error
+  # name: Trial & Error
   patterns:
     - trial
     - error
@@ -80,9 +81,21 @@
 
 - id: documentation
   normalizationOnly: true
-  name: Documentation
+  # name: Documentation
   patterns:
     - docs
     - documents
   tags:
     - css_first_steps
+
+- id: events
+  normalizationOnly: true
+  # name: Documentation
+  patterns:
+    - conference
+    - event
+    - meetup
+
+- id: newsletter
+  normalizationOnly: true
+  # name: Documentation

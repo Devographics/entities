@@ -1,0 +1,52 @@
+- id: shorter
+  normalizationOnly: true
+  patterns:
+    - too long
+
+- id: add_links
+  normalizationOnly: true
+  patterns:
+    - links
+
+- id: light_mode
+  normalizationOnly: true
+
+- id: visual_examples
+  normalizationOnly: true
+  patterns:
+    - visual
+
+- id: positive_impression
+  normalizationOnly: true
+  patterns:
+    - doing great
+    - doing a great
+    - great job
+    - perfect
+    - are good
+    - are great
+    - is great
+    - it's great
+    - best survey
+    - pretty good
+    - pretty great
+    - all good
+    - good
+    - all great
+    - all is fine
+    - i like it
+    - it's fine
+    - it's good
+    - it's ok
+    - its fine
+    - its good
+    - its ok
+
+- id: dont_know
+  normalizationOnly: true
+  patterns:
+    - don't know
+    - idk
+    - no idea
+    - no need
+    - nothing

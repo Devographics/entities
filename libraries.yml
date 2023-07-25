@@ -564,6 +564,16 @@
     - js
     - css_in_js
 
+- id: panda_css
+  name: Panda
+  homepageUrl: https://panda-css.com/
+  patterns:
+    - panda
+  tags:
+    - css
+    - js
+    - css_in_js
+
 - id: styletron
   name: Styletron
   contexts: [state_of_css]

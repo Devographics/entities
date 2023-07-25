@@ -405,6 +405,9 @@
   name: ViewTransition API
   mdn: en-US/docs/Web/API/View_Transitions_API
   caniuse: mdn-api_viewtransition
+  patterns:
+    - view transition
+    - page transition
   example:
     language: css
     code: |
@@ -424,6 +427,20 @@
     - title: Smooth and simple transitions with the View Transitions API
       url: https://developer.chrome.com/docs/web-platform/view-transitions/
       language: en-US
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: background_attachment
+  name: >
+    `background-attachment`
+  mdn: en-US/docs/Web/CSS/background-attachment
+  example: 
+    language: css
+    code: |
+      background-attachment: scroll;
+      background-attachment: fixed;
+      background-attachment: local;
   tags:
     - css
     - css_shapes_and_graphics
@@ -824,6 +841,8 @@
     - title: "Leading-Trim: The Future of Digital Typesetting"
       url: https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202
       language: en-US
+  patterns:
+    - leading( |-)?trim
 
 - id: direction
   name: "`direction`"
@@ -878,6 +897,20 @@
     - css
     - css_typography
 
+- id: text_wrap
+  name: "`text-wrap`"
+  caniuse: mdn-css_properties_text-wrap
+  # w3c:
+  mdn: en-US/docs/Web/CSS/text-wrap
+  example:
+    language: css
+    code: |
+      .wrap {
+        text-wrap: wrap;
+      }
+  tags:
+    - css
+    - css_typography
 #################################################
 # CSS animations & transforms
 #################################################
@@ -974,6 +1007,8 @@
   tags:
     - css
     - css_selectors
+  patterns:
+    - where
 
 - id: lang_selector
   name: "`:lang()`"
@@ -990,6 +1025,23 @@
   tags:
     - css
     - css_selectors
+
+- id: not_selector
+  name: "`:not()`"
+  mdn: en-US/docs/Web/CSS/:not
+  caniuse: mdn-css_selectors_not
+  example:
+    language: css
+    code: |
+      p:not(.irrelevant) {
+        font-weight: bold;
+      }
+  tags:
+    - css
+    - css_selectors
+  patterns:
+    - not()
+    - :not
 
 #################################################
 # JavaScript APIs
@@ -1854,3 +1906,25 @@
       const str1 = "foo bar foo";
       const regex1 = /foo/dg;
       console.log(regex1.exec(str1).indices[0]); // Output: Array [0, 2]
+
+#################################################
+#
+#   HTML
+#
+#################################################
+
+- id: selectmenu
+  name: `<selectmenu>`
+  example: 
+    language: html
+    code: |
+      <selectmenu>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+      </selectmenu>
+  resources:
+    - title: Say Hello to selectmenu, a Fully Style-able select Element
+      url: https://css-tricks.com/the-selectmenu-element/
+    - title: Advanced Form Control Styling With Selectmenu And Anchoring API
+      url: https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/

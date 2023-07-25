@@ -207,6 +207,8 @@
     - josh ?w?( |.|. )?com(m)?eau
     - comeau
     - josh w c
+    - comeu
+    - coumeau
 
 - id: rachel_andrew
   twitterName: rachelandrew
@@ -2924,3 +2926,39 @@
   patterns:
     - fred k schott
     - fred k. schott
+
+- id: roma_komarov
+  name: Roma Komarov
+  twitterName: kizmarh
+  homepageUrl: https://kizu.dev/
+
+- id: amit_sheen
+  name: Amit Sheen
+  twitterName: amit_sheen
+  homepageUrl: https://amitsh.com/
+
+- id: carmen_ansio
+  name: Carmen Ansio
+  twitterName: carmenansio
+  homepageUrl: https://recursoscosmicos.com/
+
+- id: kevin_geary
+  name: Kevin Geary
+  twitterName: carmenansio
+  homepageUrl: https://geary.co/
+  youtubeName: Gearyco
+
+- id: lucas_bonomi
+  name: Kevin Geary
+  twitterName: LukyVJ
+  homepageUrl: https://lucasbonomi.com/
+
+- id: jose_roman
+  name: José Román
+  twitterName: Manz
+  homepageUrl: https://manz.dev/
+
+- id: vitaly_friedman
+  name: Vitaly Friedman
+  twitterName: vitalyf
+  homepageUrl: https://smart-interface-design-patterns.com/

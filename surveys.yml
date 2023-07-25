@@ -122,3 +122,9 @@
 - id: state_of_react_native
   name: State of React Native
   homepageUrl: https://results.stateofreactnative.com/
+
+- id: netlify_survey
+  name: Netlify Web Development Survey
+  homepageUrl: https://www.netlify.com/blog/announcing-the-2023-web-development-survey/
+  patterns:
+    - netlify

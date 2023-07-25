@@ -121,3 +121,7 @@
 - id: arc
   name: Arc
   homepageUrl: https://arc.net/
+
+- id: librewolf
+  name: LibreWolf
+  homepageUrl: https://librewolf.net/

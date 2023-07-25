@@ -249,3 +249,7 @@
 - id: learn_vue
   name: Learn Vue
   homepageUrl: https://learnvue.co/
+
+- id: react_gg
+  name: react.gg
+  homepageUrl: https://react.gg/
