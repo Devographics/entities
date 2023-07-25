@@ -435,7 +435,7 @@
   name: >
     `background-attachment`
   mdn: en-US/docs/Web/CSS/background-attachment
-  example: 
+  example:
     language: css
     code: |
       background-attachment: scroll;
@@ -1914,8 +1914,8 @@
 #################################################
 
 - id: selectmenu
-  name: `<selectmenu>`
-  example: 
+  name: "`<selectmenu>`"
+  example:
     language: html
     code: |
       <selectmenu>
