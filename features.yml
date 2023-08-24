@@ -919,7 +919,8 @@
       }
   resources:
     - url: https://developer.chrome.com/blog/css-text-wrap-balance/
-      title: CSS text-wrap: balance
+      title: |
+        CSS text-wrap: balance
   tags:
     - css
     - css_typography
