@@ -14,10 +14,14 @@
 - id: front_end_front
   name: Front-End Front
   homepageUrl: https://frontendfront.com/
+  patterns:
+    - frontendfront.com
 
 - id: css_weekly
   name: CSS Weekly
   homepageUrl: https://css-weekly.com/
+  patterns:
+    - css-weekly.com
 
 - id: frontend_horse
   name: Frontend Horse
@@ -132,3 +136,7 @@
 - id: next_js_weekly
   name: Next.js Weekly
   homepageUrl: https://nextjsweekly.com/
+
+- id: noticias
+  name: noticias.dev
+  homepageUrl: https://www.noticias.dev/

@@ -22,6 +22,9 @@
   homepageUrl: https://facebook.com
   patterns:
     - fb
+    - http://m.facebook.com/
+    - https://l.facebook.com/
+    - https://lm.facebook.com/
 
 - id: producthunt
   name: Product Hunt
@@ -30,10 +33,14 @@
 - id: telegram
   name: Telegram
   homepageUrl: https://telegram.org/
+  patterns:
+    - android-app://org.telegram.messenger/
 
 - id: slack
   name: Slack
   homepageUrl: https://slack.com/
+  patterns:
+    - android-app://com.slack/
 
 - id: github
   name: GitHub
@@ -45,6 +52,7 @@
   patterns:
     - linked( |-)?in
     - lnkd
+    - android-app://com.linkedin.android/
 
 - id: hangouts
   name: Hangouts
@@ -88,3 +96,7 @@
 - id: mastodon
   name: Mastodon
   homepageUrl: https://mastodon.social/
+
+- id: feedly
+  name: Feedly
+  homepageUrl: https://feedly.com/

@@ -125,6 +125,9 @@
 - id: animate_to_auto
   tags:
     - css_missing_features
+  patterns:
+    - "Animating to-&-from display: none"
+    - "animate to visibility: hidden or display: none"
 
 - id: anchored_positioning
   tags:
@@ -344,7 +347,7 @@
     - browser_interoperability
 
 - id: overflow
-  name: overflow
+  name: Overflow
   tags:
     - browser_interoperability
 
@@ -483,5 +486,21 @@
     - mail
     - mailing list
     - newsletter
+    - stateofcss.com
+    - survey.devographics.com/en-US/survey/state-of-css/2023
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+    - annual
+    - yearly
+    - taken it
+    - filled it
   tags:
     - sources_state_of_css

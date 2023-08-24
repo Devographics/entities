@@ -154,6 +154,8 @@
     - blogs
   patterns:
     - chen ?hui ?jing
+    - huijing
+    - chenhuijing.com
 
 - id: jeremy_keith
   twitterName: adactio
@@ -448,6 +450,8 @@
   rssUrl: https://nerdy.dev/rss.xml
   tags:
     - css
+  patterns:
+    - nerdy.dev
 
 - id: ana_tudor
   twitterName: anatudor
@@ -455,6 +459,7 @@
   mastodonName: anatudor@mastodon.social
   youtubeUrl: https://www.youtube.com/@anatudor/
   youtubeName: anatudor
+  homepageUrl: https://thebabydino.github.io/
   patterns:
     - anna tudor
   tags:
@@ -2962,3 +2967,13 @@
   name: Vitaly Friedman
   twitterName: vitalyf
   homepageUrl: https://smart-interface-design-patterns.com/
+
+- id: michael_vanderheyden
+  name: Michaël Vanderheyden
+  homepageUrl: https://th3s4mur41.me/
+  patterns:
+    - th3S4mur41
+
+- id: ahmad_awais
+  name: Ahmad Awais
+  homepageUrl: https://ahmadawais.com/

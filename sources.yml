@@ -4,25 +4,20 @@
   normalizationOnly: true
   patterns:
     - t.co
+    - twiter
+    - tweet
 
 - id: podcast
   normalizationOnly: true
 
 - id: work
   normalizationOnly: true
-  name: Workplace
   patterns:
     - co( |-)worker
     - coll?ea?gu?a?es?
     - company
 
-- id: duckduckgo
-  normalizationOnly: true
-  name: DuckDuckGo
-  homepageUrl: https://duckduckgo.com/
-
 - id: word_of_mouth
-  name: Word Of Mouth
   patterns:
     - friend
     - family
@@ -158,10 +153,13 @@
 - id: youtube
   patterns:
     - yt
+    - youtube.com
   normalizationOnly: true
 
 - id: google
   normalizationOnly: true
+  patterns:
+    - google.com
 
 - id: diversify_tech
   normalizationOnly: true
@@ -175,19 +173,13 @@
 - id: yandex
   normalizationOnly: true
 
-- id: previous_participant
+- id: fediverse
+  normalizationOnly: true
+
+- id: teams
   normalizationOnly: true
   patterns:
-    - for years
-    - forever
-    - been doing
-    - been taking
-    - past year
-    - previous year
-    - previous survey
-    - every year
-    - last year
-    - subscribed
+    - statics.teams.cdn.office.net
 
 - id: blog
   normalizationOnly: true
@@ -199,8 +191,13 @@
     - online
     - social media
 
-- id: kevin_powell
+# for source norm. only; match short tokens such as "kevin"
+- id: kevin_j_powell
   normalizationOnly: true
   patterns:
     - kevin
     - powell
+    - kp
+
+- id: post_survey_share
+  normalizationOnly: true

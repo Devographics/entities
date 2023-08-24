@@ -9,9 +9,6 @@
 - id: security
   normalizationOnly: true
 
-- id: legal
-  normalizationOnly: true
-
 - id: payments
   normalizationOnly: true
 
@@ -43,9 +40,6 @@
   normalizationOnly: true
 
 - id: crypto
-  normalizationOnly: true
-
-- id: legal
   normalizationOnly: true
 
 - id: food

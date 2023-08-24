@@ -2315,7 +2315,7 @@
   npm: axios
   github: axios/axios
   description: Promise based HTTP client for the browser and node.js
-  homepageUrl: null
+  homepageUrl: https://axios-http.com/
 
 - id: lerna
   name: Lerna

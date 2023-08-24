@@ -237,10 +237,12 @@
 
 - id: webdesignernews
   name: Web Designer News
+  homepageUrl: http://webdesignernews.com/
   tags:
     - news
   patterns:
     - web ?designer ?news
+    - webdesignernews.com
 
 - id: awwwards
   name: Awwwards
@@ -264,6 +266,7 @@
     - web(_| |-)?standarts
     - Веб(-| )?стандарты
     - web(-| )?стандарты
+    - web-standards.ru
 
 - id: w3c
   name: W3C
@@ -461,6 +464,8 @@
 - id: bing
   name: Bing
   homepageUrl: https://www.bing.com
+  patterns:
+    - bing.com
 
 - id: baidu
   name: Baidu
@@ -483,3 +488,10 @@
   homepageUrl: https://chat.openai.com/
   patterns:
     - open( )?ai
+
+- id: duckduckgo
+  normalizationOnly: true
+  name: DuckDuckGo
+  homepageUrl: https://duckduckgo.com/
+  patterns:
+    - duckduckgo.com

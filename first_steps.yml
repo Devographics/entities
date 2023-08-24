@@ -81,7 +81,6 @@
 
 - id: documentation
   normalizationOnly: true
-  # name: Documentation
   patterns:
     - docs
     - documents
@@ -90,12 +89,12 @@
 
 - id: events
   normalizationOnly: true
-  # name: Documentation
   patterns:
     - conference
     - event
     - meetup
 
-- id: newsletter
+- id: newsletters
   normalizationOnly: true
-  # name: Documentation
+  patterns:
+    - newsletter
