@@ -1099,3 +1099,111 @@
         Improving user privacy and developer experience with User-Agent Client
         Hints - Chrome Developers
   caniuse: client-hints-dpr-width-viewport
+  tags:
+    - features
+
+#################################################
+#
+#   Form Inputs
+#
+#################################################
+
+- id: select_element
+  name: |
+    `<select>`
+
+- id: textarea_element
+  name: |
+    `<textarea>`
+
+- id: datalist_element
+  name: |
+    `<datalist>`
+
+- id: input_type_date
+  name: |
+    `<input type="date">`
+
+- id: input_type_time
+  name: |
+    `<input type="time">`
+
+- id: input_type_datetime_locale
+  name: |
+    `<input type="datetime-local">`
+
+- id: input_type_month
+  name: |
+    '<input type="month">'
+
+- id: input_type_week
+  name: |
+    '<input type="week">'
+
+- id: input_type_color
+  name: |
+    `<input type="color">`
+
+- id: input_type_color_list
+  name: <input type="color" list> for swatches
+
+- id: input_type_email
+  name: '<input type="email"> '
+
+- id: input_type_tel
+  name: '<input type="tel"> '
+
+- id: input_type_url
+  name: '<input type="url"> '
+
+- id: input_type_month
+  name: '<input type="month"> '
+
+- id: input_type_number
+  name: '<input type="number"> '
+
+- id: input_type_range
+  name: '<input type="range"> '
+
+- id: input_type_range_list
+  name: <input type="range" list> for ticks
+
+- id: input_type_file
+  name: '<input type="file"> '
+
+- id: output_element
+  name: <output>
+
+#################################################
+#
+#   Web Components
+#
+#################################################
+
+- id: slot_element
+  name: <slot>  element
+
+- id: slot_attribute
+  name: slot="slot_name" attribute
+
+- id: part_attribute
+  name: part attribute
+
+- id: part_pseudo
+  name: CSS ::part() pseudo-element
+
+- id: host_pseudos
+  name: ":host , :host() , :host-context()  CSS pseudo-classes"
+- name: "::slotted()  CSS pseudo-element"
+
+- id: custom_elements_get
+  name: customElements.get()
+
+- id: custom_elements_when_defined
+  name: "customElements.whenDefined() "
+
+- id: custom_elements_get_name
+  name: customElements.getName()
+
+- id: is_attribute
+  name: Customized built-in elements (<button is="fancy-button"> )

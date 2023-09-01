@@ -2766,3 +2766,35 @@
   tags:
     - react
     - react_renderer
+
+#################################################
+# Web Components
+#################################################
+
+- id: shoelace
+  name: Shoelace
+  homepageUrl: https://shoelace.style/
+
+- id: spectrum_wc
+  name: Spectrum Web Components
+  homepageUrl: https://opensource.adobe.com/spectrum-web-components/
+
+- id: lightning_wc
+  name: Lightning Web Components
+  homepageUrl: https://lwc.dev/
+
+- id: fast_design
+  name: FAST
+  homepageUrl: https://www.fast.design/
+
+- id: elix
+  name: Elix
+  homepageUrl: https://component.kitchen/elix
+
+- id: lion_wc
+  name: Lion
+  homepageUrl: https://lion-web.netlify.app/
+
+- id: material_wc
+  name: Material Web
+  homepageUrl: https://material-web.dev/
