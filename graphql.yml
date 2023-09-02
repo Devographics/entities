@@ -42,7 +42,7 @@
 - id: graphql_go
   name: GraphQL-Go
   homepageUrl: https://github.com/graph-gophers/graphql-go
-- id: lighthouse
+- id: lighthouse_php
   name: Lighthouse
   homepageUrl: https://lighthouse-php.com/
 - id: graphql_ruby
