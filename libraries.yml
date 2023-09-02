@@ -1418,6 +1418,14 @@
   name: Nextra
   homepageUrl: https://nextra.site/
 
+- id: jekyll
+  name: Jekyll
+  homepageUrl: https://jekyllrb.com/
+
+- id: hugo
+  name: Hugo
+  homepageUrl: https://gohugo.io/
+
 #################################################
 # Testing
 #################################################

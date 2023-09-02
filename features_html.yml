@@ -307,7 +307,7 @@
     - features
 
 - id: accordion_element
-  name: Exclusive accordion
+  name: Exclusive Accordion
   needsTranslation: true
   description:
     Group `<details>` elements so that only up to one in the group can
