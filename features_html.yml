@@ -1377,3 +1377,10 @@
 - id: app_manifest_launch_handler
   name: |
     `launch_handler`
+
+- id: landmark_elements
+  name: |
+    Landmark Elements
+  description: |
+    `aside`, `article`, `main`, `nav`, `section`, etc.
+  homepageUrl: https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html
