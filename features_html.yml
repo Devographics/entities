@@ -236,7 +236,7 @@
     - features
 
 - id: autocomplete_element
-  name: Autocomplete hints
+  name: Autocomplete Hints
   needsTranslation: false
   description: Provide hints about what kind of information is expected, e.g.
     `name`, `honorific-prefix`, `tel`,  `cc-number` etc
