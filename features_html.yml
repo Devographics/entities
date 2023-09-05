@@ -924,11 +924,11 @@
   example:
     language: html
     code: |-
-      <selectmenu>
+      <selectlist>
       	<option>Option 1</option>
       	<option>Option 2</option>
       	<option>Option 3</option>
-      </selectmenu>
+      </selectlist>
   tags:
     - features
 
@@ -1137,18 +1137,24 @@
 
 - id: microdata
   name: |
-    Microdata (`itemprop`, `itemscope`, etc.)
+    Microdata
+  description: |
+    `itemprop`, `itemscope`, etc.
 
 - id: microformats
   name: Microformats
 
 - id: rdfa
   name: |
-    RDFa (`property`, `typeof`, etc.)
+    RDFa
+  description: |
+    `property`, `typeof`, etc.
 
 - id: json_ld
   name: |
-    JSON-LD (`<script type="application/ld+json">`)
+    JSON-LD
+  description: |
+    `<script type="application/ld+json">`
 
 - id: blink_element
   name: |
