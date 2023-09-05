@@ -216,7 +216,7 @@
     - features
 
 - id: accordion_element
-  name: Exclusive accordion
+  name: Exclusive Accordion
   needsTranslation: true
   description:
     Group `<details>` elements so that only up to one in the group can
@@ -228,7 +228,7 @@
       	<summary>Main info</summary>
       	<!-- controls -->
       </details>
-      <details open name="sidebar_panel" id="style_settings">
+      <details name="sidebar_panel" id="style_settings">
       	<summary>Style</summary>
       	<!-- controls -->
       </details>
@@ -1160,6 +1160,10 @@
   name: |
     `<blink>`
 
+- id: marquee_element
+  name: |
+    `<marquee>`
+
 - id: frame_element
   name: |
     `<frame>`
@@ -1388,7 +1392,7 @@
   name: |
     Landmark Elements
   description: |
-    `aside`, `article`, `main`, `nav`, `section`, etc.
+    `<aside>`, `<article>`, `<main>`, `<nav>`, `<section>`, etc.
   homepageUrl: https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html
 
 - id: input_element
