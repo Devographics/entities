@@ -1384,3 +1384,19 @@
   description: |
     `aside`, `article`, `main`, `nav`, `section`, etc.
   homepageUrl: https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html
+
+- id: input_element
+  name: |
+    `<input>`
+
+- id: select_element
+  name: |
+    `<select>`
+
+- id: textarea_element
+  name: |
+    `<textarea>`
+
+- id: button_element
+  name: |
+    `<button>`
