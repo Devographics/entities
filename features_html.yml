@@ -216,10 +216,10 @@
     - features
 
 - id: accordion_element
-  name: Exclusive Accordion
+  name: Exclusive Accordion via `<details name>`
   needsTranslation: true
   description:
-    Group `<details>` elements so that only up to one in the group can
+    Group `<details>` elements using a `name` attribute so that only up to one in the group can
     be open at a time.
   example:
     language: html
@@ -581,7 +581,7 @@
     code: >-
       <div id="tab1" aria-controls="panel1" role="tab">Prices</div>
 
-      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">       
+      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">
       	<!-- tab content -->
       </div>
   tags:
@@ -1164,13 +1164,13 @@
   name: |
     `<marquee>`
 
-- id: frame_element
+- id: plaintext_element
   name: |
-    `<frame>`
+    `<plaintext>`
 
 - id: frameset_element
   name: |
-    `<frameset>`
+    `<frameset>` & `<frame>`
 
 - id: font_element
   name: |
@@ -1236,7 +1236,9 @@
 
 - id: is_attribute
   name: |
-    Customized built-in elements (`<button is="fancy-button">`)
+    Customized built-in elements
+  description: |
+    `<button is="fancy-button">`
 
 #################################################
 #
