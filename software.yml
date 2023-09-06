@@ -29,3 +29,7 @@
 - id: guidepup
   name: Guidepup
   homepageUrl: https://www.guidepup.dev/
+
+- id: talkback
+  name: TalkBack
+  homepageUrl: https://support.google.com/accessibility/android/answer/6283677?hl=en

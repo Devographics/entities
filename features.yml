@@ -1826,9 +1826,10 @@
   name: Custom Elements
   mdn: /en-US/docs/Web/Web_Components
 
-- id: shadow_dom
-  name: Shadow DOM
-  mdn: /en-US/docs/Web/Web_Components
+# moved to features_html
+# - id: shadow_dom
+#   name: Shadow DOM
+#   mdn: /en-US/docs/Web/Web_Components
 
 - id: numeric_separators
   name: Numeric Separators

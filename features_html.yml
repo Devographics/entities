@@ -40,18 +40,6 @@
   tags:
     - features
 
-- id: iframe_seamless
-  name: "`<iframe seamless>`"
-  needsTranslation: false
-  description:
-    Makes an iframe's contents part of a page, adopting styles from its
-    hosting page
-  example:
-    language: html
-    code: <iframe src="header.html" seamless></iframe>
-  tags:
-    - features
-
 - id: menu_element
   name: "`<menu>` element"
   needsTranslation: false
@@ -123,13 +111,6 @@
   tags:
     - features
 
-- id: sanitizer_api
-  name: Sanitizer API
-  needsTranslation: true
-  description: API to prevent XSS attacks by sanitizing strings of HTML.
-  tags:
-    - features
-
 - id: scoped_element_registries
   name: Scoped Custom Element Registries
   needsTranslation: true
@@ -156,34 +137,9 @@
   tags:
     - features
 
-- id: input_pattern
-  name: input `pattern` attribute
-  needsTranslation: true
-  example:
-    language: html
-    code: >-
-      <label for="username">Username: (3-16 characters)</label>
-
-      <input name="username" type="text" value="Sasha" pattern="\w{3,16}" required>
-
-      <label for="pin">PIN: (4 digits)</label>
-
-      <input name="pin" type="password" pattern="\d{4,4}" required>
-  tags:
-    - features
-
 - id: isolated_webapps
   name: Isolated Web Apps
   needsTranslation: true
-  tags:
-    - features
-
-- id: multihandle_sliders
-  name: Multi-handle sliders (`<input type=range multiple>`)
-  needsTranslation: true
-  example:
-    language: html
-    code: <input type="range" multiple />
   tags:
     - features
 
@@ -216,10 +172,10 @@
     - features
 
 - id: accordion_element
-  name: Exclusive Accordion via `<details name>`
+  name: Exclusive accordion
   needsTranslation: true
   description:
-    Group `<details>` elements using a `name` attribute so that only up to one in the group can
+    Group `<details>` elements so that only up to one in the group can
     be open at a time.
   example:
     language: html
@@ -228,7 +184,7 @@
       	<summary>Main info</summary>
       	<!-- controls -->
       </details>
-      <details name="sidebar_panel" id="style_settings">
+      <details open name="sidebar_panel" id="style_settings">
       	<summary>Style</summary>
       	<!-- controls -->
       </details>
@@ -236,7 +192,7 @@
     - features
 
 - id: autocomplete_element
-  name: Autocomplete Hints
+  name: Autocomplete hints
   needsTranslation: false
   description: Provide hints about what kind of information is expected, e.g.
     `name`, `honorific-prefix`, `tel`,  `cc-number` etc
@@ -380,12 +336,6 @@
       <link rel="preload" href="(url)" />
       <link rel="prefetch" href="(url)" />
       <link rel="dns-prefetch" href="(url)" />
-  tags:
-    - features
-
-- id: breadcrumb_element
-  name: "`<breadcrumb>`"
-  needsTranslation: false
   tags:
     - features
 
@@ -581,7 +531,7 @@
     code: >-
       <div id="tab1" aria-controls="panel1" role="tab">Prices</div>
 
-      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">
+      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">       
       	<!-- tab content -->
       </div>
   tags:
@@ -843,20 +793,6 @@
   tags:
     - features
 
-- id: adaptive_streaming
-  name: Adaptive streaming
-  needsTranslation: true
-  example:
-    language: html
-    code: |-
-      <video>
-        <source src="movie.mpd" />
-        <source src="movie.webm" />
-        Your browser does not support the video tag.
-      </video>
-  tags:
-    - features
-
 - id: model_element
   name: "`<model>` for AR/VR/3D content"
   needsTranslation: false
@@ -864,17 +800,6 @@
   example:
     language: html
     code: <model src="3d-assets/car"></model>
-  tags:
-    - features
-
-- id: exportparts_attribute
-  name: "`exportparts` attribute"
-  needsTranslation: true
-  example:
-    language: html
-    code: |-
-      <!-- In Shadow DOM: -->
-      <img-input exportparts="dropzone: img-input-dropzone"></img-input>
   tags:
     - features
 
