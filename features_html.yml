@@ -349,7 +349,7 @@
     - features
 
 - id: imperative_slot
-  name: Imperative slot assignment
+  name: Imperative Slot Assignment
   needsTranslation: true
   description: A way to assign elements to slots manually via JS, so that slot
     assignment does not have to be managed by the component consumers.
@@ -362,7 +362,7 @@
     - features
 
 - id: form_validation
-  name: Form validation
+  name: Form Validation
   needsTranslation: true
   description: Set of HTML attributes and JS APIs to facilitate client-side form
     validation (`<input pattern>`, `<input required>`, `input.
