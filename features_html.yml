@@ -1569,51 +1569,63 @@
 #################################################
 
 - id: element_innerhtml
-  name: |
-    `element.innerHTML`
+  name: innerHTML property
+  description: |
+      `element.innerHTML = rawHTML`
 
 - id: element_textcontent
-  name: |
-    `element.textContent`
+  name: textContent property
+  description: |
+      `element.textContent = rawText`
 
 - id: element_insert_adjacent_html
-  name: |
-    `element.insertAdjacentHTML()`
+  name: insertAdjacentHTML()
+  description: |
+    `element.insertAdjacentHTML("beforebegin", rawHTML)`
 
 - id: element_insert_adjacent_element
-  name: |
-    `element.insertAdjacentElement()`
+  name: insertAdjacentElement()
+  description: |
+    `element.insertAdjacentElement("afterend", otherElement)`
 
 - id: element_append
-  name: |
-    `element.append()`
+  name: append()
+  description: |
+    `parent.append(...children)`
 
 - id: element_append_child
-  name: |
-    `element.appendChild()`
+  name: appendChild()
+  description: |
+    `parent.appendChild(child)`
 
 - id: element_before_after
-  name: |
-    `element.before()`  and/or `element.after()`
+  name: before() and after() methods
+  description: |
+    `element.before(otherElement)`
 
 - id: element_replace_with
-  name: |
-    `element.replaceWith()`
+  name: replaceWith()
+  description: |
+    `element.replaceWith(otherElement)`
 
 - id: element_replace_child
-  name: |
-    `element.replaceChild()`
+  name: replaceChild()
+  description: |
+    `parent.replaceChild(newChild, oldChild)`
 
 - id: element_replace_children
-  name: |
-    `element.replaceChildren()`
+  name: replaceChildren()
+  description: |
+    `element.replaceChildren(...newChildren)`
 
 - id: element_toggle_attribute
-  name: |
-    `element.toggleAttribute()`
+  name: toggleAttribute()
+  description: |
+    `element.toggleAttribute("data-selected", isSelected)`
 
 - id: document_create_document_fragment
-  name: |
+  name: Document fragments
+  description: |
     `document.createDocumentFragment()`
 
 #################################################
