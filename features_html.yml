@@ -64,7 +64,7 @@
     code: >-
       <div id="tab1" aria-controls="panel1" role="tab">Prices</div>
 
-      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">       
+      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">
       	<!-- tab content -->
       </div>
   mdn: en-US/docs/Web/Accessibility/ARIA/Attributes
@@ -1710,8 +1710,9 @@
     CSS `::part()` pseudo-element
 
 - id: host_pseudos
-  name: |
-    `:host` , `:host()` , `:host-context()`  CSS pseudo-classes
+  name: Shadow host CSS pseudo-classes
+  description: |
+    `:host` , `:host()` , `:host-context()`
 
 - id: slotted_pseudo_element
   name: |
