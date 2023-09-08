@@ -1,0 +1,881 @@
+- id: datalist_element
+  name: "`<datalist>`"
+  needsTranslation: false
+  description: Method of providing a list of presets for a user to select in a
+    form control, while still allowing custom options.
+  example:
+    language: html
+    code: |-
+      <input name="country" list="countries">
+      <datalist id="countries">
+        <option>Afghanistan</option>
+        ...
+      </datalist>
+  tags:
+    - features
+
+- id: form_request_submit
+  name: "`form.requestSubmit()`"
+  needsTranslation: false
+  description: Programmatically submit a form in a way that mimics real form submission
+  mdn: en-US/docs/Web/API/HTMLFormElement/requestSubmit](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/requestSubmit
+  tags:
+    - features
+
+- id: borderless_mode
+  name: Borderless mode
+  needsTranslation: true
+  example:
+    language: json
+    code: |-
+      {
+        "display_override": [ "borderless" ]
+      }
+  tags:
+    - features
+
+- id: menu_element
+  name: "`<menu>` element"
+  needsTranslation: false
+  description: Semantic wrapper for menus.
+  example:
+    language: html
+    code: |-
+      <menu>
+        <li><button id="save">Save for later</button></li>
+        <li><button id="share">Share this news</button></li>
+      </menu>
+  tags:
+    - features
+
+- id: text_fragments
+  name: URLs to Text Fragments
+  needsTranslation: true
+  example:
+    language: html
+    code: https://example.com#:~:text=prefix-,startText,endText,-suffix
+  tags:
+    - features
+
+- id: window_controls_overlay
+  name: Window Controls Overlay API
+  needsTranslation: true
+  description: Allows PWAs to display custom content over the title bar area,
+    whose controls become an overlay.
+  example:
+    language: js
+    code: navigator.windowControlsOverlay
+  tags:
+    - features
+
+- id: web_share_api
+  name: Web Share API
+  needsTranslation: true
+  description: Exposes a mechanism for sharing content to various user-selected targets.
+  example:
+    language: js
+    code: navigator.share(shareData)
+  tags:
+    - features
+
+- id: badging_api
+  name: Badging API
+  needsTranslation: true
+  description: Set a badge on the web application’s icon to notify about updated
+    state in a less intrusive, persistent way.
+  example:
+    language: js
+    code: navigator.setAppBadge(unreadCount)
+  tags:
+    - features
+
+- id: formdata
+  name: FormData API
+  needsTranslation: true
+  description: Easy handling of form data values
+  example:
+    language: js
+    code: |
+      let fd = new FormData(form);
+      let data = JSON.stringify(Object.fromEntries(fd));
+  mdn: en-US/docs/Web/API/FormData/FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData
+  resources:
+    - url: https://xhr.spec.whatwg.org/#dom-formdata](https://xhr.spec.whatwg.org/#dom-formdata
+  caniuse: mdn-api_formdata](https://caniuse.com/mdn-api_formdata
+  tags:
+    - features
+
+- id: scoped_element_registries
+  name: Scoped Custom Element Registries
+  needsTranslation: true
+  description:
+    Allow multiple custom element definitions for a single tag name to
+    exist within a page.
+  example:
+    language: js
+    code: |-
+      const registry = new CustomElementRegistry();
+      registry.define('sub-element', SubElement);
+  tags:
+    - features
+
+- id: custom_elements_defining
+  name: Defining Custom Elements
+  needsTranslation: true
+  description: Defining custom elements for use by others.
+  example:
+    language: js
+    code: |-
+      class MyElement extends HTMLElement { … }
+      customElements.define("my-element", MyElement);
+  tags:
+    - features
+
+- id: isolated_webapps
+  name: Isolated Web Apps
+  needsTranslation: true
+  tags:
+    - features
+
+- id: navigation_api
+  name: Navigation API
+  needsTranslation: true
+  description:
+    Initiate, intercept, and manage navigation actions, examine history
+    entries. Successor to the older `history` and `location` APIs.
+  example:
+    language: js
+    code: |-
+      navigation.navigate(url, {history: "push"});
+      navigation.addEventListener("navigate", interceptNavigation);
+  tags:
+    - features
+
+- id: html_modules
+  name: HTML Modules
+  needsTranslation: true
+  description: Import HTML files via JS imports and access their elements and JS exports.
+  example:
+    language: html
+    code: |-
+      <script type="module">
+      	import { TabList } from "./tablist.html";
+      	customElements.define("tab-list", TabList);
+      </script>
+  tags:
+    - features
+
+- id: accordion_element
+  name: Exclusive accordion
+  needsTranslation: true
+  description:
+    Group `<details>` elements so that only up to one in the group can
+    be open at a time.
+  example:
+    language: html
+    code: |-
+      <details open name="sidebar_panel" id="main_info">
+      	<summary>Main info</summary>
+      	<!-- controls -->
+      </details>
+      <details open name="sidebar_panel" id="style_settings">
+      	<summary>Style</summary>
+      	<!-- controls -->
+      </details>
+  tags:
+    - features
+
+- id: autocomplete_element
+  name: Autocomplete hints
+  needsTranslation: false
+  description: Provide hints about what kind of information is expected, e.g.
+    `name`, `honorific-prefix`, `tel`,  `cc-number` etc
+  example:
+    language: html
+    code: <input name="address_firstline" autocomplete="billing street-address" />
+  tags:
+    - features
+
+- id: dialog_element
+  name: "`<dialog>`"
+  needsTranslation: false
+  description: For dialog boxes or other interactive components, such as a
+    dismissible alerts, or subwindows.
+  example:
+    language: html
+    code: |-
+      <dialog id="confirm">
+      	<form method="dialog">
+      		Are you sure?
+      		<button value="1">Yes</button>
+      		<button value="0">No</button>
+      	</form>
+      </dialog>
+  tags:
+    - features
+
+- id: shadow_dom
+  name: Shadow DOM
+  needsTranslation: false
+  description: Encapsulate elements not visible from the outside, and style them
+    with CSS not affecting the rest of the page.
+  example:
+    language: js
+    code: 'this.shadowRoot = this.attachShadow({mode: "open"});'
+  tags:
+    - features
+
+- id: dom_parts
+  name: DOM Parts
+  needsTranslation: true
+  description:
+    A cacheable representation of a part of the DOM that can be updated
+    performantly.
+  tags:
+    - features
+
+- id: contenteditable_plaintext
+  name: '`contenteditable="plaintext-only"`'
+  needsTranslation: false
+  description: Permits editing of the element's raw text, but not rich text formatting.
+  example:
+    language: html
+    code: <h2 class="title" contenteditable="plaintext-only"></h2>
+  tags:
+    - features
+
+- id: custom_elements_using
+  name: Using Custom Elements
+  needsTranslation: true
+  description: Using custom elements, that you or someone else defined.
+  example:
+    language: html
+    code: <sl-switch>Switch</sl-switch>
+  tags:
+    - features
+
+- id: showpicker
+  name: "`input.showPicker()`"
+  needsTranslation: false
+  description: Programmatically open the picker of form controls that have one
+    (color pickers, date inputs etc).
+  example:
+    language: html
+    code: |-
+      <input id="dateInput" type="date">
+      <button onclick="dateInput.showPicker()">Select date</button>
+  tags:
+    - features
+
+- id: structured_data
+  name: Structured data (RDFa, Microdata, Microformats)
+  needsTranslation: true
+  description: Technologies for embedding machine-readable data in HTML.
+  example:
+    language: html
+    code: |-
+      <!-- RDFa: -->
+      <time property="datePublished" datetime="2009-05-08">May 8, 2009</time>
+      <!-- Microdata: -->
+      <time itemprop="datePublished" datetime="2009-05-08">May 8, 2009</time>
+      <!-- Microformats: -->
+      <time class="dt-published" datetime="2009-05-08">May 8, 2009</time>
+  tags:
+    - features
+
+- id: content_security_policy
+  name: Content-Security Policy (CSP)
+  needsTranslation: true
+  description: An added layer of security that helps to detect and mitigate XSS
+    and other attacks.
+  example:
+    language: http
+    code: "Content-Security-Policy: default-src 'self'"
+  tags:
+    - features
+
+- id: cors
+  name: CORS
+  needsTranslation: false
+  description: Opt-in to allowing requests from different origins.
+  example:
+    language: http
+    code: |-
+      Access-Control-Allow-Origin: *
+      Access-Control-Allow-Methods: POST, GET, OPTIONS
+  tags:
+    - features
+
+- id: part_attribute
+  name: Exposing component parts (`part` attribute)
+  needsTranslation: true
+  description: Expose Shadow DOM elements to be stylable by component consumers.
+  example:
+    language: html
+    code: |-
+      this.shadowRoot.innerHTML = `
+      <input id="url" part="input location">`;
+  tags:
+    - features
+
+- id: resource_hints
+  name: Resource Hints (all)
+  needsTranslation: true
+  description: Begin work on certain resources earlier to improve performance.
+  example:
+    language: html
+    code: |-
+      <link rel="preconnect" href="(url)" />
+      <link rel="prerender" href="(url)" />
+      <link rel="preload" href="(url)" />
+      <link rel="prefetch" href="(url)" />
+      <link rel="dns-prefetch" href="(url)" />
+  tags:
+    - features
+
+- id: client_hints
+  name: HTTP client hints
+  needsTranslation: true
+  description: |-
+    ```http
+    Accept-CH: Width, Downlink, Sec-CH-UA
+  tags:
+    - features
+
+- id: imperative_slot
+  name: Imperative Slot Assignment
+  needsTranslation: true
+  description: A way to assign elements to slots manually via JS, so that slot
+    assignment does not have to be managed by the component consumers.
+  example:
+    language: js
+    code: |-
+      this.attachShadow({mode: "open", slotAssignment: "manual" });
+      this.shadowRoot.querySelector("slot[name=foo]").assign(element);
+  tags:
+    - features
+
+- id: form_validation
+  name: Form Validation
+  needsTranslation: true
+  description: Set of HTML attributes and JS APIs to facilitate client-side form
+    validation (`<input pattern>`, `<input required>`, `input.
+    setCustomValidity(msg)` etc)
+  example:
+    language: html
+    code: <input id="zip" pattern="[0-9]{5}" title="5 digits" required />
+  tags:
+    - features
+
+- id: math_element
+  name: Inline MathML (`<math>`)
+  needsTranslation: false
+  description: Display math directly in HTML, using MathML.
+  example:
+    language: html
+    code: |-
+      <math display="inline">
+          <msup>
+              <mi>π</mi>
+              <mn>2</mn>
+          </msup>
+      </math>
+  tags:
+    - features
+
+- id: svg_element
+  name: Inline SVG (`<svg>`)
+  needsTranslation: false
+  description: Embed SVG vector graphics directly in markup
+  example:
+    language: html
+    code: |-
+      <svg>
+        <circle cx="50" cy="50" r="50" />
+      </svg>
+  tags:
+    - features
+
+- id: fetchpriority_attribute
+  name: Fetch Priority API (`fetchpriority` attribute)
+  needsTranslation: true
+  description: Allows specifying a hint to help the browser prioritize fetching
+    various resources.
+  example:
+    language: html
+    code: <img src="logo.svg" fetchpriority="high" />
+  tags:
+    - features
+
+- id: decoding_attribute
+  name: "`decoding` attribute"
+  needsTranslation: true
+  description:
+    Provides a hint to the browser as to whether it should wait for an
+    image to be decoded before presenting other content updates or not.
+  example:
+    language: html
+    code: <img src="large.jpg" decoding="async" />
+  tags:
+    - features
+
+- id: template_element
+  name: "`<template>`"
+  needsTranslation: false
+  description:
+    A mechanism for holding HTML that is not to be rendered immediately
+    but may be utilized later via JS.
+  example:
+    language: html
+    code: |-
+      <template id="counter">
+      	<div class="counter">Clicked {{ times }} times</div>
+      </template>
+  tags:
+    - features
+
+- id: rh_preconnect
+  name: "Resource Hints: preconnect (`<link rel=preconnect>`)"
+  needsTranslation: true
+  description: Speed up future loads from a given origin by preemptively
+    performing part or all of the DNS+TCP+TLS handshake.
+  example:
+    language: html
+    code: <link rel="preconnect" href="(url)" />
+  tags:
+    - features
+
+- id: pwa_manifest
+  name: PWA manifest
+  needsTranslation: true
+  description: A separate file to define matadata about a web application.
+  example:
+    language: html
+    code: <link rel="manifest" href="manifest.json" />
+  tags:
+    - features
+
+- id: rh_prerender
+  name: "Resource Hints: prerender (`<link rel=prerender>`)"
+  needsTranslation: true
+  description:
+    A hint to browsers that the user might need the target resource for
+    the next navigation
+  example:
+    language: html
+    code: <link rel="prerender" href="(url)" />
+  tags:
+    - features
+
+- id: focusgroup_attribute
+  name: "`focusgroup` attribute"
+  needsTranslation: true
+  description:
+    Facilitate keyboard focus navigation using the keyboard arrow keys
+    among a set of focusable elements.
+  example:
+    language: html
+    code: |-
+      <div focusgroup="wrap horizontal">
+      	<!-- child elements -->
+      </div>
+  tags:
+    - features
+
+- id: referrerpolicy_attribute
+  name: "`referrerpolicy` attribute"
+  needsTranslation: true
+  description: Limit how much referrer information is included with requests.
+  example:
+    language: html
+    code: <a href="http://example.com" referrerpolicy="origin">…</a>
+  tags:
+    - features
+
+- id: integrity_attribute
+  name: Subresource Integrity (`integrity` attribute)
+  needsTranslation: true
+  description: A security feature to verify that fetched resources have not been
+    tampered with.
+  example:
+    language: html
+    code: |-
+      <script src="https://code.jquery.com/jquery-3.js" crossorigin
+       integrity="sha384-q8i/X+965DzO0Kp4H+8aPi6jizo"></script>
+  tags:
+    - features
+
+- id: crossorigin_attribute
+  name: "`crossorigin` attribute"
+  needsTranslation: false
+  description: Defines how the element handles cross-origin requests
+  example:
+    language: html
+    code: <script src="https://cdn.com/fancy-library.js" crossorigin></script>
+  tags:
+    - features
+
+- id: aria
+  name: ARIA
+  needsTranslation: false
+  description: Attributes to make markup more accessible (`role`, `aria-label`,
+    `aria-haspopup` etc).
+  example:
+    language: html
+    code: >-
+      <div id="tab1" aria-controls="panel1" role="tab">Prices</div>
+
+      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">       
+      	<!-- tab content -->
+      </div>
+  tags:
+    - features
+
+- id: respimg_attributes
+  name: "`srcset` and `sizes` attributes"
+  needsTranslation: true
+  description:
+    Attributes that allow providing several source images with hints to
+    help the browser pick the right one.
+  example:
+    language: html
+    code: |-
+      <img
+        srcset="fairy-med.jpg 480w, fairy-large.jpg 800w"
+        sizes="(max-width: 600px) 480px, 800px"
+        src="fairy-large.jpg"
+        alt="Elva dressed as a fairy" />
+  tags:
+    - features
+
+- id: media_capture
+  name: HTML Media Capture
+  needsTranslation: true
+  description: Capture input from the user’s camera.
+  example:
+    language: html
+    code: <input type="file" accept="video/*" capture>
+  tags:
+    - features
+
+- id: credentialless_attribute
+  name: Credentialess iframes
+  needsTranslation: true
+  description: Load third-party resources in `<iframe>`s using a new, ephemeral context.
+  example:
+    language: html
+    code: <iframe credentialless>
+  tags:
+    - features
+
+- id: sandbox_attribute
+  name: "`sandbox` attribute for iframes"
+  needsTranslation: true
+  description: Applies restrictions to the content embedded in the `<iframe>`.
+  example:
+    language: html
+    code: <iframe sandbox="allow-forms allow-same-origin" src="blank.html"></iframe>
+  tags:
+    - features
+
+- id: track_element
+  name: "`<track>` element"
+  needsTranslation: true
+  description: Provides subtitles or closed caption tracks for multimedia content.
+  example:
+    language: html
+    code: |-
+      <video controls src="movie.mp4">
+          <track default srclang="el" src="greek.srt">
+      </video>
+  tags:
+    - features
+
+- id: lazy_loading
+  name: Lazy loading
+  needsTranslation: true
+  description: Load certain resources only when needed.
+  example:
+    language: html
+    code: |-
+      <img src="picture.jpg" loading="lazy" />
+      <iframe src="picture.jpg" loading="lazy" />
+  tags:
+    - features
+
+- id: blocking_render
+  name: '`blocking="render"`'
+  needsTranslation: false
+  description: Specify that resources (scripts, stylesheets etc) should block
+    rendering until loaded.
+  example:
+    language: html
+    code: <script blocking="render" async src="async-script.js"></script>
+  tags:
+    - features
+
+- id: rh_prefetch
+  name: "Resource Hints: prefetch (`<link rel=prefetch>`)"
+  needsTranslation: true
+  description: Prefetch a resource so it can be loaded more quickly.
+  example:
+    language: html
+    code: <link rel="prefetch" href="(url)">
+  tags:
+    - features
+
+- id: rh_preload
+  name: "Resource Hints: preload (`<link rel=preload>`)"
+  needsTranslation: true
+  description: Start loading certain resources early in the page lifecycle.
+  example:
+    language: html
+    code: <link rel="preload" href="(url)" />
+  tags:
+    - features
+
+- id: element_internals
+  name: "`ElementInternals` API"
+  needsTranslation: false
+  description: Assign hidden semantics to custom elements, facilitating
+    accessibility and allowing them to participate fully in forms.
+  example:
+    language: js
+    code: |-
+      this.#internals = this.attachInternals()
+      this.#internals.ariaChecked = true;
+  tags:
+    - features
+
+- id: host_css
+  name: Styling component host (`:host`, `:host()`, `:host-context()`)
+  needsTranslation: true
+  description: Style the custom element root from within Shadow DOM.
+  example:
+    language: css
+    code: |-
+      :host([vertical]) {
+      	flex-flow: column;
+      	align-items: stretch;
+      }
+  tags:
+    - features
+
+- id: inert_attribute
+  name: "`inert` attribute"
+  needsTranslation: true
+  description: Attribute to make an element and its descendants non-interactive,
+    and invisible to assistive technology.
+  example:
+    language: html
+    code: |-
+      <div id=app inert class=loading>
+        ...
+      </div>
+  tags:
+    - features
+
+- id: extended_builtins
+  name: Extended built-ins
+  needsTranslation: true
+  description: Extend built-in elements with custom behavior.
+  example:
+    language: html
+    code: >-
+      <button is="primary-button">Continue</button>
+
+      <script>
+      	customElements.define("primary-button", PrimaryButton, {extends: "button"});
+      </script>
+  tags:
+    - features
+
+- id: slot_assignment
+  name: Explicit slot assignment (`slot="foo"`)
+  needsTranslation: true
+  description: Allows assigning light DOM elements to named slots.
+  example:
+    language: html
+    code: |-
+      <auth-toolbar>
+        <span slot="login_btn">Let me in!</span>
+      </auth-toolbar>
+  tags:
+    - features
+
+- id: slot_def
+  name: Defining slots (`<slot>` and `::slotted()`)
+  needsTranslation: true
+  description: Slots are placeholders inside web components that can be filled
+    with markup provided by the component consumer.
+  example:
+    language: html
+    code: |-
+      <div id="trigger-container">
+      	<style>
+      	slot[name=trigger]::slotted(button) {
+      		/* ... */
+      	}
+      	</style>
+      	<slot name="trigger"><button>Default</button></slot>
+      </div>
+  tags:
+    - features
+
+- id: fencedframe_element
+  name: Fenced frames
+  needsTranslation: false
+  description: Α new element to embed documents on a page that prevents
+    communication between the embedder and the frame.
+  example:
+    language: html
+    code: <fencedframe src="https://adsite.com/ads.html"></fencedframe>
+  tags:
+    - features
+
+- id: popover_api
+  name: Popover API
+  needsTranslation: false
+  description: HTML syntax and JS API facilitating popovers such as overlays,
+    popups, menus etc.
+  example:
+    language: html
+    code: |-
+      <button popovertarget="foo">Toggle the popover</button>
+      <div id="foo" popover>Popover content</div>
+  tags:
+    - features
+
+- id: details_element
+  name: "`<details>` and `<summary>`"
+  needsTranslation: false
+  description: A disclosure widget that can be toggled to hide or show content
+    interactively.
+  example:
+    language: html
+    code: |-
+      <details>
+          <summary>Details</summary>
+          Longer content
+      </details>
+  tags:
+    - features
+
+- id: search_element
+  name: "`<search>`"
+  needsTranslation: false
+  description: Semantic element for wrapping search UI.
+  example:
+    language: html
+    code: |-
+      <search>
+        <form action="search.php">
+          <label>Find: <input name="q" type="search"></label>
+          <button>Go!</button>
+        </form>
+      </search>
+  tags:
+    - features
+
+- id: controlslist_attribute
+  name: "`controlslist` attribute"
+  needsTranslation: true
+  description: Prevent certain controls from appearing in the toolbar of a media element.
+  example:
+    language: html
+    code: <video src="fun.mp4" controlslist="nodownload"></video>
+  tags:
+    - features
+
+- id: model_element
+  name: "`<model>` for AR/VR/3D content"
+  needsTranslation: false
+  description: Allows embedding 3D graphical content into HTML.
+  example:
+    language: html
+    code: <model src="3d-assets/car"></model>
+  tags:
+    - features
+
+- id: picture_element
+  name: "`<picture>`"
+  needsTranslation: false
+  description: A responsive images method to control which image resource a user
+    agent presents to a user, based on various factors.
+  example:
+    language: html
+    code: |-
+      <picture>
+          <source srcset="vertical.jpg"
+                  media="(orientation: portrait)">
+          <img src="horizontal.jpg" alt="">
+      </picture>
+  tags:
+    - features
+
+- id: portal_element
+  name: "`<portal>`"
+  needsTranslation: false
+  description:
+    Enables the embedding of another HTML page into the current one for
+    the purposes of allowing smoother navigation into new pages.
+  example:
+    language: html
+    code: <portal id="exampleportal" src="https://example.com/"></portal>
+  tags:
+    - features
+
+- id: tabindex_attribute
+  name: "`tabindex` attribute"
+  needsTranslation: true
+  description: Make HTML elements focusable, allow or prevent them from being
+    sequentially focusable
+  example:
+    language: html
+    code: <div role="button" tabindex="0">I’m Tabbable</div>
+  tags:
+    - features
+
+- id: selectlist_element
+  name: "`<selectlist>` (ex `<selectmenu>`)"
+  needsTranslation: false
+  description: Stylable, customizable dropdown control.
+  example:
+    language: html
+    code: |-
+      <selectlist>
+      	<option>Option 1</option>
+      	<option>Option 2</option>
+      	<option>Option 3</option>
+      </selectlist>
+  tags:
+    - features
+
+- id: part_selector
+  name: Styling component parts (`::part()`)
+  needsTranslation: false
+  description: A way to style shadow DOM elements that have opted in to being
+    stylable from the outside.
+  example:
+    language: css
+    code: |-
+      fancy-loader::part(loaded-bar) {
+        background: var(--accent-color);
+      }
+  tags:
+    - features
+
+- id: declarative_shadow_dom
+  name: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+  needsTranslation: true
+  description: Define shadow trees with HTML.
+  example:
+    language: html
+    code: |-
+      <host-element>
+          <template shadowrootmode="open">
+              <!-- Shadow content -->
+          </template>
+      </host-element>
+  tags:
+    - features
