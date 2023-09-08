@@ -318,7 +318,8 @@
       </datalist>
   mdn: en-US/docs/Web/HTML/Element/datalist
   resources:
-    - url: https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element
+    - title: The datalist element
+      url: https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element
   caniuse: datalist
   tags:
     - features
@@ -1198,7 +1199,9 @@
     - url: https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/
       title: Advanced Form Control Styling With Selectmenu And Anchoring API —
         Smashing Magazine
-    - url: https://hidde.blog/custom-select-with-selectmenu/
+    - title: |
+        Two levels of customising <selectlist>
+      url: https://hidde.blog/custom-select-with-selectmenu/
     - url: https://microsoftedge.github.io/Demos/selectmenu/
       title: Open UI's selectmenu demos
   tags:
@@ -1448,10 +1451,6 @@
   name: |
     `<textarea>`
 
-- id: datalist_element
-  name: |
-    `<datalist>`
-
 - id: input_type_date
   name: |
     `<input type="date">`
@@ -1593,6 +1592,10 @@
 - id: element_toggle_attribute
   name: |
     `element.toggleAttribute()`
+
+- id: document_create_document_fragment
+  name: |
+    `document.createDocumentFragment()`
 
 #################################################
 #
