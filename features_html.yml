@@ -49,7 +49,8 @@
       </video>
   mdn: en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video
   resources:
-    - url: http://wiki.webmproject.org/adaptive-streaming/webm-dash-specification
+    - title: WebM Dash Specification
+      url: http://wiki.webmproject.org/adaptive-streaming/webm-dash-specification
   caniuse: http-live-streaming
   tags:
     - features
@@ -138,7 +139,8 @@
       title: Manifest Incubations
     - url: https://chromestatus.com/feature/5551475195904000
       title: Chrome Platform Status
-    - url: https://github.com/WICG/manifest-incubations/blob/gh-pages/borderless-explainer.md
+    - title: Borderless Explainer
+      url: https://github.com/WICG/manifest-incubations/blob/gh-pages/borderless-explainer.md
     - url: https://github.com/w3ctag/design-reviews/issues/852
       title: "Borderless mode · Issue #852 · w3ctag/design-reviews · GitHub"
   tags:
@@ -148,7 +150,8 @@
   name: "`<breadcrumb>`"
   needsTranslation: false
   resources:
-    - url: https://open-ui.org/components/breadcrumb/
+    - title: Breadcrumb
+      url: https://open-ui.org/components/breadcrumb/
   tags:
     - features
 
@@ -160,7 +163,8 @@
     Accept-CH: Width, Downlink, Sec-CH-UA
   mdn: en-US/docs/Web/HTTP/Client_hints
   resources:
-    - url: https://datatracker.ietf.org/doc/html/draft-grigorik-http-client-hints
+    - title: HTTP Client Hints
+      url: https://datatracker.ietf.org/doc/html/draft-grigorik-http-client-hints
     - url: https://wicg.github.io/ua-client-hints/#navigatoruadata
       title: User-Agent Client Hints
     - url: https://wicg.github.io/user-preference-media-features-headers/
@@ -418,7 +422,8 @@
     A cacheable representation of a part of the DOM that can be updated
     performantly.
   resources:
-    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts.md
+    - title: DOM Part API
+      url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts.md
     - url: https://github.com/tbondwilkinson/dom-parts#readme
       title: GitHub - tbondwilkinson/dom-parts
     - url: https://groups.google.com/a/chromium.org/g/blink-dev/c/wIADRnljZDA/m/Ghfv2jyRAgAJ
@@ -453,7 +458,9 @@
       <img-input exportparts="dropzone: img-input-dropzone"></img-input>
   mdn: en-US/docs/Web/HTML/Global_attributes/exportparts
   resources:
-    - url: https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts
+    - title: |
+        Forwarding a Shadow Element: the exportparts attribute
+      url: https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts
   caniuse: mdn-html_global_attributes_exportparts
   tags:
     - features
@@ -495,7 +502,8 @@
     - url: https://github.com/w3ctag/design-reviews/issues/838
       title: "Specification review for fenced frames · Issue #838 ·
         w3ctag/design-reviews · GitHub"
-    - url: https://github.com/WICG/fenced-frame/tree/master/explainer
+    - title: Explainer - Fenced Frames
+      url: https://github.com/WICG/fenced-frame/tree/master/explainer
     - url: https://github.com/WICG/fenced-frame
       title:
         "GitHub - WICG/fenced-frame: Proposal for a strong boundary between a
@@ -523,7 +531,8 @@
       title: Priority Hints (obsolete)
     - url: https://github.com/w3ctag/design-reviews/issues/704
       title: "Priority Hints API · Issue #704 · w3ctag/design-reviews · GitHub"
-    - url: https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md
+    - title: Priority Hints
+      url: https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md
     - url: https://chromestatus.com/feature/5273474901737472
       title: Chrome Platform Status
     - url: https://web.dev/fetch-priority/
@@ -547,7 +556,8 @@
   resources:
     - url: https://open-ui.org/components/focusgroup.explainer/
       title: focusgroup (Explainer) | Open UI
-    - url: https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Focusgroup/explainer.md?rgh-link-date=2022-02-20T23%3A49%3A02Z
+    - title: focusgroup for HTML and CSS
+      url: https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Focusgroup/explainer.md?rgh-link-date=2022-02-20T23%3A49%3A02Z
     - url: https://chromestatus.com/feature/5637601087193088
       title: Chrome Platform Status
     - url: https://bugs.chromium.org/p/chromium/issues/detail?id=1286127
@@ -592,7 +602,8 @@
       let data = JSON.stringify(Object.fromEntries(fd));
   mdn: en-US/docs/Web/API/FormData/FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData
   resources:
-    - url: https://xhr.spec.whatwg.org/#dom-formdata](https://xhr.spec.whatwg.org/#dom-formdata
+    - title: Interface FormData
+      url: https://xhr.spec.whatwg.org/#dom-formdata
   caniuse: mdn-api_formdata](https://caniuse.com/mdn-api_formdata
   tags:
     - features
@@ -627,7 +638,8 @@
       	customElements.define("tab-list", TabList);
       </script>
   resources:
-    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md
+    - title: HTML Modules Explainer
+      url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md
     - url: https://chromestatus.com/feature/4854408103854080
       title: Chrome Platform Status
     - url: https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/HTMLModules/designDoc.md
@@ -705,7 +717,8 @@
       <input name="pin" type="password" pattern="\d{4,4}" required>
   mdn: en-US/docs/Web/HTML/Attributes/pattern
   resources:
-    - url: https://html.spec.whatwg.org/multipage/input.html#attr-input-pattern
+    - title: The pattern attribute
+      url: https://html.spec.whatwg.org/multipage/input.html#attr-input-pattern
   caniuse: input-pattern
   tags:
     - features
@@ -746,7 +759,8 @@
         documents related to the Isolated Web Apps proposal."
     - url: https://chromestatus.com/feature/5146307550248960
       title: Chrome Platform Status
-    - url: https://github.com/WICG/isolated-web-apps/blob/64ee186/README.md?plain=1#L11
+    - title: Isolated Web Apps Explainer
+      url: https://github.com/WICG/isolated-web-apps/blob/64ee1861b9d25ff32437f839bf057dce78e6f555/README.md#motivating-use-cases
   tags:
     - features
 
@@ -845,7 +859,9 @@
       title: "HTML model element: Test page"
     - url: https://css-tricks.com/ar-vr-and-a-model-for-3d-in-html/
       title: AR, VR, and a Model for 3D in HTML | CSS-Tricks - CSS-Tricks
-    - url: https://github.com/WebKit/explainers/blob/main/model/HistoryAndEvolution.md
+    - title: |
+        <model> Evolution
+      url: https://github.com/WebKit/explainers/blob/main/model/HistoryAndEvolution.md
     - url: https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-137
       title: Safari Technology Preview 137 Release Notes | Apple Developer
         Documentation
@@ -859,10 +875,11 @@
     language: html
     code: <input type="range" multiple />
   resources:
-    - url: https://github.com/whatwg/html/commit/1efac390abb3f95df61f2d2ac6c0feb47349d97b
-    - url: https://lea.verou.me/blog/2016/05/introducing-multirange-a-tiny-polyfill-for-html5-two-handle-sliders/
-    - url: https://github.com/whatwg/html/pull/1557
-    - url: https://www.youtube.com/watch?v=tAN2TYUGEPk
+    # - url: https://github.com/whatwg/html/commit/1efac390abb3f95df61f2d2ac6c0feb47349d97b
+    - title: |
+        Introducing Multirange: A tiny polyfill for HTML5.1 two-handle sliders
+      url: https://lea.verou.me/blog/2016/05/introducing-multirange-a-tiny-polyfill-for-html5-two-handle-sliders/
+    # - url: https://github.com/whatwg/html/pull/1557
   tags:
     - features
 
@@ -1021,7 +1038,8 @@
   resources:
     - url: https://blog.logrocket.com/understanding-css-preload-other-resource-hints/
       title: Understanding CSS preload and other resource hints - LogRocket Blog
-    - url: https://medium.com/@luisvieira_gmr/html5-prefetch-1e54f6dda15d
+    - title: Resource Hints
+      url: https://medium.com/@luisvieira_gmr/html5-prefetch-1e54f6dda15d
   tags:
     - features
 
@@ -1145,7 +1163,8 @@
       const registry = new CustomElementRegistry();
       registry.define('sub-element', SubElement);
   resources:
-    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md
+    - title: Scoped Custom Element Registries
+      url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md
     - url: https://chromestatus.com/feature/5090435261792256
       title: Chrome Platform Status
   tags:
