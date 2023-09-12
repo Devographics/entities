@@ -1023,9 +1023,11 @@
     - features
 
 - id: resource_hints
-  name: Resource Hints (all)
+  name: Resource Hints
   needsTranslation: true
-  description: Begin work on certain resources earlier to improve performance.
+  description: |
+    Value like `preconnect`, `prefetch`, `preload`, `prerender`, `dns-prefetch`, `modulepreload` for the `rel` attribute of `<link>`,
+    which instruct the browser to begin work on certain resources early in the page lifecycle to improve performance.
   example:
     language: html
     code: |-
