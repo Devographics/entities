@@ -1716,7 +1716,8 @@
     `<slot>`  element
 
 - id: slot_attribute
-  name: |
+  name: Named slot assigment
+  description: |
     `slot="slot_name"` attribute
 
 - id: part_attribute
