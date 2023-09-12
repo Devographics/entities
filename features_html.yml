@@ -1654,6 +1654,8 @@
 
 - id: microformats
   name: Microformats
+  description: |
+    `class="h-card"`, `class="h-event"`, etc.
 
 - id: rdfa
   name: |
