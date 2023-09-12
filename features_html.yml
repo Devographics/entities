@@ -1803,6 +1803,14 @@
   name: |
     `Intl.Segmenter` API
 
+- id: intl_messageformat
+  name: |
+    `Intl.MessageFormat` API
+
+- id: intl_localematcher
+  name: |
+    `Intl.LocaleMatcher` API
+
 - id: writing_modes_property
   name: |
     `writing-mode` CSS property
