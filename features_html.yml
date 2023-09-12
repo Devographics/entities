@@ -1862,19 +1862,27 @@
 
 - id: app_manifest
   name: |
-    App manifest (`<link rel="manifest">`)
+    App manifest
+  description: |
+    `<link rel="manifest">`
 
 - id: service_workers
   name: |
-    Service Workers (`ServiceWorker`)
+    Service Workers
+  description: |
+    `navigator.serviceWorker.register("/sw.js")`
 
 - id: notifications_api
   name: |
-    Notifications API (`new Notification()`)
+    Notifications API
+  description: |
+    `new Notification()`
 
 - id: caching_api
   name: |
-    Caching API (`caches.open()`, etc.)
+    Caching API
+  description: |
+    `caches.open()` etc.
 
 - id: app_manifest_name
   name: |
