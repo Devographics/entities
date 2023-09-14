@@ -329,7 +329,7 @@
     - features
 
 - id: declarative_shadow_dom
-  name: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+  name: Declarative Shadow DOM
   needsTranslation: true
   description: Define shadow trees with HTML.
   example:
