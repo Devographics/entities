@@ -846,7 +846,7 @@
       p {
         display: -webkit-box;
         -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         overflow: hidden;
       }
   tags:
@@ -1388,7 +1388,7 @@
     language: css
     code: |
       .element {
-        width: clamp(100px, 50vw, 600px); 
+        width: clamp(100px, 50vw, 600px);
       }
   tags:
     - css
@@ -1694,6 +1694,19 @@
   name: Local Storage
   mdn: /en-US/docs/Web/API/Window/localStorage
 
+- id: session_storage
+  name: Session Storage
+  mdn: /en-US/docs/Web/API/Window/sessionStorage
+
+- id: document_cookie
+  name: |
+    `document.cookie`
+  mdn: /en-US/docs/Web/API/Document/cookie
+
+- id: indexed_db
+  name: IndexedDB
+  mdn: /en-US/docs/Web/API/IndexedDB_API
+
 - id: service_workers
   name: Service Workers
   mdn: /en-US/docs/Web/API/Service_Worker_API
@@ -1798,8 +1811,8 @@
   example:
     language: js
     code: |
-      class ClassWithPrivateField { 
-        #privateField 
+      class ClassWithPrivateField {
+        #privateField
       }
 
 - id: promise_all_settled
@@ -1889,7 +1902,7 @@
     code: |
       const array1 = [5, 12, 50, 130, 44];
       const found = array1.findLast((element) => element > 45);
-      console.log(found); 
+      console.log(found);
       // expected output: 130
 
 - id: error_cause
