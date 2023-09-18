@@ -1707,6 +1707,12 @@
   name: IndexedDB
   mdn: /en-US/docs/Web/API/IndexedDB_API
 
+- id: cache_storage
+  name: Cache Storage
+  description: |
+    `const cacheStorage = await caches.open(cacheName);`
+  mdn: /en-US/docs/Web/API/CacheStorage
+
 - id: service_workers
   name: Service Workers
   mdn: /en-US/docs/Web/API/Service_Worker_API
