@@ -764,6 +764,21 @@
   tags:
     - features
 
+- id: filesystem_access
+  name: File System Access API
+  needsTranslation: true
+  description: Access files and directories on the user's local device.
+  example:
+    language: js
+    code: |-
+      const handle = await window.showSaveFilePicker(opts);
+  mdn: en-US/docs/Web/API/File_System_API
+  resources:
+    - url: https://web.dev/file-system-access/
+      title: File System Access API
+    - url: https://fs.spec.whatwg.org/
+    - title: File System API Specification
+
 - id: landmark_elements
   name: Landmark elements
   needsTranslation: true
