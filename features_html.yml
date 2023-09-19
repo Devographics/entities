@@ -626,7 +626,7 @@
 - id: formdata
   name: FormData API
   needsTranslation: true
-  description: Easy handling of form data values
+  description: API to more easily extract and manipulate form data values via JS
   example:
     language: js
     code: |
@@ -1263,9 +1263,9 @@
     - features
 
 - id: selectlist_element
-  name: "`<selectlist>` (ex `<selectmenu>`)"
+  name: "`<selectlist>`"
   needsTranslation: false
-  description: Stylable, customizable dropdown control.
+  description: Stylable, customizable dropdown control. Previously `<selectmenu>`.
   example:
     language: html
     code: |-
@@ -1696,7 +1696,7 @@
 - id: document_create_document_fragment
   name: Document fragments
   description: |
-    `document.createDocumentFragment()`
+    `let fragment = document.createDocumentFragment()`
 
 #################################################
 #
