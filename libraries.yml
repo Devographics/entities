@@ -1153,7 +1153,7 @@
   name: Next.js
   npm: next
   github: vercel/next.js
-  description: The React Framework
+  # description: The React Framework
   homepageUrl: "https://nextjs.org"
 
 - id: koa
@@ -1190,14 +1190,14 @@
   name: Nuxt
   npm: nuxt
   github: nuxt/nuxt.js
-  description: The Intuitive Vue Framework
+  # description: The Intuitive Vue Framework
   homepageUrl: "https://nuxtjs.org"
 
 - id: gatsby
   name: Gatsby
   npm: gatsby
   github: gatsbyjs/gatsby
-  description: "Build blazing fast, modern apps and websites with React"
+  # description: "Build blazing fast, modern apps and websites with React"
   homepageUrl: "https://www.gatsbyjs.com"
 
 - id: nest
@@ -1318,9 +1318,9 @@
   name: Eleventy
   npm: "@11ty/eleventy"
   github: 11ty/eleventy
-  description: >-
-    A simpler static site generator. An alternative to Jekyll. Transforms a
-    directory of templates (of varying types) into HTML.
+  # description: >-
+  #   A simpler static site generator. An alternative to Jekyll. Transforms a
+  #   directory of templates (of varying types) into HTML.
   patterns:
     - https://www.11ty.dev/
   homepageUrl: "https://www.11ty.dev/"
@@ -1329,8 +1329,8 @@
   name: Astro
   npm: astro
   github: withastro/astro
-  description: >-
-    Build faster websites with less client-side Javascript
+  # description: >-
+  #   Build faster websites with less client-side Javascript
   homepageUrl: https://astro.build/
 
 - id: blitz

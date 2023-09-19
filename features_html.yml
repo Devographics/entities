@@ -518,9 +518,10 @@
     - features
 
 - id: fetchpriority_attribute
-  name: Fetch Priority API
+  name: |
+    `fetchpriority` Attribute
   needsTranslation: true
-  description: The `fetchpriority` attribute allows specifying a hint to help the browser prioritize fetching
+  description: Allows specifying a hint to help the browser prioritize fetching
     various resources.
   example:
     language: html
