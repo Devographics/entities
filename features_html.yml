@@ -5,7 +5,7 @@
 #################################################
 
 - id: accordion_element
-  name: Exclusive accordion
+  name: Exclusive Accordion
   needsTranslation: true
   description:
     Group `<details>` elements so that only up to one in the group can
@@ -72,8 +72,8 @@
   tags:
     - features
 
-- id: autocomplete_element
-  name: Autocomplete hints
+- id: autocomplete_attribute
+  name: Autocomplete Attribute
   needsTranslation: false
   description: Provide hints about what kind of information is expected, e.g.
     `name`, `honorific-prefix`, `tel`,  `cc-number` etc
@@ -679,7 +679,7 @@
     - features
 
 - id: inert_attribute
-  name: "`inert` attribute"
+  name: "`inert` Attribute"
   needsTranslation: true
   description: Attribute to make an element and its descendants non-interactive,
     and invisible to assistive technology.
@@ -1214,17 +1214,18 @@
     - features
 
 - id: selectlist_element
-  name: "`<selectlist>` (ex `<selectmenu>`)"
+  name: "`<selectlist>`"
   needsTranslation: false
-  description: Stylable, customizable dropdown control.
+  description: |
+    Stylable, customizable dropdown control. Previously `<selectmenu>`.
   example:
     language: html
     code: |-
-      <selectmenu>
+      <selectlist>
       	<option>Option 1</option>
       	<option>Option 2</option>
       	<option>Option 3</option>
-      </selectmenu>
+      </selectlist>
   resources:
     - url: https://open-ui.org/components/selectmenu/
       title: Selectmenu Element (Explainer) | Open UI
@@ -1592,12 +1593,12 @@
 - id: element_innerhtml
   name: innerHTML property
   description: |
-      `element.innerHTML = rawHTML`
+    `element.innerHTML = rawHTML`
 
 - id: element_textcontent
   name: textContent property
   description: |
-      `element.textContent = rawText`
+    `element.textContent = rawText`
 
 - id: element_insert_adjacent_html
   name: insertAdjacentHTML()
