@@ -280,6 +280,22 @@
   tags:
     - features
 
+- id: sandbox_attribute
+  name: "`sandbox` attribute on `<iframe>`"
+  needsTranslation: true
+  description: Enables additional restrictions on `<iframe>` content.
+  example:
+    language: html
+    code: |-
+      <iframe sandbox="allow-scripts allow-same-origin"></iframe>
+  mdn: en-US/docs/Web/HTML/Element/iframe#sandbox
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox
+      title: HTML Standard
+  caniuse: mdn-html_elements_iframe_sandbox
+  tags:
+    - features
+
 - id: custom_elements_defining
   name: Defining Custom Elements
   needsTranslation: true
@@ -1034,6 +1050,23 @@
   mdn: en-US/docs/Web/HTTP/Headers/Referrer-Policy
   w3c: TR/referrer-policy/#referrer-policy-delivery-referrer-attribute
   caniuse: mdn-html_elements_img_referrerpolicy
+  tags:
+    - features
+
+- id: nonce_attribute
+  name: "`nonce` attribute"
+  needsTranslation: true
+  description: A cryptographic nonce used to whitelist inline scripts.
+  example:
+    language: html
+    code: |-
+      <script nonce="abcdefg12345">
+        alert("Hello, world!");
+      </script>
+  mdn: en-US/docs/Web/HTML/Global_attributes/nonce
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-attributes
+      title: Nonce attributes in the HTML Standard
   tags:
     - features
 
@@ -1840,45 +1873,45 @@
 #
 #################################################
 
-- id: crossorigin_attribute
-  name: |
-    `crossorigin`
+# - id: crossorigin_attribute
+#   name: |
+#     `crossorigin`
 
-- id: integrity_attribute
-  name: |
-    `integrity`
+# - id: integrity_attribute
+#   name: |
+#     `integrity`
 
-- id: media_attribute
-  name: |
-    `media`
+# - id: media_attribute
+#   name: |
+#     `media`
 
-- id: referrerpolicy_attribute
-  name: |
-    `referrerpolicy`
+# - id: referrerpolicy_attribute
+#   name: |
+#     `referrerpolicy`
 
-- id: prefetch_attribute
-  name: |
-    `prefetch`
+# - id: prefetch_attribute
+#   name: |
+#     `prefetch`
 
-- id: dns_prefetch_attribute
-  name: |
-    `dns-prefetch`
+# - id: dns_prefetch_attribute
+#   name: |
+#     `dns-prefetch`
 
-- id: preconnect_attribute
-  name: |
-    `preconnect`
+# - id: preconnect_attribute
+#   name: |
+#     `preconnect`
 
-- id: preload_attribute
-  name: |
-    `preload`
+# - id: preload_attribute
+#   name: |
+#     `preload`
 
-- id: modulepreload_attribute
-  name: |
-    `modulepreload`
+# - id: modulepreload_attribute
+#   name: |
+#     `modulepreload`
 
-- id: prerender_attribute
-  name: |
-    `prerender`
+# - id: prerender_attribute
+#   name: |
+#     `prerender`
 
 #################################################
 #
