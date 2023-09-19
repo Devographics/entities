@@ -296,6 +296,22 @@
   tags:
     - features
 
+- id: allow_attribute
+  name: "`allow` attribute on `<iframe>`"
+  needsTranslation: true
+  description: Restrict or allow certain APIs (e.g. fullscreen, geolocation, etc.) in an `<iframe>`.
+  example:
+    language: html
+    code: |-
+      <iframe allow="fullscreen" src="https://example.com"></iframe>
+  mdn: en-US/docs/Web/HTML/Element/iframe#allow
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-allow
+      title: HTML Standard
+  caniuse: mdn-html_elements_iframe_allow
+  tags:
+    - features
+
 - id: custom_elements_defining
   name: Defining Custom Elements
   needsTranslation: true
@@ -1056,7 +1072,7 @@
 - id: nonce_attribute
   name: "`nonce` attribute"
   needsTranslation: true
-  description: A cryptographic nonce used to whitelist inline scripts.
+  description: A cryptographic nonce used to whitelist specific elements.
   example:
     language: html
     code: |-
