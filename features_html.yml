@@ -1090,16 +1090,13 @@
   name: Resource Hints
   needsTranslation: true
   description: |
-    Value like `preconnect`, `prefetch`, `preload`, `prerender`, `dns-prefetch`, `modulepreload` for the `rel` attribute of `<link>`,
-    which instruct the browser to begin work on certain resources early in the page lifecycle to improve performance.
+    Begin work on certain resources early to improve performance.
+    Syntax: `<link rel="pre* | dns-prefetch | modulepreload">`.
   example:
     language: html
     code: |-
-      <link rel="preconnect" href="(url)" />
-      <link rel="prerender" href="(url)" />
-      <link rel="preload" href="(url)" />
-      <link rel="prefetch" href="(url)" />
-      <link rel="dns-prefetch" href="(url)" />
+      <link rel="preload" href="picture.jpg" />
+      <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
   mdn: en-US/docs/Learn/Performance/Web_Performance_Basics
   resources:
     - url: https://blog.logrocket.com/understanding-css-preload-other-resource-hints/
