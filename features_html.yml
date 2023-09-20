@@ -784,6 +784,7 @@
   example:
     language: null
     code: |
+      label: URL
       isolated-app://4tkr2qbhf7rlz2a3wo3rh4wqaaic/index.html
   resources:
     - url: https://github.com/WICG/isolated-web-apps
