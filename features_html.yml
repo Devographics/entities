@@ -1508,8 +1508,12 @@
   description: Allows PWAs to display custom content over the title bar area,
     whose controls become an overlay.
   example:
-    language: js
-    code: navigator.windowControlsOverlay
+    language: json
+    # code: navigator.windowControlsOverlay
+    code: |
+      {
+        "display_override": ["window-controls-overlay"]
+      }
   mdn: en-US/docs/Web/API/Window_Controls_Overlay_API
   resources:
     - url: https://wicg.github.io/window-controls-overlay/
@@ -1527,15 +1531,45 @@
   description: Allows PWAs to how they are launched, e.g. in a new window or tab.
   example:
     language: json
+    label: manifest.json
     code: |
       {
         "launch_handler": {"client_mode": "navigate-new"}
       }
-  mdn: en-US/docs/Web/API/Launch_Handler_API
+  mdn: en-US/docs/Web/Manifest/launch_handler
   resources:
+    - url: https://wicg.github.io/web-app-launch/#launch_handler-member
+      title: Web App Launch Handler API
     - url: https://web.dev/launch-handler/
       title: |
         Launch Handler API: Control how your app is launched.
+  tags:
+    - features
+
+- id: file_handling_api
+  name: File Handling API
+  needsTranslation: true
+  description: Allows PWAs to register themselves as handlers for certain file types.
+  example:
+    language: json
+    label: manifest.json
+    code: |
+      {
+        "file_handlers": [
+          {
+            "action": "/open-file",
+            "accept": {
+              "image/svg+xml": ".svg",
+              "image/png": ".png"
+            }
+          }
+        ]
+      }
+  mdn: en-US/docs/Web/Manifest/file_handler
+  resources:
+    - url: https://web.dev/file-handling/
+      title: |
+        File Handling API: Register your PWA as a handler for file types.
   tags:
     - features
 
