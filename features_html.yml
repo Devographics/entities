@@ -1509,11 +1509,10 @@
     whose controls become an overlay.
   example:
     language: json
+    label: manifest.json
     # code: navigator.windowControlsOverlay
     code: |
-      {
-        "display_override": ["window-controls-overlay"]
-      }
+      "display_override": ["window-controls-overlay"]
   mdn: en-US/docs/Web/API/Window_Controls_Overlay_API
   resources:
     - url: https://wicg.github.io/window-controls-overlay/
@@ -1533,9 +1532,7 @@
     language: json
     label: manifest.json
     code: |
-      {
-        "launch_handler": {"client_mode": "navigate-new"}
-      }
+      "launch_handler": {"client_mode": "navigate-new"}
   mdn: en-US/docs/Web/Manifest/launch_handler
   resources:
     - url: https://wicg.github.io/web-app-launch/#launch_handler-member
@@ -1554,17 +1551,13 @@
     language: json
     label: manifest.json
     code: |
-      {
-        "file_handlers": [
-          {
-            "action": "/open-file",
-            "accept": {
-              "image/svg+xml": ".svg",
-              "image/png": ".png"
-            }
+      "file_handlers": [{
+          "action": "/open-file",
+          "accept": {
+            "image/svg+xml": ".svg",
+            "image/png": ".png"
           }
-        ]
-      }
+        }]
   mdn: en-US/docs/Web/Manifest/file_handler
   resources:
     - url: https://web.dev/file-handling/
@@ -1689,60 +1682,80 @@
 #
 #################################################
 
-- id: element_innerhtml
-  name: innerHTML property
-  description: |
-    `element.innerHTML = rawHTML`
+- id: element_classlist
+  name: "`element.classList`"
+  # description: |
+  #   Toggle classes individually. Replaced the older `element.className`
 
-- id: element_textcontent
-  name: textContent property
-  description: |
-    `element.textContent = rawText`
+- id: element_toggle_attribute
+  name: "`element.toggleAttribute(name, force)`"
+  # description: |
+  #   Add or remove an attribute.
+
+- id: element_getattributenames
+  name: "`element.getAttributeNames()`"
+  # description: |
+  #   Get an array of all element attribute names.
+
+- id: element_innerhtml
+  name: "`element.innerHTML`"
+  # description: |
+  #   `element.innerHTML = rawHTML`
+
+- id: element_outerhtml
+  name: "`element.outerHTML`"
+  # description: |
+  #   `element.outerHTML = rawHTML`
+
+# - id: element_textcontent
+#   name: textContent property
+#   description: |
+#     `element.textContent = rawText`
 
 - id: element_insert_adjacent_html
-  name: insertAdjacentHTML()
+  name: "insertAdjacentHTML()"
   description: |
     `element.insertAdjacentHTML("beforebegin", rawHTML)`
+
+- id: domparser
+  name: DOMParser API
+  description: |
+    `let doc = new DOMParser().parseFromString(rawHTML, "text/html")`
 
 - id: element_insert_adjacent_element
   name: insertAdjacentElement()
   description: |
-    `element.insertAdjacentElement("afterend", otherElement)`
+    `el1.insertAdjacentElement("afterend", el2)`
 
 - id: element_append
-  name: append()
+  name: "`parent.append(...children)`"
   description: |
-    `parent.append(...children)`
+    Replaced the older `parent.appendChild(child)`
 
-- id: element_append_child
-  name: appendChild()
-  description: |
-    `parent.appendChild(child)`
+# - id: element_append_child
+#   name: appendChild()
+#   description: |
+#     `parent.appendChild(child)`
 
-- id: element_before_after
-  name: before() and after() methods
+- id: element_before
+  name: "`el1.before(...elements)`"
   description: |
-    `element.before(otherElement)`
+    Replaced the older `parent.insertBefore(el2, el1)`
 
 - id: element_replace_with
-  name: replaceWith()
+  name: "`el1.replaceWith(el2)`"
   description: |
-    `element.replaceWith(otherElement)`
+    Replaced the older `parent.replaceChild(el2, el1)` method.
 
-- id: element_replace_child
-  name: replaceChild()
-  description: |
-    `parent.replaceChild(newChild, oldChild)`
+# - id: element_replace_child
+#   name: replaceChild()
+#   description: |
+#     `parent.replaceChild(newChild, oldChild)`
 
 - id: element_replace_children
   name: replaceChildren()
   description: |
     `element.replaceChildren(...newChildren)`
-
-- id: element_toggle_attribute
-  name: toggleAttribute()
-  description: |
-    `element.toggleAttribute("data-selected", isSelected)`
 
 - id: document_create_document_fragment
   name: Document fragments
