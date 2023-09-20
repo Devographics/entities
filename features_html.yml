@@ -758,7 +758,7 @@
     - features
 
 - id: integrity_attribute
-  name: Subresource Integrity (`integrity` attribute)
+  name: "`integrity` attribute"
   needsTranslation: true
   description: A security feature to verify that fetched resources have not been
     tampered with.
@@ -837,24 +837,6 @@
     - url: https://web.dev/browser-level-image-lazy-loading/
       title: Browser-level image lazy loading for the web
   caniuse: loading-lazy-attr
-  tags:
-    - features
-
-- id: math_element
-  name: Inline MathML (`<math>`)
-  needsTranslation: false
-  description: Display math directly in HTML, using MathML.
-  example:
-    language: html
-    code: |-
-      <math display="inline">
-          <msup>
-              <mi>π</mi>
-              <mn>2</mn>
-          </msup>
-      </math>
-  mdn: en-US/docs/Web/MathML/Element/math
-  w3c: TR/mathml-core/#the-top-level-math-element
   tags:
     - features
 
@@ -987,11 +969,104 @@
   tags:
     - features
 
+- id: audio_element
+  name: "`<audio>`"
+  needsTranslation: false
+  example:
+    language: html
+    code: |-
+      <audio src="audio.mp3" controls></audio>
+  mdn: en-US/docs/Web/HTML/Element/audio
+  w3c: TR/html52/embedded-content-0.html#the-audio-element
+  tags:
+    - features
+
+- id: video_element
+  name: "`<video>`"
+  needsTranslation: false
+  example:
+    language: html
+    code: |-
+      <video src="video.mp4" controls></video>
+  mdn: en-US/docs/Web/HTML/Element/video
+  w3c: TR/html52/embedded-content-0.html#the-video-element
+  tags:
+    - features
+
+- id: iframe_element
+  name: "`<iframe>`"
+  needsTranslation: false
+  example:
+    language: html
+    code: |-
+      <iframe src="https://example.com/"></iframe>
+  mdn: en-US/docs/Web/HTML/Element/iframe
+  w3c: TR/html52/embedded-content-0.html#the-iframe-element
+  tags:
+    - features
+
+- id: object_element
+  name: "`<object>`"
+  needsTranslation: false
+  example:
+    language: html
+    code: |-
+      <object data="image.svg" type="image/svg+xml"></object>
+  mdn: en-US/docs/Web/HTML/Element/object
+  w3c: TR/html52/embedded-content-0.html#the-object-element
+  tags:
+    - features
+
+- id: canvas_element
+  name: "`<canvas>`"
+  needsTranslation: false
+  example:
+    language: html
+    code: |-
+      <canvas width="200" height="200"></canvas>
+  mdn: en-US/docs/Web/HTML/Element/canvas
+  w3c: TR/html52/scripting-0.html#the-canvas-element
+  tags:
+    - features
+
+- id: svg_element
+  name: "`<svg>`"
+  needsTranslation: false
+  # description: Embed SVG vector graphics directly in markup
+  example:
+    language: html
+    code: |-
+      <svg>
+        <circle cx="50" cy="50" r="50" />
+      </svg>
+  mdn: en-US/docs/Web/SVG/Element/svg
+  w3c: TR/SVG2/struct.html#NewDocument
+  tags:
+    - features
+
+- id: math_element
+  name: "`<math>`"
+  needsTranslation: false
+  # description: Display math directly in HTML, using MathML.
+  example:
+    language: html
+    code: |-
+      <math display="inline">
+          <msup>
+              <mi>π</mi>
+              <mn>2</mn>
+          </msup>
+      </math>
+  mdn: en-US/docs/Web/MathML/Element/math
+  w3c: TR/mathml-core/#the-top-level-math-element
+  tags:
+    - features
+
 - id: picture_element
   name: "`<picture>`"
   needsTranslation: false
-  description: A responsive images method to control which image resource a user
-    agent presents to a user, based on various factors.
+  # description: A responsive images method to control which image resource a user
+  #   agent presents to a user, based on various factors.
   example:
     language: html
     code: |-
@@ -1387,21 +1462,6 @@
       title: RDFa - Wikipedia
     - url: https://almanac.httparchive.org/en/2022/structured-data
       title: Structured Data | 2022 | The Web Almanac by HTTP Archive
-  tags:
-    - features
-
-- id: svg_element
-  name: Inline SVG (`<svg>`)
-  needsTranslation: false
-  description: Embed SVG vector graphics directly in markup
-  example:
-    language: html
-    code: |-
-      <svg>
-        <circle cx="50" cy="50" r="50" />
-      </svg>
-  mdn: en-US/docs/Web/SVG/Element/svg
-  w3c: TR/SVG2/struct.html#NewDocument
   tags:
     - features
 
