@@ -783,8 +783,8 @@
   description: Native-like packaging, permissions and signed updates for PWAs.
   example:
     language: null
+    label: URL
     code: |
-      label: URL
       isolated-app://4tkr2qbhf7rlz2a3wo3rh4wqaaic/index.html
   resources:
     - url: https://github.com/WICG/isolated-web-apps
