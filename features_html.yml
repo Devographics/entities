@@ -73,7 +73,8 @@
     - features
 
 - id: autocomplete_attribute
-  name: Autocomplete Attribute
+  name: |
+    `autocomplete` attribute
   needsTranslation: false
   description: Provide hints about what kind of information is expected, e.g.
     `name`, `honorific-prefix`, `tel`,  `cc-number` etc
@@ -551,7 +552,7 @@
 
 - id: fetchpriority_attribute
   name: |
-    `fetchpriority` Attribute
+    `fetchpriority` attribute
   needsTranslation: true
   description: Allows specifying a hint to help the browser prioritize fetching
     various resources.
@@ -712,7 +713,7 @@
     - features
 
 - id: inert_attribute
-  name: "`inert` Attribute"
+  name: "`inert` attribute"
   needsTranslation: true
   description: Attribute to make an element and its descendants non-interactive,
     and invisible to assistive technology.
@@ -1682,7 +1683,6 @@
 #   Interactivity
 #
 #################################################
-
 - id: element_classlist
   name: "`element.classList`"
   # description: |
