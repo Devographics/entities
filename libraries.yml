@@ -2115,7 +2115,7 @@
   name: Electron
   npm: electron
   github: electron/electron
-  description: "Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+  # description: "Build cross-platform desktop apps with JavaScript, HTML, and CSS"
   homepageUrl: "https://electronjs.org"
 
 - id: reactnative
