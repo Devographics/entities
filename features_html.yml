@@ -1521,6 +1521,24 @@
   tags:
     - features
 
+- id: launch_handler_api
+  name: Launch Handler API
+  needsTranslation: true
+  description: Allows PWAs to how they are launched, e.g. in a new window or tab.
+  example:
+    language: json
+    code: |
+      {
+        "launch_handler": {"client_mode": "navigate-new"}
+      }
+  mdn: en-US/docs/Web/API/Launch_Handler_API
+  resources:
+    - url: https://web.dev/launch-handler/
+      title: |
+        Launch Handler API: Control how your app is launched.
+  tags:
+    - features
+
 #################################################
 #
 #   Forms
