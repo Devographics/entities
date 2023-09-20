@@ -812,7 +812,7 @@
     - url: https://web.dev/file-system-access/
       title: File System Access API
     - url: https://fs.spec.whatwg.org/
-    - title: File System API Specification
+      title: File System API Specification
 
 - id: landmark_elements
   name: Landmark elements
