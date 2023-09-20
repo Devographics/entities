@@ -17,7 +17,7 @@
       	<summary>Main info</summary>
       	<!-- controls -->
       </details>
-      <details open name="sidebar_panel" id="style_settings">
+      <details name="sidebar_panel" id="style_settings">
       	<summary>Style</summary>
       	<!-- controls -->
       </details>
