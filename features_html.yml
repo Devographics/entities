@@ -1589,7 +1589,7 @@
 - id: launch_handler_api
   name: Launch Handler API
   needsTranslation: true
-  description: Allows PWAs to how they are launched, e.g. in a new window or tab.
+  description: Allows PWAs to control how they are launched, e.g. in a new window or tab.
   example:
     language: json
     label: manifest.json
