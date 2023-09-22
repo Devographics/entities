@@ -668,7 +668,7 @@
     language: html
     code: |-
       <script type="module">
-      	import { TabList } from "./tablist.html";
+      	import { TabList } from "./tablist.html" with { type: 'html' };
       	customElements.define("tab-list", TabList);
       </script>
   resources:
