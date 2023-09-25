@@ -829,7 +829,7 @@
     language: html
     code: |-
       <img src="picture.jpg" loading="lazy" />
-      <iframe src="picture.jpg" loading="lazy" />
+      <iframe src="supplementary.html" loading="lazy"></iframe>
   mdn: en-US/docs/Web/Performance/Lazy_loading
   resources:
     - url: https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes
