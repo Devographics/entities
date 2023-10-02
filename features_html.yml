@@ -1996,7 +1996,7 @@
   name: |
     `Intl.PluralRules` API
   description: |
-    Facilitates languge-sensitive pluralization rules.
+    Facilitates language-sensitive pluralization rules.
 
 - id: intl_relative_time_format
   name: |
