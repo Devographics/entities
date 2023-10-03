@@ -671,7 +671,7 @@
     language: html
     code: |-
       <script type="module">
-      	import { TabList } from "./tablist.html";
+      	import { TabList } from "./tablist.html" with { type: 'html' };
       	customElements.define("tab-list", TabList);
       </script>
   resources:
@@ -832,7 +832,7 @@
     language: html
     code: |-
       <img src="picture.jpg" loading="lazy" />
-      <iframe src="picture.jpg" loading="lazy" />
+      <iframe src="supplementary.html" loading="lazy"></iframe>
   mdn: en-US/docs/Web/Performance/Lazy_loading
   resources:
     - url: https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes
@@ -2001,7 +2001,7 @@
   name: |
     `Intl.PluralRules` API
   description: |
-    Facilitates languge-sensitive pluralization rules.
+    Facilitates language-sensitive pluralization rules.
 
 - id: intl_relative_time_format
   name: |
