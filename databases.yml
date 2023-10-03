@@ -27,10 +27,6 @@
   name: Firestore
   homepageUrl: https://firebase.google.com/docs/firestore
 
-- id: firebase
-  name: Firebase
-  homepageUrl: https://firebase.google.com/
-
 - id: clickhouse
   name: Clickhouse
   homepageUrl: https://clickhouse.com/

@@ -1,0 +1,212 @@
+- id: browser_support
+  # name: Browser Support
+  patterns:
+    - browser adoption
+    - consistency
+    - consistent support
+    - cross( |-)browser
+    - browser inconsistencies
+    - browser incompatibilities
+    - lack of support
+    - browser incompatibility
+  tags:
+    - html_pain_points
+
+- id: styling
+  # name: Styling
+  patterns:
+    - styling
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: select_element
+  name: |
+    `<select>` element
+  patterns:
+    - select
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: radio_input
+  name: |
+    `<input type="radio">`
+  patterns:
+    - radio
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: file_input
+  name: |
+    `<input type="file">`
+  patterns:
+    - file
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: number_input
+  name: |
+    `<input type="number">`
+  patterns:
+    - number
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: checkbox_input
+  name: |
+    `<input type="checkbox">`
+  patterns:
+    - checkbox
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: button_element
+  name: |
+    `<button>` element
+  patterns:
+    - button
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: textarea_element
+  name: |
+    `<textarea>` element
+  patterns:
+    - textarea
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: table_element
+  name: |
+    `<table>` element
+  patterns:
+    - table
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: accessibility
+  # name: Accessibility
+  patterns:
+    - accessibility
+    - a11y
+    - accessible
+  tags:
+    - html_pain_points
+
+# forms
+
+- id: autocomplete
+  # name: Autocomplete
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: safari
+  name: Safari
+  tags:
+    - html_pain_points
+
+- id: validation
+  # name: Validation
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: datepickers
+  # name: Date/Time Pickers
+  patterns:
+    - date
+    - timezone
+  tags:
+    - html_pain_points
+    - forms_pain_points
+
+- id: colorpickers
+  # name: Color Pickers
+  patterns:
+    - color
+  tags:
+    - forms_pain_points
+
+# interactivity
+
+- id: dom_manipulation
+  # name: DOM Manipulation
+  tags:
+    - interactivity_pain_points
+
+- id: drag_and_drop
+  # name: Drag-and-drop Support
+  patterns:
+    - drag
+  tags:
+    - interactivity_pain_points
+
+- id: event_management
+  # name: Event Management
+  patterns:
+    - event
+  tags:
+    - interactivity_pain_points
+
+- id: state_management
+  # name: State Management
+  patterns:
+    - state
+  tags:
+    - interactivity_pain_points
+
+- id: performance
+  # name: Performance
+  tags:
+    - interactivity_pain_points
+
+- id: reactivity
+  # name: Reactivity
+  tags:
+    - interactivity_pain_points
+
+# content
+
+- id: cors
+  tags:
+    - content_pain_points
+
+- id: csp
+  tags:
+    - content_pain_points
+
+- id: svg
+  tags:
+    - content_pain_points
+
+- id: iframe
+  tags:
+    - content_pain_points
+
+- id: video
+  tags:
+    - content_pain_points
+
+- id: srcset_sizes
+  patterns:
+    - srcset
+  tags:
+    - content_pain_points
+
+- id: i18n
+  patterns:
+    - translation
+    - locali(z|s)ation
+    - internationali(z|s)ation
+    - Intl
+  tags:
+    - content_pain_points

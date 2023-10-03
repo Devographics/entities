@@ -425,6 +425,9 @@
       title: HTML Standard
   tags:
     - features
+  patterns:
+    - <details>
+    - <summary>
 
 - id: dialog_element
   name: "`<dialog>`"
@@ -1082,6 +1085,8 @@
   caniuse: picture
   tags:
     - features
+  patterns:
+    - <picture>
 
 - id: popover_api
   name: Popover API

@@ -22,6 +22,18 @@
     - non-js
     - python
 
+- id: flask
+  name: Flask
+  homepageUrl: https://flask.palletsprojects.com/en/2.3.x/
+  tags:
+    - non-js
+
+- id: fastapi
+  name: FastAPI
+  homepageUrl: https://fastapi.tiangolo.com/
+  tags:
+    - non-js
+
 #################################################
 # CSS pre/post processors
 #################################################
@@ -784,14 +796,14 @@
     interfaces.
 
 # TODO: get rid of duplicate
-- id: vue
-  name: Vue.js
-  npm: vue
-  github: vuejs/vue
-  description: "A progressive, incrementally-adoptable framework for building UI on the web"
-  homepageUrl: "http://vuejs.org"
-  patterns:
-    - vue
+# - id: vue
+#   name: Vue.js
+#   npm: vue
+#   github: vuejs/vue
+#   description: "A progressive, incrementally-adoptable framework for building UI on the web"
+#   homepageUrl: "http://vuejs.org"
+#   patterns:
+#     - vue
 
 - id: vuejs
   name: Vue.js

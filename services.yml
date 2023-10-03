@@ -60,3 +60,33 @@
 - id: heroku
   name: Heroku
   homepageUrl: https://heroku.com/
+
+- id: firebase
+  name: Firebase
+  homepageUrl: https://firebase.google.com/
+
+- id: hetzner
+  name: Hetzner
+  homepageUrl: https://www.hetzner.com/
+
+- id: vmware
+  name: Hetzner
+  homepageUrl: https://www.hetzner.com/
+
+# japanese services
+
+- id: idcf_cloud
+  name: IDCF Cloud
+  homepageUrl: https://www.idcf.jp/cloud/
+
+- id: nifcloud
+  name: Nifcloud
+  homepageUrl: https://pfs.nifcloud.com/
+
+- id: sakura_cloud
+  name: Sakura Cloud
+  homepageUrl: https://cloud.sakura.ad.jp/
+
+- id: z_com_cloud
+  name: Z.com Cloud
+  homepageUrl: https://z.com/jp/
