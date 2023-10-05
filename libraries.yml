@@ -821,6 +821,10 @@
   description: One framework. Mobile & desktop.
   homepageUrl: "https://angular.io"
 
+- id: angular_elements
+  name: Angular Elements
+  homepageUrl: https://angular.io/guide/elements
+
 - id: angular-1
   name: Angular 1
   npm: angular

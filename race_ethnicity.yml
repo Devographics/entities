@@ -19,3 +19,12 @@
   normalizationOnly: true
   patterns:
     - slavic
+
+- id: central_asian
+  normalizationOnly: true
+
+- id: caucasian
+  normalizationOnly: true
+
+- id: scandinavian
+  normalizationOnly: true

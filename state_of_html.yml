@@ -210,3 +210,71 @@
     - Intl
   tags:
     - content_pain_points
+
+# a11y
+
+- id: automated_testing
+  tags:
+    - accessibility_pain_points
+
+- id: documentation
+  patterns:
+    - learning resources
+  tags:
+    - accessibility_pain_points
+
+- id: lack_of_awareness
+  patterns:
+    - awareness
+  tags:
+    - accessibility_pain_points
+
+- id: low_budget
+  patterns:
+    - budget
+  tags:
+    - accessibility_pain_points
+
+- id: lack_of_education
+  patterns:
+    - education
+    - lack of information
+    - lack of knowledge
+  tags:
+    - accessibility_pain_points
+
+- id: low_priority
+  patterns:
+    - buy(-| )in
+    - don't care
+    - don't prioritize
+    - don't value
+    - convincing
+    - on board
+    - no one care
+    - no one else care
+    - priority
+  tags:
+    - accessibility_pain_points
+
+- id: difficulty
+  patterns:
+    - difficult
+    - hard to do
+    - hard to get right
+    - hard to know
+    - hard to test
+  tags:
+    - accessibility_pain_points
+
+- id: keyboard_navigation
+  tags:
+    - accessibility_pain_points
+
+- id: tab_index
+  tags:
+    - accessibility_pain_points
+
+- id: testing
+  tags:
+    - accessibility_pain_points

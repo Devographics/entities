@@ -360,6 +360,8 @@
   caniuse: datalist
   tags:
     - features
+  patterns:
+    - datalist
 
 - id: declarative_shadow_dom
   name: Declarative Shadow DOM
@@ -450,6 +452,8 @@
       title: HTML Standard
   tags:
     - features
+  patterns:
+    - dialog
 
 - id: dom_parts
   name: DOM Parts
@@ -603,6 +607,8 @@
         web forward. -     Monorail
   tags:
     - features
+  patterns:
+    - focusgroup
 
 - id: form_request_submit
   name: "`form.requestSubmit()`"
@@ -1111,6 +1117,8 @@
   caniuse: mdn-html_global_attributes_popover
   tags:
     - features
+  patterns:
+    - popover
 
 - id: portal_element
   name: "`<portal>`"
@@ -1650,10 +1658,14 @@
 - id: input_type_date
   name: |
     `<input type="date">`
+  patterns:
+    - input type="date"
 
 - id: input_type_time
   name: |
     `<input type="time">`
+  patterns:
+    - input type="time"
 
 - id: input_type_datetime_locale
   name: |
@@ -1662,6 +1674,9 @@
 - id: input_type_month
   name: |
     `<input type="month">`
+  patterns:
+    - <input type="month"
+    - <input type="month"
 
 - id: input_type_week
   name: |
@@ -2157,14 +2172,6 @@
 - id: input_element
   name: |
     `<input>`
-
-- id: select_element
-  name: |
-    `<select>`
-
-- id: textarea_element
-  name: |
-    `<textarea>`
 
 - id: button_element
   name: |
