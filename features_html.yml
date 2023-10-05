@@ -744,6 +744,8 @@
         Development
   tags:
     - features
+  patterns:
+    - inert
 
 - id: input_pattern
   name: input `pattern` attribute
@@ -822,6 +824,9 @@
       title: File System Access API
     - url: https://fs.spec.whatwg.org/
       title: File System API Specification
+  patterns:
+    - filesystem
+    - file system
 
 - id: landmark_elements
   name: Landmark elements
@@ -908,6 +913,8 @@
         Documentation
   tags:
     - features
+  patterns:
+    - <model
 
 - id: multihandle_sliders
   name: Multi-handle sliders (`<input type=range multiple>`)
@@ -1119,6 +1126,7 @@
     - features
   patterns:
     - popover
+    - popup
 
 - id: portal_element
   name: "`<portal>`"
@@ -1349,6 +1357,8 @@
   caniuse: mdn-html_elements_search
   tags:
     - features
+  patterns:
+    - <search
 
 - id: selectlist_element
   name: "`<selectlist>`"
@@ -1380,6 +1390,11 @@
       title: Open UI's selectmenu demos
   tags:
     - features
+  patterns:
+    - selectlist
+    - select list
+    - selectmenu
+    - select menu
 
 - id: shadow_dom
   name: Shadow DOM
@@ -1576,6 +1591,8 @@
   caniuse: web-share
   tags:
     - features
+  patterns:
+    - share api
 
 - id: window_controls_overlay
   name: Window Controls Overlay API
@@ -1649,7 +1666,13 @@
 
 - id: select_element
   name: |
-    `<select>`
+    `<select>` element
+  patterns:
+    - <select
+  tags:
+    - html_pain_points
+    - forms_pain_points
+    - html_functionality_features
 
 - id: textarea_element
   name: |
@@ -1660,6 +1683,9 @@
     `<input type="date">`
   patterns:
     - input type="date"
+    - date input
+    - date picker
+    - datepicker
 
 - id: input_type_time
   name: |
@@ -1670,6 +1696,9 @@
 - id: input_type_datetime_locale
   name: |
     `<input type="datetime-local">`
+  patterns:
+    - datetime
+    - date\/time
 
 - id: input_type_month
   name: |
@@ -1677,6 +1706,7 @@
   patterns:
     - <input type="month"
     - <input type="month"
+    - input month
 
 - id: input_type_week
   name: |
@@ -2176,3 +2206,38 @@
 - id: button_element
   name: |
     `<button>`
+
+- id: jpeg_xl
+
+- id: css_nesting
+  normalizationOnly: true
+  patterns:
+    - nested css
+
+- id: scrollbar
+  normalizationOnly: true
+  patterns:
+    - scrollbar styling
+
+- id: view_transitions
+  normalizationOnly: true
+  patterns:
+    - page transition
+    - view transition
+    - transition api
+
+- id: web_bluetooth_api
+  name: Web Bluetooth API
+  patterns:
+    - bluetooth
+
+- id: webgpu
+  name: WebGPU
+
+- id: avif
+  name: AVIF
+
+- id: clipboard_api
+  name: Clipboard API
+  patterns:
+    - clipboard

@@ -20,15 +20,6 @@
     - html_pain_points
     - forms_pain_points
 
-- id: select_element
-  name: |
-    `<select>` element
-  patterns:
-    - select
-  tags:
-    - html_pain_points
-    - forms_pain_points
-
 - id: radio_input
   name: |
     `<input type="radio">`

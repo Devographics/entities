@@ -428,9 +428,6 @@
   name: ViewTransition API
   mdn: en-US/docs/Web/API/View_Transitions_API
   caniuse: mdn-api_viewtransition
-  patterns:
-    - view transition
-    - page transition
   example:
     language: css
     code: |
@@ -453,6 +450,10 @@
   tags:
     - css
     - css_shapes_and_graphics
+  patterns:
+    - view transition
+    - page transition
+    - viewtransition
 
 - id: background_attachment
   name: >
@@ -1065,7 +1066,7 @@
     - css
     - css_selectors
   patterns:
-    - not()
+    - not\(\)
     - :not
 
 #################################################
