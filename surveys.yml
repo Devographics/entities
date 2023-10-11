@@ -7,12 +7,14 @@
     - state_of_js_email
     - stateofjs
     - stateofjs.com
+
 - id: state_of_css_survey
   name: State of CSS
   homepageUrl: https://stateofcss.com
   patterns:
     - state( |-|_)?of( |-|_)?css
     - state_of_css_email
+    - stateofcss.com
 
 - id: state_of_graphql_survey
   name: State of GraphQL
@@ -20,6 +22,15 @@
   patterns:
     - state( |-|_)?of( |-|_)?graphql
     - state_of_graphql_email
+    - stateofgraphql.com
+
+- id: state_of_html_survey
+  name: State of HTML
+  homepageUrl: https://stateofhtml.com
+  patterns:
+    - state( |-|_)?of( |-|_)?html
+    - state_of_html_email
+    - stateofhtml.com
 
 - id: stack_overflow_survey
   name: Stack Overflow Annual Developer Survey

@@ -183,6 +183,7 @@
   homepageUrl: https://web.dev/
   patterns:
     - web-dev
+    - chromiumdev
 
 - id: elm_slack
   name: Elm Slack
@@ -495,3 +496,16 @@
   homepageUrl: https://duckduckgo.com/
   patterns:
     - duckduckgo.com
+
+- id: gigazine
+  name: Gigazine
+  homepageUrl: https://gigazine.net/
+
+- id: manz_dev
+  name: ManzDev
+  homepageUrl: https://manz.dev/
+  belongsTo: jose_roman
+
+- id: crocoder
+  name: CroCoder
+  homepageUrl: https://www.crocoder.dev/

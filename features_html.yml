@@ -35,6 +35,8 @@
       title: Chrome Platform Status
   tags:
     - features
+  patterns:
+    - accordion
 
 - id: adaptive_streaming
   name: Adaptive streaming
@@ -1008,6 +1010,8 @@
   w3c: TR/html52/embedded-content-0.html#the-video-element
   tags:
     - features
+  patterns:
+    - <video>
 
 - id: iframe_element
   name: "`<iframe>`"
@@ -1044,6 +1048,8 @@
   w3c: TR/html52/scripting-0.html#the-canvas-element
   tags:
     - features
+  patterns:
+    - <canvas(\/)?>
 
 - id: svg_element
   name: "`<svg>`"
@@ -1668,7 +1674,9 @@
   name: |
     `<select>` element
   patterns:
-    - <select
+    - <select>
+    - <select/>
+    - custom select
   tags:
     - html_pain_points
     - forms_pain_points
@@ -2241,3 +2249,8 @@
   name: Clipboard API
   patterns:
     - clipboard
+
+- id: progress_element
+  name: "`<progress>`"
+  patterns:
+    - <progress

@@ -1,14 +1,38 @@
+##################################################################
+#                               Pain points                      #
+##################################################################
+
+- id: accessibility
+  patterns:
+    - accessibility
+    - a11y
+    - accessible
+    - accesibility
+  tags:
+    - html_pain_points
+
+- id: animations
+  patterns:
+    - animation
+  tags:
+    - html_pain_points
+
 - id: browser_support
-  # name: Browser Support
   patterns:
     - browser adoption
     - consistency
     - consistent support
     - cross( |-)browser
-    - browser inconsistencies
-    - browser incompatibilities
+    - browser.*inconsistencies
+    - browser.*incompatibilities
     - lack of support
-    - browser incompatibility
+    - browser.*incompatibility
+    - browser.*compatibility
+    - differences between browser
+    - different browser
+    - inconsistent browser
+    - browser.*differences
+
   tags:
     - html_pain_points
 
@@ -16,8 +40,36 @@
   # name: Styling
   patterns:
     - styling
+    - css customization
+    - custom styles
+    - difficult to style
+    - hard to style
   tags:
     - html_pain_points
+
+- id: error_handling
+  patterns:
+    - custom error
+    - form vidation
+    - error management
+    - error messages
+    - errors
+  tags:
+    - html_pain_points
+
+##################################################################
+#                            forms_pain_points                   #
+##################################################################
+
+- id: javascript_form_handling
+  patterns:
+    - handling forms via js
+    - handling forms with js
+  tags:
+    - forms_pain_points
+
+- id: customization
+  tags:
     - forms_pain_points
 
 - id: radio_input
@@ -26,7 +78,6 @@
   patterns:
     - radio
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: file_input
@@ -35,7 +86,6 @@
   patterns:
     - file
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: number_input
@@ -44,7 +94,6 @@
   patterns:
     - number
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: checkbox_input
@@ -53,7 +102,6 @@
   patterns:
     - checkbox
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: button_element
@@ -62,7 +110,6 @@
   patterns:
     - button
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: textarea_element
@@ -71,53 +118,39 @@
   patterns:
     - textarea
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: table_element
   name: |
     `<table>` element
   patterns:
-    - table
+    - <table
   tags:
-    - html_pain_points
     - forms_pain_points
-
-- id: accessibility
-  # name: Accessibility
-  patterns:
-    - accessibility
-    - a11y
-    - accessible
-  tags:
-    - html_pain_points
-
-# forms
 
 - id: autocomplete
   # name: Autocomplete
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: safari
   name: Safari
   tags:
-    - html_pain_points
+    - forms_pain_points
 
 - id: validation
   # name: Validation
+  patterns:
+    - custom validity
   tags:
-    - html_pain_points
     - forms_pain_points
 
-- id: datepickers
+- id: date_picker
   # name: Date/Time Pickers
   patterns:
     - date
     - timezone
   tags:
-    - html_pain_points
     - forms_pain_points
 
 - id: colorpickers
@@ -127,7 +160,9 @@
   tags:
     - forms_pain_points
 
-# interactivity
+##################################################################
+#                    interactivity_pain_points                   #
+##################################################################
 
 - id: dom_manipulation
   # name: DOM Manipulation
@@ -149,28 +184,44 @@
     - interactivity_pain_points
 
 - id: state_management
-  # name: State Management
   patterns:
     - state
   tags:
     - interactivity_pain_points
 
 - id: performance
-  # name: Performance
   tags:
     - interactivity_pain_points
 
 - id: reactivity
-  # name: Reactivity
   tags:
     - interactivity_pain_points
 
-# content
+- id: focus_management
+  tags:
+    - interactivity_pain_points
+
+- id: having_to_use_javascript
+  tags:
+    - interactivity_pain_points
+
+- id: dom_api
+  tags:
+    - interactivity_pain_points
+
+- id: inner_html
+  tags:
+    - interactivity_pain_points
+
+##################################################################
+#                    content_pain_points                         #
+##################################################################
 
 - id: cors
   tags:
     - content_pain_points
-
+  patterns:
+    - cross(-| )?origin
 - id: csp
   tags:
     - content_pain_points
@@ -199,10 +250,58 @@
     - locali(z|s)ation
     - internationali(z|s)ation
     - Intl
+    - locale
   tags:
     - content_pain_points
 
-# a11y
+- id: time_zones
+  patterns:
+    - time( )?zone
+  tags:
+    - content_pain_points
+
+- id: performance
+  tags:
+    - content_pain_points
+
+- id: security_privacy
+  patterns:
+    - security
+    - privacy
+  tags:
+    - content_pain_points
+
+- id: date_management
+  patterns:
+    - date
+    - temporal
+  tags:
+    - content_pain_points
+
+- id: image_dimension_management
+  patterns:
+    - size.*image
+    - image.*size
+    - responsive.*image
+    - image.*responsive
+  tags:
+    - content_pain_points
+
+- id: image_management
+  patterns:
+    - image
+  tags:
+    - content_pain_points
+
+- id: lack_of_templating
+  patterns:
+    - templat
+  tags:
+    - content_pain_points
+
+##################################################################
+#                 accessibility_pain_points                      #
+##################################################################
 
 - id: automated_testing
   tags:
@@ -269,3 +368,148 @@
 - id: testing
   tags:
     - accessibility_pain_points
+
+##################################################################
+#                     html_missing_elements                      #
+##################################################################
+
+- id: autocomplete
+  tags:
+    - html_missing_elements
+  patterns:
+    - combo( |-)?box
+    - autocomplete
+    - typeahead
+
+- id: tooltip
+  tags:
+    - html_missing_elements
+  patterns:
+    - tooltip
+
+- id: dropdown
+  tags:
+    - html_missing_elements
+  patterns:
+    - drop down
+
+- id: htmx
+  tags:
+    - html_missing_elements
+
+- id: charts
+  tags:
+    - html_missing_elements
+  patterns:
+    - chart
+
+- id: map
+  tags:
+    - html_missing_elements
+
+- id: modal
+  tags:
+    - html_missing_elements
+
+- id: multi_range_slider
+  tags:
+    - html_missing_elements
+  patterns:
+    - multi( |-)?range
+    - dual( |-)?range
+
+- id: multi_select
+  tags:
+    - html_missing_elements
+  patterns:
+    - multi(-| )?select dropdown
+
+- id: rich_text_editor
+  tags:
+    - html_missing_elements
+  patterns:
+    - rich text
+    - wysiwyg
+
+- id: virtual_list
+  tags:
+    - html_missing_elements
+  patterns:
+    - virtualization
+    - virtualized
+    - virtual scroll
+
+- id: color_picker
+  tags:
+    - html_missing_elements
+
+- id: calendar
+  tags:
+    - html_missing_elements
+
+- id: date_range_picker
+  tags:
+    - html_missing_elements
+
+- id: drop_zone
+  tags:
+    - html_missing_elements
+
+- id: slider
+  tags:
+    - html_missing_elements
+
+- id: tree_view
+  tags:
+    - html_missing_elements
+
+- id: image_editor
+  patterns:
+    - crop
+    - image editor
+    - image editing
+  tags:
+    - html_missing_elements
+
+##################################################################
+#                     html_missing_elements                      #
+##################################################################
+
+- id: lea_verou
+  tags:
+    - how_did_user_find_out_about_the_survey
+  patterns:
+    - lea
+
+##################################################################
+#                             sources                            #
+##################################################################
+
+- id: state_of_js_css_survey
+  normalizationOnly: true
+  patterns:
+    - email
+    - devographics.com
+    - e-mail
+    - e mail
+    - mail
+    - mailing list
+    # - newsletter
+    - stateofcss.com
+    - stateofjs.com
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+    - annual
+    - yearly
+    - taken it
+    - filled it
+  tags:
+    - sources_state_of_html

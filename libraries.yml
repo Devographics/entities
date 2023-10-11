@@ -1339,6 +1339,7 @@
   #   directory of templates (of varying types) into HTML.
   patterns:
     - https://www.11ty.dev/
+    - 11ty
   homepageUrl: "https://www.11ty.dev/"
 
 - id: astro
@@ -1372,6 +1373,10 @@
   description: >-
     The fastest way to build Svelte apps
   homepageUrl: https://kit.svelte.dev/
+  patterns:
+    - sevlt( |-)?kit
+    - svelete( |-)?kit
+    - svelte( |-)?kit
 
 - id: solidstart
   name: SolidStart
@@ -1441,6 +1446,60 @@
 - id: hugo
   name: Hugo
   homepageUrl: https://gohugo.io/
+
+- id: bridgetown
+  name: Bridgetown
+  homepageUrl: https://www.bridgetownrb.com/
+
+- id: hexo
+  name: Hexo
+  homepageUrl: https://hexo.io/
+
+- id: zola
+  name: Zola
+  homepageUrl: https://www.getzola.org/
+
+- id: jigsaw
+  name: Jigsaw
+  homepageUrl: https://jigsaw.tighten.com/
+
+- id: kirby
+  name: kirby
+  homepageUrl: https://getkirby.com/
+
+- id: lume
+  name: Lume
+  homepageUrl: https://lume.land/
+
+- id: metalsmith
+  name: Metalsmith
+  homepageUrl: https://metalsmith.io/
+
+- id: middleman
+  name: Middleman
+  homepageUrl: https://middlemanapp.com/
+
+- id: nikola
+  name: Nikola
+  homepageUrl: https://getnikola.com/
+
+- id: pelican
+  name: Pelican
+  homepageUrl: https://getpelican.com/
+
+- id: publii
+  name: Publii
+  homepageUrl: https://getpublii.com/
+
+- id: elm_pages
+  name: elm-pages
+  homepageUrl: https://elm-pages.com/
+
+- id: enhance_dev
+  name: Enhance
+  homepageUrl: https://enhance.dev/
+  patterns:
+    - enhance
 
 #################################################
 # Testing
@@ -2495,6 +2554,7 @@
   github: sindresorhus/ky
   description: Tiny & elegant HTTP client based on window.fetch
   homepageUrl: https://github.com/sindresorhus/ky
+  apiOnly: true # not used for normalization
 
 - id: n
   name: N
@@ -2822,3 +2882,11 @@
 - id: material_wc
   name: Material Web
   homepageUrl: https://material-web.dev/
+
+#################################################
+# Other
+#################################################
+
+- id: asp_net
+  name: ASP.NET
+  homepageUrl: https://dotnet.microsoft.com/en-us/apps/aspnet

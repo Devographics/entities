@@ -1,5 +1,7 @@
 # disability status
 
+- id: blindness
+
 - id: adhd
   name: ADHD
   patterns:

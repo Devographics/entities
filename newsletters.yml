@@ -1,8 +1,7 @@
 - id: ember_times
   name: Ember Times
   homepageUrl: https://the-emberjs-times.ongoodbits.com/
-  tags:
-    - newsletters
+
 - id: sidebar
   name: Sidebar
   homepageUrl: https://sidebar.io
@@ -98,6 +97,8 @@
 - id: a11y_weekly
   name: A11y Weekly
   homepageUrl: https://a11yweekly.com/
+  patterns:
+    - accessibility weekly
 
 - id: bytes
   name: Bytes
@@ -140,3 +141,7 @@
 - id: noticias
   name: noticias.dev
   homepageUrl: https://www.noticias.dev/
+
+- id: convertkit
+  name: ConvertKit
+  homepageUrl: https://convertkit.com/

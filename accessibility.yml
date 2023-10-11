@@ -1,0 +1,129 @@
+#################################################
+# Testing Tools
+#################################################
+
+- id: lighthouse
+  name: Lighthouse
+  homepageUrl: https://developer.chrome.com/docs/lighthouse/overview/
+
+- id: chrome_devtools
+  name: Chrome DevTools
+  patterns:
+    - chrome
+
+- id: eslint
+  name: ESLint
+
+- id: firefox_accessibility_inspector
+  name: Firefox Accessibility Inspector
+  patterns:
+    - firefox
+
+- id: ibm_accessibility_checker
+  name: IBM Equal Access Accessibility Checker
+  homepageUrl: https://chrome.google.com/webstore/detail/ibm-equal-access-accessib/lkcagbfjnkomcinoddgooolagloogehp
+  patterns:
+    - ibm
+
+- id: siteimprove
+  name: Siteimprove
+  homepageUrl: https://www.siteimprove.com/
+
+- id: storybook
+  normalizationOnly: true
+
+- id: wave
+  name: WAVE
+  homepageUrl: https://wave.webaim.org/
+  patterns:
+    - webaim
+
+- id: accessibility_insights
+  name: Accessibility Insights
+  homepageUrl: https://accessibilityinsights.io/
+
+- id: andi
+  name: ANDI
+  homepageUrl: https://www.ssa.gov/accessibility/andi/help/install.html
+
+- id: pa11y
+  name: Pa11y
+  homepageUrl: https://pa11y.org/
+
+- id: stark
+  name: Stark
+  homepageUrl: https://www.getstark.co/
+
+- id: tota11y
+  name: tota11y
+  homepageUrl: https://github.com/jdan/tota11y
+
+#################################################
+# Screen Readers
+#################################################
+
+- id: narrator
+  name: Narrator
+  homepageUrl: https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1
+  tags:
+    - screenreaders
+
+- id: orca
+  name: Orca
+  homepageUrl: https://help.gnome.org/users/orca/stable/index.html.en
+  tags:
+    - screenreaders
+
+- id: chromevox
+  name: Chromevox
+  homepageUrl: https://support.google.com/chromebook/answer/7031755?hl=en
+  tags:
+    - screenreaders
+
+- id: voiceover
+  name: VoiceOver
+  homepageUrl: https://www.apple.com/voiceover/info/guide/_1121.html
+  tags:
+    - screenreaders
+
+- id: jaws
+  name: JAWS
+  homepageUrl: https://www.freedomscientific.com/products/software/jaws/
+  tags:
+    - screenreaders
+
+- id: nvda
+  name: NVDA
+  homepageUrl: https://www.nvaccess.org/download/
+  tags:
+    - screenreaders
+
+- id: axe
+  name: Axe
+  homepageUrl: https://www.deque.com/axe/
+  tags:
+    - screenreaders
+
+- id: assistiv_labs
+  name: Assistiv Labs
+  homepageUrl: https://assistivlabs.com/
+  tags:
+    - screenreaders
+
+- id: voiceover_js
+  name: VoiceOver.js
+  homepageUrl: https://github.com/AccessLint/screenreaders/blob/main/packages/voiceover/README.md
+  tags:
+    - screenreaders
+
+- id: guidepup
+  name: Guidepup
+  homepageUrl: https://www.guidepup.dev/
+  tags:
+    - screenreaders
+
+- id: talkback
+  name: TalkBack
+  homepageUrl: https://support.google.com/accessibility/android/answer/6283677?hl=en
+  tags:
+    - screenreaders

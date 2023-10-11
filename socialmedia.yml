@@ -59,10 +59,11 @@
   homepageUrl: https://tools.google.com/dlpage/hangoutplugin
 
 - id: twitter
-  name: Twitter
+  name: Twitter/X
   homepageUrl: https://twitter.com
   patterns:
     - t.co
+    - x
 
 - id: instagram
   name: Instagram
@@ -100,3 +101,27 @@
 - id: feedly
   name: Feedly
   homepageUrl: https://feedly.com/
+
+- id: bluesky
+  name: Bluesky
+  homepageUrl: https://bsky.app/
+
+- id: threads
+  name: Threads
+  homepageUrl: https://www.threads.net/
+
+- id: threads
+  name: Threads
+  homepageUrl: https://www.threads.net/
+
+- id: lemmy
+  name: Lemmy
+  homepageUrl: https://join-lemmy.org/
+
+- id: lobsters
+  name: Lobsters
+  homepageUrl: https://lobste.rs/
+
+- id: inoreader
+  name: Inoreader
+  homepageUrl: https://www.inoreader.com/

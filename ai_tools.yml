@@ -21,10 +21,33 @@
 - id: copilot
   name: Copilot
   homepageUrl: https://github.com/features/copilot
-# - id:
-#   name:
-#   homepageUrl:
 
-# - id:
-#   name:
-#   homepageUrl:
+- id: codeium
+  name: Codeium
+  homepageUrl: https://codeium.com/
+
+- id: code_whisperer
+  name: Amazon CodeWhisperer
+  homepageUrl: https://aws.amazon.com/codewhisperer/
+
+- id: cody
+  name: Cody
+  homepageUrl: https://about.sourcegraph.com/cody
+
+- id: cursor
+  name: Cursor
+  homepageUrl: https://www.cursor.so/
+
+- id: jetbrains_ai
+  name: JetBrains AI
+  homepageUrl: https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/
+  patterns:
+    - jetbrains
+
+- id: perplexity
+  name: Perplexity
+  homepageUrl: https://www.perplexity.ai/
+
+- id: phind
+  name: Phind
+  homepageUrl: https://www.phind.com/

@@ -350,6 +350,8 @@
   mastodonName: aardrian@toot.cafe
   tags:
     - css
+  patterns:
+    - aardrian
 
 - id: bruce_lawson
   twitterName: brucel
@@ -2361,6 +2363,9 @@
   patterns:
     - ping
     - theo
+    - t3dotgg
+    - t3
+    - t3.gg
   tags:
     - youtube
     - video_creators

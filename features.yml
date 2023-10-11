@@ -1262,7 +1262,6 @@
       }
   patterns:
     - "@supports"
-    - supports
   tags:
     - css
     - css_other
