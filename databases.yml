@@ -30,3 +30,31 @@
 - id: clickhouse
   name: Clickhouse
   homepageUrl: https://clickhouse.com/
+
+- id: big_query
+  name: BigQuery
+  homepageUrl: https://cloud.google.com/bigquery
+
+- id: cassandra
+  name: Cassandra
+  homepageUrl: https://cassandra.apache.org/_/index.html
+
+- id: couch_db
+  name: CouchDB
+  patterns:
+    - couch
+  homepageUrl: https://couchdb.apache.org/
+
+- id: oracle_db
+  name: Oracle Database
+  patterns:
+    - oracle
+  homepageUrl: https://www.oracle.com/database/
+
+- id: mariadb
+  name: MariaDB
+  homepageUrl: https://mariadb.org/
+
+- id: microsoft_sql_server
+  name: Microsoft SQL Server
+  homepageUrl: https://www.microsoft.com/en-us/sql-server/

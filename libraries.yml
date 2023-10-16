@@ -18,6 +18,7 @@
 
 - id: django
   name: Django
+  homepageUrl: https://www.djangoproject.com/
   tags:
     - non-js
     - python
@@ -852,7 +853,6 @@
 
 - id: svelte
   name: Svelte
-  npm: null
   github: sveltejs/svelte
   description: Cybernetically enhanced web apps
   homepageUrl: "https://svelte.dev"
@@ -862,6 +862,8 @@
   npm: alpinejs
   github: alpinejs/alpine
   homepageUrl: https://github.com/alpinejs/alpine
+  patterns:
+    - alpine
   description: >
     A rugged, minimal framework for composing JavaScript behavior in your
     markup.
@@ -1224,6 +1226,8 @@
     A progressive Node.js framework for building efficient, scalable, and
     enterprise-grade server-side applications on top of TypeScript & JavaScript
     (ES6, ES7, ES8)
+  patterns:
+    - nestjs
   homepageUrl: "https://nestjs.com"
 
 - id: strapi
@@ -2140,6 +2144,11 @@
   github: egoist/tsup
   npm: tsup
 
+- id: gradle
+  name: Gradle
+  homepageUrl: https://gradle.org/
+  github: gradle/gradle
+
 #################################################
 # Monorepo Tools
 #################################################
@@ -2742,6 +2751,24 @@
 - id: spring
   name: Spring
   homepageUrl: https://spring.io/
+
+- id: phoenix
+  name: Phoenix
+  homepageUrl: https://www.phoenixframework.org/
+
+- id: drupal
+  name: Drupal
+  homepageUrl: https://www.drupal.org/
+
+- id: unity
+  name: Unity
+  homepageUrl: https://unity.com/
+
+- id: jetpack
+  name: Jetpack Compose
+  homepageUrl: https://developer.android.com/jetpack/compose
+  patterns:
+    - compose
 
 #################################################
 # React Renderers

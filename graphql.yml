@@ -336,8 +336,6 @@
     - graphql documentation
     - graphql site
     - graphql spec
-    - state_of_graphql||sites_courses||official documentation
-    - state_of_graphql||first_steps||documentation
 
 - id: production_ready_graphql
   name: Production Ready GraphQL

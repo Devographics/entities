@@ -23,11 +23,13 @@
     - consistency
     - consistent support
     - cross( |-)browser
-    - browser.*inconsistencies
-    - browser.*incompatibilities
+    - browser.*inconsisten
+    - inconsisten.*browser
+    - browser.*incompat
+    - incompat*browser
+    - browser.*compat
+    - compat.*browser
     - lack of support
-    - browser.*incompatibility
-    - browser.*compatibility
     - differences between browser
     - different browser
     - inconsistent browser
@@ -201,7 +203,11 @@
   tags:
     - interactivity_pain_points
 
-- id: having_to_use_javascript
+- id: frustration_with_javascript
+  tags:
+    - interactivity_pain_points
+
+- id: frustration_with_frameworks
   tags:
     - interactivity_pain_points
 

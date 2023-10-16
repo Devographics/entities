@@ -117,10 +117,6 @@
   patterns:
     - meduim
 
-- id: google
-  name: Google
-  homepageUrl: https://google.com
-
 - id: flexbox_zombies
   name: Flexbox Zombies
   homepageUrl: https://mastery.games/p/flexbox-zombies

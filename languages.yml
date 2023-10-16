@@ -2,11 +2,13 @@
   name: "C#"
   patterns:
     - c\#
+  homepageUrl: https://learn.microsoft.com/en-us/dotnet/csharp/
 
 - id: c_cplusplus
   name: C/C++
   patterns:
     - c\+\+
+  homepageUrl: https://cplusplus.com/
 
 - id: dart
   name: Dart
@@ -21,6 +23,7 @@
 
 - id: java
   name: Java
+  homepageUrl: https://www.java.com/
 
 - id: kotlin
   name: Kotlin
@@ -28,6 +31,7 @@
 
 - id: golang
   name: Go
+  homepageUrl: https://go.dev/
 
 - id: haskell
   name: Haskell
@@ -43,15 +47,19 @@
 
 - id: php
   name: PHP
+  homepageUrl: https://www.php.net/
 
 - id: python
   name: Python
+  homepageUrl: https://www.python.org/
 
 - id: ruby
   name: Ruby
+  homepageUrl: https://www.ruby-lang.org/
 
 - id: rust
   name: Rust
+  homepageUrl: https://www.rust-lang.org/
 
 - id: scala
   name: Scala
@@ -59,6 +67,7 @@
 
 - id: swift
   name: Swift
+  homepageUrl: https://www.swift.org/
 
 - id: bash
   name: Bash
@@ -111,7 +120,7 @@
 
 - id: r
   name: R
-  exact: true
+  exactMatch: true
 
 - id: typescript
   name: TypeScript
@@ -152,6 +161,7 @@
 
 - id: javascript
   name: JavaScript
+  homepageUrl: https://www.javascript.com/
 
 - id: gleam
   name: Gleam
@@ -339,3 +349,7 @@
 
 - id: liquid
   name: Liquid
+
+- id: terraform
+  name: Terraform
+  homepageUrl: https://www.terraform.io/

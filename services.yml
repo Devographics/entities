@@ -73,6 +73,10 @@
   name: Hetzner
   homepageUrl: https://www.hetzner.com/
 
+- id: netlify
+  name: Netlify
+  homepageUrl: https://www.netlify.com/
+
 # japanese services
 
 - id: idcf_cloud
