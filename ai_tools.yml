@@ -51,3 +51,11 @@
 - id: phind
   name: Phind
   homepageUrl: https://www.phind.com/
+
+- id: v0
+  name: v0
+  homepageUrl: https://v0.dev/
+
+- id: vercel_ai_sdk
+  name: Vercel AI SDK
+  homepageUrl: https://sdk.vercel.ai/docs

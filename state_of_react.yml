@@ -1,4 +1,5 @@
 # components
+
 - id: fragment
   name: >
     `<Fragment>`
@@ -12,6 +13,7 @@
         <OneChild />
         <AnotherChild />
       </>
+
 - id: profiler
   name: >
     `<Profiler>`
@@ -24,6 +26,7 @@
       <Profiler id="App" onRender={onRender}>
         <App />
       </Profiler>
+
 - id: strictmode
   name: >
     `<StrictMode>`
@@ -36,6 +39,7 @@
         <App />
       </StrictMode>
     homepageUrl: https://react.dev/reference/react/StrictMode
+
 - id: suspense
   name: >
     `<Suspense>`
@@ -50,6 +54,7 @@
   homepageUrl: https://react.dev/reference/react/Suspense
 
 # hooks
+
 - id: usecallback
   name: >
     `useCallback`
@@ -60,6 +65,7 @@
     code: |
       const cachedFn = useCallback(fn, dependencies)
   homepageUrl: https://react.dev/reference/react/useCallback
+
 - id: usecontext
   name: >
     `useContext`
@@ -70,6 +76,7 @@
     code: |
       const value = useContext(SomeContext)
   homepageUrl: https://react.dev/reference/react/useContext
+
 - id: usedebugvalue
   name: >
     `useDebugValue`
@@ -80,6 +87,7 @@
     code: |
       useDebugValue(value, format?)
   homepageUrl: https://react.dev/reference/react/useDebugValue
+
 - id: usedeferredvalue
   name: >
     `useDeferredValue`
@@ -90,6 +98,7 @@
     code: |
       const deferredValue = useDeferredValue(value)
   homepageUrl: https://react.dev/reference/react/useDeferredValue
+
 - id: useeffect
   name: >
     `useEffect`
@@ -100,6 +109,7 @@
     code: |
       useEffect(setup, dependencies?)
   homepageUrl: https://react.dev/reference/react/useEffect
+
 - id: useid
   name: >
     `useId`
@@ -110,27 +120,31 @@
     code: |
       const id = useId()
   homepageUrl: https://react.dev/reference/react/useId
-# - id: useImperativeHandle
+#
+- id: useImperativeHandle
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: useInsertionEffect
+#
+- id: useInsertionEffect
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: useLayoutEffect
+#
+- id: useLayoutEffect
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
+
 - id: usememo
   name: >
     `useMemo`
@@ -141,6 +155,7 @@
     code: |
       const cachedValue = useMemo(calculateValue, dependencies)
   homepageUrl: https://react.dev/reference/react/useMemo
+
 - id: usereducer
   name: >
     `useReducer`
@@ -149,6 +164,7 @@
     code: |
       const [state, dispatch] = useReducer(reducer, initialArg, init?)
   homepageUrl: https://react.dev/reference/react/useReducer
+
 - id: useref
   name: >
     `useRef`
@@ -159,6 +175,7 @@
     code: |
       const ref = useRef(initialValue)
   homepageUrl: https://react.dev/reference/react/useRef
+
 - id: useState
   name: >
     `useState`
@@ -169,6 +186,7 @@
     code: |
       const [state, setState] = useState(initialState);
   homepageUrl: https://react.dev/reference/react/useState
+
 - id: usesyncexternalstore
   name: >
     `useSyncExternalStore`
@@ -179,6 +197,7 @@
     code: |
       const snapshot = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot?)
   homepageUrl: https://react.dev/reference/react/useSyncExternalStore
+
 - id: usetransition
   name: >
     `useTransition`
@@ -191,6 +210,7 @@
   homepageUrl: https://react.dev/reference/react/useTransition
 
 # apis
+
 - id: createcontext
   name: "`createContext`"
   example:
@@ -198,6 +218,7 @@
     code: |
       const SomeContext = createContext(defaultValue)
   homepageUrl: https://react.dev/reference/react/createContext
+
 - id: forwardref
   name: "`forwardRef`"
   example:
@@ -205,6 +226,7 @@
     code: |
       const SomeComponent = forwardRef(render)
   homepageUrl: https://react.dev/reference/react/forwardRef
+
 - id: lazy
   name: "`lazy` "
   example:
@@ -212,6 +234,7 @@
     code: |
       const SomeComponent = lazy(load)
   homepageUrl: https://react.dev/reference/react/lazy
+
 - id: memo
   name: "`memo`"
   description: >
@@ -221,6 +244,7 @@
     code: |
       const MemoizedComponent = memo(SomeComponent, arePropsEqual?)
   homepageUrl: https://react.dev/reference/react/memo
+
 - id: starttransition
   name: "`startTransition`"
   description: >
@@ -232,6 +256,7 @@
   homepageUrl: https://react.dev/reference/react/startTransition
 
 # component_apis
+
 - id: createPortal
   name: "`createPortal`"
   example:
@@ -242,35 +267,40 @@
         {createPortal(children, domNode, key?)}
       </div>
   homepageUrl: https://react.dev/reference/react-dom/createPortal
-# - id: flushSync
+#
+- id: flushSync
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: findDOMNode
+#
+- id: findDOMNode
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: Hydrate
+#
+- id: Hydrate
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: Render
+#
+- id: Render
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: unmountComponentAtNode
+#
+- id: unmountComponentAtNode
 #   name:
 #   example:
 #     language: jsx
@@ -279,6 +309,7 @@
 #   homepageUrl:
 
 # client_apis
+
 - id: createroot
   name: >
     `createRoot`
@@ -289,6 +320,7 @@
     code: |
       const root = createRoot(domNode, options?)
   homepageUrl: https://react.dev/reference/react-dom/client/createRoot
+
 - id: hydrateroot
   name: >
     `hydrateRoot`
@@ -301,48 +333,55 @@
   homepageUrl: https://react.dev/reference/react-dom/client/hydrateRoot
 
 # server_apis
+
 - id: react_server_components
   name: React Server Components
   # example:
   #   language: jsx
   #   code: |
   homepageUrl: https://nextjs.org/docs/getting-started/react-essentials#server-components
-# - id: renderToNodeStream
+#
+- id: renderToNodeStream
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: renderToPipeableStream
+#
+- id: renderToPipeableStream
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: renderToReadableStream
+#
+- id: renderToReadableStream
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: renderToStaticMarkup
+#
+- id: renderToStaticMarkup
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: renderToStaticNodeStream
+#
+- id: renderToStaticNodeStream
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: renderToString
+#
+- id: renderToString
 #   name:
 #   example:
 #     language: jsx
@@ -351,6 +390,7 @@
 #   homepageUrl:
 
 # legacy_apis
+
 - id: cloneelement
   name: >
     `cloneElement`
@@ -359,6 +399,7 @@
     code: |
       const clonedElement = cloneElement(element, props, ...children)
   homepageUrl: https://react.dev/reference/react/cloneElement
+
 - id: class_components
   name: >
     `Component` (class components)
@@ -372,6 +413,7 @@
       }
 
   homepageUrl: https://react.dev/reference/react/Component
+
 - id: createelement
   name: >
     `createElement`
@@ -382,28 +424,32 @@
     code: |
       const element = createElement(type, props, ...children)
   homepageUrl: https://react.dev/reference/react/createElement
-# - id: createFactory
+#
+- id: createFactory
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: createRef
+#
+- id: createRef
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: isValidElement
+#
+- id: isValidElement
 #   name:
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
-# - id: PureComponent
+#
+- id: PureComponent
 #   name:
 #   example:
 #     language: jsx
@@ -435,7 +481,13 @@
   name: Passport
   homepageUrl: https://www.passportjs.org/
 
+- id: lucia
+  name: Lucia
+  homepageUrl: https://lucia-auth.com/
+  github: lucia-auth/lucia
+
 # new features
+
 - id: asset_loading
   name: Asset Loading
   homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#asset-loading
@@ -462,6 +514,35 @@
 
 - id: transition_tracing
   homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#transition-tracing
-# - id:
-#   name:
-#   homepageUrl:
+
+- id: use_client
+  name: >
+    `use client`
+  homepageUrl: https://react.dev/reference/react/use-client
+
+- id: use_server
+  name: >
+    `use server`
+  homepageUrl: https://react.dev/reference/react/use-server
+
+- id: server_actions
+  name: Server Actions
+  homepageUrl: https://nextjs.org/docs/app/api-reference/functions/server-actions
+
+- id: useformstatus
+  name: useFormStatus
+  homepageUrl: https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations
+
+- id: taint_api
+  name: Taint API
+  homepageUrl: https://react.dev/reference/react/experimental_taintObjectReference
+
+- id: taint_object_reference
+  name: >
+    `taintObjectReference`
+  homepageUrl: https://react.dev/reference/react/experimental_taintObjectReference
+
+- id: taint_unique_value
+  name: >
+    `taintUniqueValue`
+  homepageUrl: https://react.dev/reference/react/experimental_taintUniqueValue

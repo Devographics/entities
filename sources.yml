@@ -13,7 +13,7 @@
 - id: work
   normalizationOnly: true
   patterns:
-    - co( |-)worker
+    - co( |-)?worker
     - coll?ea?gu?a?es?
     - company
     - boss

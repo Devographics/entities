@@ -1505,6 +1505,14 @@
   patterns:
     - enhance
 
+- id: hydrogen
+  name: Hydrogen
+  homepageUrl: https://hydrogen.shopify.dev/
+
+- id: wasp
+  name: Wasp
+  homepageUrl: https://wasp-lang.dev/
+
 #################################################
 # Testing
 #################################################
@@ -2497,6 +2505,18 @@
   github: formium/formik
   description: "Build forms in React, without the tears"
   homepageUrl: "https://formik.org"
+
+- id: react_json_schema_form
+  name: react-jsonschema-form
+  npm: "@rjsf/core"
+  github: rjsf-team/react-jsonschema-form
+  homepageUrl: https://github.com/rjsf-team/react-jsonschema-form
+
+- id: formily
+  name: "@formily/core"
+  npm: formik
+  github: alibaba/formily
+  homepageUrl: https://formilyjs.org/
 
 - id: fp_ts
   name: fp-ts

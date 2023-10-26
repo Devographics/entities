@@ -82,6 +82,7 @@
 
 - id: sql
   name: SQL
+  homepageUrl: https://en.wikipedia.org/wiki/SQL
 
 - id: html
   name: HTML

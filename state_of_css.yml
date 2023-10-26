@@ -56,11 +56,6 @@
   tags:
     - css_missing_features
 
-- id: animation
-  name: Animation
-  tags:
-    - css_missing_features
-
 - id: flow_control
   name: Flow Control
   tags:
@@ -202,6 +197,7 @@
   # name: Animation
   tags:
     - css_pain_points
+    - css_missing_features
 
 - id: z_index
   normalizationOnly: true
@@ -439,6 +435,7 @@
     - css_missing_features
 
 - id: animate_to_auto
+  normalizationOnly: true
   name: Animate to Auto
   patterns:
     - to auto
@@ -448,21 +445,25 @@
     - css_missing_features
 
 - id: specificity
+  normalizationOnly: true
   name: Specificity
   tags:
     - css_pain_points
 
 - id: naming
+  normalizationOnly: true
   name: Naming
   tags:
     - css_pain_points
 
 - id: forms
+  normalizationOnly: true
   name: Forms
   tags:
     - css_pain_points
 
 - id: debugging
+  normalizationOnly: true
   name: Debugging
   patterns:
     - debug
@@ -470,6 +471,7 @@
     - css_pain_points
 
 - id: compatibility
+  normalizationOnly: true
   name: Compatibility
   tags:
     - css_pain_points

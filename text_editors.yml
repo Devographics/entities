@@ -18,6 +18,7 @@
   name: Vim
   homepageUrl: https://www.vim.org/
 
+# TODO: fix vs code vs visual studio
 - id: visual_studio
   name: "VS Code"
   homepageUrl: https://code.visualstudio.com/
@@ -129,3 +130,23 @@
 - id: rider
   name: Rider
   homepageUrl: https://www.jetbrains.com/rider/
+
+- id: neovim
+  name: Neovim
+  homepageUrl: https://neovim.io/
+
+- id: android_studio
+  name: Android Studio
+  homepageUrl: https://developer.android.com/studio
+
+- id: ipython_jupyter
+  name: IPython/Jupyter
+  homepageUrl: https://ipython.org/notebook.html
+
+- id: notepad_plus_plus
+  name: Notepad++
+  homepageUrl: https://notepad-plus-plus.org
+
+- id: goland
+  name: GoLand
+  homepageUrl: https://www.jetbrains.com/go/

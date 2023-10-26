@@ -137,7 +137,7 @@
     - podcasts
 
 - id: bestofjs
-  name: Best of JavaScript
+  name: Best of JS
   homepageUrl: https://bestofjs.org/
   tags:
     - news
