@@ -43,8 +43,8 @@
 - id: suspense
   name: >
     `<Suspense>`
-  description: >
-    `<Suspense>` lets you display a fallback until its children have finished loading.
+  # description: >
+  #   `<Suspense>` lets you display a fallback until its children have finished loading.
   example:
     language: jsx
     code: |
@@ -65,6 +65,9 @@
     code: |
       const cachedFn = useCallback(fn, dependencies)
   homepageUrl: https://react.dev/reference/react/useCallback
+  resources:
+    - url: https://www.joshwcomeau.com/react/usememo-and-usecallback/
+      title: Understanding useMemo and useCallback
 
 - id: usecontext
   name: >
@@ -109,6 +112,9 @@
     code: |
       useEffect(setup, dependencies?)
   homepageUrl: https://react.dev/reference/react/useEffect
+  resources:
+    - url: https://blog.logrocket.com/useeffect-react-hook-complete-guide/
+      title: A complete guide to the useEffect React Hook
 
 - id: useid
   name: >
@@ -155,6 +161,9 @@
     code: |
       const cachedValue = useMemo(calculateValue, dependencies)
   homepageUrl: https://react.dev/reference/react/useMemo
+  resources:
+    - url: https://www.joshwcomeau.com/react/usememo-and-usecallback/
+      title: Understanding useMemo and useCallback
 
 - id: usereducer
   name: >
@@ -176,7 +185,7 @@
       const ref = useRef(initialValue)
   homepageUrl: https://react.dev/reference/react/useRef
 
-- id: useState
+- id: usestate
   name: >
     `useState`
   description: >
@@ -244,6 +253,11 @@
     code: |
       const MemoizedComponent = memo(SomeComponent, arePropsEqual?)
   homepageUrl: https://react.dev/reference/react/memo
+  resources:
+    - url: https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/
+      title: A (Mostly) Complete Guide to React Rendering Behavior
+    - url: https://overreacted.io/before-you-memo/
+      title: Before You memo()
 
 - id: starttransition
   name: "`startTransition`"
@@ -340,7 +354,10 @@
   #   language: jsx
   #   code: |
   homepageUrl: https://nextjs.org/docs/getting-started/react-essentials#server-components
-#
+  resources:
+    - url: https://www.joshwcomeau.com/react/server-components/
+      title: Making Sense of React Server Components
+
 - id: renderToNodeStream
 #   name:
 #   example:
@@ -496,6 +513,10 @@
   name: >
     `use()` Hook
   homepageUrl: https://github.com/reactjs/rfcs/pull/229
+  example:
+    language: js
+    code: |
+      const value = use(resource);
 
 - id: offscreen_rendering
   name: Offscreen Rendering
@@ -519,30 +540,82 @@
   name: >
     `use client`
   homepageUrl: https://react.dev/reference/react/use-client
+  example:
+    language: js
+    code: |
+      'use client';
+
+      import { useState } from 'react';
+
+      export default function RichTextEditor(props) {
+        // ...
 
 - id: use_server
   name: >
     `use server`
   homepageUrl: https://react.dev/reference/react/use-server
+  example:
+    language: js
+    code: |
+      async function addToCart(data) {
+        'use server';
+        // ...
+      }
+
+      // <ProductDetailPage addToCart={addToCart} />
 
 - id: server_actions
   name: Server Actions
   homepageUrl: https://nextjs.org/docs/app/api-reference/functions/server-actions
+  example:
+    language: js
+    code: |
+      export default function ServerComponent() {
+        async function myAction() {
+          'use server'
+          // ...
+        }
+      }
+
+- id: useformstate
+  name: useFormState
+  homepageUrl: https://react.dev/reference/react-dom/hooks/useFormState
+  example:
+    language: js
+    code: |
+      const [state, formAction] = useFormState(fn, initialState);
 
 - id: useformstatus
   name: useFormStatus
-  homepageUrl: https://nextjs.org/docs/app/building-your-application/data-fetching/forms-and-mutations
+  homepageUrl: https://react.dev/reference/react-dom/hooks/useFormStatus
+  example:
+    language: js
+    code: |
+      const { pending, data, method, action } = useFormStatus();
 
 - id: taint_api
   name: Taint API
   homepageUrl: https://react.dev/reference/react/experimental_taintObjectReference
+  example:
+    language: js
+    code: |
+      taintObjectReference(message, object);
+      taintUniqueValue(errMessage, lifetime, value)
 
 - id: taint_object_reference
   name: >
     `taintObjectReference`
   homepageUrl: https://react.dev/reference/react/experimental_taintObjectReference
+  example:
+    language: js
+    code: |
+      taintObjectReference(message, object);
 
 - id: taint_unique_value
   name: >
     `taintUniqueValue`
   homepageUrl: https://react.dev/reference/react/experimental_taintUniqueValue
+  example:
+    language: js
+    code: |
+      taintUniqueValue(errMessage, lifetime, value)
