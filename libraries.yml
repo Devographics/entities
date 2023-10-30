@@ -1108,6 +1108,13 @@
   description: Frictionless state management
   homepage: "https://overmindjs.org"
 
+- id: mobx_state_tree
+  name: MobX State Tree
+  npm: mobx-state-tree
+  github: mobxjs/mobx-state-tree
+  description: "Model Driven State Management"
+  homepage: "https://mobx-state-tree.js.org"
+
 #################################################
 # Back End Frameworks
 #################################################

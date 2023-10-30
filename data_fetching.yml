@@ -46,6 +46,12 @@
   npm: react-relay
   description: Relay is a JavaScript framework for building data-driven React applications.
 
+- id: data_fetching_rtk_query
+  name: RTK Query
+  homepage: https://redux-toolkit.js.org/rtk-query/overview
+  npm: "@reduxjs/toolkit"
+  github: https://github.com/reduxjs/redux-toolkit
+
 - id: data_fetching_other
   name: Other data fetching
 - id: data_fetching_happiness
