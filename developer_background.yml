@@ -89,6 +89,8 @@
   name: Android TV
 - id: developer_background_platforms.answer.g
   name: tvOS
+- id: developer_background_platforms.answer.h
+  name: Linux
 - id: developer_background_platforms_other
   name: Other target platforms
 
@@ -96,7 +98,7 @@
   name: Contribution to React Native
 
 - id: developer_background_contribution_to_lib
-  name: Contribution to React Native libraries
+  name: Open Source Contribution to React Native libraries
 
 - id: developer_background_releases_count
   name: Number of released apps 
@@ -114,11 +116,11 @@
 - id: developer_background_os_target
   name: What mobile OS versions do you target?
 - id: developer_background_os_target.answer.a
-  name: Most recent ones (iOS 16+, Android 13+)
+  name: Most recent ones (iOS 17+, Android 14+)
 - id: developer_background_os_target.answer.b
-  name: Reasonably current (iOS 12+, Android 10+)
+  name: Reasonably current (iOS 15+, Android 12+)
 - id: developer_background_os_target.answer.c
-  name: Old (iOS 10+, Android 7+)
+  name: Old (iOS 12+, Android 9+)
 - id: developer_background_os_target.answer.d
   name: As old as possible (iOS 8+, Android 5+)
 
