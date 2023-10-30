@@ -108,35 +108,47 @@
   homepage: https://jestjs.io/
   description: Delightful JavaScript Testing.
   npm: jest
+
 - id: react_native_app_aspects_testing_react_native_testing_library
   name: React Native Testing Library
   homepage: https://callstack.github.io/react-native-testing-library/
   github: https://github.com/callstack/react-native-testing-library
   description: 🦉 Simple and complete React Native testing utilities that encourage good testing practices.
   npm: "@testing-library/react-native"
+
 - id: react_native_app_aspects_testing_detox
   name: Detox
   homepage: https://wix.github.io/Detox/
   description: Gray box end-to-end testing and automation framework for mobile apps
   github: https://github.com/wix/Detox
   npm: detox
+
 - id: react_native_app_aspects_testing_appium
   name: Appium
   homepage: https://appium.io/
   npm: appium
   github: https://github.com/appium/appium
   description: Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol
+
 - id: react_native_app_aspects_testing_maestro
   name: Maestro
   homepage: https://maestro.mobile.dev/
   github: https://github.com/mobile-dev-inc/maestro
   description: Painless Mobile UI Automation
+
 - id: react_native_app_aspects_testing_xcuitest
   name: XCUITest
   homepage: https://developer.apple.com/documentation/xctest
+
 - id: react_native_app_aspects_testing_espresso
   name: Espresso
   homepage: https://developer.android.com/training/testing/espresso
+
+- id: react_native_app_aspects_testing_storybook
+  name: Storybook
+  homepage: https://storybook.js.org/
+  github: https://github.com/storybookjs/storybook
+
 - id: react_native_app_aspects_testing_other
   name: Other testing solutions
 
@@ -220,6 +232,69 @@
 - id: react_native_app_aspects_data_visualisation_other
   name: Other data visualisation solutions
 
+# react native other libraries
+- id: react_native_app_aspects_other_libraries
+  name: Other popular libraries
+- id: react_native_app_aspects_other_libraries_react_native_gesture_handler
+  name: React Native Gesture Handler
+  homepage: https://docs.swmansion.com/react-native-gesture-handler/
+  description: Declarative API exposing platform native touch and gesture system to React Native
+  npm: react-native-gesture-handler
+  github: 
+- id: react_native_app_aspects_other_libraries_react_native_localize
+  name: react-native-localize
+  npm: react-native-localize
+  github: https://github.com/zoontek/react-native-localize
+  description: 🌍 A toolbox for your React Native app localization
+- id: react_native_app_aspects_other_libraries_react_native_i18next
+  name: i18next
+  npm: i18next
+  github: i18next/i18next
+  description: "i18next: learn once - translate everywhere"
+  homepage: "https://www.i18next.com"
+- id: react_native_app_aspects_other_libraries_react_native_camera
+  name: react-native-camera
+  npm: react-native-camera
+  github:
+- id: react_native_app_aspects_other_libraries_react_native_vision_camera
+  name: react-native-vision-camera
+  npm: react-native-vision-camera
+  github:
+- id: react_native_app_aspects_other_libraries_shopify_flash_list
+  name: Shopify Flash List
+  npm: "@shopify/flash-list"
+  github:
+- id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
+  name: Bottom Sheet
+  npm: "@gorhom/bottom-sheet"
+  github:
+- id: react_native_app_aspects_other_libraries_expo_image
+  name: Expo Image
+  npm: expo-image
+  github:
+- id: react_native_app_aspects_other_libraries_react_native_fast_image
+  name: react-native-fast-image
+  npm: react-native-fast-image
+  github:
+- id: react_native_app_aspects_other_libraries_expo_vector_icons
+  name: Expo Vector Icons
+  npm: "@expo/vector-icons"
+  github:
+- id: react_native_app_aspects_other_libraries_react_native_webview
+  name: React Native WebView
+  npm: react-native-webview
+  github:
+- id: react_native_app_aspects_other_libraries_react_native_safe_area_context
+  name: React Native Safe Area Context
+  npm: react-native-safe-area-context
+  github:
+- id: react_native_app_aspects_other_libraries_react_native_maps
+  name: React Native Maps
+  npm: react-native-maps
+  github:
+
+- id: react_native_app_aspects_other_libraries_other
+  name: Other popular libraries not listed covered previously
 
 # freeform
 - id: posthog
