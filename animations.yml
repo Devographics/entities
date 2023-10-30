@@ -55,6 +55,11 @@
   github: https://github.com/LegendApp/legend-motion
   description: Legend Motion is a declarative animations library for React Native, to make it easy to transition between styles without needing to manage animations.
   homepage: https://legendapp.com/open-source/motion/
+- id: animations_rive
+  name: Rive
+  homepage: https://rive.app/
+  npm: rive-react-native
+  github: https://github.com/rive-app/rive-react-native
 - id: animations_other
   name: Other graphics and animations solutions
 - id: animations_happiness
