@@ -2986,7 +2986,9 @@
 - id: lenz_weber_tronic
   name: Lenz Weber-Tronic
   homepageUrl: https://phryneas.de/
+  twitterName: phry
 
 - id: filip_tammergard
   name: Filip Tammergård
   homepageUrl: https://tammergard.se/
+  twitterName: filiptammergard
