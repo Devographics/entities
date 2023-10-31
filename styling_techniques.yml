@@ -76,12 +76,12 @@
   npm: twrnc
   github: https://github.com/jaredh159/tailwind-react-native-classnames
 
-- id: styling_techniques_dripsy
+- id: styling_techniques_dripsy_lib
   name: Dripsy
   npm: dripsy
-  homepage: https://www.dripsy.xyz/
   github: https://github.com/nandorojo/dripsy
   description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
+  homepage: https://www.dripsy.xyz/
 
 - id: styling_techniques_other
   name: Other styling techniques
@@ -100,12 +100,12 @@
   name: rxn-grife
   github: https://github.com/Luffos/rxn-grife
 
-# - id: dripsy
-#   npm: dripsy
-#   github: https://github.com/nandorojo/dripsy
-#   description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
-#   homepage: https://www.dripsy.xyz/
-#   name: Dripsy
+- id: dripsy
+  npm: dripsy
+  github: https://github.com/nandorojo/dripsy
+  description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
+  homepage: https://www.dripsy.xyz/
+  name: Dripsy
 
 - id: tailwind_react_native_classnames
   name: react-native-tailwind-classnames
