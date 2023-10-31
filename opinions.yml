@@ -19,6 +19,121 @@
 - id: opinions_happy
   name: How happy are you with the general state of React Native?
 
+- id: opinions_pain_points_multiple
+  name: React Native pain points
+- id: opinions_pain_points_multiple_app_deployment
+  name: App deployment
+- id: opinions_pain_points_multiple_app_building
+  name: App building
+- id: opinions_pain_points_multiple_dealing_with_native_code
+  name: Dealing with native code
+- id: opinions_pain_points_multiple_debugging
+  name: Debugging
+- id: opinions_pain_points_multiple_documentation
+  name: Documentation
+- id: opinions_pain_points_multiple_unusable_error_messages
+  name: Unusable error messages
+- id: opinions_pain_points_multiple_graphics_and_animations
+  name: Graphics and animations
+- id: opinions_pain_points_multiple_keyboard_handling
+  name: Keyboard handling
+- id: opinions_pain_points_multiple_navigation_solutions
+  name: Navigation solutions
+- id: opinions_pain_points_multiple_new_architecture
+  name: New architecture
+- id: opinions_pain_points_multiple_performance
+  name: Performance
+- id: opinions_pain_points_multiple_platforms_inconsistencies
+  name: Platforms inconsistencies
+- id: opinions_pain_points_multiple_project_setup
+  name: Project setup
+- id: opinions_pain_points_multiple_reliance_on_third_party_modules
+  name: Reliance on third-party modules
+- id: opinions_pain_points_multiple_stability
+  name: Stability
+- id: opinions_pain_points_multiple_styling_limitations
+  name: Styling limitations
+- id: opinions_pain_points_multiple_unmaintained_packages
+  name: Unmaintained packages
+- id: opinions_pain_points_multiple_upgrades
+  name: Upgrades
+- id: opinions_pain_points_multiple_other_pain_points
+  name: Other pain points
+
+- id: opinions_missing_multiple
+  name: Missing features
+- id: opinions_missing_multiple_android_shadows
+  name: Android shadows
+- id: opinions_missing_multiple_better_animations_gestures
+  name: Better animations/gestures
+- id: opinions_missing_multiple_better_debugging
+  name: Better debugging
+- id: opinions_missing_multiple_better_profiling
+  name: Better profiling
+- id: opinions_missing_multiple_better_documentation
+  name: Better documentation
+- id: opinions_missing_multiple_better_flatlist
+  name: Better FlatList
+- id: opinions_missing_multiple_better_keyboard_handling
+  name: Better keyboard handling
+- id: opinions_missing_multiple_better_performance
+  name: Better performance
+- id: opinions_missing_multiple_better_testing
+  name: Better testing
+- id: opinions_missing_multiple_better_web_compatibility
+  name: Better web compatibility
+- id: opinions_missing_multiple_css_features
+  name: CSS features
+- id: opinions_missing_multiple_first_party_libraries
+  name: First-party libraries
+- id: opinions_missing_multiple_multithreading
+  name: Multithreading
+- id: opinions_missing_multiple_swiftui_jetpack_compose_integration
+  name: SwiftUI/Jetpack Compose integration
+- id: opinions_missing_multiple_other_missing_features
+  name: Other missing features
+
+- id: opinions_advantages_multiple
+  name: React Native advantages
+- id: opinions_advantages_multiple_code_sharing
+  name: Code sharing
+- id: opinions_advantages_multiple_community
+  name: Community
+- id: opinions_advantages_multiple_cost_effective
+  name: Cost-effective
+- id: opinions_advantages_multiple_cross_platform
+  name: Cross-platform
+- id: opinions_advantages_multiple_developer_experience
+  name: Developer experience
+- id: opinions_advantages_multiple_documentation
+  name: Documentation
+- id: opinions_advantages_multiple_easy_to_learn
+  name: Easy to learn
+- id: opinions_advantages_multiple_ecosystem
+  name: Ecosystem
+- id: opinions_advantages_multiple_expo
+  name: Expo
+- id: opinions_advantages_multiple_fast_iteration
+  name: Fast iteration
+- id: opinions_advantages_multiple_hot_reloading
+  name: Hot reloading
+- id: opinions_advantages_multiple_native_feel_of_app
+  name: Native feel of app
+- id: opinions_advantages_multiple_over_the_air_updates
+  name: Over-the-air updates
+- id: opinions_advantages_multiple_performance
+  name: Performance
+- id: opinions_advantages_multiple_single_codebase
+  name: Single codebase
+- id: opinions_advantages_multiple_stable
+  name: Stable
+- id: opinions_advantages_multiple_time_to_market
+  name: Time to market
+- id: opinions_advantages_multiple_web_technologies
+  name: Web technologies
+- id: opinions_advantages_multiple_other_advantages
+  name: Other advantages
+
 # freeform
 - id: web_technologies
   name: Web technologies
