@@ -40,6 +40,7 @@
   npm: "@tanstack/react-query"
   homepage: https://tanstack.com/query/latest/docs/react/overview
   github: https://github.com/TanStack/query
+
 - id: state_management_legend_state
   name: Legend State
   homepage: https://legendapp.com/open-source/state/
@@ -51,6 +52,30 @@
   npm: "@risingstack/react-easy-state"
   github: https://github.com/RisingStack/react-easy-state
   
+- id: state_management_mobx_state_tree
+  name: MobX State Tree
+  npm: mobx-state-tree
+  homepage: https://mobx-state-tree.js.org/
+  github: https://github.com/mobxjs/mobx-state-tree
+
+- id: state_management_mobx
+  name: MobX
+  npm: mobx
+  homepage: https://mobx.js.org/
+  github: https://github.com/mobxjs/mobx
+
+- id: state_management_xstate
+  name: XState
+  npm: xstate
+  homepage: https://xstate.js.org/docs/
+  github: https://github.com/davidkpiano/xstate
+
+- id: state_management_redux_toolkit
+  name: Redux Toolkit
+  npm: "@reduxjs/toolkit"
+  homepage: https://redux-toolkit.js.org/
+  github: https://github.com/reduxjs/redux-toolkit
+
 - id: state_management_other
   name: Other state management
 - id: state_management_happiness
@@ -58,12 +83,6 @@
 
 # freeform
 
-- id: mobx_state_tree
-  name: MobX-State-Tree
-  homepage: https://mobx-state-tree.js.org/
-  github: https://github.com/mobxjs/mobx-state-tree
-  description: Full-featured reactive state management without the boilerplate
-  npm: mobx-state-tree
 - id: rtk_query
   name: RTK Query (Redux Toolkit)
   homepage: https://redux-toolkit.js.org/rtk-query/overview

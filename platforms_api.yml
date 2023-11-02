@@ -34,6 +34,9 @@
 - id: platform_apis_file_system
   name: File System
 
+- id: platform_apis_foldable
+  name: Foldable
+
 - id: platform_apis_haptics
   name: Haptics
 
@@ -81,6 +84,9 @@
 
 - id: platform_apis_in_app_reviews
   name: In-app reviews
+
+- id: platfrom_apis_live_activity
+  name: Live activity (Dynamic Island)
 
 - id: platform_apis_ads
   name: Ads

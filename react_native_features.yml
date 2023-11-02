@@ -18,6 +18,14 @@
   name: "0.70"
 - id: react_native_features_version_0_71
   name: "0.71"
+- id: react_native_features_version_0_72
+  name: "0.72"
+- id: react_native_features_version_0_73
+  name: "0.73"
+- id: react_native_features_version_next
+  name: next
+- id: react_native_features_version_nightly
+  name: nightly
 
 - id: react_native_features_new_architecture
   name: New Architecture
@@ -66,6 +74,8 @@
   homepage: https://docs.expo.dev/modules/overview/
   npm: expo-modules-core
 
+- id: react_native_features_react_native_directory
+  name: React Native Directory
 
 - id: react_native_features_debugging
   name: Debugging tools

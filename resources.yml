@@ -29,8 +29,87 @@
 - id: resources_initially_learn_react_native_other
   name: Other learning methods
 
+- id: resources_read_multiple
+  name: "Blog & Magazines"
+- id: resources_read_multiple_react_native_blog
+  name: React Native blog
+- id: resources_read_multiple_react_native_newsletter
+  name: React Native newsletter
+- id: resources_read_multiple_medium
+  name: Medium
+- id: resources_read_multiple_dev_to
+  name: DEV Community
+- id: resources_read_multiple_kent_c_dodds
+  name: Kent C. Dodds
+- id: resources_read_multiple_log_rocket
+  name: LogRocket
+- id: resources_read_multiple_expo_blog
+  name: Expo blog (Exposition)
+- id: resources_read_multiple_software_mansion_blog
+  name: Software Mansion blog
+- id: resources_read_multiple_callstack_blog
+  name: Callstack blog
+- id: resources_read_multiple_microsof_react_native_blog
+  name: Microsoft React Native blog
+- id: resources_read_multiple_this_week_in_react
+  name: This Week In React (by Sébastien Lorber)
+- id: resources_read_multiple_react_native_newsletter
+  name: React Native Newsletter
+- id: resources_read_multiple_other_blog_magazines_newsletters
+  name: Other Blogs, Magazines or Newsletters
+
+- id: resources_course_multiple
+  name: Sites & courses
+- id: resources_course_multiple_stack_overflow
+  name: Stack Overflow
+- id: resources_course_multiple_udemy
+  name: Udemy
+- id: resources_course_multiple_medium
+  name: Medium
+- id: resources_course_twitter
+  name: X (Twitter)
+- id: resources_course_multiple_reddit
+  name: Reddit
+- id: resources_course_multiple_youtube
+  name: YouTube
+- id: resources_course_react_native_docs
+  name: React Native docs
+- id: resources_course_expo_docs
+  name: Expo docs
+- id: resources_course_multiple_codecademy
+  name: Codecademy
+- id: resources_course_multiple_egghead
+  name: Egghead.io
+- id: resources_course_multiple_frontend_masters
+  name: Frontend Masters
+- id: resources_course_multiple_start_react_native
+  name: Start React Native (by William Candillon)
+- id: resources_course_multiple_developer_training
+  name: Developer training (by Callstack)
+- id: resources_course_multiple_epic_react
+  name: Epic React (by Kent C. Dodds)
+- id: resources_course_multiple_animate_react_native
+  name: Animate React Native (by Catalin Miron)
+- id: resources_course_multiple_other_courses_sites
+  name: Other courses or sites
+
+- id: resources_podcast_multiple
+  name: Podcasts
+- id: resources_podcast_multiple_react_native_show_callstack
+  name: React Native Show (by Callstack)
+- id: resources_podcast_multiple_react_native_radio
+  name: React Native Radio (by Infinite Red)
+- id: resources_podcast_multiple_syntax_fm
+  name: Syntax.fm
+- id: resources_podcast_multiple_the_changelog
+  name: The Changelog
+- id: resources_podcast_multiple_podrocker
+  name: Podrocker
+- id: resources_podcast_multiple_other_podcasts
+  name: Other podcasts
+
 - id: resources_read
-  name: Blogs & magazines
+  name: Other blogs & magazines
 - id: resources_course
   name: Sites & courses
 - id: resources_podcast
@@ -81,7 +160,7 @@
   homepage: https://rocketseat.com.br/
 - id: react_native_docs
   name: React Native docs
-  homepage: https://reactnative.dev/ 
+  homepage: https://reactnative.dev/
 - id: frontend_masters
   name: Frontend Masters
   homepage: https://frontendmasters.com/
@@ -110,7 +189,7 @@
   homepage: https://blog.expo.dev/
 - id: reactnative_dev
   name: React Native docs
-  homepage: https://reactnative.dev/ 
+  homepage: https://reactnative.dev/
 - id: software_mansion_blog
   name: Software Mansion
   homepage: https://blog.swmansion.com/
