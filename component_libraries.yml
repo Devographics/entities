@@ -7,6 +7,7 @@
   github: https://github.com/callstack/react-native-paper
   description: Material Design for React Native (Android & iOS)
   npm: react-native-paper
+  createdBy: Callstack
 
 - id: component_libraries_ui_kitten
   name: ui-kitten
@@ -14,6 +15,7 @@
   github: https://github.com/akveo/react-native-ui-kitten
   npm: "@ui-kitten/components"
   homepage: https://akveo.github.io/react-native-ui-kitten/
+  createdBy: Akveo
 
 - id: component_libraries_rn_elements
   name: React Native Elements
@@ -27,6 +29,7 @@
   npm: react-native-material-ui
   github: https://github.com/xotahal/react-native-material-ui
   description: Highly customizable material design components for React Native
+  createdBy: Jiří Otáhal
 
 - id: component_libraries_native_base
   name: NativeBase
@@ -34,6 +37,7 @@
   github: https://github.com/GeekyAnts/nativebase
   description: Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.
   npm: native-base
+  createdBy: GeekyAnts
 
 - id: component_libraries_rn_ui_lib
   name: react-native-ui-lib
@@ -41,6 +45,7 @@
   description: UI Components Library for React Native
   github: https://github.com/wix/react-native-ui-lib
   homepage: https://wix.github.io/react-native-ui-lib/
+  createdBy: Wix
 
 - id: component_libraries_dripsy
   name: Dripsy
@@ -57,7 +62,7 @@
   homepage: https://shoutem.github.io/docs/ui-toolkit/introduction
 
 - id: component_libraries_gluestack_ui
-  name: Gluestack UI
+  name: gluestack-ui
   github: https://github.com/gluestack/gluestack-ui
   description: Universal headless components for React Native, Next.js & React with beautiful & optional styling (alpha)
   npm: "@gluestack-ui/themed"
@@ -76,6 +81,7 @@
   description: Bringing Material Design to React Native
   npm: react-native-material-kit
   homepage: https://rnmk.xinthink.com/
+  createdBy: Jeremy Hamilton
 
 - id: component_libraries_other
   name: Other UI components libraries

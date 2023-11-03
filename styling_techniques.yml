@@ -11,12 +11,14 @@
   github: https://github.com/marklawlor/nativewind
   description: React Native utility-first universal design system - powered by Tailwind CSS
   npm: nativewind
+  createdBy: Mark Lawlor
 
 - id: styling_techniques_tailwind_rn
   name: "tailwind-rn"
   npm: "tailwind-rn"
   github: https://github.com/vadimdemedes/tailwind-rn
   description: 🦎 Use Tailwind CSS in React Native projects
+  createdBy: Vadim Demedes
 
 - id: styling_techniques_styled_components
   name: styled components
@@ -31,6 +33,7 @@
   github: https://github.com/Shopify/restyle
   description: A type-enforced system for building UI components in React Native with TypeScript.
   homepage: https://shopify.github.io/restyle/
+  createdBy: Shopify
 
 - id: styling_techniques_inline
   name: Inline styling
@@ -41,12 +44,14 @@
   github: https://github.com/tamagui/tamagui
   description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
   npm: tamagui
+  createdBy: Nate Wienert
 
 - id: styling_techniques_react_native_unistyles
-  name: React Native Unistyles
+  name: react-native-unistyles
   npm: react-native-unistyles
   github: https://github.com/jpudysz/react-native-unistyles
   description: Universal styling for React Native and React Native Web
+  createdBy: Jakub Pudysz
 
 - id: styling_techniques_emotion
   name: Emotion
@@ -58,23 +63,27 @@
   npm: react-native-zephyr
   github: https://github.com/FormidableLabs/react-native-zephyr
   description: "TailwindCSS-inspired styling library for React Native."
+  createdBy: Formidable
 
 - id: styling_techniques_gluestack_styles
-  name: Gluestack Styles
+  name: gluestack-style
   npm: "@gluestack/gluestack-style"
   github: https://github.com/gluestack/gluestack-style
   description: "Universal and Performant Styling library for React Native, Next.js, Expo & React"
+  createdBy: Gluestack
 
 - id: styling_techniques_fast_styles
   name: Fast Styles
   npm: "@fast-styles/react"
   github: https://github.com/fedemartinm/fast-styles
   description: "⚡ A lightweight and efficient React Native styling package that generates styles during compile time without any runtime overhead"
+  createdBy: Federico Martin
 
 - id: styling_techniques_twrnc
-  name: Tailwind React Native Classnames
+  name: Tailwind React Native Classnames (twrnc)
   npm: twrnc
   github: https://github.com/jaredh159/tailwind-react-native-classnames
+  createdBy: Jared Henderson
 
 - id: styling_techniques_dripsy
   npm: dripsy
@@ -82,6 +91,7 @@
   description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
   homepage: https://www.dripsy.xyz/
   name: Dripsy
+  createdBy: Fernando Rojo
 
 - id: styling_techniques_other
   name: Other styling techniques

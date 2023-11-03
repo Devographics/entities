@@ -90,7 +90,7 @@
 - id: developer_background_platforms.answer.g
   name: tvOS
 - id: developer_background_platforms.answer.h
-  name: Linux
+  name: React Native Skia (Linux & macOS)
 - id: developer_background_platforms_other
   name: Other target platforms
 

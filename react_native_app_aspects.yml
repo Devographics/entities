@@ -294,7 +294,7 @@
   github:
 
 - id: react_native_app_aspects_other_libraries_other
-  name: Other popular libraries not listed covered previously
+  name: Other popular libraries not listed above
 
 # freeform
 - id: posthog

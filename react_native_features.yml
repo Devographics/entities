@@ -35,6 +35,10 @@
   name: Fabric
   homepage: https://reactnative.dev/architecture/fabric-renderer
 
+- id: react_native_bridgeless_mode
+  name: Bridgeless Mode
+  homepage: https://reactnative.dev/docs/next/the-new-architecture/bridgeless
+
 - id: react_native_features_turbo_modules
   name: Turbo Native Modules
   homepage: https://reactnative.dev/docs/next/the-new-architecture/pillars-turbomodules

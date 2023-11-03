@@ -1,32 +1,42 @@
 - id: animations
   name: Graphics and animations
+
 - id: animations_animated_api
   name: Animated API
   homepage: https://reactnative.dev/docs/animated
   description: The Animated library is designed to make animations fluid, powerful, and painless to build and maintain.
+
 - id: animations_react_native_reanimated
   name: React Native Reanimated
   npm: react-native-reanimated
   homepage: https://docs.swmansion.com/react-native-reanimated/
   github: https://github.com/software-mansion/react-native-reanimated
   description: React Native's Animated library reimplemented
+  createdBy: Software Mansion
+
 - id: animations_moti
   name: Moti
   description: 🐼 The React Native (+ Web) animation library, powered by Reanimated 2.
   github: https://github.com/nandorojo/moti
   npm: moti
+  createdBy: Fernando Rojo
+
 - id: animations_skia
   name: React Native Skia
   github: https://github.com/Shopify/react-native-skia
   description: High-performance React Native Graphics using Skia
   npm: "@shopify/react-native-skia"
+  createdBy: Shopify
+  
 - id: animations_react_native_animatable
   name: React Native Animatable
   npm: react-native-animatable
   description: Standard set of easy to use animations and declarative transitions for React Native
   github: https://github.com/oblador/react-native-animatable
+  createdBy: Joel Arvidsson
+
 - id: animations_threejs
-  name: Three.js
+  name: three.js
   homepage: https://threejs.org/
   github: https://github.com/mrdoob/three.js/
   description: JavaScript 3D Library.

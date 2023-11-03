@@ -128,6 +128,8 @@
   name: State of JS
 - id: resources_surveys_state_of_css
   name: State of CSS
+- id: resources_surveys_state_of_react
+  name: State of React
 - id: resources_surveys_state_of_graphql
   name: State of GraphQL
 - id: resources_surveys_jetbrains
