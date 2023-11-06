@@ -30,15 +30,15 @@
   name: Other learning methods
 
 - id: resources_read_multiple
-  name: "Blog & Magazines"
+  name: "Blogs, magazines & newsletters"
 - id: resources_read_multiple_react_native_blog
   name: React Native blog
 - id: resources_read_multiple_react_native_newsletter
-  name: React Native newsletter
+  name: React Native Newsletter (by Infinite Red)
 - id: resources_read_multiple_medium
   name: Medium
 - id: resources_read_multiple_dev_to
-  name: DEV Community
+  name: DEV Community (dev.to)
 - id: resources_read_multiple_kent_c_dodds
   name: Kent C. Dodds
 - id: resources_read_multiple_log_rocket
@@ -54,9 +54,11 @@
 - id: resources_read_multiple_this_week_in_react
   name: This Week In React (by Sébastien Lorber)
 - id: resources_read_multiple_react_native_newsletter
-  name: React Native Newsletter
-- id: resources_read_multiple_other_blog_magazines_newsletters
-  name: Other Blogs, Magazines or Newsletters
+  name: React Native Newsletter (by Infinite Red)
+- id: resources_read_react_native_reddit
+  name: r/reactnative
+# - id: resources_read_multiple_other_blog_magazines_newsletters
+#   name: Other Blogs, Magazines or Newsletters
 
 - id: resources_course_multiple
   name: Sites & courses
@@ -104,16 +106,16 @@
 - id: resources_podcast_multiple_the_changelog
   name: The Changelog
 - id: resources_podcast_multiple_podrocker
-  name: Podrocker
+  name: PodRocker (by LogRocket)
 - id: resources_podcast_multiple_other_podcasts
   name: Other podcasts
 
 - id: resources_read
-  name: Other blogs & magazines
+  name: Other Blogs, Magazines or Newsletters
 - id: resources_course
-  name: Sites & courses
+  name: Other Sites & courses
 - id: resources_podcast
-  name: Podcasts
+  name: Other Podcasts
 - id: resources_video
   name: Video creators
 - id: resources_people

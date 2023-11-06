@@ -1,4 +1,7 @@
 
+- id: react_native_alternatives_other
+  name: Other React Native alternatives
+
 - id: react_native_alternatives_swiftui
   name: SwiftUI
   homepage: https://developer.apple.com/xcode/swiftui/
