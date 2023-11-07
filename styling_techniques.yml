@@ -51,7 +51,7 @@
   npm: react-native-unistyles
   github: https://github.com/jpudysz/react-native-unistyles
   description: Universal styling for React Native and React Native Web
-  createdBy: Jakub Pudysz
+  createdBy: Jacek Pudysz
 
 - id: styling_techniques_emotion
   name: Emotion
