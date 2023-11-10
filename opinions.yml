@@ -57,6 +57,22 @@
   name: Unmaintained packages
 - id: opinions_pain_points_multiple_upgrades
   name: Upgrades
+- id: opinions_pain_points_multiple_managing_secrets
+  name: Managing secrets
+- id: opinions_pain_points_multiple_setting_up_servers
+  name: Setting up servers
+- id: opinions_pain_points_multiple_continuous_deployment
+  name: Continuous deployment
+- id: opinions_pain_points_multiple_code_sharing_with_web
+  name: Sharing Code with Web
+- id: opinions_pain_points_multiple_bundle_size
+  name: Bundle size
+- id: opinions_pain_points_multiple_build_times
+  name: Build times
+- id: opinions_pain_points_multiple_pain_monorepos
+  name: Monorepos
+- id: opinions_pain_points_multiple_end_to_end_testing
+  name: E2E testing
 - id: opinions_pain_points_multiple_other_pain_points
   name: Other pain points
 
@@ -90,6 +106,8 @@
   name: Multithreading
 - id: opinions_missing_multiple_swiftui_jetpack_compose_integration
   name: SwiftUI/Jetpack Compose integration
+- id: opinions_missing_multiple_fetch_stream_support
+  name: Fetch API stream support (GPT-like apps)
 - id: opinions_missing_multiple_other_missing_features
   name: Other missing features
 

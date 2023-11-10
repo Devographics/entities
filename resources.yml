@@ -61,7 +61,7 @@
 #   name: Other Blogs, Magazines or Newsletters
 
 - id: resources_course_multiple
-  name: Sites & courses
+  name: Sites, courses & books
 - id: resources_course_multiple_stack_overflow
   name: Stack Overflow
 - id: resources_course_multiple_udemy
@@ -92,6 +92,10 @@
   name: Epic React (by Kent C. Dodds)
 - id: resources_course_multiple_animate_react_native
   name: Animate React Native (by Catalin Miron)
+- id: resources_course_multiple_book_react_native_optimization
+  name: The Ultimate Guide to React Native Optimization (by Callstack)
+- id: resources_course_multiple_solito_docs
+  name: Solito docs
 - id: resources_course_multiple_other_courses_sites
   name: Other courses or sites
 
@@ -107,15 +111,17 @@
   name: The Changelog
 - id: resources_podcast_multiple_podrocker
   name: PodRocker (by LogRocket)
+- id: resources_podcast_multiple_rocket_ship
+  name: Rocket Ship (Simon Grimm)
 - id: resources_podcast_multiple_other_podcasts
   name: Other podcasts
 
 - id: resources_read
-  name: Other Blogs, Magazines or Newsletters
+  name: Other blogs, magazines or newsletters
 - id: resources_course
-  name: Other Sites & courses
+  name: Other sites, courses & books
 - id: resources_podcast
-  name: Other Podcasts
+  name: Other podcasts
 - id: resources_video
   name: Video creators
 - id: resources_people

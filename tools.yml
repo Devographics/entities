@@ -1,7 +1,6 @@
 - id: tools_js_ts
   name: JavaScript/TypeScript Balance
 
-
 - id: tools_libraries
   name: Libraries. Which other libraries (not covered previously) do you regularly use?
 
@@ -29,7 +28,9 @@
   github: https://github.com/pnpm/pnpm
   description: Fast, disk space efficient package manager
   homepage: https://pnpm.io/
-
+- id: tools_package_managers_bun
+  name: bun
+  npm: bun
 
 - id: tools_starter_templates
   name: Starter templates
@@ -40,7 +41,7 @@
   github: https://github.com/expo/expo-cli
 
 - id: tools_starter_templates_react_native_cli
-  name: react-native init
+  name: react-native init (by React Native Community CLI)
 
 - id: tools_starter_templates_ignite_cli
   name: ignite-cli
@@ -49,7 +50,7 @@
   description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
 
 - id: tools_starter_templates_solito
-  name: solito
+  name: create-solito-app
   homepage: https://solito.dev/
   description: 🧍‍♂️ React Native + Next.js, unified.
   github: https://github.com/nandorojo/solito
@@ -65,6 +66,11 @@
   npm: create-react-native-app
   github: https://github.com/expo/create-react-native-app
 
+- id: tools_starter_templates_react-native-template-obytes
+  name: react-native-template-obytes
+
+- id: tools_starter_tamagui
+  name: tamagui
 
 - id: tools_starter_templates_other
   name: Other starter templates
@@ -86,7 +92,7 @@
   npm: eas-cli
 
 - id: tools_react_native_cli
-  name: React Native CLI
+  name: React Native Community CLI
   github: https://github.com/react-native-community/cli
   description: React Native command line tools
   npm: "@react-native-community/cli"
@@ -102,6 +108,7 @@
   github: https://github.com/microsoft/rnx-kit
   homepage: https://microsoft.github.io/rnx-kit/
   description: Modern, scalable tools. Exceptional developer experience.
+  createdBy: Microsoft
 
 - id: tools_upgrade_helper
   name: Upgrade Helper
@@ -109,9 +116,18 @@
 - id: tools_config_plugins
   name: Config plugins
 
+- id: tools_react_native_test_app
+  name: React Native Test App
+  createdBy: Microsoft
+
+- id: tools_custom_development_client
+  name: Custom Development Client
+
+- id: tools_expo_go
+  name: Expo Go
+
 - id: tools_other_tools
   name: Other development tools
-
 
 #  freeform
 - id: tamagui_starter

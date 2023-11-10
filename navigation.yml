@@ -33,12 +33,18 @@
   createdBy: Expo
 
 - id: navigation_navigation
-  name: navigation-react-native
+  name: The Navigation router
   homepage: http://grahammendick.github.io/navigation/native/
   npm: navigation-react-native
   github: https://github.com/grahammendick/navigation
   description: Scene-Based Navigation for React and React Native
   createdBy: Graham Mendick
+
+- id: navigation_solito
+  name: Solito
+  homepage: https://solito.dev/
+  npm: solito
+  createdBy: Fernando Rojo
   
 - id: navigation_other
   name: Other navigation solutions

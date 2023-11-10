@@ -236,7 +236,7 @@
 - id: react_native_app_aspects_other_libraries
   name: Other popular libraries
 - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
-  name: React Native Gesture Handler
+  name: react-native-gesture-handler
   homepage: https://docs.swmansion.com/react-native-gesture-handler/
   description: Declarative API exposing platform native touch and gesture system to React Native
   npm: react-native-gesture-handler
@@ -261,15 +261,15 @@
   npm: react-native-vision-camera
   github:
 - id: react_native_app_aspects_other_libraries_shopify_flash_list
-  name: Shopify Flash List
+  name: "@shopify/flash-list"
   npm: "@shopify/flash-list"
   github:
 - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
-  name: Bottom Sheet
+  name: "@gorhom/bottom-sheet"
   npm: "@gorhom/bottom-sheet"
   github:
 - id: react_native_app_aspects_other_libraries_expo_image
-  name: Expo Image
+  name: expo-image
   npm: expo-image
   github:
 - id: react_native_app_aspects_other_libraries_react_native_fast_image
@@ -277,24 +277,30 @@
   npm: react-native-fast-image
   github:
 - id: react_native_app_aspects_other_libraries_expo_vector_icons
-  name: Expo Vector Icons
+  name: "@expo/vector-icons"
   npm: "@expo/vector-icons"
   github:
 - id: react_native_app_aspects_other_libraries_react_native_webview
-  name: React Native WebView
+  name: react-native-webview
   npm: react-native-webview
   github:
 - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
-  name: React Native Safe Area Context
+  name: react-native-safe-area-context
   npm: react-native-safe-area-context
   github:
 - id: react_native_app_aspects_other_libraries_react_native_maps
-  name: React Native Maps
+  name: react-native-maps
   npm: react-native-maps
   github:
+- id: react_native_app_aspects_other_libraries_react-native-vector-icons
+  name: react-native-vector-icons
+  npm: react-native-vector-icons
 
 - id: react_native_app_aspects_other_libraries_other
   name: Other popular libraries not listed above
+
+- id: react_native_app_aspects_architecture_local_first
+  name: Local-first app architecture
 
 # freeform
 - id: posthog
