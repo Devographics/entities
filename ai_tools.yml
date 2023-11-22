@@ -26,6 +26,10 @@
   name: Codeium
   homepageUrl: https://codeium.com/
 
+- id: codium
+  name: Codium
+  homepageUrl: https://www.codium.ai/
+
 - id: code_whisperer
   name: Amazon CodeWhisperer
   homepageUrl: https://aws.amazon.com/codewhisperer/
@@ -42,7 +46,7 @@
   name: JetBrains AI
   homepageUrl: https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/
   patterns:
-    - jetbrains
+    - jet( )?brain
 
 - id: perplexity
   name: Perplexity
@@ -59,3 +63,19 @@
 - id: vercel_ai_sdk
   name: Vercel AI SDK
   homepageUrl: https://sdk.vercel.ai/docs
+
+- id: claude
+  name: Claude
+  homepage: https://claude.ai/
+  patterns:
+    - claud
+
+- id: you_com
+  name: You.com
+  homepage: https://you.com/
+  patterns:
+    - you
+
+- id: llama
+  name: Llama
+  homepage: https://ai.meta.com/llama/

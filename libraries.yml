@@ -1412,7 +1412,7 @@
   homepageUrl: "https://vulcanjs.org"
 
 - id: fresh
-  name: Fresh
+  name: Deno Fresh
   homepageUrl: https://fresh.deno.dev/
 
 - id: nuxt_3
@@ -2003,9 +2003,7 @@
   github: webpack/webpack
   description: >-
     A bundler for javascript and friends. Packs many modules into a few bundled
-    assets. Code Splitting allows for loading parts of the application on
-    demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS,
-    Images, JSON, Coffeescript, LESS, ... and your custom stuff.
+    assets.
   homepageUrl: "https://webpack.js.org"
 
 - id: babel
@@ -2058,6 +2056,14 @@
     The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript,
     TypeScript, HTML, Markdown, and CSS.
   homepageUrl: "https://rome.tools/"
+
+- id: biome
+  name: Biome
+  npm: null
+  github: biomejs/biome
+  description: >-
+    One toolchain for your web project
+  homepageUrl: https://biomejs.dev/
 
 - id: snowpack
   name: Snowpack
@@ -2335,6 +2341,11 @@
 #################################################
 # Other Tools
 #################################################
+
+- id: core_js
+  name: core-js
+  github: zloirock/core-js
+  homepageUrl: https://github.com/zloirock/core-js
 
 - id: immer
   name: Immer

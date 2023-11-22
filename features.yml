@@ -1679,7 +1679,7 @@
   mdn: /en-US/docs/Web/JavaScript/Typed_arrays
 
 - id: array_prototype_flat
-  name: Array.prototype.flat()
+  name: array.flat()
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
 
 - id: fetch
@@ -1824,6 +1824,14 @@
 - id: promise_all_settled
   name: "`Promise.allSettled()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
+  example:
+    language: js
+    code: |
+      const promises = [promise1, promise2];
+
+      Promise.allSettled(promises).then((results) =>
+        results.forEach((result) => console.log(result.status)),
+      );
 
 - id: dynamic_import
   name: Dynamic Import
@@ -1856,14 +1864,25 @@
   caniuse: mdn-javascript_grammar_numeric_separators
 
 - id: string_replace_all
-  name: "`String.prototype.replaceAll()`"
+  name: "`string.replaceAll()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
   caniuse: mdn-javascript_builtins_string_replaceall
+  example:
+    language: js
+    code: |
+      const s1 = "foo_bar_baz";
+      const s2 = s1.replaceAll('_', '-');
 
 - id: string_match_all
-  name: "`String.prototype.matchAll()`"
+  name: "`string.matchAll()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
   caniuse: mdn-javascript_builtins_string_matchall
+  example:
+    language: js
+    code: |
+      const regexp = /t(e)(st(\d?))/g;
+      const str = 'test1test2';
+      const array = [...str.matchAll(regexp)];
 
 - id: logical_assignment
   name: Logical Assignment
@@ -1886,14 +1905,20 @@
   name: "`Promise.any()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
   caniuse: mdn-javascript_builtins_promise_any
+  example:
+    language: js
+    code: |
+      const promises = [promise1, promise2, promise3];
+
+      Promise.any(promises).then((value) => console.log(value));
 
 - id: array_at
-  name: "`Array.prototype.at()`"
+  name: "`array.at()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at
   caniuse: mdn-javascript_builtins_array_at
 
 - id: top_level_await
-  name: Top Level `await()`
+  name: Top-level `await`
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/await
 
 - id: temporal
@@ -1901,7 +1926,7 @@
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 - id: array_findlast
-  name: "`Array.prototype.findLast()`"
+  name: "`array.findLast()`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
   example:
     language: js
@@ -1912,7 +1937,7 @@
       // expected output: 130
 
 - id: error_cause
-  name: "`Error.prototype.cause`"
+  name: "`error.cause`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause
   example:
     language: js
@@ -1944,3 +1969,76 @@
       const str1 = "foo bar foo";
       const regex1 = /foo/dg;
       console.log(regex1.exec(str1).indices[0]); // Output: Array [0, 2]
+
+# js2023
+
+- id: array_to_sorted
+  name: >
+    `array.toSorted()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted
+  example:
+    language: js
+    code: |
+      const values = [1, 10, 21, 2];
+      const sortedValues = values.toSorted((a, b) => a - b);
+      console.log(sortedValues); // [1, 2, 10, 21]
+      console.log(values); // [1, 10, 21, 2]
+
+- id: array_to_reversed
+  name: >
+    `array.toReversed()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed
+  example:
+    language: js
+    code: |
+      const items = [1, 2, 3];
+      const reversedItems = items.toReversed();
+      console.log(reversedItems); // [3, 2, 1]
+      console.log(items); // [1, 2, 3]
+
+- id: array_with
+  name: >
+    `array.with()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/with
+  example:
+    language: js
+    code: |
+      const arr = [1, 2, 3, 4, 5];
+      console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
+
+- id: array_find_last
+  name: >
+    `array.findLast()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
+  example:
+    language: js
+    code: |
+      const inventory = [
+        { name: "bananas", quantity: 0 },
+        { name: "fish", quantity: 1 },
+        { name: "cherries", quantity: 5 },
+      ];
+      console.log(inventory.findLast(item => item.quantity <2));
+      // { name: "fish", quantity: 1 }
+
+- id: array_to_spliced
+  name: >
+    `array.toSpliced()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced
+  example:
+    language: js
+    code: |
+      const months = ["Jan", "Mar", "Apr", "May"];
+
+      // Inserting an element at index 1
+      const months2 = months.toSpliced(1, 0, "Feb");
+
+- id: hashbang_grammar
+  name: Hashbang Grammar
+  mdn: en-US/docs/Web/JavaScript/Reference/Lexical_grammar#hashbang_comments
+  example:
+    language: js
+    code: |
+      #!/usr/bin/env node
+
+      console.log("Hello world");

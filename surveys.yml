@@ -106,6 +106,12 @@
   patterns:
     - jamstack
 
+- id: netlify_survey
+  name: Netlify Web Development Survey
+  homepageUrl: https://www.netlify.com/blog/announcing-the-2023-web-development-survey/
+  patterns:
+    - netlify
+
 - id: angular_devceloper_survey
   name: Angular Developer Survey
   homepageUrl: https://blog.angular.io/developer-survey-2021-results-38e653cbb36b

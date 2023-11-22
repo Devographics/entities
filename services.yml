@@ -77,6 +77,10 @@
   name: Netlify
   homepageUrl: https://www.netlify.com/
 
+- id: linode
+  name: Linode
+  homepageUrl: https://www.linode.com/
+
 # japanese services
 
 - id: idcf_cloud
