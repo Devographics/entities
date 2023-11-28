@@ -295,6 +295,8 @@
 - id: react_native_app_aspects_other_libraries_react-native-vector-icons
   name: react-native-vector-icons
   npm: react-native-vector-icons
+- id: react_native_app_aspects_other_libraries_react_native_video
+  name: react-native-video
 
 - id: react_native_app_aspects_other_libraries_other
   name: Other popular libraries not listed above

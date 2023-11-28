@@ -102,7 +102,7 @@
 - id: resources_podcast_multiple
   name: Podcasts
 - id: resources_podcast_multiple_react_native_show_callstack
-  name: React Native Show (by Callstack)
+  name: The React Native Show Podcast (by Callstack)
 - id: resources_podcast_multiple_react_native_radio
   name: React Native Radio (by Infinite Red)
 - id: resources_podcast_multiple_syntax_fm

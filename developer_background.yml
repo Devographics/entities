@@ -1,7 +1,7 @@
 - id: developer_background_before
   name: Before React Native
 - id: developer_background_before.answer.a
-  name: React developer 
+  name: React developer
 - id: developer_background_before.answer.b
   name: iOS developer
 - id: developer_background_before.answer.c
@@ -65,7 +65,7 @@
 - id: developer_background_team_size.answer.a
   name: Solo developer
 - id: developer_background_team_size.answer.b
-  name: '2'
+  name: "2"
 - id: developer_background_team_size.answer.c
   name: 3-5
 - id: developer_background_team_size.answer.d
@@ -101,11 +101,11 @@
   name: Open Source Contribution to React Native libraries
 
 - id: developer_background_releases_count
-  name: Number of released apps 
+  name: Number of released apps
 - id: developer_background_releases_count.answer.a
   name: None
 - id: developer_background_releases_count.answer.b
-  name: '1'
+  name: "1"
 - id: developer_background_releases_count.answer.c
   name: 2-5
 - id: developer_background_releases_count.answer.d
@@ -178,5 +178,45 @@
   name: Transport
 - id: developer_background_industry_sector.answer.z
   name: Manufacturing
+- id: developer_background_industry_sector.answer.aa
+  name: Art & Design
+- id: developer_background_industry_sector.answer.bb
+  name: Beauty
+- id: developer_background_industry_sector.answer.cc
+  name: Books & Reference
+- id: developer_background_industry_sector.answer.dd
+  name: Communication
+- id: developer_background_industry_sector.answer.ee
+  name: Dating
+- id: developer_background_industry_sector.answer.ff
+  name: Events
+- id: developer_background_industry_sector.answer.gg
+  name: Food & Drink
+- id: developer_background_industry_sector.answer.hh
+  name: Games
+- id: developer_background_industry_sector.answer.ii
+  name: Health & Fitness
+- id: developer_background_industry_sector.answer.jj
+  name: House & Home
+- id: developer_background_industry_sector.answer.kk
+  name: Lifestyle
+- id: developer_background_industry_sector.answer.ll
+  name: Medical
+- id: developer_background_industry_sector.answer.mm
+  name: Music & Audio
+- id: developer_background_industry_sector.answer.nn
+  name: Navigation
+- id: developer_background_industry_sector.answer.oo
+  name: Photo
+- id: developer_background_industry_sector.answer.pp
+  name: Productivity
+- id: developer_background_industry_sector.answer.qq
+  name: Shopping
+- id: developer_background_industry_sector.answer.rr
+  name: Sports
+- id: developer_background_industry_sector.answer.ss
+  name: Weather
+- id: developer_background_industry_sector.answer.tt
+  name: Video
 - id: developer_background_industry_sector_other
   name: Other industry sectors
