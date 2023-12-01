@@ -72,6 +72,9 @@
 - id: tools_starter_tamagui
   name: tamagui
 
+- id: tools_create_expo_stack
+  name: create-expo-stack
+
 - id: tools_starter_templates_other
   name: Other starter templates
 

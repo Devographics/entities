@@ -3,14 +3,16 @@
   name: Debugging tools
 - id: debugging_and_profiling_debugging_tools_chrome_dev_tools_in_browser
   name: Chrome DevTools (in-browser - Remote JS debugging)
-- id: debugging_and_profiling_debugging_tools_chrome_dev_expo_hermes
-  name: Chrome DevTools (Expo/Hermes debugging)
+- id: debugging_and_profiling_debugging_tools_chrome_dev_expo
+  name: Chrome DevTools (Expo)
+- id: debugging_and_profiling_debugging_tools_chrome_dev_hermes
+  name: Chrome DevTools (Hermes)
 - id: debugging_and_profiling_debugging_tools_console_log
   name: Console logs
 - id: debugging_and_profiling_debugging_tools_flipper
   name: Flipper
-- id: debugging_and_profiling_debugging_tools_new_debugger
-  name: New Debugger (Experimental)
+# - id: debugging_and_profiling_debugging_tools_new_debugger
+#   name: New Debugger (Experimental)
 - id: debugging_and_profiling_debugging_tools_reactotron
   name: Reactotron
 - id: debugging_and_profiling_debugging_tools_react_dev_tools
@@ -47,13 +49,15 @@
 - id: debugging_and_profiling_problems_debugging_tools
   name: Problems - debugging tools
 - id: debugging_and_profiling_problems_debugging_tools_connecting_fliper
-  name: Connecting debugger to application - Flipper
-- id: debugging_and_profiling_problems_debugging_tools_connecting_expo_hermes_debugger
-  name: Connecting debugger to application - Expo/Hermes debugger
+  name: Connecting debugger to app - Flipper
+- id: debugging_and_profiling_problems_debugging_tools_connecting_expo_debugger
+  name: Connecting debugger to app - Chrome DevTools (Expo)
+- id: debugging_and_profiling_problems_debugging_tools_connecting_hermes_debugger
+  name: Connecting debugger to app - Chrome DevTools (Hermes)
 - id: debugging_and_profiling_problems_debugging_tools_connecting_new_debugger
-  name: Connecting debugger to application - New Debugger (Experimental)
+  name: Connecting debugger to app - New Debugger (Experimental)
 - id: debugging_and_profiling_problems_debugging_tools_connecting_react_devtools
-  name: Connecting debugger to application - React DevTools
+  name: Connecting debugger to app - React DevTools
 - id: debugging_and_profiling_problems_debugging_tools_native_debugging
   name: Native debugging (Xcode, Android Studio)
 - id: debugging_and_profiling_problems_debugging_tools_picking_right_tool
@@ -80,21 +84,21 @@
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_memory_panel
   name: Memory panel (memory profiler)
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_network_panel
-  name: Network panel (available in Expo only)
+  name: Network panel
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_react_devtools
-  name: React DevTools - web only
+  name: React DevTools
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_dom
-  name: Elements panel (DOM) - web only
+  name: Elements panel (DOM)
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_styles
-  name: Elements panel (styles) - web only
+  name: Elements panel (styles)
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_network_panel
-  name: Network panel (network throttling) - web only
+  name: Network panel (network throttling)
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_lighthouse
-  name: Lighthouse - web only
+  name: Lighthouse
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_recorder
-  name: Recorder - web only
+  name: Recorder
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_third_party_plugins
-  name: Third-party plugins - web only
+  name: Third-party plugins
 - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_other
   name: Other problems - JavaScript debugging features (Chrome DevTools)
 
@@ -119,6 +123,8 @@
   name: Performance profiling
 - id: debugging_and_profiling_profiling_tools_flipper
   name: Flipper
+- id: debugging_and_profiling_profiling_tools_flashlight
+  name: Flashlight
 - id: debugging_and_profiling_profiling_tools_flipper_performance_plugin
   name: React Native Flipper Performance Plugin
 - id: debugging_and_profiling_profiling_tools_react_native_performance

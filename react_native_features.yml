@@ -27,6 +27,21 @@
 - id: react_native_features_version_nightly
   name: nightly
 
+- id: react_native_features_strategies
+  name: React Native version upgrading strategy
+- id: react_native_features_strategies_stay_latest
+  name: Stay on the latest version
+- id: react_native_features_strategies_upgrade_occasionally
+  name: Upgrade occasionally
+- id: react_native_features_strategies_upgrade_for_new_features
+  name: Upgrade for the new features
+- id: react_native_features_strategies_upgrade_parallel_with_expo
+  name: Upgrade in parallel with Expo SDK releases
+- id: react_native_features_strategies_upgrade_if_necessary
+  name: Don't upgrade until I have to
+- id: react_native_features_strategies_other
+  name: Other React Native version upgrading strategy
+
 - id: react_native_features_new_architecture
   name: New Architecture
   homepage: https://reactnative.dev/docs/next/the-new-architecture/pillars
