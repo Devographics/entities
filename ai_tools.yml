@@ -79,3 +79,26 @@
 - id: llama
   name: Llama
   homepage: https://ai.meta.com/llama/
+
+- id: bito
+  name: Bito
+  homepageUrl: https://bito.ai/
+
+- id: blackbox
+  name: BlackboxAI
+  homepageUrl: https://www.blackbox.ai/
+
+- id: codegpt
+  name: CodeGPT
+  homepageUrl: https://www.codegpt.co/
+
+- id: poe
+  name: Poe
+  homepageUrl: https://poe.com/
+# - id:
+#   name:
+#   homepageUrl:
+
+# - id:
+#   name:
+#   homepageUrl:

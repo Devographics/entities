@@ -1,0 +1,237 @@
+##################################################################
+#                       General Pain points                      #
+##################################################################
+
+- id: accessibility
+  patterns:
+    - accessibility
+    - a11y
+    - accessible
+    - accesibility
+
+- id: animations
+  patterns:
+    - animation
+
+- id: browser_support
+  patterns:
+    - browser adoption
+    - consistency
+    - consistent support
+    - cross( |-)browser
+    - browser.*inconsisten [!b]
+    - inconsisten.*browser [!b]
+    - browser.*incompat [!b]
+    - incompat*browser [!b]
+    - browser.*compat [!b]
+    - compat.*browser [!b]
+    - lack of support
+    - different browser
+    - inconsistent browser
+    - browser.*differen [!b]
+    - differen.*browser [!b]
+    - browser.*support [!b]
+    - support.*browser [!b]
+    - compatibility
+    - compatability
+    - interopability
+    - interoperability
+
+- id: styling
+  # name: Styling
+  patterns:
+    - styling
+    - css customization
+    - custom styles
+    - difficult to style
+    - hard to style
+
+- id: error_handling
+  patterns:
+    - custom error
+    - form validation
+    - error management
+    - error messages
+    - errors
+    - error
+    - exception
+    - exceptions
+
+- id: state_management
+  patterns:
+    - state mgmt
+    - state
+
+- id: speed_of_change
+  patterns:
+    - change to(o)? fast
+    - changes to(o)? fast
+    - changing to(o)? fast
+    - keeping up
+    - keep up
+    - churn
+    - constant.*chang [!b]
+    - fast changing
+    - changing api
+    - changes too often
+    - changing too rapidly
+    - api change [!b]
+    - rate of change
+    - to(o)? many change [!b]
+
+- id: reinventing_the_wheel
+  patterns:
+    - reinventing
+
+- id: version_updates
+  patterns:
+    - breaking changes
+    - migration
+    - version
+    - upgrad [!b]
+
+- id: too_many_choices
+  patterns:
+    - to(o)? many choice [!b]
+    - decision fatigue
+    - choice paralysis
+    - choice overload
+    - to(o)? many framework [!b]
+    - to(o)? many of them [!b]
+    - to(o)? many option [!b]
+    - to(o)? much choice [!b]
+    - to(o)? many.*choose [!b]
+    - choosing a framework
+    - too many [e]
+    - overwhelming
+    - overwhelmed
+
+- id: complexity
+  description: Too much complexity
+  patterns:
+    - complex [!b]
+    - complicated [!b]
+    - complication [!b]
+    - over( |-)?engineer [!b]
+    - overcomplicate
+
+- id: dependencies
+  patterns:
+    - deps
+    - dependency hell
+    - dependency
+
+- id: learning_curve
+  patterns:
+    - hard to learn
+    - learning curves
+    - hard to get started
+
+- id: documentation
+  decription: Poor documentation
+  patterns:
+    - docs
+    - documentation
+    - documentaion
+    - document
+
+- id: build_tools
+  patterns:
+    - build
+    - building
+
+- id: bundlers
+  name: Bundlers
+  tags:
+    - language_pain_points
+  patterns:
+    - bundling
+    - bundle
+
+- id: bloat
+  patterns:
+    - bloated
+
+- id: bundle_size
+  patterns:
+    - bundle
+    - file size
+
+- id: performance
+  patterns:
+    - slow
+    - slowness
+    - speed
+    - optimization
+    - perfomance
+
+- id: hydration
+  patterns: []
+
+- id: jsx
+  patterns: []
+
+- id: too_much_boilerplate
+  patterns:
+    - boiler( )?plate
+    - boiler [!b]
+
+- id: data_fetching
+  patterns: []
+
+- id: scaling
+
+- id: security
+  description: Security
+  patterns:
+    - safety
+
+- id: ssr
+  name: SSR
+  patterns:
+    - server side rendering
+
+- id: debugging
+  name: Debugging
+  patterns:
+    - debug [!b]
+
+- id: tooling
+  name: Tooling
+
+- id: verbosity
+  patterns:
+    - verbose
+
+- id: configuration
+  description: Hard to configure
+  patterns:
+    - setup
+    - configure
+
+- id: ecosystem
+
+- id: fragmentation
+
+- id: maintenance
+
+- id: lock_in
+  description: Too much configuration
+  patterns:
+    - lock ins
+
+- id: too_opinionated
+  patterns:
+    - opinionated
+    - rigid
+
+- id: stability
+  patterns:
+    - unstable
+    - instability
+
+- id: deployment
+  patterns:
+    - deploy [!b]
+    - host
+    - hosting

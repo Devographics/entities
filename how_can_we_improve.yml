@@ -1,24 +1,24 @@
-- id: shorter
+- id: survey_length
+  description: Found the survey too long
   normalizationOnly: true
   patterns:
     - too long
+    - shorter
 
-- id: add_links
+- id: information_links
+  description: Add features info links during the survey
   normalizationOnly: true
   patterns:
     - links
 
 - id: light_mode
+  description: Suggested adding a light mode to the user interface
   normalizationOnly: true
   patterns:
     - light theme
 
-- id: visual_examples
-  normalizationOnly: true
-  patterns:
-    - visual
-
 - id: positive_impression
+  description: Overall positive impression of the survey
   normalizationOnly: true
   patterns:
     - doing great
@@ -45,6 +45,7 @@
     - its ok
 
 - id: dont_know
+  description: No specific suggestion
   normalizationOnly: true
   patterns:
     - don't know
@@ -52,3 +53,49 @@
     - no idea
     - no need
     - nothing
+
+- id: options_suggestion
+  description: Suggested improving the options provided for existing questions
+  normalizationOnly: true
+  patterns: []
+
+- id: questions_suggestion
+  description: Suggested adding, removing, or changing questions
+  normalizationOnly: true
+  patterns: []
+
+- id: translations
+  description: Better-quality or more complete translations
+  normalizationOnly: true
+  patterns:
+    - translating
+    - localization
+    - translation
+
+- id: live_code_examples
+  description: Interactive or visual code examples
+  normalizationOnly: true
+  patterns:
+    - interactive
+    - visual
+
+- id: sentiment_ui
+  description: Sentiment UI improvements
+  normalizationOnly: true
+  patterns: []
+
+- id: ui_improvements
+  description: General UI improvements
+  normalizationOnly: true
+  patterns: []
+
+- id: mobile_version
+  description: Better mobile version
+  normalizationOnly: true
+  patterns: []
+
+- id: accessibility
+  description: Accessibility improvements
+  normalizationOnly: true
+  patterns:
+    - accessibility

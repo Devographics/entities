@@ -1,3 +1,23 @@
+# japanese services
+
+- id: idcf_cloud
+  name: IDCF Cloud
+  homepageUrl: https://www.idcf.jp/cloud/
+
+- id: nifcloud
+  name: Nifcloud
+  homepageUrl: https://pfs.nifcloud.com/
+
+- id: sakura_cloud
+  name: Sakura Cloud
+  homepageUrl: https://cloud.sakura.ad.jp/
+
+- id: z_com_cloud
+  name: Z.com Cloud
+  homepageUrl: https://z.com/jp/
+
+# other services
+
 - id: supabase
   name: Supabase
   homepageUrl: https://supabase.com/
@@ -36,6 +56,8 @@
 - id: render
   name: Render
   homepageUrl: https://render.com/
+  tags:
+    - edge_runtimes
 
 - id: vercel
   name: Vercel
@@ -81,20 +103,118 @@
   name: Linode
   homepageUrl: https://www.linode.com/
 
-# japanese services
+- id: alibaba_cloud
+  name: Alibaba Cloud
+  patterns:
+    - alibaba [!b]
+    - ali [!b]
+  homepageUrl: https://www.alibabacloud.com/
 
-- id: idcf_cloud
-  name: IDCF Cloud
-  homepageUrl: https://www.idcf.jp/cloud/
+- id: clever_cloud
+  name: Clever Cloud
+  patterns:
+    - clever [!b]
+  homepageUrl: https://www.clever-cloud.com/
 
-- id: nifcloud
-  name: Nifcloud
-  homepageUrl: https://pfs.nifcloud.com/
+- id: coolify
+  name: Coolify
+  homepageUrl: https://coolify.io/
 
-- id: sakura_cloud
-  name: Sakura Cloud
-  homepageUrl: https://cloud.sakura.ad.jp/
+- id: cyclic
+  name: Cyclic
+  homepageUrl: https://www.cyclic.sh/
+  patterns:
+    - cyclic [!b]
 
-- id: z_com_cloud
-  name: Z.com Cloud
-  homepageUrl: https://z.com/jp/
+- id: deno_deploy
+  name: Deno Deploy
+  homepageUrl: https://deno.com/deploy
+  patterns:
+    - deno [!b]
+
+- id: dreamhost
+  name: Dreamhost
+  homepageUrl: https://www.dreamhost.com/
+
+- id: gitlab
+  name: GitLab Pages
+  patterns:
+    - gitlab
+  homepageUrl: https://docs.gitlab.com/ee/user/project/pages/
+
+- id: hostinger
+  name: Hostinger
+  homepageUrl: https://www.hostinger.com/
+
+- id: ionos
+  name: IONOS
+  homepageUrl: https://www.ionos.com/
+
+- id: koyeb
+  name: Koyeb
+  homepageUrl: https://www.koyeb.com/
+
+- id: kubernetes
+  name: Kubernetes
+  homepageUrl: https://kubernetes.io/
+  patterns:
+    - k8s
+
+- id: meteor_cloud
+  name: Meteor Cloud
+  patterns:
+    - meteor
+  homepageUrl: https://cloud.meteor.com/
+
+- id: netcup
+  name: netcup
+  homepageUrl: https://www.netcup.eu/
+
+- id: northflank
+  name: Northflank
+  homepageUrl: https://northflank.com/
+
+- id: openshift
+  name: OpenShift
+  homepageUrl: https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it
+
+- id: oracle_cloud
+  name: Oracle Cloud
+  homepageUrl: https://www.oracle.com/cloud/
+  patterns:
+    - oracle
+    - oci
+
+- id: ovh
+  name: OVH
+  homepageUrl: https://www.ovhcloud.com/
+
+- id: railway
+  name: Railway
+  homepageUrl: https://railway.app/
+
+- id: scaleway
+  name: Scaleway
+  homepageUrl: https://www.scaleway.com/
+
+- id: self_hosted
+  patterns:
+    - self [!b]
+
+- id: surge
+  name: Surge
+  patterns:
+    - surge [!b]
+  homepageUrl: https://surge.sh/
+
+- id: vps
+
+- id: vultr
+  name: Vultr
+  homepageUrl: https://www.vultr.com/
+
+- id: yandex_cloud
+  name: Yandex Cloud
+  patterns:
+    - yandex
+  hompageUrl: https://cloud.yandex.com/

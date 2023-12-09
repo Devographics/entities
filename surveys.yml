@@ -32,6 +32,14 @@
     - state_of_html_email
     - stateofhtml.com
 
+- id: state_of_react_survey
+  name: State of React
+  homepageUrl: https://stateofreact.com
+  patterns:
+    - state( |-|_)?of( |-|_)?react
+    - state_of_react_email
+    - stateofreact.com
+
 - id: stack_overflow_survey
   name: Stack Overflow Annual Developer Survey
   homepageUrl: https://insights.stackoverflow.com/survey/

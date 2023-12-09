@@ -1,65 +1,4 @@
 ##################################################################
-#                               Pain points                      #
-##################################################################
-
-- id: accessibility
-  patterns:
-    - accessibility
-    - a11y
-    - accessible
-    - accesibility
-  tags:
-    - html_pain_points
-
-- id: animations
-  patterns:
-    - animation
-  tags:
-    - html_pain_points
-
-- id: browser_support
-  patterns:
-    - browser adoption
-    - consistency
-    - consistent support
-    - cross( |-)browser
-    - browser.*inconsisten
-    - inconsisten.*browser
-    - browser.*incompat
-    - incompat*browser
-    - browser.*compat
-    - compat.*browser
-    - lack of support
-    - differences between browser
-    - different browser
-    - inconsistent browser
-    - browser.*differences
-
-  tags:
-    - html_pain_points
-
-- id: styling
-  # name: Styling
-  patterns:
-    - styling
-    - css customization
-    - custom styles
-    - difficult to style
-    - hard to style
-  tags:
-    - html_pain_points
-
-- id: error_handling
-  patterns:
-    - custom error
-    - form vidation
-    - error management
-    - error messages
-    - errors
-  tags:
-    - html_pain_points
-
-##################################################################
 #                            forms_pain_points                   #
 ##################################################################
 
@@ -218,6 +157,58 @@
 - id: inner_html
   tags:
     - interactivity_pain_points
+
+##################################################################
+#                    web_components_pain_points                  #
+##################################################################
+
+- id: js_requirement
+  description: JavaScript is required
+  tags:
+    - using_web_components_pain_points
+  patterns:
+    - require.*javascript [!b]
+    - reliance.*javascript [!b]
+    - javascript.*require [!b]
+    - need.*javascript [!b]
+
+- id: adoption
+  description: Slow adoption
+  tags:
+    - using_web_components_pain_points
+
+- id: availability
+  decription: Lack of good available options
+  tags:
+    - using_web_components_pain_points
+
+- id: fouc
+  decription: Flash of unstyled content
+  tags:
+    - using_web_components_pain_points
+  patterns:
+    - flash of unstyled content
+
+- id: framework_compatibility
+  decription: Compatibility with JS frameworks
+  tags:
+    - using_web_components_pain_points
+  patterns:
+    - framework integration
+    - framework interop
+    - framework support
+
+- id: missing_features
+  description: Missing or limited features
+  tags:
+    - using_web_components_pain_points
+
+- id: ssr
+  description: Lack of SSR
+  tags:
+    - using_web_components_pain_points
+  patterns:
+    - ssr
 
 ##################################################################
 #                    content_pain_points                         #

@@ -1740,6 +1740,8 @@
 - id: websocket
   name: WebSocket
   mdn: /en-US/docs/Web/API/WebSockets_API
+  patterns:
+    - websockets
 
 - id: web_speech
   name: Web Speech API

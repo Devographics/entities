@@ -1,350 +1,3 @@
-# missing features
-
-- id: optional_chaining
-  name: Optional Chaining
-  tags:
-    - js_missing_features
-  patterns:
-    - conditional chaining
-
-- id: battery_api
-  name: Battery API
-  tags:
-    - js_missing_features
-
-- id: static_typing
-  name: Static Typing
-  tags:
-    - js_missing_features
-  patterns:
-    - type
-    - types
-    - typing
-    - static
-
-- id: interfaces
-  name: Interfaces
-  tags:
-    - js_missing_features
-
-- id: standard_library
-  name: Standard Library
-  tags:
-    - js_missing_features
-  patterns:
-    - std
-    - standard
-
-- id: documentation
-  name: Documentation
-  tags:
-    - js_missing_features
-  patterns:
-    - docs
-
-- id: pipe_operator
-  name: Pipe Operator
-  tags:
-    - js_missing_features
-  patterns:
-    - pipe
-
-- id: pattern_matching
-  name: Pattern Matching
-  tags:
-    - js_missing_features
-
-- id: auto_currying
-  name: Auto-Currying
-  tags:
-    - js_missing_features
-  patterns:
-    - currying
-
-- id: native_observables
-  name: Native Observables
-  tags:
-    - js_missing_features
-  patterns:
-    - observable
-
-- id: decorators
-  name: Decorators
-  tags:
-    - js_missing_features
-
-- id: simplicity
-  name: Simplicity
-  tags:
-    - js_missing_features
-
-- id: sanity
-  name: Sanity
-  tags:
-    - js_missing_features
-
-- id: tree_shaking
-  name: Tree Shaking
-  tags:
-    - js_missing_features
-
-- id: immutable
-  name: Immutable Data Structure
-  tags:
-    - js_missing_features
-
-- id: multi_threading
-  name: Multi Threading
-  tags:
-    - js_missing_features
-
-- id: date_time
-  name: Date/Time Handling
-  tags:
-    - js_missing_features
-  patterns:
-    - date/time
-
-- id: monads
-  name: Monads
-  tags:
-    - js_missing_features
-  patterns:
-    - monad
-
-- id: concurrency
-  name: Concurrency
-  tags:
-    - js_missing_features
-  patterns:
-    - concurency
-
-- id: multithreading
-  name: Multithreading
-  tags:
-    - js_missing_features
-  patterns:
-    - thread
-
-- id: operator_overloading
-  name: Operator Overloading
-  tags:
-    - js_missing_features
-  patterns:
-    - overload
-
-- id: deep_clone
-  name: Deep Clone
-  tags:
-    - js_missing_features
-  patterns:
-    - deep
-
-- id: enums
-  name: Enums
-  tags:
-    - js_missing_features
-  patterns:
-    - enum
-
-# pain points
-
-- id: esm
-  name: ESM vs CJM
-  tags: js_pain_points
-  patterns:
-    - es modules
-    - commonjs
-    - cjs
-    - module
-
-- id: slow
-  name: Slowness
-  tags:
-    - js_pain_points
-
-- id: build_tools
-  name: Build Tools
-  tags:
-    - js_pain_points
-  patterns:
-    - build
-
-- id: bundlers
-  name: Bundlers
-  tags:
-    - js_pain_points
-  patterns:
-    - bundling
-    - bundle
-
-- id: security
-  name: Security
-  tags:
-    - js_pain_points
-
-- id: complexity
-  name: Complexity
-  tags:
-    - js_pain_points
-  patterns:
-    - complex
-
-- id: standard_library
-  name: No standard library
-  tags:
-    - js_pain_points
-  patterns:
-    - std lib
-    - standard
-
-- id: npm
-  name: npm
-  tags:
-    - js_pain_points
-
-- id: testing
-  name: Testing
-  tags:
-    - js_pain_points
-
-- id: cross_browser
-  name: Cross-Browser Compatibility
-  patterns:
-    - cross
-    - cross(-| )?platform
-  tags:
-    - js_pain_points
-
-- id: too_many_choices
-  name: Too Many Choices
-  patterns:
-    - too many
-  tags:
-    - js_pain_points
-
-- id: performance
-  name: Performance
-  tags:
-    - js_pain_points
-
-- id: dependencies
-  name: Dependencies
-  tags:
-    - js_pain_points
-
-- id: immutability
-  name: Immutability
-  patterns:
-    - mutable
-    - mutability
-  tags:
-    - js_pain_points
-
-- id: esm_cjs
-  name: ESM & CJS
-  patterns:
-    - esm
-    - cjs
-    - esmodules
-    - es modules
-    - commonjs
-    - common js
-  tags:
-    - js_pain_points
-
-- id: data_fetching
-  name: Data Fetching
-  tags:
-    - js_pain_points
-
-- id: monorepos
-  name: Monorepos
-  patterns:
-    - monorepo
-  tags:
-    - js_pain_points
-
-- id: react
-  name: React
-  normalizationOnly: true
-  tags:
-    - js_pain_points
-
-- id: caching
-  name: Caching
-  tags:
-    - js_pain_points
-
-- id: ssr
-  name: SSR
-  tags:
-    - js_pain_points
-
-- id: typescript
-  name: TypeScript
-  normalizationOnly: true
-  tags:
-    - js_pain_points
-
-- id: typing
-  name: Typing
-  patterns:
-    - type
-  tags:
-    - js_pain_points
-
-- id: browser_compatibility
-  name: Browser Compatibility
-  tags:
-    - js_pain_points
-
-- id: debugging
-  name: Debugging
-  tags:
-    - js_pain_points
-
-- id: tooling
-  name: Tooling
-  tags:
-    - js_pain_points
-
-- id: multithreading
-  name: Multithreading
-  patterns:
-    - thread
-  tags:
-    - js_pain_points
-
-- id: javascript_fatigue
-  name: JavaScript Fatigue
-  tags:
-    - js_pain_points
-
-- id: legacy_support
-  name: Legacy Code & Support
-  patterns:
-    - legacy
-  tags:
-    - js_pain_points
-
-- id: type_safety
-  name: Type Safety
-  tags:
-    - js_pain_points
-
-- id: node_modules
-  name: node_modules Directory
-  tags:
-    - js_pain_points
-
-- id: internationalization
-  name: Internationalization
-  patterns:
-    - i18n
-  tags:
-    - js_pain_points
-
 # use cases
 
 - id: developer_tooling
@@ -503,3 +156,40 @@
     - mail
   tags:
     - sources_state_of_js
+
+# libraries
+
+- id: effect_js
+  normalizationOnly: true
+  patterns:
+    - effect
+  tags:
+    - libraries
+
+- id: immutable_js
+  normalizationOnly: true
+  patterns:
+    - immutable
+  tags:
+    - libraries
+
+- id: just_js
+  normalizationOnly: true
+  patterns:
+    - just [!b]
+  tags:
+    - libraries
+
+# usage_type
+
+- id: teacher
+  tags:
+    - usage_type
+
+- id: never
+  tags:
+    - usage_type
+
+- id: open_source
+  tags:
+    - usage_type

@@ -706,7 +706,7 @@
   name: Theme UI
   homepageUrl: https://theme-ui.com/home/
 
-- id: element
+- id: element_ui
   name: Element
   homepageUrl: https://element.eleme.io/#/en-US
 
@@ -1173,6 +1173,8 @@
   github: vercel/next.js
   # description: The React Framework
   homepageUrl: "https://nextjs.org"
+  patterns:
+    - next.js
 
 - id: koa
   name: Koa
@@ -1202,6 +1204,8 @@
   description: >-
     A framework for real-time applications and REST APIs with JavaScript and
     TypeScript
+  patterns:
+    - feathers [!b]
   homepageUrl: "https://feathersjs.com"
 
 - id: nuxt
@@ -1512,6 +1516,57 @@
 - id: wasp
   name: Wasp
   homepageUrl: https://wasp-lang.dev/
+
+- id: elysia
+  name: ElysiaJS
+  homepageUrl: https://elysiajs.com/
+  patterns:
+    - elysia [!b]
+  github: elysiajs/elysia
+
+- id: h3
+  name: h3
+  homepageUrl: https://github.com/unjs/h3
+  github: unjs/h3
+
+- id: hono
+  name: Hono
+  homepageUrl: https://hono.dev/
+  github: honojs/hono
+  pattern:
+    - hono [!b]
+
+- id: loopback
+  name: LoopBack
+  homepageUrl: https://loopback.io/
+  github: loopbackio/loopback-next
+
+- id: nitro
+  name: Nitro
+  homepageUrl: https://nitro.unjs.io/
+  github: unjs/nitro
+
+- id: payload_cms
+  name: Payload
+  patterns:
+    - payload
+  homepageUrl: https://payloadcms.com/
+
+- id: pocket_base
+  name: PocketBase
+  homepageUrl: https://pocketbase.io/
+  github: pocketbase/pocketbase
+
+- id: restify
+  name: Restify
+  homepageUrl: http://restify.com/
+  github: restify/node-restify
+
+- id: sanity
+  name: Sanity
+  patterns:
+    - sanity [!b]
+  homepageUrl: https://www.sanity.io/
 
 #################################################
 # Testing
@@ -2197,7 +2252,7 @@
   name: Moon
   homepageUrl: https://moonrepo.dev/
 
-- id: bit
+- id: bit_dev
   name: Bit
   homepageUrl: https://bit.dev/
 
@@ -2581,7 +2636,7 @@
   description: Runtime type system for IO decoding/encoding
   homepageUrl: https://gcanti.github.io/io-ts/
 
-- id: got
+- id: got_js
   name: Got
   npm: got
   github: sindresorhus/got
@@ -2622,7 +2677,7 @@
   description: An extensible linter for the TypeScript language
   homepageUrl: "http://palantir.github.io/tslint/"
 
-- id: standard
+- id: standard_js
   name: Standard
   npm: standard
   github: standard/standard
@@ -2776,6 +2831,74 @@
 - id: react_intl
   name: React Intl
   homepageUrl: https://formatjs.io/
+
+- id: bcrypt
+  name: bcrypt
+  homepageUrl: https://github.com/kelektiv/node.bcrypt.js
+  github: kelektiv/node.bcrypt.js
+
+- id: class_validator
+  name: class-validator
+  homepageUrl: https://github.com/typestack/class-validator
+  github: typestack/class-validator
+
+- id: clsx
+  name: clsx
+  homepageUrl: https://github.com/lukeed/clsx
+  github: lukeed/clsx
+
+- id: effect_ts
+  name: Effect
+  homepageUrl: https://www.effect.website/
+  github: Effect-TS/effect
+
+- id: floating_ui
+  name: Floating UI
+  homepageUrl: https://floating-ui.com/
+
+- id: immutable_js
+  name: Immutable
+  homepageUrl: https://immutable-js.com/
+  github: immutable-js/immutable-js/
+
+- id: just_js
+  name: Just
+  homepageUrl: https://just.billywhizz.io/
+  github: just-js/just
+
+- id: leaflet
+  name: Leaflet
+  homepageUrl: https://leafletjs.com/
+  patterns:
+    - leaflet [!b]
+
+- id: openlayers
+  name: OpenLayers
+  homepageUrl: https://openlayers.org/
+
+- id: radash
+  name: Radash
+  homepageUrl: https://radash-docs.vercel.app/
+
+- id: remeda
+  name: Remeda
+  homepageUrl: https://remedajs.com/
+
+- id: ts_pattern
+  name: ts-pattern
+  homepageUrl: https://github.com/gvergnaud/ts-pattern
+
+- id: typebox
+  name: TypeBox
+  homepageUrl: https://github.com/sinclairzx81/typebox
+
+- id: valibot
+  name: Valibot
+  homepageUrl: https://valibot.dev/
+
+- id: vueuse
+  name: VueUse
+  homepageUrl: https://vueuse.org/
 
 # Non-JS
 

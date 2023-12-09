@@ -8,6 +8,7 @@
   name: C/C++
   patterns:
     - c\+\+
+    - c [e]
   homepageUrl: https://cplusplus.com/
 
 - id: dart
@@ -78,7 +79,7 @@
 - id: fsharp
   name: F#
   patterns:
-    - f#
+    - f# [e]
 
 - id: sql
   name: SQL
@@ -121,7 +122,8 @@
 
 - id: r
   name: R
-  exactMatch: true
+  patterns:
+    - r [e]
 
 - id: typescript
   name: TypeScript
@@ -354,3 +356,18 @@
 - id: terraform
   name: Terraform
   homepageUrl: https://www.terraform.io/
+
+- id: action_script
+  name: ActionScript
+
+- id: civet
+  name: Civet
+
+- id: erlang
+  name: Erlang
+
+- id: nushell
+  name: Nushell
+
+- id: zsh
+  name: Zsh

@@ -1,0 +1,798 @@
+##################################################################
+#                     js_missing_features                        #
+##################################################################
+
+- id: optional_chaining
+  name: Optional Chaining
+  tags:
+    - js_missing_features
+  patterns:
+    - conditional chaining
+
+- id: battery_api
+  name: Battery API
+  tags:
+    - js_missing_features
+
+- id: interfaces
+  name: Interfaces
+  tags:
+    - js_missing_features
+
+- id: standard_library
+  name: Standard Library
+  tags:
+    - js_missing_features
+  patterns:
+    - std
+    - standard
+
+- id: documentation
+  name: Documentation
+  tags:
+    - js_missing_features
+  patterns:
+    - docs
+
+- id: pipe_operator
+  name: Pipe Operator
+  tags:
+    - js_missing_features
+  patterns:
+    - pipe
+    - pipeline
+
+- id: pattern_matching
+  name: Pattern Matching
+  tags:
+    - js_missing_features
+  patterns:
+    - match
+
+- id: auto_currying
+  name: Auto-Currying
+  tags:
+    - js_missing_features
+  patterns:
+    - currying
+
+- id: native_observables
+  name: Native Observables
+  tags:
+    - js_missing_features
+  patterns:
+    - observable
+
+- id: simplicity
+  name: Simplicity
+  tags:
+    - js_missing_features
+
+- id: sanity
+  name: Sanity
+  tags:
+    - js_missing_features
+
+- id: tree_shaking
+  name: Tree Shaking
+  tags:
+    - js_missing_features
+
+- id: immutable
+  name: Immutable Data Structure
+  tags:
+    - js_missing_features
+
+- id: date_time
+  name: Date/Time Handling
+  tags:
+    - js_missing_features
+  patterns:
+    - date/time
+
+- id: monads
+  name: Monads
+  tags:
+    - js_missing_features
+  patterns:
+    - monad
+
+- id: concurrency
+  name: Concurrency
+  tags:
+    - js_missing_features
+  patterns:
+    - concurency
+
+- id: operator_overloading
+  name: Operator Overloading
+  tags:
+    - js_missing_features
+  patterns:
+    - overload
+
+- id: deep_clone
+  name: Deep Clone
+  tags:
+    - js_missing_features
+  patterns:
+    - deep
+
+- id: enums
+  name: Enums
+  tags:
+    - js_missing_features
+  patterns:
+    - enum
+
+- id: standard_library
+  name: No standard library
+  tags:
+    - js_missing_features
+  patterns:
+    - std lib
+    - standard
+
+- id: multi_threading
+  name: Multithreading
+  patterns:
+    - thread
+    - single(-| )?thread [!b]
+  tags:
+    - js_missing_features
+
+- id: static_typing
+  description: Lack of native typing
+  tags:
+    - js_missing_features
+  patterns:
+    - typing
+    - typings
+    - type
+    - types
+    - typed
+    - dynamic language
+    - dynamically typed
+    - loosely typed
+    - strongly typed
+    - typesafety
+    - typechecking
+    - dynamic
+    - typeless
+    - untyped
+
+- id: tuples
+  description: Lack of tuples
+  tags:
+    - js_missing_features
+  patterns:
+    - tuple
+
+- id: decorators
+  description: Decorators
+  tags:
+    - js_missing_features
+  patterns:
+    - decorator [!b]
+
+##################################################################
+#                  language_pain_points                          #
+##################################################################
+
+- id: npm
+  name: npm
+  tags:
+    - language_pain_points
+
+- id: dependencies
+  name: Dependencies
+  tags:
+    - language_pain_points
+
+- id: immutability
+  name: Immutability
+  patterns:
+    - mutable
+    - mutability
+  tags:
+    - language_pain_points
+
+- id: esm_cjs
+  name: ESM & CJS
+  patterns:
+    - esm
+    - cjs
+    - esmodules
+    - es modules
+    - commonjs
+    - common js
+    - modules
+    - module
+  tags:
+    - language_pain_points
+    - testing_pain_points
+
+- id: data_fetching
+  name: Data Fetching
+  tags:
+    - language_pain_points
+
+- id: monorepos
+  name: Monorepos
+  patterns:
+    - monorepo
+  tags:
+    - language_pain_points
+
+- id: react
+  name: React
+  normalizationOnly: true
+  tags:
+    - language_pain_points
+
+- id: caching
+  name: Caching
+  tags:
+    - language_pain_points
+
+- id: typescript
+  name: TypeScript
+  normalizationOnly: true
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+
+- id: javascript_fatigue
+  name: JavaScript Fatigue
+  tags:
+    - language_pain_points
+
+- id: legacy_support
+  name: Legacy Code & Support
+  patterns:
+    - legacy
+  tags:
+    - language_pain_points
+
+- id: node_modules
+  name: node_modules Directory
+  tags:
+    - language_pain_points
+
+- id: internationalization
+  name: Internationalization
+  patterns:
+    - i18n
+  tags:
+    - language_pain_points
+
+- id: zero_false
+  description: Zero being false
+  tags:
+    - language_pain_points
+  patterns:
+    - 0 == false
+
+- id: math_issues
+  description: Issues with math operations
+  tags:
+    - language_pain_points
+  patterns:
+    - math
+    - maths
+
+- id: number_issues
+  description: Issues with numbers
+  tags:
+    - language_pain_points
+  patterns:
+    - number
+    - numbers
+    - decimal [!b]
+    - float [!b]
+
+- id: array_methods
+  description: Issues with array methods
+  tags:
+    - language_pain_points
+  patterns:
+    - array methods
+
+- id: async
+  description: Async programming
+  tags:
+    - language_pain_points
+  patterns:
+    - async [!b]
+    - await
+    - promise
+    - promises
+
+- id: legacy_support
+  description: Issues because of backwards compatibility
+  tags:
+    - language_pain_points
+  patterns:
+    - legacy
+    - backwards
+
+- id: callbacks
+  description: Issues with callbacks
+  tags:
+    - language_pain_points
+  patterns:
+    - callback
+
+- id: class_syntax
+  description: Class syntax
+  tags:
+    - language_pain_points
+  patterns:
+    - class
+    - classes
+
+- id: closures
+  description: Closures
+  tags:
+    - language_pain_points
+  patterns:
+    - closure
+
+- id: date
+  description: Handling dates and times
+  tags:
+    - language_pain_points
+  patterns:
+    - date [!b]
+    - time [!b]
+    - datetime [!b]
+
+- id: undefined
+  description: Behavior of `undefined`
+  tags:
+    - language_pain_points
+
+- id: frameworks
+  description: Frameworks
+  tags:
+    - language_pain_points
+  pattern:
+    - framework
+    - frameworks
+
+- id: imports
+  description: Imports
+  tags:
+    - language_pain_points
+  patterns:
+    - import
+
+- id: js_fatigue
+  description: JavaScript Fatigue
+  tags:
+    - language_pain_points
+
+- id: memory_management
+  description: Memory management
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+  patterns:
+    - garbage
+    - leaks
+    - memory
+
+- id: this_keyword
+  description: >
+    `this` keyword
+  tags:
+    - language_pain_points
+
+- id: regexps
+  description: Regular expressions
+  tags:
+    - language_pain_points
+  patterns:
+    - regex [!b]
+
+- id: prototype
+  description: Prototype issues
+  tags:
+    - language_pain_points
+
+- id: package_management
+  description: Package Management
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - monorepo_tools_pain_points
+  patterns:
+    - package
+    - packages
+    - npm
+
+- id: oop
+  description: Object-Oriented Programming
+  tags:
+    - language_pain_points
+  pattern:
+    - poo
+
+- id: reactivity
+  description: Issues with reactivity
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+
+- id: scope
+  description: Issues with scope
+  tags:
+    - language_pain_points
+
+- id: objects
+  description: Handling objects
+  tags:
+    - language_pain_points
+  patterns:
+    - object
+
+- id: null_keyword
+  description: Behavior of `null`
+  tags:
+    - language_pain_points
+  patterns:
+    - "null"
+    - nullish
+    - nullable
+
+- id: inconsistency
+  description: Inconsistency
+  tags:
+    - language_pain_points
+  patterns:
+    - inconsistent
+
+- id: transpiling
+  name: Transpiling
+  patterns:
+    - transpil [!b]
+  tags:
+    - language_pain_points
+
+- id: web_components
+  patterns:
+    - web component
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+
+- id: try_catch
+  patterns:
+    - try.*catch
+  tags:
+    - language_pain_points
+
+- id: community
+  tags:
+    - language_pain_points
+
+- id: flexibility
+  tags:
+    - language_pain_points
+
+- id: ease_of_use
+  tags:
+    - language_pain_points
+
+##################################################################
+#                  browser_apis_pain_points                      #
+##################################################################
+
+- id: browser_support
+  patterns:
+    - adoption
+    - availability
+    - browser parity
+    - inconsistencies
+  tags:
+    - browser_apis_pain_points
+
+- id: cors
+  tags:
+    - browser_apis_pain_points
+
+- id: bluetooth
+  tags:
+    - browser_apis_pain_points
+
+- id: discoverability
+  tags:
+    - browser_apis_pain_points
+
+- id: firefox
+  normalizationOnly: true
+  tags:
+    - browser_apis_pain_points
+
+- id: dom_api
+  patterns:
+    - dom
+  tags:
+    - browser_apis_pain_points
+    - front_end_frameworks_pain_points
+
+- id: fetch_api
+  patterns:
+    - fetch
+  tags:
+    - browser_apis_pain_points
+
+- id: filesystem_access
+  name: File System Access API
+  patterns:
+    - file
+    - filesystem
+  tags:
+    - browser_apis_pain_points
+
+- id: indexed_db
+  patterns:
+    - fetch
+  tags:
+    - browser_apis_pain_points
+
+- id: intl_api
+  patterns:
+    - intl
+  tags:
+    - browser_apis_pain_points
+
+- id: local_storage
+  tags:
+    - browser_apis_pain_points
+
+- id: permissions
+  tags:
+    - browser_apis_pain_points
+
+- id: polyfills
+  tags:
+    - browser_apis_pain_points
+
+- id: pwas
+  patterns:
+    - pwa
+  tags:
+    - browser_apis_pain_points
+
+- id: safari
+  normalizationOnly: true
+  tags:
+    - browser_apis_pain_points
+
+- id: cookies
+  tags:
+    - browser_apis_pain_points
+
+- id: content_editable
+  tags:
+    - browser_apis_pain_points
+
+- id: too_many_choices
+  patterns:
+    - too many
+    - too much
+  tags:
+    - browser_apis_pain_points
+
+##################################################################
+#              front_end_frameworks_pain_points                  #
+##################################################################
+
+- id: too_many_choices
+  patterns:
+    - too many
+    - too much
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: too_much_magic
+  patterns:
+    - magic
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: use_effect
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: css
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: hooks
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: prop_driling
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: routing
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: seo
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: server_components
+  patterns:
+    - rsc
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+
+- id: managing_rerenders
+  patterns:
+    - re(-| )?rendering
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: virtual_dom
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: compilation_time
+  patterns:
+    - compile
+    - compilation
+  tags:
+    - front_end_frameworks_pain_points
+
+##################################################################
+#                  meta_frameworks_pain_points                   #
+##################################################################
+
+- id: file_based_routing
+  patterns:
+    - file.*routing [!b]
+    - file.*router [!b]
+  tags:
+    - meta_frameworks_pain_points
+
+- id: nextjs
+  patterns:
+    - next
+    - next( |.|-)?js
+  tags:
+    - meta_frameworks_pain_points
+
+- id: nuxt
+  tags:
+    - meta_frameworks_pain_points
+
+- id: remix
+  tags:
+    - meta_frameworks_pain_points
+
+- id: routing
+  patterns:
+    - router
+  tags:
+    - meta_frameworks_pain_points
+
+- id: maturity
+  tags:
+    - meta_frameworks_pain_points
+
+- id: stability
+  tags:
+    - meta_frameworks_pain_points
+
+- id: react
+  tags:
+    - meta_frameworks_pain_points
+
+- id: server_vs_client
+  patterns:
+    - server.*client
+  tags:
+    - meta_frameworks_pain_points
+
+- id: serverless
+  tags:
+    - meta_frameworks_pain_points
+
+- id: unnecessary
+  patterns:
+    - should not exist
+  tags:
+    - meta_frameworks_pain_points
+
+- id: too_much_magic
+  patterns:
+    - magic
+  tags:
+    - meta_frameworks_pain_points
+
+- id: vercel
+  tags:
+    - meta_frameworks_pain_points
+
+- id: authentication
+  patterns:
+    - auth
+  tags:
+    - meta_frameworks_pain_points
+
+- id: idiosyncrasies
+  tags:
+    - meta_frameworks_pain_points
+
+- id: abstraction
+  tags:
+    - meta_frameworks_pain_points
+
+##################################################################
+#                       testing_pain_points                      #
+##################################################################
+
+- id: cypress
+  normalizationOnly: true
+  tags:
+    - testing_pain_points
+
+- id: mocking
+  patterns:
+    - mock
+  tags:
+    - testing_pain_points
+
+- id: e2e_testing
+  patterns:
+    - e2e
+  tags:
+    - testing_pain_points
+
+- id: flakiness
+  patterns:
+    - flaky
+  tags:
+    - testing_pain_points
+
+##################################################################
+#                    mobile_desktop_pain_points                  #
+##################################################################
+
+- id: app_stores
+  patterns:
+    - app store
+  tags:
+    - mobile_desktop_pain_points
+
+- id: apple
+  tags:
+    - mobile_desktop_pain_points
+
+##################################################################
+#                    monorepo_tools_pain_points                  #
+##################################################################
+
+- id: caching
+  patterns:
+    - cache
+  tags:
+    - monorepo_tools_pain_points
+
+- id: multi_language_support
+  patterns:
+    - cross( |-)?language
+  tags:
+    - monorepo_tools_pain_points
+
+- id: unnecessary
+  patterns:
+    - monorepo
+  tags:
+    - monorepo_tools_pain_points

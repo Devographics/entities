@@ -194,3 +194,7 @@
   homepageUrl: https://railway.app/
   tags:
     - edge_runtimes
+
+- id: winter_cg
+  name: WinterCG
+  homepageUrl: https://wintercg.org/
