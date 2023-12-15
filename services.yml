@@ -218,3 +218,62 @@
   patterns:
     - yandex
   hompageUrl: https://cloud.yandex.com/
+
+- id: aws_amplify
+  name: AWS Amplify
+  homepageUrl: https://aws.amazon.com/amplify/
+  patterns:
+    - amplify
+
+###
+# Auth
+###
+
+- id: aws_cognito
+  name: AWS Cognito
+  homepageUrl: https://aws.amazon.com/cognito/
+  patterns:
+    - cognito
+
+- id: auth0
+  name: Auth0
+  homepageUrl: https://auth0.com/
+
+- id: descope
+  name: Descope
+  homepageUrl: https://www.descope.com/
+
+- id: frontegg
+  name: Frontegg
+  homepageUrl: https://frontegg.com/
+
+- id: gigya
+  name: Gigya (SAP)
+  homepageUrl: https://www.sap.com
+
+- id: keycloak
+  name: Keycloak
+  homepageUrl: https://www.keycloak.org/
+
+- id: okta
+  name: Okta
+  homepageUrl: https://www.okta.com/
+
+- id: slashid
+  name: /id
+  homepageUrl: https://www.slashid.dev/
+  patterns:
+    - slashid
+
+- id: stytch
+  name: Stytch
+  homepageUrl: https://stytch.com/
+
+- id: supertokens
+  name: SuperTokens
+  github: supertokens/supertokens-core
+  homepageUrl: https://supertokens.com/
+
+- id: userfront
+  name: Userfront
+  homepageUrl: https://userfront.com/

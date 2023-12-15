@@ -66,19 +66,19 @@
 
 - id: claude
   name: Claude
-  homepage: https://claude.ai/
+  homepageUrl: https://claude.ai/
   patterns:
     - claud
 
 - id: you_com
   name: You.com
-  homepage: https://you.com/
+  homepageUrl: https://you.com/
   patterns:
     - you
 
 - id: llama
   name: Llama
-  homepage: https://ai.meta.com/llama/
+  homepageUrl: https://ai.meta.com/llama/
 
 - id: bito
   name: Bito

@@ -1787,6 +1787,10 @@
   name: Progressive Web Apps
   mdn: /en-US/docs/Web/Progressive_web_apps
 
+- id: twa
+  name: Trusted Web Activity
+  homepageUrl: https://developer.chrome.com/docs/android/trusted-web-activity
+
 - id: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly

@@ -437,6 +437,15 @@
     - css
     - css_frameworks
 
+- id: next_auth
+  name: NextAuth.js
+  homepageUrl: https://next-auth.js.org/
+
+- id: remix_auth
+  name: Remix Auth
+  github: sergiodxa/remix-auth
+  npm: remix-auth
+
 - id: react_bootstrap
   name: React Bootstrap
   homepageUrl: https://react-bootstrap.netlify.app/
@@ -1786,6 +1795,11 @@
   description: "Bring data to life with SVG, Canvas and HTML."
   homepageUrl: "https://d3js.org"
 
+- id: c3
+  name: C3
+  github: c3js/c3
+  homepageUrl: https://c3js.org/
+
 - id: three_js
   name: Three.js
   npm: three
@@ -2008,6 +2022,10 @@
   name: Ant Design Charts
   homepageUrl: https://charts.ant.design/
 
+- id: antv
+  name: AntV
+  homepageUrl: https://antv.antgroup.com/
+
 - id: uplot
   name: uPlot
   homepageUrl: https://github.com/leeoniya/uPlot
@@ -2023,6 +2041,18 @@
 - id: react_vis
   name: React-Vis
   homepageUrl: https://uber.github.io/react-vis/
+
+- id: ag_charts
+  name: AG Charts
+  homepageUrl: https://charts.ag-grid.com/
+
+- id: ag_grid
+  name: AG Grid
+  homepageUrl: https://www.ag-grid.com/
+
+- id: am_charts
+  name: amCharts
+  homepageUrl: https://www.amcharts.com/
 
 #################################################
 # Data Fetching
@@ -2326,6 +2356,12 @@
   tags:
     - mobile-desktop
 
+- id: xamarin
+  name: Xamarin
+  homepageUrl: https://visualstudio.microsoft.com/xamarin/
+  tags:
+    - mobile-desktop
+
 - id: capacitor
   name: Capacitor
   homepageUrl: https://capacitor.ionicframework.com/
@@ -2621,7 +2657,7 @@
 - id: react_final_form
   name: React Final Form
   github: final-form/react-final-form
-  homepage: https://final-form.org/react
+  homepageUrl: https://final-form.org/react
 
 - id: yup
   name: Yup
@@ -3071,3 +3107,9 @@
 - id: asp_net
   name: ASP.NET
   homepageUrl: https://dotnet.microsoft.com/en-us/apps/aspnet
+
+- id: maui_net
+  name: .NET MAUI
+  homepageUrl: https://learn.microsoft.com/en-us/dotnet/maui/
+  patterns:
+    - MAUI
