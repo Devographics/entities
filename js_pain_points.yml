@@ -302,6 +302,7 @@
   description: Async programming
   tags:
     - language_pain_points
+    - testing
   patterns:
     - async [!b]
     - await
@@ -371,16 +372,6 @@
   description: JavaScript Fatigue
   tags:
     - language_pain_points
-
-- id: memory_management
-  description: Memory management
-  tags:
-    - language_pain_points
-    - front_end_frameworks_pain_points
-  patterns:
-    - garbage
-    - leaks
-    - memory
 
 - id: this_keyword
   description: >
@@ -725,6 +716,7 @@
     - auth
   tags:
     - meta_frameworks_pain_points
+    - testing
 
 - id: idiosyncrasies
   tags:
@@ -745,7 +737,7 @@
 
 - id: mocking
   patterns:
-    - mock
+    - mock [!b]
   tags:
     - testing_pain_points
 
@@ -758,6 +750,29 @@
 - id: flakiness
   patterns:
     - flaky
+    - flakyness
+  tags:
+    - testing_pain_points
+
+- id: front_end
+  tags:
+    - testing_pain_points
+
+- id: not_testing
+  patterns:
+    - don(')?t use
+  tags:
+    - testing_pain_points
+
+- id: integration_with_tools
+  patterns:
+    - integration
+  tags:
+    - testing_pain_points
+
+- id: typescript_support
+  patterns:
+    - typescript
   tags:
     - testing_pain_points
 
@@ -772,6 +787,30 @@
     - mobile_desktop_pain_points
 
 - id: apple
+  tags:
+    - mobile_desktop_pain_points
+
+- id: testing
+  patterns:
+    - test [!b]
+  tags:
+    - mobile_desktop_pain_points
+
+- id: ios
+  tags:
+    - mobile_desktop_pain_points
+
+- id: android
+  tags:
+    - mobile_desktop_pain_points
+
+- id: javascript
+  tags:
+    - mobile_desktop_pain_points
+
+- id: pwas
+  patterns:
+    - pwa
   tags:
     - mobile_desktop_pain_points
 

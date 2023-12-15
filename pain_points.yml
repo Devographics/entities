@@ -12,6 +12,8 @@
 - id: animations
   patterns:
     - animation
+    - animate
+    - animating
 
 - id: browser_support
   patterns:
@@ -115,6 +117,12 @@
     - over( |-)?engineer [!b]
     - overcomplicate
 
+- id: clunkiness
+  patterns:
+    - clunky
+    - confusing
+    - cumbersome
+
 - id: dependencies
   patterns:
     - deps
@@ -126,6 +134,7 @@
     - hard to learn
     - learning curves
     - hard to get started
+    - difficult to learn
 
 - id: documentation
   decription: Poor documentation
@@ -163,7 +172,7 @@
     - slowness
     - speed
     - optimization
-    - perfomance
+    - perfomance [!b]
 
 - id: hydration
   patterns: []
@@ -189,7 +198,8 @@
 - id: ssr
   name: SSR
   patterns:
-    - server side rendering
+    - server( |-)?side rendering
+    - server rendering
 
 - id: debugging
   name: Debugging
@@ -206,14 +216,19 @@
 - id: configuration
   description: Hard to configure
   patterns:
-    - setup
+    - set( |-)?up
+    - setting( |-)?up
     - configure
+    - config [!b]
+    - configuration [!b]
 
 - id: ecosystem
 
 - id: fragmentation
 
 - id: maintenance
+  patterns:
+    - maintain [!b]
 
 - id: lock_in
   description: Too much configuration
@@ -235,3 +250,24 @@
     - deploy [!b]
     - host
     - hosting
+
+- id: memory_management
+  description: Memory usage & management
+  patterns:
+    - garbage
+    - leaks
+    - memory
+
+- id: lack_of_awareness
+  patterns:
+    - awareness
+
+- id: lack_of_knowledge
+  patterns:
+    - knowledge
+
+- id: lack_of_adoption
+  patterns:
+    - adoption
+
+- id: missing_features

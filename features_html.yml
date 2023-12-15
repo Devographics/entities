@@ -432,6 +432,7 @@
   patterns:
     - <details>
     - <summary>
+    - detail.*summary
 
 - id: dialog_element
   name: "`<dialog>`"
@@ -1131,7 +1132,7 @@
   tags:
     - features
   patterns:
-    - popover
+    - pop( |-)?over
     - popup
 
 - id: portal_element
@@ -1363,8 +1364,6 @@
   caniuse: mdn-html_elements_search
   tags:
     - features
-  patterns:
-    - <search
 
 - id: selectlist_element
   name: "`<selectlist>`"
@@ -1413,6 +1412,7 @@
   mdn: en-US/docs/Web/API/Web_components/Using_shadow_DOM
   tags:
     - features
+    - html_interoperability_features
 
 - id: showpicker
   name: "`input.showPicker()`"
@@ -1678,7 +1678,6 @@
     - <select/>
     - custom select
   tags:
-    - html_pain_points
     - forms_pain_points
     - html_functionality_features
 
@@ -1723,6 +1722,8 @@
 - id: input_type_color
   name: |
     `<input type="color">`
+  tags:
+    - html_interoperability_features
 
 - id: input_type_color_list
   name: |
@@ -2221,11 +2222,13 @@
   normalizationOnly: true
   patterns:
     - nested css
+  tags:
+    - html_interoperability_features
 
-- id: scrollbar
+- id: scrollbar_styling
   normalizationOnly: true
   patterns:
-    - scrollbar styling
+    - scrollbar
 
 - id: view_transitions
   normalizationOnly: true
@@ -2253,4 +2256,14 @@
 - id: progress_element
   name: "`<progress>`"
   patterns:
-    - <progress
+    - <progress [!b]
+
+- id: shape_detection_api
+  name: Shape Detection API
+  resources:
+    - url: https://developer.chrome.com/docs/capabilities/shape-detection
+      title: "The Shape Detection API: a picture is worth a thousand words, faces, and barcodes"
+  patterns:
+    - shape detection
+  tags:
+    - html_interoperability_features

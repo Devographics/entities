@@ -52,6 +52,7 @@
   tags:
     - css
     - css_layout
+    - html_interoperability_features
 
 - id: multi_column
   name: Multi-Column Layout
@@ -200,6 +201,7 @@
   tags:
     - css
     - css_layout
+    - html_interoperability_features
 
 - id: object_view_box
   name: "`object-view-box`"
@@ -580,6 +582,7 @@
   tags:
     - css
     - css_colors
+    - html_interoperability_features
 
 - id: forced_colors
   name: "`forced-colors`"
@@ -709,6 +712,7 @@
   tags:
     - css
     - css_interactions
+    - html_interoperability_features
 
 - id: scroll_behavior
   name: "`scroll-behavior`"
@@ -1013,11 +1017,13 @@
         border: 2px solid grey;
       }
   patterns:
-    - \:has
+    - \:has [!b]
     - has\(\)
+    - ":has"
   tags:
     - css
     - css_selectors
+    - html_interoperability_features
 
 - id: where_selector
   name: "`:where()`"
@@ -1629,6 +1635,8 @@
     - title: >
         Tether elements to each other with CSS anchor positioning
       url: https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/
+  tags:
+    - html_interoperability_features
 
 #################################################
 #
@@ -1783,9 +1791,11 @@
 
 # Other Features
 
-- id: pwa
+- id: pwas
   name: Progressive Web Apps
   mdn: /en-US/docs/Web/Progressive_web_apps
+  tags:
+    - html_interoperability_features
 
 - id: wasm
   name: WebAssembly (WASM)
@@ -1847,9 +1857,11 @@
   name: "`BigInt`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
 
-- id: intl
+- id: intl_api
   name: "`Intl`"
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+  tags:
+    - html_interoperability_features
 
 - id: custom_elements
   name: Custom Elements
