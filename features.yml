@@ -1797,6 +1797,10 @@
   tags:
     - html_interoperability_features
 
+- id: twa
+  name: Trusted Web Activity
+  homepageUrl: https://developer.chrome.com/docs/android/trusted-web-activity
+
 - id: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly

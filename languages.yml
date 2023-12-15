@@ -11,6 +11,9 @@
     - c [e]
   homepageUrl: https://cplusplus.com/
 
+- id: cobol
+  name: Cobol
+
 - id: dart
   name: Dart
   homepageUrl: https://dart.dev
