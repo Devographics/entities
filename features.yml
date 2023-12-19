@@ -1789,7 +1789,7 @@
   mdn: /en-US/docs/Web/API/WebXR_Device_API
   caniuse: webxr
 
-# Other Features
+# Other Features, Patterns
 
 - id: pwas
   name: Progressive Web Apps
@@ -1804,6 +1804,15 @@
 - id: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly
+
+- id: client_side_rendering
+  name: Client-side rendering
+  patterns:
+    - client-side rendering
+    - csr [e]
+
+- id: micro_frontends
+  name: Micro-frontends
 
 # Language
 

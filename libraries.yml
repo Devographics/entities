@@ -2932,9 +2932,41 @@
     - mui
     - material
 
+# Validation
+
 - id: zod
   name: Zod
   homepageUrl: https://github.com/colinhacks/zod
+
+- id: ajv
+  name: Ajv
+  homepageUrl: https://ajv.js.org/
+  github: ajv-validator/ajv
+
+- id: arktype
+  name: ArkType
+  homepageUrl: https://arktype.io/
+  github: arktypeio/arktype
+
+- id: superstruct
+  name: Superstruct
+  homepageUrl: https://docs.superstructjs.org/
+  github: ianstormtaylor/superstruct
+
+- id: runtypes
+  name: Runtypes
+  github: pelotom/runtypes
+
+- id: simpl_schema
+  name: SimpleSchema
+  github: longshotlabs/simpl-schema
+  patterns:
+    - simpl-schema
+    - simple-schema
+  
+- id: json_schema
+  name: JSON Schema
+  homepageUrl: https://json-schema.org/
 
 - id: swiper
   name: Swiper
