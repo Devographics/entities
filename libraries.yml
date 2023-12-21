@@ -2644,7 +2644,6 @@
   tags:
     - remix
     - react-router
-  tags:
     - forms
 
 - id: data_driven_forms
@@ -2963,7 +2962,7 @@
   patterns:
     - simpl-schema
     - simple-schema
-  
+
 - id: json_schema
   name: JSON Schema
   homepageUrl: https://json-schema.org/
