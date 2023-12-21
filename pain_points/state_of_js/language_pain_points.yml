@@ -1,0 +1,218 @@
+##################################################################
+#                  language_pain_points                          #
+##################################################################
+
+- id: npm
+  name: npm
+
+- id: dependencies
+  name: Dependencies
+
+- id: immutability
+  name: Immutability
+  patterns:
+    - mutable
+    - mutability
+
+- id: esm_cjs
+  name: ESM & CJS
+  patterns:
+    - esm
+    - cjs
+    - esmodules
+    - es modules
+    - commonjs
+    - common js
+    - modules
+    - module
+  tags:
+    - testing_pain_points
+
+- id: data_fetching
+  name: Data Fetching
+
+- id: monorepos
+  name: Monorepos
+  patterns:
+    - monorepo
+
+- id: react
+  name: React
+  normalizationOnly: true
+
+- id: caching
+  name: Caching
+
+- id: typescript
+  name: TypeScript
+  normalizationOnly: true
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: javascript_fatigue
+  name: JavaScript Fatigue
+
+- id: legacy_support
+  name: Legacy Code & Support
+  patterns:
+    - legacy
+
+- id: node_modules
+  name: node_modules Directory
+
+- id: internationalization
+  name: Internationalization
+  patterns:
+    - i18n
+
+- id: zero_false
+  description: Zero being false
+  patterns:
+    - 0 == false
+
+- id: math_issues
+  description: Issues with math operations
+  patterns:
+    - math
+    - maths
+
+- id: number_issues
+  description: Issues with numbers
+  patterns:
+    - number
+    - numbers
+    - decimal [p]
+    - float [p]
+
+- id: array_methods
+  description: Issues with array methods
+  patterns:
+    - array methods
+
+- id: async
+  description: Async programming
+    - testing
+  patterns:
+    - async [p]
+    - await
+    - promise
+    - promises
+
+- id: legacy_support
+  description: Issues because of backwards compatibility
+  patterns:
+    - legacy
+    - backwards
+
+- id: callbacks
+  description: Issues with callbacks
+  patterns:
+    - callback
+
+- id: class_syntax
+  description: Class syntax
+  patterns:
+    - class
+    - classes
+
+- id: closures
+  description: Closures
+  patterns:
+    - closure
+
+- id: date
+  description: Handling dates and times
+  patterns:
+    - date [p]
+    - time [p]
+    - datetime [p]
+
+- id: undefined
+  description: Behavior of `undefined`
+
+- id: frameworks
+  description: Frameworks
+  pattern:
+    - framework
+    - frameworks
+
+- id: imports
+  description: Imports
+  patterns:
+    - import
+
+- id: js_fatigue
+  description: JavaScript Fatigue
+
+- id: this_keyword
+  description: >
+    `this` keyword
+
+- id: regexps
+  description: Regular expressions
+  patterns:
+    - regex [p]
+
+- id: prototype
+  description: Prototype issues
+
+- id: package_management
+  description: Package Management
+  tags:
+    - front_end_frameworks_pain_points
+    - monorepo_tools_pain_points
+  patterns:
+    - package
+    - packages
+    - npm
+
+- id: oop
+  description: Object-Oriented Programming
+  pattern:
+    - poo
+
+- id: reactivity
+  description: Issues with reactivity
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: scope
+  description: Issues with scope
+
+- id: objects
+  description: Handling objects
+  patterns:
+    - object
+
+- id: null_keyword
+  description: Behavior of `null`
+  patterns:
+    - "null"
+    - nullish
+    - nullable
+
+- id: inconsistency
+  description: Inconsistency
+  patterns:
+    - inconsistent
+
+- id: transpiling
+  name: Transpiling
+  patterns:
+    - transpil [p]
+
+- id: web_components
+  patterns:
+    - web component
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: try_catch
+  patterns:
+    - try.*catch
+
+- id: community
+
+- id: flexibility
+
+- id: ease_of_use

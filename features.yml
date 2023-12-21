@@ -1017,7 +1017,7 @@
         border: 2px solid grey;
       }
   patterns:
-    - \:has [!b]
+    - \:has [p]
     - has\(\)
     - ":has"
   tags:

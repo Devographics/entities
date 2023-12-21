@@ -1,0 +1,65 @@
+##################################################################
+#                  browser_apis_pain_points                      #
+##################################################################
+
+- id: browser_support
+  patterns:
+    - adoption
+    - availability
+    - browser parity
+    - inconsistencies
+
+- id: cors
+
+- id: bluetooth
+
+- id: discoverability
+
+- id: firefox
+  normalizationOnly: true
+
+- id: dom_api
+  patterns:
+    - dom
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: fetch_api
+  patterns:
+    - fetch
+
+- id: filesystem_access
+  name: File System Access API
+  patterns:
+    - file
+    - filesystem
+
+- id: indexed_db
+  patterns:
+    - fetch
+
+- id: intl_api
+  patterns:
+    - intl
+
+- id: local_storage
+
+- id: permissions
+
+- id: polyfills
+
+- id: pwas
+  patterns:
+    - pwa
+
+- id: safari
+  normalizationOnly: true
+
+- id: cookies
+
+- id: content_editable
+
+- id: too_many_choices
+  patterns:
+    - too many
+    - too much

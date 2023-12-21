@@ -1,0 +1,123 @@
+##################################################################
+#                    interactivity_pain_points                   #
+##################################################################
+
+- id: dom_manipulation
+  # name: DOM Manipulation
+  patterns:
+    - dom manipulation
+    - creating.*element(s)?
+    - manipulating.*dom
+
+- id: dom_diffing
+  # name: DOM Manipulation
+  patterns:
+    - dom.*diff
+    - diff.*dom
+
+- id: drag_and_drop
+  # name: Drag-and-drop Support
+  patterns:
+    - drag
+
+- id: event_management
+  # name: Event Management
+  patterns:
+    - event
+
+- id: state_management
+  patterns:
+    - state
+    - managing state
+
+- id: performance
+
+- id: reactivity
+
+- id: focus_management
+  patterns:
+    - focus
+  tags:
+    - accessibility_pain_points
+
+- id: frustration_with_javascript
+
+- id: dom_api
+
+- id: inner_html
+
+- id: html_imports
+  patterns:
+    - imports
+    - partials
+    - templat [p]
+
+- id: browser_support
+  patterns:
+    - compat [p]
+
+- id: js_requirement
+  patterns:
+    - js [e]
+    - javascript [e]
+    - need (js|javascript)+
+    - having to use (js|javascript)+
+    - too much (js|javascript)+
+    - require (js|javascript)+
+  tags:
+    - making_web_components_pain_points
+
+- id: missing_features
+
+- id: data_binding
+
+- id: react_overuse
+  patterns:
+    - react [e]
+
+- id: safari
+
+- id: transitions
+
+- id: virtual_dom_overuse
+
+- id: lack_of_virtual_dom
+
+- id: tooltips
+
+- id: web_components
+
+- id: content_shift
+  patterns:
+    - layout shift [p]
+    - re(-)layout
+
+- id: css_limitations
+
+- id: drag_and_drop
+  patterns:
+    - drag.*drop
+    - dragging
+    - draggable
+
+- id: frustration_with_frameworks
+
+- id: native_tabs
+  description: Lack of native tab element
+
+- id: frustration_with_browser_apis
+
+- id: lack_of_declarative_apis
+  patterns:
+    - imperative
+    - declarative
+
+- id: binding
+  patterns:
+    - bindings
+
+- id: has_selector
+  patterns:
+    - \:has [p]
+    - has\(\)
+    - ":has"

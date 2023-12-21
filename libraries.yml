@@ -1214,7 +1214,7 @@
     A framework for real-time applications and REST APIs with JavaScript and
     TypeScript
   patterns:
-    - feathers [!b]
+    - feathers [p]
   homepageUrl: "https://feathersjs.com"
 
 - id: nuxt
@@ -1530,7 +1530,7 @@
   name: ElysiaJS
   homepageUrl: https://elysiajs.com/
   patterns:
-    - elysia [!b]
+    - elysia [p]
   github: elysiajs/elysia
 
 - id: h3
@@ -1543,7 +1543,7 @@
   homepageUrl: https://hono.dev/
   github: honojs/hono
   pattern:
-    - hono [!b]
+    - hono [p]
 
 - id: loopback
   name: LoopBack
@@ -1574,7 +1574,7 @@
 - id: sanity
   name: Sanity
   patterns:
-    - sanity [!b]
+    - sanity [p]
   homepageUrl: https://www.sanity.io/
 
 #################################################
@@ -2906,7 +2906,7 @@
   name: Leaflet
   homepageUrl: https://leafletjs.com/
   patterns:
-    - leaflet [!b]
+    - leaflet [p]
 
 - id: openlayers
   name: OpenLayers

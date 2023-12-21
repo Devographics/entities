@@ -21,19 +21,19 @@
     - consistency
     - consistent support
     - cross( |-)browser
-    - browser.*inconsisten [!b]
-    - inconsisten.*browser [!b]
-    - browser.*incompat [!b]
-    - incompat*browser [!b]
-    - browser.*compat [!b]
-    - compat.*browser [!b]
+    - browser.*inconsisten [p]
+    - inconsisten.*browser [p]
+    - browser.*incompat [p]
+    - incompat*browser [p]
+    - browser.*compat [p]
+    - compat.*browser [p]
     - lack of support
     - different browser
     - inconsistent browser
-    - browser.*differen [!b]
-    - differen.*browser [!b]
-    - browser.*support [!b]
-    - support.*browser [!b]
+    - browser.*differen [p]
+    - differen.*browser [p]
+    - browser.*support [p]
+    - support.*browser [p]
     - compatibility
     - compatability
     - interopability
@@ -72,14 +72,14 @@
     - keeping up
     - keep up
     - churn
-    - constant.*chang [!b]
+    - constant.*chang [p]
     - fast changing
     - changing api
     - changes too often
     - changing too rapidly
-    - api change [!b]
+    - api change [p]
     - rate of change
-    - to(o)? many change [!b]
+    - to(o)? many change [p]
 
 - id: reinventing_the_wheel
   patterns:
@@ -90,19 +90,19 @@
     - breaking changes
     - migration
     - version
-    - upgrad [!b]
+    - upgrad [p]
 
 - id: too_many_choices
   patterns:
-    - to(o)? many choice [!b]
+    - to(o)? many choice [p]
     - decision fatigue
     - choice paralysis
     - choice overload
-    - to(o)? many framework [!b]
-    - to(o)? many of them [!b]
-    - to(o)? many option [!b]
-    - to(o)? much choice [!b]
-    - to(o)? many.*choose [!b]
+    - to(o)? many framework [p]
+    - to(o)? many of them [p]
+    - to(o)? many option [p]
+    - to(o)? much choice [p]
+    - to(o)? many.*choose [p]
     - choosing a framework
     - too many [e]
     - overwhelming
@@ -111,10 +111,10 @@
 - id: complexity
   description: Too much complexity
   patterns:
-    - complex [!b]
-    - complicated [!b]
-    - complication [!b]
-    - over( |-)?engineer [!b]
+    - complex [p]
+    - complicated [p]
+    - complication [p]
+    - over( |-)?engineer [p]
     - overcomplicate
 
 - id: clunkiness
@@ -172,7 +172,7 @@
     - slowness
     - speed
     - optimization
-    - perfomance [!b]
+    - perfomance [p]
 
 - id: hydration
   patterns: []
@@ -183,7 +183,7 @@
 - id: too_much_boilerplate
   patterns:
     - boiler( )?plate
-    - boiler [!b]
+    - boiler [p]
 
 - id: data_fetching
   patterns: []
@@ -204,7 +204,7 @@
 - id: debugging
   name: Debugging
   patterns:
-    - debug [!b]
+    - debug [p]
 
 - id: tooling
   name: Tooling
@@ -219,8 +219,8 @@
     - set( |-)?up
     - setting( |-)?up
     - configure
-    - config [!b]
-    - configuration [!b]
+    - config [p]
+    - configuration [p]
 
 - id: ecosystem
 
@@ -228,7 +228,7 @@
 
 - id: maintenance
   patterns:
-    - maintain [!b]
+    - maintain [p]
 
 - id: lock_in
   description: Too much configuration
@@ -247,7 +247,7 @@
 
 - id: deployment
   patterns:
-    - deploy [!b]
+    - deploy [p]
     - host
     - hosting
 

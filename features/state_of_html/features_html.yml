@@ -2256,7 +2256,7 @@
 - id: progress_element
   name: "`<progress>`"
   patterns:
-    - <progress [!b]
+    - <progress [p]
 
 - id: shape_detection_api
   name: Shape Detection API

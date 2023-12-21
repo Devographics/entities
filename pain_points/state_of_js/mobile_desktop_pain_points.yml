@@ -1,0 +1,23 @@
+##################################################################
+#                    mobile_desktop_pain_points                  #
+##################################################################
+
+- id: app_stores
+  patterns:
+    - app store
+
+- id: apple
+
+- id: testing
+  patterns:
+    - test [p]
+
+- id: ios
+
+- id: android
+
+- id: javascript
+
+- id: pwas
+  patterns:
+    - pwa

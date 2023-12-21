@@ -1,0 +1,52 @@
+##################################################################
+#                  meta_frameworks_pain_points                   #
+##################################################################
+
+- id: file_based_routing
+  patterns:
+    - file.*routing [p]
+    - file.*router [p]
+
+- id: nextjs
+  patterns:
+    - next
+    - next( |.|-)?js
+
+- id: nuxt
+
+- id: remix
+
+- id: routing
+  patterns:
+    - router
+
+- id: maturity
+
+- id: stability
+
+- id: react
+
+- id: server_vs_client
+  patterns:
+    - server.*client
+
+- id: serverless
+
+- id: unnecessary
+  patterns:
+    - should not exist
+
+- id: too_much_magic
+  patterns:
+    - magic
+
+- id: vercel
+
+- id: authentication
+  patterns:
+    - auth
+    - testing
+
+- id: idiosyncrasies
+
+- id: abstraction

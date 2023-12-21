@@ -1,0 +1,41 @@
+##################################################################
+#                    web_components_pain_points                  #
+##################################################################
+
+- id: data_binding
+
+- id: templating
+  patterns:
+    - templating
+    - templates
+
+- id: events
+  patterns:
+    - event
+
+- id: imperative_api
+  patterns:
+    - imperative
+
+- id: progressive_enhancement
+
+- id: class_based_architecture
+  patterns:
+    - classes
+    - class-based
+    - don't like.*class [p]
+
+- id: reactivity
+
+- id: shadow_dom
+
+- id: lack_of_scoped_css
+  patterns:
+    - scoped css
+
+- id: styling_issues
+  patterns:
+    - css
+    - styling
+    - style
+    - styles

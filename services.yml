@@ -106,14 +106,14 @@
 - id: alibaba_cloud
   name: Alibaba Cloud
   patterns:
-    - alibaba [!b]
-    - ali [!b]
+    - alibaba [p]
+    - ali [p]
   homepageUrl: https://www.alibabacloud.com/
 
 - id: clever_cloud
   name: Clever Cloud
   patterns:
-    - clever [!b]
+    - clever [p]
   homepageUrl: https://www.clever-cloud.com/
 
 - id: coolify
@@ -124,13 +124,13 @@
   name: Cyclic
   homepageUrl: https://www.cyclic.sh/
   patterns:
-    - cyclic [!b]
+    - cyclic [p]
 
 - id: deno_deploy
   name: Deno Deploy
   homepageUrl: https://deno.com/deploy
   patterns:
-    - deno [!b]
+    - deno [p]
 
 - id: dreamhost
   name: Dreamhost
@@ -199,12 +199,12 @@
 
 - id: self_hosted
   patterns:
-    - self [!b]
+    - self [p]
 
 - id: surge
   name: Surge
   patterns:
-    - surge [!b]
+    - surge [p]
   homepageUrl: https://surge.sh/
 
 - id: vps

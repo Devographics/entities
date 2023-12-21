@@ -1,0 +1,128 @@
+##################################################################
+#                 accessibility_pain_points                      #
+##################################################################
+
+# a11y_technical_issues
+
+- id: a11y_technical_issues
+
+- id: automated_testing
+  parentId: a11y_technical_issues
+
+- id: keyboard_navigation
+  parentId: a11y_technical_issues
+
+- id: tab_index
+  parentId: a11y_technical_issues
+
+- id: testing
+  parentId: a11y_technical_issues
+
+# a11y_design_issues
+
+- id: a11y_design_issues
+
+- id: limits_design
+  parentId: a11y_design_issues
+
+- id: lack_of_designer_awareness
+  parentId: a11y_design_issues
+
+# wcag_issues
+
+- id: wcag_issues
+
+- id: wcag_contrast_issues
+  parentId: wcag_issues
+  patterns:
+    - wcag.*contrast [p]
+
+- id: wcag_learning_curve
+  parentId: wcag_issues
+
+- id: wcag_other_issues
+  parentId: wcag_issues
+
+# a11y_educational_issues
+
+- id: a11y_educational_issues
+
+- id: documentation
+  parentId: a11y_educational_issues
+  patterns:
+    - learning resources
+
+- id: lack_of_awareness
+  parentId: a11y_educational_issues
+  patterns:
+    - awareness
+
+- id: lack_of_education
+  parentId: a11y_educational_issues
+  patterns:
+    - education
+    - lack of information
+    - lack of knowledge
+
+- id: difficulty
+  parentId: a11y_educational_issues
+  patterns:
+    - difficult
+    - hard to do
+    - hard to get right
+    - hard to know
+    - hard to test
+
+# company_issues
+
+- id: a11y_company_issues
+
+- id: low_budget
+  parentId: a11y_company_issues
+  patterns:
+    - budget
+
+- id: low_priority
+  parentId: a11y_company_issues
+  patterns:
+    - buy(-| )in
+    - don't care
+    - don't prioritize
+    - don't value
+    - convincing
+    - on board
+    - no one care
+    - no one else care
+    - priority
+    - management
+
+# screen_reader_issues
+
+- id: screen_reader_issues
+
+- id: screen_readers_access
+  parentId: screen_reader_issues
+
+- id: screen_readers_learning_curve
+  parentId: screen_reader_issues
+  patterns:
+    - screen readers.*hard [p]
+
+- id: screen_readers_limitations
+  parentId: screen_reader_issues
+
+- id: screen_readers_hiding_content
+  parentId: screen_reader_issues
+  patterns:
+    - hiding.*screen reader [p]
+    - screen reader.*hiding [p]
+    - hide.*screen reader [p]
+    - screen reader.*hide [p]
+
+- id: screen_readers_inconsistencies
+  parentId: screen_reader_issues
+  patterns:
+    - inconsist.*screen reader [p]
+    - screen reader.*inconsist [p]
+    - incompat.*screen reader [p]
+    - screen reader.*incompat [p]

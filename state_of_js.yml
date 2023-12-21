@@ -176,7 +176,7 @@
 - id: just_js
   normalizationOnly: true
   patterns:
-    - just [!b]
+    - just [p]
   tags:
     - libraries
 

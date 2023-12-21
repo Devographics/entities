@@ -1,0 +1,85 @@
+- id: js_requirement
+  description: JavaScript is required
+  patterns:
+    - require.*javascript [p]
+    - reliance.*javascript [p]
+    - javascript.*require [p]
+    - need.*javascript [p]
+
+- id: adoption
+  description: Slow adoption
+
+- id: availability
+  decription: Lack of good available options
+
+- id: fouc
+  decription: Flash of unstyled content
+  tags:
+    - making_web_components_pain_points
+  patterns:
+    - flash of unstyled content
+    - flash of
+    - fout
+
+- id: framework_compatibility
+  decription: Compatibility with JS frameworks
+  patterns:
+    - framework integration
+    - framework interop
+    - framework support
+    - integrat.*framework [p]
+
+- id: missing_features
+  description: Missing or limited features
+
+- id: ssr
+  description: Lack of SSR
+  patterns:
+    - ssr
+
+- id: styling
+  patterns:
+    - css
+    - styles
+
+- id: discoverability
+  patterns:
+    - finding
+    - discover
+
+- id: forms
+  patterns:
+    - form
+  tags:
+    - making_web_components_pain_points
+
+- id: not_familiar
+  patterns:
+    - never heard
+    - know nothing
+    - not.*familiar
+    - never used
+  tags:
+    - making_web_components_pain_points
+
+- id: lack_of_value
+  tags:
+    - making_web_components_pain_points
+
+- id: prefers_frameworks
+  tags:
+    - making_web_components_pain_points
+    - interactivity_pain_points
+
+- id: naming
+  patterns:
+    - name.*conflicts
+    - naming.*conflicts
+
+- id: lack_of_usage
+
+- id: progressive_enhancement
+
+- id: react
+  tags:
+    - making_web_components_pain_points

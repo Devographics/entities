@@ -1,0 +1,57 @@
+##################################################################
+#                    content_pain_points                         #
+##################################################################
+
+- id: cors
+  patterns:
+    - cross(-| )?origin
+- id: csp
+
+- id: svg
+
+- id: iframe
+
+- id: video
+
+- id: srcset_sizes
+  patterns:
+    - srcset
+
+- id: i18n
+  patterns:
+    - translation
+    - locali(z|s)ation
+    - internationali(z|s)ation
+    - Intl
+    - locale
+
+- id: time_zones
+  patterns:
+    - time( )?zone
+
+- id: performance
+
+- id: security_privacy
+  patterns:
+    - security
+    - privacy
+
+- id: date_management
+  patterns:
+    - date
+    - temporal
+
+- id: image_dimension_management
+  patterns:
+    - size.*image
+    - image.*size
+    - responsive.*image
+    - image.*responsive
+
+- id: image_management
+  patterns:
+    - image
+
+- id: lack_of_templating
+  patterns:
+    - templat

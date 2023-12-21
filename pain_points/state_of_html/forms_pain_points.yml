@@ -1,0 +1,75 @@
+##################################################################
+#                            forms_pain_points                   #
+##################################################################
+
+- id: javascript_form_handling
+  patterns:
+    - handling forms via js
+    - handling forms with js
+
+- id: customization
+
+- id: radio_input
+  name: |
+    `<input type="radio">`
+  patterns:
+    - radio
+
+- id: file_input
+  name: |
+    `<input type="file">`
+  patterns:
+    - file
+
+- id: number_input
+  name: |
+    `<input type="number">`
+  patterns:
+    - number
+
+- id: checkbox_input
+  name: |
+    `<input type="checkbox">`
+  patterns:
+    - checkbox
+
+- id: button_element
+  name: |
+    `<button>` element
+  patterns:
+    - button
+
+- id: textarea_element
+  name: |
+    `<textarea>` element
+  patterns:
+    - textarea
+
+- id: table_element
+  name: |
+    `<table>` element
+  patterns:
+    - <table
+
+- id: autocomplete
+  # name: Autocomplete
+
+- id: safari
+  name: Safari
+
+- id: validation
+  # name: Validation
+  patterns:
+    - custom validity
+
+- id: date_pickers
+  # name: Date/Time Pickers
+  patterns:
+    - date
+    - timezone
+    - html_interoperability_features
+
+- id: colorpickers
+  # name: Color Pickers
+  patterns:
+    - color

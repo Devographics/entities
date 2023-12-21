@@ -1,0 +1,128 @@
+##################################################################
+#                     js_missing_features                        #
+##################################################################
+
+- id: optional_chaining
+  name: Optional Chaining
+  patterns:
+    - conditional chaining
+
+- id: battery_api
+  name: Battery API
+
+- id: interfaces
+  name: Interfaces
+
+- id: standard_library
+  name: Standard Library
+  patterns:
+    - std
+    - standard
+
+- id: documentation
+  name: Documentation
+  patterns:
+    - docs
+
+- id: pipe_operator
+  name: Pipe Operator
+  patterns:
+    - pipe
+    - pipeline
+
+- id: pattern_matching
+  name: Pattern Matching
+  patterns:
+    - match
+
+- id: auto_currying
+  name: Auto-Currying
+  patterns:
+    - currying
+
+- id: native_observables
+  name: Native Observables
+  patterns:
+    - observable
+
+- id: simplicity
+  name: Simplicity
+
+- id: sanity
+  name: Sanity
+
+- id: tree_shaking
+  name: Tree Shaking
+
+- id: immutable
+  name: Immutable Data Structure
+
+- id: date_time
+  name: Date/Time Handling
+  patterns:
+    - date/time
+
+- id: monads
+  name: Monads
+  patterns:
+    - monad
+
+- id: concurrency
+  name: Concurrency
+  patterns:
+    - concurency
+
+- id: operator_overloading
+  name: Operator Overloading
+  patterns:
+    - overload
+
+- id: deep_clone
+  name: Deep Clone
+  patterns:
+    - deep
+
+- id: enums
+  name: Enums
+  patterns:
+    - enum
+
+- id: standard_library
+  name: No standard library
+  patterns:
+    - std lib
+    - standard
+
+- id: multi_threading
+  name: Multithreading
+  patterns:
+    - thread
+    - single(-| )?thread [p]
+
+- id: static_typing
+  description: Lack of native typing
+  patterns:
+    - typing
+    - typings
+    - type
+    - types
+    - typed
+    - dynamic language
+    - dynamically typed
+    - loosely typed
+    - strongly typed
+    - typesafety
+    - typechecking
+    - dynamic
+    - typeless
+    - untyped
+
+- id: tuples
+  description: Lack of tuples
+  patterns:
+    - tuple
+
+- id: decorators
+  description: Decorators
+  patterns:
+    - decorator [p]

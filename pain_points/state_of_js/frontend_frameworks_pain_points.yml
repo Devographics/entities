@@ -1,0 +1,41 @@
+##################################################################
+#              front_end_frameworks_pain_points                  #
+##################################################################
+
+- id: too_many_choices
+  patterns:
+    - too many
+    - too much
+
+- id: too_much_magic
+  patterns:
+    - magic
+
+- id: use_effect
+
+- id: css
+
+- id: hooks
+
+- id: prop_driling
+
+- id: routing
+
+- id: seo
+
+- id: server_components
+  patterns:
+    - rsc
+  tags:
+    - meta_frameworks_pain_points
+
+- id: managing_rerenders
+  patterns:
+    - re(-| )?rendering
+
+- id: virtual_dom
+
+- id: compilation_time
+  patterns:
+    - compile
+    - compilation

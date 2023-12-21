@@ -1,0 +1,33 @@
+##################################################################
+#                       testing_pain_points                      #
+##################################################################
+
+- id: cypress
+  normalizationOnly: true
+
+- id: mocking
+  patterns:
+    - mock [p]
+
+- id: e2e_testing
+  patterns:
+    - e2e
+
+- id: flakiness
+  patterns:
+    - flaky
+    - flakyness
+
+- id: front_end
+
+- id: not_testing
+  patterns:
+    - don(')?t use
+
+- id: integration_with_tools
+  patterns:
+    - integration
+
+- id: typescript_support
+  patterns:
+    - typescript
