@@ -2072,6 +2072,13 @@
   tags:
     - data_fetching
 
+- id: tanstack_forms
+  name: TanStack Forms
+  github: TanStack/form
+  homepageUrl: https://tanstack.com/form
+  tags:
+    - forms
+
 - id: rtk_query
   name: RTK Query
   homepageUrl: https://redux-toolkit.js.org/rtk-query/overview
@@ -2601,24 +2608,75 @@
   name: Create React App
   homepageUrl: https://create-react-app.dev/
 
+#################################################
+# Forms
+#################################################
+
 - id: formik
   name: Formik
   npm: formik
   github: formium/formik
   description: "Build forms in React, without the tears"
   homepageUrl: "https://formik.org"
+  tags:
+    - forms
 
 - id: react_json_schema_form
   name: react-jsonschema-form
   npm: "@rjsf/core"
   github: rjsf-team/react-jsonschema-form
   homepageUrl: https://github.com/rjsf-team/react-jsonschema-form
+  tags:
+    - forms
 
 - id: formily
   name: "@formily/core"
   npm: formik
   github: alibaba/formily
   homepageUrl: https://formilyjs.org/
+  tags:
+    - forms
+
+- id: conform
+  name: Conform
+  homepageUrl: https://conform.guide/
+  github: edmundhung/conform
+  tags:
+    - remix
+    - react-router
+  tags:
+    - forms
+
+- id: data_driven_forms
+  name: Data Driven Forms
+  homepageUrl: https://www.data-driven-forms.org/
+  github: data-driven-forms/react-forms
+  npm: "@data-driven-forms/react-form-renderer"
+  tags:
+    - forms
+
+- id: effector_forms
+  name: Effector Forms
+  homepageUrl: https://github.com/42-px/effector-forms
+  npm: effector-forms
+  github: 42-px/effector-forms
+  tags:
+    - forms
+
+- id: felte
+  name: Felte
+  homepageUrl: https://felte.dev/
+  github: pablo-abc/felte
+  tags:
+    - svelte
+    - solid
+    - react
+
+- id: uniforms
+  homepageUrl: https://uniforms.tools/
+  github: vazco/uniforms
+  tags:
+    - forms
 
 - id: fp_ts
   name: fp-ts
@@ -2658,6 +2716,41 @@
   name: React Final Form
   github: final-form/react-final-form
   homepageUrl: https://final-form.org/react
+  tags:
+    - react
+
+- id: remix_validated_form
+  name: Remix Validated Form
+  homepageUrl: https://www.remix-validated-form.io/
+  github: airjp73/remix-validated-form
+  tags:
+    - remix
+
+- id: formsy
+  name: Formsy
+  github: formsy/formsy-react
+  npm: formsy-react
+  homepageUrl: https://github.com/formsy/formsy-react
+
+- id: house_forms
+  name: House Forms
+  homepageUrl: https://houseform.dev/
+  github: houseform/houseform
+  npm: houseform
+
+- id: informed
+  name: Informed
+  github: https://github.com/teslamotors/informed
+  homepageUrl: https://teslamotors.github.io/informed/
+
+- id: json_forms
+  name: JSON Forms
+  homepageUrl: https://jsonforms.io/
+  github: eclipsesource/jsonforms
+
+- id: kendo_react
+  name: KendoReact
+  homepageUrl: https://www.telerik.com/kendo-react-ui
 
 - id: yup
   name: Yup
@@ -2835,10 +2928,45 @@
 - id: mui
   name: MUI
   homepageUrl: https://mui.com/
+  patterns:
+    - mui
+    - material
+
+# Validation
 
 - id: zod
   name: Zod
   homepageUrl: https://github.com/colinhacks/zod
+
+- id: ajv
+  name: Ajv
+  homepageUrl: https://ajv.js.org/
+  github: ajv-validator/ajv
+
+- id: arktype
+  name: ArkType
+  homepageUrl: https://arktype.io/
+  github: arktypeio/arktype
+
+- id: superstruct
+  name: Superstruct
+  homepageUrl: https://docs.superstructjs.org/
+  github: ianstormtaylor/superstruct
+
+- id: runtypes
+  name: Runtypes
+  github: pelotom/runtypes
+
+- id: simpl_schema
+  name: SimpleSchema
+  github: longshotlabs/simpl-schema
+  patterns:
+    - simpl-schema
+    - simple-schema
+  
+- id: json_schema
+  name: JSON Schema
+  homepageUrl: https://json-schema.org/
 
 - id: swiper
   name: Swiper
