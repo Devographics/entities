@@ -1,0 +1,136 @@
+#################################################
+# Data Visualization
+#################################################
+
+- id: visx
+  name: Visx
+  npm: null
+  github: airbnb/visx
+  description: "A collection of expressive, low-level visualization primitives for React"
+  homepageUrl: "https://airbnb.io/visx"
+  tags:
+    - data_visualization
+
+- id: nivo
+  name: Nivo
+  npm: nivo
+  github: plouc/nivo
+  description: >-
+    nivo provides a rich set of dataviz components, built on top of the awesome
+    d3 and Reactjs libraries
+  homepageUrl: "https://nivo.rocks"
+  tags:
+    - react
+    - data_visualization
+
+- id: react_flow
+  name: React Flow
+  description: >
+    A highly customizable React component for building node-based editors and interactive diagrams
+  homepageUrl: https://reactflow.dev/
+  github: wbkd/react-flow
+  tags:
+    - react
+    - data_visualization
+
+- id: tremor
+  name: Tremor
+  description: >
+    The React library to build dashboards fast
+  homepageUrl: https://www.tremor.so/
+  tags:
+    - react
+    - data_visualization
+
+- id: recharts
+  name: Recharts
+  npm: recharts
+  github: recharts/recharts
+  description: Redefined chart library built with React and D3
+  homepageUrl: "http://recharts.org"
+  tags:
+    - data_visualization
+
+- id: mermaid
+  name: Mermaid
+  homepageUrl: https://mermaid-js.github.io/mermaid/
+  tags:
+    - data_visualization
+
+- id: victory
+  name: Victory
+  homepageUrl: https://formidable.com/open-source/victory/
+  tags:
+    - data_visualization
+
+- id: chart_js
+  name: Chart.js
+  homepageUrl: https://www.chartjs.org/
+  tags:
+    - data_visualization
+
+- id: plotly
+  name: Plotly
+  homepageUrl: https://plotly.com/javascript/
+  tags:
+    - data_visualization
+
+- id: highcharts
+  name: Highcharts
+  homepageUrl: https://www.highcharts.com/
+  tags:
+    - data_visualization
+
+- id: echarts
+  name: ECharts
+  homepageUrl: https://echarts.apache.org/en/index.html
+  tags:
+    - data_visualization
+
+- id: apexcharts
+  name: ApexCharts
+  homepageUrl: https://apexcharts.com/
+
+- id: vega
+  name: Vega
+  homepageUrl: https://vega.github.io/vega/
+
+- id: chartistjs
+  name: ChartistJS
+  homepageUrl: https://gionkunz.github.io/chartist-js/
+
+- id: ant_design_charts
+  name: Ant Design Charts
+  homepageUrl: https://charts.ant.design/
+
+- id: antv
+  name: AntV
+  homepageUrl: https://antv.antgroup.com/
+
+- id: uplot
+  name: uPlot
+  homepageUrl: https://github.com/leeoniya/uPlot
+
+- id: undici
+  name: Undici
+  homepageUrl: https://undici.nodejs.org/
+
+- id: superagent
+  name: SuperAgent
+  homepageUrl: https://ladjs.github.io/superagent/
+
+- id: react_vis
+  name: React-Vis
+  homepageUrl: https://uber.github.io/react-vis/
+
+- id: ag_charts
+  name: AG Charts
+  homepageUrl: https://charts.ag-grid.com/
+
+- id: ag_grid
+  name: AG Grid
+  homepageUrl: https://www.ag-grid.com/
+
+- id: am_charts
+  name: amCharts
+  homepageUrl: https://www.amcharts.com/

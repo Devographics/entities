@@ -1,0 +1,431 @@
+#################################################
+#
+#   JS
+#
+#################################################
+
+# APIs
+
+- id: destructuring
+  name: Destructuring
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+- id: spread_operator
+  name: Spread Operator
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+- id: arrow_functions
+  name: Arrow Functions
+  mdn: /en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+- id: proxies
+  name: Proxies
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+
+- id: async_await
+  name: Async/Await
+  mdn: /en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
+- id: promises
+  name: Promises
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+- id: decorators
+  name: Decorators
+  # mdn:
+
+- id: maps
+  name: Maps
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
+- id: sets
+  name: Sets
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+
+- id: typed_arrays
+  name: Typed Arrays
+  mdn: /en-US/docs/Web/JavaScript/Typed_arrays
+
+- id: array_prototype_flat
+  name: array.flat()
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
+
+- id: fetch
+  name: Fetch
+  mdn: /en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+- id: i18n
+  name: i18n
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+
+- id: local_storage
+  name: Local Storage
+  mdn: /en-US/docs/Web/API/Window/localStorage
+
+- id: session_storage
+  name: Session Storage
+  mdn: /en-US/docs/Web/API/Window/sessionStorage
+
+- id: document_cookie
+  name: |
+    `document.cookie`
+  mdn: /en-US/docs/Web/API/Document/cookie
+
+- id: indexed_db
+  name: IndexedDB
+  mdn: /en-US/docs/Web/API/IndexedDB_API
+
+- id: cache_storage
+  name: Cache Storage
+  description: |
+    `const cacheStorage = await caches.open(cacheName);`
+  mdn: /en-US/docs/Web/API/CacheStorage
+
+- id: service_workers
+  name: Service Workers
+  mdn: /en-US/docs/Web/API/Service_Worker_API
+
+- id: web_animations
+  name: Web Animations
+  mdn: /en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API
+
+- id: web_audio
+  name: Web Audio
+  mdn: /en-US/docs/Web/API/Web_Audio_API
+
+- id: web_components
+  name: Web Components
+  mdn: /en-US/docs/Web/Web_Components
+
+- id: webgl
+  name: WebGL
+  mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
+
+- id: webrtc
+  name: WebRTC
+  mdn: /en-US/docs/Web/API/WebRTC_API
+
+- id: websocket
+  name: WebSocket
+  mdn: /en-US/docs/Web/API/WebSockets_API
+  patterns:
+    - websockets
+
+- id: web_speech
+  name: Web Speech API
+  mdn: /en-US/docs/Web/API/Web_Speech_API
+
+- id: webvr
+  name: WebVR
+  mdn: /en-US/docs/Web/API/WebVR_API
+
+- id: page_visibility
+  name: Page Visibility API
+  mdn: /en-US/docs/Web/API/Page_Visibility_API
+  caniuse: pagevisibility
+
+- id: broadcast_channel
+  name: Broadcast Channel API
+  mdn: /en-US/docs/Web/API/Broadcast_Channel_API
+  caniuse: broadcastchannel
+
+- id: geolocation
+  name: Geolocation API
+  mdn: /en-US/docs/Web/API/Geolocation_API
+  caniuse: geolocation
+
+- id: file_system_access
+  name: File System Access API
+  mdn: /en-US/docs/Web/API/File_System_Access_API
+  caniuse: native-filesystem-api
+
+- id: web_share
+  name: Web Share API
+  mdn: /en-US/docs/Web/API/Web_Share_API
+  caniuse: web-share
+
+- id: webxr
+  name: WebXR Device API
+  mdn: /en-US/docs/Web/API/WebXR_Device_API
+  caniuse: webxr
+
+# Other Features, Patterns
+
+- id: pwas
+  name: Progressive Web Apps
+  mdn: /en-US/docs/Web/Progressive_web_apps
+  tags:
+    - html_interoperability_features
+
+- id: twa
+  name: Trusted Web Activity
+  homepageUrl: https://developer.chrome.com/docs/android/trusted-web-activity
+
+- id: wasm
+  name: WebAssembly (WASM)
+  mdn: /en-US/docs/WebAssembly
+
+- id: client_side_rendering
+  name: Client-side rendering
+  patterns:
+    - client-side rendering
+    - csr [e]
+
+- id: micro_frontends
+  name: Micro-frontends
+
+# Language
+
+- id: nullish_coalescing
+  name: Nullish Coalescing
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
+  example:
+    language: js
+    code: |
+      const foo = null ?? 'default string';
+      console.log(foo);
+      // expected output: "default string"
+
+      const baz = 0 ?? 42;
+      console.log(baz);
+      // expected output: 0
+  patterns:
+    - elvis
+
+- id: optional_chaining
+  name: Optional Chaining
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+
+- id: private_fields
+  name: Private Fields
+  mdn: /en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
+  example:
+    language: js
+    code: |
+      class ClassWithPrivateField {
+        #privateField
+      }
+
+- id: promise_all_settled
+  name: "`Promise.allSettled()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
+  example:
+    language: js
+    code: |
+      const promises = [promise1, promise2];
+
+      Promise.allSettled(promises).then((results) =>
+        results.forEach((result) => console.log(result.status)),
+      );
+
+- id: dynamic_import
+  name: Dynamic Import
+  mdn: /en-US/docs/Web/JavaScript/Reference/Statements/import
+  example:
+    language: js
+    code: |
+      await import('/modules/my-module.js')
+
+- id: big_int
+  name: "`BigInt`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+
+- id: intl_api
+  name: "`Intl`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+  tags:
+    - html_interoperability_features
+
+- id: custom_elements
+  name: Custom Elements
+  mdn: /en-US/docs/Web/Web_Components
+
+# moved to features_html
+# - id: shadow_dom
+#   name: Shadow DOM
+#   mdn: /en-US/docs/Web/Web_Components
+
+- id: numeric_separators
+  name: Numeric Separators
+  mdn: /en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+  caniuse: mdn-javascript_grammar_numeric_separators
+
+- id: string_replace_all
+  name: "`string.replaceAll()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
+  caniuse: mdn-javascript_builtins_string_replaceall
+  example:
+    language: js
+    code: |
+      const s1 = "foo_bar_baz";
+      const s2 = s1.replaceAll('_', '-');
+
+- id: string_match_all
+  name: "`string.matchAll()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
+  caniuse: mdn-javascript_builtins_string_matchall
+  example:
+    language: js
+    code: |
+      const regexp = /t(e)(st(\d?))/g;
+      const str = 'test1test2';
+      const array = [...str.matchAll(regexp)];
+
+- id: logical_assignment
+  name: Logical Assignment
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment
+  caniuse: mdn-javascript_operators_logical_and_assignment
+  example:
+    language: js
+    code: |
+      const a = { duration: 50, title: '' };
+
+      a.duration ||= 10;
+      console.log(a.duration);
+      // expected output: 50
+
+      a.title ||= 'title is empty.';
+      console.log(a.title);
+      // expected output: "title is empty"
+
+- id: promise_any
+  name: "`Promise.any()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
+  caniuse: mdn-javascript_builtins_promise_any
+  example:
+    language: js
+    code: |
+      const promises = [promise1, promise2, promise3];
+
+      Promise.any(promises).then((value) => console.log(value));
+
+- id: array_at
+  name: "`array.at()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at
+  caniuse: mdn-javascript_builtins_array_at
+
+- id: top_level_await
+  name: Top-level `await`
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/await
+
+- id: temporal
+  name: Temporal
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+- id: array_findlast
+  name: "`array.findLast()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
+  example:
+    language: js
+    code: |
+      const array1 = [5, 12, 50, 130, 44];
+      const found = array1.findLast((element) => element > 45);
+      console.log(found);
+      // expected output: 130
+
+- id: error_cause
+  name: "`error.cause`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause
+  example:
+    language: js
+    code: |
+      try {
+        connectToDatabase();
+      } catch (err) {
+        throw new Error('Connecting to database failed.', { cause: err });
+      }
+
+- id: object_hasown
+  name: "`Object.hasOwn()`"
+  example:
+    language: js
+    code: |
+      const object1 = {
+        prop: 'exists'
+      };
+      console.log(Object.hasOwn(object1, 'prop'));
+      // expected output: true
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
+
+- id: regexp_match_indices
+  name: Regexp Match Indices
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/hasIndices
+  example:
+    language: js
+    code: |
+      const str1 = "foo bar foo";
+      const regex1 = /foo/dg;
+      console.log(regex1.exec(str1).indices[0]); // Output: Array [0, 2]
+
+# js2023
+
+- id: array_to_sorted
+  name: >
+    `array.toSorted()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted
+  example:
+    language: js
+    code: |
+      const values = [1, 10, 21, 2];
+      const sortedValues = values.toSorted((a, b) => a - b);
+      console.log(sortedValues); // [1, 2, 10, 21]
+      console.log(values); // [1, 10, 21, 2]
+
+- id: array_to_reversed
+  name: >
+    `array.toReversed()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed
+  example:
+    language: js
+    code: |
+      const items = [1, 2, 3];
+      const reversedItems = items.toReversed();
+      console.log(reversedItems); // [3, 2, 1]
+      console.log(items); // [1, 2, 3]
+
+- id: array_with
+  name: >
+    `array.with()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/with
+  example:
+    language: js
+    code: |
+      const arr = [1, 2, 3, 4, 5];
+      console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
+
+- id: array_find_last
+  name: >
+    `array.findLast()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
+  example:
+    language: js
+    code: |
+      const inventory = [
+        { name: "bananas", quantity: 0 },
+        { name: "fish", quantity: 1 },
+        { name: "cherries", quantity: 5 },
+      ];
+      console.log(inventory.findLast(item => item.quantity <2));
+      // { name: "fish", quantity: 1 }
+
+- id: array_to_spliced
+  name: >
+    `array.toSpliced()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced
+  example:
+    language: js
+    code: |
+      const months = ["Jan", "Mar", "Apr", "May"];
+
+      // Inserting an element at index 1
+      const months2 = months.toSpliced(1, 0, "Feb");
+
+- id: hashbang_grammar
+  name: Hashbang Grammar
+  mdn: en-US/docs/Web/JavaScript/Reference/Lexical_grammar#hashbang_comments
+  example:
+    language: js
+    code: |
+      #!/usr/bin/env node
+
+      console.log("Hello world");

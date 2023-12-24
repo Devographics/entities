@@ -1,0 +1,61 @@
+- id: ios_android_differences
+  patterns:
+    - diff.*ios.*android [p]
+    - diff.*android.*ios [p]
+    - ios.*android.*diff [p]
+    - android.*ios.*diff [p]
+
+- id: access_to_native_apis
+  patterns:
+    - access.*api [p]
+    - api.*access [p]
+    - access.*camera [p]
+    - camera.*access [p]
+    - native.*api [p]
+
+- id: device_inconsistencies
+  patterns:
+    - cross.*device [p]
+    - cross.*platform [p]
+
+- id: distribution
+
+- id: discovery
+
+- id: notifications
+
+- id: packaging
+
+- id: os_support
+
+- id: firefox_issues
+  patterns:
+    - firefox
+
+# apple_ios_issues
+
+- id: apple_ios_issues
+
+- id: ios_lack_of_pwa_support
+  parentId: apple_ios_issues
+  patterns:
+    - apple.*pwa [p]
+    - pwa.*apple [p]
+    - ios.*pwa [p]
+    - pwa.*ios [p]
+    - ios.*support [p]
+
+- id: other_ios_issues
+  parentId: apple_ios_issues
+  patterns:
+    - ios
+
+- id: other_apple_issues
+  parentId: apple_ios_issues
+  patterns:
+    - apple
+
+- id: other_safari_issues
+  parentId: apple_ios_issues
+  patterns:
+    - safari

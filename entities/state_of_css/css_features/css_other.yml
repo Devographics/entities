@@ -1,0 +1,401 @@
+#################################################
+# CSS other features
+#################################################
+- id: variables
+  name: Variables
+  mdn: /en-US/docs/Web/CSS/CSS_Variables
+  caniuse: css-variables
+  example:
+    language: css
+    code: |
+      :root {
+        --main-bg-color: brown;
+      }
+      .foo {
+        background-color: var(--main-bg-color);
+      }
+  tags:
+    - css
+    - css_other
+
+- id: feature_support_queries
+  name: "`@supports`"
+  mdn: /en-US/docs/Web/CSS/@supports
+  caniuse: css-supports-api
+  example:
+    language: css
+    code: |
+      @supports (display: table-cell) and (display: list-item) {
+        //...
+      }
+  patterns:
+    - "@supports"
+  tags:
+    - css
+    - css_other
+
+- id: containment
+  name: Contain
+  mdn: /en-US/docs/Web/CSS/contain
+  tags:
+    - css
+    - css_other
+
+- id: will_change
+  name: "`will-change`"
+  mdn: /en-US/docs/Web/CSS/will-change
+  caniuse: will-change
+  tags:
+    - css
+    - css_other
+
+- id: calc
+  name: "`calc()`"
+  mdn: /en-US/docs/Web/CSS/calc
+  caniuse: calc
+  tags:
+    - css
+    - css_other
+
+- id: houdini
+  name: CSS Houdini
+  mdn: /en-US/docs/Web/Houdini
+  caniuse: css-paint-api
+  tags:
+    - css
+    - css_other
+
+- id: scroll_margin_scroll_padding
+  name: "`scroll-padding`"
+  mdn: /en-US/docs/Web/CSS/scroll-padding
+  caniuse: mdn-css_properties_scroll-padding
+  tags:
+    - css
+    - css_other
+
+- id: at_property
+  name: "`@property`"
+  mdn: /en-US/docs/Web/CSS/@property
+  caniuse: mdn-css_at-rules_property
+  example:
+    language: css
+    code: |
+      @property --property-name {
+        syntax: "<color>";
+        inherits: false;
+        initial-value: #c0ffee;
+      }
+  tags:
+    - css
+    - css_other
+
+- id: at_layer
+  name: "`@layer`"
+  w3c: https://www.w3.org/TR/css-cascade-5/
+  tags:
+    - css
+    - css_other
+
+- id: resize
+  name: "`resize`"
+  mdn: /en-US/docs/Web/CSS/resize
+  caniuse: css-resize
+  tags:
+    - css
+    - css_other
+
+- id: content_visibility
+  name: "`content-visibility`"
+  mdn: /en-US/docs/Web/CSS/content-visibility
+  caniuse: css-content-visibility
+  example:
+    language: css
+    code: |
+      .card {
+        content-visibility: auto;
+        contain-intrinsic-size: 350px;
+      }
+  tags:
+    - css
+    - css_other
+
+- id: viewport_units
+  mdn: /en-US/docs/Web/CSS/length
+  caniuse: viewport-units
+  patterns:
+    - vh
+    - vw
+  tags:
+    - css
+    - css_other
+
+- id: cascade_layers
+  mdn: /en-US/docs/Web/CSS/@layer
+  caniuse: css-cascade-layers
+  example:
+    language: css
+    code: |
+      @layer layer-name {rules}
+  tags:
+    - css
+    - css_other
+
+- id: math_functions
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  tags:
+    - css
+    - css_other
+
+- id: comparison_functions
+  description: >
+    `min()`, `max()`, `clamp()`
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  example:
+    language: css
+    code: |
+      .element {
+        width: clamp(100px, 50vw, 600px);
+      }
+  tags:
+    - css
+    - css_other
+
+- id: trigonometric_functions
+  description: >
+    `sin()`, `cos()`, `tan()`…
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  tags:
+    - css
+    - css_other
+
+- id: exponential_functions
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  tags:
+    - css
+    - css_other
+
+- id: sign_related_functions
+  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  caniuse: css-math-functions
+  tags:
+    - css
+    - css_other
+
+- id: stepped_value_functions
+  mdn:
+  caniuse:
+  tags:
+    - css
+    - css_other
+
+- id: css_nesting
+  w3c: TR/css-nesting-1/
+  mdn:
+  caniuse:
+  example:
+    language: css
+    code: |
+      .parent {
+        color: blue;
+
+        .child {
+          color: red;
+        }
+      }
+  patterns:
+    - nested select(or|ion)
+  resources:
+    - title: CSS Nesting
+      url: https://developer.chrome.com/articles/css-nesting/
+      language: en-US
+  tags:
+    - css
+    - css_other
+
+- id: env_function
+  name: "`env()` Function"
+  mdn:
+  caniuse:
+  tags:
+    - css
+    - css_other
+
+- id: shadow_dom_css
+  description: >
+    `::part()`, `:host()`, `::slotted()`
+  mdn: /en-US/docs/Web/CSS/::part
+  caniuse: mdn-api_element_part
+  example:
+    language: css
+    code: |
+      custom-element::part(foo) {
+        /* Styles to apply to the `foo` part */
+      }
+
+      :host(.special-custom-element) {
+        font-weight: bold;
+      }
+
+      ::slotted(*) {
+        font-weight: bold;
+      }
+  tags:
+    - css
+    - css_shadow_dom
+    - css_other
+
+- id: shadow_dom_part
+  name: Shadow DOM `::part()`
+  mdn: /en-US/docs/Web/CSS/::part
+  caniuse: mdn-api_element_part
+  example:
+    language: css
+    code: |
+      custom-element::part(foo) {
+        /* Styles to apply to the `foo` part */
+      }
+  tags:
+    - css
+    - css_shadow_dom
+    - css_other
+
+- id: shadow_dom_host
+  name: Shadow DOM `:host()`
+  mdn: /en-US/docs/Web/CSS/:host_function
+  caniuse: mdn-api_shadowroot_host
+  example:
+    language: css
+    code: |
+      :host(.special-custom-element) {
+        font-weight: bold;
+      }
+  tags:
+    - css
+    - css_shadow_dom
+    - css_other
+
+- id: shadow_dom_slotted
+  name: Shadow DOM `::slotted()`
+  mdn: /en-US/docs/Web/CSS/::slotted
+  caniuse: mdn-css_selectors_slotted
+  example:
+    language: css
+    code: |
+      ::slotted(*) {
+        font-weight: bold;
+      }
+  tags:
+    - css
+    - css_shadow_dom
+    - css_other
+
+- id: image_set
+  name: "`image-set()`"
+  mdn: /en-US/docs/Web/CSS/image/image-set
+  caniuse: css-image-set
+  example:
+    language: css
+    code: |
+      .box {
+        background-image: image-set(
+          url("small-balloons.jpg") 1x,
+          url("large-balloons.jpg") 2x);
+      }
+  tags:
+    - css
+    - css_other
+
+- id: image_function
+  name: "`image()`"
+  mdn: /en-US/docs/Web/CSS/image/image
+  caniuse: mdn-css_types_image_image
+  example:
+    language: css
+    code: |
+      .foo {
+        background-image: image("myimage.webp#xywh=0,20,40,60");
+      }
+  tags:
+    - css
+    - css_other
+
+- id: attr_function
+  name: "`attr()`"
+  mdn: /en-US/docs/Web/CSS/attr
+  caniuse: css3-attr
+  tags:
+    - css
+    - css_other
+
+- id: individual_transform_properties
+  # mdn:
+  # caniuse:
+  example:
+    language: css
+    code: |
+      .target {
+        translate: 50% 0;
+        rotate: 30deg;
+        scale: 1.2;
+      }
+  tags:
+    - css
+    - css_other
+
+- id: at_scope
+  # mdn:
+  # caniuse:
+  w3c: https://drafts.csswg.org/css-cascade-6/#scope-atrule
+  example:
+    language: css
+    code: |
+      @scope (.card) {
+        :scope {
+          padding: 1rem;
+        }
+
+        .title {
+          font-size: 1.2rem;
+        }
+      }
+  tags:
+    - css
+    - css_other
+
+- id: css_toggles
+  name: CSS Toggles
+  resources:
+    - title: Unofficial Proposal Draft
+      url: https://tabatkins.github.io/css-toggle/
+  example:
+    language: css
+    code: |
+      li {
+        toggle: --check self;
+      }
+      li:toggle(--check) {
+        color: silver;
+        text-decoration: line-through;
+      }
+
+- id: anchor_positioning
+  name: Anchor Positioning
+  example:
+    language: css
+    code: |
+      .slider-link {
+        anchor-name: var(--is);
+      }
+  resources:
+    - title: >
+        Future CSS: Anchor Positioning
+      url: https://kizu.dev/anchor-positioning-experiments/
+    - title: >
+        Tether elements to each other with CSS anchor positioning
+      url: https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/
+  tags:
+    - html_interoperability_features

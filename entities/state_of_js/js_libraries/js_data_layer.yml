@@ -1,0 +1,188 @@
+#################################################
+# Data Layer
+#################################################
+
+- id: redux
+  name: Redux
+  npm: redux
+  github: reduxjs/redux
+  description: Predictable state container for JavaScript apps
+  homepageUrl: "https://redux.js.org"
+
+- id: apollo
+  name: Apollo Client
+  npm: apollo-client
+  github: apollographql/apollo-client
+  description: >-
+    A fully-featured, production ready caching GraphQL client for every UI
+    framework and GraphQL server
+  homepageUrl: "https://apollographql.com/client"
+
+# removed because it matches too many libraries in the GraphQL ecosystem
+# - id: graphql
+#   name: GraphQL
+#   npm: graphql-relay
+#   github: graphql/graphql-spec
+#   description: >-
+#     GraphQL is a query language and execution engine tied to any backend
+#     service.
+#   homepageUrl: "https://spec.graphql.org"
+
+- id: mobx
+  name: MobX
+  npm: mobx
+  github: mobxjs/mobx
+  description: "Simple, scalable state management."
+  homepageUrl: "http://mobx.js.org"
+
+- id: relay
+  name: Relay
+  npm: react-relay
+  github: facebook/relay
+  description: Relay is a JavaScript framework for building data-driven React applications.
+  homepageUrl: "https://relay.dev"
+
+- id: xstate
+  name: XState
+  npm: xstate
+  github: davidkpiano/xstate
+  description: State machines and statecharts for the modern web.
+  homepageUrl: "https://xstate.js.org/docs"
+
+- id: vuex
+  name: Vuex
+  npm: vuex
+  github: vuejs/vuex
+  description: Centralized State Management for Vue.js.
+  homepageUrl: "https://vuex.vuejs.org"
+
+- id: swr
+  name: SWR
+  npm: swr
+  github: vercel/swr
+  description: React Hooks library for remote data fetching
+  homepageUrl: "https://swr.vercel.app"
+  tags:
+    - data_fetching
+
+- id: react_query
+  name: React Query
+  npm: react-query
+  github: tannerlinsley/react-query
+  description: "Hooks for fetching, caching and updating asynchronous data in React"
+  homepageUrl: "https://react-query.tanstack.com"
+
+- id: recoil
+  name: Recoil
+  npm: recoil
+  github: facebookexperimental/Recoil
+  description: An experimental state management library for React apps
+  homepageUrl: "http://recoiljs.org/"
+
+- id: ngrx
+  name: NgRx
+  npm: null
+  github: ngrx/platform
+  description: Reactive libraries for Angular
+  homepageUrl: "https://ngrx.io"
+
+- id: effector
+  name: Effector
+  npm: effector
+  github: effector/effector
+  description: Reactive state manager
+  homepageUrl: "https://effector.dev"
+
+- id: zustand
+  name: Zustand
+  npm: zustand
+  github: pmndrs/zustand
+  description: Bear necessities for state management in React
+  homepageUrl: "https://zustand.surge.sh"
+
+- id: akita
+  name: Akita
+  npm: "@datorama/akita"
+  github: datorama/akita
+  description: State Management Tailored-Made for JS Applications
+  homepageUrl: "https://datorama.github.io/akita/"
+
+- id: jotai
+  name: Jotai
+  npm: jotai
+  github: pmndrs/jotai
+  description: "Primitive, flexible state management for React"
+  homepageUrl: "https://jotai.surge.sh"
+
+- id: ember_data
+  name: ember-data
+  npm: ember-data
+  github: emberjs/data
+  description: A data persistence library for Ember.js.
+  homepageUrl: https://github.com/emberjs/data
+
+- id: ngxs
+  name: NGXS
+  npm: "@ngxs/store"
+  github: ngxs/store
+  description: NGXS - State Management for Angular
+  homepageUrl: "http://ngxs.io"
+
+- id: redux_saga
+  name: Redux-Saga
+  npm: redux-saga
+  github: redux-saga/redux-saga
+  description: An alternative side effect model for Redux apps
+  homepageUrl: "https://redux-saga.js.org/"
+
+- id: urql
+  name: URQL
+  npm: urql
+  github: FormidableLabs/urql
+  description: The highly customizable and versatile GraphQL client.
+  homepageUrl: "https://formidable.com/open-source/urql/docs/"
+
+- id: storeon
+  name: Storeon
+  npm: storeon
+  github: storeon/storeon
+  description: "\U0001F329 A tiny (185 bytes) event-based Redux-like state manager for React, Preact, Angular, Vue, and Svelte"
+  homepageUrl: "https://evilmartians.com/chronicles/storeon-redux-in-173-bytes"
+
+- id: overmind
+  name: Overmind
+  npm: overmind
+  github: cerebral/overmind
+  description: Frictionless state management
+  homepageUrl: "https://overmindjs.org"
+
+#################################################
+# Data Fetching
+#################################################
+
+- id: trpc
+  name: tRPC
+  homepageUrl: https://trpc.io/
+  tags:
+    - data_fetching
+
+- id: tanstack_query
+  name: TanStack Query (React Query)
+  homepageUrl: https://tanstack.com/query/v4
+  patterns:
+    - react query
+  tags:
+    - data_fetching
+
+- id: tanstack_forms
+  name: TanStack Forms
+  github: TanStack/form
+  homepageUrl: https://tanstack.com/form
+  tags:
+    - forms
+
+- id: rtk_query
+  name: RTK Query
+  homepageUrl: https://redux-toolkit.js.org/rtk-query/overview
+  tags:
+    - data_fetching

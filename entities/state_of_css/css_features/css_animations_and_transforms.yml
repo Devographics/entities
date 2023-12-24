@@ -1,0 +1,43 @@
+#################################################
+# CSS animations & transforms
+#################################################
+
+- id: transitions
+  mdn: /en-US/docs/Web/CSS/CSS_Transitions
+  caniuse: css-transitions
+  tags:
+    - css
+    - css_animations_and_transforms
+
+- id: transforms
+  mdn: /en-US/docs/Web/CSS/CSS_Transforms
+  caniuse: transforms2d
+  tags:
+    - css
+    - css_animations_and_transforms
+
+- id: animations
+  mdn: /en-US/docs/Web/CSS/CSS_Animations
+  caniuse: css-animation
+  patterns:
+    - animation
+  tags:
+    - css
+    - css_animations_and_transforms
+
+- id: perspective
+  name: "`perspective`"
+  mdn: /en-US/docs/Web/CSS/perspective
+  caniuse: mdn-api_cssperspective
+  example:
+    language: css
+    code: |
+      .scene {
+        perspective: 400px;
+      }
+      .square {
+        transform: rotateY(45deg);
+      }
+  tags:
+    - css
+    - css_animations_and_transforms

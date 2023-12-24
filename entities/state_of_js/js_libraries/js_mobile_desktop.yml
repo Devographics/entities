@@ -1,0 +1,154 @@
+#################################################
+# Mobile
+#################################################
+
+- id: electron
+  name: Electron
+  npm: electron
+  github: electron/electron
+  # description: "Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+  homepageUrl: "https://electronjs.org"
+
+- id: reactnative
+  name: React Native
+  homepageUrl: https://facebook.github.io/react-native/
+  patterns:
+    - react( |_|-)?native
+
+# TODO: avoid duplicate
+# necessary because for State of JS we match on exact ID
+- id: react_native
+  name: React Native
+  homepageUrl: https://facebook.github.io/react-native/
+  patterns:
+    - react( |_|-)?native
+
+- id: nativeapps
+  name: Native Apps
+  description: "The majority of mobile and desktop apps are still built with native languages like Java, Kotlin, Objective-C, or Swift.\n"
+
+- id: cordova
+  description: "Apache Cordova is a mobile application development framework.\n"
+  name: Cordova
+
+- id: ionic
+  name: Ionic
+  npm: "@ionic/core"
+  github: ionic-team/ionic-framework
+  description: >-
+    A powerful cross-platform UI toolkit for building native-quality iOS,
+    Android, and Progressive Web Apps with HTML, CSS, and JavaScript.
+  homepageUrl: "https://ionicframework.com"
+
+- id: nwjs
+  name: NW.js
+  npm: null
+  github: nwjs/nw.js
+  description: >-
+    Call all Node.js modules directly from DOM/WebWorker and enable a new way of
+    writing applications with all Web technologies.
+  homepageUrl: "https://nwjs.io"
+
+- id: expo
+  name: Expo
+  npm: expo
+  github: expo/expo
+  description: >-
+    An open-source platform for making universal native apps with React. Expo
+    runs on Android, iOS, and the web.
+  homepageUrl: "https://docs.expo.io"
+
+- id: flutter
+  name: Flutter
+  homepageUrl: https://flutter.io/
+  tags:
+    - mobile-desktop
+
+- id: xamarin
+  name: Xamarin
+  homepageUrl: https://visualstudio.microsoft.com/xamarin/
+  tags:
+    - mobile-desktop
+
+- id: capacitor
+  name: Capacitor
+  homepageUrl: https://capacitor.ionicframework.com/
+  tags:
+    - mobile-desktop
+
+- id: quasar
+  name: Quasar
+  npm: null
+  github: quasarframework/quasar
+  description: >-
+    Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps,
+    Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same
+    codebase.
+  homepageUrl: "https://quasar.dev"
+
+- id: nativescript
+  name: NativeScript
+  npm: nativescript
+  github: NativeScript/NativeScript
+  description: >-
+    NativeScript empowers you to access native api's from JavaScript directly.
+    Angular, Vue, Svelte, React and you name it compatible.
+  homepageUrl: "https://www.nativescript.org"
+
+- id: svelte_native
+  name: Svelte Native
+  npm: null
+  github: halfnelson/svelte-native
+  description: Svelte controlling native components via Nativescript
+  homepageUrl: https://svelte-native.technology/
+
+- id: vue_native
+  name: Vue Native
+  npm: vue-native
+  github: GeekyAnts/vue-native-core
+  description: >-
+    Vue Native is a framework to build cross platform native mobile apps using
+    JavaScript
+  homepageUrl: "https://vue-native.io"
+
+- id: framework7
+  name: Framework7
+  npm: framework7
+  github: framework7io/framework7
+  description: Full featured HTML framework for building iOS & Android apps
+  homepageUrl: "http://framework7.io"
+
+- id: tauri
+  name: Tauri
+  npm: tauri
+  github: tauri-apps/tauri
+  description: Build smaller, faster, and more secure desktop applications with a web frontend
+  homepageUrl: https://tauri.studio/
+
+- id: neutralino
+  name: Neutralinojs
+  homepageUrl: https://neutralino.js.org/
+
+- id: nodegui
+  name: NodeGUI
+  homepageUrl: https://docs.nodegui.org/
+
+- id: titanium
+  name: Titanium
+  homepageUrl: https://titaniumsdk.com/
+
+- id: chakracore
+  name: ChakraCore
+  github: ChakraCore
+  homepageUrl: https://github.com/microsoft/ChakraCore
+
+- id: hermes
+  name: Hermes
+  npm: null
+  github: facebook/hermes
+  description: " A small and lightweight JavaScript engine optimized for running React Native on Android"
+  homepageUrl: "https://hermesengine.dev"
+
+- id: create_react_app
+  name: Create React App
+  homepageUrl: https://create-react-app.dev/

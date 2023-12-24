@@ -1,0 +1,88 @@
+- id: eleventy
+  name: Eleventy
+  npm: "@11ty/eleventy"
+  github: 11ty/eleventy
+  # description: >-
+  #   A simpler static site generator. An alternative to Jekyll. Transforms a
+  #   directory of templates (of varying types) into HTML.
+  patterns:
+    - https://www.11ty.dev/
+    - 11ty
+  homepageUrl: "https://www.11ty.dev/"
+
+- id: astro
+  name: Astro
+  npm: astro
+  github: withastro/astro
+  # description: >-
+  #   Build faster websites with less client-side Javascript
+  homepageUrl: https://astro.build/
+
+- id: blitz
+  name: Blitz
+  npm: blitz
+  github: blitz-js/blitz
+  description: >-
+    The Fullstack React Framework
+  homepageUrl: https://blitzjs.com/
+
+- id: remix
+  name: Remix
+  npm: create-remix
+  github: remix-run/remix
+  description: >-
+    Build Better Websites. Create modern, resilient user experiences with web fundamentals.
+  homepageUrl: https://remix.run/
+
+- id: sveltekit
+  name: SvelteKit
+  npm: "@sveltejs/kit"
+  github: sveltejs/kit
+  description: >-
+    The fastest way to build Svelte apps
+  homepageUrl: https://kit.svelte.dev/
+  patterns:
+    - sevlt( |-)?kit
+    - svelete( |-)?kit
+    - svelte( |-)?kit
+
+- id: solidstart
+  name: SolidStart
+  github: solidjs/solid-start
+  homepageUrl: https://start.solidjs.com/
+
+- id: docusaurus
+  name: Docusaurus
+  github: facebook/docusaurus
+  homepageUrl: https://docusaurus.io/
+
+- id: fresh
+  name: Deno Fresh
+  homepageUrl: https://fresh.deno.dev/
+
+- id: nuxt_3
+  name: Nuxt 3
+  homepageUrl: https://nuxtjs.org/
+
+- id: nextjs_landing_page_template
+  name: NextJS Landing Page Template
+  homepageUrl: https://creativedesignsguru.com/
+
+- id: solid_start
+  name: SolidStart
+  homepageUrl: https://start.solidjs.com/
+
+- id: vuepress
+  name: VuePress
+  homepageUrl: https://vuepress.vuejs.org/
+
+- id: nextra
+  name: Nextra
+  homepageUrl: https://nextra.site/
+
+- id: elysia
+  name: ElysiaJS
+  homepageUrl: https://elysiajs.com/
+  patterns:
+    - elysia [p]
+  github: elysiajs/elysia

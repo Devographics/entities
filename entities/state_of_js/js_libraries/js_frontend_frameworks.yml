@@ -1,0 +1,214 @@
+#################################################
+# Front-end Frameworks
+#################################################
+
+- id: react
+  name: React
+  npm: react
+  github: facebook/react
+  homepageUrl: https://reactjs.org/
+  description: >-
+    A declarative, efficient, and flexible JavaScript library for building user
+    interfaces.
+
+# TODO: get rid of duplicate
+# - id: vue
+#   name: Vue.js
+#   npm: vue
+#   github: vuejs/vue
+#   description: "A progressive, incrementally-adoptable framework for building UI on the web"
+#   homepageUrl: "http://vuejs.org"
+#   patterns:
+#     - vue
+
+- id: vuejs
+  name: Vue.js
+  npm: vue
+  github: vuejs/vue
+  description: "A progressive, incrementally-adoptable framework for building UI on the web"
+  homepageUrl: "http://vuejs.org"
+  patterns:
+    - vue
+
+- id: angular
+  name: Angular
+  npm: "@angular/core"
+  github: angular/angular
+  description: One framework. Mobile & desktop.
+  homepageUrl: "https://angular.io"
+
+- id: angular_elements
+  name: Angular Elements
+  homepageUrl: https://angular.io/guide/elements
+
+- id: angular-1
+  name: Angular 1
+  npm: angular
+  github: angular/angular.js
+  description: AngularJS - HTML enhanced for web apps!
+  homepageUrl: "https://angularjs.org"
+  patterns:
+    - angularjs
+
+- id: preact
+  name: Preact
+  npm: preact
+  github: preactjs/preact
+  description: >-
+    Fast 3kB React alternative with the same modern API. Components & Virtual
+    DOM.
+  homepageUrl: "https://preactjs.com"
+
+- id: ember
+  name: Ember
+  npm: ember-source
+  github: emberjs/ember.js
+  description: A JavaScript framework for creating ambitious web applications
+  homepageUrl: "https://emberjs.com"
+
+- id: svelte
+  name: Svelte
+  github: sveltejs/svelte
+  description: Cybernetically enhanced web apps
+  homepageUrl: "https://svelte.dev"
+
+- id: alpinejs
+  name: Alpine.js
+  npm: alpinejs
+  github: alpinejs/alpine
+  homepageUrl: https://github.com/alpinejs/alpine
+  patterns:
+    - alpine
+  description: >
+    A rugged, minimal framework for composing JavaScript behavior in your
+    markup.
+
+- id: litelement
+  name: Lit
+  npm: lit
+  github: lit/lit
+  description: >
+    Simple. Fast. Web Components.
+  homepageUrl: "https://lit.dev/"
+  patterns:
+    - lit
+
+- id: stimulus
+  name: Stimulus
+  npm: stimulus
+  github: stimulusjs/stimulus
+  description: A modest JavaScript framework for the HTML you already have
+  homepageUrl: "https://stimulusjs.org/"
+
+- id: stencil
+  name: Stencil
+  npm: null
+  github: ionic-team/stencil
+  description: >-
+    A Web Component compiler for building fast, reusable UI components and
+    static site generated Progressive Web Apps
+  homepageUrl: "https://stenciljs.com"
+
+- id: solid
+  name: Solid
+  npm: solid-js
+  github: solidjs/solid
+  description: >-
+    A declarative, efficient, and flexible JavaScript library for building user
+    interfaces.
+  homepageUrl: https://www.solidjs.com/
+
+- id: marko
+  name: Marko
+  npm: marko
+  github: marko-js/marko
+  description: "A declarative, HTML-based language that makes building web apps fun"
+  homepageUrl: "https://markojs.com/"
+
+- id: polymer
+  name: Polymer
+  npm: polymer
+  github: Polymer/polymer
+  description: Our original Web Component library.
+  homepageUrl: "https://polymer-library.polymer-project.org/"
+
+- id: lit_html
+  name: lit-html
+  npm: lit-html
+  github: Polymer/lit-html
+  description: "An efficient, expressive, extensible HTML templating library for JavaScript."
+  homepageUrl: "https://lit-html.polymer-project.org/"
+
+- id: hyperapp
+  name: Hyperapp
+  npm: hyperapp
+  github: jorgebucaran/hyperapp
+  description: The tiny framework for building hypertext applications.
+  homepageUrl: https://github.com/jorgebucaran/hyperapp
+
+- id: backbone
+  name: Backbone
+  npm: backbone
+  github: jashkenas/backbone
+  description: "Give your JS App some Backbone with Models, Views, Collections, and Events"
+  homepageUrl: "http://backbonejs.org"
+
+- id: mithril
+  name: Mithril
+  npm: mithril
+  github: MithrilJS/mithril.js
+  description: A JavaScript Framework for Building Brilliant Applications
+  homepageUrl: "https://mithril.js.org"
+
+- id: hyperhtml
+  name: hyperHTML
+  npm: hyperhtml
+  github: WebReflection/hyperHTML
+  description: A Fast & Light Virtual DOM Alternative
+  homepageUrl: https://viperhtml.js.org/hyper.html
+
+- id: cyclejs
+  name: Cycle.js
+  npm: "@cycle/rx-run"
+  github: cyclejs/cyclejs
+  description: A functional and reactive JavaScript framework for predictable code
+  homepageUrl: "http://cycle.js.org"
+  patterns:
+    - cycle
+
+- id: riotjs
+  name: RiotJS
+  npm: riot
+  github: riot/riot
+  description: Simple and elegant component-based UI library
+  homepageUrl: "https://riot.js.org"
+
+- id: knockout
+  name: Knockout
+  npm: knockout
+  github: knockout/knockout
+  description: "Knockout makes it easier to create rich, responsive UIs with JavaScript"
+  homepageUrl: "http://knockoutjs.com/"
+
+- id: aurelia
+  name: Aurelia
+  npm: aurelia-framework
+  github: aurelia/framework
+  description: >-
+    The Aurelia 1 framework entry point, bringing together all the required
+    sub-modules of Aurelia.
+  homepageUrl: https://aurelia.io/
+
+- id: openui5
+  name: OpenUI5
+  homepageUrl: https://openui5.org/
+
+- id: htmx
+  name: HTMX
+  homepageUrl: https://htmx.org/
+
+- id: qwik
+  name: Qwik
+  # npm: null
+  github: builderIO/Qwik
+  homepageUrl: https://qwik.builder.io/

@@ -1,0 +1,43 @@
+- id: shadcn_ui
+  name: shadcn/ui
+  homepageUrl: https://ui.shadcn.com/
+
+- id: blueprint_js
+  name: Blueprint
+  homepageUrl: https://blueprintjs.com/
+
+- id: ariakit
+  name: Ariakit
+  description: >
+    Ariakit is an open source library that provides lower-level React components and hooks for building accessible web apps, design systems, and component libraries.
+  homepageUrl: https://ariakit.org/
+
+- id: react_aria
+  name: React Aria
+  description: >
+    A library of React Hooks that provides accessible UI primitives for your design system.
+  homepageUrl: https://react-spectrum.adobe.com/react-aria/
+
+- id: reach_ui
+  name: Reach UI
+  description: >
+    Reach UI seeks to become the accessible foundation of your React-based design system.
+  homepageUrl: https://reach.tech/
+
+- id: react_bootstrap
+  name: React Bootstrap
+  homepageUrl: https://react-bootstrap.netlify.app/
+
+- id: chakra_ui
+  name: Chakra UI
+  homepageUrl: https://chakra-ui.com/
+  patterns:
+    - chakra
+
+- id: theme_ui
+  name: Theme UI
+  homepageUrl: https://theme-ui.com/home/
+
+- id: react_admin
+  name: react-admin
+  homepageUrl: https://marmelab.com/react-admin/

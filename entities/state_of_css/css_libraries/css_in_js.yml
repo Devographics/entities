@@ -1,0 +1,141 @@
+#################################################
+# CSS in JS
+#################################################
+
+- id: styled_components
+  name: Styled Components
+  contexts: [state_of_css]
+  npm: styled-components
+  github: styled-components/styled-components
+  description: >-
+    Visual primitives for the component age. Use the best bits of ES6 and CSS to
+    style your apps without stress
+  homepageUrl: "https://styled-components.com"
+  patterns:
+    - style(d)?( |-|_)?component(s)?
+    - style(d)?( |-|_)?componetns
+
+- id: jss
+  name: JSS
+  contexts: [state_of_css]
+  github: cssinjs/jss
+  homepageUrl: https://cssinjs.org
+
+- id: styled_jsx
+  name: Styled JSX
+  contexts: [state_of_css]
+  npm: styled-jsx
+  github: zeit/styled-jsx
+  description: Full CSS support for JSX without compromises
+  homepageUrl: https://github.com/vercel/styled-jsx
+
+- id: radium
+  name: Radium
+  contexts: [state_of_css]
+  github: FormidableLabs/radium
+  npm: "@emotion/core"
+  homepageUrl: https://formidable.com/open-source/radium/
+
+- id: emotion
+  name: Emotion
+  contexts: [state_of_css]
+  npm: emotion
+  github: emotion-js/emotion
+  description: CSS-in-JS library designed for high performance style composition
+  homepageUrl: "https://emotion.sh/"
+
+- id: css_modules
+  name: CSS Modules
+  contexts: [state_of_css]
+  github: css-modules/css-modules
+  homepageUrl: https://github.com/css-modules/css-modules
+
+- id: styled_system
+  name: Styled System
+  contexts: [state_of_css]
+  homepageUrl: https://styled-system.com/
+
+- id: stitches
+  name: Stitches
+  contexts: [state_of_css]
+  github: modulz/stitches
+  homepageUrl: https://stitches.dev/
+
+- id: panda_css
+  name: Panda
+  homepageUrl: https://panda-css.com/
+  patterns:
+    - panda
+
+- id: styletron
+  name: Styletron
+  contexts: [state_of_css]
+  npm: styletron-engine-atomic
+  github: styletron/styletron
+  description: Toolkit for component-oriented styling
+  homepageUrl: "https://www.styletron.org"
+
+- id: fela
+  name: Fela
+  contexts: [state_of_css]
+  npm: fela
+  github: robinweser/fela
+  description: State-Driven Styling in JavaScript
+  homepageUrl: "http://fela.js.org"
+
+- id: linaria
+  name: Linaria
+  contexts: [state_of_css]
+  npm: linaria
+  github: callstack/linaria
+  description: Zero-runtime CSS in JS library
+  homepageUrl: "https://linaria.dev/"
+
+- id: astroturf
+  name: Astroturf
+  contexts: [state_of_css]
+  npm: astroturf
+  github: 4Catalyzer/astroturf
+  homepageUrl: https://github.com/4Catalyzer/astroturf
+  description: >
+    An "artificial" CSS-in-JS for those that want it all.
+
+- id: twin
+  name: Twin
+  contexts: [state_of_css]
+  npm: twin.macro
+  github: ben-rogerson/twin.macro
+  description: >
+    Twin blends the magic of Tailwind with the flexibility of css-in-js.
+
+- id: goober
+  name: Goober
+  contexts: [state_of_css]
+  npm: twin.macro
+  homepageUrl: https://goober.rocks/
+  github: cristianbote/goober
+  description: >
+    A less than 1KB css-in-js alternative with a familiar API.
+
+- id: windi_css
+  name: Windi CSS
+  contexts: [state_of_css]
+  homepageUrl: https://windicss.org/
+  github: windicss/windicss
+  description: >
+    Next generation utility-first CSS framework.
+
+- id: goober
+  name: Goober
+  homepageUrl: https://github.com/cristianbote/goober
+  github: cristianbote/goober
+
+- id: vanilla_extract
+  name: vanilla-extract
+  homepageUrl: https://vanilla-extract.style/
+  github: seek-oss/vanilla-extract
+
+- id: aphrodite
+  name: Aphrodite
+  homepageUrl: https://github.com/Khan/aphrodite
+  github: Khan/aphrodite

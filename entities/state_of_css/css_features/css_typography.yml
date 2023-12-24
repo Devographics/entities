@@ -1,0 +1,185 @@
+#################################################
+# CSS typography
+#################################################
+
+- id: web_fonts
+  name: "`@font-face`"
+  mdn: /en-US/docs/Web/CSS/@font-face
+  caniuse: fontface
+  tags:
+    - css
+    - css_typography
+
+- id: variable_fonts
+  name: Variable Fonts
+  mdn: /en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+  example:
+    language: css
+    code: |
+      @font-face {
+        font-family: "Fraunces";
+        src: url("fraunces.woff2") format("woff2");
+        font-weight: 200 700;
+      }
+
+      h2 {
+        font-family: "Fraunces";
+        font-variation-settings: "wght" 375, "SOFT" 100;
+      }
+  caniuse: variable-fonts
+  tags:
+    - css
+    - css_typography
+
+- id: line_breaking
+  name: Line Breaking Properties
+  description: >
+    `overflow-wrap`, `word-break`, `line-break`, `hyphens`
+  mdn: /en-US/docs/Web/CSS/line-break
+  tags:
+    - css
+    - css_typography
+
+- id: font_variant
+  name: "`font-variant`"
+  mdn: /en-US/docs/Web/CSS/font-variant
+  caniuse: font-variant-alternates
+  tags:
+    - css
+    - css_typography
+
+- id: initial_letter
+  name: "`initial-letter`"
+  mdn: /en-US/docs/Web/CSS/initial-letter
+  caniuse: css-initial-letter
+  tags:
+    - css
+    - css_typography
+
+- id: font_variant_numeric
+  name: "`font-variant-numeric`"
+  mdn: /en-US/docs/Web/CSS/font-variant-numeric
+  caniuse: font-variant-numeric
+  tags:
+    - css
+    - css_typography
+
+- id: font_display
+  name: "`font-display`"
+  mdn: /en-US/docs/Web/CSS/@font-face/font-display
+  caniuse: css-font-rendering-controls
+  example:
+    language: css
+    code: |
+      @font-face {
+        font-family: ExampleFont;
+        src: url(/path/to/fonts/examplefont.woff) format("woff");
+        font-display: fallback;
+      }
+  tags:
+    - css
+    - css_typography
+
+- id: line_clamp
+  name: "`line-clamp`"
+  mdn: /en-US/docs/Web/CSS/-webkit-line-clamp
+  caniuse: css-line-clamp
+  example:
+    language: css
+    code: |
+      p {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+  tags:
+    - css
+    - css_typography
+
+- id: text_box_trim
+  name: "`text-box-edge`/`text-box-trim`"
+  w3c: https://drafts.csswg.org/css-inline-3/#propdef-leading-trim
+  caniuse: css-text-box-trim
+  tags:
+    - css
+    - css_typography
+  resources:
+    - title: "Leading-Trim: The Future of Digital Typesetting"
+      url: https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202
+      language: en-US
+  patterns:
+    - leading( |-)?trim
+
+- id: direction
+  name: "`direction`"
+  mdn: /en-US/docs/Web/CSS/direction
+  caniuse: mdn-css_properties_direction
+  tags:
+    - css
+    - css_typography
+
+- id: text_decoration_style
+  name: "`text-decoration-style`"
+  mdn: /en-US/docs/Web/CSS/text-decoration-style
+  caniuse: text-decoration
+  tags:
+    - css
+    - css_typography
+
+- id: font_palette
+  name: "`font-palette`"
+  caniuse: css-font-palette
+  w3c: /TR/css-fonts-4/#propdef-font-palette
+  mdn: /en-US/docs/Web/CSS/font-palette
+  example:
+    language: css
+    code: |
+      @font-palette-values --PinkAndGray {
+        font-family: bungee;
+        override-colors:
+          0 #c1cbed,
+          1 #ff3a92;
+      }
+      .grays {
+        font-family: bungee;
+        font-palette: --PinkAndGray;
+      }
+  tags:
+    - css
+    - css_typography
+
+- id: text_wrap_balance
+  name: "`text-wrap: balance`"
+  # caniuse:
+  # w3c:
+  # mdn:
+  example:
+    language: css
+    code: |
+      .balanced {
+        max-inline-size: 50ch;
+        text-wrap: balance;
+      }
+  resources:
+    - url: https://developer.chrome.com/blog/css-text-wrap-balance/
+      title: |
+        CSS text-wrap: balance
+  tags:
+    - css
+    - css_typography
+
+- id: text_wrap
+  name: "`text-wrap`"
+  caniuse: mdn-css_properties_text-wrap
+  # w3c:
+  mdn: en-US/docs/Web/CSS/text-wrap
+  example:
+    language: css
+    code: |
+      .wrap {
+        text-wrap: wrap;
+      }
+  tags:
+    - css
+    - css_typography

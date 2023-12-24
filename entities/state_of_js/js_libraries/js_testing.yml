@@ -1,0 +1,206 @@
+#################################################
+# Testing
+#################################################
+
+- id: jest
+  name: Jest
+  npm: jest
+  github: facebook/jest
+  description: Delightful JavaScript Testing.
+  homepageUrl: "https://jestjs.io"
+
+- id: mocha
+  name: Mocha
+  npm: mocha
+  github: mochajs/mocha
+  description: "️ simple, flexible, fun javascript test framework for node.js & the browser"
+  homepageUrl: "https://mochajs.org"
+
+- id: storybook
+  name: Storybook
+  npm: storybook
+  github: storybookjs/storybook
+  description: >-
+    The UI component explorer. Develop, document, & test for React, Vue,
+    Angular, Ember, Web Components, & more!
+  homepageUrl: "https://storybook.js.org"
+
+- id: cypress
+  name: Cypress
+  npm: cypress
+  github: cypress-io/cypress
+  description: "Fast, easy and reliable testing for anything that runs in a browser."
+  homepageUrl: "https://www.cypress.io"
+
+- id: enzyme
+  name: Enzyme
+  npm: enzyme
+  github: enzymejs/enzyme
+  description: JavaScript Testing utilities for React
+  homepageUrl: "https://enzymejs.github.io/enzyme/"
+
+- id: ava
+  name: AVA
+  npm: ava
+  github: avajs/ava
+  description: Node.js test runner that lets you develop with confidence
+  homepageUrl: null
+
+- id: jasmine
+  name: Jasmine
+  npm: jasmine
+  github: jasmine/jasmine
+  description: Simple JavaScript testing framework for browsers and node.js
+  homepageUrl: "http://jasmine.github.io/"
+
+- id: puppeteer
+  name: Puppeteer
+  npm: puppeteer
+  github: puppeteer/puppeteer
+  description: Headless Chrome Node.js API
+  homepageUrl: "https://pptr.dev/"
+
+- id: testing_library
+  name: Testing Library
+  npm: "@testing-library/react"
+  github: testing-library/react-testing-library
+  description: >-
+    Simple and complete React DOM testing utilities that encourage good testing
+    practices.
+  homepageUrl: "https://testing-library.com/"
+
+- id: playwright
+  name: Playwright
+  npm: playwright
+  github: microsoft/playwright
+  description: "Node.js library to automate Chromium, Firefox and WebKit with a single API"
+  homepageUrl: "https://playwright.dev"
+
+- id: webdriverio
+  name: WebdriverIO
+  npm: webdriverio
+  github: webdriverio/webdriverio
+  description: Next-gen browser and mobile automation test framework for Node.js
+  homepageUrl: "http://webdriver.io"
+  patterns:
+    - webdriver
+
+- id: testcafe
+  name: TestCafe
+  npm: testcafe
+  github: DevExpress/testcafe
+  description: A Node.js tool to automate end-to-end web testing.
+  homepageUrl: "https://devexpress.github.io/testcafe/"
+
+- id: tape
+  name: Tape
+  npm: tape
+  github: substack/tape
+  description: tap-producing test harness for node and browsers
+  homepageUrl: https://github.com/substack/tape
+
+- id: chai
+  name: Chai
+  npm: chai
+  github: chaijs/chai
+  description: >-
+    BDD / TDD assertion framework for node.js and the browser that can be paired
+    with any testing framework.
+  homepageUrl: "http://chaijs.com"
+
+- id: nightwatch
+  name: Nightwatch
+  npm: nightwatch
+  github: nightwatchjs/nightwatch
+  description: End-to-end testing framework written in Node.js and using the Webdriver API
+  homepageUrl: "https://nightwatchjs.org"
+
+- id: qunit
+  name: QUnit
+  npm: qunit
+  github: qunitjs/qunit
+  description: An easy-to-use JavaScript unit testing framework.
+  homepageUrl: "https://qunitjs.com"
+
+- id: mock_service_worker
+  name: Mock Service Worker
+  npm: msw
+  github: mswjs/msw
+  description: Seamless REST/GraphQL API mocking library for browser and Node.
+  homepageUrl: "https://mswjs.io"
+
+- id: node_tap
+  name: Node-tap
+  npm: tap
+  github: tapjs/node-tap
+  description: Test Anything Protocol tools for node
+  homepageUrl: "https://www.node-tap.org/"
+  patterns:
+    - node_tap
+
+- id: react_testing_library
+  name: react-testing-library
+  npm: "@testing-library/react"
+  github: testing-library/react-testing-library
+  description: >-
+    Simple and complete React DOM testing utilities that encourage good testing
+    practices.
+  homepageUrl: "https://testing-library.com/react"
+
+- id: karma
+  name: Karma
+  npm: karma
+  github: karma-runner/karma
+  description: Spectacular Test Runner for JavaScript
+  homepageUrl: "http://karma-runner.github.io"
+
+- id: cucumberjs
+  name: Cucumber.js
+  npm: cucumber
+  github: cucumber/cucumber-js
+  description: Cucumber for JavaScript
+  homepageUrl: "https://cucumber.io/"
+
+- id: sinonjs
+  name: Sinon.JS
+  npm: sinon
+  github: sinonjs/sinon
+  description: "Test spies, stubs and mocks for JavaScript."
+  homepageUrl: "https://sinonjs.org/"
+
+- id: protractor
+  name: Protractor
+  npm: protractor
+  github: angular/protractor
+  description: E2E test framework for Angular apps
+  homepageUrl: "http://www.protractortest.org"
+
+- id: vitest
+  name: Vitest
+  npm: vitest
+  github: vitest-dev/vitest
+  description: A blazing fast unit-test framework powered by Vite
+  homepageUrl: https://vitest.dev/
+
+- id: codeceptjs
+  name: CodeceptJS
+  homepageUrl: https://codecept.io/
+
+- id: uvu
+  name: uvu
+  homepageUrl: https://github.com/lukeed/uvu
+  github: lukeed/uvu
+  npm: uvu
+
+- id: selenium
+  name: Selenium
+  github: seleniumhq/selenium
+  homepageUrl: https://www.selenium.dev/
+
+- id: web_test_runner
+  name: Web Test Runner
+  homepageUrl: https://modern-web.dev/docs/test-runner/overview/
+
+- id: japa
+  name: Japa
+  homepageUrl: https://japa.dev/docs

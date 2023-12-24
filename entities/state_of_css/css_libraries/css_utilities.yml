@@ -1,0 +1,45 @@
+- id: project_wallace
+  name: Project Wallace
+  contexts: [state_of_css]
+  homepageUrl: https://www.projectwallace.com/
+
+- id: post_css_preset_env
+  name: postcss-preset-env
+  contexts: [state_of_css]
+  homepageUrl: https://preset-env.cssdb.org/
+  github: csstools/postcss-plugins
+
+- id: stylis
+  name: Stylis
+  homepageUrl: https://stylis.js.org/
+
+- id: autoprefixer
+  name: Autoprefixer
+  homepageUrl: https://autoprefixer.github.io/
+  patterns:
+    - auto( |-)?prefix(e)?r
+
+- id: suit
+  name: SUIT CSS
+  homepageUrl: https://suitcss.github.io/
+  tags:
+    - methodologies
+
+- id: css_comb
+  name: CSSComb
+  github: csscomb/csscomb
+
+- id: normalize_css
+  name: NormalizeCSS
+  homepageUrl: https://necolas.github.io/normalize.css/
+
+- id: cssnano
+  name: cssnano
+  homepageUrl: https://cssnano.co/
+  patterns:
+    - css nano
+
+- id: clean_css
+  name: clean-css
+  homepageUrl: https://clean-css.github.io/
+  github: clean-css/clean-css

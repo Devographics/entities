@@ -1,0 +1,41 @@
+#################################################
+# Monorepo Tools
+#################################################
+
+- id: pnpm
+  name: pnpm
+  npm: pnpm
+  github: pnpm/pnpm
+  description: "Fast, disk space efficient package manager"
+  homepageUrl: "https://pnpm.js.org"
+
+- id: yarn_workspaces
+  name: Yarn Workspaces
+  description: >-
+    Yarn workspaces aim to make working with monorepos easy
+  hompepage: https://yarnpkg.com/features/workspaces/
+
+- id: npm_workspaces
+  name: npm Workspaces
+  description: >-
+    Manage multiple packages from your local file system from within a singular top-level, root package.
+  hompepage: https://docs.npmjs.com/cli/v8/using-npm/workspaces
+
+- id: yalc
+  name: Yalc
+  description: >-
+    Work with yarn/npm packages locally like a boss.
+  github: wclr/yalc
+  homepageUrl: https://github.com/wclr/yalc
+
+- id: moon
+  name: Moon
+  homepageUrl: https://moonrepo.dev/
+
+- id: bit_dev
+  name: Bit
+  homepageUrl: https://bit.dev/
+
+- id: lage
+  name: Lage
+  homepageUrl: https://microsoft.github.io/lage/

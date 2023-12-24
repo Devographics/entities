@@ -1,0 +1,164 @@
+# hooks
+
+- id: usecallback
+  name: >
+    `useCallback`
+  description: >
+    `useCallback` is a React Hook that lets you cache a function definition between re-renders.
+  example:
+    language: jsx
+    code: |
+      const cachedFn = useCallback(fn, dependencies)
+  homepageUrl: https://react.dev/reference/react/useCallback
+  resources:
+    - url: https://www.joshwcomeau.com/react/usememo-and-usecallback/
+      title: Understanding useMemo and useCallback
+
+- id: usecontext
+  name: >
+    `useContext`
+  description: >
+    `useContext` is a React Hook that lets you read and subscribe to context from your component.
+  example:
+    language: jsx
+    code: |
+      const value = useContext(SomeContext)
+  homepageUrl: https://react.dev/reference/react/useContext
+
+- id: usedebugvalue
+  name: >
+    `useDebugValue`
+  description: >
+    `useDebugValue` is a React Hook that lets you add a label to a custom Hook in React DevTools.
+  example:
+    language: jsx
+    code: |
+      useDebugValue(value, format?)
+  homepageUrl: https://react.dev/reference/react/useDebugValue
+
+- id: usedeferredvalue
+  name: >
+    `useDeferredValue`
+  description: >
+    `useDeferredValue` is a React Hook that lets you defer updating a part of the UI.
+  example:
+    language: jsx
+    code: |
+      const deferredValue = useDeferredValue(value)
+  homepageUrl: https://react.dev/reference/react/useDeferredValue
+
+- id: useeffect
+  name: >
+    `useEffect`
+  description: >
+    `useEffect` is a React Hook that lets you synchronize a component with an external system.
+  example:
+    language: jsx
+    code: |
+      useEffect(setup, dependencies?)
+  homepageUrl: https://react.dev/reference/react/useEffect
+  resources:
+    - url: https://blog.logrocket.com/useeffect-react-hook-complete-guide/
+      title: A complete guide to the useEffect React Hook
+
+- id: useid
+  name: >
+    `useId`
+  description: >
+    `useId` is a React Hook for generating unique IDs that can be passed to accessibility attributes.
+  example:
+    language: jsx
+    code: |
+      const id = useId()
+  homepageUrl: https://react.dev/reference/react/useId
+#
+- id: useImperativeHandle
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+#
+- id: useInsertionEffect
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+#
+- id: useLayoutEffect
+#   name:
+#   example:
+#     language: jsx
+#     code: |
+
+#   homepageUrl:
+
+- id: usememo
+  name: >
+    `useMemo`
+  description: >
+    `useMemo` is a React Hook that lets you cache the result of a calculation between re-renders.
+  example:
+    language: jsx
+    code: |
+      const cachedValue = useMemo(calculateValue, dependencies)
+  homepageUrl: https://react.dev/reference/react/useMemo
+  resources:
+    - url: https://www.joshwcomeau.com/react/usememo-and-usecallback/
+      title: Understanding useMemo and useCallback
+
+- id: usereducer
+  name: >
+    `useReducer`
+  example:
+    language: jsx
+    code: |
+      const [state, dispatch] = useReducer(reducer, initialArg, init?)
+  homepageUrl: https://react.dev/reference/react/useReducer
+
+- id: useref
+  name: >
+    `useRef`
+  description: >
+    `useRef` is a React Hook that lets you reference a value that’s not needed for rendering.
+  example:
+    language: jsx
+    code: |
+      const ref = useRef(initialValue)
+  homepageUrl: https://react.dev/reference/react/useRef
+
+- id: usestate
+  name: >
+    `useState`
+  description: >
+    `useState` is a React Hook that lets you add a state variable to your component.
+  example:
+    language: jsx
+    code: |
+      const [state, setState] = useState(initialState);
+  homepageUrl: https://react.dev/reference/react/useState
+
+- id: usesyncexternalstore
+  name: >
+    `useSyncExternalStore`
+  description: >
+    `useSyncExternalStore` is a React Hook that lets you subscribe to an external store.
+  example:
+    language: jsx
+    code: |
+      const snapshot = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot?)
+  homepageUrl: https://react.dev/reference/react/useSyncExternalStore
+
+- id: usetransition
+  name: >
+    `useTransition`
+  description: >
+    `useTransition` is a React Hook that lets you update the state without blocking the UI.
+  example:
+    language: jsx
+    code: |
+      const [isPending, startTransition] = useTransition()
+  homepageUrl: https://react.dev/reference/react/useTransition

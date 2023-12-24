@@ -1,0 +1,116 @@
+# new features
+
+- id: asset_loading
+  name: Asset Loading
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#asset-loading
+
+- id: use_hook
+  name: >
+    `use()` Hook
+  homepageUrl: https://github.com/reactjs/rfcs/pull/229
+  example:
+    language: js
+    code: |
+      const value = use(resource);
+
+- id: offscreen_rendering
+  name: Offscreen Rendering
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#offscreen-rendering
+
+- id: react_forget
+  name: React Forget
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-optimizing-compiler
+
+- id: cache
+  name: React `cache`
+  homepageUrl: https://nextjs.org/docs/app/building-your-application/data-fetching/caching#react-cache
+
+- id: new_docs
+  homepageUrl: https://react.dev/
+
+- id: transition_tracing
+  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#transition-tracing
+
+- id: use_client
+  name: >
+    `use client`
+  homepageUrl: https://react.dev/reference/react/use-client
+  example:
+    language: js
+    code: |
+      'use client';
+
+      import { useState } from 'react';
+
+      export default function RichTextEditor(props) {
+        // ...
+
+- id: use_server
+  name: >
+    `use server`
+  homepageUrl: https://react.dev/reference/react/use-server
+  example:
+    language: js
+    code: |
+      async function addToCart(data) {
+        'use server';
+        // ...
+      }
+
+      // <ProductDetailPage addToCart={addToCart} />
+
+- id: server_actions
+  name: Server Actions
+  homepageUrl: https://nextjs.org/docs/app/api-reference/functions/server-actions
+  example:
+    language: js
+    code: |
+      export default function ServerComponent() {
+        async function myAction() {
+          'use server'
+          // ...
+        }
+      }
+
+- id: useformstate
+  name: useFormState
+  homepageUrl: https://react.dev/reference/react-dom/hooks/useFormState
+  example:
+    language: js
+    code: |
+      const [state, formAction] = useFormState(fn, initialState);
+
+- id: useformstatus
+  name: useFormStatus
+  homepageUrl: https://react.dev/reference/react-dom/hooks/useFormStatus
+  example:
+    language: js
+    code: |
+      const { pending, data, method, action } = useFormStatus();
+
+- id: taint_api
+  name: Taint API
+  homepageUrl: https://react.dev/reference/react/experimental_taintObjectReference
+  example:
+    language: js
+    code: |
+      taintObjectReference(message, object);
+      taintUniqueValue(errMessage, lifetime, value)
+
+- id: taint_object_reference
+  name: >
+    `taintObjectReference`
+  homepageUrl: https://react.dev/reference/react/experimental_taintObjectReference
+  example:
+    language: js
+    code: |
+      taintObjectReference(message, object);
+
+- id: taint_unique_value
+  name: >
+    `taintUniqueValue`
+  homepageUrl: https://react.dev/reference/react/experimental_taintUniqueValue
+  example:
+    language: js
+    code: |
+      taintUniqueValue(errMessage, lifetime, value)

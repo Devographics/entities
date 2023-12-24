@@ -1,0 +1,54 @@
+# components
+
+- id: fragment
+  name: >
+    `<Fragment>`
+  description: >
+    `<Fragment>`, often used via `<>...</>` syntax, lets you group elements without a wrapper node.
+  homepageUrl: https://react.dev/reference/react/Fragment
+  example:
+    language: jsx
+    code: |
+      <>
+        <OneChild />
+        <AnotherChild />
+      </>
+
+- id: profiler
+  name: >
+    `<Profiler>`
+  description: >
+    `<Profiler>` lets you measure rendering performance of a React tree programmatically.
+  homepageUrl: https://react.dev/reference/react/Profiler
+  example:
+    language: jsx
+    code: |
+      <Profiler id="App" onRender={onRender}>
+        <App />
+      </Profiler>
+
+- id: strictmode
+  name: >
+    `<StrictMode>`
+  description: >
+    `<StrictMode>` lets you find common bugs in your components early during development.
+  example:
+    language: jsx
+    code: |
+      <StrictMode>
+        <App />
+      </StrictMode>
+    homepageUrl: https://react.dev/reference/react/StrictMode
+
+- id: suspense
+  name: >
+    `<Suspense>`
+  # description: >
+  #   `<Suspense>` lets you display a fallback until its children have finished loading.
+  example:
+    language: jsx
+    code: |
+      <Suspense fallback={<Loading />}>
+        <SomeComponent />
+      </Suspense>
+  homepageUrl: https://react.dev/reference/react/Suspense

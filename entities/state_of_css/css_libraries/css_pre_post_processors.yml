@@ -1,0 +1,76 @@
+#################################################
+# CSS pre/post processors
+#################################################
+
+- id: plain_css
+
+- id: sass
+  name: Sass/SCSS
+  github: sass/sass
+  npm: node-sass
+  homepageUrl: https://sass-lang.com/
+  tags:
+    - css
+    - css_pre_post_processors
+    - state_of_css
+  patterns:
+    - scss
+
+- id: less
+  name: Less
+  contexts: []
+  github: less/less.js
+  npm: less
+  homepageUrl: http://lesscss.org/
+  tags:
+    - css
+    - css_pre_post_processors
+    - state_of_css
+
+- id: post_css
+  name: PostCSS
+  contexts: [state_of_css]
+  github: postcss/postcss
+  homepageUrl: https://postcss.org/
+  tags:
+    - css
+    - css_pre_post_processors
+
+- id: stylus
+  name: Stylus
+  contexts: [state_of_css]
+  github: stylus/stylus
+  npm: stylus
+  homepageUrl: https://stylus-lang.com/
+  tags:
+    - css
+    - css_pre_post_processors
+
+- id: acss
+  name: Atomizer
+  contexts: [state_of_css]
+  github: acss-io/atomizer
+  npm: atomizer
+  homepageUrl: https://acss.io/
+  tags:
+    - css
+    - css_pre_post_processors
+
+- id: assembler_css
+  name: Assembler CSS
+  contexts: [state_of_css]
+  github: asmcss/assembler
+  npm: "@asmcss/assembler"
+  homepageUrl: https://asmcss.com/
+  tags:
+    - css
+    - css_pre_post_processors
+
+- id: lightning_css
+  name: Lightning CSS
+  contexts: [state_of_css]
+  github: parcel-bundler/lightningcss
+  homepageUrl: https://lightningcss.dev/
+  tags:
+    - css
+    - css_pre_post_processors

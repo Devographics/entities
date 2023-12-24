@@ -1,0 +1,235 @@
+#################################################
+# CSS frameworks
+#################################################
+- id: bootstrap
+  name: Bootstrap
+  contexts: [state_of_css]
+  github: twbs/bootstrap
+  homepageUrl: https://getbootstrap.com/
+  npm: bootstrap
+
+- id: materialize_css
+  name: Materialize CSS
+  contexts: [state_of_css]
+  github: Dogfalo/materialize
+  npm: materialize-css
+  homepageUrl: https://materializecss.com/
+
+- id: material_ui
+  name: Material UI
+  contexts: [state_of_css]
+  github: mui-org/material-ui
+  npm: "@material-ui/core"
+  homepageUrl: https://material-ui.com/
+  patterns:
+    - mui
+    - material
+
+- id: ant_design
+  name: Ant Design
+  contexts: [state_of_css]
+  github: ant-design/ant-design
+  homepageUrl: https://ant.design/
+
+- id: semantic_ui
+  name: Semantic UI/Fomantic UI
+  contexts: [state_of_css]
+  github: Semantic-Org/Semantic-UI
+  homepageUrl: https://semantic-ui.com/
+  npm: semantic-ui
+
+- id: bulma
+  name: Bulma
+  contexts: [state_of_css]
+  github: jgthms/bulma
+  npm: bulma
+  homepageUrl: https://bulma.io/
+
+- id: foundation
+  name: Foundation
+  contexts: [state_of_css]
+  github: zurb/foundation-sites
+  homepageUrl: https://get.foundation/
+
+- id: ui_kit
+  name: UIKit
+  contexts: [state_of_css]
+  github: uikit/uikit
+  npm: uikit
+  homepageUrl: https://getuikit.com/
+
+- id: tachyons
+  name: Tachyons
+  contexts: [state_of_css]
+  github: tachyons-css/tachyons
+  homepageUrl: https://tachyons.io/
+
+- id: primer
+  name: Primer
+  contexts: [state_of_css]
+  github: primer/css
+  homepageUrl: https://primer.style/
+  npm: "@primer/css"
+
+- id: tailwind_css
+  name: Tailwind CSS
+  contexts: [state_of_css]
+  github: tailwindcss/tailwindcss
+  npm: tailwindcss
+  homepageUrl: https://tailwindcss.com/
+  patterns:
+    - tailwind
+
+- id: tailwind_ui
+  name: Tailwind UI
+  homepageUrl: https://tailwindui.com/
+
+- id: pure_css
+  name: PureCSS
+  contexts: [state_of_css]
+  github: pure-css/pure
+  npm: purecss
+  homepageUrl: https://purecss.io/
+
+- id: skeleton
+  name: Skeleton
+  contexts: [state_of_css]
+  homepageUrl: http://getskeleton.com/
+  github: dhg/Skeleton
+
+- id: spectre_css
+  name: Spectre.css
+  contexts: [state_of_css]
+  homepageUrl: https://picturepan2.github.io/spectre/
+  github: picturepan2/spectre
+  npm: spectre.css
+
+- id: halfmoon
+  name: Halfmoon
+  contexts: [state_of_css]
+  homepageUrl: https://www.gethalfmoon.com/
+  github: halfmoonui/halfmoon
+  npm: halfmoon
+
+- id: radix
+  name: Radix
+  contexts: [state_of_css]
+  homepageUrl: https://www.radix-ui.com/
+  github: radix-ui/primitives
+  npm: "@radix-ui"
+
+- id: uno_css
+  name: UnoCSS
+  contexts: [state_of_css]
+  homepageUrl: https://uno.antfu.me/
+  github: unocss/unocss
+
+- id: open_props
+  name: Open Props
+  contexts: [state_of_css]
+  homepageUrl: https://open-props.style/
+  github: argyleink/open-props
+
+- id: mantine
+  name: Mantine
+  contexts: [state_of_css]
+  homepageUrl: https://mantine.dev/
+  github: mantinedev/mantine
+    - react
+
+- id: ark_ui
+  name: Ark UI
+  description: >
+    Get fully customizable, accessible and unstyled UI components
+  homepageUrl: https://ark-ui.com/
+    - react
+    - ui_libraries
+
+- id: next_ui
+  name: NextUI
+  description: >
+    Beautiful, fast and modern React UI library.
+  homepageUrl: https://nextui.org/
+    - ui_libraries
+    - react
+
+- id: headless_ui
+  github: tailwindlabs/headlessui
+  npm: "@headlessui/react"
+  name: Headless UI
+  homepageUrl: https://headlessui.com/
+
+- id: pico_css
+  name: Pico.css
+  contexts: [state_of_css]
+  homepageUrl: https://picocss.com/
+  github: picocss/pico
+
+- id: shoelace
+  name: Shoelace
+  contexts: [state_of_css]
+  homepageUrl: https://shoelace.style/
+  github: shoelace-style/shoelace
+
+- id: daisy_ui
+  name: daisyUI
+  contexts: [state_of_css]
+  homepageUrl: https://daisyui.com/
+  github: saadeghi/daisyui
+
+- id: water_css
+  name: Water.css
+  contexts: [state_of_css]
+  homepageUrl: https://watercss.kognise.dev/
+  github: kognise/water.css
+  patterns:
+    - water
+
+- id: master_css
+  name: Master CSS
+  contexts: [state_of_css]
+  homepageUrl: https://css.master.co/
+  github: master-co/css
+
+- id: automatic_css
+  name: Automatic.css
+  contexts: [state_of_css]
+  homepageUrl: https://automaticcss.com/
+
+- id: milligram
+  name: Milligram
+  contexts: [state_of_css]
+  homepageUrl: https://milligram.io/
+
+- id: blaze_ui
+  name: Blaze UI
+  homepageUrl: https://www.blazeui.com/
+  github: https://github.com/BlazeSoftware/atoms
+
+- id: mvp_css
+  name: MVP.css
+  homepageUrl: https://andybrewer.github.io/mvp/
+  github: https://github.com/andybrewer/mvp/
+  patterns:
+    - mvp
+
+- id: codyframe
+  name: CodyFrame
+  homepageUrl: https://codyhouse.co/ds/docs/framework
+  patterns:
+    - codyhouse
+
+- id: element_ui
+  name: Element
+  homepageUrl: https://element.eleme.io/#/en-US
+
+- id: blueprint
+  name: Blueprint
+  homepageUrl: http://www.blueprintcss.org/
+
+- id: inuit_css
+  name: Inuit CSS
+  github: inuitcss/inuitcss
+  homepageUrl: http://inuitcss.com/
+  patterns:
+    - inuit

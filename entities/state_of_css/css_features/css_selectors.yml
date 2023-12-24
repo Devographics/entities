@@ -1,0 +1,86 @@
+#################################################
+# CSS Selectors
+#################################################
+
+- id: marker
+  name: "`::marker`"
+  mdn: /en-US/docs/Web/CSS/::marker
+  caniuse: css-marker-pseudo
+  example:
+    language: css
+    code: |
+      li::marker {
+        content: '⭐️ ';
+      }
+  tags:
+    - css
+    - css_selectors
+
+- id: has_selector
+  name: "`:has()`"
+  mdn: /en-US/docs/Web/CSS/:has
+  caniuse: css-has
+  example:
+    language: css
+    code: |
+      a:has(> img) {
+        border: 2px solid grey;
+      }
+  patterns:
+    - \:has [p]
+    - has\(\)
+    - ":has"
+  tags:
+    - css
+    - css_selectors
+    - html_interoperability_features
+
+- id: where_selector
+  name: "`:where()`"
+  mdn: /en-US/docs/Web/CSS/:where
+  caniuse: css-where
+  example:
+    language: css
+    code: |
+      :where(header, main, footer) p:hover {
+        color: red;
+        cursor: pointer;
+      }
+  tags:
+    - css
+    - css_selectors
+  patterns:
+    - where
+
+- id: lang_selector
+  name: "`:lang()`"
+  mdn: /en-US/docs/Web/CSS/:lang
+  caniuse: css-lang
+  example:
+    language: css
+    code: |
+      :lang(ko) {
+        [class*='heading--'] {
+          word-break: keep-all;
+        }
+      }
+  tags:
+    - css
+    - css_selectors
+
+- id: not_selector
+  name: "`:not()`"
+  mdn: en-US/docs/Web/CSS/:not
+  caniuse: mdn-css_selectors_not
+  example:
+    language: css
+    code: |
+      p:not(.irrelevant) {
+        font-weight: bold;
+      }
+  tags:
+    - css
+    - css_selectors
+  patterns:
+    - not\(\)
+    - :not

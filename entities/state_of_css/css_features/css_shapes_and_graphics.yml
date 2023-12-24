@@ -1,0 +1,209 @@
+#################################################
+# CSS shapes & graphics
+#################################################
+
+- id: shapes
+  name: Shapes
+  description: >
+    `shape-image-threshold`, `shape-margin`, `shape-outside`
+  mdn: /en-US/docs/Web/CSS/CSS_Shapes
+  caniuse: css-shapes
+  example:
+    language: css
+    code: |
+      img {
+        float: left;
+        shape-outside: circle(50%);
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: object_fit
+  name: "`object-fit`"
+  mdn: /en-US/docs/Web/CSS/object-fit
+  caniuse: object-fit
+  example:
+    language: css
+    code: |
+      .contain {
+        object-fit: contain;
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: clip_path
+  name: "`clip-path`"
+  mdn: /en-US/docs/Web/CSS/clip-path
+  caniuse: css-clip-path
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: masks
+  name: Masking
+  mdn: /en-US/docs/Web/CSS/CSS_Masking
+  caniuse: css-masks
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: blend_modes
+  description: >
+    `mix-blend-mode`, `background-blend-mode`, `isolation`
+  mdn: /en-US/docs/Web/CSS/blend-mode
+  caniuse: css-mixblendmode
+  example:
+    language: css
+    code: |
+      .item2 {
+        color: #000;
+        mix-blend-mode: overlay;
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: filter_effects
+  name: Filters & Effects
+  description: >
+    `blur()`, `brightness()`, `contrast()`…
+  mdn: /en-US/docs/Web/CSS/filter
+  caniuse: css-filters
+  example:
+    language: css
+    code: |
+      .image{
+        filter: contrast(175%) blur(5px)
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: backdrop_filter
+  name: "`backdrop-filter`"
+  mdn: /en-US/docs/Web/CSS/backdrop-filter
+  caniuse: css-backdrop-filter
+  example:
+    language: css
+    code: |
+      .box {
+        backdrop-filter: blur(10px);
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: intrinsic_sizing
+  name: Intrinsic Sizing
+  description: >
+    `min-content`, `max-content`, `fit-content`
+  mdn: /en-US/docs/Web/CSS/min-content
+  caniuse: intrinsic-width
+  example:
+    language: css
+    code: |
+      h2 {
+        width: max-content;
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: repeating_linear_gradient
+  name: "`repeating-linear-gradient()`"
+  mdn: /en-US/docs/Web/CSS/gradient/repeating-linear-gradient()
+  caniuse: mdn-css_types_image_gradient_repeating-linear-gradient
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: conic_gradient
+  name: "`conic-gradient()`"
+  mdn: /en-US/docs/Web/CSS/gradient/conic-gradient()
+  caniuse: mdn-css_types_image_gradient_conic-gradient
+  example:
+    language: css
+    code: |
+      .blue-to-red {
+        background: conic-gradient(from 45deg, blue, red);
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: border_image
+  name: "`border-image`"
+  mdn: /en-US/docs/Web/CSS/border-image
+  caniuse: border-image
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: linear_easing_function
+  mdn: en-US/docs/Web/CSS/easing-function#linear_easing_function
+  caniuse: mdn-css_types_easing-function_linear-function
+  example:
+    language: css
+    code: |
+      :root {
+        --bounce-easing: linear(
+          0, 0.063, 0.25 18.2%, 1 36.4%, 0.813, 0.75, 0.813, 1, 0.938, 1, 1
+        );
+      }
+  resources:
+    - title: Using linear() for better animation
+      url: https://fullystacked.net/posts/linear/
+      language: en-US
+    - title: Linear() Generator
+      url: https://linear-easing-generator.netlify.app/
+      language: en-US
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: view_transitions
+  name: ViewTransition API
+  mdn: en-US/docs/Web/API/View_Transitions_API
+  caniuse: mdn-api_viewtransition
+  example:
+    language: css
+    code: |
+      ::view-transition-old(main-image),
+      ::view-transition-new(main-image) {
+        transform-origin: right top;
+      }
+
+      ::view-transition-new(main-image) {
+        animation: 400ms ease-out both grow;
+      }
+
+      figure {
+        view-transition-name: main-image;
+      }
+  resources:
+    - title: Smooth and simple transitions with the View Transitions API
+      url: https://developer.chrome.com/docs/web-platform/view-transitions/
+      language: en-US
+  tags:
+    - css
+    - css_shapes_and_graphics
+  patterns:
+    - view transition
+    - page transition
+    - viewtransition
+
+- id: background_attachment
+  name: >
+    `background-attachment`
+  mdn: en-US/docs/Web/CSS/background-attachment
+  example:
+    language: css
+    code: |
+      background-attachment: scroll;
+      background-attachment: fixed;
+      background-attachment: local;
+  tags:
+    - css
+    - css_shapes_and_graphics

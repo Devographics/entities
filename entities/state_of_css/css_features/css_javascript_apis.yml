@@ -1,0 +1,53 @@
+#################################################
+# JavaScript APIs
+#################################################
+
+- id: houdini_paint_api
+  name: Houdini Paint API
+  mdn: /en-US/docs/Web/API/CSS_Painting_API
+  caniuse: css-paint-api
+  example:
+    language: css
+    code: |
+      aside {
+        background-image: paint(myPaintedImage);
+      }
+  tags:
+    - css
+    - css_javascript_apis
+
+- id: houdini_typed_om
+  name: Houdini Typed OM
+  mdn:
+  caniuse:
+  tags:
+    - css
+    - css_javascript_apis
+
+- id: houdini_layout_api
+  name: Houdini Layout API
+  mdn: /en-US/docs/Web/Guide/Houdini#css_layout_api
+  caniuse: css-paint-api
+  example:
+    language: css
+    code: |
+      aside {
+        background-image: paint(myPaintedImage);
+      }
+  tags:
+    - css
+    - css_javascript_apis
+
+- id: houdini_animation_worklet
+  name: Houdini Animation Worklet
+  mdn: /en-US/docs/Web/API/CSS_Painting_API
+  caniuse: css-paint-api
+  example:
+    language: css
+    code: |
+      aside {
+        background-image: paint(myPaintedImage);
+      }
+  tags:
+    - css
+    - css_javascript_apis

@@ -1,0 +1,256 @@
+#################################################
+# CSS layout
+#################################################
+- id: grid
+  name: Grid
+  mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
+  caniuse: css-grid
+  tags:
+    - css
+    - css_layout
+
+- id: subgrid
+  name: Subgrid
+  mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
+  caniuse: css-subgrid
+  example:
+    language: css
+    code: |
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .item {
+        grid-row: 1 / 4;
+        display: grid;
+        grid-template-rows: subgrid;
+      }
+  patterns:
+    - sub( |-)?grid
+  tags:
+    - css
+    - css_layout
+
+- id: regions
+  name: CSS Regions
+  caniuse: css-regions
+  tags:
+    - css
+    - css_layout
+
+- id: flexbox
+  name: Flexbox
+  mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
+  caniuse: flexbox
+  tags:
+    - css
+    - css_layout
+    - html_interoperability_features
+
+- id: multi_column
+  name: Multi-Column Layout
+  mdn: /en-US/docs/Web/CSS/CSS_Columns
+  caniuse: multicolumn
+  tags:
+    - css
+    - css_layout
+
+- id: writing_modes
+  name: Writing Modes
+  mdn: /en-US/docs/Web/CSS/CSS_Writing_Modes
+  caniuse: css-writing-mode
+  example:
+    language: css
+    code: |
+      .vertical-text {
+        writing-mode: vertical-lr;
+      }
+  tags:
+    - css
+    - css_layout
+
+- id: exclusions
+  name: Exclusions
+  caniuse: css-exclusions
+  tags:
+    - css
+    - css_layout
+
+- id: position_sticky
+  name: "`position:sticky`"
+  mdn: /en-US/docs/Web/CSS/position
+  caniuse: css-sticky
+  patterns:
+    - sticky
+  tags:
+    - css
+    - css_layout
+
+- id: stuck_selector
+  name: "`:stuck`"
+  # mdn:
+  # caniuse:
+  resources:
+    - title: |
+        :stuck pseudo-class feature suggestion
+      url: https://github.com/w3c/csswg-drafts/issues/1656
+  patterns:
+    # - stuck
+    # define a pattern that matches "stuck_selector" if the word
+    # "sticky" is also present before or after in the same freeform string
+    # - (?<=sticky)(.*?)(?=stuck)|(?<=stuck)(.*?)(?=sticky)
+    - "(position)?(:| |: )?sticky(.*?)stuck|stuck(.*?)(position)?(:| |: )?sticky"
+  normalizationOverrides:
+    - position_sticky
+  tags:
+    - css
+    - css_layout
+
+- id: logical_properties
+  name: CSS Logical Properties
+  description: >
+    `margin-block-start`, `padding-inline-end`, `border-inline-start`…
+  mdn: /en-US/docs/Web/CSS/CSS_Logical_Properties
+  caniuse: css-logical-props
+  example:
+    language: css
+    code: |
+      section {
+        border-block: 8px solid blue;
+        border-inline: 8px solid green;
+      }
+  tags:
+    - css
+    - css_layout
+
+- id: aspect_ratio
+  name: "`aspect-ratio`"
+  mdn: /en-US/docs/Web/CSS/aspect-ratio
+  caniuse: mdn-css_properties_aspect-ratio
+  example:
+    language: css
+    code: |
+      .square {
+        aspect-ratio: 1 / 1;
+      }
+  tags:
+    - css
+    - css_layout
+
+- id: flexbox_gap
+  # name: Flexbox `gap`
+  mdn: /en-US/docs/Web/CSS/gap
+  caniuse: flexbox-gap
+  example:
+    language: css
+    code: |
+      section {
+        display: flex
+        gap: 1em 2em;
+      }
+  patterns:
+    - gap for flex
+    - Gap property for flex
+    - flexbox( |-)?gap
+    - flex( |-)?gap
+
+  tags:
+    - css
+    - css_layout
+
+- id: break_rules
+  name: Break Rules
+  description: >
+    `break-inside`, `break-before`, `break-after`
+  mdn: /en-US/docs/Web/CSS/break-before
+  caniuse: mdn-css_properties_break-before_paged_context
+  example:
+    language: css
+    code: |
+      .element {
+        break-before: page;
+      }
+  tags:
+    - css
+    - css_layout
+
+- id: at_container
+  mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
+  caniuse: css-container-queries
+  example:
+    language: css
+    code: |
+      @container (min-width: 700px) {
+        .card {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+        }
+      }
+  patterns:
+    - "@container"
+    - container
+    - container( |-)(media|width)? ?quer(y|ies)
+    - (element|object|component)s? (based )?(media )?quer(y|ies)
+  tags:
+    - css
+    - css_layout
+    - html_interoperability_features
+
+- id: object_view_box
+  name: "`object-view-box`"
+  example:
+    language: css
+    code: |
+      img {
+        aspect-ratio: 1;
+        width: 300px;
+        object-view-box: inset(25% 20% 15% 0%);
+      }
+  resources:
+    - url: https://ishadeed.com/article/css-object-view-box/
+      title: First Look At The CSS object-view-box Property
+  tags:
+    - css
+    - css_layout
+
+- id: viewport_percentage_length_units
+  description: >
+    `lvh` / `lvw` / `lvmin` / `lvmax`, `sv*`, `dv*`, etc.
+  mdn: /en-US/docs/Web/CSS/length#relative_length_units_based_on_viewport
+  resources:
+    - title: The large, small, and dynamic viewport units
+      url: https://web.dev/viewport-units/
+  caniuse: mdn-css_types_length_viewport_percentage_units_small
+  example:
+    language: css
+    code: |
+      body {
+        height: 100dvh;
+      }
+  tags:
+    - css
+    - css_layout
+
+- id: media_queries_range_contexts
+  name: Media Queries Range Contexts
+  # mdn:
+  w3c: https://www.w3.org/TR/mediaqueries-4/#mq-range-context
+  caniuse: css-media-range-syntax
+  example:
+    language: css
+    code: |
+      @media (400px < width < 1000px) {
+        /* ... */
+      }
+  tags:
+    - css
+    - css_layout
+
+- id: media_queries
+  name: Media Queries
+  mdn: /en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+  caniuse: css-mediaqueries
+  tags:
+    - css
+    - css_layout

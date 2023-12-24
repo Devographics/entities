@@ -1,0 +1,221 @@
+- id: oak
+  name: Oak
+  homepageUrl: https://oakserver.github.io/oak/
+
+- id: payload
+  name: Payload
+  homepageUrl: https://payloadcms.com/
+
+- id: enhance_dev
+  name: Enhance
+  homepageUrl: https://enhance.dev/
+  patterns:
+    - enhance
+
+- id: hydrogen
+  name: Hydrogen
+  homepageUrl: https://hydrogen.shopify.dev/
+
+- id: wasp
+  name: Wasp
+  homepageUrl: https://wasp-lang.dev/
+
+- id: h3
+  name: h3
+  homepageUrl: https://github.com/unjs/h3
+  github: unjs/h3
+
+- id: hono
+  name: Hono
+  homepageUrl: https://hono.dev/
+  github: honojs/hono
+  pattern:
+    - hono [p]
+
+- id: loopback
+  name: LoopBack
+  homepageUrl: https://loopback.io/
+  github: loopbackio/loopback-next
+
+- id: nitro
+  name: Nitro
+  homepageUrl: https://nitro.unjs.io/
+  github: unjs/nitro
+
+- id: payload_cms
+  name: Payload
+  patterns:
+    - payload
+  homepageUrl: https://payloadcms.com/
+
+- id: pocket_base
+  name: PocketBase
+  homepageUrl: https://pocketbase.io/
+  github: pocketbase/pocketbase
+
+- id: restify
+  name: Restify
+  homepageUrl: http://restify.com/
+  github: restify/node-restify
+
+- id: sanity
+  name: Sanity
+  patterns:
+    - sanity [p]
+  homepageUrl: https://www.sanity.io/
+
+#################################################
+# Other Tools
+#################################################
+
+- id: core_js
+  name: core-js
+  github: zloirock/core-js
+  homepageUrl: https://github.com/zloirock/core-js
+
+- id: immer
+  name: Immer
+  npm: immer
+  github: immerjs/immer
+  description: Create the next immutable state by mutating the current one
+  homepageUrl: "https://immerjs.github.io/immer/"
+
+- id: lodash
+  name: Lodash
+  npm: lodash
+  github: lodash/lodash
+  description: >-
+    A modern JavaScript utility library delivering modularity, performance, &
+    extras.
+  homepageUrl: "https://lodash.com/"
+
+- id: underscore
+  name: Underscore.js
+  npm: underscore
+  github: jashkenas/underscore
+  description: JavaScript's utility _ belt
+  homepageUrl: "https://underscorejs.org"
+
+- id: moment
+  name: Moment
+  npm: moment
+  github: moment/moment
+  description: "Parse, validate, manipulate, and display dates in javascript."
+  homepageUrl: "https://momentjs.com/"
+
+- id: dayjs
+  name: Day.js
+  npm: dayjs
+  github: iamkun/dayjs
+  description: >-
+    Day.js 2KB immutable date-time library alternative to Moment.js with the
+    same modern API
+  homepageUrl: "https://day.js.org"
+
+- id: date_fns
+  name: date-fns
+  npm: date-fns
+  github: date-fns/date-fns
+  description: Modern JavaScript date utility library ️
+  homepageUrl: "https://date-fns.org"
+
+- id: luxon
+  name: Luxon
+  npm: luxon
+  github: moment/luxon
+  description: ⏱ A library for working with dates and times in JS
+  homepageUrl: "https://moment.github.io/luxon"
+
+- id: ramda
+  name: Ramda
+  npm: ramda
+  github: ramda/ramda
+  description: Practical functional Javascript
+  homepageUrl: "https://ramdajs.com"
+
+- id: jquery
+  name: jQuery
+  npm: jquery
+  github: jquery/jquery
+  description: jQuery JavaScript Library
+  homepageUrl: "https://jquery.com/"
+
+- id: rxjs
+  name: RxJS
+  npm: rx
+  github: ReactiveX/rxjs
+  description: A reactive programming library for JavaScript
+  homepageUrl: "https://rxjs.dev"
+
+- id: axios
+  name: Axios
+  npm: axios
+  github: axios/axios
+  description: Promise based HTTP client for the browser and node.js
+  homepageUrl: https://axios-http.com/
+
+- id: lerna
+  name: Lerna
+  npm: lerna
+  github: lerna/lerna
+  description: A tool for managing JavaScript projects with multiple packages.
+  homepageUrl: "https://lerna.js.org"
+
+- id: prettier
+  name: Prettier
+  npm: prettier
+  github: prettier/prettier
+  description: Prettier is an opinionated code formatter.
+  homepageUrl: "https://prettier.io"
+
+- id: eslint
+  name: ESLint
+  npm: eslint
+  github: eslint/eslint
+  description: Find and fix problems in your JavaScript code.
+  homepageUrl: "https://eslint.org"
+
+- id: verdaccio
+  name: Verdaccio
+  npm: verdaccio
+  github: verdaccio/verdaccio
+  description: A lightweight Node.js private proxy registry
+  homepageUrl: https://verdaccio.org/
+
+- id: typescript_eslint
+  name: TypeScript ESLint
+  github: typescript-eslint/typescript-eslint
+  description: Tooling which enables ESLint to support TypeScript
+  homepageUrl: https://typescript-eslint.io/
+
+- id: nvm
+  name: nvm
+  npm: null
+  github: nvm-sh/nvm
+  description: >-
+    Node Version Manager - POSIX-compliant bash script to manage multiple active
+    node.js versions
+  homepageUrl: null
+
+- id: npm
+  name: Npm
+  npm: null
+  github: npm/cli
+  description: A package manager for JavaScript
+  homepageUrl: "https://npm.community"
+
+- id: yarn
+  name: Yarn
+  npm: null
+  github: yarnpkg/yarn
+  description: "Fast, reliable, and secure dependency management."
+  homepageUrl: "https://classic.yarnpkg.com"
+
+- id: nodejs
+  name: Node.js
+  npm: null
+  github: nodejs/node
+  description: Node.js JavaScript runtime
+  homepageUrl: "https://nodejs.org/"
+  patterns:
+    - node

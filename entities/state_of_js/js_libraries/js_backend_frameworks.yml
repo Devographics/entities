@@ -1,0 +1,200 @@
+#################################################
+# Back End Frameworks
+#################################################
+
+- id: express
+  name: Express
+  npm: express
+  github: expressjs/express
+  description: "Fast, unopinionated, minimalist web framework for node."
+  homepageUrl: "https://expressjs.com"
+
+- id: nextjs
+  name: Next.js
+  npm: next
+  github: vercel/next.js
+  # description: The React Framework
+  homepageUrl: "https://nextjs.org"
+  patterns:
+    - next.js
+
+- id: koa
+  name: Koa
+  npm: koa
+  github: koajs/koa
+  description: Expressive middleware for node.js using ES2017 async functions
+  homepageUrl: "https://koajs.com"
+
+- id: meteor
+  name: Meteor
+  npm: null
+  github: meteor/meteor
+  description: "Meteor, the JavaScript App Platform"
+  homepageUrl: "https://www.meteor.com"
+
+- id: sails
+  name: Sails
+  npm: sails
+  github: balderdashy/sails
+  description: Realtime MVC Framework for Node.js
+  homepageUrl: "https://sailsjs.com"
+
+- id: feathers
+  name: Feathers
+  npm: "@feathersjs/feathers"
+  github: feathersjs/feathers
+  description: >-
+    A framework for real-time applications and REST APIs with JavaScript and
+    TypeScript
+  patterns:
+    - feathers [p]
+  homepageUrl: "https://feathersjs.com"
+
+- id: nuxt
+  name: Nuxt
+  npm: nuxt
+  github: nuxt/nuxt.js
+  # description: The Intuitive Vue Framework
+  homepageUrl: "https://nuxtjs.org"
+
+- id: gatsby
+  name: Gatsby
+  npm: gatsby
+  github: gatsbyjs/gatsby
+  # description: "Build blazing fast, modern apps and websites with React"
+  homepageUrl: "https://www.gatsbyjs.com"
+
+- id: nest
+  name: NestJS
+  npm: "@nestjs/core"
+  github: nestjs/nest
+  description: >-
+    A progressive Node.js framework for building efficient, scalable, and
+    enterprise-grade server-side applications on top of TypeScript & JavaScript
+    (ES6, ES7, ES8)
+  patterns:
+    - nestjs
+  homepageUrl: "https://nestjs.com"
+
+- id: strapi
+  name: Strapi
+  npm: strapi
+  github: strapi/strapi
+  description: Open source Node.js Headless CMS to easily build customisable APIs
+  homepageUrl: "https://strapi.io"
+
+- id: razzle
+  name: Razzle
+  npm: razzle
+  github: jaredpalmer/razzle
+  description: >-
+    Create server-rendered universal JavaScript applications with no
+    configuration
+  homepageUrl: "https://razzlejs.org"
+
+- id: fastify
+  name: Fastify
+  npm: fastify
+  github: fastify/fastify
+  description: "Fast and low overhead web framework, for Node.js"
+  homepageUrl: "https://www.fastify.io"
+
+- id: deno
+  name: Deno
+  npm: null
+  github: denoland/deno
+  description: A secure JavaScript and TypeScript runtime
+  homepageUrl: "https://deno.land"
+
+- id: redwood
+  name: Redwood
+  npm: null
+  github: redwoodjs/redwood
+  description: Bringing full-stack to the Jamstack.
+  homepageUrl: "https://redwoodjs.com"
+
+- id: hapi
+  name: Hapi
+  npm: "@hapi/hapi"
+  github: hapijs/hapi
+  description: "The Simple, Secure Framework Developers Trust"
+  homepageUrl: "https://hapi.dev"
+
+- id: adonis
+  name: Adonis
+  npm: adonis-framework
+  github: adonisjs/core
+  description: >-
+    The Node.js Framework highly focused on developer ergonomics, stability and
+    confidence
+  homepageUrl: "https://preview.adonisjs.com"
+
+- id: sapper
+  name: Sapper
+  npm: sapper
+  github: sveltejs/sapper
+  description: "The next small thing in web development, powered by Svelte"
+  homepageUrl: "https://sapper.svelte.dev"
+
+- id: gridsome
+  name: Gridsome
+  npm: "@gridsome/cli"
+  github: gridsome/gridsome
+  description: ️ The Jamstack framework for Vue.js
+  homepageUrl: "https://gridsome.org"
+
+- id: blitz
+  name: Blitz
+  npm: blitz
+  github: blitz-js/blitz
+  description: ️The Fullstack React Framework — built on Next.js
+  homepageUrl: "https://Blitzjs.com"
+
+- id: loopback_4
+  name: LoopBack 4
+  npm: "@loopback/core"
+  github: strongloop/loopback-next
+  description: "A highly extensible Node.js and TypeScript framework\r\nfor building APIs and microservices"
+  homepageUrl: "https://loopback.io/"
+
+- id: tinyhttp
+  name: tinyhttp
+  npm: "@tinyhttp/app"
+  github: talentlessguy/tinyhttp
+  description: Modern Express-like web framework
+  homepageUrl: "https://tinyhttp.v1rtl.site"
+
+- id: polka
+  name: Polka
+  npm: polka
+  github: lukeed/polka
+  description: "A micro web server so fast, it'll make you dance!"
+  homepageUrl: null
+
+- id: foalts
+  name: FoalTS
+  npm: "@foal/core"
+  github: FoalTS/foal
+  description: >-
+    Node.JS and TypeScript framework for building web applications . Simple,
+    intuitive and feature-complete.
+  homepageUrl: "https://foalts.org/"
+
+- id: apollo_server
+  name: Apollo Server
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/
+
+- id: directus
+  name: Directus
+  homepageUrl: https://directus.io/
+
+- id: keystone
+  name: Keystone
+  homepageUrl: https://keystonejs.com/
+
+- id: vulcan_js
+  name: Vulcan
+  npm: null
+  github: vulcanjs/vulcan-next
+  description: The full-stack React+GraphQL framework
+  homepageUrl: "https://vulcanjs.org"

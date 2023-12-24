@@ -1,0 +1,161 @@
+#################################################
+# Colors
+#################################################
+
+- id: color_function
+  name: "`color()`"
+  mdn: /en-US/docs/Web/CSS/color_value/color()
+  example:
+    language: css
+    code: |
+      .brightest-green {
+        background: color(display-p3 0 1 0);
+      }
+  caniuse: css-color-function
+  tags:
+    - css
+    - css_colors
+
+- id: accent_color
+  name: "`accent-color`"
+  mdn: /en-US/docs/Web/CSS/accent-color
+  example:
+    language: css
+    code: |
+      input[type='checkbox'] {
+        accent-color: tomato;
+      }
+  caniuse: mdn-css_properties_accent-color
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: color_contrast
+  name: "`color-contrast()`"
+  mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
+  caniuse: mdn-css_types_color_color-contrast
+  example:
+    language: css
+    code: |
+      .high-contrast {
+        color: color-contrast(#008080 vs olive, var(--myColor), #d2691e);
+      }
+  tags:
+    - css
+    - css_colors
+
+- id: currentcolor
+  name: "`currentColor`"
+  mdn: /en-US/docs/Web/CSS/color_value#currentcolor_keyword
+  example:
+    language: css
+    code: |
+      .blue-text {
+        color: blue;
+      }
+      .blue-text .blue-background {
+        background: currentColor;
+      }
+  caniuse: currentcolor
+  tags:
+    - css
+    - css_colors
+
+- id: color_mix
+  name: "`color-mix()`"
+  mdn: /en-US/docs/Web/CSS/color_value/color-mix
+  example:
+    language: css
+    code: |
+      .teal {
+        background: color-mix(in lab, white 20%, #34c9eb);
+      }
+  caniuse: mdn-css_types_color_color-mix
+  tags:
+    - css
+    - css_colors
+
+- id: wide_gamut_colors
+  name: Wide Gamut Colors
+  description: >
+    `lch()`, `lab()`, `oklch()`, `oklab()`
+  mdn: /en-US/docs/Web/CSS/color_value/lch
+  caniuse: css-lch-lab
+  example:
+    language: css
+    code: |
+      .foo {
+        background-color: lab(29.2345% 39.3825 20.0664);
+        background-color: lch(29.2345% 44.2 27);
+      }
+  tags:
+    - css
+    - css_colors
+
+- id: relative_colors
+  name: Relative Colors
+  w3c: TR/css-color-5/#relative-colors
+  resources:
+    - title: Create a color theme with CSS Relative Color Syntax, CSS color-mix(), and CSS color-contrast()
+      url: https://www.bram.us/2021/04/28/create-a-color-theme-with-css-relative-color-syntax-css-color-mix-and-css-color-contrast/
+      language: en-US
+  example:
+    language: css
+    code: |
+      .foo {
+        --color: #4488dd;
+        background-color: hsl(from var(--color) h s calc(l * 1.2))
+      }
+  tags:
+    - css
+    - css_colors
+    - html_interoperability_features
+
+- id: forced_colors
+  name: "`forced-colors`"
+  mdn: /en-US/docs/Web/CSS/@media/forced-colors
+  caniuse: mdn-css_at-rules_media_forced-colors
+  example:
+    language: css
+    code: |
+      @media (forced-colors: active) {
+        .button {
+          border: 2px green solid;
+        }
+      }
+  tags:
+    - css
+    - css_colors
+
+- id: prefers_contrast
+  name: "`prefers-contrast`"
+  mdn: /en-US/docs/Web/CSS/@media/prefers-contrast
+  caniuse: mdn-css_at-rules_media_prefers-contrast
+  example:
+    language: css
+    code: |
+      @media (prefers-contrast: more) {
+        .contrast {
+          outline: 2px solid black;
+        }
+      }
+  tags:
+    - css
+    - css_colors
+
+- id: gradient_color_spaces
+  # mdn:
+  caniuse: mdn-css_types_image_gradient_conic-gradient_interpolation_color_space
+  resources:
+    - title: Using Different Color Spaces for Non-Boring Gradients
+      url: https://css-tricks.com/color-spaces-for-more-interesting-css-gradients/
+      language: en-US
+  example:
+    language: css
+    code: |
+      .gradient {
+        background: linear-gradient(in oklab, hsl(80 90% 50%), red);
+      }
+  tags:
+    - css
+    - css_colors

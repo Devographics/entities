@@ -1,0 +1,132 @@
+#################################################
+# Animation & Graphics
+#################################################
+
+- id: d3
+  name: D3
+  npm: d3
+  github: d3/d3
+  description: "Bring data to life with SVG, Canvas and HTML."
+  homepageUrl: "https://d3js.org"
+
+- id: c3
+  name: C3
+  github: c3js/c3
+  homepageUrl: https://c3js.org/
+
+- id: three_js
+  name: Three.js
+  npm: three
+  github: mrdoob/three.js
+  description: JavaScript 3D library.
+  homepageUrl: "https://threejs.org/"
+  tags:
+    - animation
+
+- id: fabric_js
+  name: Fabric.js
+  npm: fabric
+  github: fabricjs/fabric.js
+  description: "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser"
+  homepageUrl: "http://fabricjs.com"
+  tags:
+    - animation
+
+- id: anime_js
+  name: Anime.js
+  npm: animejs
+  github: juliangarnier/anime
+  description: JavaScript animation engine
+  homepageUrl: "https://animejs.com"
+  tags:
+    - animation
+
+- id: popmotion
+  name: Popmotion
+  npm: popmotion
+  github: Popmotion/popmotion
+  description: Simple animation libraries for delightful user interfaces
+  homepageUrl: "https://popmotion.io"
+  patterns:
+    - pop( |-|.)?motion
+  tags:
+    - animation
+
+- id: greensock
+  name: GreenSock
+  npm: gsap
+  github: greensock/GSAP
+  description: GreenSock's GSAP JavaScript animation library (including Draggable).
+  homepageUrl: "https://greensock.com"
+  patterns:
+    - green( |-)sock
+    - gsap
+  tags:
+    - animation
+
+- id: lottie
+  name: Lottie
+  npm: null
+  github: airbnb/lottie-web
+  description: >-
+    Render After Effects animations natively on Web, Android and iOS, and React
+    Native.
+  homepageUrl: https://airbnb.io/lottie/
+  tags:
+    - animation
+
+- id: velocity
+  name: Velocity
+  npm: velocity-animate
+  github: julianshapiro/velocity
+  description: Accelerated JavaScript animation.
+  homepageUrl: "http://velocityjs.org/"
+  tags:
+    - animation
+
+- id: react_spring
+  name: React-Spring
+  homepageUrl: https://react-spring.dev/
+  tags:
+    - animation
+
+- id: framer_motion
+  name: Framer Motion
+  homepageUrl: https://www.framer.com/motion/
+  tags:
+    - animation
+
+- id: react_motion
+  name: React Motion
+  github: chenglou/react-motion
+  homepageUrl: https://github.com/chenglou/react-motion
+  tags:
+    - animation
+
+- id: react_native_reanimated
+  name: React Native Reanimated
+  github: software-mansion/react-native-reanimated/
+  homepageUrl: https://docs.swmansion.com/react-native-reanimated/
+  tags:
+    - animation
+
+- id: autoanimate
+  name: AutoAnimate
+  homepageUrl: https://auto-animate.formkit.com/
+  github: formkit/auto-animate
+
+- id: theatre_js
+  name: Theatre.js
+  homepageUrl: https://www.theatrejs.com/
+  tags:
+    - animation
+
+- id: motion_one
+  name: Motion One
+  npm: motion
+  github: motiondivision/motionone
+  homepageUrl: https://motion.dev/
+  patterns:
+    - motion.dev
+  tags:
+    - animation
