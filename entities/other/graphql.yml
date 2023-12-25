@@ -1,0 +1,72 @@
+# Sites
+- id: how_to_graphql
+  name: How To GraphQL
+  homepageUrl: https://www.howtographql.com/
+  tags:
+    - sites
+    - courses
+
+- id: one_week_graphql
+  name: One Week GraphQL
+  homepageUrl: https://oneweekgraphql.com/
+  tags:
+    - sites
+    - courses
+
+- id: graphql_wtf
+  name: GraphQL.wtf
+  homepageUrl: https://graphql.wtf/
+  tags:
+    - sites
+    - courses
+    - youtube
+
+- id: graphql_org
+  name: GraphQL.org
+  homepageUrl: https://graphql.org/
+  tags:
+    - sites
+  patterns:
+    - official graphql
+    - graphql docs
+    - graphql documentation
+    - graphql site
+    - graphql spec
+
+- id: production_ready_graphql
+  name: Production Ready GraphQL
+  homepageUrl: https://book.productionreadygraphql.com/
+  tags:
+    - sites
+    - books
+
+# Features
+
+# Other
+
+- id: graphile
+  name: Graphile
+  homepageUrl: https://www.graphile.org/
+- id: the_guild
+  name: The Guild
+  homepageUrl: https://www.the-guild.dev/
+- id: apollo
+  name: Apollo
+  homepageUrl: https://www.apollographql.com/
+- id: cli
+  name: CLI
+- id: server_to_server
+  name: Server to Server
+  patterns:
+    - s2s
+    - server 2 server
+
+# sources
+
+- id: state_of_graphql_survey
+  normalizationOnly: true
+  patterns:
+    - email
+    - devographics.com
+  tags:
+    - sources_state_of_graphql

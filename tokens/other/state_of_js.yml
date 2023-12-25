@@ -1,0 +1,76 @@
+# js_patterns
+
+- id: micro_frontend
+  name: Microfrontend
+  patterns:
+    - micro frontend
+    - micro-frontend
+  tags:
+    - js_patterns
+
+- id: pwa
+  name: Progressive Web App
+  patterns:
+    - progressive
+  tags:
+    - js_patterns
+
+- id: resumability
+  name: Resumability
+  tags:
+    - js_patterns
+
+- id: pespa
+  name: PESPA
+  tags:
+    - js_patterns
+
+- id: serverless
+  name: Serverless
+  tags:
+    - js_patterns
+
+- id: domain_driven_design
+  name: Domain-Driven Design
+  patterns:
+    - ddd
+  homepageUrl: https://en.wikipedia.org/wiki/Domain-driven_design
+  tags:
+    - js_patterns
+
+# libraries
+
+- id: effect_js
+  normalizationOnly: true
+  patterns:
+    - effect
+  tags:
+    - libraries
+
+- id: immutable_js
+  normalizationOnly: true
+  patterns:
+    - immutable
+  tags:
+    - libraries
+
+- id: just_js
+  normalizationOnly: true
+  patterns:
+    - just [p]
+  tags:
+    - libraries
+
+# usage_type
+
+- id: teacher
+  tags:
+    - usage_type
+
+- id: never
+  tags:
+    - usage_type
+
+- id: open_source
+  tags:
+    - usage_type

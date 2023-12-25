@@ -1,0 +1,74 @@
+# directives
+- id: at_skip
+  name: "@skip"
+  homepageUrl: https://dgraph.io/docs/graphql/queries/skip-include/
+  example:
+    language: graphql
+    code: >
+      query ($skipTitle: Boolean!) {
+        queryPost {
+          id
+          title @skip(if: $skipTitle)
+          text
+        }
+      }
+- id: at_include
+  name: "@include"
+  homepageUrl: https://dgraph.io/docs/graphql/queries/skip-include/
+  example:
+    language: graphql
+    code: >
+      query ($includeAuthor: Boolean!) {
+        queryPost {
+          id
+          title
+          text
+          author @include(if: $includeAuthor) {
+              id
+              name
+          }
+        }
+      }
+- id: at_deprecated
+  name: "@deprecated"
+  homepageUrl: https://dgraph.io/docs/graphql/schema/deprecated/
+  example:
+    language: graphql
+    code: >
+      type MyType {
+        id: ID!
+        oldField: String @deprecated(reason: "oldField is deprecated. Use newField instead.")
+        newField: String
+        deprecatedField: String @deprecated
+      }
+- id: at_specified_by
+  name: "@specifiedBy"
+  homepageUrl: https://spec.graphql.org/draft/#sec--specifiedBy
+  example:
+    language: graphql
+    code: >
+      scalar UUID @specifiedBy(url: "https://tools.ietf.org/html/rfc4122")
+- id: at_defer
+  name: "@defer"
+  homepageUrl: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
+  example:
+    language: graphql
+    code: >
+      query {
+        person(id: "cGVvcGxlOjE=") {
+          name
+          ...HomeworldFragment @defer(label: "homeworldDefer")
+      }
+- id: at_stream
+  name: "@stream"
+  homepageUrl: https://graphql.org/blog/2020-12-08-improving-latency-with-defer-and-stream-directives/
+  example:
+    language: graphql
+    code: >
+      query {
+        person(id: "cGVvcGxlOjE=") {
+          name
+          films @stream(initialCount: 2, label: "filmsStream") {
+            title
+          }
+      }

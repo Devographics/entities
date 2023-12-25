@@ -1,0 +1,221 @@
+# missing features
+
+- id: parent_selector
+  name: Parent Selector
+  patterns:
+    - parent
+    - parent select(or|ion)
+    - parent (of )?(an )?element
+    - \:parent
+    - (target|select|style) (a )?parent
+  tags:
+    - css_missing_features
+
+- id: mixins
+  name: Mixins
+  patterns:
+    - mixins?
+  tags:
+    - css_missing_features
+
+- id: scoping
+  name: Scoping
+  patterns:
+    - encapsulation
+    - isolation
+    - scop(e|ing)
+  tags:
+    - css_missing_features
+
+# catches too much stuff
+# - id: functions
+#   name: Functions
+#   tags:
+#     - css_missing_features
+
+- id: browser_support
+  name: Browser Support
+  patterns:
+    - browser adoption
+    - consistency
+    - consistent support
+    - cross( |-)browser
+  tags:
+    - css_missing_features
+
+- id: conditional_logic
+  name: Conditional Logic
+  patterns:
+    - conditional
+    - if statement
+  tags:
+    - css_missing_features
+
+- id: houdini
+  name: CSS Houdini
+  tags:
+    - css_missing_features
+
+- id: flow_control
+  name: Flow Control
+  tags:
+    - css_missing_features
+
+- id: center
+  name: Centering
+  tags:
+    - css_missing_features
+
+- id: simplicty
+  name: Simplicity
+  tags:
+    - css_missing_features
+
+- id: typography
+  name: Typographic Controls
+  patterns:
+    - typographic
+  tags:
+    - css_missing_features
+
+- id: form_elements
+  name: Form Elements Styling
+  patterns:
+    - form styling
+    - form input
+    - input element
+    - form element
+    - form fields
+  tags:
+    - css_missing_features
+
+- id: print
+  normalizationOnly: true
+  # name: Print Support
+  tags:
+    - css_missing_features
+
+- id: masonry_layout
+  name: Masonry Layout
+  patterns:
+    - masonry
+  tags:
+    - css_missing_features
+
+- id: css_regions
+  name: CSS Regions
+  patterns:
+    - regions
+  tags:
+    - css_missing_features
+
+- id: native_visually_hidden
+  tags:
+    - css_missing_features
+
+- id: generated_content_alt_text
+  tags:
+    - css_missing_features
+
+- id: animate_to_auto
+  tags:
+    - css_missing_features
+  patterns:
+    - "Animating to-&-from display: none"
+    - "animate to visibility: hidden or display: none"
+
+- id: anchored_positioning
+  tags:
+    - css_missing_features
+
+- id: flex_wrapping_detection
+  tags:
+    - css_missing_features
+
+- id: more_pseudo_elements
+  tags:
+    - css_missing_features
+
+- id: svg_in_css
+  tags:
+    - css_missing_features
+
+- id: grid_lines_styling
+  tags:
+    - css_missing_features
+
+- id: media_queries_variables
+  tags:
+    - css_missing_features
+
+- id: css_nesting
+  normalizationOnly: true
+  patterns:
+    - nest
+    - nesting
+    - nested
+  tags:
+    - browser_interoperability
+    - css_missing_features
+
+- id: loops
+  name: For Loops
+  patterns:
+    - loop
+  tags:
+    - css_missing_features
+
+- id: multi_column
+  normalizationOnly: true
+  patterns:
+    - column
+  tags:
+    - browser_interoperability
+
+- id: input_styling
+  name: Input Styling
+  patterns:
+    - styling input
+    - form controls
+  tags:
+    - browser_interoperability
+    - css_missing_features
+
+- id: cmyk_colors
+  name: CMYK Colors
+  patterns:
+    - cmyk
+  tags:
+    - css_missing_features
+
+- id: styling_select
+  name: Styling `select` Inputs
+  patterns:
+    - select input
+    - select menu
+    - select styling
+  tags:
+    - css_missing_features
+
+- id: random
+  name: "`random()` Function"
+  tags:
+    - css_missing_features
+
+- id: popups_popovers
+  name: Popups & Popovers
+  patterns:
+    - popup
+    - popover
+  tags:
+    - css_missing_features
+
+- id: animate_to_auto
+  normalizationOnly: true
+  name: Animate to Auto
+  patterns:
+    - to auto
+    - to/from auto
+    - "height(:| )auto"
+  tags:
+    - css_missing_features

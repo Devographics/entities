@@ -1,0 +1,13 @@
+# other features
+- id: graphql_subscriptions
+  name: GraphQL Subscriptions
+  homepageUrl: https://www.apollographql.com/docs/react/data/subscriptions/
+- id: live_queries
+  name: Live Queries
+  homepageUrl: https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql
+- id: apollo_federation
+  name: Apollo Federation
+  homepageUrl: https://www.apollographql.com/docs/federation/
+- id: schema_stitching
+  name: Schema Stitching
+  homepageUrl: https://blog.logrocket.com/understanding-schema-stitching-graphql/

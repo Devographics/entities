@@ -1,0 +1,69 @@
+# GraphQL Servers
+
+- id: graphql_js
+  name: GraphQL.js
+  homepageUrl: https://github.com/graphql/graphql-js
+- id: apollo_server
+  name: Apollo Server
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/
+- id: yoga
+  name: Yoga
+  homepageUrl: https://www.graphql-yoga.com/
+- id: helix
+  name: Helix
+  homepageUrl: https://www.graphql-helix.com/
+- id: express_graphql
+  name: Express-GraphQL
+  homepageUrl: https://github.com/graphql/express-graphql
+- id: mercurius
+  name: Mercurius
+  homepageUrl: https://mercurius.dev/
+- id: hot_chocolate
+  name: Hot Chocolate
+  homepageUrl: https://chillicream.com/docs/hotchocolate
+- id: graphql_java
+  name: GraphQL Java
+  homepageUrl: https://www.graphql-java.com/
+- id: dgs
+  name: DGS
+  homepageUrl: https://netflix.github.io/dgs/
+- id: strawberry
+  name: Strawberry
+  homepageUrl: https://strawberry.rocks/
+- id: sangria
+  name: Sangria
+  homepageUrl: https://sangria-graphql.github.io/
+- id: graphql_dotnet
+  name: GraphQL .NET
+  homepageUrl: https://graphql-dotnet.github.io/
+- id: absinthe
+  name: Absinthe
+  homepageUrl: http://absinthe-graphql.org/
+- id: graphql_go
+  name: GraphQL-Go
+  homepageUrl: https://github.com/graph-gophers/graphql-go
+- id: lighthouse_php
+  name: Lighthouse
+  homepageUrl: https://lighthouse-php.com/
+- id: graphql_ruby
+  name: GraphQL Ruby
+  homepageUrl: https://graphql-ruby.org/
+  patterns:
+    - graphql-rb
+- id: async_graphql
+  name: async-graphql
+  homepageUrl: https://github.com/async-graphql/async-graphql
+- id: async_graphql
+  name: async-graphql
+  homepageUrl: https://async-graphql.github.io/
+- id: juniper
+  name: Juniper
+  homepageUrl: https://github.com/graphql-rust/juniper
+- id: ariadne
+  name: Ariadne
+  homepageUrl: https://ariadnegraphql.org/
+- id: graphql_php
+  name: graphql-php
+  homepageUrl: https://webonyx.github.io/graphql-php/
+  patterns:
+    - webonyx

@@ -1,0 +1,6 @@
+- id: classnames
+  name: Classnames
+  npm: classnames
+  github: JedWatson/classnames
+  description: A simple javascript utility for conditionally joining classNames together
+  homepageUrl: https://jedwatson.github.io/classnames/

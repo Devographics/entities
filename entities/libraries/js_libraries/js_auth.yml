@@ -1,0 +1,31 @@
+# auth
+
+- id: auth_js
+  name: Auth.js
+  homepageUrl: https://authjs.dev/
+
+- id: clerk
+  name: Clerk
+  homepageUrl: https://clerk.com/
+
+- id: fusion_auth
+  name: FusionAuth
+  homepageUrl: https://fusionauth.io/
+
+- id: passport
+  name: Passport
+  homepageUrl: https://www.passportjs.org/
+
+- id: lucia
+  name: Lucia
+  homepageUrl: https://lucia-auth.com/
+  github: lucia-auth/lucia
+
+- id: next_auth
+  name: NextAuth.js
+  homepageUrl: https://next-auth.js.org/
+
+- id: remix_auth
+  name: Remix Auth
+  github: sergiodxa/remix-auth
+  npm: remix-auth

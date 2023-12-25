@@ -1,0 +1,117 @@
+#################################################
+# Forms
+#################################################
+
+- id: formik
+  name: Formik
+  npm: formik
+  github: formium/formik
+  description: "Build forms in React, without the tears"
+  homepageUrl: "https://formik.org"
+  tags:
+    - forms
+
+- id: react_json_schema_form
+  name: react-jsonschema-form
+  npm: "@rjsf/core"
+  github: rjsf-team/react-jsonschema-form
+  homepageUrl: https://github.com/rjsf-team/react-jsonschema-form
+  tags:
+    - forms
+
+- id: formily
+  name: "@formily/core"
+  npm: formik
+  github: alibaba/formily
+  homepageUrl: https://formilyjs.org/
+  tags:
+    - forms
+
+- id: conform
+  name: Conform
+  homepageUrl: https://conform.guide/
+  github: edmundhung/conform
+  tags:
+    - remix
+    - react-router
+    - forms
+
+- id: data_driven_forms
+  name: Data Driven Forms
+  homepageUrl: https://www.data-driven-forms.org/
+  github: data-driven-forms/react-forms
+  npm: "@data-driven-forms/react-form-renderer"
+  tags:
+    - forms
+
+- id: effector_forms
+  name: Effector Forms
+  homepageUrl: https://github.com/42-px/effector-forms
+  npm: effector-forms
+  github: 42-px/effector-forms
+  tags:
+    - forms
+
+- id: felte
+  name: Felte
+  homepageUrl: https://felte.dev/
+  github: pablo-abc/felte
+  tags:
+    - svelte
+    - solid
+    - react
+
+- id: uniforms
+  homepageUrl: https://uniforms.tools/
+  github: vazco/uniforms
+  tags:
+    - forms
+
+- id: react_hook_form
+  name: React Hook Form
+  npm: react-hook-form
+  github: react-hook-form/react-hook-form
+  description: React Hooks for forms validation (Web + React Native)
+  homepageUrl: "https://react-hook-form.com"
+
+- id: redux_form
+  name: Redux Form
+  npm: redux-form
+  github: redux-form/redux-form
+  homepageUrl: https://redux-form.com/
+
+- id: react_final_form
+  name: React Final Form
+  github: final-form/react-final-form
+  homepageUrl: https://final-form.org/react
+  tags:
+    - react
+
+- id: remix_validated_form
+  name: Remix Validated Form
+  homepageUrl: https://www.remix-validated-form.io/
+  github: airjp73/remix-validated-form
+  tags:
+    - remix
+
+- id: formsy
+  name: Formsy
+  github: formsy/formsy-react
+  npm: formsy-react
+  homepageUrl: https://github.com/formsy/formsy-react
+
+- id: house_forms
+  name: House Forms
+  homepageUrl: https://houseform.dev/
+  github: houseform/houseform
+  npm: houseform
+
+- id: informed
+  name: Informed
+  github: https://github.com/teslamotors/informed
+  homepageUrl: https://teslamotors.github.io/informed/
+
+- id: json_forms
+  name: JSON Forms
+  homepageUrl: https://jsonforms.io/
+  github: eclipsesource/jsonforms

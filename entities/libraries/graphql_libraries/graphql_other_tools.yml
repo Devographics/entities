@@ -1,0 +1,76 @@
+# Other Tools
+
+- id: envelop
+  name: Envelop
+  homepageUrl: https://www.envelop.dev/
+- id: graphql_mesh
+  name: GraphQL Mesh
+  homepageUrl: https://www.graphql-mesh.com/
+- id: graphql_shield
+  name: GraphQL Shield
+  homepageUrl: https://www.graphql-shield.com/
+- id: dataloader
+  name: Dataloader
+  homepageUrl: https://github.com/graphql/dataloader
+- id: graphql_voyager
+  name: GraphQL Voyager
+  homepageUrl: https://apis.guru/graphql-voyager/
+- id: graphqurl
+  name: graphqurl
+  homepageUrl: https://github.com/hasura/graphqurl
+- id: stellate
+  name: Stellate (formerly GraphCDN)
+  homepageUrl: https://graphcdn.io/
+  patterns:
+    - graphcdn
+- id: apollo_client_devtools
+  name: Apollo Client Devtools
+  homepageUrl: https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US
+- id: graphql_hive
+  name: GraphQL Hive
+  homepageUrl: https://graphql-hive.com/
+- id: graphql_inspector
+  name: GraphQL Inspector
+  homepageUrl: https://www.graphql-inspector.com/
+- id: graphql_scalars
+  name: GraphQL Scalars
+  homepageUrl: https://www.graphql-scalars.dev/
+- id: graphql_config
+  name: GraphQL Config
+  homepageUrl: https://www.graphql-config.com/
+- id: graphql_modules
+  name: GraphQL Modules
+  homepageUrl: https://www.graphql-modules.com/
+- id: graphql_modules
+  name: GraphQL Modules
+  homepageUrl: https://www.graphql-modules.com/
+- id: apollo_datasources
+  name: Apollo Data Sources
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/data/data-sources/
+- id: stepzen
+  name: StepZen
+  homepageUrl: https://stepzen.com/
+- id: mulesoft
+  name: MuleSoft
+  homepageUrl: https://www.mulesoft.com/
+- id: graphene
+  name: Graphene
+  homepageUrl: https://graphene-python.org/
+- id: apollo_federation
+  name: Apollo Federation
+  homepageUrl: https://www.apollographql.com/docs/federation/
+- id: schema_stitching
+  name: Schema Stitching
+  homepageUrl: https://www.apollographql.com/docs/graphql-tools/schema-stitching.html
+- id: hasura_data_federation
+  name: Hasura Data Federation
+  homepageUrl: https://hasura.io/docs/latest/graphql/core/data-federation/index/
+- id: graphql_eslint
+  name: GraphQL ESLint
+  homepageUrl: https://github.com/B2o5T/graphql-eslint
+- id: apollo_workbench
+  name: Apollo Workbench
+  homepageUrl: https://www.apollographql.com/docs/federation/v1/workbench/overview/
+- id: grpc
+  name: gRPC
+  homepageUrl: https://grpc.io/

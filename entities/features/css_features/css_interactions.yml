@@ -1,0 +1,98 @@
+#################################################
+# CSS interactions
+#################################################
+
+- id: scroll_snap
+  name: Scroll Snap
+  description: >
+    `scroll-snap-type`, `scroll-snap-align`, `scroll-padding`…
+  mdn: /en-US/docs/Web/CSS/CSS_Scroll_Snap
+  caniuse: css-snappoints
+  example:
+    language: css
+    code: |
+      .scroller {
+        height: 300px;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+      }
+
+      .scroller section {
+        scroll-snap-align: start;
+      }
+
+- id: overscroll_behavior
+  name: "`overscroll-behavior`"
+  mdn: /en-US/docs/Web/CSS/overscroll-behavior
+  caniuse: css-overscroll-behavior
+  example:
+    language: css
+    code: |
+      .foo {
+        height: 200px;
+        overflow: auto;
+        overscroll-behavior-y: contain;
+      }
+
+- id: overflow_anchor
+  name: "`overflow-anchor`"
+  mdn: /en-US/docs/Web/CSS/overflow-anchor
+  caniuse: css-overflow-anchor
+
+- id: touch_action
+  name: "`touch-action`"
+  mdn: /en-US/docs/Web/CSS/touch-action
+  caniuse: css-touch-action
+  example:
+    language: css
+    code: |
+      .map {
+        touch-action: none;
+      }
+
+- id: pointer_events
+  name: "`pointer-events`"
+  mdn: /en-US/docs/Web/CSS/pointer-events
+  caniuse: pointer-events
+
+- id: scroll_timeline
+  name: "`@scroll-timeline`"
+  caniuse: css-scroll-timeline
+  mdn: /en-US/docs/Web/CSS/@scroll-timeline
+    - html_interoperability_features
+
+- id: scroll_behavior
+  name: "`scroll-behavior`"
+  mdn: /en-US/docs/Web/CSS/scroll-behavior
+  caniuse: css-scroll-behavior
+  example:
+    language: css
+    code: |
+      .foo {
+        scroll-behavior: auto;
+        scroll-behavior: smooth;
+      }
+  patterns:
+    - scroll(-| )?behavio(u)?r
+
+- id: scroll_padding
+  name: "`scroll-padding`"
+  mdn: /en-US/docs/Web/CSS/scroll-padding
+  caniuse: mdn-css_properties_scroll-padding
+  example:
+    language: css
+    code: |
+      .foo {
+        scroll-padding: 20px;
+      }
+
+- id: scrollbar_gutter
+  name: "`scrollbar-gutter`"
+  mdn: /en-US/docs/Web/CSS/scrollbar-gutter
+  caniuse: mdn-css_properties_scrollbar-gutter
+  example:
+    language: css
+    code: |
+      .container {
+        scrollbar-gutter: stable;
+      }

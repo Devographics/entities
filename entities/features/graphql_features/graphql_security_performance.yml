@@ -1,0 +1,31 @@
+# security & performance
+- id: persisted_queries
+  name: Persisted Queries
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/performance/apq/
+- id: query_allowlisting
+  name: Query Allow-listing
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/securing-your-graphql-api-from-malicious-queries/
+- id: query_timeouts
+  name: Query Timeouts
+  homepageUrl: https://medium.com/workflowgen/graphql-query-timeout-and-complexity-management-fab4d7315d8d
+- id: query_rate_limit
+  name: Query Rate Limiting
+  homepageUrl: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
+- id: query_depth_limit
+  name: Query Depth Limiting
+  homepageUrl: https://blog.logrocket.com/securing-graphql-api-using-rate-limits-and-depth-limits/
+- id: query_amount_limit
+  name: Query Amount Limiting
+  homepageUrl: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
+- id: query_cost_analysis
+  name: Query Cost Analysis
+  homepageUrl: https://blog.devgenius.io/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1
+- id: disabling_introspection
+  name: Disabling Introspection
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/
+- id: ip_allowlisting
+  name: IP Allow-listing
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/
+- id: require_authentication
+  name: Requiring Authentication
+  homepageUrl: https://www.apollographql.com/blog/graphql/security/9-ways-to-secure-your-graphql-api-security-checklist/

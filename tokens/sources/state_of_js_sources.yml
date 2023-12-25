@@ -1,0 +1,14 @@
+# sources
+
+- id: state_of_js_survey
+  normalizationOnly: true
+  patterns:
+    - email
+    - devographics.com
+    - stateofjs_email_announcement
+    - newsletter
+    - survey.devographics.com
+    - post_survey_share
+    - mail
+  tags:
+    - sources_state_of_js

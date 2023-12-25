@@ -1,0 +1,16 @@
+# common features
+- id: custom_directives
+  name: Custom Directives
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/creating-directives/
+- id: custom_scalars
+  name: Custom Scalars
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/custom-scalars/
+- id: fragments
+  name: Fragments
+  homepageUrl: https://graphql.org/learn/queries/#:~:text=request.-,Fragments
+- id: unions
+  name: Unions
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/
+- id: interfaces
+  name: Interfaces
+  homepageUrl: https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/

@@ -1,0 +1,164 @@
+# use cases
+
+- id: developer_tooling
+  name: Developer Tooling
+  patterns:
+    - tooling
+    - tools
+  tags:
+    - js_uses
+
+- id: command_line_tools
+  name: Command Line Tools
+  patterns:
+    - command
+    - cli
+  tags:
+    - js_uses
+
+- id: scripting
+  name: Scripting
+  patterns:
+    - script
+  tags:
+    - js_uses
+
+- id: browser_extensions
+  name: Browser Extensions
+  patterns:
+    - extension
+  tags:
+    - js_uses
+
+- id: automation
+  name: Automation
+  patterns:
+    - automated
+    - automating
+  tags:
+    - js_uses
+
+- id: testing
+  name: Testing
+  tags:
+    - js_uses
+
+- id: bots
+  name: Bots
+  patterns:
+    - bot
+    - discord
+    - slack
+  tags:
+    - js_uses
+
+- id: prototyping
+  name: Prototyping
+  tags:
+    - js_uses
+
+- id: blockchain
+  name: Blockchain
+  tags:
+    - js_uses
+
+- id: iot
+  name: IoT
+  tags:
+    - js_uses
+
+- id: education
+  normalizationOnly: true
+  name: Education
+  patterns:
+    - teaching
+  tags:
+    - js_uses
+
+- id: infrastructure_as_code
+  name: Infrastructure as Code
+  patterns:
+    - infrastructure
+  tags:
+    - js_uses
+
+- id: smart_tv
+  name: Smart TV Apps
+  tags:
+    - js_uses
+
+- id: serverless
+  name: Serverless
+  tags:
+    - js_uses
+
+- id: api
+  name: APIs
+  tags:
+    - js_uses
+
+- id: devops
+  name: DevOps
+  tags:
+    - js_uses
+
+# what do you use CSS for
+
+- id: e_commerce
+  # name: E-Commerce Sites
+  tags:
+    - css_uses
+  patterns:
+    - webshop
+    - store
+    - shop
+
+- id: electron
+  normalizationOnly: true
+  # name: Electron Apps
+  tags:
+    - css_uses
+
+- id: portfolio
+  normalizationOnly: true
+  tags:
+    - css_uses
+
+- id: data_visualization
+  normalizationOnly: true
+  # name: Data Visualization
+  patterns:
+    - data visualisation
+  tags:
+    - css_uses
+
+- id: svg
+  normalizationOnly: true
+  name: SVG
+  tags:
+    - css_uses
+
+- id: desktop
+  normalizationOnly: true
+  # name: Desktop Applications
+  tags:
+    - css_uses
+
+- id: games
+  normalizationOnly: true
+  # name: Video Games
+  tags:
+    - css_uses
+
+- id: extensions
+  normalizationOnly: true
+  # name: Browser Extensions
+  tags:
+    - css_uses
+  patterns:
+    - extension
+
+- id: websites
+  normalizationOnly: true
+  tags:
+    - css_uses

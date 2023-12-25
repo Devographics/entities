@@ -1,0 +1,21 @@
+# GraphQL Code Generators
+- id: graphql_zeus
+  name: GraphQL Zeus
+  homepageUrl: https://github.com/graphql-editor/graphql-zeus
+- id: genql
+  name: Genql
+  homepageUrl: https://genql.vercel.app/
+- id: graphql_code_generator
+  name: GraphQL Code Generator
+  homepageUrl: https://www.graphql-code-generator.com/
+- id: nexus
+  name: Nexus
+  homepageUrl: https://nexusjs.org/
+- id: typegraphql
+  name: TypeGraphQL
+  homepageUrl: https://typegraphql.com/
+  patterns:
+    - typegraph
+- id: gqlgen
+  name: gqlgen
+  homepageUrl: https://gqlgen.com/

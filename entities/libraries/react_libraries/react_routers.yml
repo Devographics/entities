@@ -1,0 +1,6 @@
+- id: react_router
+  name: React Router
+  npm: react-router
+  github: ReactTraining/react-router
+  description: Declarative routing for React
+  homepageUrl: "https://reacttraining.com/react-router/"

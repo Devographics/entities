@@ -1,0 +1,42 @@
+##################################################################
+#            how_did_user_find_out_about_the_survey              #
+##################################################################
+
+- id: lea_verou
+  tags:
+    - how_did_user_find_out_about_the_survey
+  patterns:
+    - lea
+
+##################################################################
+#                             sources                            #
+##################################################################
+
+- id: state_of_js_css_survey
+  normalizationOnly: true
+  patterns:
+    - email
+    - devographics.com
+    - e-mail
+    - e mail
+    - mail
+    - mailing list
+    # - newsletter
+    - stateofcss.com
+    - stateofjs.com
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+    - annual
+    - yearly
+    - taken it
+    - filled it
+  tags:
+    - sources_state_of_html

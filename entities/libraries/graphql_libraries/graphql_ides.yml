@@ -1,0 +1,32 @@
+# GraphQL IDEs
+
+- id: graphiql
+  name: GraphiQL
+  homepageUrl: https://github.com/graphql/graphiql
+- id: graphql_playground
+  name: GraphQL Playground
+  homepageUrl: https://github.com/graphql/graphql-playground
+- id: apollo_studio
+  name: Apollo Studio
+  homepageUrl: https://studio.apollographql.com/
+- id: altair
+  name: Altair
+  homepageUrl: https://altair.sirmuel.design/
+- id: insomnia
+  name: Insomnia
+  homepageUrl: https://insomnia.rest/
+- id: postman
+  name: Postman
+  homepageUrl: https://www.postman.com/
+- id: graphql_editor
+  name: GraphQL Editor
+  homepageUrl: https://graphqleditor.com/
+- id: apollo_sandbox
+  name: Apollo Sandbox
+  homepageUrl: https://sandbox.apollo.dev/
+- id: hoppscotch
+  name: Hoppscotch
+  homepageUrl: https://hoppscotch.io/
+- id: paw
+  name: Paw
+  homepageUrl: https://paw.cloud/

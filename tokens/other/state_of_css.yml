@@ -1,0 +1,38 @@
+# browser interoperability, missing features, pain points
+
+- id: scrollbar
+  name: Scrollbar Styling
+  patterns:
+    - scroll( )?bar
+  tags:
+    - browser_interoperability
+
+- id: overflow
+  name: Overflow
+  tags:
+    - browser_interoperability
+
+- id: clamp
+  name: clamp()
+  tags:
+    - browser_interoperability
+
+- id: gap
+  name: gap
+  tags:
+    - browser_interoperability
+
+- id: display_contents
+  name: "`display: contents`"
+  patterns:
+    - "display: content"
+    - "display:content"
+  tags:
+    - browser_interoperability
+
+- id: has_selector
+  normalizationOnly: true
+  patterns:
+    - has
+  tags:
+    - browser_interoperability

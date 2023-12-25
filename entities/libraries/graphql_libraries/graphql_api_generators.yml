@@ -1,0 +1,55 @@
+# GraphQL API Generators
+- id: prisma
+  name: Prisma
+  homepageUrl: https://www.prisma.io/graphql
+- id: postgraphile
+  name: PostGraphile
+  homepageUrl: https://github.com/graphile/postgraphile
+- id: hasura
+  name: Hasura
+  homepageUrl: https://hasura.io/
+- id: graphcms
+  name: Hygraph (ex-GraphCMS)
+  homepageUrl: https://hygraph.com/
+- id: sanity
+  name: Sanity
+  homepageUrl: https://www.sanity.io/docs/graphql
+- id: wpgraphql
+  name: WPGraphQL
+  homepageUrl: https://www.wpgraphql.com/
+- id: wundergraph
+  name: WunderGraph
+  homepageUrl: https://wundergraph.com/
+- id: fauna
+  name: Fauna
+  homepageUrl: https://fauna.com/graphql
+- id: dgraph
+  name: Dgraph
+  homepageUrl: https://dgraph.io/
+- id: graphql_editor
+  name: GraphQL Editor
+  homepageUrl: https://graphqleditor.com/
+- id: strapi
+  name: Strapi
+  homepageUrl: https://docs.strapi.io/developer-docs/latest/plugins/graphql.html
+- id: appsync
+  name: AWS AppSync
+  homepageUrl: https://aws.amazon.com/appsync/
+- id: contentful
+  name: Contentful
+  homepageUrl: https://www.contentful.com/developers/docs/references/graphql/
+- id: nest
+  name: Nest
+  homepageUrl: https://docs.nestjs.com/graphql/quick-start
+- id: pothos
+  name: Pothos
+  homepageUrl: https://pothos-graphql.dev/
+- id: datocms
+  name: DatoCMS
+  homepageUrl: https://www.datocms.com/
+- id: prismic
+  name: Prismic
+  homepageUrl: https://prismic.io/
+- id: amplication
+  name: Amplication
+  homepageUrl: https://amplication.com/

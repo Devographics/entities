@@ -1,0 +1,68 @@
+#################################################
+# Non-JS Stuff
+#################################################
+
+- id: rails
+  name: Rails
+  homepageUrl: https://rubyonrails.org/
+  tags:
+    - non-js
+    - ruby
+
+- id: laravel
+  name: Laravel
+  homepageUrl: https://laravel.com/
+  tags:
+    - non-js
+    - php
+
+- id: django
+  name: Django
+  homepageUrl: https://www.djangoproject.com/
+  tags:
+    - non-js
+    - python
+
+- id: flask
+  name: Flask
+  homepageUrl: https://flask.palletsprojects.com/en/2.3.x/
+  tags:
+    - non-js
+
+- id: fastapi
+  name: FastAPI
+  homepageUrl: https://fastapi.tiangolo.com/
+  tags:
+    - non-js
+
+- id: asp_net
+  name: ASP.NET
+  homepageUrl: https://dotnet.microsoft.com/en-us/apps/aspnet
+
+- id: maui_net
+  name: .NET MAUI
+  homepageUrl: https://learn.microsoft.com/en-us/dotnet/maui/
+  patterns:
+    - MAUI
+
+- id: spring
+  name: Spring
+  homepageUrl: https://spring.io/
+
+- id: phoenix
+  name: Phoenix
+  homepageUrl: https://www.phoenixframework.org/
+
+- id: drupal
+  name: Drupal
+  homepageUrl: https://www.drupal.org/
+
+- id: unity
+  name: Unity
+  homepageUrl: https://unity.com/
+
+- id: jetpack
+  name: Jetpack Compose
+  homepageUrl: https://developer.android.com/jetpack/compose
+  patterns:
+    - compose
