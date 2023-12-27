@@ -130,6 +130,9 @@
 - id: ag_grid
   name: AG Grid
   homepageUrl: https://www.ag-grid.com/
+  patterns:
+    - ag grid [e]
+    - ag-grid
 
 - id: am_charts
   name: amCharts

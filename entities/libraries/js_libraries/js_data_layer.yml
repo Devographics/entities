@@ -9,6 +9,13 @@
   description: Predictable state container for JavaScript apps
   homepageUrl: "https://redux.js.org"
 
+- id: pinia
+  name: Pinia
+  homepageUrl: https://pinia.vuejs.org/
+  github: vuejs/pinia
+  tags:
+    - vue
+
 - id: apollo
   name: Apollo Client
   npm: apollo-client
@@ -186,3 +193,13 @@
   homepageUrl: https://redux-toolkit.js.org/rtk-query/overview
   tags:
     - data_fetching
+
+- id: dexie
+  name: Dexie
+  homepageUrl: https://dexie.org/
+
+- id: valtio
+  name: Valtio
+  homepageUrl: https://valtio.pmnd.rs/
+  github: pmndrs/valtio
+  npm: valtio

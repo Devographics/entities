@@ -399,6 +399,20 @@
 - id: prisma
   name: Prisma
   homepageUrl: https://www.prisma.io/
+  tags:
+    - orm
+
+- id: drizzle
+  name: Drizzle
+  homepageUrl: https://orm.drizzle.team/
+  github: drizzle-team/drizzle-orm
+  tags:
+    - orm
+
+- id: typeorm
+  name: TypeORM
+  homepageUrl: https://typeorm.io/
+  github: typeorm/typeorm
 
 - id: mui
   name: MUI
@@ -493,3 +507,23 @@
 - id: vueuse
   name: VueUse
   homepageUrl: https://vueuse.org/
+
+- id: knex
+  name: Knex.js
+  homepageUrl: https://knexjs.org/
+
+- id: nodemailer
+  name: Nodemailer
+  homepageUrl: https://nodemailer.com/
+  npm: nodemailer
+
+- id: uuid
+  name: uuid
+  npm: uuid
+
+- id: yargs
+  name: Yargs
+  homepageUrl: https://yargs.js.org/
+  npm: yargs
+  tags:
+    - CLI

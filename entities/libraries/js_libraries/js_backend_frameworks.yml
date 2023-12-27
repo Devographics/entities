@@ -198,3 +198,7 @@
   github: vulcanjs/vulcan-next
   description: The full-stack React+GraphQL framework
   homepageUrl: "https://vulcanjs.org"
+
+- id: swagger
+  name: Swagger
+  homepageUrl: https://swagger.io/
