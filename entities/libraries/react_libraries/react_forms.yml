@@ -87,9 +87,9 @@
   tags:
     - react
   patterns:
-    - Final forms
+    - Final form
     - FinalForm
-    - final-forms
+    - final-form
     - React Final Form
 
 - id: remix_validated_form
