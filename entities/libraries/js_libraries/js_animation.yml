@@ -115,6 +115,14 @@
   homepageUrl: https://auto-animate.formkit.com/
   github: formkit/auto-animate
 
+- id: animate_dot_css
+  name: Animate.css
+  homepageUrl: https://animate.style/
+  github: animate-css/animate.css
+  patterns:
+    - animate css [e]
+    - animate.css
+
 - id: theatre_js
   name: Theatre.js
   homepageUrl: https://www.theatrejs.com/
