@@ -185,6 +185,11 @@
   name: TanStack Forms
   github: TanStack/form
   homepageUrl: https://tanstack.com/form
+  patterns:
+    - @tanstack/form
+    - TanStack Form
+    - tanstack/form
+    
   tags:
     - forms
 
