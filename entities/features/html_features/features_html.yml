@@ -457,6 +457,7 @@
     - features
   patterns:
     - dialog
+    - dialogue
 
 - id: dom_parts
   name: DOM Parts

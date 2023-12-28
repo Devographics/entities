@@ -21,16 +21,80 @@
 - id: distribution
 
 - id: discovery
+  patterns:
+    - discoverability
 
 - id: notifications
+  patterns:
+    - notification
 
 - id: packaging
 
 - id: os_support
 
+- id: testing
+
 - id: firefox_issues
   patterns:
     - firefox
+
+- id: caching_issues
+  patterns:
+    - caching
+    - cache
+
+- id: gesture_handling
+  patterns:
+    - gesture
+
+- id: app_store_issues
+  patterns:
+    - app( )?store
+
+- id: indexeddb_issues
+  patterns:
+    - indexeddb
+
+- id: offline_support
+  patterns:
+    - offline
+
+# pwa_issues
+
+- id: pwa_issues
+
+- id: pwa_installation
+  parentId: pwa_issues
+  patterns:
+    - pwa, install [l]
+
+- id: pwa_update
+  parentId: pwa_issues
+  patterns:
+    - pwa, updat [l]
+
+- id: pwa_lack_of_familiarity
+  parentId: pwa_issues
+  patterns:
+    - pwa, familiar [l]
+
+# design_issues
+
+- id: ux_issues
+
+- id: using_native_elements
+  parentId: ux_issues
+  patterns:
+    - native, element [l]
+    - native, control [l]
+    - native, component [l]
+
+- id: touch_delay
+  parentId: ux_issues
+  patterns:
+    - touch, delay [l]
+    - touch, interaction [l]
+    - touch, responsiveness [l]
 
 # apple_ios_issues
 
@@ -39,11 +103,9 @@
 - id: ios_lack_of_pwa_support
   parentId: apple_ios_issues
   patterns:
-    - apple.*pwa [p]
-    - pwa.*apple [p]
-    - ios.*pwa [p]
-    - pwa.*ios [p]
-    - ios.*support [p]
+    - apple, pwa [l]
+    - ios, pwa [l]
+    - ios, support [l]
 
 - id: other_ios_issues
   parentId: apple_ios_issues

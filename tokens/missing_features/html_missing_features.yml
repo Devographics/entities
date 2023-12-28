@@ -1,0 +1,166 @@
+# Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+
+- id: nesting
+  patterns:
+    - "/&"
+
+- id: 3d_rendering
+  patterns:
+    - 3d
+
+- id: focus_management
+  patterns:
+    - focus
+
+- id: anchor_positioning
+  patterns:
+    - anchor
+
+- id: aspect_ratio
+  patterns:
+    - aspect, ratio [l]
+
+- id: autocomplete_attribute
+  patterns:
+    - autocomplete
+
+- id: av1
+
+- id: backdrop_filter
+  patterns:
+    - backdrop
+    - background, blur
+
+- id: barcode_detection_api
+  patterns:
+    - barcode
+
+- id: broadcast_channel
+  patterns:
+    - broadcast
+
+- id: canvas
+
+- id: color_picker
+  patterns:
+    - color, picker [l]
+    - input, color [l]
+
+- id: cookie_store
+  patterns:
+    - cookie
+
+- id: masonry_layout
+  patterns:
+    - masonry
+
+- id: relative_colors
+  patterns:
+    - relative, color [l]
+
+- id: subgrid
+  patterns:
+    - sub grid
+
+- id: customized_built_in_elements
+  patterns:
+    - custom, element [l]
+
+- id: custom_scrollbars
+  patterns:
+    - custom, scrollbar [l]
+
+- id: flex_gap
+  patterns:
+    - flex, gap [l]
+
+- id: fullscreen_api
+  patterns:
+    - fullscreen
+
+- id: has_selector
+  patterns:
+    - has [e]
+
+- id: houdini
+
+- id: html_imports
+
+- id: import_maps
+
+- id: indexed_db
+
+- id: marquee
+
+- id: math_ml
+
+- id: search
+
+- id: show_open_file_picker
+
+- id: select
+
+- id: offscreen_canvas
+
+- id: view_transitions
+  patterns:
+    - page, transition [l]
+
+- id: passkeys
+
+- id: popovers
+
+- id: portal
+
+- id: pwa
+
+- id: regex_backwards_lookup
+  patterns:
+    - backward, lookup [l]
+
+- id: permissions_api
+  patterns:
+    - permission [p]
+
+- id: oklch_colors
+  patterns:
+    - oklch
+
+- id: notification_api
+  patterns:
+    - notification
+    - push
+
+- id: navigator_share_api
+  patterns:
+    - navigator, share
+
+- id: intl_api
+  patterns:
+    - intl
+
+- id: keyboard_api
+  patterns:
+    - keyboard
+
+- id: image_capture_api
+  patterns:
+    - image, capture [l]
+
+- id: scroll_driven_animations
+  patterns:
+    - scroll, animation [l]
+
+- id: temporal
+
+- id: text_wrap_balance
+  patterns:
+    - text, wrap, balance [l]
+
+- id: vibration_api
+  patterns:
+    - vibration
+
+- id: video_autoplay
+  patterns:
+    - video, autoplay [l]
