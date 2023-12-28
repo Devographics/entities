@@ -30,6 +30,9 @@
   contexts: [state_of_css]
   github: ant-design/ant-design
   homepageUrl: https://ant.design/
+  patterns:
+    - antd
+    - ant design
 
 - id: semantic_ui
   name: Semantic UI/Fomantic UI
