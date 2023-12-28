@@ -86,6 +86,11 @@
   homepageUrl: https://final-form.org/react
   tags:
     - react
+  patterns:
+    - Final forms
+    - FinalForm
+    - final-forms
+    - React Final Form
 
 - id: remix_validated_form
   name: Remix Validated Form
@@ -101,10 +106,21 @@
   homepageUrl: https://github.com/formsy/formsy-react
 
 - id: house_forms
-  name: House Forms
+  name: HouseForm
   homepageUrl: https://houseform.dev/
   github: houseform/houseform
   npm: houseform
+  patterns:
+    - houseform
+    - house form
+
+- id: modular_forms
+  name: Modular Forms
+  homepageUrl: https://modularforms.dev/
+  github: fabian-hiller/modular-forms
+  patterns:
+    - modularform
+    - modular form
 
 - id: informed
   name: Informed
