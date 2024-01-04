@@ -954,6 +954,8 @@
   tags:
     - css
     - javascript
+  patterns:
+    - leerob
 
 - id: paul_boag
   name: Paul Boag
@@ -1440,6 +1442,10 @@
     - js
     - youtube
     - video_creators
+  
+- id: josh_tried_coding
+  name: Josh Tried Coding
+  youtubeUrl: https://www.youtube.com/@joshtriedcoding
 
 - id: simon_grimm
   name: Simon Grimm
@@ -2992,3 +2998,104 @@
   name: Filip Tammergård
   homepageUrl: https://tammergard.se/
   twitterName: filiptammergard
+
+- id: alex_sidorenko
+  name: Alex Sidorenko
+  twitterName: @asidorenko_
+  tags:
+    - nextjs
+
+- id: delba_oliveira
+  name: Delba de Oliveira
+  twitterName: delba_oliveira
+  tags:
+    - nextjs
+
+- id: dax
+  name: Dax Raad
+  twitterName: thdxr
+  homepageUrl: https://thdxr.com/
+
+- id: devon_govett
+  name: Devon Govett
+  twitterName: @devongovett
+  tags:
+    - Parcel
+
+- id: diego_haz
+  name: Diego Haz
+  twitterName: diegohaz
+  tags:
+    - ariakit
+
+- id: dominik_dorkmeister
+  name: Dominink Dorfmeister
+  twitterName: tkdodo
+  homepageUrl: https://tkdodo.eu/blog/
+
+- id: evan_bacon
+  name: Evan Bacon
+  twitterName: Baconbrix
+  homepageUrl: https://evanbacon.dev/
+
+- id: fabio_bondi
+  name: Fabio Bondi
+  homepageUrl: https://www.fabiobiondi.dev/
+
+- id: fernando_rojo
+  name: Fernando Rojo
+  homepageUrl: https://fernandorojo.co/
+  twitterName: FernandoTheRojo
+
+- id: guillermo_rauch
+  name: Guillermo Rauch
+  homepageUrl: https://rauchg.com/
+  twitterName: rauchg
+  tags:
+    - Nextjs
+
+- id: jenna_smith
+  name: Jenna Smith
+  twitterName: jjenzz
+  tags:
+    - React
+
+- id: nadia_marakevich
+  name: Nadia Makarevich
+  homepageUrl: https://www.developerway.com/
+  tags:
+    - react
+
+- id: nexxel
+  name: Shoubhit (Nexxel)
+  homepageUrl: https://www.nexxel.dev/
+
+- id: sebastian_markbage
+  name: Sebastian Markbåge
+  twitterName: sebmarkbage
+  tags:
+    - nextjs
+    - react
+
+- id: shadcn
+  name: shadcn
+  twitterName: schadcn
+  tags:
+    - nextjs
+
+- id: steven_tey
+  name: Steven Tey
+  twitterName: steventey
+  tags:
+    - nextjs
+    - react
+
+- id: sophie_alpert
+  name: Sophie Alpert
+  homepageUrl: https://sophiebits.com/
+  twitterName: sophiebits
+
+- id: steve_kinney
+  name: Steve Kinney
+  homepageUrl: https://stevekinney.net/
+  twitterName: stevekinney
