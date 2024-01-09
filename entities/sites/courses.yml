@@ -130,7 +130,15 @@
 
 - id: academind
   name: Academind
+  youtubeName: academind
+  youtubeUrl: https://www.youtube.com/@academind
   homepageUrl: https://academind.com/
+
+- id: awesome_coding
+  name: Awesome Coding
+  youtubeUrl: https://www.youtube.com/@awesome-coding
+  youtubeName: awesome-coding
+  homepageUrl: https://awesomecoding.co/
 
 - id: zero_to_mastery
   name: Zero To Mastery
@@ -261,3 +269,7 @@
 - id: build_ui
   name: Build UI
   homepageUrl: https://buildui.com/
+
+- id: bytegrad
+  name: ByteGrad
+  homepageUrl: https://bytegrad.com/
