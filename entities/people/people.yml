@@ -1444,7 +1444,7 @@
     - js
     - youtube
     - video_creators
-  
+
 - id: josh_tried_coding
   name: Josh Tried Coding
   youtubeUrl: https://www.youtube.com/@joshtriedcoding
@@ -3003,7 +3003,7 @@
 
 - id: alex_sidorenko
   name: Alex Sidorenko
-  twitterName: @asidorenko_
+  twitterName: asidorenko_
   tags:
     - nextjs
 
@@ -3020,7 +3020,7 @@
 
 - id: devon_govett
   name: Devon Govett
-  twitterName: @devongovett
+  twitterName: devongovett
   tags:
     - Parcel
 
