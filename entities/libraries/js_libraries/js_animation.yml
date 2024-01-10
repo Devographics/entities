@@ -102,6 +102,18 @@
   homepageUrl: https://github.com/chenglou/react-motion
   tags:
     - animation
+    - react
+
+- id: react_transition_group
+  name: React Transition Group
+  npm: react-transition-group
+  homepageUrl: https://reactcommunity.org/react-transition-group/
+  # Vue aso has a "TransitionGroup" component so responses with "transition group" should be matched manually depending on context (js survey or React survey specifically)
+  patterns:
+    - ReactTransition
+    - React Transition
+    - React Transition Group
+    - ReactTransitionGroup
 
 - id: react_native_reanimated
   name: React Native Reanimated
@@ -114,6 +126,14 @@
   name: AutoAnimate
   homepageUrl: https://auto-animate.formkit.com/
   github: formkit/auto-animate
+
+- id: animate_dot_css
+  name: Animate.css
+  homepageUrl: https://animate.style/
+  github: animate-css/animate.css
+  patterns:
+    - animate css [e]
+    - animate.css
 
 - id: theatre_js
   name: Theatre.js

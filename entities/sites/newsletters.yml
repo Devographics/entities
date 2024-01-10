@@ -42,10 +42,6 @@
   patterns:
     - javascript( |-)?weekly
 
-- id: react_status
-  name: React Status
-  homepageUrl: https://react.statuscode.com/
-
 - id: node_weekly
   name: Node Weekly
   homepageUrl: https://nodeweekly.com/
@@ -107,6 +103,10 @@
 - id: react_status
   name: React Status
   homepageUrl: https://react.statuscode.com/
+
+- id: react_newsletter
+  name: React Newsletter
+  homepageUrl: https://reactnewsletter.com/
 
 - id: this_week_in_react
   name: This Week In React

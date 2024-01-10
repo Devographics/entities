@@ -204,3 +204,7 @@
 - id: japa
   name: Japa
   homepageUrl: https://japa.dev/docs
+
+- id: faker
+  name: Faker
+  homepageUrl: https://fakerjs.dev/

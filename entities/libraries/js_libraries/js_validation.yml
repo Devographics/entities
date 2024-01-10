@@ -42,3 +42,8 @@
 - id: valibot
   name: Valibot
   homepageUrl: https://valibot.dev/
+
+- id: vine
+  name: Vine
+  homepageUrl: https://vinejs.dev/docs/introduction
+  github: vinejs/vine

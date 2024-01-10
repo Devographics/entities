@@ -125,3 +125,7 @@
 - id: inoreader
   name: Inoreader
   homepageUrl: https://www.inoreader.com/
+
+- id: dou
+  name: Dou.ua
+  homepageUrl: https://dou.ua/
