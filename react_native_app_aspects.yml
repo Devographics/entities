@@ -287,7 +287,8 @@
 - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
   name: react-native-safe-area-context
   npm: react-native-safe-area-context
-  github:
+  github: https://github.com/th3rdwave/react-native-safe-area-context
+  homepage: https://github.com/th3rdwave/react-native-safe-area-context#readme
 - id: react_native_app_aspects_other_libraries_react_native_maps
   name: react-native-maps
   npm: react-native-maps
