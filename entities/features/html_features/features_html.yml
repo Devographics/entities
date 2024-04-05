@@ -35,6 +35,7 @@
       title: Chrome Platform Status
   tags:
     - features
+    - web-features:details-name
   patterns:
     - accordion
 
