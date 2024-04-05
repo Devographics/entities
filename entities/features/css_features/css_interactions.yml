@@ -59,6 +59,7 @@
   name: "`@scroll-timeline`"
   caniuse: css-scroll-timeline
   mdn: /en-US/docs/Web/CSS/@scroll-timeline
+  tags:
     - html_interoperability_features
 
 - id: scroll_behavior

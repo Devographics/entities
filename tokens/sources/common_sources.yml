@@ -1,0 +1,87 @@
+# used to normalize the results of the freeform "how did you hear about this survey" field
+
+- id: twitter
+  patterns:
+    - t.co
+    - twiter
+    - tweet
+
+- id: podcast
+
+- id: work
+  patterns:
+    - co( |-)?worker
+    - coll?ea?gu?a?es?
+    - company
+    - boss
+    - cto
+
+- id: word_of_mouth
+  patterns:
+    - friend
+    - family
+
+- id: discord
+
+- id: bing
+
+- id: baidu
+
+- id: apollo
+
+- id: mozilla
+
+- id: mastodon
+  patterns:
+    - mastadon
+    - masstodon
+
+- id: brave
+  patterns:
+    - search.brave.com
+
+- id: eleventy
+
+- id: startpage
+
+- id: fireship
+
+- id: youtube
+  patterns:
+    - yt
+    - youtube.com
+
+- id: google
+  patterns:
+    - google.com
+
+- id: diversify_tech
+
+- id: ecosia
+
+- id: yuque
+
+- id: yandex
+
+- id: fediverse
+
+- id: teams
+  patterns:
+    - statics.teams.cdn.office.net
+
+- id: blog
+
+- id: other_online_sources
+  patterns:
+    - internet
+    - online
+    - social media
+
+# for source norm. only; match short tokens such as "kevin"
+- id: kevin_j_powell
+  patterns:
+    - kevin
+    - powell
+    - kp
+
+- id: post_survey_share

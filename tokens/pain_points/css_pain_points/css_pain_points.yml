@@ -70,11 +70,6 @@
   tags:
     - css_pain_points
 
-- id: accessibility
-  normalizationOnly: true
-  tags:
-    - css_pain_points
-
 - id: stacking_context
   normalizationOnly: true
   tags:

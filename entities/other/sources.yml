@@ -1,79 +1,44 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
-- id: twitter
-  normalizationOnly: true
-  patterns:
-    - t.co
-    - twiter
-    - tweet
-
-- id: podcast
-  normalizationOnly: true
-
-- id: work
-  normalizationOnly: true
-  patterns:
-    - co( |-)?worker
-    - coll?ea?gu?a?es?
-    - company
-    - boss
-    - cto
-
-- id: word_of_mouth
-  patterns:
-    - friend
-    - family
-
 - id: vk
-  normalizationOnly: true
   name: VK
   homepageUrl: https://vk.com/
   patterns:
     - away.vk.com
 
-- id: discord
-  normalizationOnly: true
-
 - id: svelte_community
-  normalizationOnly: true
   name: Svelte Community
   patterns:
     - svelte
 
 - id: astro_community
-  normalizationOnly: true
   name: Astro Community
   patterns:
     - astro
 
 - id: reactiflux
-  normalizationOnly: true
   name: Reactiflux
   homepageUrl: https://www.reactiflux.com/
 
 - id: ionic_community
-  normalizationOnly: true
   name: Ionic Community
   homepageUrl: https://ionicframework.com/subscribe
   patterns:
     - ionic
 
 - id: capacitor_community
-  normalizationOnly: true
   name: Capacitor Community
   homepageUrl: https://capacitorjs.com/
   patterns:
     - capacitor
 
 - id: elm_community
-  normalizationOnly: true
   name: Elm Community
   homepageUrl: https://discourse.elm-lang.org/
   patterns:
     - elm
 
 - id: meteor_community
-  normalizationOnly: true
   name: Meteor Community
   homepageUrl: https://forums.meteor.com/
   patterns:
@@ -93,27 +58,16 @@
     - vue
 
 - id: remix_community
-  normalizationOnly: true
   name: Remix Community
   homepageUrl: https://remix.run
   patterns:
     - remix
 
-- id: bing
-  normalizationOnly: true
-
-- id: baidu
-  normalizationOnly: true
-
 - id: reddit_graphql
-  normalizationOnly: true
   name: r/graphql
   homepageUrl: https://www.reddit.com/r/graphql/
   tags:
     - graphql
-
-- id: apollo
-  normalizationOnly: true
 
 - id: graphile_discord
   name: Graphile Discord
@@ -128,78 +82,3 @@
   homepageUrl: https://www.prisma.io/
   tags:
     - graphql
-
-- id: mozilla
-  normalizationOnly: true
-
-- id: mastodon
-  patterns:
-    - mastadon
-    - masstodon
-  normalizationOnly: true
-
-- id: brave
-  normalizationOnly: true
-  patterns:
-    - search.brave.com
-
-- id: eleventy
-  normalizationOnly: true
-
-- id: startpage
-  normalizationOnly: true
-
-- id: fireship
-  normalizationOnly: true
-
-- id: youtube
-  patterns:
-    - yt
-    - youtube.com
-  normalizationOnly: true
-
-- id: google
-  normalizationOnly: true
-  patterns:
-    - google.com
-
-- id: diversify_tech
-  normalizationOnly: true
-
-- id: ecosia
-  normalizationOnly: true
-
-- id: yuque
-  normalizationOnly: true
-
-- id: yandex
-  normalizationOnly: true
-
-- id: fediverse
-  normalizationOnly: true
-
-- id: teams
-  normalizationOnly: true
-  patterns:
-    - statics.teams.cdn.office.net
-
-- id: blog
-  normalizationOnly: true
-
-- id: other_online_sources
-  normalizationOnly: true
-  patterns:
-    - internet
-    - online
-    - social media
-
-# for source norm. only; match short tokens such as "kevin"
-- id: kevin_j_powell
-  normalizationOnly: true
-  patterns:
-    - kevin
-    - powell
-    - kp
-
-- id: post_survey_share
-  normalizationOnly: true

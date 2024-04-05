@@ -18,6 +18,9 @@
 - id: testing
   parentId: a11y_technical_issues
 
+- id: carousels
+  parentId: a11y_technical_issues
+
 # a11y_design_issues
 
 - id: a11y_design_issues
@@ -57,6 +60,11 @@
   patterns:
     - awareness
 
+- id: lack_of_best_practices
+  parentId: a11y_educational_issues
+  patterns:
+    - best practice
+
 - id: lack_of_education
   parentId: a11y_educational_issues
   patterns:
@@ -95,6 +103,9 @@
     - no one else care
     - priority
     - management
+
+- id: lack_of_client_demand
+  parentId: a11y_company_issues
 
 # screen_reader_issues
 

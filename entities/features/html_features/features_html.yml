@@ -618,7 +618,7 @@
   name: "`form.requestSubmit()`"
   needsTranslation: false
   description: Programmatically submit a form in a way that mimics real form submission
-  mdn: en-US/docs/Web/API/HTMLFormElement/requestSubmit](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/requestSubmit
+  mdn: en-US/docs/Web/API/HTMLFormElement/requestSubmit
   tags:
     - features
 
@@ -647,7 +647,7 @@
     code: |
       let fd = new FormData(form);
       let data = JSON.stringify(Object.fromEntries(fd));
-  mdn: en-US/docs/Web/API/FormData/FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData
+  mdn: en-US/docs/Web/API/FormData/FormData
   resources:
     - title: Interface FormData
       url: https://xhr.spec.whatwg.org/#dom-formdata
@@ -1578,7 +1578,7 @@
     language: js
     code: |
       let repoPattern = new URLPattern("https://github.com/:owner/:repo/");
-  mdn: en-US/docs/Web/API/URLPattern](https://developer.mozilla.org/en-US/docs/Web/API/URLPattern
+  mdn: en-US/docs/Web/API/URLPattern
   caniuse: mdn-api_urlpattern](https://caniuse.com/mdn-api_urlpattern
   tags:
     - features
@@ -1657,7 +1657,7 @@
             "image/png": ".png"
           }
         }]
-  mdn: en-US/docs/Web/Manifest/file_handler
+  mdn: en-US/docs/Web/Manifest/file_handlers
   resources:
     - url: https://web.dev/file-handling/
       title: |
@@ -1835,18 +1835,24 @@
 
 - id: element_insert_adjacent_html
   name: "insertAdjacentHTML()"
-  description: |
-    `element.insertAdjacentHTML("beforebegin", rawHTML)`
+  example:
+    language: js
+    code: |
+      `element.insertAdjacentHTML("beforebegin", rawHTML)`
 
 - id: domparser
   name: DOMParser API
-  description: |
-    `let doc = new DOMParser().parseFromString(rawHTML, "text/html")`
+  example:
+    language: js
+    code: |
+      `let doc = new DOMParser().parseFromString(rawHTML, "text/html")`
 
 - id: element_insert_adjacent_element
   name: insertAdjacentElement()
-  description: |
-    `el1.insertAdjacentElement("afterend", el2)`
+  example:
+    language: js
+    code: |
+      `el1.insertAdjacentElement("afterend", el2)`
 
 - id: element_append
   name: "`parent.append(...children)`"
@@ -1875,13 +1881,17 @@
 
 - id: element_replace_children
   name: replaceChildren()
-  description: |
-    `element.replaceChildren(...newChildren)`
+  example:
+    language: js
+    code: |
+      `element.replaceChildren(...newChildren)`
 
 - id: document_create_document_fragment
   name: Document fragments
-  description: |
-    `let fragment = document.createDocumentFragment()`
+  example:
+    language: js
+    code: |
+      `let fragment = document.createDocumentFragment()`
 
 #################################################
 #
@@ -1917,8 +1927,10 @@
 - id: json_ld
   name: |
     JSON-LD
-  description: |
-    `<script type="application/ld+json">`
+  example:
+    language: html
+    code: |
+      `<script type="application/ld+json">`
 
 - id: blink_element
   name: |
