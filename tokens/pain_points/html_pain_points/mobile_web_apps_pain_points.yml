@@ -1,22 +1,21 @@
 - id: ios_android_differences
   patterns:
-    - diff.*ios.*android [p]
-    - diff.*android.*ios [p]
-    - ios.*android.*diff [p]
-    - android.*ios.*diff [p]
+    - difference, ios, android [l]
 
 - id: access_to_native_apis
   patterns:
-    - access.*api [p]
-    - api.*access [p]
-    - access.*camera [p]
-    - camera.*access [p]
-    - native.*api [p]
+    - access, api [l]
+    - api, access [l]
+    - access, camera [l]
+    - camera, access [l]
+    - native, api [l]
+    - access, native [l]
+    - native, support [l]
 
 - id: device_inconsistencies
   patterns:
-    - cross.*device [p]
-    - cross.*platform [p]
+    - cross, device [l]
+    - cross, platform [l]
 
 - id: distribution
 
@@ -33,6 +32,11 @@
 - id: os_support
 
 - id: testing
+
+- id: storage
+  patterns:
+    - stores
+    - storing
 
 - id: firefox_issues
   patterns:
@@ -62,34 +66,56 @@
 # pwa_issues
 
 - id: pwa_issues
+  patterns:
+    - pwa
+    - pwa, hard [l]
 
-- id: pwa_installation
+- id: pwa_lack_of_education
+  parentId: pwa_issues
+  patterns:
+    - education, pwa [l]
+    - knowledge, pwa [l]
+    - pwa, familiar [l]
+
+- id: pwa_lack_of_support
+  parentId: pwa_issues
+  patterns:
+    - feature, pwa [l]
+
+- id: pwa_hard_to_install
   parentId: pwa_issues
   patterns:
     - pwa, install [l]
+    - install
 
-- id: pwa_update
+- id: pwa_hard_to_update
   parentId: pwa_issues
   patterns:
     - pwa, updat [l]
 
-- id: pwa_lack_of_familiarity
+- id: pwa_cannot_submit_to_app_store
   parentId: pwa_issues
   patterns:
-    - pwa, familiar [l]
+    - pwa, store [l]
 
 # design_issues
 
 - id: ux_issues
 
-- id: using_native_elements
+- id: ux_achieving_native_feel
+  parentId: ux_issues
+  patterns:
+    - native, feel [l]
+    - native, look [l]
+
+- id: ux_bad_native_elements
   parentId: ux_issues
   patterns:
     - native, element [l]
     - native, control [l]
     - native, component [l]
 
-- id: touch_delay
+- id: ux_touch_delay
   parentId: ux_issues
   patterns:
     - touch, delay [l]
@@ -107,17 +133,17 @@
     - ios, pwa [l]
     - ios, support [l]
 
-- id: other_ios_issues
+- id: ios_general_issues
   parentId: apple_ios_issues
   patterns:
     - ios
 
-- id: other_apple_issues
+- id: apple_general_issues
   parentId: apple_ios_issues
   patterns:
     - apple
 
-- id: other_safari_issues
+- id: safari_general_issues
   parentId: apple_ios_issues
   patterns:
     - safari

@@ -2,6 +2,37 @@
 #                 accessibility_pain_points                      #
 ##################################################################
 
+# element_issues
+
+- id: element_issues
+
+- id: tab_issues
+  parentId: element_issues
+
+- id: lack_of_native_elements
+  parentId: element_issues
+  patterns:
+    - native, element [l]
+
+- id: custom_elements_a11y
+  parentId: element_issues
+  patterns:
+    - custom, element [l]
+
+# lack_of_tools
+
+- id: lack_of_browser_tools
+  parentId: lack_of_tools
+  patterns:
+    - dev( |-)?tool
+    - browser, tool [l]
+
+- id: lack_of_free_tools
+  parentId: lack_of_tools
+  patterns:
+    - free, tool [l]
+    - free, screen( |-)?reader [l]
+
 # a11y_technical_issues
 
 - id: a11y_technical_issues
@@ -20,6 +51,20 @@
 
 - id: carousels
   parentId: a11y_technical_issues
+
+- id: focus_management
+  parentId: a11y_technical_issues
+
+- id: aria
+  parentId: a11y_technical_issues
+
+- id: styling_customization
+  parentId: a11y_technical_issues
+
+- id: web_components_issues
+  parentId: a11y_technical_issues
+  patterns:
+    - web(-| )?component
 
 # a11y_design_issues
 
@@ -50,42 +95,59 @@
 
 - id: a11y_educational_issues
 
-- id: documentation
+- id: lack_of_documentation
   parentId: a11y_educational_issues
-  patterns:
-    - learning resources
-
-- id: lack_of_awareness
-  parentId: a11y_educational_issues
-  patterns:
-    - awareness
 
 - id: lack_of_best_practices
   parentId: a11y_educational_issues
   patterns:
     - best practice
 
-- id: lack_of_education
+- id: lack_of_knowledge
   parentId: a11y_educational_issues
   patterns:
     - education
     - lack of information
     - lack of knowledge
+    - awareness
 
-- id: difficulty
+- id: tough_learning_curve
   parentId: a11y_educational_issues
+
+# a11y_implementation_issues
+
+- id: a11y_implementation_issues
+
+- id: too_hard_to_implement
+  parentId: a11y_implementation_issues
   patterns:
-    - difficult
     - hard to do
     - hard to get right
     - hard to know
     - hard to test
+    - hard, implement [l]
+
+- id: lack_of_time
+  parentId: a11y_implementation_issues
+  patterns:
+    - time [e]
+    - time, consuming [l]
+
+- id: excessive_complexity
+  parentId: a11y_implementation_issues
 
 # company_issues
 
 - id: a11y_company_issues
+  patterns:
+    - organization
+    - company
+    - companies
+    - employer
+    - boss
+    - management
 
-- id: low_budget
+- id: lack_of_budget
   parentId: a11y_company_issues
   patterns:
     - budget
@@ -93,7 +155,7 @@
 - id: low_priority
   parentId: a11y_company_issues
   patterns:
-    - buy(-| )in
+    - buy(-| )?in
     - don't care
     - don't prioritize
     - don't value
@@ -102,10 +164,15 @@
     - no one care
     - no one else care
     - priority
-    - management
+    - company, time [l]
+    - boss, time [l]
+    - companies, time [l]
 
 - id: lack_of_client_demand
   parentId: a11y_company_issues
+  patterns:
+    - client, demand [l]
+    - customer, demand [l]
 
 # screen_reader_issues
 
@@ -137,3 +204,8 @@
     - screen reader.*inconsist [p]
     - incompat.*screen reader [p]
     - screen reader.*incompat [p]
+
+- id: jaws_issues
+  parentId: screen_reader_issues
+  patterns:
+    - jaws

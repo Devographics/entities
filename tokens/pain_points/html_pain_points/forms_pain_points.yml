@@ -1,75 +1,263 @@
 ##################################################################
-#                            forms_pain_points                   #
+#                           browser_support                      #
 ##################################################################
 
+# - id: browser_support (defined in common_pain_points)
+
+##################################################################
+#                           accessibility                        #
+##################################################################
+
+# - id: accessibility (defined in common_pain_points)
+
+##################################################################
+#                             performance                        #
+##################################################################
+
+# - id: performance (defined in common_pain_points)
+
+##################################################################
+#                   reliance_on_javascript                       #
+##################################################################
+
+# - id: reliance_on_javascript (defined in common_pain_points)
+
+##################################################################
+#                         styling_customization                  #
+##################################################################
+
+# - id: styling_customization (defined in common_pain_points)
+
+- id: responsive_design
+  parentId: styling_customization
+
+- id: styling_radio_inputs
+  parentId: styling_customization
+  patterns:
+    - styl, radio [l]
+
+- id: styling_select_inputs
+  parentId: styling_customization
+  patterns:
+    - styl, select [l]
+    - styl, drop( |-)?down [l]
+
+- id: styling_checkbox_inputs
+  parentId: styling_customization
+  patterns:
+    - styl, checkbox [l]
+
+- id: styling_file_inputs
+  parentId: styling_customization
+  patterns:
+    - styl, file [l]
+
+- id: styling_number_inputs
+  parentId: styling_customization
+  patterns:
+    - styl, number [l]
+
+- id: styling_date_pickers
+  parentId: styling_customization
+  patterns:
+    - styl, date [l]
+    - styl, time [l]
+
+- id: styling_date_pickers
+  parentId: styling_customization
+  patterns:
+    - styl, date [l]
+    - styl, time [l]
+
+- id: styling_colorpickers
+  parentId: styling_customization
+  patterns:
+    - styl, color [l]
+
+- id: styling_range
+  parentId: styling_customization
+  patterns:
+    - styl, range [l]
+    - styl, slider [l]
+
+##################################################################
+#                             validation                         #
+##################################################################
+
+# note: as long as this is specified as a parentId, it doesn't need to be an actual token
+# this way, "validation" will never be matched, only "general_validation_issues"
+
+# - id: validation
+
+- id: general_validation_issues
+  parentId: validation
+  patterns:
+    - custom validity
+    - valid [p]
+
+- id: async_validation
+  parentId: validation
+
+- id: conditional_validation
+  parentId: validation
+
+- id: accessible_validation
+  parentId: validation
+  patterns:
+    - a11y, valid [l]
+    - access, valid [l]
+
+- id: valid_invalid_pseudo_class
+  parentId: validation
+  # note: whole-word matching ([b]) breaks when using : character in a string
+  patterns:
+    - ":valid [p]"
+    - ":invalid [p]"
+    - ":user-invalid [p]"
+    - ":user-valid [p]"
+    - valid, pseudo [l]
+    - invalid, pseudo [l]
+
+- id: pattern_attribute
+  parentId: validation
+  patterns:
+    - pattern
+    - mask [p]
+
+##################################################################
+#                       form_handling                            #
+##################################################################
+
+# - id: form_handling
+
+- id: general_form_handling_issues
+  parentId: form_handling
+  patterns:
+    - form, handling [l]
+    - forms [e]
+
 - id: javascript_form_handling
+  parentId: form_handling
   patterns:
-    - handling forms via js
-    - handling forms with js
+    - handling, js [l]
+    - handling, javascript [l]
 
-- id: customization
-
-- id: radio_input
-  name: |
-    `<input type="radio">`
+- id: data_handling
+  parentId: form_handling
   patterns:
-    - radio
+    - form, data [l]
 
-- id: file_input
-  name: |
-    `<input type="file">`
+- id: default_form_submit_behavior
+  parentId: form_handling
   patterns:
-    - file
+    - default, submi [l]
+    - reload, submi [l]
+    - behav, submi [l]
 
-- id: number_input
-  name: |
-    `<input type="number">`
+##################################################################
+#                       error_handling                           #
+##################################################################
+
+# - id: error_handling (defined in common_pain_points)
+
+- id: error_customization
+  parentId: error_handling
   patterns:
-    - number
+    - custom, error [l]
+    - styl, error [l]
 
-- id: checkbox_input
-  name: |
-    `<input type="checkbox">`
+##################################################################
+#                     form_input_issues                          #
+##################################################################
+
+# - id: form_input_issues
+
+# note: we don't support for than one nesting level, so since
+# textarea_element already has a child token keep everything at the top level for now
+
+- id: autocomplete
   patterns:
-    - checkbox
+    - autoco [p]
 
-- id: button_element
-  name: |
-    `<button>` element
+- id: general_input_issues
   patterns:
-    - button
+    - input [e]
 
-- id: textarea_element
-  name: |
-    `<textarea>` element
+- id: general_textarea_issues
+  parentId: textarea_element
   patterns:
     - textarea
 
-- id: table_element
-  name: |
-    `<table>` element
+- id: textarea_auto_growing
+  parentId: textarea_element
   patterns:
-    - <table
+    - text( |-)?area, grow [l]
+    - text( |-)?area, size [l]
+    - text( |-)?area, auto [l]
 
-- id: autocomplete
-  # name: Autocomplete
-
-- id: safari
-  name: Safari
-
-- id: validation
-  # name: Validation
+- id: general_button_issues
+  parentId: button_element
   patterns:
-    - custom validity
+    - button
 
-- id: date_pickers
-  # name: Date/Time Pickers
+- id: button_default_submit
+  parentId: button_element
   patterns:
-    - date
-    - timezone
-    - html_interoperability_features
+    - default, submit, button [l]
 
-- id: colorpickers
-  # name: Color Pickers
+##################################################################
+#                        other tokens                            #
+##################################################################
+
+#
+#
+# - id: javascript_form_handling
+#   patterns:
+#     - handling forms via js
+#     - handling forms with js
+
+# - id: customization
+
+# - id: safari
+#   name: Safari
+
+- id: nested_forms
   patterns:
-    - color
+    - nested
+
+- id: general_inconsistencies
+  patterns:
+    - inconsist [p]
+
+- id: lack_additional_http_actions
+  patterns:
+    - PUT
+    - PATCH
+    - DELETE
+
+- id: content_editable
+
+- id: combo_box
+
+- id: drop_down
+
+- id: input_type_range
+  patterns:
+    - range
+
+- id: rich_text_editing
+  patterns:
+    - rich
+
+- id: label_issues
+  patterns:
+    - label
+
+- id: multi_step_forms
+  patterns:
+    - multi(-| )?step
+    - multi(-| )?page
+
+- id: lack_of_typesafety
+  patterns:
+    - type(-| )?safety

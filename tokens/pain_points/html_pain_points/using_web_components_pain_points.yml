@@ -24,10 +24,13 @@
 - id: framework_compatibility
   decription: Compatibility with JS frameworks
   patterns:
-    - framework integration
-    - framework interop
-    - framework support
+    - framework, support [l]
     - integrat.*framework [p]
+    - framework, incompatibility [l]
+    - framework, compatibility [l]
+    - framework, interop [l]
+    - framework, compat [l]
+    - framework, integration [l]
 
 - id: missing_features
   description: Missing or limited features

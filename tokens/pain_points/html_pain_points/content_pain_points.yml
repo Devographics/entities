@@ -8,6 +8,8 @@
 - id: csp
 
 - id: svg
+  patterns:
+    - svg [p]
 
 - id: iframe
 
@@ -24,6 +26,7 @@
     - internationali(z|s)ation
     - Intl
     - locale
+    - multiple, language [l]
 
 - id: time_zones
   patterns:
@@ -54,4 +57,28 @@
 
 - id: lack_of_templating
   patterns:
-    - templat
+    - templat [p]
+
+- id: machine_readable_data
+  patterns:
+    - machine, readable, data [l]
+
+- id: embedding_issues
+  patterns:
+    - embedding
+    - embed
+
+- id: headings_issues
+  patterns:
+    - heading
+
+- id: handling_math_content
+  patterns:
+    - math
+    - mathml
+
+- id: sizing_issues
+  patterns:
+    - size
+    - width
+    - height

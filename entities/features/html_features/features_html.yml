@@ -1026,6 +1026,8 @@
   w3c: TR/html52/embedded-content-0.html#the-iframe-element
   tags:
     - features
+  patterns:
+    - iframe
 
 - id: object_element
   name: "`<object>`"
@@ -1052,6 +1054,7 @@
     - features
   patterns:
     - <canvas(\/)?>
+    - canvas
 
 - id: svg_element
   name: "`<svg>`"
@@ -1671,35 +1674,58 @@
 #
 #################################################
 
+- id: form_element
+  name: |
+    `<form>`
+  patterns:
+    - form [e]
+    - >
+      <form> [e]
+
 - id: select_element
   name: |
-    `<select>` element
+    `<select>`
   patterns:
     - <select>
     - <select/>
     - custom select
+    - select [e]
+    - selects [e]
   tags:
     - forms_pain_points
     - html_functionality_features
 
-- id: textarea_element
+- id: select_multiple_element
   name: |
-    `<textarea>`
+    `<select multiple>`
+  patterns:
+    - multi, select [l]
+  tags:
+    - forms_pain_points
+    - html_functionality_features
 
 - id: input_type_date
   name: |
     `<input type="date">`
   patterns:
     - input type="date"
-    - date input
-    - date picker
-    - datepicker
+    - date, input [l]
+    - date, picker [l]
+    - calendar
+    - calender
+    - date
+  tags:
+    - forms_pain_points
 
 - id: input_type_time
   name: |
     `<input type="time">`
   patterns:
     - input type="time"
+    - time, input [l]
+    - time, picker [l]
+  tags:
+    - forms_pain_points
 
 - id: input_type_datetime_locale
   name: |
@@ -1725,6 +1751,9 @@
     `<input type="color">`
   tags:
     - html_interoperability_features
+    - forms_pain_points
+  patterns:
+    - color( |-)?picker
 
 - id: input_type_color_list
   name: |
@@ -2225,10 +2254,6 @@
   name: |
     `<input>`
 
-- id: button_element
-  name: |
-    `<button>`
-
 - id: jpeg_xl
 
 - id: css_nesting
@@ -2280,3 +2305,45 @@
     - shape detection
   tags:
     - html_interoperability_features
+
+- id: radio_input
+  name: |
+    `<input type="radio">`
+  patterns:
+    - radio
+
+- id: file_input
+  name: |
+    `<input type="file">`
+  patterns:
+    - file
+
+- id: number_input
+  name: |
+    `<input type="number">`
+  patterns:
+    - number
+
+- id: checkbox_input
+  name: |
+    `<input type="checkbox">`
+  patterns:
+    - checkbox [p]
+
+- id: button_element
+  name: |
+    `<button>`
+  patterns:
+    - button
+
+- id: textarea_element
+  name: |
+    `<textarea>`
+  patterns:
+    - text(-| )?area
+
+- id: table_element
+  name: |
+    `<table>`
+  patterns:
+    - <table

@@ -1,25 +1,21 @@
 # pain points
 
 - id: safari
-  normalizationOnly: true
   patterns:
     - webkit
   tags:
     - css_pain_points
 
 - id: email
-  normalizationOnly: true
   # name: Email
   tags:
     - css_pain_points
 
 - id: ios
-  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: performance
-  normalizationOnly: true
   # name: Performance
   patterns:
     - perf
@@ -27,74 +23,54 @@
     - css_pain_points
 
 - id: internet_explorer
-  normalizationOnly: true
   patterns:
     - ie( |-)?11
   tags:
     - css_pain_points
 
-- id: responsive_design
-  normalizationOnly: true
-  # name: Responsive/Mobile Design
-  patterns:
-    - responsive
-    - mobile
-  tags:
-    - css_pain_points
-
 - id: animation
-  normalizationOnly: true
   # name: Animation
   tags:
     - css_pain_points
     - css_missing_features
 
 - id: z_index
-  normalizationOnly: true
   name: z-index
   tags:
     - css_pain_points
 
 - id: css_in_js
-  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: svg
-  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: select
-  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: stacking_context
-  normalizationOnly: true
   tags:
     - css_pain_points
 
 - id: specificity
-  normalizationOnly: true
   name: Specificity
   tags:
     - css_pain_points
 
 - id: naming
-  normalizationOnly: true
   name: Naming
   tags:
     - css_pain_points
 
 - id: forms
-  normalizationOnly: true
   name: Forms
   tags:
     - css_pain_points
 
 - id: debugging
-  normalizationOnly: true
   name: Debugging
   patterns:
     - debug
@@ -102,7 +78,6 @@
     - css_pain_points
 
 - id: compatibility
-  normalizationOnly: true
   name: Compatibility
   tags:
     - css_pain_points

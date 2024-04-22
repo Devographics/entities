@@ -39,15 +39,28 @@
     - compatability
     - interopability
     - interoperability
+    - browser, behavior [l]
+    - browser, consistent [l]
+    - browser, across [l]
+    - browser, interop [l]
 
-- id: styling
-  # name: Styling
+- id: safari
+
+- id: styling_customization
   patterns:
     - styling
     - css customization
     - custom styles
     - difficult to style
     - hard to style
+    - stying
+    - style
+    - customisation
+    - customization
+    - customising
+    - customizing
+    - css
+    - styl(e)?ab [p]
 
 - id: error_handling
   patterns:
@@ -109,14 +122,17 @@
     - overwhelming
     - overwhelmed
 
-- id: complexity
+- id: excessive_complexity
   description: Too much complexity
   patterns:
-    - complex [p]
+    # - complex [p]
     - complicated [p]
     - complication [p]
     - over( |-)?engineer [p]
     - overcomplicate
+    - too, complex [l]
+    - very, complex [l]
+    - complexity
 
 - id: clunkiness
   patterns:
@@ -130,25 +146,35 @@
     - dependency hell
     - dependency
 
-- id: learning_curve
+- id: tough_learning_curve
   patterns:
     - hard to learn
     - learning curves
     - hard to get started
     - difficult to learn
 
-- id: documentation
+- id: lack_of_documentation
   decription: Poor documentation
   patterns:
     - docs
     - documentation
     - documentaion
     - document
+    - lack, education [l]
+    - lack, tutorial [l]
+    - lack, resources [l]
+    - learning resources
+
+- id: lack_of_tools
+  decription: Poor documentation
+  patterns:
+    - lack, tools [l]
+    - tooling
 
 - id: build_tools
   patterns:
-    - build
-    - building
+    - build, tool [l]
+    - building, tool [l]
 
 - id: bundlers
   name: Bundlers
@@ -207,8 +233,8 @@
   patterns:
     - debug [p]
 
-- id: tooling
-  name: Tooling
+# - id: tooling
+#   name: Tooling
 
 - id: verbosity
   patterns:
@@ -272,3 +298,19 @@
     - adoption
 
 - id: missing_features
+
+- id: reliance_on_javascript
+  patterns:
+    - js [e]
+
+- id: lack_of_best_practices
+  patterns:
+    - best practice
+    - standardization
+    - standard
+
+- id: responsive_design
+  patterns:
+    - responsive
+  tags:
+    - css_pain_points

@@ -2,15 +2,22 @@
 #                    interactivity_pain_points                   #
 ##################################################################
 
+- id: interacting_with_dom
+
 - id: dom_manipulation
-  # name: DOM Manipulation
+  parentId: interacting_with_dom
   patterns:
     - dom manipulation
     - creating.*element(s)?
     - manipulating.*dom
 
+- id: element_selection
+  parentId: interacting_with_dom
+  patterns:
+    - finding, element [l]
+
 - id: dom_diffing
-  # name: DOM Manipulation
+  parentId: interacting_with_dom
   patterns:
     - dom.*diff
     - diff.*dom
@@ -121,3 +128,5 @@
     - \:has [p]
     - has\(\)
     - ":has"
+
+- id: custom_elements
