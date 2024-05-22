@@ -5,6 +5,7 @@
 #################################################
 
 - id: accordion_element
+  webFeaturesId: details-name
   name: Exclusive Accordion
   needsTranslation: true
   description:
@@ -35,7 +36,6 @@
       title: Chrome Platform Status
   tags:
     - features
-    - web-features:details-name
   patterns:
     - accordion
 
