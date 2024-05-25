@@ -5,6 +5,7 @@
 #################################################
 
 - id: accordion_element
+  webFeaturesId: details-name
   name: Exclusive Accordion
   needsTranslation: true
   description:
