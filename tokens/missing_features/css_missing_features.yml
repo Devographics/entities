@@ -33,16 +33,6 @@
 #   tags:
 #     - css_missing_features
 
-- id: browser_support
-  name: Browser Support
-  patterns:
-    - browser adoption
-    - consistency
-    - consistent support
-    - cross( |-)browser
-  tags:
-    - css_missing_features
-
 - id: conditional_logic
   name: Conditional Logic
   patterns:
@@ -146,16 +136,6 @@
 
 - id: media_queries_variables
   tags:
-    - css_missing_features
-
-- id: css_nesting
-  normalizationOnly: true
-  patterns:
-    - nest
-    - nesting
-    - nested
-  tags:
-    - browser_interoperability
     - css_missing_features
 
 - id: loops

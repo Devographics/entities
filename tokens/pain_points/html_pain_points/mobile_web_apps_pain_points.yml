@@ -3,6 +3,8 @@
     - difference, ios, android [l]
 
 - id: access_to_native_apis
+  name: Native APIs access
+  description: Lack of access to native APIs
   patterns:
     - access, api [l]
     - api, access [l]
@@ -13,17 +15,15 @@
     - native, support [l]
 
 - id: device_inconsistencies
+  name: Device inconsistencies
   patterns:
     - cross, device [l]
     - cross, platform [l]
 
 - id: distribution
 
-- id: discovery
-  patterns:
-    - discoverability
-
 - id: notifications
+  name: Notifications
   patterns:
     - notification
 
@@ -34,15 +34,13 @@
 - id: testing
 
 - id: storage
+  name: Storage
   patterns:
     - stores
     - storing
 
-- id: firefox_issues
-  patterns:
-    - firefox
-
 - id: caching_issues
+  name: Caching issues
   patterns:
     - caching
     - cache
@@ -60,17 +58,20 @@
     - indexeddb
 
 - id: offline_support
+  name: Offline support
   patterns:
     - offline
 
 # pwa_issues
 
 - id: pwa_issues
+  name: PWA issues
   patterns:
     - pwa
     - pwa, hard [l]
 
 - id: pwa_lack_of_education
+  name: Lack of education
   parentId: pwa_issues
   patterns:
     - education, pwa [l]
@@ -78,22 +79,27 @@
     - pwa, familiar [l]
 
 - id: pwa_lack_of_support
+  name: Lack of support
   parentId: pwa_issues
   patterns:
     - feature, pwa [l]
 
 - id: pwa_hard_to_install
+  name: Hard to install
   parentId: pwa_issues
   patterns:
     - pwa, install [l]
     - install
 
 - id: pwa_hard_to_update
+  name: Hard to update
   parentId: pwa_issues
   patterns:
     - pwa, updat [l]
 
 - id: pwa_cannot_submit_to_app_store
+  name: App stores issues
+  description: Inability to submit PWAs to app stores
   parentId: pwa_issues
   patterns:
     - pwa, store [l]
@@ -101,14 +107,19 @@
 # design_issues
 
 - id: ux_issues
+  name: UX issues
 
-- id: ux_achieving_native_feel
+- id: difficulty_achieving_native_feel
+  name: Native feel
+  description: Difficulty of achieving a native look and feel
   parentId: ux_issues
   patterns:
     - native, feel [l]
     - native, look [l]
 
 - id: ux_bad_native_elements
+  name: Bad native elements
+  description: Limited native elements
   parentId: ux_issues
   patterns:
     - native, element [l]
@@ -116,17 +127,23 @@
     - native, component [l]
 
 - id: ux_touch_delay
+  name: Touch delay
   parentId: ux_issues
   patterns:
     - touch, delay [l]
     - touch, interaction [l]
     - touch, responsiveness [l]
 
+- id: transitions
+  parentId: ux_issues
+
 # apple_ios_issues
 
 - id: apple_ios_issues
+  name: Apple/iOS issues
 
 - id: ios_lack_of_pwa_support
+  name: Lack of PWA support
   parentId: apple_ios_issues
   patterns:
     - apple, pwa [l]
@@ -134,16 +151,24 @@
     - ios, support [l]
 
 - id: ios_general_issues
+  name: iOS issues
   parentId: apple_ios_issues
   patterns:
     - ios
 
 - id: apple_general_issues
+  name: Apple issues
   parentId: apple_ios_issues
   patterns:
     - apple
 
 - id: safari_general_issues
+  name: Safari issues
   parentId: apple_ios_issues
   patterns:
     - safari
+
+- id: service_worker_issues
+  name: Service workers issues
+  patterns:
+    - worker

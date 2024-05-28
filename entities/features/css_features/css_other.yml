@@ -193,6 +193,7 @@
     - css_other
 
 - id: css_nesting
+  name: CSS Nesting
   w3c: TR/css-nesting-1/
   mdn:
   caniuse:
@@ -206,15 +207,24 @@
           color: red;
         }
       }
-  patterns:
-    - nested select(or|ion)
   resources:
     - title: CSS Nesting
       url: https://developer.chrome.com/articles/css-nesting/
       language: en-US
+  patterns:
+    - nested select(or|ion)
+    - nest
+    - nesting
+    - nested
+    - nested css
   tags:
     - css
     - css_other
+    - features_html
+    - css_missing_features
+    - html_interoperability_features
+    - browser_interoperability
+    - css_missing_features
 
 - id: env_function
   name: "`env()` Function"
@@ -399,3 +409,7 @@
       url: https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/
   tags:
     - html_interoperability_features
+  patterns:
+    - anchor [e]
+    - anchor, api [l]
+    - anchor, position [l]

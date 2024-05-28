@@ -176,6 +176,8 @@
     - css_layout
 
 - id: at_container
+  name: >
+    `@container`
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
   caniuse: css-container-queries
   example:

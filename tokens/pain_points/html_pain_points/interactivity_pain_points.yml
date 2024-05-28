@@ -3,8 +3,12 @@
 ##################################################################
 
 - id: interacting_with_dom
+  name: DOM interactions
+  description: Interacting with and manipulating the DOM
 
 - id: dom_manipulation
+  name: DOM manipulation
+  description: Adding, modifying, and removing DOM elements
   parentId: interacting_with_dom
   patterns:
     - dom manipulation
@@ -12,40 +16,32 @@
     - manipulating.*dom
 
 - id: element_selection
+  name: Element selection
+  description: Selecting and targeting DOM elements
   parentId: interacting_with_dom
   patterns:
     - finding, element [l]
 
 - id: dom_diffing
+  name: DOM diffing
+  description: Lack of a native DOM diffing algorithm
   parentId: interacting_with_dom
   patterns:
-    - dom.*diff
-    - diff.*dom
+    - dom(-| )?diff
+    - dom(-| )?diffing
+    - diff dom
+    - diffing dom
 
 - id: drag_and_drop
-  # name: Drag-and-drop Support
+  name: Drag-and-drop support
   patterns:
     - drag
 
 - id: event_management
-  # name: Event Management
+  name: Event management
+  description: Handling user events
   patterns:
     - event
-
-- id: state_management
-  patterns:
-    - state
-    - managing state
-
-- id: performance
-
-- id: reactivity
-
-- id: focus_management
-  patterns:
-    - focus
-  tags:
-    - accessibility_pain_points
 
 - id: frustration_with_javascript
 
@@ -54,25 +50,6 @@
 - id: inner_html
 
 - id: html_imports
-  patterns:
-    - imports
-    - partials
-    - templat [p]
-
-- id: browser_support
-  patterns:
-    - compat [p]
-
-- id: js_requirement
-  patterns:
-    - js [e]
-    - javascript [e]
-    - need (js|javascript)+
-    - having to use (js|javascript)+
-    - too much (js|javascript)+
-    - require (js|javascript)+
-  tags:
-    - making_web_components_pain_points
 
 - id: missing_features
 
@@ -85,6 +62,9 @@
 - id: safari
 
 - id: transitions
+  name: Transitions
+  patterns:
+    - transition
 
 - id: virtual_dom_overuse
 
@@ -107,17 +87,19 @@
     - dragging
     - draggable
 
-- id: frustration_with_frameworks
-
 - id: native_tabs
   description: Lack of native tab element
 
 - id: frustration_with_browser_apis
 
 - id: lack_of_declarative_apis
+  name: Imperative APIs
+  description: Reliance on imperative instead of declarative APIs
   patterns:
     - imperative
     - declarative
+  tags:
+    - making_web_components_pain_points
 
 - id: binding
   patterns:
@@ -130,3 +112,39 @@
     - ":has"
 
 - id: custom_elements
+
+- id: lack_of_reactivity_support
+  name: Reactivity
+  description: Lack of support for reactivity
+  patterns:
+    - reactive
+    - reactivity
+  tags:
+    - using_web_components_pain_points
+
+- id: native_htmx_like_features
+  patterns:
+    - htmx
+
+- id: lack_of_native_features
+  name: Lack of native features
+  description: Lack of native APIs and elements
+  patterns:
+    - native, element [l]
+    - native, primitive [l]
+
+- id: reliance_on_jquery
+
+- id: modal_issues
+  patterns:
+    - modal
+
+- id: sanitization_issues
+  patterns:
+    - sanitiz [p]
+
+- id: timing_issues
+  patterns:
+    - timing
+
+- id: selecting_elements

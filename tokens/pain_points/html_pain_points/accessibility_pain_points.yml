@@ -5,16 +5,22 @@
 # element_issues
 
 - id: element_issues
+  name: HTML elements issues
 
 - id: tab_issues
+  name: Tab issues
+  description: Issues with tab navigation
   parentId: element_issues
 
 - id: lack_of_native_elements
+  name: Lack of native elements
   parentId: element_issues
   patterns:
     - native, element [l]
 
 - id: custom_elements_a11y
+  name: Custom elements
+  description: Poor accessibility of custom web components elements
   parentId: element_issues
   patterns:
     - custom, element [l]
@@ -22,12 +28,14 @@
 # lack_of_tools
 
 - id: lack_of_browser_tools
+  name: Lack of in-browser tools
   parentId: lack_of_tools
   patterns:
     - dev( |-)?tool
     - browser, tool [l]
 
 - id: lack_of_free_tools
+  name: Lack of free tools
   parentId: lack_of_tools
   patterns:
     - free, tool [l]
@@ -36,17 +44,24 @@
 # a11y_technical_issues
 
 - id: a11y_technical_issues
+  name: Technical issues
 
 - id: automated_testing
+  name: Automated testing
+  description: Automated testing issues
   parentId: a11y_technical_issues
 
-- id: keyboard_navigation
+- id: keyboard_navigation_issues
+  name: Keyboard navigation
   parentId: a11y_technical_issues
 
 - id: tab_index
+  name: >
+    `tabindex`
   parentId: a11y_technical_issues
 
 - id: testing
+  name: Testing
   parentId: a11y_technical_issues
 
 - id: carousels
@@ -56,12 +71,14 @@
   parentId: a11y_technical_issues
 
 - id: aria
+  name: ARIA
   parentId: a11y_technical_issues
 
 - id: styling_customization
   parentId: a11y_technical_issues
 
 - id: web_components_issues
+  name: Web components issues
   parentId: a11y_technical_issues
   patterns:
     - web(-| )?component
@@ -69,56 +86,42 @@
 # a11y_design_issues
 
 - id: a11y_design_issues
+  name: Design issues
 
 - id: limits_design
+  name: Design limitations
+  description: Limitations put on the design by accessibility constraints
   parentId: a11y_design_issues
 
 - id: lack_of_designer_awareness
+  name: Designer awareness
+  description: Lack of accessibility awareness from designers
   parentId: a11y_design_issues
 
 # wcag_issues
 
 - id: wcag_issues
+  name: WCAG issues
+  patterns:
+    - wcag
 
 - id: wcag_contrast_issues
+  name: WCAG contrast issues
   parentId: wcag_issues
   patterns:
     - wcag.*contrast [p]
 
 - id: wcag_learning_curve
+  name: WCAG learning curve
   parentId: wcag_issues
-
-- id: wcag_other_issues
-  parentId: wcag_issues
-
-# a11y_educational_issues
-
-- id: a11y_educational_issues
-
-- id: lack_of_documentation
-  parentId: a11y_educational_issues
-
-- id: lack_of_best_practices
-  parentId: a11y_educational_issues
-  patterns:
-    - best practice
-
-- id: lack_of_knowledge
-  parentId: a11y_educational_issues
-  patterns:
-    - education
-    - lack of information
-    - lack of knowledge
-    - awareness
-
-- id: tough_learning_curve
-  parentId: a11y_educational_issues
 
 # a11y_implementation_issues
 
 - id: a11y_implementation_issues
+  name: Implementation issues
 
 - id: too_hard_to_implement
+  name: Too hard to implement
   parentId: a11y_implementation_issues
   patterns:
     - hard to do
@@ -128,17 +131,21 @@
     - hard, implement [l]
 
 - id: lack_of_time
+  name: Too time-consuming
   parentId: a11y_implementation_issues
   patterns:
     - time [e]
     - time, consuming [l]
 
 - id: excessive_complexity
+  name: Excessive complexity
   parentId: a11y_implementation_issues
 
 # company_issues
 
 - id: a11y_company_issues
+  name: Company issues
+  description: Issues with the place of accessibility in a corporate context
   patterns:
     - organization
     - company
@@ -148,11 +155,13 @@
     - management
 
 - id: lack_of_budget
+  name: Lack of budget
   parentId: a11y_company_issues
   patterns:
     - budget
 
 - id: low_priority
+  name: Low priority
   parentId: a11y_company_issues
   patterns:
     - buy(-| )?in
@@ -169,6 +178,7 @@
     - companies, time [l]
 
 - id: lack_of_client_demand
+  name: Lack of client demand
   parentId: a11y_company_issues
   patterns:
     - client, demand [l]
@@ -177,19 +187,25 @@
 # screen_reader_issues
 
 - id: screen_reader_issues
+  name: Screen reader issues
 
 - id: screen_readers_access
+  name: Access to screen readers
   parentId: screen_reader_issues
 
 - id: screen_readers_learning_curve
+  name: Screen readers learning curve
   parentId: screen_reader_issues
   patterns:
     - screen readers.*hard [p]
 
 - id: screen_readers_limitations
+  name: Screen readers limitations
   parentId: screen_reader_issues
 
 - id: screen_readers_hiding_content
+  name: Hiding content
+  description: Hiding content from screen readers
   parentId: screen_reader_issues
   patterns:
     - hiding.*screen reader [p]
@@ -198,6 +214,7 @@
     - screen reader.*hide [p]
 
 - id: screen_readers_inconsistencies
+  name: Screen readers inconsistencies
   parentId: screen_reader_issues
   patterns:
     - inconsist.*screen reader [p]
@@ -206,6 +223,7 @@
     - screen reader.*incompat [p]
 
 - id: jaws_issues
+  name: JAWS issues
   parentId: screen_reader_issues
   patterns:
     - jaws

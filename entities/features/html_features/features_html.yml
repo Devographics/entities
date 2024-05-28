@@ -1603,6 +1603,7 @@
     - features
   patterns:
     - share api
+    - navigator\.share
 
 - id: window_controls_overlay
   name: Window Controls Overlay API
@@ -1692,7 +1693,6 @@
     - select [e]
     - selects [e]
   tags:
-    - forms_pain_points
     - html_functionality_features
 
 - id: select_multiple_element
@@ -1701,7 +1701,6 @@
   patterns:
     - multi, select [l]
   tags:
-    - forms_pain_points
     - html_functionality_features
 
 - id: input_type_date
@@ -1714,8 +1713,6 @@
     - calendar
     - calender
     - date
-  tags:
-    - forms_pain_points
 
 - id: input_type_time
   name: |
@@ -1724,8 +1721,6 @@
     - input type="time"
     - time, input [l]
     - time, picker [l]
-  tags:
-    - forms_pain_points
 
 - id: input_type_datetime_locale
   name: |
@@ -1751,7 +1746,6 @@
     `<input type="color">`
   tags:
     - html_interoperability_features
-    - forms_pain_points
   patterns:
     - color( |-)?picker
 
@@ -1778,6 +1772,8 @@
 - id: input_type_number
   name: |
     `<input type="number">`
+  patterns:
+    - number
 
 - id: input_type_range
   name: |
@@ -1790,6 +1786,8 @@
 - id: input_type_file
   name: |
     `<input type="file">`
+  patterns:
+    - file
 
 - id: output_element
   name: |
@@ -1824,8 +1822,19 @@
     `:invalid` CSS pseudo-class
 
 - id: valid_invalid_pseudo_class
+  parentId: validation
   name: |
     `:invalid`/`:valid` CSS pseudo-classes
+  # note: whole-word matching ([b]) breaks when using : character in a string
+  patterns:
+    - ":valid [p]"
+    - ":invalid [p]"
+    - ":user-invalid [p]"
+    - ":user-valid [p]"
+    - valid, pseudo [l]
+    - invalid, pseudo [l]
+  tags:
+    - forms_pain_points
 
 #################################################
 #
@@ -2012,10 +2021,7 @@
   description: |
     `slot="slot_name"` attribute
 
-- id: part_attribute
-  name: |
-    `part` attribute
-
+# see also part_selector. duplicate?
 - id: part_pseudo
   name: |
     CSS `::part()` pseudo-element
@@ -2256,17 +2262,12 @@
 
 - id: jpeg_xl
 
-- id: css_nesting
-  normalizationOnly: true
-  patterns:
-    - nested css
-  tags:
-    - html_interoperability_features
-
 - id: scrollbar_styling
   normalizationOnly: true
   patterns:
     - scrollbar
+  tags:
+    - html_interoperability_features
 
 - id: view_transitions
   normalizationOnly: true
@@ -2306,25 +2307,13 @@
   tags:
     - html_interoperability_features
 
-- id: radio_input
+- id: input_type_radio
   name: |
     `<input type="radio">`
   patterns:
     - radio
 
-- id: file_input
-  name: |
-    `<input type="file">`
-  patterns:
-    - file
-
-- id: number_input
-  name: |
-    `<input type="number">`
-  patterns:
-    - number
-
-- id: checkbox_input
+- id: input_type_checkbox
   name: |
     `<input type="checkbox">`
   patterns:
@@ -2347,3 +2336,14 @@
     `<table>`
   patterns:
     - <table
+
+- id: fieldset_element
+  name: |
+    `<fieldset>`
+  patterns:
+    - fieldset
+
+- id: webp_format
+  name: WebP
+  patterns:
+    - webp

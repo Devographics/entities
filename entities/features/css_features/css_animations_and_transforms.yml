@@ -2,21 +2,21 @@
 # CSS animations & transforms
 #################################################
 
-- id: transitions
+- id: css_transitions
   mdn: /en-US/docs/Web/CSS/CSS_Transitions
   caniuse: css-transitions
   tags:
     - css
     - css_animations_and_transforms
 
-- id: transforms
+- id: css_transforms
   mdn: /en-US/docs/Web/CSS/CSS_Transforms
   caniuse: transforms2d
   tags:
     - css
     - css_animations_and_transforms
 
-- id: animations
+- id: css_animations
   mdn: /en-US/docs/Web/CSS/CSS_Animations
   caniuse: css-animation
   patterns:

@@ -30,6 +30,8 @@
 - id: cordova
   description: "Apache Cordova is a mobile application development framework.\n"
   name: Cordova
+  patterns:
+    - phonegap
 
 - id: ionic
   name: Ionic
@@ -48,6 +50,8 @@
     Call all Node.js modules directly from DOM/WebWorker and enable a new way of
     writing applications with all Web technologies.
   homepageUrl: "https://nwjs.io"
+  patterns:
+    - nw.js
 
 - id: expo
   name: Expo

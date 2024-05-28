@@ -2,18 +2,9 @@
 #                  browser_apis_pain_points                      #
 ##################################################################
 
-- id: browser_support
-  patterns:
-    - adoption
-    - availability
-    - browser parity
-    - inconsistencies
-
 - id: cors
 
 - id: bluetooth
-
-- id: discoverability
 
 - id: firefox
   normalizationOnly: true

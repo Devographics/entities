@@ -7,48 +7,102 @@
     - html_interoperability_features
 
 - id: contenteditable
+  patterns:
+    - content(-| )?editable
   tags:
     - html_interoperability_features
+    - html_functionality_features
+
+- id: safari_issues
+  name: Safari issues
+  patterns:
+    - safari
+  tags:
+    - html_interoperability_features
+
+- id: firefox_issues
+  name: Firefox issues
+  patterns:
+    - firefox
+  tags:
+    - html_interoperability_features
+    - mobile_web_apps_pain_points
+
+- id: svg_features
+  patterns:
+    - svg
+  tags:
+    - html_interoperability_features
+
+##################################################################
+#                 html_functionality_features                 #
+##################################################################
+
+- id: carousels
+  name: Carousels
+  patterns:
+    - carousel
+  tags:
+    - html_functionality_features
+    - accessibility_pain_points
+
+- id: details_element
+  patterns:
+    - details
+  tags:
+    - html_functionality_features
+
+- id: form_inputs
+  name: Form inputs
+  description: Form input elements
+  patterns:
+    - form, element [l]
+    - form, input [l]
+    - form, control [l]
+  tags:
+    - html_functionality_features
 
 ##################################################################
 #                     html_missing_elements                      #
 ##################################################################
 
 - id: autocomplete
-  tags:
-    - html_missing_elements
+  name: Autocomplete
+  description: Autocomplete, comboxbox, typeahead, etc. inputs
   patterns:
     - combo( |-)?box
     - autocomplete
     - typeahead
+    - autoco [p]
+  tags:
+    - html_missing_elements
+    - html_functionality_features
 
 - id: tooltip
+  name: Tooltip
   tags:
     - html_missing_elements
   patterns:
     - tooltip
-
-- id: dropdown
-  tags:
-    - html_missing_elements
-  patterns:
-    - drop down
 
 - id: htmx
   tags:
     - html_missing_elements
 
 - id: charts
+  name: Charts
   tags:
     - html_missing_elements
   patterns:
     - chart
 
 - id: map
+  name: Map
   tags:
     - html_missing_elements
 
 - id: modal
+  name: Modal
   tags:
     - html_missing_elements
 
@@ -70,6 +124,8 @@
     - multi(-| )?select dropdown
 
 - id: rich_text_editor
+  name: Rich text editor
+  description: Rich text/WYSIWYG editor
   tags:
     - html_missing_elements
   patterns:
@@ -77,6 +133,8 @@
     - wysiwyg
 
 - id: virtual_list
+  name: Virtual list
+  description: Virtualized list for faster scrolling
   tags:
     - html_missing_elements
   patterns:
@@ -85,6 +143,7 @@
     - virtual scroll
 
 - id: calendar
+  name: Calendar
   tags:
     - html_missing_elements
 
@@ -97,17 +156,45 @@
     - html_missing_elements
 
 - id: slider
+  name: Slider
   tags:
     - html_missing_elements
 
 - id: tree_view
+  name: Tree view
+  description: Nested tree view element
+  patterns:
+    - tree
   tags:
     - html_missing_elements
 
+- id: off_canvas_menu
+  name: Off-canvas menu
+  description: Collapsible mobile-ready off-canvas menu
+  patterns:
+    - menu
+  tags:
+    - html_missing_elements
+
+- id: drop_down
+  name: Dropdown menus
+  patterns:
+    - menu
+  tags:
+    - html_missing_elements
+    - html_functionality_features
+
 - id: image_editor
+  name: Image editor
   patterns:
     - crop
     - image editor
     - image editing
+  tags:
+    - html_missing_elements
+
+- id: responsive_table
+  patterns:
+    - responsive, table
   tags:
     - html_missing_elements

@@ -1,0 +1,30 @@
+- id: browser_dev_tools
+  name: Browser Devtools
+  patterns:
+    - dev( |-)?tool(s)?
+  tags:
+    - accessibility_tools
+
+- id: contrast_checkers
+  name: Contrast checkers
+  patterns:
+    - contrast, check [l]
+    - color, check [l]
+    - contrast
+  tags:
+    - accessibility_tools
+
+- id: manual_testing
+  name: Manual testing
+  patterns:
+    - manual
+    - human
+  tags:
+    - accessibility_tools
+
+- id: bookmarklets
+  name: Bookmarklets
+  patterns:
+    - bookmarklet
+  tags:
+    - accessibility_tools

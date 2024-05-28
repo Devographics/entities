@@ -1,18 +1,13 @@
-- id: js_requirement
-  description: JavaScript is required
-  patterns:
-    - require.*javascript [p]
-    - reliance.*javascript [p]
-    - javascript.*require [p]
-    - need.*javascript [p]
-
 - id: adoption
+  name: Adoption
   description: Slow adoption
 
 - id: availability
+  name: Availability
   decription: Lack of good available options
 
 - id: fouc
+  name: FOUC
   decription: Flash of unstyled content
   tags:
     - making_web_components_pain_points
@@ -22,7 +17,8 @@
     - fout
 
 - id: framework_compatibility
-  decription: Compatibility with JS frameworks
+  name: Framework compatibility
+  description: Lack of compatibility with JS frameworks
   patterns:
     - framework, support [l]
     - integrat.*framework [p]
@@ -32,23 +28,34 @@
     - framework, compat [l]
     - framework, integration [l]
 
+- id: react_compatibility
+  parentId: framework_compatibility
+  name: React compatibility
+  description: Lack of compatibility with React
+  patterns:
+    - react, compat [l]
+    - react, work [l]
+    - react, integrat [l]
+    - react, support [l]
+    - react, interop [l]
+    - react [e]
+
+- id: prefers_frameworks
+  name: Competition from frameworks
+  description: Lack of added value compared to JavaScript frameworks
+  tags:
+    - making_web_components_pain_points
+    - interactivity_pain_points
+
 - id: missing_features
+  name: Lack of features
   description: Missing or limited features
 
 - id: ssr
+  name: SSR
   description: Lack of SSR
   patterns:
     - ssr
-
-- id: styling
-  patterns:
-    - css
-    - styles
-
-- id: discoverability
-  patterns:
-    - finding
-    - discover
 
 - id: forms
   patterns:
@@ -56,25 +63,15 @@
   tags:
     - making_web_components_pain_points
 
-- id: not_familiar
-  patterns:
-    - never heard
-    - know nothing
-    - not.*familiar
-    - never used
-  tags:
-    - making_web_components_pain_points
-
 - id: lack_of_value
+  name: Lack of value
+  description: Low perceived value or need
   tags:
     - making_web_components_pain_points
-
-- id: prefers_frameworks
-  tags:
-    - making_web_components_pain_points
-    - interactivity_pain_points
 
 - id: naming
+  name: Naming
+  description: Naming conflicts and issues
   patterns:
     - name.*conflicts
     - naming.*conflicts
@@ -83,6 +80,4 @@
 
 - id: progressive_enhancement
 
-- id: react
-  tags:
-    - making_web_components_pain_points
+- id: no_objects_as_attributes

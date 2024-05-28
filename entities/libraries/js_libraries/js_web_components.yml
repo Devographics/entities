@@ -1,0 +1,53 @@
+- id: atomico
+  name: Atomico
+  homepageUrl: https://atomicojs.dev/
+
+- id: carbon_web_components
+  name: Carbon Web Components
+  homepageUrl: https://carbondesignsystem.com/developing/frameworks/web-components/
+  patterns:
+    - ibm, carbon [l]
+
+- id: clarity_web_components
+  name: Clarity Web Components
+  homepageUrl: https://core.clarity.design/core-components/
+
+- id: catalyst
+  name: Catalyst
+  homepageUrl: https://catalyst.rocks/
+
+- id: haunted
+  name: Haunted
+  homepageUrl: https://hauntedhooks.netlify.app/
+
+- id: hybrids
+  name: Hybrids
+  homepageUrl: https://hybrids.js.org/
+
+- id: minze
+  name: Minze
+  homepageUrl: https://minze.dev/
+
+- id: patternfly
+  name: Patternfly Elements
+  homepageUrl: https://patternflyelements.org/
+
+- id: skate
+  name: SkateJS
+  homepageUrl: https://skatejs.netlify.app/
+
+- id: vaadin
+  name: Vaadin
+  homepageUrl: https://vaadin.com/
+
+- id: ui5
+  name: UI5 Web Components
+  homepageUrl: https://sap.github.io/ui5-webcomponents/
+
+- id: vuetify
+  name: Vuetify
+  homepageUrl: https://vuetifyjs.com/
+
+- id: webc
+  name: WebC
+  homepageUrl: https://www.11ty.dev/docs/languages/webc/

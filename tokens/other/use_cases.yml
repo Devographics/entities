@@ -67,9 +67,8 @@
   tags:
     - js_uses
 
-- id: education
-  normalizationOnly: true
-  name: Education
+- id: education_sites
+  name: Education sites
   patterns:
     - teaching
   tags:
@@ -104,8 +103,8 @@
 
 # what do you use CSS for
 
-- id: e_commerce
-  # name: E-Commerce Sites
+- id: e_commerce_sites
+  name: E-Commerce sites
   tags:
     - css_uses
   patterns:
@@ -114,51 +113,51 @@
     - shop
 
 - id: electron
-  normalizationOnly: true
-  # name: Electron Apps
+  name: Electron apps
   tags:
     - css_uses
 
 - id: portfolio
-  normalizationOnly: true
+  name: Portfolio sites
   tags:
     - css_uses
 
 - id: data_visualization
-  normalizationOnly: true
-  # name: Data Visualization
+  name: Data visualization
   patterns:
     - data visualisation
   tags:
     - css_uses
 
 - id: svg
-  normalizationOnly: true
   name: SVG
   tags:
     - css_uses
 
 - id: desktop
-  normalizationOnly: true
-  # name: Desktop Applications
+  name: Desktop applications
   tags:
     - css_uses
 
 - id: games
-  normalizationOnly: true
-  # name: Video Games
+  name: Video games
   tags:
     - css_uses
 
 - id: extensions
-  normalizationOnly: true
-  # name: Browser Extensions
+  name: Browser extensions
   tags:
     - css_uses
   patterns:
     - extension
 
-- id: websites
-  normalizationOnly: true
-  tags:
-    - css_uses
+- id: intranet
+  name: Intranets
+
+- id: personal_website
+  name: Personal websites
+
+- id: presentations
+  name: Presentations
+  patterns:
+    - presentation

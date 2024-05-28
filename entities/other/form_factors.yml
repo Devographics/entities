@@ -2,13 +2,6 @@
 # Form Factors
 #################################################
 
-- id: browserstack
-  name: BrowserStack
-  homepageUrl: https://www.browserstack.com/
-  tags:
-    - css
-    - form_factors
-
 - id: voice
   name: Voice Control
   tags:

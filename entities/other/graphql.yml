@@ -60,13 +60,3 @@
   patterns:
     - s2s
     - server 2 server
-
-# sources
-
-- id: state_of_graphql_survey
-  normalizationOnly: true
-  patterns:
-    - email
-    - devographics.com
-  tags:
-    - sources_state_of_graphql

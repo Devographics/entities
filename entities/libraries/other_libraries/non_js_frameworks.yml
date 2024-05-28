@@ -66,3 +66,13 @@
   homepageUrl: https://developer.android.com/jetpack/compose
   patterns:
     - compose
+
+- id: gtk
+  name: GTK
+  homepageUrl: https://www.gtk.org/
+  tags:
+    - native_apps_tools
+
+- id: qt
+  name: Qt
+  homepageUrl: https://www.qt.io/

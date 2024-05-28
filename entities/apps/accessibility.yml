@@ -29,9 +29,6 @@
   name: Siteimprove
   homepageUrl: https://www.siteimprove.com/
 
-- id: storybook
-  normalizationOnly: true
-
 - id: wave
   name: WAVE
   homepageUrl: https://wave.webaim.org/
@@ -58,6 +55,67 @@
   name: tota11y
   homepageUrl: https://github.com/jdan/tota11y
 
+- id: lynx
+  name: Lynx
+  homepageUrl: https://lynx.invisible-island.net/
+
+- id: assistant_rgaa
+  name: Assistant RGAA
+  homepageUrl: https://github.com/DISIC/assistant-rgaa/tree/master
+
+- id: browserstack
+  name: BrowserStack
+  homepageUrl: https://www.browserstack.com/
+  tags:
+    - css
+    - form_factors
+
+- id: colour_contrast_analyzer
+  name: Colour Contrast Analyzer
+  homepageUrl: https://www.tpgi.com/color-contrast-checker/
+  patterns:
+    - cca
+
+- id: headings_map
+  name: HeadingsMap
+  homepageUrl: https://github.com/dzc34/headingsMap
+
+- id: level_access
+  name: Level Access
+  homepageUrl: https://www.levelaccess.com/
+
+- id: silktide
+  name: Silktide
+  homepageUrl: https://silktide.com/
+
+- id: sortsite
+  name: SortSite
+  homepageUrl: https://www.powermapper.com/products/sortsite/
+
+- id: a11y_css
+  name: a11y.css
+  homepageUrl: https://ffoodd.github.io/a11y.css/
+
+- id: monsido
+  name: Monsido
+  homepageUrl: https://monsido.com/
+
+- id: pope_tech
+  name: Popetech
+  homepageUrl: https://pope.tech/
+
+- id: sa11y
+  name: Sa11y
+  homepageUrl: https://sa11y.netlify.app/
+
+- id: total_validator
+  name: Total Validator
+  homepageUrl: https://www.totalvalidator.com/
+
+- id: web_hint
+  name: Webhint
+  homepageUrl: https://webhint.io/
+
 #################################################
 # Screen Readers
 #################################################
@@ -67,6 +125,9 @@
   homepageUrl: https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1
   tags:
     - screenreaders
+  patterns:
+    - microsoft
+    - windows
 
 - id: orca
   name: Orca
@@ -85,6 +146,11 @@
   homepageUrl: https://www.apple.com/voiceover/info/guide/_1121.html
   tags:
     - screenreaders
+  patterns:
+    - mac( |-)?os, screen( |-)?reader [l]
+    - mac( |-)?os, built( |-)?in [l]
+    - mac( |-)?os, native [l]
+    - mac( |-)?os
 
 - id: jaws
   name: JAWS
@@ -127,3 +193,35 @@
   homepageUrl: https://support.google.com/accessibility/android/answer/6283677?hl=en
   tags:
     - screenreaders
+
+#################################################
+# A11y Conditions
+#################################################
+
+- id: low_bandwidth
+  name: Low bandwidth
+
+- id: offline_user
+  name: Offline access
+
+- id: single_handed
+  name: Single-handedness
+
+- id: computer_illiteracy
+  name: Computer illiteracy
+
+- id: keyboard_navigation
+  name: Keyboard navigation
+
+- id: language_barrier
+  name: Language barrier
+
+#################################################
+# A11y Techniques
+#################################################
+
+- id: dark_mode
+  name: Dark mode
+
+- id: forced_colors
+  name: Forced colors

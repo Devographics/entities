@@ -97,6 +97,9 @@
 - id: elm
   name: Elm
   homepageUrl: https://elm-lang.org/
+  github: elm/compiler
+  tags:
+    - javascript_flavors
 
 - id: reason
   name: Reason
@@ -230,15 +233,6 @@
   description: >-
     Simple, fast & type safe code that leverages the JavaScript & OCaml
     ecosystems
-  tags:
-    - javascript_flavors
-
-- id: elm
-  name: Elm
-  npm: null
-  github: elm/compiler
-  description: "Compiler for Elm, a functional language for reliable webapps."
-  homepageUrl: https://elm-lang.org/
   tags:
     - javascript_flavors
 

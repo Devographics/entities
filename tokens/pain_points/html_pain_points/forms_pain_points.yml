@@ -32,94 +32,108 @@
   parentId: styling_customization
 
 - id: styling_radio_inputs
+  belongsTo: input_type_radio
   parentId: styling_customization
   patterns:
     - styl, radio [l]
+    - custom, radio [l]
 
 - id: styling_select_inputs
+  belongsTo: select_element
   parentId: styling_customization
   patterns:
     - styl, select [l]
     - styl, drop( |-)?down [l]
+    - custom, select [l]
+    - custom, drop( |-)?down [l]
 
 - id: styling_checkbox_inputs
+  belongsTo: input_type_checkbox
   parentId: styling_customization
   patterns:
     - styl, checkbox [l]
+    - custom, checkbox [l]
 
 - id: styling_file_inputs
+  belongsTo: input_type_file
   parentId: styling_customization
   patterns:
     - styl, file [l]
+    - custom, file [l]
 
 - id: styling_number_inputs
+  belongsTo: input_type_number
   parentId: styling_customization
   patterns:
     - styl, number [l]
+    - custom, number [l]
 
 - id: styling_date_pickers
+  belongsTo: input_type_date
   parentId: styling_customization
   patterns:
     - styl, date [l]
     - styl, time [l]
-
-- id: styling_date_pickers
-  parentId: styling_customization
-  patterns:
-    - styl, date [l]
-    - styl, time [l]
+    - custom, time [l]
+    - custom, date [l]
 
 - id: styling_colorpickers
+  belongsTo: input_type_color
   parentId: styling_customization
   patterns:
     - styl, color [l]
+    - custom, color [l]
 
 - id: styling_range
+  belongsTo: input_type_range
   parentId: styling_customization
   patterns:
     - styl, range [l]
     - styl, slider [l]
+    - custom, range [l]
+    - custom, slider [l]
+
+- id: error_customization
+  name: Error customization
+  description: Ability to style and customize form errors
+  parentId: styling_customization
+  patterns:
+    - custom, error [l]
+    - styl, error [l]
 
 ##################################################################
 #                             validation                         #
 ##################################################################
 
-# note: as long as this is specified as a parentId, it doesn't need to be an actual token
-# this way, "validation" will never be matched, only "general_validation_issues"
-
-# - id: validation
-
-- id: general_validation_issues
-  parentId: validation
+- id: validation_issues
+  name: Validation
+  description: Issues with form validation
   patterns:
     - custom validity
     - valid [p]
 
 - id: async_validation
-  parentId: validation
+  name: Async validation
+  description: Making async calls to validate form inputs
+  parentId: validation_issues
 
 - id: conditional_validation
-  parentId: validation
+  name: Conditional validation
+  description: Validating inputs conditionally based on other inputs
+  parentId: validation_issues
 
 - id: accessible_validation
-  parentId: validation
+  name: Validation accessibility
+  description: Ensuring validation hints are properly accessible
+  parentId: validation_issues
   patterns:
     - a11y, valid [l]
     - access, valid [l]
 
-- id: valid_invalid_pseudo_class
-  parentId: validation
-  # note: whole-word matching ([b]) breaks when using : character in a string
-  patterns:
-    - ":valid [p]"
-    - ":invalid [p]"
-    - ":user-invalid [p]"
-    - ":user-valid [p]"
-    - valid, pseudo [l]
-    - invalid, pseudo [l]
-
 - id: pattern_attribute
-  parentId: validation
+  name: >
+    `pattern` attribute
+  parentId: validation_issues
   patterns:
     - pattern
     - mask [p]
@@ -128,31 +142,38 @@
 #                       form_handling                            #
 ##################################################################
 
-# - id: form_handling
-
-- id: general_form_handling_issues
-  parentId: form_handling
+- id: form_handling
+  name: Form handling
   patterns:
     - form, handling [l]
     - forms [e]
 
 - id: javascript_form_handling
+  name: JavaScript form handling
+  description: Handling forms in JavaScript
   parentId: form_handling
   patterns:
     - handling, js [l]
     - handling, javascript [l]
 
 - id: data_handling
+  name: Data handling & `FormData`
+  description: >
+    Retrieving a form's data programatically
   parentId: form_handling
   patterns:
     - form, data [l]
 
 - id: default_form_submit_behavior
+  name: Default submit behavior
+  description: Buttons defaulting to submitting forms
   parentId: form_handling
   patterns:
     - default, submi [l]
     - reload, submi [l]
     - behav, submi [l]
+    - default, submit, button [l]
+    - type, submit, button [l]
 
 ##################################################################
 #                       error_handling                           #
@@ -160,50 +181,83 @@
 
 # - id: error_handling (defined in common_pain_points)
 
-- id: error_customization
-  parentId: error_handling
-  patterns:
-    - custom, error [l]
-    - styl, error [l]
-
 ##################################################################
 #                     form_input_issues                          #
 ##################################################################
 
-# - id: form_input_issues
-
-# note: we don't support for than one nesting level, so since
-# textarea_element already has a child token keep everything at the top level for now
-
-- id: autocomplete
-  patterns:
-    - autoco [p]
-
-- id: general_input_issues
+- id: form_input_issues
+  name: Input element issues
+  description: Issues concerning various form input elements
   patterns:
     - input [e]
 
-- id: general_textarea_issues
-  parentId: textarea_element
-  patterns:
-    - textarea
+- id: autocomplete
+  parentId: form_input_issues
 
 - id: textarea_auto_growing
-  parentId: textarea_element
+  name: >
+    `<textarea>` auto-growing
+  description: Inability of `<textarea>` to grow to match input length
+  parentId: form_input_issues
   patterns:
     - text( |-)?area, grow [l]
     - text( |-)?area, size [l]
     - text( |-)?area, auto [l]
 
-- id: general_button_issues
-  parentId: button_element
+- id: button_element
+  parentId: form_input_issues
   patterns:
     - button
 
-- id: button_default_submit
-  parentId: button_element
+- id: input_type_file
+  parentId: form_input_issues
+
+- id: input_type_radio
+  parentId: form_input_issues
+
+- id: checkbox_input
+  parentId: form_input_issues
+
+- id: input_type_range
+  parentId: form_input_issues
   patterns:
-    - default, submit, button [l]
+    - range
+
+- id: input_type_number
+  parentId: form_input_issues
+
+- id: input_type_color
+  parentId: form_input_issues
+
+- id: select_element
+  parentId: form_input_issues
+
+- id: input_type_date
+  parentId: form_input_issues
+
+- id: textarea_element
+  parentId: form_input_issues
+
+- id: select_multiple_element
+  parentId: form_input_issues
+
+- id: datalist_element
+  parentId: form_input_issues
+
+- id: selectlist_element
+  parentId: form_input_issues
+
+- id: input_type_time
+  parentId: form_input_issues
+
+- id: input_type_datetime_locale
+  parentId: form_input_issues
+
+- id: input_type_checkbox
+  parentId: form_input_issues
+
+- id: input_type_radio
+  parentId: form_input_issues
 
 ##################################################################
 #                        other tokens                            #
@@ -222,42 +276,51 @@
 #   name: Safari
 
 - id: nested_forms
+  name: Nested forms
+  description: Handling forms with multiple levels of nesting
   patterns:
     - nested
 
-- id: general_inconsistencies
-  patterns:
-    - inconsist [p]
-
 - id: lack_additional_http_actions
+  name: HTTP actions
+  description: Lack of form support for HTTP actions such as PUT, PATCH, DELETE
   patterns:
     - PUT
     - PATCH
     - DELETE
 
 - id: content_editable
+  name: >
+    `contentEditable`
 
 - id: combo_box
+  name: Combobox
 
 - id: drop_down
-
-- id: input_type_range
-  patterns:
-    - range
+  name: Dropdown menus
+  tags:
+    - html_missing_elements
+    - html_functionality_features
 
 - id: rich_text_editing
+  name: Rich text editing
   patterns:
     - rich
 
 - id: label_issues
+  name: Label issues
   patterns:
     - label
 
 - id: multi_step_forms
+  name: Multi-step forms
+  description: Handling forms split across multiple pages
   patterns:
     - multi(-| )?step
     - multi(-| )?page
 
 - id: lack_of_typesafety
+  name: Typesafety
+  description: Lack of form typesafety
   patterns:
     - type(-| )?safety

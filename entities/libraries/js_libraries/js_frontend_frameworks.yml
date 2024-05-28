@@ -71,6 +71,8 @@
   github: sveltejs/svelte
   description: Cybernetically enhanced web apps
   homepageUrl: "https://svelte.dev"
+  tags:
+    - accessibility_tools
 
 - id: alpinejs
   name: Alpine.js
@@ -108,6 +110,8 @@
     A Web Component compiler for building fast, reusable UI components and
     static site generated Progressive Web Apps
   homepageUrl: "https://stenciljs.com"
+  patterns:
+    - stenciljs
 
 - id: solid
   name: Solid
@@ -117,6 +121,8 @@
     A declarative, efficient, and flexible JavaScript library for building user
     interfaces.
   homepageUrl: https://www.solidjs.com/
+  patterns:
+    - solidjs
 
 - id: marko
   name: Marko

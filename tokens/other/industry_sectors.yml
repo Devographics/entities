@@ -1,220 +1,172 @@
 - id: science
-  normalizationOnly: true
 
 - id: human_resources
-  normalizationOnly: true
   patterns:
     - HR
 
 - id: security
-  normalizationOnly: true
 
 - id: payments
-  normalizationOnly: true
 
 - id: communication
-  normalizationOnly: true
 
 - id: sports
-  normalizationOnly: true
   patterns:
     - sport
     - fitness
 
 - id: music
-  normalizationOnly: true
 
 - id: gaming
-  normalizationOnly: true
   patterns:
     - game
     - games
 
 - id: saas
-  normalizationOnly: true
 
 - id: tourism
-  normalizationOnly: true
 
 - id: energy
-  normalizationOnly: true
 
 - id: crypto
-  normalizationOnly: true
 
 - id: food
-  normalizationOnly: true
 
 - id: non_profit
-  normalizationOnly: true
   patterns:
     - nonprofit
 
 - id: research
-  normalizationOnly: true
   patterns:
     - academia
     - scientific
     - science
 
 - id: adult_industry
-  normalizationOnly: true
   patterns:
     - adult
 
 - id: gambling
-  normalizationOnly: true
   patterns:
     - betting
 
 - id: aerospace
-  normalizationOnly: true
   patterns:
     - aviation
     - geospatial
     - space
 
 - id: gis
-  normalizationOnly: true
   patterns:
     - map
 
 - id: tech_it
-  normalizationOnly: true
   patterns:
     - tech
     - it
 
 - id: web3
-  normalizationOnly: true
 
 - id: blockchain
-  normalizationOnly: true
 
 - id: transportation
-  normalizationOnly: true
   patterns:
     - transport
 
 - id: biotech
-  normalizationOnly: true
   patterns:
     - bioinformatics
     - biometric
 
 - id: pharma
-  normalizationOnly: true
 
 - id: advertising
-  normalizationOnly: true
   patterns:
     - adtech
 
 - id: iot
-  normalizationOnly: true
 
 - id: art
-  normalizationOnly: true
 
 - id: banking
-  normalizationOnly: true
   patterns:
     - bank
 
 - id: law
-  normalizationOnly: true
   patterns:
     - legal
 
 - id: education
-  normalizationOnly: true
   patterns:
     - teaching
     - edtech
 
 - id: cloud_computing
-  normalizationOnly: true
   patterns:
     - cloud
 
 - id: defense
-  normalizationOnly: true
   patterns:
     - defence
 
 - id: enterprise
-  normalizationOnly: true
 
 - id: entertainment
-  normalizationOnly: true
 
 - id: environment
-  normalizationOnly: true
   patterns:
     - sustainability
 
 - id: finance
-  normalizationOnly: true
   patterns:
     - finance
     - financial
     - fintech
 
 - id: industrial
-  normalizationOnly: true
   patterns:
     - industrial
 
 - id: recruiting
-  normalizationOnly: true
   patterns:
     - hiring
     - recruitment
 
 - id: travel
-  normalizationOnly: true
 
 - id: mining
-  normalizationOnly: true
 
 - id: business
-  normalizationOnly: true
   patterns:
     - consulting
 
 - id: design
-  normalizationOnly: true
 
 - id: automotive
-  normalizationOnly: true
   patterns:
     - auto
     - car
     - vehicle
 
 - id: religion
-  normalizationOnly: true
   patterns:
     - church
 
 - id: culture
-  normalizationOnly: true
   patterns:
     - cultural
 
 - id: e_commerce
-  normalizationOnly: true
   patterns:
     - commerce
     - retail
 
 - id: e_learning
-  normalizationOnly: true
   patterns:
     - learning
 
 - id: student
-  normalizationOnly: true
 
 - id: unemployed
-  normalizationOnly: true
+
+- id: agency

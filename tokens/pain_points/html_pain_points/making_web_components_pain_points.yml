@@ -5,6 +5,8 @@
 - id: data_binding
 
 - id: templating
+  name: Templating
+  description: Lack of templating
   patterns:
     - templating
     - templates
@@ -13,13 +15,11 @@
   patterns:
     - event
 
-- id: imperative_api
-  patterns:
-    - imperative
-
 - id: progressive_enhancement
 
 - id: class_based_architecture
+  name: Class-based architecture
+  description: Forces the use of class syntax
   patterns:
     - classes
     - class-based
@@ -32,10 +32,3 @@
 - id: lack_of_scoped_css
   patterns:
     - scoped css
-
-- id: styling_issues
-  patterns:
-    - css
-    - styling
-    - style
-    - styles

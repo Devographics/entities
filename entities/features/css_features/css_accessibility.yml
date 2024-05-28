@@ -18,6 +18,8 @@
     - css
     - css_media_queries
     - accessibility
+  patterns:
+    - reduced, motion [l]
 
 - id: prefers_color_scheme
   name: "`prefers-color-scheme`"

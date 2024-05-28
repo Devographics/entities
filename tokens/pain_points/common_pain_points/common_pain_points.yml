@@ -3,6 +3,8 @@
 ##################################################################
 
 - id: accessibility
+  name: Accessibility
+  description: Accessibility issues
   patterns:
     - accessibility
     - a11y
@@ -11,12 +13,16 @@
     - accessbility
 
 - id: animations
+  name: Animations
+  description: Animation issues
   patterns:
     - animation
     - animate
     - animating
 
 - id: browser_support
+  name: Browser support
+  description: Browser support, compatibility, and consistency issues
   patterns:
     - browser adoption
     - consistency
@@ -43,10 +49,15 @@
     - browser, consistent [l]
     - browser, across [l]
     - browser, interop [l]
+  tags:
+    - css_missing_features
 
 - id: safari
+  name: Safari
 
 - id: styling_customization
+  name: Styling & customization
+  description: CSS styling and customization issues.
   patterns:
     - styling
     - css customization
@@ -59,13 +70,12 @@
     - customization
     - customising
     - customizing
-    - css
     - styl(e)?ab [p]
 
 - id: error_handling
+  name: Error handling
   patterns:
     - custom error
-    - form validation
     - error management
     - error messages
     - errors
@@ -74,11 +84,14 @@
     - exceptions
 
 - id: state_management
+  name: State management
   patterns:
     - state mgmt
     - state
 
 - id: speed_of_change
+  name: Speed of change
+  description: Features, libraries, and APIs changing too fast
   patterns:
     - change to(o)? fast
     - changes to(o)? fast
@@ -96,10 +109,14 @@
     - to(o)? many change [p]
 
 - id: reinventing_the_wheel
+  name: Reinventing the wheel
+  description: Constantly having to re-learn or re-implement the same concepts
   patterns:
     - reinventing
 
 - id: version_updates
+  name: Version changes
+  description: Breaking changes and other updating issues
   patterns:
     - breaking changes
     - migration
@@ -107,6 +124,8 @@
     - upgrad [p]
 
 - id: too_many_choices
+  name: Choice overload
+  description: Overwhelming amount of options and choices
   patterns:
     - to(o)? many choice [p]
     - decision fatigue
@@ -123,6 +142,7 @@
     - overwhelmed
 
 - id: excessive_complexity
+  name: Excessive complexity
   description: Too much complexity
   patterns:
     # - complex [p]
@@ -133,51 +153,35 @@
     - too, complex [l]
     - very, complex [l]
     - complexity
-
-- id: clunkiness
-  patterns:
     - clunky
     - confusing
     - cumbersome
 
 - id: dependencies
+  name: Dependencies
+  description: Too many dependencies
   patterns:
     - deps
     - dependency hell
     - dependency
 
-- id: tough_learning_curve
-  patterns:
-    - hard to learn
-    - learning curves
-    - hard to get started
-    - difficult to learn
-
-- id: lack_of_documentation
-  decription: Poor documentation
-  patterns:
-    - docs
-    - documentation
-    - documentaion
-    - document
-    - lack, education [l]
-    - lack, tutorial [l]
-    - lack, resources [l]
-    - learning resources
-
 - id: lack_of_tools
-  decription: Poor documentation
+  name: Lack of tools
+  decription: Lack of adequate tooling and libraries
   patterns:
     - lack, tools [l]
     - tooling
 
 - id: build_tools
+  name: Build tools
+  description: Build tools issues
   patterns:
     - build, tool [l]
     - building, tool [l]
 
 - id: bundlers
   name: Bundlers
+  description: Bundlers issues
   tags:
     - language_pain_points
   patterns:
@@ -185,15 +189,20 @@
     - bundle
 
 - id: bloat
+  name: Bloat
   patterns:
     - bloated
 
 - id: bundle_size
+  name: Bundle size
+  description: Excessive bundle size
   patterns:
     - bundle
     - file size
 
 - id: performance
+  name: Performance
+  description: Performance issues
   patterns:
     - slow
     - slowness
@@ -202,34 +211,47 @@
     - perfomance [p]
 
 - id: hydration
+  name: Hydration
+  description: Hydration issues
   patterns: []
 
 - id: jsx
+  name: JSX
+  description: JSX issues
   patterns: []
 
 - id: too_much_boilerplate
+  name: Excessive boilerplate
+  description: Too much boilerplate required
   patterns:
     - boiler( )?plate
     - boiler [p]
 
 - id: data_fetching
+  name: Data fetching
+  description: Data fetching issues
   patterns: []
 
 - id: scaling
+  name: Scaling
+  description: Scaling issues
 
 - id: security
-  description: Security
+  name: Security
+  description: Security issues
   patterns:
     - safety
 
 - id: ssr
   name: SSR
+  description: Server-side rendering issues
   patterns:
     - server( |-)?side rendering
     - server rendering
 
 - id: debugging
   name: Debugging
+  description: Debugging issues
   patterns:
     - debug [p]
 
@@ -237,11 +259,14 @@
 #   name: Tooling
 
 - id: verbosity
+  name: Excessive verbosity
+  description: APIs that are overly verbose
   patterns:
     - verbose
 
 - id: configuration
-  description: Hard to configure
+  name: Configuration
+  description: Difficulties with set-up and configuration
   patterns:
     - set( |-)?up
     - setting( |-)?up
@@ -258,7 +283,8 @@
     - maintain [p]
 
 - id: lock_in
-  description: Too much configuration
+  name: Lock-in
+  description: Too much lock-in
   patterns:
     - lock ins
 
@@ -286,31 +312,123 @@
     - memory
 
 - id: lack_of_awareness
+  name: Lack of awareness
   patterns:
     - awareness
 
-- id: lack_of_knowledge
-  patterns:
-    - knowledge
-
 - id: lack_of_adoption
+  name: Lack of adoption
   patterns:
     - adoption
 
 - id: missing_features
+  name: Lack of features
+  description: Lack of features
 
 - id: reliance_on_javascript
+  name: Reliance on JavaScript
+  description: Excessive reliance on JavaScript
   patterns:
     - js [e]
+    - javascript [e]
+    - need (js|javascript)+
+    - having to use (js|javascript)+
+    - too much (js|javascript)+
+    - require (js|javascript)+
+    - require, javascript [l]
+    - reliance, javascript [l]
+    - need, javascript [l]
+    - require, js [l]
+    - reliance, js [l]
+    - need, js [l]
+
+- id: responsive_design
+  name: Responsive design
+  patterns:
+    - responsive
+    - responsiveness
+  tags:
+    - css_pain_points
+
+- id: lack_of_interest
+  name: Lack of interest
+
+- id: lack_of_usefulness
+  name: Lack of usefulness
+
+- id: seo
+
+- id: testing
+
+- id: frustration_with_frameworks
+  name: Reliance on frameworks
+  description: Excessive reliance on frameworks and libraries over native APIs
+
+# educational_issues
+
+- id: educational_issues
+  name: Education
+  description: Issues related to learning new technologies
+
+- id: tough_learning_curve
+  name: Tough learning curve
+  parentId: educational_issues
+  patterns:
+    - hard to learn
+    - learning curves
+    - hard to get started
+    - difficult to learn
+    - where to start
+    - how to start
+
+- id: lack_of_documentation
+  name: Lack of documentation
+  decription: Poor documentation
+  parentId: educational_issues
+  patterns:
+    - docs
+    - documentation
+    - documentaion
+    - lack, education [l]
+    - lack, tutorial [l]
+    - lack, resources [l]
+    - learning resources
 
 - id: lack_of_best_practices
+  name: Lack of best practices
+  parentId: educational_issues
   patterns:
     - best practice
     - standardization
-    - standard
+    # - standard
+    - too many ways
+    - so many ways
 
-- id: responsive_design
+- id: lack_of_knowledge
+  name: Lack of knowledge
+  parentId: educational_issues
   patterns:
-    - responsive
+    - education
+    - lack of information
+    - lack of knowledge
+    - awareness
+    - knowledge
+    - never heard
+    - know nothing
+    - not.*familiar
+    - never used
+
+- id: focus_management
+  name: Focus management
+  description: Managing user focus
+  patterns:
+    - focus
   tags:
-    - css_pain_points
+    - html_missing_features
+
+- id: discoverability
+  name: Discoverability
+  description: Hard to discover relevant resources
+  patterns:
+    - finding
+    - discover

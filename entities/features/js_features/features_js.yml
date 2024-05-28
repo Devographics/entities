@@ -156,6 +156,8 @@
   mdn: /en-US/docs/Web/Progressive_web_apps
   tags:
     - html_interoperability_features
+  patterns:
+    - pwa
 
 - id: twa
   name: Trusted Web Activity

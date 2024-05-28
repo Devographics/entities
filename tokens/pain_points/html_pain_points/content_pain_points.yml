@@ -2,58 +2,72 @@
 #                    content_pain_points                         #
 ##################################################################
 
-- id: cors
-  patterns:
-    - cross(-| )?origin
-- id: csp
-
-- id: svg
-  patterns:
-    - svg [p]
-
-- id: iframe
-
-- id: video
-
-- id: srcset_sizes
-  patterns:
-    - srcset
-
-- id: i18n
-  patterns:
-    - translation
-    - locali(z|s)ation
-    - internationali(z|s)ation
-    - Intl
-    - locale
-    - multiple, language [l]
-
-- id: time_zones
-  patterns:
-    - time( )?zone
-
-- id: performance
+# security_privacy
 
 - id: security_privacy
+  name: Security & privacy
+  description: Lack of security and privacy
   patterns:
     - security
     - privacy
 
+- id: cors_issues
+  parentId: security_privacy
+  name: CORS issues
+  description: Issues with implementing CORS
+  patterns:
+    - cross(-| )?origin
+
+- id: csp_issues
+  parentId: security_privacy
+  name: CSP issues
+  description: Issues with implementing a Content Security Policy
+
+# date_management
+
 - id: date_management
+  name: Date management
+  description: Managing dates and times
   patterns:
     - date
     - temporal
 
-- id: image_dimension_management
+- id: time_zones
+  parentId: date_management
+  name: Timezones
+  description: Managing timezones
   patterns:
+    - time( )?zone
+
+# image_management
+
+- id: image_management
+  name: Image management
+  description: Managing images
+  patterns:
+    - image
+
+- id: image_dimension_management
+  parentId: image_management
+  name: Image dimensions
+  description: Issues with properly sizing images
+  patterns:
+    - width
+    - height
     - size.*image
     - image.*size
     - responsive.*image
     - image.*responsive
 
-- id: image_management
+- id: srcset_sizes
+  name: >
+    `srcset`
+  description: Confusing `srcset` syntax
+  parentId: image_management
   patterns:
-    - image
+    - srcset
+
+# other
 
 - id: lack_of_templating
   patterns:
@@ -77,8 +91,29 @@
     - math
     - mathml
 
-- id: sizing_issues
+- id: svg_issues
+  belongsTo: svg_element
   patterns:
-    - size
-    - width
-    - height
+    - svg [p]
+
+- id: iframe_issues
+  belongsTo: iframe_element
+  patterns:
+    - iframe
+
+- id: video_issues
+  patterns:
+    - iframe
+
+- id: i18n_issues
+  name: Internationalization
+  description: Issues with internationalizing, localizing, and translating content
+  patterns:
+    - translation
+    - locali(z|s)ation
+    - internationali(z|s)ation
+    - Intl
+    - locale
+    - multiple, language [l]
+
+- id: performance

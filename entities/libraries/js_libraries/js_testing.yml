@@ -24,6 +24,8 @@
     The UI component explorer. Develop, document, & test for React, Vue,
     Angular, Ember, Web Components, & more!
   homepageUrl: "https://storybook.js.org"
+  tags:
+    - accessibility
 
 - id: cypress
   name: Cypress
@@ -68,6 +70,8 @@
     Simple and complete React DOM testing utilities that encourage good testing
     practices.
   homepageUrl: "https://testing-library.com/"
+  tags:
+    - accessibility
 
 - id: playwright
   name: Playwright

@@ -1,6 +1,7 @@
 # disability status
 
 - id: blindness
+  name: Blindness
 
 - id: adhd
   name: ADHD
@@ -79,16 +80,16 @@
     - speech impediment
 
 - id: crohn
-  name: Crohn's Disease
+  name: Crohn's disease
 
 - id: bipolar
-  name: Bipolar Disorder
+  name: Bipolar disorder
 
 - id: depression
   name: Depression
 
 - id: mental_illness
-  name: Mental Illness
+  name: Mental illness
   patterns:
     - mental health
 
@@ -96,11 +97,31 @@
   name: PTSD
 
 - id: vestibular_disorder
+  name: Vestibular disorder
   patterns:
     - vestibular
 
 - id: ibd
+  name: IBD
+  description: Inflammatory Bowel Disease
   patterns:
     - ibs
     - ibd
     - bowel
+
+- id: light_sensitivity
+  name: Ligt sensitivity
+
+- id: motion_sensitivity
+  name: Motion sensitivity
+
+- id: cognitive_disabilities
+  name: Cognitive disabilities
+  patterns:
+    - cognitive
+
+- id: speech_disabilities
+  name: Speech disabilities
+  patterns:
+    - speech, disability [l]
+    - speech, disabilities [l]
