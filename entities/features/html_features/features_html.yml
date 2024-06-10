@@ -2348,3 +2348,28 @@
   name: WebP
   patterns:
     - webp
+
+- id: drag_and_drop_api
+  name: Drag and Drop API
+  mdn: en-US/docs/Web/API/HTML_Drag_and_Drop_API
+  patterns:
+    - drag, drop, api [l]
+
+- id: history_api
+  name: History API
+  mdn: en-US/docs/Web/API/History_API
+  patterns:
+    - history, api
+
+- id: intersection_observer_api
+  name: Intersection Observer API
+  mdn: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+  patterns:
+    - intersection observer
+    - intersectionobserver
+
+- id: push_api
+  name: Push API
+  mdn: https://developer.mozilla.org/en-US/docs/Web/API/Push_API
+  patterns:
+    - push, notification [l]

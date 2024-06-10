@@ -1440,6 +1440,10 @@
   blogUrl: https://www.joshmorony.com/blog/
   youtubeUrl: https://www.youtube.com/@JoshuaMorony
   youtubeName: JoshuaMorony
+  patterns:
+    - joshua morony
+    - joshua moroney
+    - josh moroney
   tags:
     - js
     - youtube
@@ -3101,3 +3105,8 @@
   name: Steve Kinney
   homepageUrl: https://stevekinney.net/
   twitterName: stevekinney
+
+- id: daniel_roe
+  name: Daniel Roe
+  homepageUrl: https://roe.dev/
+  twitterName: danielcroe

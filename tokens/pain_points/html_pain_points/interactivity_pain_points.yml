@@ -36,6 +36,9 @@
   name: Drag-and-drop support
   patterns:
     - drag
+    - drag.*drop
+    - dragging
+    - draggable
 
 - id: event_management
   name: Event management
@@ -80,12 +83,6 @@
     - re(-)layout
 
 - id: css_limitations
-
-- id: drag_and_drop
-  patterns:
-    - drag.*drop
-    - dragging
-    - draggable
 
 - id: native_tabs
   description: Lack of native tab element

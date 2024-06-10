@@ -1,0 +1,141 @@
+##################################################################
+#              front_end_frameworks_pain_points                  #
+##################################################################
+
+- id: too_much_magic
+  patterns:
+    - magic
+
+- id: too_many_choices
+  patterns:
+    - there are too many
+    - there's too many
+    - there are way too many
+    - there are too much
+
+- id: use_effect
+
+- id: css
+
+- id: hooks
+
+- id: prop_driling
+
+- id: routing
+
+- id: seo
+
+- id: server_components
+  patterns:
+    - rsc
+  tags:
+    - meta_frameworks_pain_points
+
+- id: virtual_dom
+
+- id: compilation_time
+  patterns:
+    - compile
+    - compilation
+
+- id: architecture_issues
+  patterns:
+    - architecture
+
+- id: too_many_abstractions
+  patterns:
+    - abstraction
+
+- id: styling_customization
+  patterns:
+    - css
+
+- id: build_tools
+  patterns:
+    - building
+
+- id: cross_framework_integration
+  patterns:
+    - framework, compatibility [l]
+
+- id: hooks
+
+- id: prop_drilling
+
+- id: excessive_rendering
+  patterns:
+    - re(-| )?render
+    - re(-| )?rendering
+
+- id: difficulties_switching_frameworks
+  patterns:
+    - switch, framework [l]
+    - migrat, framework [l]
+    - portability
+
+- id: deviation_from_browser_standards
+  patterns:
+    - deviation, standard [l]
+
+- id: lack_of_typescript_support
+  patterns:
+    - typescript, support [l]
+
+  # react_issues
+
+- id: react_issues
+  name: React issues
+  patterns:
+    - react
+
+- id: react_dominance
+  parentId: react_issues
+  name: Excessive dominance
+  patterns:
+    - dominance, react [l]
+    - dominant, react [l]
+    - everyone, react [l]
+    - everything, react [l]
+    - every, react [l]
+    - popular, react [l]
+    - widely, react [l]
+
+- id: react_lack_of_signals
+  parentId: react_issues
+  name: Lack of signals
+  patterns:
+    - signals, react [l]
+    - signels, react [l]
+
+- id: react_slow_progress
+  parentId: react_issues
+  name: Slow progress
+  patterns:
+    - dated, react [l]
+    - progress, react [l]
+
+- id: react_community_concerns
+  parentId: react_issues
+  name: Community concerns
+  patterns:
+    - vercel, react [l]
+
+# vue issues
+
+- id: vue_issues
+  name: Vue.js issues
+  patterns:
+    - vue
+
+- id: vue_migration_issues
+  parentId: vue_issues
+  name: Migration issues
+  patterns:
+    - vue, migrat [l]
+
+# angular issues
+
+- id: angular_issues
+  name: Angular issues
+  patterns:
+    - angular

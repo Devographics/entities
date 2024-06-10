@@ -21,3 +21,13 @@
 - id: pwas
   patterns:
     - pwa
+
+- id: pwas
+  patterns:
+    - pwa
+
+- id: limitations_compared_to_native
+  patterns:
+    - native, limited [l]
+
+- id: native_code_integration

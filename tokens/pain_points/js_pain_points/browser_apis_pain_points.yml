@@ -50,7 +50,51 @@
 
 - id: content_editable
 
-- id: too_many_choices
+- id: canvas_element
   patterns:
-    - too many
-    - too much
+    - canvas
+
+- id: drag_and_drop_api
+  patterns:
+    - drag, drop [l]
+
+- id: history_api
+  patterns:
+    - history
+
+- id: web_audio
+  patterns:
+    - audio
+
+- id: browser_support
+  patterns:
+    - availability
+    - browser parity
+    - browser, implement
+    - coverage
+    - inconsistencies
+    - inconsistency
+    - inconsistent
+    - support
+
+- id: chrome
+
+- id: discoverability
+  patterns:
+    - discover
+
+- id: web_workers
+  patterns:
+    - web worker
+
+- id: event_management
+  patterns:
+    - event
+
+- id: lack_of_hardware_apis
+  patterns:
+    - hardware
+
+- id: divergence_with_node_apis
+  patterns:
+    - node

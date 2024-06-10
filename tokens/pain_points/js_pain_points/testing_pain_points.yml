@@ -31,3 +31,20 @@
 - id: typescript_support
   patterns:
     - typescript
+
+- id: async_testing
+  patterns:
+    - async
+
+- id: authentication
+  patterns:
+    - auth
+
+- id: fragility
+  patterns:
+    - fragile
+    - unreliable
+    - flakey
+    - reliability
+
+- id: writing_tests

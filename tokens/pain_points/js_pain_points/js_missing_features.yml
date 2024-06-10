@@ -99,7 +99,7 @@
     - thread
     - single(-| )?thread [p]
 
-- id: static_typing
+- id: lack_of_static_typing
   description: Lack of native typing
   patterns:
     - typing
@@ -116,6 +116,9 @@
     - dynamic
     - typeless
     - untyped
+    - it's not typescript
+    - lack of type
+    - lack of typing
 
 - id: tuples
   description: Lack of tuples

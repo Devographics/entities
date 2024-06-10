@@ -47,6 +47,7 @@
     - interoperability
     - browser, behavior [l]
     - browser, consistent [l]
+    - browser, inconsistent [l]
     - browser, across [l]
     - browser, interop [l]
   tags:
@@ -97,6 +98,7 @@
     - changes to(o)? fast
     - changing to(o)? fast
     - keeping up
+    - always changing
     - keep up
     - churn
     - constant.*chang [p]
@@ -107,6 +109,8 @@
     - api change [p]
     - rate of change
     - to(o)? many change [p]
+    - frequent change
+    - change very fast
 
 - id: reinventing_the_wheel
   name: Reinventing the wheel
@@ -131,15 +135,17 @@
     - decision fatigue
     - choice paralysis
     - choice overload
-    - to(o)? many framework [p]
     - to(o)? many of them [p]
-    - to(o)? many option [p]
+    - to(o)? many (different|new)?( )?(libraries|lib|framework|option) [p]
     - to(o)? much choice [p]
     - to(o)? many.*choose [p]
     - choosing a framework
     - too many [e]
     - overwhelming
     - overwhelmed
+    - hard to choose
+    - hard to decide
+    - hard to pick
 
 - id: excessive_complexity
   name: Excessive complexity
@@ -156,6 +162,7 @@
     - clunky
     - confusing
     - cumbersome
+    - overly complex
 
 - id: dependencies
   name: Dependencies
@@ -178,6 +185,10 @@
   patterns:
     - build, tool [l]
     - building, tool [l]
+    - build step
+    - build process
+    - build chain
+    - build system
 
 - id: bundlers
   name: Bundlers
@@ -198,7 +209,13 @@
   description: Excessive bundle size
   patterns:
     - bundle
-    - file size
+    - file( )?size
+    - application size
+    - app size
+    - binary size
+    - build size
+    - installation size
+    - package size
 
 - id: performance
   name: Performance
@@ -375,7 +392,7 @@
   parentId: educational_issues
   patterns:
     - hard to learn
-    - learning curves
+    - learning curve
     - hard to get started
     - difficult to learn
     - where to start
@@ -393,6 +410,7 @@
     - lack, tutorial [l]
     - lack, resources [l]
     - learning resources
+    - not documented
 
 - id: lack_of_best_practices
   name: Lack of best practices
@@ -400,6 +418,7 @@
   patterns:
     - best practice
     - standardization
+    - lack of standard
     # - standard
     - too many ways
     - so many ways
@@ -432,3 +451,44 @@
   patterns:
     - finding
     - discover
+
+- id: tribalism_and_toxicity
+  patterns:
+    - tribalism
+    - toxicity
+
+- id: build_times
+  patterns:
+    - build time
+
+- id: form_issues
+  patterns:
+    - form
+
+- id: legacy_codebases
+  patterns:
+    - legacy code
+    - legacy project
+
+- id: too_time_consuming
+  patterns:
+    - time consuming
+
+- id: poor_developer_experience
+  patterns:
+    - bad dx
+    - poor dx
+    - awful dx
+
+- id: bugs_and_stability_issues
+  patterns:
+    - buggy
+
+- id: ram_usage
+  parentId: performance
+
+- id: overuse_issues
+  patterns:
+    - overkill
+    - overuse
+    - overrated

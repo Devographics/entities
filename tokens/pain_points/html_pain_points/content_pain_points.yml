@@ -115,5 +115,8 @@
     - Intl
     - locale
     - multiple, language [l]
+    - i18n
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: performance
