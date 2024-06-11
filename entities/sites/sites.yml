@@ -223,6 +223,7 @@
     - vzhůru ?dolů
     - vzhududolu
     - vzhuru dolu
+    - vzhůru dolů
   tags:
     - podcasts
 
@@ -264,6 +265,7 @@
     - Веб(-| )?стандарты
     - web(-| )?стандарты
     - web-standards.ru
+    - стандарты
 
 - id: w3c
   name: W3C

@@ -22,9 +22,22 @@
 
 - id: central_asian
   name: Central Asian
+  patterns:
+    - central asia
 
 - id: caucasian
   name: Caucasian
 
 - id: scandinavian
   name: Scandinavian
+
+- id: turk
+  name: Turk
+  patterns:
+    - turk
+    - turkish
+    - turkic
+    - türk
+
+- id: mediterranean
+  name: Mediterranean

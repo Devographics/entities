@@ -81,6 +81,7 @@
     - theprimetime
     - primetime
     - prime [e]
+    - theprim [p]
   tags:
     - youtube
     - people
@@ -112,6 +113,9 @@
   twitter: trashh_dev
   name: trash
   twitchName: trash_dev
+  patterns:
+    - trash
+    - trash( )?dev
   tags:
     - twitch
 
@@ -374,3 +378,110 @@
   patterns:
     - hdeleon
     - raw( )?radio
+
+- id: arjan_codes
+  name: Arjan Codes
+  homepageUrl: https://arjancodes.com/
+  youtubeUrl: https://www.youtube.com/@ArjanCodes
+
+- id: bro_code
+  name: Bro Code
+  homepageUrl: https://www.twitch.tv/chocobro
+  youtubeUrl: https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ
+
+- id: code_aesthetic
+  name: CodeAesthetic
+  youtubeUrl: https://www.youtube.com/@CodeAesthetic
+  patterns:
+    - code( )?a(e)?st(h)?etic
+
+- id: code_to_the_moon
+  name: Code To The Moon
+  youtubeUrl: https://www.youtube.com/@codetothemoon
+
+- id: code_with_antonio
+  name: Code With Antonio
+  youtubeUrl: https://www.youtube.com/@codewithantonio
+
+- id: codedamn
+  name: Codedamn
+  youtubeUrl: https://www.youtube.com/c/codedamn
+
+- id: coderized
+  name: Coderized
+  youtubeUrl: https://www.youtube.com/@coderized
+
+- id: coderone
+  name: CoderOne
+  youtubeUrl: https://www.youtube.com/@CoderOne
+
+- id: dominicode
+  name: Domini Code
+  youtubeUrl: https://www.youtube.com/@DominiCode
+
+- id: dreams_of_code
+  name: Dreams of Code
+  youtubeUrl: https://www.youtube.com/@dreamsofcode
+
+- id: micode
+  name: Micode
+  youtubeUrl: https://www.youtube.com/channel/UCYnvxJ-PKiGXo_tYXpWAC-w
+
+- id: aarthificial
+  name: Aarthificial
+  youtubeUrl: https://www.youtube.com/@aarthificial
+
+- id: acerola
+  name: Acerola
+  youtubeUrl: https://www.youtube.com/@Acerola_t
+
+- id: anthony_gg
+  name: Anthony GG
+  homepageUrl: https://www.thetotalcoder.com/
+  youtubeUrl: https://www.youtube.com/@anthonygg_
+
+- id: as_for_js
+  name: As For JS…
+  youtubeUrl: https://www.youtube.com/@AsForJS
+
+- id: awesome_coding
+  name: Awesome
+  youtubeUrl: https://www.youtube.com/@awesome-coding
+  patterns:
+    - awesome
+
+- id: basarat
+  name: Basarat
+  youtubeUrl: https://www.youtube.com/@basarat
+
+- id: betta_tech
+  name: BettaTech
+  youtubeUrl: https://www.youtube.com/channel/UCSf6S_PAhXsqGMTPDiKgdRg
+
+- id: tsoding
+  name: Tsoding
+  twitchUrl: https://www.twitch.tv/tsoding
+  youtubeUrl: https://www.youtube.com/c/Tsoding
+
+- id: huntabyte
+  name: Huntabyte
+  youtubeUrl: https://www.youtube.com/@huntabyte
+
+- id: low_level_learning
+  name: Low Level Learning
+  youtubeUrl: https://www.youtube.com/@LowLevelLearning
+
+- id: melkey
+  name: Melkey
+  youtubeUrl: https://www.youtube.com/@MelkeyDev
+
+- id: gentleman_programming
+  name: Gentleman Programming
+  youtubeUrl: https://www.youtube.com/c/GentlemanProgramming
+
+- id: dominik_dorfmeister
+  name: Dominik Dorfmeister
+  twitterName: TkDodo
+  homepageUrl: https://tkdodo.eu/
+  patterns:
+    - tk( )?dodo

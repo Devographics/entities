@@ -47,7 +47,7 @@
   name: Laracasts
   homepageUrl: https://laracasts.com/
 
-- id: testingjavascript
+- id: testing_javascript
   name: Testing JavaScript
   homepageUrl: https://testingjavascript.com/
 
@@ -162,7 +162,11 @@
 
 - id: codely
   name: Codely
-  homepageUrl: https://codely.io/
+  homepageUrl: https://codely.com/
+  youtubeUrl: https://www.youtube.com/@CodelyTV
+  tags:
+    - podcasts
+    - video_creators
 
 - id: openclassrooms
   name: Openclassrooms
@@ -315,6 +319,24 @@
     - courses [e]
     - cursos [e]
 
+- id: unspecified_bootcamps
+  name: Unspecified bootcamps
+  patterns:
+    - bootcamp [e]
+    - bootcamps [e]
+
+- id: unspecified_universities
+  name: Unspecified universities
+  patterns:
+    - university [e]
+    - universities [e]
+
+- id: unspecified_videos
+  name: Unspecified videos
+  patterns:
+    - video [e]
+    - videos [e]
+
 - id: javascript_understanding_the_weird_parts
   name: "JavaScript: Understanding the Weird Parts"
   homepageUrl: https://www.udemy.com/course/understand-javascript/
@@ -330,3 +352,25 @@
 - id: epic_web
   name: Epic Web
   homepageUrl: https://www.epicweb.dev/
+
+- id: total_typescript
+  name: Total TypeScript
+  homepageUrl: https://www.totaltypescript.com/
+
+- id: you_dont_know_js
+  name: You Don't Know JS
+  homepageUrl: https://github.com/getify/You-Dont-Know-JS
+  patterns:
+    - you don(')?t know (js|javascript)
+    - ydkjs
+
+- id: the_complete_javascript_course_from_zero_to_expert
+  name: "The Complete JavaScript Course 2024: From Zero to Expert!"
+  homepageUrl: https://www.udemy.com/course/the-complete-javascript-course/
+  patterns:
+    - zero, expert [l]
+    - complete, javascript, course [l]
+
+- id: type_level_typescript
+  name: Type-level TypeScript
+  homepageUrl: https://type-level-typescript.com/

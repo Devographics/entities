@@ -99,6 +99,8 @@
 - id: bytes
   name: Bytes
   homepageUrl: https://bytes.dev/
+  tags:
+    - people
 
 - id: react_status
   name: React Status

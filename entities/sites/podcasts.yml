@@ -393,9 +393,12 @@
   name: React Native Show
   homepageUrl: https://www.callstack.com/podcast-react-native-show
 
-- id: underscore
+- id: underscore_podcast
   name: Underscore_
   homepageUrl: https://feeds.acast.com/public/shows/43160adc-fadd-4764-b93f-aa1ca93f22bf
+  patterns:
+    - underscore
+    - underscore_
 
 - id: dev_tools_fm
   name: DevtoolsFM
@@ -460,3 +463,57 @@
 - id: security_now
   name: Security Now
   homepageUrl: https://twit.tv/shows/security-now
+
+- id: dot_net_rocks
+  name: .NET Rocks!
+  homepageUrl: https://www.dotnetrocks.com/
+  patterns:
+    - net, rocks [l]
+
+- id: artisan_developpeur
+  name: Artisan Développeur
+  homepageUrl: https://artisandeveloppeur.fr/
+
+- id: accidental_tech_podcast
+  name: Accidental Tech Podcast
+  homepageUrl: https://atp.fm/
+  patterns:
+    - atp
+
+- id: backend_banter
+  name: Backend Banter
+  homepageUrl: https://www.backendbanter.fm/
+
+- id: bad_at_css
+  name: Bad at CSS
+  homepageUrl: https://badatcss.com/
+
+- id: future_of_coding
+  name: Future of Coding
+  homepageUrl: https://futureofcoding.org/
+
+- id: talk_python_to_me
+  name: Talk Python To Me
+  homepageUrl: https://talkpython.fm/
+  patterns:
+    - talk, python [l]
+
+- id: tech_lead_journal
+  name: TechLead Journal
+  homepageUrl: https://techleadjournal.dev/
+
+- id: the_commit_show
+  name: The Commit Show
+  homepageUrl: https://www.youtube.com/playlist?list=PLJkcleqxxobXjEjsEAtHfuPmc6U1XVZcN
+
+- id: web_worker_podcast
+  name: Web Worker
+  homepageUrl: https://podcast.webworker.tech/
+  patterns:
+    - web worker
+
+- id: whiskey_web_whatnot
+  name: Whiskey, Web And Whatnot
+  homepageUrl: https://whiskey.fm/
+  patterns:
+    - whisk(e)?y
