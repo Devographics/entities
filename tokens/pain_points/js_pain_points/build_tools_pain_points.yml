@@ -1,0 +1,12 @@
+- id: typescript_support
+  patterns:
+    - typescript
+
+- id: webpack_issues
+  patterns:
+    - webpack
+
+- id: hot_module_reloading_issues
+  patterns:
+    - hmr
+    - hot module reloading

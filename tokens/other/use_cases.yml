@@ -101,6 +101,18 @@
   tags:
     - js_uses
 
+- id: microcontrollers
+  name: Microcontrollers
+  tags:
+    - js_uses
+
+- id: tv_apps
+  name: TV apps
+  patterns:
+    - tv
+  tags:
+    - js_uses
+
 # what do you use CSS for
 
 - id: e_commerce_sites

@@ -83,6 +83,8 @@
     - error
     - exception
     - exceptions
+  tags:
+    - js_missing_features
 
 - id: state_management
   name: State management
@@ -136,7 +138,7 @@
     - choice paralysis
     - choice overload
     - to(o)? many of them [p]
-    - to(o)? many (different|new)?( )?(libraries|lib|framework|option) [p]
+    - (to|so)?(o)? many (different|new)?( )?(libraries|lib|framework|option|choice|tool) [p]
     - to(o)? much choice [p]
     - to(o)? many.*choose [p]
     - choosing a framework
@@ -226,6 +228,7 @@
     - speed
     - optimization
     - perfomance [p]
+    - performances
 
 - id: hydration
   name: Hydration
@@ -483,6 +486,8 @@
 - id: bugs_and_stability_issues
   patterns:
     - buggy
+    - flakey
+    - flakiness
 
 - id: ram_usage
   parentId: performance
@@ -492,3 +497,14 @@
     - overkill
     - overuse
     - overrated
+
+- id: scope_creep
+  patterns:
+    - do too much
+    - too many features
+    - feature creep
+
+- id: lack_of_flexibility
+  patterns:
+    - not flexible
+    - inflexib [p]

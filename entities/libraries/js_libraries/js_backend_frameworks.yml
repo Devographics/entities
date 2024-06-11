@@ -202,3 +202,41 @@
 - id: swagger
   name: Swagger
   homepageUrl: https://swagger.io/
+
+# not JS but people still mention it…
+- id: dot_net
+  name: .NET
+  homepageUrl: https://dotnet.microsoft.com/en-us/
+  patterns:
+    - \.net
+
+- id: axum
+  name: axum
+  homepageUrl: https://github.com/tokio-rs/axum
+
+- id: egg_js
+  name: Egg
+  homepageUrl: https://www.eggjs.org/
+  patterns:
+    - egg
+
+- id: hono
+  name: Hono
+  homepageUrl: https://hono.dev/
+  github: honojs/hono
+  patterns:
+    - hono [p]
+
+- id: itty_router
+  name: itty router
+  homepageUrl: https://github.com/kwhitley/itty-router
+  patterns:
+    - itty
+
+- id: middy
+  name: Middy
+  homepageUrl: https://middy.js.org/
+
+- id: moleculer
+  name: Moleculer
+  homepageUrl: https://moleculer.services/index.html

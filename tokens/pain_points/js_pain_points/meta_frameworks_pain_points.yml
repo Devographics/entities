@@ -7,10 +7,30 @@
     - file.*routing [p]
     - file.*router [p]
 
-- id: nextjs
+- id: nextjs_issues
   patterns:
-    - next
     - next( |.|-)?js
+
+- id: nextjs_cache_issues
+  parentId: nextjs_issues
+  patterns:
+    - next, cache [l]
+
+- id: nextjs_vendor_lock_in_issues
+  patterns:
+  parentId: nextjs_issues
+    - next, lock [l]
+    - next, vercel [l]
+
+- id: nextjs_app_router_issues
+  parentId: nextjs_issues
+  patterns:
+    - app router
+
+- id: nextjs_13_issues
+  parentId: nextjs_issues
+  patterns:
+    - next, 13 [l]
 
 - id: nuxt
 
@@ -26,9 +46,21 @@
 
 - id: react
 
-- id: server_vs_client
+- id: server_client_issues
+  name: Frontend and backend integration
   patterns:
-    - server.*client
+    - client, server [l]
+    - sharing, code [l]
+
+- id: javascript_on_the_server
+
+- id: server_components_issues
+  patterns:
+    - server, component [l]
+
+- id: server_actions_issues
+  patterns:
+    - server, action [l]
 
 - id: serverless
 
@@ -50,3 +82,7 @@
 - id: idiosyncrasies
 
 - id: abstraction
+
+- id: middleware_issues
+  patterns:
+    - middleware

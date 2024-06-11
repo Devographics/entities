@@ -10,6 +10,10 @@
   patterns:
     - cross( |-)?language
 
-- id: unnecessary
+- id: versioning
+
+- id: no_need_for_monorepos
+
+- id: typescript_support
   patterns:
-    - monorepo
+    - typescript

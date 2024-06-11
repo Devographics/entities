@@ -170,3 +170,17 @@
 - id: unemployed
 
 - id: agency
+
+- id: agriculture
+
+- id: logistics
+
+- id: manufacturing
+
+- id: insurance
+
+- id: real_estate
+
+- id: construction
+
+- id: telecommunications

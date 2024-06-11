@@ -129,3 +129,6 @@
   description: Decorators
   patterns:
     - decorator [p]
+
+- id: signals
+  name: Signals

@@ -48,3 +48,15 @@
     - reliability
 
 - id: writing_tests
+
+- id: unit_testing
+  patterns:
+    - unit, test [l]
+
+- id: managing_different_environments
+  patterns:
+    - env, diff [l]
+    - inconsist, env [l]
+    - test, env
+
+- id: lack_of_bun_support

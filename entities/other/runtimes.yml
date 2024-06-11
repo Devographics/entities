@@ -129,6 +129,7 @@
   patterns:
     - next
     - vercel
+    - edge, runtime [l]
   tags:
     - edge_runtimes
 
@@ -198,3 +199,7 @@
 - id: winter_cg
   name: WinterCG
   homepageUrl: https://wintercg.org/
+
+- id: appwrite
+  name: Appwrite
+  homepageUrl: https://appwrite.io/

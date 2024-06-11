@@ -66,6 +66,8 @@
 - id: shop_talk_show
   name: Shop Talk Show
   homepageUrl: https://shoptalkshow.com/
+  patterns:
+    - shop( |-)?talk
 
 - id: changelog
   name: The Changelog
@@ -353,6 +355,8 @@
 - id: podrocket
   name: PodRocket
   homepageUrl: https://podrocket.logrocket.com/
+  patterns:
+    - pod rocket
 
 - id: react_native_radio
   name: React Native Radio
@@ -388,3 +392,71 @@
 - id: react_native_show
   name: React Native Show
   homepageUrl: https://www.callstack.com/podcast-react-native-show
+
+- id: underscore
+  name: Underscore_
+  homepageUrl: https://feeds.acast.com/public/shows/43160adc-fadd-4764-b93f-aa1ca93f22bf
+
+- id: dev_tools_fm
+  name: DevtoolsFM
+  homepageUrl: https://www.devtools.fm/
+  patterns:
+    - devtools
+
+- id: developers_podcast
+  name: "Developers!"
+  homepageUrl: https://developerspodcast.com/
+  patterns:
+    - developers [e]
+    - "developers!"
+
+- id: fukabori
+  name: Fukabori.fm
+  homepageUrl: https://fukabori.fm/
+
+- id: hanselminutes
+  name: The Hanselminutes Podcast
+  homepageUrl: https://www.hanselminutes.com/
+
+- id: how_about_tomorrow
+  name: How About Tomorrow?
+  homepageUrl: https://tomorrow.fm/
+
+- id: latent_space
+  name: Latent Space
+  homepageUrl: https://www.latent.space/podcast
+
+- id: lex_fridman
+  name: Lex Fridman
+  homepageUrl: https://lexfridman.com/podcast/
+  patterns:
+    - lex, friedman [l]
+    - lex, fridman [l]
+
+- id: mostly_technical
+  name: Mostly Technical
+  homepageUrl: https://mostlytechnical.com/
+
+- id: off_the_main_thread
+  name: Off The Main Thread
+  homepageUrl: https://offthemainthread.tech/
+  patterns:
+    - otmt
+
+- id: programming_throwdown
+  name: Programming Throwdown
+  homepageUrl: https://www.programmingthrowdown.com/
+
+- id: react_round_up
+  name: React Round Up
+  homepageUrl: https://topenddevs.com/podcasts/react-round-up
+
+- id: rustacean_station
+  name: Rustacean Station
+  homepageUrl: https://rustacean-station.org/
+  patterns:
+    - rustacean
+
+- id: security_now
+  name: Security Now
+  homepageUrl: https://twit.tv/shows/security-now

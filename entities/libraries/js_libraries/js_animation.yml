@@ -122,7 +122,7 @@
   tags:
     - animation
 
-- id: autoanimate
+- id: auto_animate
   name: AutoAnimate
   homepageUrl: https://auto-animate.formkit.com/
   github: formkit/auto-animate
@@ -150,3 +150,51 @@
     - motion.dev
   tags:
     - animation
+
+- id: babylon_js
+  name: Babylon.js
+  homepageUrl: https://babylonjs.com/
+  patterns:
+    - babylon
+
+- id: konva_js
+  name: Konva
+  homepageUrl: https://konvajs.org/
+  patterns:
+    - konva
+
+- id: p5_js
+  name: p5.js
+  homepageUrl: https://p5js.org/
+  patterns:
+    - p5
+
+- id: phaser_js
+  name: Phaser
+  homepageUrl: https://phaser.io/
+  patterns:
+    - phaser
+
+- id: pixi_js
+  name: PixiJS
+  homepageUrl: https://pixijs.com/
+  patterns:
+    - pixi
+
+- id: reanimated
+  name: React Native Reanimated
+  homepageUrl: https://docs.swmansion.com/react-native-reanimated/
+
+- id: rive
+  name: Rive
+  homepageUrl: https://rive.app/
+
+- id: threlte
+  name: Threlte
+  homepageUrl: https://threlte.xyz/
+
+- id: tres_js
+  name: TresJS
+  homepageUrl: https://tresjs.org/
+  patterns:
+    - tres

@@ -80,6 +80,7 @@
     - theprimagen
     - theprimetime
     - primetime
+    - prime [e]
   tags:
     - youtube
     - people
@@ -360,3 +361,16 @@
 #   homepageUrl:
 #   tags:
 #     - youtube
+
+- id: brais_moure
+  name: Brais Moure (MoureDev)
+  homepageUrl: https://www.youtube.com/@mouredev/podcasts
+  patterns:
+    - mouredev
+
+- id: hector_de_leon
+  name: Hector de Leon
+  homepageUrl: https://www.youtube.com/c/hdeleonnet
+  patterns:
+    - hdeleon
+    - raw( )?radio

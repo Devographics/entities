@@ -225,6 +225,22 @@
   patterns:
     - amplify
 
+- id: contabo
+  name: Contabo
+  homepageUrl: https://contabo.com/
+
+- id: glitch
+  name: Glitch
+  homepageUrl: https://glitch.com/
+
+- id: infomaniak
+  name: Infomaniak
+  homepageUrl: https://www.infomaniak.com/
+
+- id: ibm_cloud
+  name: IBM Cloud
+  homepageUrl: https://www.ibm.com/cloud
+
 ###
 # Auth
 ###

@@ -25,13 +25,6 @@
   homepageUrl: https://github.com/unjs/h3
   github: unjs/h3
 
-- id: hono
-  name: Hono
-  homepageUrl: https://hono.dev/
-  github: honojs/hono
-  pattern:
-    - hono [p]
-
 - id: loopback
   name: LoopBack
   homepageUrl: https://loopback.io/
@@ -247,18 +240,22 @@
   description: Human-friendly and powerful HTTP request library for Node.js
   homepageUrl: https://github.com/sindresorhus/got
 
-- id: ky
+- id: ky_js
   name: Ky
   npm: ky
   github: sindresorhus/ky
   description: Tiny & elegant HTTP client based on window.fetch
   homepageUrl: https://github.com/sindresorhus/ky
   apiOnly: true # not used for normalization
+  patterns:
+    - ky [e]
 
-- id: n
+- id: n_js
   name: N
   homepageUrl: https://github.com/tj/n
   apiOnly: true # not used for normalization
+  patterns:
+    - n [e]
 
 - id: nx
   name: Nx
@@ -527,3 +524,27 @@
   npm: yargs
   tags:
     - CLI
+
+- id: chroma_js
+  name: Chroma.js
+  homepageUrl: https://gka.github.io/chroma.js/
+  patterns:
+    - chroma
+
+- id: mongoose
+  name: Mongoose
+  homepageUrl: https://mongoosejs.com/
+
+- id: nanoid
+  name: Nano ID
+  homepageUrl: https://zelark.github.io/nano-id-cc/
+
+- id: tan_stack_table
+  name: TanStack Table
+  homepageUrl: https://tanstack.com/table/latest
+  patterns:
+    - tan, stack, table [l]
+
+- id: typia
+  name: Typia
+  homepageUrl: https://typia.io/

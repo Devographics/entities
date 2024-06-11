@@ -184,6 +184,9 @@
 - id: visual_basic
   name: Visual Basic
 
+- id: vba
+  name: VBA
+
 - id: apex
   name: Apex
 
@@ -368,3 +371,11 @@
 
 - id: zsh
   name: Zsh
+
+- id: matlab
+  name: MATLAB
+  homepageUrl: https://www.mathworks.com/products/matlab.html
+
+- id: fish
+  name: Fish
+  homepageUrl: https://fishshell.com/docs/current/language.html

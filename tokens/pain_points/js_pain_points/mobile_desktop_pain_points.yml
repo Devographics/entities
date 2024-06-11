@@ -31,3 +31,9 @@
     - native, limited [l]
 
 - id: native_code_integration
+
+- id: build_issues
+
+- id: plugins_issues
+  patterns:
+    - plugin

@@ -28,6 +28,7 @@
   tags:
     - testing_pain_points
     - front_end_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: data_fetching
   name: Data Fetching
@@ -164,7 +165,7 @@
   description: Prototype issues
 
 - id: package_management
-  description: Package Management
+  name: Package management issues
   tags:
     - front_end_frameworks_pain_points
     - monorepo_tools_pain_points
