@@ -253,6 +253,7 @@
     - kevin powel
     - ken powell
     - kevin_powell
+    - kevinpowell
 
 - id: harry_roberts
   twitterName: csswizardry
@@ -3342,3 +3343,9 @@
   name: Will Sentance
   homepageUrl: https://willsentance.com/
   twitterName: willsentance
+
+- id: vladilen_minin
+  name: Vladilen Minin
+  youtubeUrl: https://www.youtube.com/@VladilenMinin
+  patterns:
+    - Владилен Минин

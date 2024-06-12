@@ -41,6 +41,7 @@
   homepageUrl: https://javascriptweekly.com/
   patterns:
     - javascript( |-)?weekly
+    - jsw@peterc.org
 
 - id: node_weekly
   name: Node Weekly
@@ -147,3 +148,13 @@
 - id: convertkit
   name: ConvertKit
   homepageUrl: https://convertkit.com/
+
+- id: ecmascript_news
+  name: ECMAScript News
+  homepageUrl: https://ecmascript.news/
+
+- id: geek_news
+  name: GeekNews
+  homepageUrl: https://news.hada.io/
+  patterns:
+    - news.hada.io

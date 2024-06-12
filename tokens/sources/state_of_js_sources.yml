@@ -1,14 +1,57 @@
 # sources
 
 - id: state_of_js_survey
-  normalizationOnly: true
   patterns:
-    - email
+    - (e)?(-| )?mail
+    - mailing
+    - mailbox
+    - inbox
+    - newsletter [e]
     - devographics.com
     - stateofjs_email_announcement
-    - newsletter
+    # - newsletter
     - survey.devographics.com
     - post_survey_share
-    - mail
+    - announcement_post
+    - devographics.com
+    - mailing list
+    - stateofcss.com
+    - stateofjs.com
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+    - annual
+    - yearly
+    - taken it
+    - filled it
+    - devto_announcement
   tags:
     - sources_state_of_js
+
+- id: angular_homepage
+  name: Angular Community
+
+- id: nx_community
+  name: NX Community
+  patterns:
+    - nx [e]
+    - nx newsletter
+    - nx.dev
+
+- id: r_javascript
+  name: r/javascript
+
+- id: r_typescript
+  name: r/typescript
+
+- id: astro_community
+  name: Astro Community
+  patterns:
+    - https://astro.build/

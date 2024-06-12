@@ -15,6 +15,7 @@
     - company
     - boss
     - cto
+    - job
 
 - id: word_of_mouth
   patterns:
@@ -83,5 +84,3 @@
     - kevin
     - powell
     - kp
-
-- id: post_survey_share
