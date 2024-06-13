@@ -13,7 +13,6 @@
 ##################################################################
 
 - id: state_of_js_css_survey
-  normalizationOnly: true
   patterns:
     - email
     - devographics.com

@@ -218,3 +218,11 @@
   # npm: null
   github: builderIO/Qwik
   homepageUrl: https://qwik.builder.io/
+
+- id: vanjs
+  name: VanJS
+  homepageUrl: https://vanjs.org/
+
+- id: arrowjs
+  name: Arrow
+  homepageUrl: https://www.arrow-js.com/

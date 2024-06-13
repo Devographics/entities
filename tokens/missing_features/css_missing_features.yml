@@ -80,7 +80,6 @@
     - css_missing_features
 
 - id: print
-  normalizationOnly: true
   # name: Print Support
   tags:
     - css_missing_features
@@ -146,7 +145,6 @@
     - css_missing_features
 
 - id: multi_column
-  normalizationOnly: true
   patterns:
     - column
   tags:
@@ -191,7 +189,6 @@
     - css_missing_features
 
 - id: animate_to_auto
-  normalizationOnly: true
   name: Animate to Auto
   patterns:
     - to auto

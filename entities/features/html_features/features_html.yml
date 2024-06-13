@@ -2264,14 +2264,12 @@
 - id: jpeg_xl
 
 - id: scrollbar_styling
-  normalizationOnly: true
   patterns:
     - scrollbar
   tags:
     - html_interoperability_features
 
 - id: view_transitions
-  normalizationOnly: true
   patterns:
     - page transition
     - view transition

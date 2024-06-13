@@ -167,3 +167,19 @@
   name: Gradle
   homepageUrl: https://gradle.org/
   github: gradle/gradle
+
+- id: rspack
+  name: Rspack
+  homepageUrl: https://www.rspack.dev/
+
+- id: oxc
+  name: Oxc
+  homepageUrl: https://oxc.rs/
+
+- id: tsx
+  name: tsx
+  homepageUrl: https://tsx.is/
+
+- id: metro
+  name: Metro
+  homepageUrl: https://metrobundler.dev/

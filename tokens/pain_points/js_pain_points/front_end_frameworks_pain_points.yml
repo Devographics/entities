@@ -2,10 +2,6 @@
 #              front_end_frameworks_pain_points                  #
 ##################################################################
 
-- id: too_much_magic
-  patterns:
-    - magic
-
 - id: too_many_choices
   patterns:
     - there are too many
@@ -22,6 +18,7 @@
 - id: prop_driling
 
 - id: routing
+  name: Routing
 
 - id: seo
 

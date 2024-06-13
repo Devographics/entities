@@ -212,3 +212,23 @@
 - id: faker
   name: Faker
   homepageUrl: https://fakerjs.dev/
+
+- id: nock
+  name: Nock
+  homepageUrl: https://github.com/nock/nock
+
+- id: mirage
+  name: Mirage
+  homepageUrl: https://miragejs.com/
+
+- id: fast_check
+  name: fast-check
+  homepageUrl: https://fast-check.dev/
+
+- id: histoire
+  name: Histoire
+  homepageUrl: https://histoire.dev/
+
+- id: supertest
+  name: Supertest
+  homepageUrl: https://github.com/ladjs/supertest

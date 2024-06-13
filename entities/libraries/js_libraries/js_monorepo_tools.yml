@@ -39,3 +39,15 @@
 - id: lage
   name: Lage
   homepageUrl: https://microsoft.github.io/lage/
+
+- id: changesets
+  name: Changesets
+  homepageUrl: https://github.com/changesets/changesets
+
+- id: wireit
+  name: Wireit
+  homepageUrl: https://github.com/google/wireit
+
+- id: moonjs
+  name: Moon
+  homepageUrl: https://moonrepo.dev/

@@ -6,8 +6,9 @@
 
 - id: bluetooth
 
-- id: firefox
-  normalizationOnly: true
+- id: firefox_issues
+  patterns:
+    - firefox
 
 - id: dom_api
   patterns:
@@ -44,7 +45,6 @@
     - pwa
 
 - id: safari
-  normalizationOnly: true
 
 - id: cookies
 

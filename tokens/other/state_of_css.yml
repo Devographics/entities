@@ -31,7 +31,6 @@
     - browser_interoperability
 
 - id: has_selector
-  normalizationOnly: true
   patterns:
     - has
   tags:

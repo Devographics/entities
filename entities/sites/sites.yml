@@ -489,7 +489,6 @@
     - open( )?ai
 
 - id: duckduckgo
-  normalizationOnly: true
   name: DuckDuckGo
   homepageUrl: https://duckduckgo.com/
   patterns:

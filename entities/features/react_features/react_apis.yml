@@ -51,18 +51,18 @@
 
 # component_apis
 
-- id: createPortal
-  name: "`createPortal`"
-  example:
-    language: jsx
-    code: |
-      <div>
-        <SomeComponent />
-        {createPortal(children, domNode, key?)}
-      </div>
-  homepageUrl: https://react.dev/reference/react-dom/createPortal
+# - id: createPortal
+#   name: "`createPortal`"
+#   example:
+#     language: jsx
+#     code: |
+#       <div>
+#         <SomeComponent />
+#         {createPortal(children, domNode, key?)}
+#       </div>
+#   homepageUrl: https://react.dev/reference/react-dom/createPortal
 #
-- id: flushSync
+# - id: flushSync
 #   name:
 #   example:
 #     language: jsx
@@ -70,7 +70,7 @@
 
 #   homepageUrl:
 #
-- id: findDOMNode
+# - id: findDOMNode
 #   name:
 #   example:
 #     language: jsx
@@ -78,7 +78,7 @@
 
 #   homepageUrl:
 #
-- id: Hydrate
+# - id: Hydrate
 #   name:
 #   example:
 #     language: jsx
@@ -86,7 +86,7 @@
 
 #   homepageUrl:
 #
-- id: Render
+# - id: Render
 #   name:
 #   example:
 #     language: jsx
@@ -94,7 +94,7 @@
 
 #   homepageUrl:
 #
-- id: unmountComponentAtNode
+# - id: unmountComponentAtNode
 #   name:
 #   example:
 #     language: jsx

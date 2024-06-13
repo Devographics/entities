@@ -24,6 +24,7 @@
 
 - id: elixir
   name: Elixir
+  homepageUrl: https://elixir-lang.org/
 
 - id: java
   name: Java
@@ -39,6 +40,7 @@
 
 - id: haskell
   name: Haskell
+  homepageUrl: https://www.haskell.org/
 
 - id: haxe
   name: Haxe
@@ -48,6 +50,7 @@
 
 - id: ocaml
   name: OCaml
+  homepageUrl: https://ocaml.org/
 
 - id: php
   name: PHP
@@ -75,6 +78,7 @@
 
 - id: bash
   name: Bash
+  homepageUrl: https://www.gnu.org/software/bash/
 
 - id: perl
   name: Perl
@@ -106,6 +110,7 @@
 
 - id: clojure
   name: Clojure
+  homepageUrl: https://clojure.org/
 
 - id: lua
   name: Lua
@@ -115,6 +120,7 @@
 
 - id: julia
   name: Julia
+  homepageUrl: https://julialang.org/
 
 - id: groovy
   name: Groovy

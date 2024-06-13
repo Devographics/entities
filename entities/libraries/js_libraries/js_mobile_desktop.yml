@@ -156,3 +156,19 @@
 - id: create_react_app
   name: Create React App
   homepageUrl: https://create-react-app.dev/
+
+- id: wails
+  name: Wails
+  homepageUrl: https://wails.io/
+
+- id: pwabuilder
+  name: PWABuilder
+  homepageUrl: https://www.pwabuilder.com/
+
+- id: turbo
+  name: Turbo
+  homepageUrl: https://turbo.hotwired.dev/
+
+- id: vite_plugin_pwa
+  name: Vite PWA
+  homepageUrl: https://vite-pwa-org.netlify.app/

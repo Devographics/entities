@@ -40,21 +40,18 @@
 # libraries
 
 - id: effect_js
-  normalizationOnly: true
   patterns:
     - effect
   tags:
     - libraries
 
 - id: immutable_js
-  normalizationOnly: true
   patterns:
     - immutable
   tags:
     - libraries
 
 - id: just_js
-  normalizationOnly: true
   patterns:
     - just [p]
   tags:

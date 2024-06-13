@@ -1,8 +1,10 @@
 - id: typescript_support
+  name: TypeScript support
   patterns:
     - typescript
 
 - id: webpack_issues
+  name: Webpack issues
   patterns:
     - webpack
 

@@ -3,32 +3,37 @@
 ##################################################################
 
 - id: cypress
-  normalizationOnly: true
 
 - id: mocking
+  name: Mocking
   patterns:
     - mock [p]
 
 - id: e2e_testing
+  name: E2E testing
   patterns:
     - e2e
 
 - id: flakiness
+  name: Flakiness
   patterns:
     - flaky
     - flakyness
 
 - id: front_end
+  name: Frontend testing
 
 - id: not_testing
   patterns:
     - don(')?t use
 
 - id: integration_with_tools
+  name: Integration with tools
   patterns:
     - integration
 
 - id: typescript_support
+  name: TypeScript support
   patterns:
     - typescript
 
@@ -37,6 +42,7 @@
     - async
 
 - id: authentication
+  name: Authentication
   patterns:
     - auth
 
@@ -50,6 +56,7 @@
 - id: writing_tests
 
 - id: unit_testing
+  name: Unit testing
   patterns:
     - unit, test [l]
 

@@ -86,3 +86,23 @@
   patterns:
     - elysia [p]
   github: elysiajs/elysia
+
+- id: analog
+  name: Analog
+  homepageUrl: https://analogjs.org/
+
+- id: vitepress
+  name: VitePress
+  homepageUrl: https://vitepress.dev/
+
+- id: refine
+  name: Refine
+  homepageUrl: https://refine.dev/
+
+- id: vike
+  name: Vike
+  homepageUrl: https://vike.dev/
+
+- id: starlight
+  name: Starlight
+  homepageUrl: https://starlight.astro.build/

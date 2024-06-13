@@ -8,26 +8,31 @@
     - file.*router [p]
 
 - id: nextjs_issues
+  name: Next.js issues
   patterns:
     - next( |.|-)?js
 
 - id: nextjs_cache_issues
+  name: Next.js cache
   parentId: nextjs_issues
   patterns:
     - next, cache [l]
 
 - id: nextjs_vendor_lock_in_issues
+  name: Next.js vendor lock-in
   patterns:
   parentId: nextjs_issues
     - next, lock [l]
     - next, vercel [l]
 
 - id: nextjs_app_router_issues
+  name: Next.js app router
   parentId: nextjs_issues
   patterns:
     - app router
 
 - id: nextjs_13_issues
+  name: Next.js 13
   parentId: nextjs_issues
   patterns:
     - next, 13 [l]
@@ -37,12 +42,11 @@
 - id: remix
 
 - id: routing
+  name: Routing
   patterns:
     - router
 
 - id: maturity
-
-- id: stability
 
 - id: react
 
@@ -55,6 +59,7 @@
 - id: javascript_on_the_server
 
 - id: server_components_issues
+  name: Server components issues
   patterns:
     - server, component [l]
 
@@ -68,13 +73,10 @@
   patterns:
     - should not exist
 
-- id: too_much_magic
-  patterns:
-    - magic
-
 - id: vercel
 
 - id: authentication
+  name: Authentication
   patterns:
     - auth
     - testing

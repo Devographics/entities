@@ -11,9 +11,12 @@
     - cross( |-)?language
 
 - id: versioning
+  name: Versioning
 
 - id: no_need_for_monorepos
+  name: No need for monorepos
 
 - id: typescript_support
+  name: TypeScript support
   patterns:
     - typescript

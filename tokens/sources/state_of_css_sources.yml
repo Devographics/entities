@@ -1,7 +1,6 @@
 # sources
 
 - id: state_of_css_survey
-  normalizationOnly: true
   patterns:
     - email
     - devographics.com

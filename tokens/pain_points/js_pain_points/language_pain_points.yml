@@ -129,6 +129,7 @@
     - closure
 
 - id: date
+  name: Dates
   description: Handling dates and times
   patterns:
     - date [p]

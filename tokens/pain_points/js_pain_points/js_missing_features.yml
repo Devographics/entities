@@ -54,8 +54,10 @@
 - id: tree_shaking
   name: Tree Shaking
 
-- id: immutable
+- id: immutable_data_structures
   name: Immutable Data Structure
+  patterns:
+    - immutable
 
 - id: date_time
   name: Date/Time Handling
@@ -99,7 +101,8 @@
     - thread
     - single(-| )?thread [p]
 
-- id: lack_of_static_typing
+- id: static_typing
+  name: Static typing
   description: Lack of native typing
   patterns:
     - typing

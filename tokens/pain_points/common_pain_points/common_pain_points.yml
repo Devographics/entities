@@ -295,6 +295,7 @@
     - configuration [p]
 
 - id: ecosystem
+  name: Ecosystem issues
 
 - id: fragmentation
 
@@ -309,16 +310,19 @@
     - lock ins
 
 - id: too_opinionated
+  name: Too opinionated
   patterns:
     - opinionated
     - rigid
 
 - id: stability
+  name: Lack of stability
   patterns:
     - unstable
     - instability
 
 - id: deployment
+  name: Deployment
   patterns:
     - deploy [p]
     - host
@@ -403,7 +407,7 @@
 
 - id: lack_of_documentation
   name: Lack of documentation
-  decription: Poor documentation
+  description: Lack of documentation or code examples
   parentId: educational_issues
   patterns:
     - docs
@@ -461,6 +465,7 @@
     - toxicity
 
 - id: build_times
+  name: Build times
   patterns:
     - build time
 
@@ -484,6 +489,7 @@
     - awful dx
 
 - id: bugs_and_stability_issues
+  name: Bugs and stability issues
   patterns:
     - buggy
     - flakey
@@ -508,3 +514,8 @@
   patterns:
     - not flexible
     - inflexib [p]
+
+- id: too_much_magic
+  name: Too much magic
+  patterns:
+    - magic

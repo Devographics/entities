@@ -198,6 +198,7 @@
   homepageUrl: https://www.scaleway.com/
 
 - id: self_hosted
+  name: Self-hosted
   patterns:
     - self [p]
 
@@ -208,6 +209,7 @@
   homepageUrl: https://surge.sh/
 
 - id: vps
+  name: VPS
 
 - id: vultr
   name: Vultr

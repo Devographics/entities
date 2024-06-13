@@ -26,6 +26,7 @@
   homepageUrl: https://workers.cloudflare.com/
   patterns:
     - cloudflare
+    - workerd
   tags:
     - runtimes
 
@@ -48,6 +49,7 @@
   homepageUrl: https://bun.sh/
   tags:
     - runtimes
+    - libraries
 
 - id: web_workers
   name: Web Workers
@@ -78,12 +80,6 @@
 - id: nashorn
   name: Nashorn
   homepageUrl: https://www.oracle.com/technical-resources/articles/java/jf14-nashorn.html
-  tags:
-    - runtimes
-
-- id: workerd
-  name: workerd
-  homepageUrl: https://github.com/cloudflare/workerd
   tags:
     - runtimes
 
@@ -122,6 +118,8 @@
   homepageUrl: https://developer.akamai.com/akamai-edgeworkers-overview
   tags:
     - edge_runtimes
+  patterns:
+    - akamai
 
 - id: nextjs_edge_runtime
   name: Vercel Edge Runtime
@@ -203,3 +201,11 @@
 - id: appwrite
   name: Appwrite
   homepageUrl: https://appwrite.io/
+
+- id: yandex_cloud_functions
+  name: Yandex Cloud Functions
+  homepageUrl: https://yandex.cloud/en/services/functions
+  tags:
+    - edge_runtimes
+  patterns:
+    - yandex
