@@ -41,11 +41,6 @@
   patterns:
     - async
 
-- id: authentication
-  name: Authentication
-  patterns:
-    - auth
-
 - id: fragility
   patterns:
     - fragile

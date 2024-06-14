@@ -9,6 +9,7 @@
 - id: apple
 
 - id: testing
+  name: Testing
   patterns:
     - test [p]
 

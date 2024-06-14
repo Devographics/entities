@@ -383,6 +383,7 @@
 - id: seo
 
 - id: testing
+  name: Testing
 
 - id: frustration_with_frameworks
   name: Reliance on frameworks
@@ -519,3 +520,8 @@
   name: Too much magic
   patterns:
     - magic
+
+- id: authentication
+  name: Authentication
+  patterns:
+    - auth

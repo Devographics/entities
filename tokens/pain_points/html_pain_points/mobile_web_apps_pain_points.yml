@@ -46,6 +46,7 @@
     - mobile_desktop_pain_points
 
 - id: testing
+  name: Testing
   tags:
     - mobile_desktop_pain_points
 

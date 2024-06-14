@@ -132,8 +132,8 @@
   name: Dates
   description: Handling dates and times
   patterns:
-    - date [p]
-    - time [p]
+    - date
+    - time
     - datetime [p]
 
 - id: undefined
