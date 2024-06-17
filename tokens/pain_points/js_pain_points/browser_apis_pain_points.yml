@@ -11,6 +11,7 @@
     - firefox
 
 - id: dom_api
+  name: DOM APIs
   patterns:
     - dom
   tags:

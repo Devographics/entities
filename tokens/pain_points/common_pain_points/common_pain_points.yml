@@ -298,8 +298,10 @@
   name: Ecosystem issues
 
 - id: fragmentation
+  name: Fragmentation
 
 - id: maintenance
+  name: Maintenance
   patterns:
     - maintain [p]
 

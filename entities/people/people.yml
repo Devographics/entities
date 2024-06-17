@@ -3355,23 +3355,43 @@
   patterns:
     - Владилен Минин
 
+  # 2023 picks
 - id: german_jablonski
   name: Germán Jabloñski
   twitterName: GermanJablo
   bio: CEO and creator of Fluski, notes and spreadsheet manager.
 
+  # 2023 picks
 - id: alina_listunova
   name: Alina Listunova
   bio: Front-end Developer, Technical Translator
 
+  # 2023 picks
 - id: shadowingszy
   name: shadowingszy
   bio: Architect of Datawhale, senior front-end R&D engineer of ByteDance
 
+  # 2023 picks
 - id: quarkstuff
   name: quarkstuff
   twitterName: quarkstuff
 
+  # 2023 picks
 - id: martin_heidegger
   name: Martin Heidegger
   twitterName: leichtgewicht
+
+  # 2023 picks
+- id: rexhent
+  name: rexhent
+  twitterName: rexhent
+
+  # 2023 picks
+- id: gustavo_vasquez
+  name: Gustavo Vasquez
+  homepageUrl: https://github.com/devgustavovasquez
+
+  # 2023 picks
+- id: augustin_mauroy
+  name: Augustin Mauroy
+  homepageUrl: https://augustinmauroy.github.io/
