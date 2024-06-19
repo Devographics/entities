@@ -98,7 +98,8 @@
     - array methods
 
 - id: async
-  description: Async programming
+  name: Async programming
+  tags:
     - testing
   patterns:
     - async [p]
@@ -146,7 +147,7 @@
     - frameworks
 
 - id: imports
-  description: Imports
+  name: Imports
   patterns:
     - import
 
@@ -189,12 +190,12 @@
   description: Issues with scope
 
 - id: objects
-  description: Handling objects
+  name: Handling objects
   patterns:
     - object
 
 - id: null_keyword
-  description: Behavior of `null`
+  name: Behavior of `null`
   patterns:
     - "null"
     - nullish

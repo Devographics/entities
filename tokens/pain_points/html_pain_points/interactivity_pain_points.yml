@@ -49,6 +49,7 @@
 - id: frustration_with_javascript
 
 - id: dom_api
+  name: DOM API
 
 - id: inner_html
 

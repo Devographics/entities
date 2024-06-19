@@ -5,6 +5,7 @@
     - HR
 
 - id: security
+  name: Security
 
 - id: payments
 

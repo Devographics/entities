@@ -123,10 +123,6 @@
     - lack of type
     - lack of typing
 
-# todo: get rid of?
-- id: lack_of_static_typing
-  name: Static typing
-
 - id: tuples
   description: Lack of tuples
   patterns:

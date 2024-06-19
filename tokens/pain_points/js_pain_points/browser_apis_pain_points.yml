@@ -11,13 +11,14 @@
     - firefox
 
 - id: dom_api
-  name: DOM APIs
+  name: DOM API
   patterns:
     - dom
   tags:
     - front_end_frameworks_pain_points
 
 - id: fetch_api
+  name: Fetch API
   patterns:
     - fetch
 
@@ -97,5 +98,6 @@
     - hardware
 
 - id: divergence_with_node_apis
+  name: Divergence with Node APIs
   patterns:
     - node
