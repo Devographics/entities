@@ -11,8 +11,12 @@
     - first_steps
 
 - id: bard
-  name: Google Bard
-  homepageUrl: https://bard.google.com/
+  name: Google Gemini
+  homepageUrl: https://gemini.google.com/
+
+- id: gemini
+  name: Google Gemini
+  homepageUrl: https://gemini.google.com/
 
 - id: bing
   name: Microsoft Bing
