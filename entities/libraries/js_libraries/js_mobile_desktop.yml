@@ -127,7 +127,7 @@
   npm: tauri
   github: tauri-apps/tauri
   description: Build smaller, faster, and more secure desktop applications with a web frontend
-  homepageUrl: https://tauri.studio/
+  homepageUrl: https://tauri.app/
 
 - id: neutralino
   name: Neutralinojs
