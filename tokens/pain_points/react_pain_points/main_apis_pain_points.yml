@@ -1,0 +1,18 @@
+- id: context_api
+  name: Context API
+  patterns:
+    - context
+
+- id: context_api_rerendering
+  name: Excessive re-renderings
+  parentId: context_api
+  patterns:
+    - context, render [l]
+
+- id: double_rendering
+  name: Double rendering
+  patterns:
+    - double, render [l]
+    - double, rendering [l]
+    - double, renders [l]
+    - rendering twice

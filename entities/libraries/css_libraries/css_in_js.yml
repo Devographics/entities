@@ -139,3 +139,19 @@
   name: Aphrodite
   homepageUrl: https://github.com/Khan/aphrodite
   github: Khan/aphrodite
+
+- id: griffel
+  name: Griffel
+  homepageUrl: https://griffel.js.org/
+
+- id: style_x
+  name: StyleX
+  homepageUrl: https://stylexjs.com/
+
+- id: tamagui
+  name: Tamagui
+  homepageUrl: https://tamagui.dev/
+
+- id: typestyle
+  name: TypeStyle
+  homepageUrl: https://typestyle.github.io/

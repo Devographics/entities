@@ -15,6 +15,8 @@
     code: |
       const SomeComponent = forwardRef(render)
   homepageUrl: https://react.dev/reference/react/forwardRef
+  patterns:
+    - forward, ref [l]
 
 - id: lazy
   name: "`lazy` "
@@ -38,6 +40,8 @@
       title: A (Mostly) Complete Guide to React Rendering Behavior
     - url: https://overreacted.io/before-you-memo/
       title: Before You memo()
+  patterns:
+    - memoization
 
 - id: starttransition
   name: "`startTransition`"
@@ -51,16 +55,16 @@
 
 # component_apis
 
-# - id: createPortal
-#   name: "`createPortal`"
-#   example:
-#     language: jsx
-#     code: |
-#       <div>
-#         <SomeComponent />
-#         {createPortal(children, domNode, key?)}
-#       </div>
-#   homepageUrl: https://react.dev/reference/react-dom/createPortal
+- id: createPortal
+  name: "`createPortal`"
+  example:
+    language: jsx
+    code: |
+      <div>
+        <SomeComponent />
+        {createPortal(children, domNode, key?)}
+      </div>
+  homepageUrl: https://react.dev/reference/react-dom/createPortal
 #
 # - id: flushSync
 #   name:
@@ -137,6 +141,10 @@
   resources:
     - url: https://www.joshwcomeau.com/react/server-components/
       title: Making Sense of React Server Components
+  patterns:
+    - server components
+    - server( |-)?side components
+    - rsc(s)?
 
 - id: renderToNodeStream
 #   name:

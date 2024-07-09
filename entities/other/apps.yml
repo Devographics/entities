@@ -1,0 +1,119 @@
+- id: notion
+  name: Notion
+  homepageUrl: https://www.notion.so/
+
+- id: slack
+  name: Slack
+  homepageUrl: https://slack.com/
+
+- id: discord
+  name: Discord
+  homepageUrl: https://discord.com/
+
+- id: google_docs
+  name: Google Docs
+  homepageUrl: https://docs.google.com/
+
+- id: jira
+  name: Jira
+  homepageUrl: https://www.atlassian.com/software/jira
+
+- id: trello
+  name: Trello
+  homepageUrl: https://trello.com/
+
+- id: evernote
+  name: Evernote
+  homepageUrl: https://evernote.com/
+
+- id: asana
+  name: Asana
+  homepageUrl: https://asana.com/
+
+- id: zapier
+  name: Zapier
+  homepageUrl: https://zapier.com/
+
+- id: calendly
+  name: Calendly
+  homepageUrl: https://calendly.com/
+
+- id: google_calendar
+  name: Google Calendar
+  homepageUrl: https://calendar.google.com/
+
+- id: zoom
+  name: Zoom
+  homepageUrl: https://zoom.us/
+
+- id: obsidian
+  name: Obsidian
+  homepageUrl: https://obsidian.md/
+
+- id: hubspot
+  name: Hubspot
+  homepageUrl: https://www.hubspot.com/
+
+- id: todoist
+  name: Todoist
+  homepageUrl: https://todoist.com/
+
+- id: docusign
+  name: Docusign
+  homepageUrl: https://www.docusign.com/
+
+- id: grammarly
+  name: Grammarly
+  homepageUrl: https://www.grammarly.com/
+
+- id: airtable
+  name: Airtable
+  homepageUrl: https://airtable.com/
+
+- id: basecamp
+  name: Basecamp
+  homepageUrl: https://basecamp.com/
+
+- id: rescuetime
+  name: Rescuetime
+  homepageUrl: https://www.rescuetime.com/
+
+- id: one_note
+  name: Microsoft OneNote
+  homepageUrl: https://www.onenote.com/
+
+- id: teams
+  name: Microsoft Teams
+  homepageUrl: https://teams.microsoft.com/
+
+- id: confluence
+  name: Confluence
+  homepageUrl: https://www.atlassian.com/software/confluence
+
+- id: backlog
+  name: Backlog
+  homepageUrl: https://backlog.com/
+
+- id: typetalk
+  name: Typetalk
+  homepageUrl: https://www.typetalk.com/
+
+- id: kintone
+  name: Kintone
+  homepageUrl: https://kintone.cybozu.co.jp/
+
+- id: cacoo
+  name: Cacoo
+  homepageUrl: https://cacoo.com/
+
+- id: chatwork
+  name: Chatwork
+  homepageUrl: https://go.chatwork.com/
+
+- id: cosense
+  name: Cosense
+  homepageUrl: https://scrapbox.io/
+
+- id: cybozu_office
+  name: Cybozu Office
+  homepageUrl: https://office.cybozu.co.jp/

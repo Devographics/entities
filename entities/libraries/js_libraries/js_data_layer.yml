@@ -72,13 +72,6 @@
   tags:
     - data_fetching
 
-- id: react_query
-  name: React Query
-  npm: react-query
-  github: tannerlinsley/react-query
-  description: "Hooks for fetching, caching and updating asynchronous data in React"
-  homepageUrl: "https://react-query.tanstack.com"
-
 - id: recoil
   name: Recoil
   npm: recoil
@@ -174,7 +167,7 @@
     - data_fetching
 
 - id: tanstack_query
-  name: TanStack Query (React Query)
+  name: TanStack Query
   homepageUrl: https://tanstack.com/query/v4
   patterns:
     - react query
@@ -208,3 +201,11 @@
   homepageUrl: https://valtio.pmnd.rs/
   github: pmndrs/valtio
   npm: valtio
+
+- id: nano_stores
+  name: Nano Stores
+  homepageUrl: https://github.com/nanostores/nanostores
+
+- id: mobx_state_tree
+  name: MobX-State-Tree
+  homepageUrl: https://mobx-state-tree.js.org/

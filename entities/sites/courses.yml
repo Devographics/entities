@@ -167,6 +167,8 @@
   tags:
     - podcasts
     - video_creators
+  patterns:
+    - codely( |-)?tv
 
 - id: openclassrooms
   name: Openclassrooms
@@ -301,10 +303,6 @@
 - id: javascript_the_definitive_guide
   name: "JavaScript: The Definitive Guide"
   homepageUrl: https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/
-
-- id: codely
-  name: Codely
-  homepageUrl: https://codely.com/
 
 - id: unspecified_books
   name: Unspecified books

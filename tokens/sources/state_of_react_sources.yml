@@ -1,0 +1,35 @@
+##################################################################
+#            how_did_user_find_out_about_the_survey              #
+##################################################################
+
+##################################################################
+#                             sources                            #
+##################################################################
+
+- id: state_of_js_survey
+  patterns:
+    - email
+    - devographics.com
+    - e-mail [p]
+    - e mail [p]
+    - mail
+    - mailing list
+    # - newsletter
+    - stateofcss.com
+    - stateofjs.com
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+    - annual
+    - yearly
+    - taken it
+    - filled it
+    - gmail
+    - other state of surveys

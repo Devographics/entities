@@ -68,6 +68,8 @@
   homepageUrl: https://www.chartjs.org/
   tags:
     - data_visualization
+  patterns:
+    - chart [e]
 
 - id: plotly
   name: Plotly
@@ -80,16 +82,24 @@
   homepageUrl: https://www.highcharts.com/
   tags:
     - data_visualization
+  patterns:
+    - hichart
+    - hightchart
 
 - id: echarts
   name: ECharts
   homepageUrl: https://echarts.apache.org/en/index.html
   tags:
     - data_visualization
+  patterns:
+    - echart
 
 - id: apexcharts
   name: ApexCharts
   homepageUrl: https://apexcharts.com/
+  patterns:
+    - apex
+    - apexchart
 
 - id: vega
   name: Vega
@@ -98,6 +108,8 @@
 - id: chartistjs
   name: ChartistJS
   homepageUrl: https://gionkunz.github.io/chartist-js/
+  patterns:
+    - chartist
 
 - id: ant_design_charts
   name: Ant Design Charts
@@ -137,3 +149,23 @@
 - id: am_charts
   name: amCharts
   homepageUrl: https://www.amcharts.com/
+  patterns:
+    - am( )?chart
+
+- id: deck_gl
+  name: Deck.gl
+  homepageUrl: https://deck.gl/
+  patterns:
+    - deck
+
+- id: lightweight_charts
+  name: Lightweight Charts
+  homepageUrl: https://www.tradingview.com/lightweight-charts/
+
+- id: regraph
+  name: ReGraph
+  homepageUrl: https://cambridge-intelligence.com/regraph/
+
+- id: skia
+  name: Skia
+  homepageUrl: https://skia.org/

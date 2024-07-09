@@ -1,0 +1,25 @@
+- id: react_lack_of_signals
+  name: Lack of signals
+  patterns:
+    - signals
+
+- id: excesssive_rerendering
+  name: Excessive re-renderings
+  parentId: context_api
+  tags:
+    - state_management_pain_points
+  patterns:
+    - re(-| )?render [p]
+
+- id: nextjs_issues
+  name: Next.js issues
+  tags:
+    - new_apis_pain_points
+    - back_end_infrastructure_pain_points
+  patterns:
+    - next( |.)?js
+
+- id: vercel_issues
+  name: Vercel issues
+  patterns:
+    - vercel

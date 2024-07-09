@@ -1,0 +1,19 @@
+- id: redux_issues
+  name: Redux issues
+  patterns:
+    - redux
+
+- id: mobx_issues
+  name: MobX issues
+  patterns:
+    - mobx
+
+- id: global_state_management
+  name: Global state management
+  patterns:
+    - global
+
+- id: synchronization_issues
+  name: Synchronization issues
+  patterns:
+    - sync [p]

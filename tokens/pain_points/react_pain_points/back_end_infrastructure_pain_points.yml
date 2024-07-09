@@ -1,0 +1,23 @@
+- id: end_to_end_type_safety
+  name: End-to-end type safety
+
+- id: create_react_app_issues
+  name: Create React App issues
+  patterns:
+    - create, react, app [l]
+    - cra
+
+- id: webpack_issues
+  name: Webpack issues
+  patterns:
+    - webpack
+
+- id: firebase_issues
+  name: Firebase issues
+  patterns:
+    - firebase
+
+- id: pricing_issues
+  name: High costs
+  patterns:
+    - pricing

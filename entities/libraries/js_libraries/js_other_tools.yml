@@ -405,6 +405,9 @@
   github: drizzle-team/drizzle-orm
   tags:
     - orm
+  patterns:
+    - driz(z)?le
+    - driz(z)?le( |-)?orm
 
 - id: typeorm
   name: TypeORM

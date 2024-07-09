@@ -481,7 +481,8 @@
 - id: r_reactjs
   name: r/ReactJS
   homepageUrl: https://www.reddit.com/r/reactjs/
-
+  patterns:
+    - r(_| |\/)?react
 - id: chat_gpt
   name: ChatGPT
   homepageUrl: https://chat.openai.com/
@@ -506,3 +507,19 @@
 - id: crocoder
   name: CroCoder
   homepageUrl: https://www.crocoder.dev/
+
+- id: full_stack_open
+  name: Full Stack Open
+  homepageUrl: https://fullstackopen.com/
+
+- id: react_documentation
+  name: React Documentation
+  homepageUrl: https://react.dev/
+  patterns:
+    - react docs
+    - react official
+    - react.dev
+
+- id: react_tutorial
+  name: React Tutorial
+  homepageUrl: https://react-tutorial.app/

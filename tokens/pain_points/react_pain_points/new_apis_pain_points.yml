@@ -1,0 +1,4 @@
+- id: taint_api
+  name: Taint API
+  patterns:
+    - taint

@@ -44,6 +44,8 @@
 - id: google_cloud
   name: Google Cloud
   homepageUrl: https://cloud.google.com/
+  patterns:
+    - gcp
 
 - id: planetscale
   name: PlanetScale
@@ -200,7 +202,12 @@
 - id: self_hosted
   name: Self-hosted
   patterns:
-    - self [p]
+    - on prem
+    - on premise
+    - self( |-)?hosted
+    - own server
+    - own machine
+    - custom server
 
 - id: surge
   name: Surge
@@ -295,3 +302,50 @@
 - id: userfront
   name: Userfront
   homepageUrl: https://userfront.com/
+
+- id: amplitude
+
+- id: appwrite
+
+- id: axiom
+
+- id: bugsnag
+
+- id: clerk
+
+- id: cockroach_db
+
+- id: contentful
+
+- id: convex
+
+- id: datadog
+  name: Datadog
+
+- id: launch_darkly
+
+- id: log_rocket
+
+- id: mongodb_atlas
+
+- id: neon
+
+- id: pocket_base
+
+- id: resend
+
+- id: rollbar
+
+- id: sanity
+
+- id: turso
+
+- id: typeorm
+
+- id: uploadthing
+
+- id: gatsby_cloud
+
+- id: xata
+  name: Xata
+  homepageUrl: https://xata.io/

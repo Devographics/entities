@@ -53,7 +53,7 @@
     - animation
 
 - id: greensock
-  name: GreenSock
+  name: GSAP
   npm: gsap
   github: greensock/GSAP
   description: GreenSock's GSAP JavaScript animation library (including Draggable).
@@ -61,6 +61,7 @@
   patterns:
     - green( |-)sock
     - gsap
+    - gasp
   tags:
     - animation
 
@@ -198,3 +199,13 @@
   homepageUrl: https://tresjs.org/
   patterns:
     - tres
+
+- id: aos
+  name: Animate On Scroll
+  homepageUrl: https://michalsnik.github.io/aos/
+  patterns:
+    - animate on scroll
+
+- id: moti
+  name: Moti
+  homepageUrl: https://moti.fyi/

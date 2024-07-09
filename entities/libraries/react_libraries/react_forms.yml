@@ -87,10 +87,7 @@
   tags:
     - react
   patterns:
-    - Final form
-    - FinalForm
-    - final-form
-    - React Final Form
+    - final( |-)?form
 
 - id: remix_validated_form
   name: Remix Validated Form
@@ -131,3 +128,7 @@
   name: JSON Forms
   homepageUrl: https://jsonforms.io/
   github: eclipsesource/jsonforms
+
+- id: tanstack_form
+  name: TanStack Form
+  homepageUrl: https://tanstack.com/form/latest

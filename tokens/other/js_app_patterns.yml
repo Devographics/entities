@@ -1,0 +1,7 @@
+- id: micro_front_end
+  name: Micro Front-end
+  patterns:
+    - micro
+
+- id: pwa
+  name: PWA

@@ -88,6 +88,8 @@
   homepageUrl: "http://webdriver.io"
   patterns:
     - webdriver
+    - wdio
+    - web driver io
 
 - id: testcafe
   name: TestCafe
@@ -95,6 +97,9 @@
   github: DevExpress/testcafe
   description: A Node.js tool to automate end-to-end web testing.
   homepageUrl: "https://devexpress.github.io/testcafe/"
+  patterns:
+    - testcafé
+    - test cafe
 
 - id: tape
   name: Tape
@@ -132,6 +137,8 @@
   github: mswjs/msw
   description: Seamless REST/GraphQL API mocking library for browser and Node.
   homepageUrl: "https://mswjs.io"
+  patterns:
+    - msw
 
 - id: node_tap
   name: Node-tap
@@ -232,3 +239,13 @@
 - id: supertest
   name: Supertest
   homepageUrl: https://github.com/ladjs/supertest
+
+- id: chromatic
+
+- id: detox
+
+- id: ladle
+
+- id: maestro
+
+- id: sinon

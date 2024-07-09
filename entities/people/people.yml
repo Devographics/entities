@@ -13,6 +13,7 @@
     - tyler ?mc( |-)?ginnis
     - tyler, ui, dev [l]
     - ui\.dev
+    - uidotdev
 
 - id: sarah_drasner
   twitterName: sarah_edo
@@ -1471,6 +1472,9 @@
 - id: josh_tried_coding
   name: Josh Tried Coding
   youtubeUrl: https://www.youtube.com/@joshtriedcoding
+  patterns:
+    - josh tries coding
+    - josh try coding
 
 - id: simon_grimm
   name: Simon Grimm
@@ -1669,7 +1673,7 @@
   youtubeUrl: https://www.youtube.com/@jherr
   youtubeName: jherr
   patterns:
-    - blue collar
+    - blue( )?collar
     - jack harrington
     - jack herington
   tags:
@@ -1724,6 +1728,8 @@
   twitterName: 0xca0a
   tags:
     - js
+  patterns:
+    - 0xca0a
 
 - id: tanner_linsley
   name: Tanner Linsley
@@ -2473,6 +2479,8 @@
   tags:
     - youtube
     - video_creators
+  patterns:
+    - selikof
 
 - id: sonny_sangha
   name: Sonny Sangha
@@ -2934,6 +2942,8 @@
   name: Tru Narla
   homepageUrl: https://www.mewtru.com/
   twitterName: trunarla
+  patterns:
+    - mewtru
 
 - id: daishi_kato
   name: Daishi Kato
@@ -3248,6 +3258,9 @@
   name: Gonzalo Pozzo
   homepageUrl: https://www.gonzalopozzo.com/
   twitterName: goncy
+  patterns:
+    - gonzy [p]
+    - pozzo [p]
 
 - id: jessica_sachs
   name: Jessica Sachs
@@ -3335,6 +3348,9 @@
 - id: steve_sewell
   name: Steve Sewell
   twitterName: Steve8708
+  youtubeUrl: https://www.youtube.com/c/Steve8708
+  patterns:
+    - steve, builder [l]
 
 - id: sunil_pai
   name: Sunil Pai
@@ -3395,3 +3411,43 @@
 - id: augustin_mauroy
   name: Augustin Mauroy
   homepageUrl: https://augustinmauroy.github.io/
+
+  # 2023 picks
+- id: arisa_fukuzaki
+  name: Arisa Fukuzaki
+  homepageUrl: https://arisa-fukuzaki.dev/
+
+- id: robin_cussol
+  name: Robin Cussol
+  homepageUrl: https://www.robincussol.com/
+
+- id: hamed_bahram
+  name: Hamed Bahram
+  homepageUrl: https://www.hamedbahram.io/
+  youtubeUrl: https://www.youtube.com/@hamedbahram
+
+- id: leigh_halliday
+  name: Leigh Halliday
+  homepageUrl: https://www.leighhalliday.com/
+  youtubeUrl: https://www.youtube.com/user/leighhalliday
+
+- id: melvyn_malherbe
+  name: Melvyn Malherbe
+  homepageUrl: https://melvynx.com/
+  youtubeUrl: https://www.youtube.com/@melvynxdev
+  patterns:
+    - melvynx
+
+- id: ryan_toronto
+  name: Ryan Toronto
+  homepageUrl: https://buildui.com/
+  youtubeUrl: https://www.youtube.com/c/RyanToronto
+  twitterName: ryantotweets
+
+- id: andrew_clark
+  name: Andrew Clark
+  twitterName: acdlite
+  homepageUrl: https://andrewclark.io/
+  patterns:
+    - acdlite
+    - adclite

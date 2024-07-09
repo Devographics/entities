@@ -9,6 +9,8 @@
 
 - id: jewish
   name: Jewish
+  patterns:
+    - jew
 
 - id: north_african
   name: North African
@@ -41,3 +43,9 @@
 
 - id: mediterranean
   name: Mediterranean
+
+- id: asian
+  name: Asian
+
+- id: brazilian
+  name: Brazilian

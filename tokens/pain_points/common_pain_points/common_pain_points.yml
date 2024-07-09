@@ -527,3 +527,6 @@
   name: Authentication
   patterns:
     - auth
+
+- id: cors
+  name: CORS

@@ -1,0 +1,22 @@
+- id: rules_of_hooks
+  name: Rules of hooks
+  patterns:
+    - rules, hooks [l]
+
+- id: hooks_disallowed_conditional_logic
+  name: Disallowed conditional logic
+  patterns:
+    - conditional
+
+- id: excessive_rerendering
+  name: Excessive rerendering
+  patterns:
+    - re( |-)?render
+
+- id: dependency_arrays
+  name: Dependency Arrays
+  description: Too many dependencies
+  patterns:
+    - dependency
+    - dependencies
+    - deps

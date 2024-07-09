@@ -114,6 +114,8 @@
 - id: this_week_in_react
   name: This Week In React
   homepageUrl: https://thisweekinreact.com/
+  patterns:
+    - react weekly
 
 - id: tldr
   name: TLDR

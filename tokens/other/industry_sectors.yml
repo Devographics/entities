@@ -2,7 +2,8 @@
 
 - id: human_resources
   patterns:
-    - HR
+    - hr
+    - human_resource
 
 - id: security
   name: Security
@@ -30,6 +31,8 @@
 - id: energy
 
 - id: crypto
+  patterns:
+    - crypto [p]
 
 - id: food
 
@@ -78,6 +81,7 @@
   patterns:
     - bioinformatics
     - biometric
+    - bioscience
 
 - id: pharma
 
@@ -117,6 +121,8 @@
 - id: environment
   patterns:
     - sustainability
+    - environment [p]
+    - ehs
 
 - id: finance
   patterns:
@@ -185,3 +191,28 @@
 - id: construction
 
 - id: telecommunications
+  patterns:
+    - broadcast
+
+- id: ai
+  name: AI
+  patterns:
+    - artificial intelligence
+
+- id: fashion_beauty
+  name: Fashion & Beauty
+  patterns:
+    - fashion
+    - beauty
+
+- id: automation
+  name: Automation
+
+- id: freelance
+  name: Freelance
+
+- id: military
+  name: Military
+
+- id: e_sports
+  name: Esports

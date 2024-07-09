@@ -41,6 +41,13 @@
   homepageUrl: https://semantic-ui.com/
   npm: semantic-ui
 
+- id: semanticui
+  name: Semantic UI/Fomantic UI
+  contexts: [state_of_css]
+  github: Semantic-Org/Semantic-UI
+  homepageUrl: https://semantic-ui.com/
+  npm: semantic-ui
+
 - id: bulma
   name: Bulma
   contexts: [state_of_css]
@@ -236,3 +243,19 @@
   homepageUrl: http://inuitcss.com/
   patterns:
     - inuit
+
+- id: primereact
+  name: PrimeReact
+  homepageUrl: https://primereact.org/
+
+- id: fluent_ui_web
+  name: Fluent UI
+  homepageUrl: https://developer.microsoft.com/en-us/fluentui#/
+
+- id: tailwind_elements
+  name: Tailwind Elements
+  homepageUrl: https://tw-elements.com/
+
+- id: flowbite
+  name: Flowbite
+  homepageUrl: https://flowbite.com/

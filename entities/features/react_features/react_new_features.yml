@@ -29,6 +29,7 @@
   homepageUrl: https://react.dev/
 
 - id: transition_tracing
+  name: Transition Tracing
   homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#transition-tracing
 
 - id: use_client

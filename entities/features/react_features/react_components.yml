@@ -39,6 +39,8 @@
         <App />
       </StrictMode>
     homepageUrl: https://react.dev/reference/react/StrictMode
+  patterns:
+    - strict, mode [l]
 
 - id: suspense
   name: >

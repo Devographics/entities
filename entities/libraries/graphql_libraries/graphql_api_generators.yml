@@ -8,6 +8,8 @@
 - id: hasura
   name: Hasura
   homepageUrl: https://hasura.io/
+  tags:
+    - services
 - id: graphcms
   name: Hygraph (ex-GraphCMS)
   homepageUrl: https://hygraph.com/

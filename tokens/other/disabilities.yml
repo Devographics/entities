@@ -125,3 +125,6 @@
   patterns:
     - speech, disability [l]
     - speech, disabilities [l]
+
+- id: multiple_sclerosis
+  name: Multiple Sclerosis

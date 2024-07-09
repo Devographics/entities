@@ -22,6 +22,8 @@
   tags:
     - youtube
     - people
+  patterns:
+    - fireship [p]
 
 - id: programming_with_mosh
   belongsTo: mosh_hamedani
@@ -47,6 +49,7 @@
   youtubeUrl: https://www.youtube.com/c/WebDevSimplified/
   patterns:
     - kyle cook
+    - wds
   tags:
     - youtube
 
@@ -82,6 +85,7 @@
     - primetime
     - prime [e]
     - theprim [p]
+    - primagean
   tags:
     - youtube
     - people
@@ -402,6 +406,8 @@
 - id: code_with_antonio
   name: Code With Antonio
   youtubeUrl: https://www.youtube.com/@codewithantonio
+  patterns:
+    - coding with antonio
 
 - id: codedamn
   name: Codedamn
@@ -485,3 +491,37 @@
   homepageUrl: https://tkdodo.eu/
   patterns:
     - tk( )?dodo
+
+- id: afor_digital
+  name: afor digital
+  homepageUrl: https://www.twitch.tv/afor_digital
+  twitterName: afor_digital
+  twitchUrl: https://www.twitch.tv/afor_digital/
+  youtubeUrl: https://www.youtube.com/@afor_digital
+
+- id: cosden_solutions
+  name: Cosden Solution
+  homepageUrl: https://cosden.solutions/
+  youtubeUrl: https://www.youtube.com/@cosdensolutions
+
+- id: juxtopposed
+  name: Juxtopposed
+  youtubeUrl: https://www.youtube.com/@juxtopposed
+  twitterName: juxtopposed
+
+- id: lama_dev
+  name: Lama Dev
+  youtubeUrl: https://www.youtube.com/@LamaDev
+
+- id: it_sin9k
+  name: АйТи Синяк
+  twitterName: it_sin9k
+  patterns:
+    - it(_|-| )?sin9k
+  youtubeUrl: https://www.youtube.com/@it-sin9k
+
+- id: mishanep
+  name: Михаил Непомнящий
+  twitterName: pcgramota
+  homepageUrl: https://www.mishanep.com/
+  youtubeUrl: https://www.youtube.com/channel/UCFq12kPZg4wTNPO7V_g3B-A

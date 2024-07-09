@@ -517,3 +517,11 @@
   homepageUrl: https://whiskey.fm/
   patterns:
     - whisk(e)?y
+
+- id: front_end_fire
+  name: Front-End Fire
+  homepageUrl: https://front-end-fire.com/
+
+- id: the_react_show
+  name: The React Show
+  homepageUrl: https://www.thereactshow.com/

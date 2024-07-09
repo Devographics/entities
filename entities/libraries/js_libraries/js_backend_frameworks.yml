@@ -55,7 +55,7 @@
   npm: nuxt
   github: nuxt/nuxt.js
   # description: The Intuitive Vue Framework
-  homepageUrl: "https://nuxtjs.org"
+  homepageUrl: https://nuxt.com/
 
 - id: gatsby
   name: Gatsby

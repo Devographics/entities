@@ -1,0 +1,19 @@
+- id: css_in_js_issues
+  name: CSS-in-JS issues
+  patterns:
+    - css, in, js [l]
+
+- id: tailwind_issues
+  name: Tailwind issues
+  patterns:
+    - tailwind [p]
+
+- id: mui_issues
+  name: MUI issues
+  patterns:
+    - mui
+
+- id: styled_components_issues
+  name: Styled Components issues
+  patterns:
+    - styled components
