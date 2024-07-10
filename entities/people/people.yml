@@ -3087,8 +3087,10 @@
 
 - id: dominik_dorkmeister
   name: Dominink Dorfmeister
-  twitterName: tkdodo
-  homepageUrl: https://tkdodo.eu/blog/
+  twitterName: TkDodo
+  homepageUrl: https://tkdodo.eu/
+  patterns:
+    - tk( )?dodo
 
 - id: evan_bacon
   name: Evan Bacon
@@ -3138,7 +3140,7 @@
 
 - id: shadcn
   name: shadcn
-  twitterName: schadcn
+  twitterName: shadcn
   tags:
     - nextjs
 

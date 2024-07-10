@@ -485,13 +485,6 @@
   name: Gentleman Programming
   youtubeUrl: https://www.youtube.com/c/GentlemanProgramming
 
-- id: dominik_dorfmeister
-  name: Dominik Dorfmeister
-  twitterName: TkDodo
-  homepageUrl: https://tkdodo.eu/
-  patterns:
-    - tk( )?dodo
-
 - id: afor_digital
   name: afor digital
   homepageUrl: https://www.twitch.tv/afor_digital
