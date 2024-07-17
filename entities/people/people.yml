@@ -1472,6 +1472,7 @@
 - id: josh_tried_coding
   name: Josh Tried Coding
   youtubeUrl: https://www.youtube.com/@joshtriedcoding
+  twitterName: joshtriedcoding
   patterns:
     - josh tries coding
     - josh try coding
@@ -3453,3 +3454,11 @@
   patterns:
     - acdlite
     - adclite
+
+- id: aurora_scharff
+  name: Aurora Scharff
+  twitterName: aurorascharff
+
+- id: carl_vitullo
+  name: Carl Vitullo
+  twitterName: vcarl_
