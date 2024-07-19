@@ -117,3 +117,11 @@
 - id: cybozu_office
   name: Cybozu Office
   homepageUrl: https://office.cybozu.co.jp/
+
+- id: microsoft_excel
+  name: Microsoft Excel
+  homepageUrl: https://www.microsoft.com/en-us/microsoft-365/excel
+
+- id: google_workspace
+  name: Google Workspace
+  homepageUrl: https://workspace.google.com/
