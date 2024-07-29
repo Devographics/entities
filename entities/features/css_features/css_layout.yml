@@ -89,6 +89,8 @@
 
 - id: stuck_selector
   name: "`:stuck`"
+  description: >
+    A selector for targeting “stuck” `position: sticky` items
   # mdn:
   # caniuse:
   resources:
