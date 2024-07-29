@@ -147,3 +147,14 @@
     - landmark
   tags:
     - accessibility_features
+
+- id: light_dark
+  name: "`light-dark()`"
+  mdn: en-US/docs/Web/CSS/color_value/light-dark
+  caniuse: mdn-css_types_color_light-dark
+  example:
+    language: css
+    code: |
+      code {
+        color: light-dark(var(--light-code), var(--dark-code));
+      }

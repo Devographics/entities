@@ -155,3 +155,7 @@
 - id: typestyle
   name: TypeStyle
   homepageUrl: https://typestyle.github.io/
+
+- id: pigment_css
+  name: Pigment CSS
+  homepageUrl: https://mui.com/blog/introducing-pigment-css/

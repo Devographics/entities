@@ -78,7 +78,7 @@
   name: You.com
   homepageUrl: https://you.com/
   patterns:
-    - you
+    - you [e]
 
 - id: llama
   name: Llama

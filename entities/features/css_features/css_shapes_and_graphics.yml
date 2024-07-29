@@ -207,3 +207,20 @@
   tags:
     - css
     - css_shapes_and_graphics
+
+- id: offset_path
+  name: >
+    `offset-path`
+  mdn: en-US/docs/Web/CSS/offset-path
+  caniuse: css-motion-paths
+  example:
+    language: css
+    code: |
+      .blueBox {
+        background-color: blue;
+        offset-path: border-box;
+        offset-distance: 5%;
+      }
+  tags:
+    - css
+    - css_shapes_and_graphics

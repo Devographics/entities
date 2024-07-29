@@ -67,7 +67,7 @@
 - id: tech_it
   patterns:
     - tech
-    - it
+    - it [e]
 
 - id: web3
 

@@ -110,6 +110,8 @@
     - css
     - css_colors
     - html_interoperability_features
+  patterns:
+    - relative color
 
 - id: forced_colors
   name: "`forced-colors`"

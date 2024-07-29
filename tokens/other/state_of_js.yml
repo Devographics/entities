@@ -53,7 +53,7 @@
 
 - id: just_js
   patterns:
-    - just [p]
+    - just [e]
   tags:
     - libraries
 

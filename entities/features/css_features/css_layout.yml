@@ -191,9 +191,27 @@
       }
   patterns:
     - "@container"
-    - container
+    # - container # too broad
     - container( |-)(media|width)? ?quer(y|ies)
     - (element|object|component)s? (based )?(media )?quer(y|ies)
+  tags:
+    - css
+    - css_layout
+    - html_interoperability_features
+
+- id: at_container_style
+  name: >
+    `@container` style queries
+  mdn: en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries#container_style_queries_2
+  caniuse: css-container-queries-style
+  example:
+    language: css
+    code: |
+      @container style(color: green) {
+        /* <stylesheet> */
+      }
+  patterns:
+    - container, style [l]
   tags:
     - css
     - css_layout
@@ -233,6 +251,13 @@
   tags:
     - css
     - css_layout
+  patterns:
+    - dvh
+    - dvw
+    - lvh
+    - lvw
+    - svh
+    - svw
 
 - id: media_queries_range_contexts
   name: Media Queries Range Contexts
@@ -253,6 +278,14 @@
   name: Media Queries
   mdn: /en-US/docs/Web/CSS/Media_Queries/Using_media_queries
   caniuse: css-mediaqueries
+  tags:
+    - css
+    - css_layout
+
+- id: margin_trim
+  name: "`margin-trim`"
+  mdn: /en-US/docs/Web/CSS/margin-trim
+  caniuse: mdn-css_properties_margin-trim
   tags:
     - css
     - css_layout

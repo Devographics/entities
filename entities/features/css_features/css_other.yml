@@ -186,8 +186,16 @@
     - css_other
 
 - id: stepped_value_functions
-  mdn:
+  mdn: en-US/docs/Web/CSS/CSS_Functions#stepped_value_functions
   caniuse:
+  description: >
+    `round()`, `mod()`, `rem()`
+  example:
+    language: css
+    code: |
+      width: round(var(--width), 50px);
+      line-height: mod(7, 2); /* 1 */
+      line-height: rem(21, 2); /* 1 */
   tags:
     - css
     - css_other
@@ -357,8 +365,9 @@
     - css_other
 
 - id: at_scope
-  # mdn:
-  # caniuse:
+  name: "`@scope`"
+  mdn: /en-US/docs/Web/CSS/@scope
+  caniuse: css-cascade-scope
   w3c: https://drafts.csswg.org/css-cascade-6/#scope-atrule
   example:
     language: css
