@@ -148,6 +148,7 @@
     - css_other
 
 - id: comparison_functions
+  name: Comparison Functions
   description: >
     `min()`, `max()`, `clamp()`
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
@@ -163,39 +164,68 @@
     - css_other
 
 - id: trigonometric_functions
+  name: Trigonometric Functions
   description: >
     `sin()`, `cos()`, `tan()`…
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
   caniuse: css-math-functions
+  example:
+    language: css
+    code: |
+      div {
+        width: calc(100px * cos(45deg));
+        height: calc(100px * cos(45deg));
+      }
   tags:
     - css
     - css_other
 
 - id: exponential_functions
-  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  name: Exponential Functions
+  description: >
+    `pow()`, `sqrt()`, `exp()`, `log()`, `hypot()`
+  mdn: /en-US/docs/Web/CSS/pow
   caniuse: css-math-functions
+  example:
+    language: css
+    code: |
+      h1 {
+        font-size: calc(1rem * pow(1.5, 4));
+      }
   tags:
     - css
     - css_other
 
 - id: sign_related_functions
-  mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
+  name: Sign-related Functions
+  description: >
+    `sign()`, `abs()`
+  mdn: /en-US/docs/Web/CSS/sign
   caniuse: css-math-functions
+  example:
+    language: css
+    code: |
+      div {
+        top: sign(20vh - 100px);
+        width: abs(20% - 100px);
+      }
   tags:
     - css
     - css_other
 
 - id: stepped_value_functions
-  mdn: en-US/docs/Web/CSS/CSS_Functions#stepped_value_functions
-  caniuse:
+  name: Stepped Value Functions
   description: >
     `round()`, `mod()`, `rem()`
+  mdn: en-US/docs/Web/CSS/CSS_Functions#stepped_value_functions
+  caniuse: mdn-css_types_round
   example:
     language: css
     code: |
-      width: round(var(--width), 50px);
-      line-height: mod(7, 2); /* 1 */
-      line-height: rem(21, 2); /* 1 */
+      div {
+        width: round(var(--width), 50px);
+        line-height: mod(7, 2); /* 1 */
+      }
   tags:
     - css
     - css_other
@@ -385,22 +415,6 @@
     - css
     - css_other
 
-- id: css_toggles
-  name: CSS Toggles
-  resources:
-    - title: Unofficial Proposal Draft
-      url: https://tabatkins.github.io/css-toggle/
-  example:
-    language: css
-    code: |
-      li {
-        toggle: --check self;
-      }
-      li:toggle(--check) {
-        color: silver;
-        text-decoration: line-through;
-      }
-
 - id: anchor_positioning
   name: Anchor Positioning
   example:
@@ -422,3 +436,18 @@
     - anchor [e]
     - anchor, api [l]
     - anchor, position [l]
+
+- id: nth_child_of_s
+  name: "`nth-child of S`"
+  description: >
+    Pre-filter a set of child elements before applying `nth-child` to it.
+  resources:
+    - title: >
+        More control over :nth-child() selections with the of S syntax
+      url: https://developer.chrome.com/docs/css-ui/css-nth-child-of-s
+  example:
+    language: css
+    code: |
+      :nth-child(2 of .highlight)
+        border: 2px red solid;
+      }

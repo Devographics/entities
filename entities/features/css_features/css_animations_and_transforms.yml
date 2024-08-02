@@ -41,3 +41,28 @@
   tags:
     - css
     - css_animations_and_transforms
+
+- id: discrete_properties_animations
+  name: Discrete Properties Animations
+  description: >
+    Animate to and from properties such as `display: none`
+  example:
+    language: css
+    code: |
+      /*   IS-OPEN STATE   */
+      dialog[open] {
+        translate: 0 0;
+      }
+
+      /*   EXIT STATE   */
+      dialog {
+        transition: translate 0.7s ease-out, display 0.7s ease-out allow-discrete;
+        translate: 0 100vh;
+      }
+
+      /*   0. BEFORE-OPEN STATE   */
+      @starting-style {
+        dialog[open] {
+          translate: 0 100vh;
+        }
+      }

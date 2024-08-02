@@ -56,11 +56,36 @@
   caniuse: pointer-events
 
 - id: scroll_timeline
-  name: "`@scroll-timeline`"
+  name: "`scroll-timeline`"
   caniuse: css-scroll-timeline
-  mdn: /en-US/docs/Web/CSS/@scroll-timeline
+  mdn: /en-US/docs/Web/CSS/scroll-timeline
+  example:
+    language: css
+    code: |
+      #container {
+        height: 300px;
+        overflow-y: scroll;
+        scroll-timeline: --squareTimeline y;
+        position: relative;
+      }
   tags:
     - html_interoperability_features
+
+- id: view_timeline
+  name: "`view-timeline`"
+  caniuse: css-view-timeline
+  mdn: /en-US/docs/Web/CSS/view-timeline
+  tags:
+    - html_interoperability_features
+  example:
+    language: css
+    code: |
+      .animation {
+        view-timeline: --subjectReveal block;
+        animation-name: appear;
+        animation-fill-mode: both;
+        animation-duration: 1ms;
+      }
 
 - id: scroll_behavior
   name: "`scroll-behavior`"

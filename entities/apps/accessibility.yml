@@ -222,6 +222,3 @@
 
 - id: dark_mode
   name: Dark mode
-
-- id: forced_colors
-  name: Forced colors

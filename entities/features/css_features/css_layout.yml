@@ -108,6 +108,7 @@
   tags:
     - css
     - css_layout
+    - css_missing_features
 
 - id: logical_properties
   name: CSS Logical Properties
@@ -180,6 +181,30 @@
 - id: at_container
   name: >
     `@container`
+  mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
+  caniuse: css-container-queries
+  example:
+    language: css
+    code: |
+      @container (min-width: 700px) {
+        .card {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+        }
+      }
+  patterns:
+    - "@container"
+    # - container # too broad
+    - container( |-)(media|width)? ?quer(y|ies)
+    - (element|object|component)s? (based )?(media )?quer(y|ies)
+  tags:
+    - css
+    - css_layout
+    - html_interoperability_features
+
+- id: at_container_size
+  name: >
+    `@container` size queries
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
   caniuse: css-container-queries
   example:

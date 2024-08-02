@@ -1,0 +1,62 @@
+- id: native_visually_hidden
+  name: Visually Hidden Content
+  description: Native support for visually hidden content.
+
+- id: generated_content_alt_text
+  name: Generated Content Alt Text
+  description: >
+    Add alt text to generated (`::before`, `::after`) content.
+
+- id: flex_wrapping_detection
+  name: Wrapping Detection
+  description: Detecting when a flex or grid item has wrapped to another line.
+
+- id: more_pseudo_elements
+  name: More Pseudo-Elements
+  description: Having more than two pseudo-elements per element.
+
+- id: svg_in_css
+  name: SVG-in-CSS
+  description: >
+    Support for SVG syntax inside CSS code (such as inside `background`).
+
+- id: masonry_layout
+  name: Masonry Layout
+  description: Native support for Pinterest-style free-flowing grid layouts.
+  patterns:
+    - masonry
+
+- id: grid_lines_styling
+  name: Grid-lines Styling
+  description: The ability to style the invisible lines that divide a grid.
+
+- id: media_queries_variables
+  name: Media Queries Variables
+  description: Being able to use variables inside media queries.
+
+- id: mixins
+  name: Mixins
+  description: Group and reuse definitions dynamically.
+  patterns:
+    - mixins?
+
+- id: css_toggles
+  name: CSS Toggles
+  description: A way to associate a "toggleable value" with an element
+  resources:
+    - title: Unofficial Proposal Draft
+      url: https://tabatkins.github.io/css-toggle/
+  example:
+    language: css
+    code: |
+      li {
+        toggle: --check self;
+      }
+      li:toggle(--check) {
+        color: silver;
+        text-decoration: line-through;
+      }
+
+- id: improved_attr
+  name: Improved `attr()`
+  description: Support for properties other than content

@@ -153,7 +153,7 @@
   name: "`text-wrap: balance`"
   # caniuse:
   # w3c:
-  # mdn:
+  mdn: /en-US/docs/Web/CSS/text-wrap
   example:
     language: css
     code: |
@@ -169,6 +169,25 @@
     - css
     - css_typography
 
+- id: text_wrap_pretty
+  name: "`text-wrap: pretty`"
+  # caniuse:
+  # w3c:
+  mdn: /en-US/docs/Web/CSS/text-wrap
+  example:
+    language: css
+    code: |
+      .pretty {
+        text-wrap: pretty;
+      }
+  resources:
+    - url: https://developer.chrome.com/blog/css-text-wrap-pretty
+      title: |
+        CSS text-wrap: pretty
+  tags:
+    - css
+    - css_typography
+
 - id: text_wrap
   name: "`text-wrap`"
   caniuse: mdn-css_properties_text-wrap
@@ -179,6 +198,21 @@
     code: |
       .wrap {
         text-wrap: wrap;
+      }
+  tags:
+    - css
+    - css_typography
+
+- id: hanging_punctuation
+  name: "`hanging-punctuation`"
+  caniuse: css-hanging-punctuation
+  # w3c:
+  mdn: /en-US/docs/Web/CSS/hanging-punctuation
+  example:
+    language: css
+    code: |
+      p.hanging {
+        hanging-punctuation: first last;
       }
   tags:
     - css
