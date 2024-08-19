@@ -158,7 +158,7 @@
   name: Prettier
   npm: prettier
   github: prettier/prettier
-  description: Prettier is an opinionated code formatter.
+  # description: Prettier is an opinionated code formatter.
   homepageUrl: "https://prettier.io"
 
 - id: eslint

@@ -7,9 +7,9 @@
   contexts: [state_of_css]
   npm: styled-components
   github: styled-components/styled-components
-  description: >-
-    Visual primitives for the component age. Use the best bits of ES6 and CSS to
-    style your apps without stress
+  # description: >-
+  #   Visual primitives for the component age. Use the best bits of ES6 and CSS to
+  #   style your apps without stress
   homepageUrl: "https://styled-components.com"
   patterns:
     - style(d)?( |-|_)?component(s)?
@@ -26,7 +26,7 @@
   contexts: [state_of_css]
   npm: styled-jsx
   github: zeit/styled-jsx
-  description: Full CSS support for JSX without compromises
+  # description: Full CSS support for JSX without compromises
   homepageUrl: https://github.com/vercel/styled-jsx
 
 - id: radium
@@ -41,7 +41,7 @@
   contexts: [state_of_css]
   npm: emotion
   github: emotion-js/emotion
-  description: CSS-in-JS library designed for high performance style composition
+  # description: CSS-in-JS library designed for high performance style composition
   homepageUrl: "https://emotion.sh/"
 
 - id: css_modules

@@ -52,6 +52,13 @@
   name: "`initial-letter`"
   mdn: /en-US/docs/Web/CSS/initial-letter
   caniuse: css-initial-letter
+  example:
+    language: css
+    code: |
+      .intro {
+        /* Initial letter occupies 3 lines */
+        initial-letter: 3;
+      }
   tags:
     - css
     - css_typography
