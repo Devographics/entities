@@ -6,7 +6,7 @@
   name: Express
   npm: express
   github: expressjs/express
-  description: "Fast, unopinionated, minimalist web framework for node."
+  # description: "Fast, unopinionated, minimalist web framework for node."
   homepageUrl: "https://expressjs.com"
 
 - id: nextjs

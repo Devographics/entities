@@ -7,9 +7,9 @@
   npm: react
   github: facebook/react
   homepageUrl: https://reactjs.org/
-  description: >-
-    A declarative, efficient, and flexible JavaScript library for building user
-    interfaces.
+  # description: >-
+  #   A declarative, efficient, and flexible JavaScript library for building user
+  #   interfaces.
 
 # TODO: get rid of duplicate
 # - id: vue
@@ -25,7 +25,7 @@
   name: Vue.js
   npm: vue
   github: vuejs/vue
-  description: "A progressive, incrementally-adoptable framework for building UI on the web"
+  # description: "A progressive, incrementally-adoptable framework for building UI on the web"
   homepageUrl: "http://vuejs.org"
   patterns:
     - vue
@@ -34,7 +34,7 @@
   name: Angular
   npm: "@angular/core"
   github: angular/angular
-  description: One framework. Mobile & desktop.
+  # description: One framework. Mobile & desktop.
   homepageUrl: "https://angular.io"
 
 - id: angular_elements
@@ -69,7 +69,7 @@
 - id: svelte
   name: Svelte
   github: sveltejs/svelte
-  description: Cybernetically enhanced web apps
+  # description: Cybernetically enhanced web apps
   homepageUrl: "https://svelte.dev"
   tags:
     - accessibility_tools
@@ -117,9 +117,9 @@
   name: Solid
   npm: solid-js
   github: solidjs/solid
-  description: >-
-    A declarative, efficient, and flexible JavaScript library for building user
-    interfaces.
+  # description: >-
+  #   A declarative, efficient, and flexible JavaScript library for building user
+  #   interfaces.
   homepageUrl: https://www.solidjs.com/
   patterns:
     - solidjs

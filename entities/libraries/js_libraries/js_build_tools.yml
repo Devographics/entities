@@ -103,7 +103,7 @@
   name: Vite
   npm: null
   github: vitejs/vite
-  description: Native-ESM powered web dev build tool. It's fast.
+  # description: Native-ESM powered web dev build tool. It's fast.
   homepageUrl: https://github.com/vitejs/vite
 
 - id: microbundle

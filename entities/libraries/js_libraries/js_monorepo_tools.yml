@@ -6,7 +6,7 @@
   name: pnpm
   npm: pnpm
   github: pnpm/pnpm
-  description: "Fast, disk space efficient package manager"
+  # description: "Fast, disk space efficient package manager"
   homepageUrl: "https://pnpm.js.org"
 
 - id: yarn_workspaces

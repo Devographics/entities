@@ -1,34 +1,34 @@
 - id: agile
   name: Agile
   homepageUrl: https://en.wikipedia.org/wiki/Agile_software_development
-  description: Agile software development is an iterative approach to planning and guiding project processes. It emphasizes flexibility, collaboration, and customer feedback to deliver high-quality software.
+  # description: Agile software development is an iterative approach to planning and guiding project processes. It emphasizes flexibility, collaboration, and customer feedback to deliver high-quality software.
 
 - id: scrum
   name: Scrum
   homepageUrl: https://en.wikipedia.org/wiki/Scrum_(software_development)
-  description: Scrum is a framework within Agile methodology that uses fixed-length iterations called sprints. It focuses on cross-functional teams working collaboratively to achieve specific goals.
+  # description: Scrum is a framework within Agile methodology that uses fixed-length iterations called sprints. It focuses on cross-functional teams working collaboratively to achieve specific goals.
 
 - id: kanban
   name: Kanban
   homepageUrl: https://en.wikipedia.org/wiki/Kanban_(development)
-  description: Kanban is a visual workflow management method for defining, managing, and improving services. It emphasizes continuous delivery without overburdening the development team.
+  # description: Kanban is a visual workflow management method for defining, managing, and improving services. It emphasizes continuous delivery without overburdening the development team.
 
 - id: waterfall
   name: Waterfall
   homepageUrl: https://en.wikipedia.org/wiki/Waterfall_model
-  description: The Waterfall model is a sequential design process used in software development. It progresses through a series of distinct phases, including conception, initiation, analysis, design, construction, testing, and maintenance.
+  # description: The Waterfall model is a sequential design process used in software development. It progresses through a series of distinct phases, including conception, initiation, analysis, design, construction, testing, and maintenance.
 
 - id: extreme_programming
   name: Extreme Programming
   homepageUrl: https://en.wikipedia.org/wiki/Extreme_programming
-  description: Extreme Programming (XP) is an Agile software development framework that aims to produce higher quality software and higher quality of life for the development team. It advocates frequent releases in short development cycles.
+  # description: Extreme Programming (XP) is an Agile software development framework that aims to produce higher quality software and higher quality of life for the development team. It advocates frequent releases in short development cycles.
 
 - id: rapid_application_development
   name: Rapid Application Development
   homepageUrl: https://en.wikipedia.org/wiki/Rapid_application_development
-  description: Rapid Application Development (RAD) is an adaptive software development approach focusing on rapid prototyping and quick feedback over lengthy development and testing cycles.
+  # description: Rapid Application Development (RAD) is an adaptive software development approach focusing on rapid prototyping and quick feedback over lengthy development and testing cycles.
 
 - id: spiral_model
   name: Spiral Model
   homepageUrl: https://en.wikipedia.org/wiki/Spiral_model
-  description: The Spiral Model is a risk-driven software development process model. It combines iterative development with systematic aspects of the Waterfall model, allowing for incremental releases of the product.
+  # description: The Spiral Model is a risk-driven software development process model. It combines iterative development with systematic aspects of the Waterfall model, allowing for incremental releases of the product.

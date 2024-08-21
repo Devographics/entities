@@ -130,7 +130,7 @@
   name: jQuery
   npm: jquery
   github: jquery/jquery
-  description: jQuery JavaScript Library
+  # description: jQuery JavaScript Library
   homepageUrl: "https://jquery.com/"
 
 - id: rxjs
@@ -194,21 +194,21 @@
   name: Npm
   npm: null
   github: npm/cli
-  description: A package manager for JavaScript
+  # description: A package manager for JavaScript
   homepageUrl: "https://npm.community"
 
 - id: yarn
   name: Yarn
   npm: null
   github: yarnpkg/yarn
-  description: "Fast, reliable, and secure dependency management."
+  # description: "Fast, reliable, and secure dependency management."
   homepageUrl: "https://classic.yarnpkg.com"
 
 - id: nodejs
   name: Node.js
   npm: null
   github: nodejs/node
-  description: Node.js JavaScript runtime
+  # description: Node.js JavaScript runtime
   homepageUrl: "https://nodejs.org/"
   patterns:
     - node
