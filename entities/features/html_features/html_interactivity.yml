@@ -1,0 +1,98 @@
+#################################################
+#
+#   Interactivity
+#
+#################################################
+- id: element_classlist
+  name: "`element.classList`"
+  # description: |
+  #   Toggle classes individually. Replaced the older `element.className`
+
+- id: element_toggle_attribute
+  name: "`element.toggleAttribute(name, force)`"
+  # description: |
+  #   Add or remove an attribute.
+
+- id: element_getattributenames
+  name: "`element.getAttributeNames()`"
+  # description: |
+  #   Get an array of all element attribute names.
+
+- id: element_innerhtml
+  name: "`element.innerHTML`"
+  # description: |
+  #   `element.innerHTML = rawHTML`
+
+- id: element_outerhtml
+  name: "`element.outerHTML`"
+  # description: |
+  #   `element.outerHTML = rawHTML`
+
+# - id: element_textcontent
+#   name: textContent property
+#   description: |
+#     `element.textContent = rawText`
+
+- id: element_insert_adjacent_html
+  name: "insertAdjacentHTML()"
+  example:
+    language: js
+    code: |
+      `element.insertAdjacentHTML("beforebegin", rawHTML)`
+
+- id: domparser
+  name: DOMParser API
+  example:
+    language: js
+    code: |
+      `let doc = new DOMParser().parseFromString(rawHTML, "text/html")`
+
+- id: element_insert_adjacent_element
+  name: insertAdjacentElement()
+  example:
+    language: js
+    code: |
+      `el1.insertAdjacentElement("afterend", el2)`
+
+- id: element_append
+  name: "`parent.append(...children)`"
+  description: |
+    Replaced the older `parent.appendChild(child)`
+
+# - id: element_append_child
+#   name: appendChild()
+#   description: |
+#     `parent.appendChild(child)`
+
+- id: element_before
+  name: "`el1.before(...elements)`"
+  description: |
+    Replaced the older `parent.insertBefore(el2, el1)`
+
+- id: element_replace_with
+  name: "`el1.replaceWith(el2)`"
+  description: |
+    Replaced the older `parent.replaceChild(el2, el1)` method.
+
+# - id: element_replace_child
+#   name: replaceChild()
+#   description: |
+#     `parent.replaceChild(newChild, oldChild)`
+
+- id: element_replace_children
+  name: replaceChildren()
+  example:
+    language: js
+    code: |
+      `element.replaceChildren(...newChildren)`
+
+- id: document_create_document_fragment
+  name: Document fragments
+  example:
+    language: js
+    code: |
+      `let fragment = document.createDocumentFragment()`
+
+- id: clipboard_api
+  name: Clipboard API
+  mdn: en-US/docs/Web/API/Clipboard_API

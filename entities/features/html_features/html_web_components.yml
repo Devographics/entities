@@ -1,0 +1,46 @@
+#################################################
+#
+#   Web Components
+#
+#################################################
+
+- id: slot_element
+  name: |
+    `<slot>`  element
+
+- id: slot_attribute
+  name: Named slot assigment
+  description: |
+    `slot="slot_name"` attribute
+
+# see also part_selector. duplicate?
+- id: part_pseudo
+  name: |
+    CSS `::part()` pseudo-element
+
+- id: host_pseudos
+  name: Shadow host CSS pseudo-classes
+  description: |
+    `:host` , `:host()` , `:host-context()`
+
+- id: slotted_pseudo_element
+  name: |
+    `::slotted()` CSS pseudo-element
+
+- id: custom_elements_get
+  name: |
+    `customElements.get()`
+
+- id: custom_elements_when_defined
+  name: |
+    `customElements.whenDefined()`
+
+- id: custom_elements_get_name
+  name: |
+    `customElements.getName()`
+
+- id: is_attribute
+  name: |
+    Customized built-in elements
+  description: |
+    `<button is="fancy-button">`

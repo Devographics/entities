@@ -1,0 +1,179 @@
+#################################################
+#
+#   PWAs
+#
+#################################################
+
+- id: app_manifest
+  name: |
+    App manifest
+  description: |
+    `<link rel="manifest">`
+
+- id: service_workers
+  name: |
+    Service Workers
+  description: |
+    `navigator.serviceWorker.register("/sw.js")`
+
+- id: notifications_api
+  name: |
+    Notifications API
+  description: |
+    `new Notification()`
+
+- id: caching_api
+  name: |
+    Caching API
+  description: |
+    `caches.open()` etc.
+
+- id: app_manifest_name
+  name: |
+    `name`
+
+- id: app_manifest_icons
+  name: |
+    `icons`
+
+- id: app_manifest_shortcuts
+  name: |
+    `shortcuts`
+
+- id: app_manifest_file_handlers
+  name: |
+    `file_handlers`
+
+- id: app_manifest_protocol_handlers
+  name: |
+    `protocol_handlers`
+
+- id: app_manifest_share_target
+  name: |
+    `share_target`
+
+- id: app_manifest_launch_handler
+  name: |
+    `launch_handler`
+
+- id: landmark_elements
+  name: |
+    Landmark Elements
+  description: |
+    `<aside>`, `<article>`, `<main>`, `<nav>`, `<section>`, etc.
+  homepageUrl: https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html
+
+- id: input_element
+  name: |
+    `<input>`
+
+- id: jpeg_xl
+
+- id: scrollbar_styling
+  patterns:
+    - scrollbar
+  tags:
+    - html_interoperability_features
+
+- id: view_transitions
+  patterns:
+    - page transition
+    - view transition
+    - transition api
+
+- id: web_bluetooth_api
+  name: Web Bluetooth API
+  patterns:
+    - bluetooth
+
+- id: webgpu
+  name: WebGPU
+
+- id: avif
+  name: AVIF
+
+- id: clipboard_api
+  name: Clipboard API
+  patterns:
+    - clipboard
+
+- id: progress_element
+  name: "`<progress>`"
+  patterns:
+    - <progress [p]
+
+- id: shape_detection_api
+  name: Shape Detection API
+  resources:
+    - url: https://developer.chrome.com/docs/capabilities/shape-detection
+      title: "The Shape Detection API: a picture is worth a thousand words, faces, and barcodes"
+  patterns:
+    - shape detection
+  tags:
+    - html_interoperability_features
+
+- id: input_type_radio
+  name: |
+    `<input type="radio">`
+  patterns:
+    - radio
+
+- id: input_type_checkbox
+  name: |
+    `<input type="checkbox">`
+  patterns:
+    - checkbox [p]
+
+- id: button_element
+  name: |
+    `<button>`
+  patterns:
+    - button
+
+- id: textarea_element
+  name: |
+    `<textarea>`
+  patterns:
+    - text(-| )?area
+
+- id: table_element
+  name: |
+    `<table>`
+  patterns:
+    - <table
+
+- id: fieldset_element
+  name: |
+    `<fieldset>`
+  patterns:
+    - fieldset
+
+- id: webp_format
+  name: WebP
+  patterns:
+    - webp
+
+- id: drag_and_drop_api
+  name: Drag and Drop API
+  mdn: en-US/docs/Web/API/HTML_Drag_and_Drop_API
+  patterns:
+    - drag, drop, api [l]
+
+- id: history_api
+  name: History API
+  mdn: en-US/docs/Web/API/History_API
+  patterns:
+    - history, api
+
+- id: intersection_observer_api
+  name: Intersection Observer API
+  mdn: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+  patterns:
+    - intersection observer
+    - intersectionobserver
+
+- id: push_api
+  name: Push API
+  mdn: https://developer.mozilla.org/en-US/docs/Web/API/Push_API
+  patterns:
+    - push, notification [l]

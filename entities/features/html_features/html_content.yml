@@ -1,0 +1,123 @@
+#################################################
+#
+#   Content
+#
+#################################################
+
+- id: time_element
+  name: |
+    `<time>`
+
+- id: data_element
+  name: |
+    `<data>`
+
+- id: microdata
+  name: |
+    Microdata
+  description: |
+    `itemprop`, `itemscope`, etc.
+
+- id: microformats
+  name: Microformats
+  description: |
+    `class="h-card"`, `class="h-event"`, etc.
+
+- id: rdfa
+  name: |
+    RDFa
+  description: |
+    `property`, `typeof`, etc.
+
+- id: json_ld
+  name: |
+    JSON-LD
+  example:
+    language: html
+    code: |
+      `<script type="application/ld+json">`
+
+- id: blink_element
+  name: |
+    `<blink>`
+
+- id: marquee_element
+  name: |
+    `<marquee>`
+
+- id: plaintext_element
+  name: |
+    `<plaintext>`
+
+- id: frameset_element
+  name: |
+    `<frameset>` & `<frame>`
+
+- id: font_element
+  name: |
+    `<font>`
+
+- id: center_element
+  name: |
+    `<center>`
+
+- id: isindex_element
+  name: |
+    `<isindex>`
+
+- id: nextid_element
+  name: |
+    `<nextid>`
+
+- id: applet_element
+  name: |
+    `<applet>`
+
+- id: custom_highlight_api
+  name: CSS Custom Highlight API
+  mdn: en-US/docs/Web/API/CSS_Custom_Highlight_API
+#################################################
+#
+#   External Content
+#
+#################################################
+
+# - id: crossorigin_attribute
+#   name: |
+#     `crossorigin`
+
+# - id: integrity_attribute
+#   name: |
+#     `integrity`
+
+# - id: media_attribute
+#   name: |
+#     `media`
+
+# - id: referrerpolicy_attribute
+#   name: |
+#     `referrerpolicy`
+
+# - id: prefetch_attribute
+#   name: |
+#     `prefetch`
+
+# - id: dns_prefetch_attribute
+#   name: |
+#     `dns-prefetch`
+
+# - id: preconnect_attribute
+#   name: |
+#     `preconnect`
+
+# - id: preload_attribute
+#   name: |
+#     `preload`
+
+# - id: modulepreload_attribute
+#   name: |
+#     `modulepreload`
+
+# - id: prerender_attribute
+#   name: |
+#     `prerender`

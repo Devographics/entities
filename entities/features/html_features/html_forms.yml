@@ -1,0 +1,184 @@
+#################################################
+#
+#   Forms
+#
+#################################################
+
+- id: form_element
+  name: |
+    `<form>`
+  patterns:
+    - form [e]
+    - >
+      <form> [e]
+
+- id: select_element
+  name: |
+    `<select>`
+  patterns:
+    - <select>
+    - <select/>
+    - custom select
+    - select [e]
+    - selects [e]
+  tags:
+    - html_functionality_features
+
+- id: select_multiple_element
+  name: |
+    `<select multiple>`
+  patterns:
+    - multi, select [l]
+  tags:
+    - html_functionality_features
+
+- id: input_type_date
+  name: |
+    `<input type="date">`
+  patterns:
+    - input type="date"
+    - date, input [l]
+    - date, picker [l]
+    - calendar
+    - calender
+    - date
+
+- id: input_type_time
+  name: |
+    `<input type="time">`
+  patterns:
+    - input type="time"
+    - time, input [l]
+    - time, picker [l]
+
+- id: input_type_datetime_locale
+  name: |
+    `<input type="datetime-local">`
+  patterns:
+    - datetime
+    - date\/time
+
+- id: input_type_month
+  name: |
+    `<input type="month">`
+  patterns:
+    - <input type="month"
+    - <input type="month"
+    - input month
+
+- id: input_type_week
+  name: |
+    `<input type="week">`
+
+- id: input_type_color
+  name: |
+    `<input type="color">`
+  tags:
+    - html_interoperability_features
+  patterns:
+    - color( |-)?picker
+
+- id: input_type_color_list
+  name: |
+    `<input type="color" list>` for swatches
+
+- id: input_type_email
+  name: |
+    `<input type="email">`
+
+- id: input_type_tel
+  name: |
+    `<input type="tel">`
+
+- id: input_type_url
+  name: |
+    `<input type="url">`
+
+- id: input_type_month
+  name: |
+    `<input type="month">`
+
+- id: input_type_number
+  name: |
+    `<input type="number">`
+  patterns:
+    - number
+
+- id: input_type_range
+  name: |
+    `<input type="range">`
+
+- id: input_type_range_list
+  name: |
+    `<input type="range" list>` for ticks
+
+- id: input_type_file
+  name: |
+    `<input type="file">`
+  patterns:
+    - file
+
+- id: output_element
+  name: |
+    `<output>`
+
+- id: required_attribute
+  name: |
+    `required` attribute
+
+- id: pattern_attribute
+  name: |
+    `pattern` attribute
+
+- id: input_set_custom_validity
+  name: |
+    `input.setCustomValidity()`
+
+- id: input_report_validity
+  name: |
+    `input.reportValidity()`
+
+- id: input_check_validity
+  name: |
+    `input.checkValidity()`
+
+- id: invalid_event
+  name: |
+    `invalid` event
+
+- id: invalid_pseudo_class
+  name: |
+    `:invalid` CSS pseudo-class
+
+- id: valid_invalid_pseudo_class
+  parentId: validation
+  name: |
+    `:invalid`/`:valid` CSS pseudo-classes
+  # note: whole-word matching ([b]) breaks when using : character in a string
+  patterns:
+    - ":valid [p]"
+    - ":invalid [p]"
+    - ":user-invalid [p]"
+    - ":user-valid [p]"
+    - valid, pseudo [l]
+    - invalid, pseudo [l]
+  tags:
+    - forms_pain_points
+
+- id: editcontext
+  name: |
+    `EditContext`
+  description: |
+    The EditContext interface represents the text edit context of an element that was made editable by using the EditContext API.
+  mdn: en-US/docs/Web/API/EditContext
+
+- id: caretpositionfrompoint
+  name: |
+    `caretPositionFromPoint`
+  description: |
+    The caretPositionFromPoint() method returns the caret's character offset.
+  example:
+    language: js
+    code: |-
+      const range = document.caretPositionFromPoint(e.clientX, e.clientY);
+      const offset = range.offset;
