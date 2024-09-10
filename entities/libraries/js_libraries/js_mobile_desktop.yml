@@ -37,9 +37,9 @@
   name: Ionic
   npm: "@ionic/core"
   github: ionic-team/ionic-framework
-  description: >-
-    A powerful cross-platform UI toolkit for building native-quality iOS,
-    Android, and Progressive Web Apps with HTML, CSS, and JavaScript.
+  # description: >-
+  #   A powerful cross-platform UI toolkit for building native-quality iOS,
+  #   Android, and Progressive Web Apps with HTML, CSS, and JavaScript.
   homepageUrl: "https://ionicframework.com"
 
 - id: nwjs

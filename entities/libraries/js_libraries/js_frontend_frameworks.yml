@@ -89,8 +89,8 @@
   name: Lit
   npm: lit
   github: lit/lit
-  description: >
-    Simple. Fast. Web Components.
+  # description: >
+  #   Simple. Fast. Web Components.
   homepageUrl: "https://lit.dev/"
   patterns:
     - lit
@@ -106,9 +106,9 @@
   name: Stencil
   npm: null
   github: ionic-team/stencil
-  description: >-
-    A Web Component compiler for building fast, reusable UI components and
-    static site generated Progressive Web Apps
+  # description: >-
+  #   A Web Component compiler for building fast, reusable UI components and
+  #   static site generated Progressive Web Apps
   homepageUrl: "https://stenciljs.com"
   patterns:
     - stenciljs
@@ -135,7 +135,7 @@
   name: Polymer
   npm: polymer
   github: Polymer/polymer
-  description: Our original Web Component library.
+  # description: Our original Web Component library.
   homepageUrl: "https://polymer-library.polymer-project.org/"
 
 - id: lit_html

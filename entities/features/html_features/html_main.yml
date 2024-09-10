@@ -1370,6 +1370,41 @@
   tags:
     - features
 
+- id: customizable_select
+  name: Customizable Select
+  needsTranslation: false
+  description: |
+    Stylable, customizable dropdown control. Previously `<selectlist>` and `<selectmenu>`.
+  example:
+    language: css
+    code: |-
+      select,
+      ::picker(select) {
+        appearance: base-select;
+      }
+  resources:
+    - url: https://open-ui.org/components/customizableselect/
+      title: Customizable Select Element (Explainer)
+    - url: https://web.dev/state-of-css-2022/#customizing-select-elements
+      title: State of CSS 2022
+    - url: https://css-tricks.com/the-selectmenu-element/
+      title: The selectmenu HTML Tag | CSS-Tricks - CSS-Tricks
+    - url: https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/
+      title: Advanced Form Control Styling With Selectmenu And Anchoring API —
+        Smashing Magazine
+    - title: |
+        Two levels of customising <selectlist>
+      url: https://hidde.blog/custom-select-with-selectmenu/
+    - url: https://microsoftedge.github.io/Demos/selectmenu/
+      title: Open UI's selectmenu demos
+  tags:
+    - features
+  patterns:
+    - selectlist
+    - select list
+    - selectmenu
+    - select menu
+
 - id: selectlist_element
   name: "`<selectlist>`"
   needsTranslation: false
@@ -1400,11 +1435,6 @@
       title: Open UI's selectmenu demos
   tags:
     - features
-  patterns:
-    - selectlist
-    - select list
-    - selectmenu
-    - select menu
 
 - id: shadow_dom
   name: Shadow DOM

@@ -58,3 +58,5 @@
 - id: microsoft_sql_server
   name: Microsoft SQL Server
   homepageUrl: https://www.microsoft.com/en-us/sql-server/
+
+- id: spanner

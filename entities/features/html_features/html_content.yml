@@ -75,7 +75,39 @@
 
 - id: custom_highlight_api
   name: CSS Custom Highlight API
+  description: |
+    Provides a mechanism for styling arbitrary text ranges on a document by using JavaScript to create the ranges, and CSS to style them.
   mdn: en-US/docs/Web/API/CSS_Custom_Highlight_API
+  example:
+    language: js
+    code: |
+      const parentNode = document.getElementById("foo");
+
+      const range1 = new Range();
+      range1.setStart(parentNode, 10);
+      range1.setEnd(parentNode, 20);
+
+- id: set_html_unsafe
+  name: "`setHtmlUnsafe()`"
+  description: |
+    Used to parse a string of HTML into a DocumentFragment, which then replaces the element's subtree in the DOM.
+  mdn: en-US/docs/Web/API/Element/setHTMLUnsafe
+  example:
+    language: js
+    code: |
+      const value = "<p>This is a string of text</p>";
+      document.getElementById("target").setHTMLUnsafe(value);
+
+- id: parse_html_unsafe
+  name: "`parseHtmlUnsafe()`"
+  description: |
+    Used to parse a string of HTML, which may contain declarative shadow roots, in order to create a new Document instance.
+  mdn: en-US/docs/Web/API/Document/parseHTMLUnsafe_static
+  example:
+    language: js
+    code: |
+      Document.parseHTMLUnsafe(input)
+
 #################################################
 #
 #   External Content

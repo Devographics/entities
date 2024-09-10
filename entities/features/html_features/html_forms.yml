@@ -165,14 +165,14 @@
   tags:
     - forms_pain_points
 
-- id: editcontext
+- id: edit_context
   name: |
     `EditContext`
   description: |
     The EditContext interface represents the text edit context of an element that was made editable by using the EditContext API.
   mdn: en-US/docs/Web/API/EditContext
 
-- id: caretpositionfrompoint
+- id: caret_position_from_point
   name: |
     `caretPositionFromPoint`
   description: |

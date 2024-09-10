@@ -30,16 +30,16 @@
   name: Remix
   npm: create-remix
   github: remix-run/remix
-  description: >-
-    Build Better Websites. Create modern, resilient user experiences with web fundamentals.
+  # description: >-
+  #   Build Better Websites. Create modern, resilient user experiences with web fundamentals.
   homepageUrl: https://remix.run/
 
 - id: sveltekit
   name: SvelteKit
   npm: "@sveltejs/kit"
   github: sveltejs/kit
-  description: >-
-    The fastest way to build Svelte apps
+  # description: >-
+  #   The fastest way to build Svelte apps
   homepageUrl: https://kit.svelte.dev/
   patterns:
     - sevlt( |-)?kit

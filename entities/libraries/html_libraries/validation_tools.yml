@@ -1,0 +1,15 @@
+- id: html_hint
+  name: HTMLHint
+  homepageUrl: https://htmlhint.com/
+
+- id: html_validate
+  name: HTML-validate
+  homepageUrl: https://html-validate.org/
+
+- id: nu_html_checker
+  name: Validator.nu HTML Checker
+  homepageUrl: https://validator.nu/
+
+- id: w3c_validator
+  name: W3C Validator
+  homepageUrl: https://validator.w3.org/
