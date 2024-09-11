@@ -171,6 +171,12 @@
   description: |
     The EditContext interface represents the text edit context of an element that was made editable by using the EditContext API.
   mdn: en-US/docs/Web/API/EditContext
+  example:
+    language: js
+    code: |
+      const canvas = document.createElement("canvas");
+      const editContext = new EditContext();
+      canvas.editContext = editContext;
 
 - id: caret_position_from_point
   name: |
@@ -181,4 +187,5 @@
     language: js
     code: |-
       const range = document.caretPositionFromPoint(e.clientX, e.clientY);
+      const textNode = range.offsetNode;
       const offset = range.offset;

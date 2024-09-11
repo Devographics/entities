@@ -5,6 +5,8 @@
 - id: lighthouse
   name: Lighthouse
   homepageUrl: https://developer.chrome.com/docs/lighthouse/overview/
+  tags:
+    - performance
 
 - id: chrome_devtools
   name: Chrome DevTools

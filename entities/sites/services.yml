@@ -319,9 +319,6 @@
 
 - id: convex
 
-- id: datadog
-  name: Datadog
-
 - id: launch_darkly
 
 - id: log_rocket
@@ -363,3 +360,75 @@
 - id: mattermost
 
 - id: miro
+
+- id: pagespeed_insights
+  name: PageSpeed Insights
+  homepageUrl: https://pagespeed.web.dev/
+  tags:
+    - performance
+
+- id: webpagetest
+  name: WebPageTest
+  homepageUrl: https://www.webpagetest.org/
+  tags:
+    - performance
+
+- id: pingdom
+  name: Pingdom
+  homepageUrl: https://www.pingdom.com/
+  tags:
+    - performance
+
+- id: google_analytics
+  name: Google Analytics
+  homepageUrl: https://analytics.google.com/
+  tags:
+    - analytics
+
+- id: plausible
+  name: Plausible Analytics
+  homepageUrl: https://plausible.io/
+  tags:
+    - analytics
+
+- id: fathom
+  name: Fathom Analytics
+  homepageUrl: https://usefathom.com/
+  tags:
+    - analytics
+
+- id: new_relic
+  name: New Relic
+  homepageUrl: https://newrelic.com/
+  tags:
+    - analytics
+
+- id: mixpanel
+  name: Mixpanel
+  homepageUrl: https://mixpanel.com/
+  tags:
+    - analytics
+
+- id: clicky
+  name: Clicky
+  homepageUrl: https://clicky.com/
+  tags:
+    - analytics
+
+- id: matomo
+  name: Matomo
+  homepageUrl: https://matomo.org/
+  tags:
+    - analytics
+
+- id: heap
+  name: Heap
+  homepageUrl: https://www.heap.io/
+  tags:
+    - analytics
+
+- id: datadog
+  name: Datadog
+  homepageUrl: https://www.datadoghq.com/
+  tags:
+    - analytics

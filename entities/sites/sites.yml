@@ -523,3 +523,19 @@
 - id: react_tutorial
   name: React Tutorial
   homepageUrl: https://react-tutorial.app/
+
+- id: chrome_platform_status
+  name: Chrome Platform Status
+  homepageUrl: https://cr-status.appspot.com/roadmap
+
+- id: webkit_blog
+  name: WebKit Blog
+  homepageUrl: https://webkit.org/blog/
+
+- id: http_archive
+  name: HTTP Archive
+  homepageUrl: https://httparchive.org/
+
+- id: web_features_explorer
+  name: Web Features Explorer
+  homepageUrl: https://web-platform-dx.github.io/web-features-explorer/
