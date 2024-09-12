@@ -79,13 +79,22 @@
     Provides a mechanism for styling arbitrary text ranges on a document by using JavaScript to create the ranges, and CSS to style them.
   mdn: en-US/docs/Web/API/CSS_Custom_Highlight_API
   example:
+    # TODO: add support for multiple code examples
     language: js
     code: |
-      const parentNode = document.getElementById("foo");
 
+      // css
+      ::highlight(my-custom-highlight) {
+        background-color: blue;
+      }
+
+      // js
+      const parentNode = document.getElementById("foo");
       const range1 = new Range();
       range1.setStart(parentNode, 10);
       range1.setEnd(parentNode, 20);
+      const highlight = new Highlight(range1);
+      CSS.highlights.set("my-custom-highlight", highlight);
 
 - id: set_html_unsafe
   name: "`setHtmlUnsafe()`"

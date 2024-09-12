@@ -526,7 +526,7 @@
 
 - id: chrome_platform_status
   name: Chrome Platform Status
-  homepageUrl: https://cr-status.appspot.com/roadmap
+  homepageUrl: https://chromestatus.com/
 
 - id: webkit_blog
   name: WebKit Blog
