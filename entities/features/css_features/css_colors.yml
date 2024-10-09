@@ -12,9 +12,6 @@
         background: color(display-p3 0 1 0);
       }
   caniuse: css-color-function
-  tags:
-    - css
-    - css_colors
 
 - id: accent_color
   name: "`accent-color`"
@@ -40,9 +37,6 @@
       .high-contrast {
         color: color-contrast(#008080 vs olive, var(--myColor), #d2691e);
       }
-  tags:
-    - css
-    - css_colors
 
 - id: currentcolor
   name: "`currentColor`"
@@ -57,9 +51,6 @@
         background: currentColor;
       }
   caniuse: currentcolor
-  tags:
-    - css
-    - css_colors
 
 - id: color_mix
   name: "`color-mix()`"
@@ -71,9 +62,9 @@
         background: color-mix(in lab, white 20%, #34c9eb);
       }
   caniuse: mdn-css_types_color_color-mix
-  tags:
-    - css
-    - css_colors
+  patterns:
+    - color, mix [l]
+    - color, mixing [l]
 
 - id: wide_gamut_colors
   name: Wide Gamut Colors
@@ -88,9 +79,9 @@
         background-color: lab(29.2345% 39.3825 20.0664);
         background-color: lch(29.2345% 44.2 27);
       }
-  tags:
-    - css
-    - css_colors
+  patterns:
+    - oklch
+    - p3
 
 - id: relative_colors
   name: Relative Colors
@@ -107,8 +98,6 @@
         background-color: hsl(from var(--color) h s calc(l * 1.2))
       }
   tags:
-    - css
-    - css_colors
     - html_interoperability_features
   patterns:
     - relative color
@@ -126,8 +115,6 @@
         }
       }
   tags:
-    - css
-    - css_colors
     - accessibility
 
 - id: prefers_contrast
@@ -142,9 +129,6 @@
           outline: 2px solid black;
         }
       }
-  tags:
-    - css
-    - css_colors
 
 - id: gradient_color_spaces
   # mdn:
@@ -159,6 +143,3 @@
       .gradient {
         background: linear-gradient(in oklab, hsl(80 90% 50%), red);
       }
-  tags:
-    - css
-    - css_colors

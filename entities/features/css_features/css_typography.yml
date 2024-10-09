@@ -224,3 +224,19 @@
   tags:
     - css
     - css_typography
+
+- id: first_letter
+  name: "`::first-letter`"
+  mdn: /en-US/docs/Web/CSS/::first-letter
+  caniuse: css-first-letter
+  example:
+    language: css
+    code: |
+      p::first-letter {
+        font-size: 250%;
+        margin-right: 6px;
+        float: left;
+      }
+  tags:
+    - css
+    - css_typography

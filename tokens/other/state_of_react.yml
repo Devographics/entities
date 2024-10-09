@@ -27,10 +27,3 @@
   name: Hobby
   tags:
     - usage_type
-
-# react_new_features
-
-- id: useoptimistic
-  name: useOptimistic
-  tags:
-    - react_new_features

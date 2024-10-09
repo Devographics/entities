@@ -35,3 +35,37 @@
     - has
   tags:
     - browser_interoperability
+
+- id: custom_css_framework
+  name: Custom CSS Framework
+  tags:
+    - css_frameworks
+  patterns:
+    - custom
+    - homegrown
+    - my own
+    - in(-| )house
+    - internal
+    - mine
+
+- id: no_css_framework
+  name: No CSS Framework
+  tags:
+    - css_frameworks
+  patterns:
+    - no framework
+    - none
+    - don't use
+    - vanilla
+
+- id: no_css_in_js
+  name: No CSS-in-JS
+  tags:
+    - css_in_js
+  patterns:
+    - no framework
+    - none
+    - don't use
+    - vanilla
+    - css-in-js
+    - css in js

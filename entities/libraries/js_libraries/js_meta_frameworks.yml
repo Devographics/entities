@@ -106,3 +106,7 @@
 - id: starlight
   name: Starlight
   homepageUrl: https://starlight.astro.build/
+
+- id: tanstack_start
+  name: TanStack Start
+  homepageUrl: https://tanstack.com/start/latest

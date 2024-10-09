@@ -20,6 +20,8 @@
       .scroller section {
         scroll-snap-align: start;
       }
+  patterns:
+    - scroll snapping
 
 - id: overscroll_behavior
   name: "`overscroll-behavior`"

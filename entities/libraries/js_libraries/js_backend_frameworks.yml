@@ -240,3 +240,7 @@
 - id: moleculer
   name: Moleculer
   homepageUrl: https://moleculer.services/index.html
+
+- id: create_t3_app
+  name: create-t3-app
+  homepageUrl: https://create.t3.gg/

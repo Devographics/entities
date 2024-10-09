@@ -16,17 +16,22 @@
     - isolation
     - scop(e|ing)
 
-# catches too much stuff
-# - id: functions
-#   name: Functions
-#   tags:
-#     - css_missing_features
+- id: css_functions
+  name: CSS Functions
+  patterns:
+    - functions [e]
+    - function [e]
+    - custom functions
 
 - id: conditional_logic
   name: Conditional Logic
   patterns:
     - conditional
     - if statement
+    - if()
+    - if, then [l]
+    - if, else [l]
+    - when, else [l]
 
 - id: houdini
   name: CSS Houdini
@@ -100,6 +105,8 @@
     - select input
     - select menu
     - select styling
+  tags:
+    - css_missing_features
 
 - id: random
   name: "`random()` Function"
@@ -116,3 +123,153 @@
     - to auto
     - to/from auto
     - "height(:| )auto"
+    - animate, auto [l]
+    - animating, auto [l]
+
+- id: at_custom_media
+  name: "`@custom-media`"
+  resources:
+    - url: https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-custom-media
+      title: PostCSS Custom Media
+  patterns:
+    - "@custom-media [e]"
+
+- id: flex_wrap_detection
+  name: Flex Wrap Detection
+
+- id: previous_sibling_selector
+  name: Previous Sibling Selector
+
+- id: cursor_position
+  name: Cursor Position
+  patterns:
+    - cursor, position [l]
+    - mouse, position [l]
+    - pointer, position [l]
+
+- id: text_color_based_on_background
+  name: Dynamic Text Color
+  description: Change text color based on background
+
+- id: current_background_color
+  name: "`currentBackgroundColor`"
+
+- id: native_visually_hidden
+  name: Visually Hidden Content
+  description: Native support for visually hidden content.
+
+- id: generated_content_alt_text
+  name: Generated Content Alt Text
+  description: >
+    Add alt text to generated (`::before`, `::after`) content.
+
+- id: flex_wrapping_detection
+  name: Wrapping Detection
+  description: Detecting when a flex or grid item has wrapped to another line.
+
+- id: more_pseudo_elements
+  name: More Pseudo-Elements
+  description: Having more than two pseudo-elements per element.
+  patterns:
+    - after-1
+    - after-2
+    - before-1
+    - before-2
+
+- id: svg_in_css
+  name: SVG-in-CSS
+  description: >
+    Support for SVG syntax inside CSS code (such as inside `background`).
+
+- id: masonry_layout
+  name: Masonry Layout
+  description: Native support for Pinterest-style free-flowing grid layouts.
+  patterns:
+    - masonry
+
+- id: grid_lines_styling
+  name: Grid-lines Styling
+  description: The ability to style the invisible lines that divide a grid.
+
+- id: media_queries_variables
+  name: Media Queries Variables
+  description: Being able to use variables inside media queries.
+
+- id: mixins
+  name: Mixins
+  description: Group and reuse definitions dynamically.
+  patterns:
+    - mixins?
+
+- id: css_toggles
+  name: CSS Toggles
+  description: A way to associate a "toggleable value" with an element
+  resources:
+    - title: Unofficial Proposal Draft
+      url: https://tabatkins.github.io/css-toggle/
+  example:
+    language: css
+    code: |
+      li {
+        toggle: --check self;
+      }
+      li:toggle(--check) {
+        color: silver;
+        text-decoration: line-through;
+      }
+
+- id: improved_attr
+  name: Improved `attr()`
+  description: Support for properties other than content
+  patterns:
+    - attr, property [l]
+    - attr, properties [l]
+
+- id: native_css_modules
+  name: Native CSS Modules
+  patterns:
+    - css, modules [l]
+    - modules [e]
+
+- id: native_css_theming
+  name: Native CSS Theming
+  patterns:
+    - theming [e]
+
+- id: scroll_animations
+  name: Animate on Scroll
+  patterns:
+    - animate, scroll [l]
+    - animation, scroll [l]
+
+- id: better_svg_styling
+  name: Better SVG Styling
+  patterns:
+    - svg, styling [l]
+    - svg, control [l]
+    - svg, customization [l]
+
+- id: inner_border_radius
+  name: Inner Border Radius
+  patterns:
+    - inner, border, radius [l]
+    - inverted, border, radius [l]
+    - outline, radius [l]
+
+- id: nth_letter_selector
+  name: Nth-letter Selector
+  patterns:
+    - nth, letter [l]
+
+- id: nth_of_class
+  name: Nth-of-class Selector
+
+- id: gradient_borders
+  name: Gradient Borders
+  patterns:
+    - border, gradient [l]
+
+- id: squircle_border_radius
+  name: Squircle Border Radius
+  patterns:
+    - squircle

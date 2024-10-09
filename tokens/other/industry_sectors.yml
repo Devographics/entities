@@ -28,6 +28,10 @@
 
 - id: tourism
 
+- id: hospitality
+  patterns:
+    - restaurant
+
 - id: energy
 
 - id: crypto
@@ -39,6 +43,8 @@
 - id: non_profit
   patterns:
     - nonprofit
+    - ngo
+    - charity
 
 - id: research
   patterns:
@@ -68,6 +74,10 @@
   patterns:
     - tech
     - it [e]
+    - information technology
+    - technology
+    - software
+    - web development
 
 - id: web3
 
@@ -92,6 +102,8 @@
 - id: iot
 
 - id: art
+  patterns:
+    - arts
 
 - id: banking
   patterns:
@@ -193,6 +205,9 @@
 - id: telecommunications
   patterns:
     - broadcast
+    - telecom
+    - telcom
+    - telecommunication
 
 - id: ai
   name: AI
@@ -216,3 +231,14 @@
 
 - id: e_sports
   name: Esports
+
+- id: climate
+
+- id: genealogy
+
+- id: health_care
+  patterns:
+    - medicine
+    - health
+
+- id: retired

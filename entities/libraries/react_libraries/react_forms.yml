@@ -132,3 +132,7 @@
 - id: tanstack_form
   name: TanStack Form
   homepageUrl: https://tanstack.com/form/latest
+
+- id: mantine_forms
+  name: Mantine Forms
+  homepageUrl: https://mantine.dev/form/use-form/

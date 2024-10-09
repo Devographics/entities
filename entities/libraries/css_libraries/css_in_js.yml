@@ -1,7 +1,3 @@
-#################################################
-# CSS in JS
-#################################################
-
 - id: styled_components
   name: Styled Components
   contexts: [state_of_css]
@@ -159,3 +155,7 @@
 - id: pigment_css
   name: Pigment CSS
   homepageUrl: https://mui.com/blog/introducing-pigment-css/
+
+- id: ecsstatic
+  name: ecsstatic
+  homepageUrl: https://www.ecsstatic.dev/

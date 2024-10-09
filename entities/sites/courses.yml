@@ -56,8 +56,7 @@
   homepageUrl: https://www.linkedin.com/learning/
   patterns:
     - lynda
-    - linkedin
-    - linked( |-)in
+    - linked( |-)?in, learning [l]
 
 - id: ultimate_courses
   name: Ultimate Courses

@@ -15,9 +15,6 @@
         float: left;
         shape-outside: circle(50%);
       }
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: object_fit
   name: "`object-fit`"
@@ -29,25 +26,16 @@
       .contain {
         object-fit: contain;
       }
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: clip_path
   name: "`clip-path`"
   mdn: /en-US/docs/Web/CSS/clip-path
   caniuse: css-clip-path
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: masks
   name: Masking
   mdn: /en-US/docs/Web/CSS/CSS_Masking
   caniuse: css-masks
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: blend_modes
   description: >
@@ -61,9 +49,6 @@
         color: #000;
         mix-blend-mode: overlay;
       }
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: filter_effects
   name: Filters & Effects
@@ -77,9 +62,20 @@
       .image{
         filter: contrast(175%) blur(5px)
       }
-  tags:
-    - css
-    - css_shapes_and_graphics
+
+- id: filter_effects_blur
+  name: "`blur()` filter"
+  mdn: /en-US/docs/Web/CSS/filter-function/blur
+  caniuse: css-filters
+  example:
+    language: css
+    code: |
+      .image{
+        filter: blur(5px)
+      }
+  patterns:
+    - blur()
+    - blur [e]
 
 - id: backdrop_filter
   name: "`backdrop-filter`"
@@ -91,9 +87,6 @@
       .box {
         backdrop-filter: blur(10px);
       }
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: intrinsic_sizing
   name: Intrinsic Sizing
@@ -107,17 +100,13 @@
       h2 {
         width: max-content;
       }
-  tags:
-    - css
-    - css_shapes_and_graphics
+  patterns:
+    - fit-content
 
 - id: repeating_linear_gradient
   name: "`repeating-linear-gradient()`"
   mdn: /en-US/docs/Web/CSS/gradient/repeating-linear-gradient()
   caniuse: mdn-css_types_image_gradient_repeating-linear-gradient
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: conic_gradient
   name: "`conic-gradient()`"
@@ -129,19 +118,15 @@
       .blue-to-red {
         background: conic-gradient(from 45deg, blue, red);
       }
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: border_image
   name: "`border-image`"
   mdn: /en-US/docs/Web/CSS/border-image
   caniuse: border-image
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: linear_easing_function
+  name: >
+    `linear` Easing Function
   mdn: en-US/docs/Web/CSS/easing-function#linear_easing_function
   caniuse: mdn-css_types_easing-function_linear-function
   example:
@@ -159,40 +144,6 @@
     - title: Linear() Generator
       url: https://linear-easing-generator.netlify.app/
       language: en-US
-  tags:
-    - css
-    - css_shapes_and_graphics
-
-- id: view_transitions
-  name: ViewTransition API
-  mdn: en-US/docs/Web/API/View_Transitions_API
-  caniuse: mdn-api_viewtransition
-  example:
-    language: css
-    code: |
-      ::view-transition-old(main-image),
-      ::view-transition-new(main-image) {
-        transform-origin: right top;
-      }
-
-      ::view-transition-new(main-image) {
-        animation: 400ms ease-out both grow;
-      }
-
-      figure {
-        view-transition-name: main-image;
-      }
-  resources:
-    - title: Smooth and simple transitions with the View Transitions API
-      url: https://developer.chrome.com/docs/web-platform/view-transitions/
-      language: en-US
-  tags:
-    - css
-    - css_shapes_and_graphics
-  patterns:
-    - view transition
-    - page transition
-    - viewtransition
 
 - id: background_attachment
   name: >
@@ -204,9 +155,6 @@
       background-attachment: scroll;
       background-attachment: fixed;
       background-attachment: local;
-  tags:
-    - css
-    - css_shapes_and_graphics
 
 - id: offset_path
   name: >
@@ -221,6 +169,3 @@
         offset-path: border-box;
         offset-distance: 5%;
       }
-  tags:
-    - css
-    - css_shapes_and_graphics

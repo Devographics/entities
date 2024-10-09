@@ -14,9 +14,6 @@
       .foo {
         background-color: var(--main-bg-color);
       }
-  tags:
-    - css
-    - css_other
 
 - id: feature_support_queries
   name: "`@supports`"
@@ -29,49 +26,31 @@
         //...
       }
   patterns:
-    - "@supports"
-  tags:
-    - css
-    - css_other
+    - "@supports [e]"
 
 - id: containment
   name: Contain
   mdn: /en-US/docs/Web/CSS/contain
-  tags:
-    - css
-    - css_other
 
 - id: will_change
   name: "`will-change`"
   mdn: /en-US/docs/Web/CSS/will-change
   caniuse: will-change
-  tags:
-    - css
-    - css_other
 
 - id: calc
   name: "`calc()`"
   mdn: /en-US/docs/Web/CSS/calc
   caniuse: calc
-  tags:
-    - css
-    - css_other
 
 - id: houdini
   name: CSS Houdini
   mdn: /en-US/docs/Web/Houdini
   caniuse: css-paint-api
-  tags:
-    - css
-    - css_other
 
 - id: scroll_margin_scroll_padding
   name: "`scroll-padding`"
   mdn: /en-US/docs/Web/CSS/scroll-padding
   caniuse: mdn-css_properties_scroll-padding
-  tags:
-    - css
-    - css_other
 
 - id: at_property
   name: "`@property`"
@@ -85,24 +64,22 @@
         inherits: false;
         initial-value: #c0ffee;
       }
-  tags:
-    - css
-    - css_other
+  patterns:
+    - "@property [e]"
 
 - id: at_layer
   name: "`@layer`"
   w3c: https://www.w3.org/TR/css-cascade-5/
-  tags:
-    - css
-    - css_other
+  patterns:
+    - "@layer [e]"
+    - "@layers [e]"
+    - layer [e]
+    - layers [e]
 
 - id: resize
   name: "`resize`"
   mdn: /en-US/docs/Web/CSS/resize
   caniuse: css-resize
-  tags:
-    - css
-    - css_other
 
 - id: content_visibility
   name: "`content-visibility`"
@@ -115,9 +92,6 @@
         content-visibility: auto;
         contain-intrinsic-size: 350px;
       }
-  tags:
-    - css
-    - css_other
 
 - id: viewport_units
   mdn: /en-US/docs/Web/CSS/length
@@ -125,9 +99,6 @@
   patterns:
     - vh
     - vw
-  tags:
-    - css
-    - css_other
 
 - id: cascade_layers
   mdn: /en-US/docs/Web/CSS/@layer
@@ -136,16 +107,10 @@
     language: css
     code: |
       @layer layer-name {rules}
-  tags:
-    - css
-    - css_other
 
 - id: math_functions
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
   caniuse: css-math-functions
-  tags:
-    - css
-    - css_other
 
 - id: comparison_functions
   name: Comparison Functions
@@ -159,9 +124,6 @@
       .element {
         width: clamp(100px, 50vw, 600px);
       }
-  tags:
-    - css
-    - css_other
 
 - id: trigonometric_functions
   name: Trigonometric Functions
@@ -176,9 +138,6 @@
         width: calc(100px * cos(45deg));
         height: calc(100px * cos(45deg));
       }
-  tags:
-    - css
-    - css_other
 
 - id: exponential_functions
   name: Exponential Functions
@@ -192,9 +151,6 @@
       h1 {
         font-size: calc(1rem * pow(1.5, 4));
       }
-  tags:
-    - css
-    - css_other
 
 - id: sign_related_functions
   name: Sign-related Functions
@@ -209,9 +165,6 @@
         top: sign(20vh - 100px);
         width: abs(20% - 100px);
       }
-  tags:
-    - css
-    - css_other
 
 - id: stepped_value_functions
   name: Stepped Value Functions
@@ -226,9 +179,6 @@
         width: round(var(--width), 50px);
         line-height: mod(7, 2); /* 1 */
       }
-  tags:
-    - css
-    - css_other
 
 - id: css_nesting
   name: CSS Nesting
@@ -255,9 +205,6 @@
     - nesting
     - nested
     - nested css
-  tags:
-    - css
-    - css_other
     - features_html
     - css_missing_features
     - html_interoperability_features
@@ -268,9 +215,6 @@
   name: "`env()` Function"
   mdn:
   caniuse:
-  tags:
-    - css
-    - css_other
 
 - id: shadow_dom_css
   description: >
@@ -353,9 +297,6 @@
           url("small-balloons.jpg") 1x,
           url("large-balloons.jpg") 2x);
       }
-  tags:
-    - css
-    - css_other
 
 - id: image_function
   name: "`image()`"
@@ -367,17 +308,11 @@
       .foo {
         background-image: image("myimage.webp#xywh=0,20,40,60");
       }
-  tags:
-    - css
-    - css_other
 
 - id: attr_function
   name: "`attr()`"
   mdn: /en-US/docs/Web/CSS/attr
   caniuse: css3-attr
-  tags:
-    - css
-    - css_other
 
 - id: individual_transform_properties
   # mdn:
@@ -390,9 +325,6 @@
         rotate: 30deg;
         scale: 1.2;
       }
-  tags:
-    - css
-    - css_other
 
 - id: at_scope
   name: "`@scope`"
@@ -411,9 +343,6 @@
           font-size: 1.2rem;
         }
       }
-  tags:
-    - css
-    - css_other
 
 - id: anchor_positioning
   name: Anchor Positioning
@@ -433,9 +362,11 @@
   tags:
     - html_interoperability_features
   patterns:
-    - anchor [e]
+    - anchor
     - anchor, api [l]
     - anchor, position [l]
+    - anchor()
+    - anchoring
 
 - id: nth_child_of_s
   name: "`nth-child of S`"
@@ -451,3 +382,61 @@
       :nth-child(2 of .highlight)
         border: 2px red solid;
       }
+
+- id: at_import
+  name: "`@import`"
+  description: >
+    The @import CSS at-rule is used to import style rules from other valid stylesheets.
+  mdn: /en-US/docs/Web/CSS/@import
+  caniuse: mdn-css_at-rules_import
+  example:
+    language: css
+    code: |
+      @import url("my-imported-styles.css");
+  patterns:
+    - "@import [e]"
+
+- id: at_page
+  name: "`@page`"
+  mdn: /en-US/docs/Web/CSS/@page
+  caniuse: css-paged-media
+  example:
+    language: css
+    code: |
+      /* Targets all even-numbered pages */
+      @page :left {
+        margin-top: 4in;
+      }
+  patterns:
+    - "@page [e]"
+
+- id: calc_size
+  name: "`calc-size()`"
+  resources:
+    - url: https://chromestatus.com/feature/5196713071738880
+      title: CSS interpolate-size property and calc-size() function
+  caniuse: mdn-css_types_calc-size
+  example:
+    language: css
+    code: |
+      .element {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s;
+      }
+
+      .element.open {
+        height: calc-size(auto);
+      }
+
+- id: sibling_index
+  name: "`sibling-index()`"
+  resources:
+    - title: "Tree Counting Functions: the sibling-count() and sibling-index() notations"
+      url: https://www.w3.org/TR/css-values-5/#tree-counting
+
+- id: sibling_count
+  name: "`sibling-count()`"
+  resources:
+    - title: "Tree Counting Functions: the sibling-count() and sibling-index() notations"
+      url: https://www.w3.org/TR/css-values-5/#tree-counting

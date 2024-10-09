@@ -3,81 +3,84 @@
 - id: safari
   patterns:
     - webkit
-  tags:
-    - css_pain_points
 
 - id: email
   # name: Email
-  tags:
-    - css_pain_points
 
 - id: ios
-  tags:
-    - css_pain_points
 
 - id: performance
   # name: Performance
   patterns:
     - perf
-  tags:
-    - css_pain_points
 
 - id: internet_explorer
   patterns:
     - ie( |-)?11
-  tags:
-    - css_pain_points
 
 - id: animation
   # name: Animation
   tags:
-    - css_pain_points
     - css_missing_features
 
 - id: z_index
   name: z-index
-  tags:
-    - css_pain_points
 
 - id: css_in_js_issues
-  tags:
-    - css_pain_points
 
 - id: svg
-  tags:
-    - css_pain_points
 
 - id: select
-  tags:
-    - css_pain_points
 
 - id: stacking_context
-  tags:
-    - css_pain_points
 
 - id: specificity
   name: Specificity
-  tags:
-    - css_pain_points
 
 - id: naming
   name: Naming
-  tags:
-    - css_pain_points
 
 - id: forms
   name: Forms
-  tags:
-    - css_pain_points
 
 - id: debugging
   name: Debugging
   patterns:
     - debug
-  tags:
-    - css_pain_points
 
 - id: compatibility
   name: Compatibility
-  tags:
-    - css_pain_points
+
+- id: cascade_issues
+  name: Cascade Management
+  patterns:
+    - cascad [p]
+
+- id: css_in_js_issues
+  name: CSS-in-JS
+  patterns:
+    - css(-| )in(-| )?js [p]
+
+- id: fonts_issues
+  name: Fonts
+  patterns:
+    - fonts [e]
+
+- id: layout_and_positioning_issues
+  name: Layout & positioning
+  patterns:
+    - layout
+    - positioning
+
+- id: prefix_issues
+  name: Prefixes
+  patterns:
+    - prefixes
+    - prefixing
+    - prefixed
+
+- id: unused_code_issues
+  name: Unused Code Management
+  patterns:
+    - unused
+    - duplicated

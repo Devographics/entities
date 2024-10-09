@@ -115,3 +115,16 @@
     language: js
     code: |
       taintUniqueValue(errMessage, lifetime, value)
+
+- id: preloading_resources
+  name: Preloading Resources
+  homepageUrl: https://vercel.com/blog/whats-new-in-react-19#preloading-resources
+
+- id: ref_as_a_prop
+  name: >
+    `ref` as a Prop
+  homepageUrl: https://vercel.com/blog/whats-new-in-react-19#ref-as-a-prop
+
+- id: built_in_head_tag_support
+  name: Built-in Head Tags Supports
+  homepageUrl: https://vercel.com/blog/whats-new-in-react-19#document-metadata-support

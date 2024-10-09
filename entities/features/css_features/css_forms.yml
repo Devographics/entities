@@ -1,0 +1,13 @@
+- id: field_sizing
+  name: "`field-sizing`"
+  mdn: /en-US/docs/Web/CSS/field-sizing
+  caniuse: mdn-css_properties_field-sizing
+  example:
+    language: css
+    code: |
+      input,
+      textarea {
+        field-sizing: content;
+        min-width: 50px;
+        max-width: 350px;
+      }

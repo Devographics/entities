@@ -5,9 +5,9 @@
   name: Grid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
-  tags:
-    - css
-    - css_layout
+  patterns:
+    - grid [e]
+    - grids [e]
 
 - id: subgrid
   name: Subgrid
@@ -28,33 +28,23 @@
       }
   patterns:
     - sub( |-)?grid
-  tags:
-    - css
-    - css_layout
 
 - id: regions
   name: CSS Regions
   caniuse: css-regions
-  tags:
-    - css
-    - css_layout
 
 - id: flexbox
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
   caniuse: flexbox
-  tags:
-    - css
-    - css_layout
     - html_interoperability_features
+  patterns:
+    - flex [e]
 
 - id: multi_column
   name: Multi-Column Layout
   mdn: /en-US/docs/Web/CSS/CSS_Columns
   caniuse: multicolumn
-  tags:
-    - css
-    - css_layout
 
 - id: writing_modes
   name: Writing Modes
@@ -66,16 +56,10 @@
       .vertical-text {
         writing-mode: vertical-lr;
       }
-  tags:
-    - css
-    - css_layout
 
 - id: exclusions
   name: Exclusions
   caniuse: css-exclusions
-  tags:
-    - css
-    - css_layout
 
 - id: position_sticky
   name: "`position:sticky`"
@@ -83,9 +67,6 @@
   caniuse: css-sticky
   patterns:
     - sticky
-  tags:
-    - css
-    - css_layout
 
 - id: stuck_selector
   name: "`:stuck`"
@@ -103,12 +84,6 @@
     # "sticky" is also present before or after in the same freeform string
     # - (?<=sticky)(.*?)(?=stuck)|(?<=stuck)(.*?)(?=sticky)
     - "(position)?(:| |: )?sticky(.*?)stuck|stuck(.*?)(position)?(:| |: )?sticky"
-  normalizationOverrides:
-    - position_sticky
-  tags:
-    - css
-    - css_layout
-    - css_missing_features
 
 - id: logical_properties
   name: CSS Logical Properties
@@ -123,9 +98,6 @@
         border-block: 8px solid blue;
         border-inline: 8px solid green;
       }
-  tags:
-    - css
-    - css_layout
 
 - id: aspect_ratio
   name: "`aspect-ratio`"
@@ -137,9 +109,6 @@
       .square {
         aspect-ratio: 1 / 1;
       }
-  tags:
-    - css
-    - css_layout
 
 - id: flexbox_gap
   # name: Flexbox `gap`
@@ -158,10 +127,6 @@
     - flexbox( |-)?gap
     - flex( |-)?gap
 
-  tags:
-    - css
-    - css_layout
-
 - id: break_rules
   name: Break Rules
   description: >
@@ -174,9 +139,6 @@
       .element {
         break-before: page;
       }
-  tags:
-    - css
-    - css_layout
 
 - id: at_container
   name: >
@@ -193,13 +155,11 @@
         }
       }
   patterns:
-    - "@container"
-    # - container # too broad
+    - "@container [e]"
+    - container [e]
+    - containers [e]
     - container( |-)(media|width)? ?quer(y|ies)
     - (element|object|component)s? (based )?(media )?quer(y|ies)
-  tags:
-    - css
-    - css_layout
     - html_interoperability_features
 
 - id: at_container_size
@@ -221,9 +181,6 @@
     # - container # too broad
     - container( |-)(media|width)? ?quer(y|ies)
     - (element|object|component)s? (based )?(media )?quer(y|ies)
-  tags:
-    - css
-    - css_layout
     - html_interoperability_features
 
 - id: at_container_style
@@ -239,10 +196,9 @@
       }
   patterns:
     - container, style [l]
-  tags:
-    - css
-    - css_layout
     - html_interoperability_features
+    - style query
+    - style queries
 
 - id: object_view_box
   name: "`object-view-box`"
@@ -257,11 +213,9 @@
   resources:
     - url: https://ishadeed.com/article/css-object-view-box/
       title: First Look At The CSS object-view-box Property
-  tags:
-    - css
-    - css_layout
 
 - id: viewport_percentage_length_units
+  name: Viewport-Relative Units
   description: >
     `lvh` / `lvw` / `lvmin` / `lvmax`, `sv*`, `dv*`, etc.
   mdn: /en-US/docs/Web/CSS/length#relative_length_units_based_on_viewport
@@ -275,9 +229,6 @@
       body {
         height: 100dvh;
       }
-  tags:
-    - css
-    - css_layout
   patterns:
     - dvh
     - dvw
@@ -297,22 +248,18 @@
       @media (400px < width < 1000px) {
         /* ... */
       }
-  tags:
-    - css
-    - css_layout
 
 - id: media_queries
   name: Media Queries
   mdn: /en-US/docs/Web/CSS/Media_Queries/Using_media_queries
   caniuse: css-mediaqueries
-  tags:
-    - css
-    - css_layout
 
 - id: margin_trim
   name: "`margin-trim`"
   mdn: /en-US/docs/Web/CSS/margin-trim
   caniuse: mdn-css_properties_margin-trim
-  tags:
-    - css
-    - css_layout
+
+- id: float
+  name: "`float`"
+  mdn: /en-US/docs/Web/CSS/float
+  caniuse: mdn-css_properties_float

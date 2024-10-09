@@ -36,6 +36,7 @@
       title: Chrome Platform Status
   tags:
     - features
+    - css_missing_features
   patterns:
     - accordion
 
@@ -456,6 +457,7 @@
       title: HTML Standard
   tags:
     - features
+    - css_interoperability_features
   patterns:
     - dialog
     - dialogue

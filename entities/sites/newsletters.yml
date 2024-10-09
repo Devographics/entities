@@ -122,6 +122,7 @@
   homepageUrl: https://tldr.tech/
   patterns:
     - tl;dr
+    - tldrwebdev
 
 - id: elm_weekly
   name: Elm Weekly
@@ -160,3 +161,9 @@
   homepageUrl: https://news.hada.io/
   patterns:
     - news.hada.io
+
+- id: unicorn_club
+  name: Unicorn Club
+  homepageUrl: https://unicornclub.dev/
+  patterns:
+    - unicorn, club [l]

@@ -5,25 +5,16 @@
 - id: css_transitions
   mdn: /en-US/docs/Web/CSS/CSS_Transitions
   caniuse: css-transitions
-  tags:
-    - css
-    - css_animations_and_transforms
 
 - id: css_transforms
   mdn: /en-US/docs/Web/CSS/CSS_Transforms
   caniuse: transforms2d
-  tags:
-    - css
-    - css_animations_and_transforms
 
 - id: css_animations
   mdn: /en-US/docs/Web/CSS/CSS_Animations
   caniuse: css-animation
   patterns:
     - animation
-  tags:
-    - css
-    - css_animations_and_transforms
 
 - id: perspective
   name: "`perspective`"
@@ -38,9 +29,6 @@
       .square {
         transform: rotateY(45deg);
       }
-  tags:
-    - css
-    - css_animations_and_transforms
 
 - id: discrete_properties_animations
   name: Discrete Properties Animations
@@ -66,3 +54,35 @@
           translate: 0 100vh;
         }
       }
+  patterns:
+    - allow, discrete [l]
+    - discrete
+    - starting(-| )?style
+
+- id: view_transitions
+  name: ViewTransition API
+  mdn: en-US/docs/Web/API/View_Transitions_API
+  caniuse: mdn-api_viewtransition
+  example:
+    language: css
+    code: |
+      ::view-transition-old(main-image),
+      ::view-transition-new(main-image) {
+        transform-origin: right top;
+      }
+
+      ::view-transition-new(main-image) {
+        animation: 400ms ease-out both grow;
+      }
+
+      figure {
+        view-transition-name: main-image;
+      }
+  resources:
+    - title: Smooth and simple transitions with the View Transitions API
+      url: https://developer.chrome.com/docs/web-platform/view-transitions/
+      language: en-US
+  patterns:
+    - view(-| )?transition
+    - page transition
+    - viewtransition

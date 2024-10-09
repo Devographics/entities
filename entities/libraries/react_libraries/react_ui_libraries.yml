@@ -1,6 +1,8 @@
 - id: shadcn_ui
   name: shadcn/ui
   homepageUrl: https://ui.shadcn.com/
+  patterns:
+    - shadcn
 
 - id: blueprint_js
   name: Blueprint

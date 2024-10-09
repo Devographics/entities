@@ -89,6 +89,8 @@
   homepageUrl: https://tailwindcss.com/
   patterns:
     - tailwind
+  tags:
+    - css_pain_points
 
 - id: tailwind_ui
   name: Tailwind UI
@@ -174,6 +176,8 @@
   contexts: [state_of_css]
   homepageUrl: https://picocss.com/
   github: picocss/pico
+  patterns:
+    - pico
 
 - id: shoelace
   name: Shoelace
@@ -259,3 +263,23 @@
 - id: flowbite
   name: Flowbite
   homepageUrl: https://flowbite.com/
+
+- id: clarity
+  name: Clarity Design System
+  homepageUrl: https://clarity.design/
+
+- id: element_plus
+  name: Element Plus
+  homepageUrl: https://element-plus.org/
+
+- id: primeflex
+  name: Primeflex
+  homepageUrl: https://primeflex.org/
+
+- id: primeng
+  name: PrimeNG
+  homepageUrl: https://primeng.org/
+
+- id: primevue
+  name: PrimeVue
+  homepageUrl: https://primevue.org/

@@ -25,5 +25,11 @@
     - yearly
     - taken it
     - filled it
+    - announcement_email
+    - announcement_post
+    - post_survey_share
   tags:
     - sources_state_of_css
+
+- id: angular_homepage
+  name: Angular Community

@@ -166,3 +166,27 @@
   homepageUrl: https://react.dev/reference/react/useTransition
   patterns:
     - transition
+
+- id: useactionstate
+  name: >
+    `useActionState` (formerly `useFormState`)
+  description: >
+    `useActionState` is a Hook that allows you to update state based on the result of a form action.
+  example:
+    language: jsx
+    code: |
+      const [state, formAction] = useActionState(fn, initialState, permalink?);
+  homepageUrl: https://react.dev/reference/react/useActionState
+
+- id: useoptimistic
+  name: >
+    `useOptimistic`
+  description: >
+    `useOptimistic` is a React Hook that lets you optimistically update the UI.
+  example:
+    language: jsx
+    code: |
+      const [optimisticState, addOptimistic] = useOptimistic(state, updateFn);
+  homepageUrl: https://react.dev/reference/react/useOptimistic
+  tags:
+    - react_new_features
