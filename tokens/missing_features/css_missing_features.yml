@@ -185,7 +185,7 @@
   name: Masonry Layout
   description: Native support for Pinterest-style free-flowing grid layouts.
   patterns:
-    - masonry
+    - ma(n)?sonry
 
 - id: grid_lines_styling
   name: Grid-lines Styling
@@ -273,3 +273,13 @@
   name: Squircle Border Radius
   patterns:
     - squircle
+
+- id: media_query_variables
+  name: Media Query Variables
+  patterns:
+    - media, quer(y|ies), variable(s)? [l]
+
+- id: media_query_variables
+  name: Media Query Variables
+  patterns:
+    - media, quer(y|ies), variable(s)? [l]

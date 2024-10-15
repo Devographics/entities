@@ -352,6 +352,8 @@
       .slider-link {
         anchor-name: var(--is);
       }
+  mdn: /en-US/docs/Web/CSS/CSS_anchor_positioning
+  caniuse: css-anchor-positioning
   resources:
     - title: >
         Future CSS: Anchor Positioning

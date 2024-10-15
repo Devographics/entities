@@ -26,8 +26,6 @@
 - id: z_index
   name: z-index
 
-- id: css_in_js_issues
-
 - id: svg
 
 - id: select
