@@ -183,7 +183,7 @@
 - id: css_nesting
   name: CSS Nesting
   w3c: TR/css-nesting-1/
-  mdn:
+  mdn: en-US/docs/Web/CSS/CSS_nesting
   caniuse:
   example:
     language: css
