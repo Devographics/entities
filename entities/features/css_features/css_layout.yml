@@ -2,6 +2,7 @@
 # CSS layout
 #################################################
 - id: grid
+  webFeaturesId: grid
   name: Grid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
@@ -10,6 +11,7 @@
     - grids [e]
 
 - id: subgrid
+  webFeaturesId: subgrid
   name: Subgrid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
   caniuse: css-subgrid
@@ -42,11 +44,17 @@
     - flex [e]
 
 - id: multi_column
+  webFeaturesId: column-fill
   name: Multi-Column Layout
   mdn: /en-US/docs/Web/CSS/CSS_Columns
   caniuse: multicolumn
+  patterns:
+    - column
+  tags:
+    - browser_interoperability
 
 - id: writing_modes
+  webFeaturesId: writing-mode
   name: Writing Modes
   mdn: /en-US/docs/Web/CSS/CSS_Writing_Modes
   caniuse: css-writing-mode
@@ -62,6 +70,7 @@
   caniuse: css-exclusions
 
 - id: position_sticky
+  webFeaturesId: sticky-positioning
   name: "`position:sticky`"
   mdn: /en-US/docs/Web/CSS/position
   caniuse: css-sticky
@@ -86,6 +95,7 @@
     - "(position)?(:| |: )?sticky(.*?)stuck|stuck(.*?)(position)?(:| |: )?sticky"
 
 - id: logical_properties
+  webFeaturesId: logical-properties
   name: CSS Logical Properties
   description: >
     `margin-block-start`, `padding-inline-end`, `border-inline-start`…
@@ -100,6 +110,7 @@
       }
 
 - id: aspect_ratio
+  webFeaturesId: aspect-ratio
   name: "`aspect-ratio`"
   mdn: /en-US/docs/Web/CSS/aspect-ratio
   caniuse: mdn-css_properties_aspect-ratio
@@ -163,6 +174,7 @@
     - html_interoperability_features
 
 - id: at_container_size
+  webFeaturesId: container-queries
   name: >
     `@container` size queries
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
@@ -184,6 +196,7 @@
     - html_interoperability_features
 
 - id: at_container_style
+  webFeaturesId: container-style-queries
   name: >
     `@container` style queries
   mdn: en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries#container_style_queries_2
@@ -215,6 +228,7 @@
       title: First Look At The CSS object-view-box Property
 
 - id: viewport_percentage_length_units
+  webFeaturesId: viewport-unit-variants
   name: Viewport-Relative Units
   description: >
     `lvh` / `lvw` / `lvmin` / `lvmax`, `sv*`, `dv*`, etc.
@@ -238,6 +252,7 @@
     - svw
 
 - id: media_queries_range_contexts
+  webFeaturesId: media-query-range-syntax
   name: Media Queries Range Contexts
   # mdn:
   w3c: https://www.w3.org/TR/mediaqueries-4/#mq-range-context

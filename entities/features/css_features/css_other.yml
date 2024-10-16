@@ -16,6 +16,7 @@
       }
 
 - id: feature_support_queries
+  webFeaturesId: supports
   name: "`@supports`"
   mdn: /en-US/docs/Web/CSS/@supports
   caniuse: css-supports-api
@@ -53,6 +54,7 @@
   caniuse: mdn-css_properties_scroll-padding
 
 - id: at_property
+  webFeaturesId: registered-custom-properties
   name: "`@property`"
   mdn: /en-US/docs/Web/CSS/@property
   caniuse: mdn-css_at-rules_property
@@ -66,15 +68,6 @@
       }
   patterns:
     - "@property [e]"
-
-- id: at_layer
-  name: "`@layer`"
-  w3c: https://www.w3.org/TR/css-cascade-5/
-  patterns:
-    - "@layer [e]"
-    - "@layers [e]"
-    - layer [e]
-    - layers [e]
 
 - id: resize
   name: "`resize`"
@@ -101,18 +94,26 @@
     - vw
 
 - id: cascade_layers
+  webFeaturesId: cascade-layers
   mdn: /en-US/docs/Web/CSS/@layer
   caniuse: css-cascade-layers
   example:
     language: css
     code: |
       @layer layer-name {rules}
+  w3c: https://www.w3.org/TR/css-cascade-5/
+  patterns:
+    - "@layer [e]"
+    - "@layers [e]"
+    - layer [e]
+    - layers [e]
 
 - id: math_functions
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
   caniuse: css-math-functions
 
 - id: comparison_functions
+  webFeaturesId: min-max-clamp
   name: Comparison Functions
   description: >
     `min()`, `max()`, `clamp()`
@@ -124,8 +125,12 @@
       .element {
         width: clamp(100px, 50vw, 600px);
       }
+  patterns:
+    - clamp [e]
+    - clamp\(\) [e]
 
 - id: trigonometric_functions
+  webFeaturesId: trig-functions
   name: Trigonometric Functions
   description: >
     `sin()`, `cos()`, `tan()`…
@@ -140,6 +145,7 @@
       }
 
 - id: exponential_functions
+  webFeaturesId: exp-functions
   name: Exponential Functions
   description: >
     `pow()`, `sqrt()`, `exp()`, `log()`, `hypot()`
@@ -153,6 +159,7 @@
       }
 
 - id: sign_related_functions
+  webFeaturesId: abs-sign
   name: Sign-related Functions
   description: >
     `sign()`, `abs()`
@@ -167,6 +174,7 @@
       }
 
 - id: stepped_value_functions
+  webFeaturesId: round-mod-rem
   name: Stepped Value Functions
   description: >
     `round()`, `mod()`, `rem()`
@@ -181,6 +189,7 @@
       }
 
 - id: css_nesting
+  webFeaturesId: nesting
   name: CSS Nesting
   w3c: TR/css-nesting-1/
   mdn: en-US/docs/Web/CSS/CSS_nesting
@@ -286,6 +295,7 @@
     - css_other
 
 - id: image_set
+  webFeaturesId: image-set
   name: "`image-set()`"
   mdn: /en-US/docs/Web/CSS/image/image-set
   caniuse: css-image-set
@@ -327,6 +337,7 @@
       }
 
 - id: at_scope
+  webFeaturesId: scope
   name: "`@scope`"
   mdn: /en-US/docs/Web/CSS/@scope
   caniuse: css-cascade-scope
@@ -346,6 +357,7 @@
 
 - id: anchor_positioning
   name: Anchor Positioning
+  webFeaturesId: anchor-positioning
   example:
     language: css
     code: |
@@ -371,6 +383,7 @@
     - anchoring
 
 - id: nth_child_of_s
+  webFeaturesId: nth-child-of
   name: "`nth-child of S`"
   description: >
     Pre-filter a set of child elements before applying `nth-child` to it.

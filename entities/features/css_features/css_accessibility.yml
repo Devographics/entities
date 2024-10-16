@@ -3,6 +3,7 @@
 #################################################
 
 - id: prefers_reduced_motion
+  webFeaturesId: prefers-reduced-motion
   name: "`prefers-reduced-motion`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-motion
   caniuse: prefers-reduced-motion
@@ -22,6 +23,7 @@
     - reduced, motion [l]
 
 - id: prefers_color_scheme
+  webFeaturesId: prefers-color-scheme
   name: "`prefers-color-scheme`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-color-scheme
   caniuse: prefers-color-scheme
@@ -56,6 +58,7 @@
     - accessibility
 
 - id: prefers_reduced_data
+  webFeaturesId: prefers-reduced-data
   name: "`prefers-reduced-data`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-data
   caniuse: mdn-css_at-rules_media_prefers-reduced-data
@@ -73,6 +76,7 @@
     - accessibility
 
 - id: color_scheme
+  webFeaturesId: color-scheme
   name: "`color-scheme`"
   mdn: /en-US/docs/Web/CSS/color-scheme
   caniuse: mdn-css_properties_color-scheme
@@ -94,6 +98,7 @@
     - accessibility
 
 - id: focus_visible
+  webFeaturesId: focus-visible
   name: "`:focus-visible`"
   mdn: /en-US/docs/Web/CSS/:focus-visible
   caniuse: css-focus-visible
@@ -149,6 +154,7 @@
     - accessibility_features
 
 - id: light_dark
+  webFeaturesId: light-dark
   name: "`light-dark()`"
   mdn: en-US/docs/Web/CSS/color_value/light-dark
   caniuse: mdn-css_types_color_light-dark

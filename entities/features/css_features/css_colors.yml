@@ -3,6 +3,7 @@
 #################################################
 
 - id: color_function
+  webFeaturesId: color-function
   name: "`color()`"
   mdn: /en-US/docs/Web/CSS/color_value/color()
   example:
@@ -14,6 +15,7 @@
   caniuse: css-color-function
 
 - id: accent_color
+  webFeaturesId: accent-color
   name: "`accent-color`"
   mdn: /en-US/docs/Web/CSS/accent-color
   example:
@@ -53,6 +55,7 @@
   caniuse: currentcolor
 
 - id: color_mix
+  webFeaturesId: color-mix
   name: "`color-mix()`"
   mdn: /en-US/docs/Web/CSS/color_value/color-mix
   example:
@@ -67,6 +70,7 @@
     - color, mixing [l]
 
 - id: wide_gamut_colors
+  webFeaturesId: oklab
   name: Wide Gamut Colors
   description: >
     `lch()`, `lab()`, `oklch()`, `oklab()`
@@ -84,6 +88,7 @@
     - p3
 
 - id: relative_colors
+  webFeaturesId: relative-color
   name: Relative Colors
   w3c: TR/css-color-5/#relative-colors
   resources:
@@ -103,6 +108,7 @@
     - relative color
 
 - id: forced_colors
+  webFeaturesId: forced-colors
   name: "`forced-colors`"
   mdn: /en-US/docs/Web/CSS/@media/forced-colors
   caniuse: mdn-css_at-rules_media_forced-colors
@@ -118,6 +124,7 @@
     - accessibility
 
 - id: prefers_contrast
+  webFeaturesId: prefers-contrast
   name: "`prefers-contrast`"
   mdn: /en-US/docs/Web/CSS/@media/prefers-contrast
   caniuse: mdn-css_at-rules_media_prefers-contrast
@@ -131,6 +138,7 @@
       }
 
 - id: gradient_color_spaces
+  webFeaturesId: gradient-interpolation
   # mdn:
   caniuse: mdn-css_types_image_gradient_conic-gradient_interpolation_color_space
   resources:

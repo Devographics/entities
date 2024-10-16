@@ -12,11 +12,6 @@
   tags:
     - browser_interoperability
 
-- id: clamp
-  name: clamp()
-  tags:
-    - browser_interoperability
-
 - id: gap
   name: gap
   tags:

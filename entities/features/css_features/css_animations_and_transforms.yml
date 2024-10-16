@@ -31,6 +31,7 @@
       }
 
 - id: discrete_properties_animations
+  webFeaturesId: transition-behavior
   name: Discrete Properties Animations
   description: >
     Animate to and from properties such as `display: none`
@@ -60,6 +61,7 @@
     - starting(-| )?style
 
 - id: view_transitions
+  webFeaturesId: cross-document-view-transitions
   name: ViewTransition API
   mdn: en-US/docs/Web/API/View_Transitions_API
   caniuse: mdn-api_viewtransition

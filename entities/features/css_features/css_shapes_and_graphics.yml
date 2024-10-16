@@ -38,6 +38,7 @@
   caniuse: css-masks
 
 - id: blend_modes
+  webFeaturesId: mix-blend-mode
   description: >
     `mix-blend-mode`, `background-blend-mode`, `isolation`
   mdn: /en-US/docs/Web/CSS/blend-mode
@@ -78,6 +79,7 @@
     - blur [e]
 
 - id: backdrop_filter
+  webFeaturesId: backdrop-filter
   name: "`backdrop-filter`"
   mdn: /en-US/docs/Web/CSS/backdrop-filter
   caniuse: css-backdrop-filter
@@ -89,6 +91,7 @@
       }
 
 - id: intrinsic_sizing
+  webFeaturesId: min-max-content
   name: Intrinsic Sizing
   description: >
     `min-content`, `max-content`, `fit-content`
@@ -109,6 +112,7 @@
   caniuse: mdn-css_types_image_gradient_repeating-linear-gradient
 
 - id: conic_gradient
+  webFeaturesId: conic-gradients
   name: "`conic-gradient()`"
   mdn: /en-US/docs/Web/CSS/gradient/conic-gradient()
   caniuse: mdn-css_types_image_gradient_conic-gradient
@@ -125,6 +129,7 @@
   caniuse: border-image
 
 - id: linear_easing_function
+  webFeaturesId: linear-easing
   name: >
     `linear` Easing Function
   mdn: en-US/docs/Web/CSS/easing-function#linear_easing_function
@@ -157,6 +162,7 @@
       background-attachment: local;
 
 - id: offset_path
+  webFeaturesId: motion-path
   name: >
     `offset-path`
   mdn: en-US/docs/Web/CSS/offset-path

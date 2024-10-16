@@ -326,6 +326,8 @@
 - id: mongodb_atlas
 
 - id: neon
+  name: Neon
+  homepageUrl: https://neon.tech/
 
 - id: pocket_base
 
@@ -336,6 +338,8 @@
 - id: sanity
 
 - id: turso
+  name: Turso
+  homepageUrl: https://turso.tech/
 
 - id: typeorm
 

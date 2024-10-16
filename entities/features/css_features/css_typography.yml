@@ -11,6 +11,7 @@
     - css_typography
 
 - id: variable_fonts
+  webFeaturesId: font-variation-settings
   name: Variable Fonts
   mdn: /en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
   example:
@@ -49,6 +50,7 @@
     - css_typography
 
 - id: initial_letter
+  webFeaturesId: initial-letter
   name: "`initial-letter`"
   mdn: /en-US/docs/Web/CSS/initial-letter
   caniuse: css-initial-letter
@@ -72,6 +74,7 @@
     - css_typography
 
 - id: font_display
+  webFeaturesId: font-display
   name: "`font-display`"
   mdn: /en-US/docs/Web/CSS/@font-face/font-display
   caniuse: css-font-rendering-controls
@@ -88,6 +91,7 @@
     - css_typography
 
 - id: line_clamp
+  webFeaturesId: line-clamp
   name: "`line-clamp`"
   mdn: /en-US/docs/Web/CSS/-webkit-line-clamp
   caniuse: css-line-clamp
@@ -157,6 +161,7 @@
     - css_typography
 
 - id: text_wrap_balance
+  webFeaturesId: text-wrap-balance
   name: "`text-wrap: balance`"
   # caniuse:
   # w3c:
@@ -177,6 +182,7 @@
     - css_typography
 
 - id: text_wrap_pretty
+  webFeaturesId: text-wrap-pretty
   name: "`text-wrap: pretty`"
   # caniuse:
   # w3c:
@@ -211,6 +217,7 @@
     - css_typography
 
 - id: hanging_punctuation
+  webFeaturesId: hanging-punctuation
   name: "`hanging-punctuation`"
   caniuse: css-hanging-punctuation
   # w3c:

@@ -17,6 +17,7 @@
     - css_selectors
 
 - id: has_selector
+  webFeaturesId: has
   name: "`:has()`"
   mdn: /en-US/docs/Web/CSS/:has
   caniuse: css-has
@@ -36,6 +37,7 @@
     - html_interoperability_features
 
 - id: where_selector
+  webFeaturesId: where
   name: "`:where()`"
   mdn: /en-US/docs/Web/CSS/:where
   caniuse: css-where

@@ -27,6 +27,22 @@
         <App />
       </Profiler>
 
+- id: react_act
+  name: >
+    `act`
+  description: >
+    `act` is a test helper to apply pending React updates before making assertions.
+  homepageUrl: https://react.dev/reference/react/act
+  example:
+    language: js
+    code: |
+      it ('renders with button disabled', async () => {
+        await act(async () => {
+          root.render(<TestComponent />)
+        });
+        expect(container.querySelector('button')).toBeDisabled();
+      });
+
 - id: strictmode
   name: >
     `<StrictMode>`

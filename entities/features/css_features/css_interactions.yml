@@ -3,6 +3,7 @@
 #################################################
 
 - id: scroll_snap
+  webFeaturesId: scroll-snap
   name: Scroll Snap
   description: >
     `scroll-snap-type`, `scroll-snap-align`, `scroll-padding`…
@@ -24,6 +25,7 @@
     - scroll snapping
 
 - id: overscroll_behavior
+  webFeaturesId: overscroll-behavior
   name: "`overscroll-behavior`"
   mdn: /en-US/docs/Web/CSS/overscroll-behavior
   caniuse: css-overscroll-behavior
@@ -90,6 +92,7 @@
       }
 
 - id: scroll_behavior
+  webFeaturesId: scroll-behavior
   name: "`scroll-behavior`"
   mdn: /en-US/docs/Web/CSS/scroll-behavior
   caniuse: css-scroll-behavior
@@ -115,6 +118,7 @@
       }
 
 - id: scrollbar_gutter
+  webFeaturesId: scrollbar-gutter
   name: "`scrollbar-gutter`"
   mdn: /en-US/docs/Web/CSS/scrollbar-gutter
   caniuse: mdn-css_properties_scrollbar-gutter

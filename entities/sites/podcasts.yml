@@ -525,3 +525,11 @@
 - id: the_react_show
   name: The React Show
   homepageUrl: https://www.thereactshow.com/
+
+- id: this_month_in_react
+  name: This Month in React
+  homepageUrl: https://x.com/TMiR_reactiflux
+
+- id: rocket_ship
+  name: RocketShip
+  homepageUrl: https://podcast.galaxies.dev/

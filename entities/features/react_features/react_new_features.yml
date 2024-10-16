@@ -14,12 +14,16 @@
       const value = use(resource);
 
 - id: offscreen_rendering
-  name: Offscreen Rendering
-  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#offscreen-rendering
+  name: Activity (formerly Offscreen)
+  homepageUrl: https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024#offscreen-renamed-to-activity
+
+- id: react_activity
+  name: Activity (formerly Offscreen)
+  homepageUrl: https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024#offscreen-renamed-to-activity
 
 - id: react_forget
-  name: React Forget
-  homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-optimizing-compiler
+  name: React Compiler (React Forget)
+  homepageUrl: https://react.dev/learn/react-compiler
 
 - id: cache
   name: React `cache`

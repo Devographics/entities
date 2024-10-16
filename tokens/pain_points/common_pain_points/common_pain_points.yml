@@ -181,7 +181,7 @@
     - lack, tools [l]
     - tooling
 
-- id: build_tools
+- id: build_tool_issues
   name: Build tools
   description: Build tools issues
   patterns:
@@ -192,7 +192,7 @@
     - build chain
     - build system
 
-- id: bundlers
+- id: bundler_issues
   name: Bundlers
   description: Bundlers issues
   tags:

@@ -79,12 +79,6 @@
   patterns:
     - loop
 
-- id: multi_column
-  patterns:
-    - column
-  tags:
-    - browser_interoperability
-
 - id: input_styling
   name: Input Styling
   patterns:
@@ -182,6 +176,7 @@
     Support for SVG syntax inside CSS code (such as inside `background`).
 
 - id: masonry_layout
+  webFeaturesId: masonry
   name: Masonry Layout
   description: Native support for Pinterest-style free-flowing grid layouts.
   patterns:
