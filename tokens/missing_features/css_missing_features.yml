@@ -278,3 +278,38 @@
   name: Media Query Variables
   patterns:
     - media, quer(y|ies), variable(s)? [l]
+
+- id: custom_functions
+  name: Custom Functions
+  patterns:
+    - custom, function(s)? [l]
+
+- id: background_image_transparency
+  name: Background Image Transparency
+  patterns:
+    - background, image, transparent [l]
+    - background, image, transparency [l]
+
+- id: inline_comments
+  name: Inline Comments
+  patterns:
+    - "// comments"
+
+- id: table_styling
+  name: Table Styling
+
+- id: empty_pseudo_class
+  name: |
+    `:empty` Pseudo-Class
+  patterns:
+    - empty, pseudo [l]
+
+- id: reading_order
+  name: Reading Order
+
+- id: size_shorthand
+  name: |
+    `size` Shorthand
+
+- id: better_animations
+  name: Better Animations

@@ -12,7 +12,7 @@
     - accesibility
     - accessbility
 
-- id: animations
+- id: animation_issues
   name: Animations
   description: Animation issues
   patterns:

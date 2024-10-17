@@ -13,8 +13,6 @@
 - id: css_animations
   mdn: /en-US/docs/Web/CSS/CSS_Animations
   caniuse: css-animation
-  patterns:
-    - animation
 
 - id: perspective
   name: "`perspective`"
@@ -88,3 +86,19 @@
     - view(-| )?transition
     - page transition
     - viewtransition
+
+- id: animation_timeline
+  name: |
+    `animation-timeline`
+  mdn: en-US/docs/Web/CSS/animation-timeline
+  caniuse: mdn-css_properties_animation-timeline
+  description: |
+    The animation-timeline CSS property specifies the timeline that is used to control the progress of a CSS animation.
+  example:
+    language: css
+    code: |
+      #square {
+        animation-name: rotateAnimation;
+        animation-direction: alternate;
+        animation-timeline: --squareTimeline;
+      }
