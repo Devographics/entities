@@ -91,6 +91,8 @@
 #   homepageUrl:
 #
 - id: useLayoutEffect
+  name: >
+    `useLayoutEffect`
 #   name:
 #   example:
 #     language: jsx

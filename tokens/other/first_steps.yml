@@ -89,7 +89,6 @@
     - newsletter
 
 - id: ai_tools
-  name: AI tools
   patterns:
     - ai
     - gpt
