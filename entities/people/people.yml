@@ -3087,7 +3087,15 @@
   tags:
     - ariakit
 
+# keeping old id with a typo for now, delete later
 - id: dominik_dorkmeister
+  name: Dominik Dorfmeister
+  twitterName: TkDodo
+  homepageUrl: https://tkdodo.eu/
+  patterns:
+    - tk( )?dodo
+
+- id: dominik_dorfmeister
   name: Dominik Dorfmeister
   twitterName: TkDodo
   homepageUrl: https://tkdodo.eu/
