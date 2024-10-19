@@ -6,7 +6,7 @@
 
 - id: use_hook
   name: >
-    `use()` Hook
+    `use()`
   homepageUrl: https://github.com/reactjs/rfcs/pull/229
   example:
     language: js
