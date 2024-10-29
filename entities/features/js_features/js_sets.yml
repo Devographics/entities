@@ -1,0 +1,83 @@
+- id: set_intersection
+  webFeaturesId: set-methods
+  name: >
+    `set.intersection()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/intersection
+  example:
+    language: js
+    code: |
+      const odds = new Set([1, 3, 5, 7, 9]);
+      const squares = new Set([1, 4, 9]);
+      console.log(odds.intersection(squares)); // Set(2) { 1, 9 }
+
+- id: set_union
+  webFeaturesId: set-methods
+  name: >
+    `set.union()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/union
+  example:
+    language: js
+    code: |
+      const evens = new Set([2, 4, 6, 8]);
+      const squares = new Set([1, 4, 9]);
+      console.log(evens.union(squares)); // Set(6) { 2, 4, 6, 8, 1, 9 }
+
+- id: set_difference
+  webFeaturesId: set-methods
+  name: >
+    `set.difference()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/difference
+  example:
+    language: js
+    code: |
+      const odds = new Set([1, 3, 5, 7, 9]);
+      const squares = new Set([1, 4, 9]);
+      console.log(odds.difference(squares)); // Set(3) { 3, 5, 7 }
+
+- id: set_symmetric_difference
+  webFeaturesId: set-methods
+  name: >
+    `set.symmetricDifference()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricDifference
+  example:
+    language: js
+    code: |
+      const evens = new Set([2, 4, 6, 8]);
+      const squares = new Set([1, 4, 9]);
+      console.log(evens.symmetricDifference(squares)); // Set(5) { 2, 6, 8, 1, 9 }
+
+- id: set_is_subset_of
+  webFeaturesId: set-methods
+  name: >
+    `set.isSubsetOf()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isSubsetOf
+  example:
+    language: js
+    code: |
+      const fours = new Set([4, 8, 12, 16]);
+      const evens = new Set([2, 4, 6, 8, 10, 12, 14, 16, 18]);
+      console.log(fours.isSubsetOf(evens)); // true
+
+- id: set_is_superset_of
+  webFeaturesId: set-methods
+  name: >
+    `set.isSupersetOf()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isSupersetOf
+  example:
+    language: js
+    code: |
+      const evens = new Set([2, 4, 6, 8, 10, 12, 14, 16, 18]);
+      const fours = new Set([4, 8, 12, 16]);
+      console.log(evens.isSupersetOf(fours)); // true
+
+- id: set_is_disjoint_from
+  webFeaturesId: set-methods
+  name: >
+    `set.isDisjointFrom()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isDisjointFrom
+  example:
+    language: js
+    code: |
+      const primes = new Set([2, 3, 5, 7, 11, 13, 17, 19]);
+      const squares = new Set([1, 4, 9, 16]);
+      console.log(primes.isDisjointFrom(squares)); // true

@@ -249,3 +249,7 @@
 - id: maestro
 
 - id: sinon
+
+- id: node_test_runner
+  name: Node Test Runner
+  homepageUrl: https://nodejs.org/en/learn/test-runner/introduction

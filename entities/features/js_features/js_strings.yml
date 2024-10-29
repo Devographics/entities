@@ -1,0 +1,20 @@
+- id: string_replace_all
+  name: "`string.replaceAll()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
+  caniuse: mdn-javascript_builtins_string_replaceall
+  example:
+    language: js
+    code: |
+      const s1 = "foo_bar_baz";
+      const s2 = s1.replaceAll('_', '-');
+
+- id: string_match_all
+  name: "`string.matchAll()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
+  caniuse: mdn-javascript_builtins_string_matchall
+  example:
+    language: js
+    code: |
+      const regexp = /t(e)(st(\d?))/g;
+      const str = 'test1test2';
+      const array = [...str.matchAll(regexp)];

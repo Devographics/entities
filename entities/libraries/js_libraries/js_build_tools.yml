@@ -183,3 +183,7 @@
 - id: metro
   name: Metro
   homepageUrl: https://metrobundler.dev/
+
+- id: rolldown
+  name: Rolldown
+  homepageUrl: https://rolldown.rs/

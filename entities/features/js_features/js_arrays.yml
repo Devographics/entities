@@ -1,0 +1,83 @@
+- id: array_at
+  name: "`array.at()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at
+  caniuse: mdn-javascript_builtins_array_at
+
+- id: array_to_sorted
+  name: >
+    `array.toSorted()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted
+  example:
+    language: js
+    code: |
+      const values = [1, 10, 21, 2];
+      const sortedValues = values.toSorted((a, b) => a - b);
+      console.log(sortedValues); // [1, 2, 10, 21]
+      console.log(values); // [1, 10, 21, 2]
+
+- id: array_to_reversed
+  name: >
+    `array.toReversed()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed
+  example:
+    language: js
+    code: |
+      const items = [1, 2, 3];
+      const reversedItems = items.toReversed();
+      console.log(reversedItems); // [3, 2, 1]
+      console.log(items); // [1, 2, 3]
+
+- id: array_with
+  name: >
+    `array.with()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/with
+  example:
+    language: js
+    code: |
+      const arr = [1, 2, 3, 4, 5];
+      console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
+
+- id: array_find_last
+  name: >
+    `array.findLast()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
+  example:
+    language: js
+    code: |
+      const inventory = [
+        { name: "bananas", quantity: 0 },
+        { name: "fish", quantity: 1 },
+        { name: "cherries", quantity: 5 },
+      ];
+      console.log(inventory.findLast(item => item.quantity <2));
+      // { name: "fish", quantity: 1 }
+
+- id: array_to_spliced
+  name: >
+    `array.toSpliced()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced
+  example:
+    language: js
+    code: |
+      const months = ["Jan", "Mar", "Apr", "May"];
+
+      // Inserting an element at index 1
+      const months2 = months.toSpliced(1, 0, "Feb");
+
+- id: array_from_async
+  webFeaturesId: array-fromasync
+  name: >
+    `array.fromAsync()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fromAsync
+  example:
+    language: js
+    code: |
+      const asyncIterable = (async function* () {
+        for (let i = 0; i < 5; i++) {
+          await new Promise((resolve) => setTimeout(resolve, 10 * i));
+          yield i;
+        }
+      })();
+
+      Array.fromAsync(asyncIterable).then((array) => console.log(array));
+      // [0, 1, 2, 3, 4]
