@@ -1,0 +1,12 @@
+- id: no_issues
+  patterns:
+    - no [e]
+    - no\. [e]
+    - nah
+    - none [e]
+    - nope
+
+- id: translation_issues
+  patterns:
+    - translation
+    - translated

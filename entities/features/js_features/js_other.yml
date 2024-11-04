@@ -22,14 +22,6 @@
   name: Proxies
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
 
-- id: async_await
-  name: Async/Await
-  mdn: /en-US/docs/Web/JavaScript/Reference/Statements/async_function
-
-- id: promises
-  name: Promises
-  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
 - id: decorators
   name: Decorators
   # mdn:
@@ -77,8 +69,10 @@
 
 - id: cache_storage
   name: Cache Storage
-  description: |
-    `const cacheStorage = await caches.open(cacheName);`
+  example:
+    language: js
+    code: |
+      const cacheStorage = await caches.open(cacheName);
   mdn: /en-US/docs/Web/API/CacheStorage
 
 - id: service_workers
@@ -208,18 +202,6 @@
         #privateField
       }
 
-- id: promise_all_settled
-  name: "`Promise.allSettled()`"
-  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
-  example:
-    language: js
-    code: |
-      const promises = [promise1, promise2];
-
-      Promise.allSettled(promises).then((results) =>
-        results.forEach((result) => console.log(result.status)),
-      );
-
 - id: dynamic_import
   name: Dynamic Import
   mdn: /en-US/docs/Web/JavaScript/Reference/Statements/import
@@ -269,35 +251,10 @@
       console.log(a.title);
       // expected output: "title is empty"
 
-- id: promise_any
-  name: "`Promise.any()`"
-  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
-  caniuse: mdn-javascript_builtins_promise_any
-  example:
-    language: js
-    code: |
-      const promises = [promise1, promise2, promise3];
-
-      Promise.any(promises).then((value) => console.log(value));
-
-- id: top_level_await
-  name: Top-level `await`
-  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/await
-
 - id: temporal
   name: Temporal
+  description: Provides standard objects and functions for working with dates and times.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-
-- id: array_findlast
-  name: "`array.findLast()`"
-  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
-  example:
-    language: js
-    code: |
-      const array1 = [5, 12, 50, 130, 44];
-      const found = array1.findLast((element) => element > 45);
-      console.log(found);
-      // expected output: 130
 
 - id: error_cause
   name: "`error.cause`"
@@ -370,3 +327,270 @@
         ]
       }
       */
+
+- id: js_structs
+  name: JavaScript Structs
+  resources:
+    - title: JavaScript Structs Proposal
+      url: https://github.com/tc39/proposal-structs
+  example:
+    language: js
+    code: |
+      struct Box {
+        constructor(x) { this.x = x; }
+        x;
+      }
+
+      let box = new Box(0);
+      box.x = 42;  // x is declared
+      box.y = 42;  // error
+
+- id: js_iterator_chunking
+  name: Iterator Chunking
+  resources:
+    - title: Iterator Chunking Proposal
+      url: https://github.com/tc39/proposal-iterator-chunking
+  example:
+    language: js
+    code: |
+      const digits = () => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].values();
+
+      let chunksOf2 = Array.from(digits().chunks(2));
+      // [ [0, 1], [2, 3], [4, 5], [6, 7], [8, 9] ]
+
+- id: js_get_or_insert
+  name: |
+    `map.getOrInsert()`
+  resources:
+    - title: Upsert Proposal
+      url: https://github.com/tc39/proposal-upsert
+  example:
+    language: js
+    code: |
+      // Using getOrInsert
+      let prefs = new getUserPrefs();
+      prefs.getOrInsert("useDarkmode", true); // default to true
+
+- id: error_is_error
+  name: |
+    `Error.isError()`
+  resources:
+    - title: Error.isError Proposal
+      url: https://github.com/tc39/proposal-is-error
+  example:
+    language: js
+    code: |
+      const err = new Error()
+      Error.isError(err)
+
+- id: js_decorators
+  name: Decorators
+  description: Functions called on classes or other JavaScript syntax forms during definition.
+  resources:
+    - title: Decorators Proposal
+      url: https://github.com/tc39/proposal-decorators
+  example:
+    language: js
+    code: |
+      @defineElement("my-class")
+      class C extends HTMLElement {
+        @reactive accessor clicked = false;
+      }
+
+- id: js_source_phase_imports
+  name: Source Phase Imports
+  resources:
+    - title: Source Phase Imports Proposal
+      url: https://github.com/tc39/proposal-source-phase-imports
+  example:
+    language: js
+    code: |
+      import source x from "<specifier>";
+
+- id: js_shadow_realm
+  name: ShadowRealm API
+  description: A distinct global environment, with its own global object containing its own intrinsics and built-ins.
+  resources:
+    - title: ShadowRealm Proposal
+      url: https://github.com/tc39/proposal-shadowrealm
+  example:
+    language: js
+    code: |
+      declare class ShadowRealm {
+        constructor();
+        importValue(specifier: string, bindingName: string): Promise<PrimitiveValueOrCallable>;
+        evaluate(sourceText: string): PrimitiveValueOrCallable;
+      }
+
+- id: js_pipeline_operator
+  name: |
+    Pipe Operator (`|>`)
+  resources:
+    - title: Pipe Operator (|>) for JavaScript Proposal
+      url: https://github.com/tc39/proposal-pipeline-operator
+  example:
+    language: js
+    code: |
+      const double = x => x * 2;
+      const triple = x => x * 3;
+
+      10 |> double |> triple |> console.log
+      // 60
+
+- id: js_async_context
+  name: Async Context
+  resources:
+    - title: Async Context Proposal
+      url: https://github.com/tc39/proposal-async-context
+
+- id: js_extractors
+  name: Extractors
+  resources:
+    - title: Extractors Proposal
+      url: https://github.com/tc39/proposal-extractors
+  example:
+    language: js
+    code: |
+      let Foo(a, { b }, [c]) = x;
+
+- id: gamepad_api
+  name: Gamepad API
+  mdn: en-US/docs/Web/API/Gamepad_API
+
+- id: web_authentication_api
+  name: Web Authentication API
+  mdn: en-US/docs/Web/API/Web_Authentication_API
+
+- id: web_nfc_api
+  name: Web NFC API
+  mdn: en-US/docs/Web/API/Web_NFC_API
+  patterns:
+    - nfc
+
+- id: web_serial_api
+  name: Web Serial API
+  mdn: en-US/docs/Web/API/Web_Serial_API
+  patterns:
+    - serial, api [l]
+
+- id: speech_recognition_api
+  name: |
+    `SpeechRecognition`
+  mdn: en-US/docs/Web/API/SpeechRecognition
+  patterns:
+    - speech( )?recognition
+
+- id: eye_dropper_api
+  name: EyeDropper API
+  mdn: en-US/docs/Web/API/EyeDropper_API
+  patterns:
+    - eye( )?dropper
+
+- id: background_sync_api
+  name: Background Synchronization API
+  mdn: en-US/docs/Web/API/Background_Synchronization_API
+  patterns:
+    - background sync
+    - background synchronization
+
+- id: before_install_prompt_event
+  name: BeforeInstallPromptEvent
+  mdn: en-US/docs/Web/API/BeforeInstallPromptEvent
+
+- id: shared_worker
+  name: |
+    `SharedWorker`
+  mdn: en-US/docs/Web/API/SharedWorker
+
+- id: js_explicit_resource_management
+  name: Explicit Resource Management
+  description: Allocation of a resource and the ability to explicitly release critical resources.
+  resources:
+    - url: https://github.com/tc39/proposal-explicit-resource-management
+      title: ECMAScript Explicit Resource Management Proposal
+
+- id: js_dynamic_code_brand_checks
+  name: Dynamic Code Brand Checks
+  resources:
+    - url: https://github.com/tc39/proposal-dynamic-code-brand-checks
+      title: Dynamic Code Brand Checks Proposal
+
+- id: regexp_escape
+  name: |
+    `RegExp.escape`
+  description: Escaping a string for use inside a Regular Expression.
+  resources:
+    - url: https://github.com/tc39/proposal-regex-escaping
+      title: RegExp Escaping Proposal
+
+- id: js_deferring_module_evaluation
+  name: Deferring Module Evaluation
+  description: Modules that would not be executed when loaded, but would be fully loaded to the point of being execution-ready.
+  resources:
+    - url: https://github.com/tc39/proposal-defer-import-eval
+      title: Deferring Module Evaluation Proposal
+
+- id: js_joint_iteration
+  name: Joint Iteration
+  description: Synchronise the advancement of multiple iterators.
+  resources:
+    - url: https://github.com/tc39/proposal-joint-iteration
+      title: Joint Iteration Proposal
+
+- id: js_iterator_sequencing
+  name: Iterator Sequencing
+  description: Create iterators by sequencing existing iterators.
+  resources:
+    - url: https://github.com/tc39/proposal-iterator-sequencing
+      title: Iterator Sequencing Proposal
+
+- id: js_signals
+  name: Signals
+  resources:
+    - url: https://github.com/tc39/proposal-signals
+      title: Signals Proposal
+
+- id: js_record_tuple
+  name: Record & Tuple
+  patterns:
+    - tuple
+  resources:
+    - url: https://github.com/tc39/proposal-record-tuple
+      title: Records & Tuples Proposal
+
+- id: js_pattern_matching
+  name: Pattern Matching
+  patterns:
+    - match
+  resources:
+    - url: https://github.com/tc39/proposal-pattern-matching
+      title: Pattern Matching Proposal
+
+- id: js_observable
+  name: Native Observables
+  patterns:
+    - observable
+  resources:
+    - url: https://github.com/tc39/proposal-observable
+      title: Observable Proposal
+
+- id: js_json_parse_source_access
+  name: JSON.parse source text access
+  description: Grant reviver functions access to the input source text.
+  resources:
+    - url: https://github.com/tc39/proposal-json-parse-with-source
+      title: JSON.parse source text access Proposal
+
+- id: js_decorator_metadata
+  name: Decorator Metadata
+  description: Extend the Decorators proposal by adding the ability for decorators to associate metadata with the value being decorated.
+  resources:
+    - url: https://github.com/tc39/proposal-decorator-metadata
+      title: Decorator Metadata Proposal
+
+- id: js_float16_arrays
+  name: Float16Array
+  description: Add float16 (aka half-precision or binary16) TypedArrays to JavaScript.
+  resources:
+    - url: https://github.com/tc39/proposal-float16array
+      title: Float16Array Proposal

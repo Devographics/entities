@@ -18,32 +18,17 @@
   patterns:
     - std
     - standard
+    - std lib
 
 - id: documentation
   name: Documentation
   patterns:
     - docs
 
-- id: pipe_operator
-  name: Pipe Operator
-  patterns:
-    - pipe
-    - pipeline
-
-- id: pattern_matching
-  name: Pattern Matching
-  patterns:
-    - match
-
 - id: auto_currying
   name: Auto-Currying
   patterns:
     - currying
-
-- id: native_observables
-  name: Native Observables
-  patterns:
-    - observable
 
 - id: simplicity
   name: Simplicity
@@ -89,12 +74,6 @@
   patterns:
     - enum
 
-- id: standard_library
-  name: No standard library
-  patterns:
-    - std lib
-    - standard
-
 - id: multi_threading
   name: Multithreading
   patterns:
@@ -122,16 +101,3 @@
     - it's not typescript
     - lack of type
     - lack of typing
-
-- id: tuples
-  description: Lack of tuples
-  patterns:
-    - tuple
-
-- id: decorators
-  description: Decorators
-  patterns:
-    - decorator [p]
-
-- id: signals
-  name: Signals

@@ -68,6 +68,7 @@
   webFeaturesId: array-fromasync
   name: >
     `array.fromAsync()`
+  description: Similar to Array.from but for async iterators.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fromAsync
   example:
     language: js
@@ -81,3 +82,14 @@
 
       Array.fromAsync(asyncIterable).then((array) => console.log(array));
       // [0, 1, 2, 3, 4]
+
+- id: array_findlast
+  name: "`array.findLast()`"
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
+  example:
+    language: js
+    code: |
+      const array1 = [5, 12, 50, 130, 44];
+      const found = array1.findLast((element) => element > 45);
+      console.log(found);
+      // expected output: 130

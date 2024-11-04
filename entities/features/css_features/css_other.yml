@@ -354,6 +354,8 @@
           font-size: 1.2rem;
         }
       }
+  patterns:
+    - "@scope"
 
 - id: anchor_positioning
   name: Anchor Positioning
