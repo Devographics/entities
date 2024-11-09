@@ -180,6 +180,8 @@
   name: Masonry Layout
   description: Native support for Pinterest-style free-flowing grid layouts.
   patterns:
+    - grid, masonry [l]
+    - grid, masonry, layout [l]
     - ma(n)?sonry
 
 - id: grid_lines_styling

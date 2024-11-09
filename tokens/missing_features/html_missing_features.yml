@@ -82,6 +82,9 @@
 - id: html_imports
   name: HTML imports
   description: Lack of native HTML imports or templating
+  tags:
+    - interactivity_pain_points
+    - content_pain_points
   patterns:
     - imports
     - partials

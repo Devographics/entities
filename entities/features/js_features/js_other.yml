@@ -330,6 +330,7 @@
 
 - id: js_structs
   name: JavaScript Structs
+  description: Enable high-performance applications by unlocking shared memory multithreading.
   resources:
     - title: JavaScript Structs Proposal
       url: https://github.com/tc39/proposal-structs
@@ -347,6 +348,7 @@
 
 - id: js_iterator_chunking
   name: Iterator Chunking
+  description: A way to transform an iterator into subsequences of configurable size.
   resources:
     - title: Iterator Chunking Proposal
       url: https://github.com/tc39/proposal-iterator-chunking
@@ -361,6 +363,7 @@
 - id: js_get_or_insert
   name: |
     `map.getOrInsert()`
+  description: Checking if a key is present, and then inserting or updating depending upon the result, in a single call.
   resources:
     - title: Upsert Proposal
       url: https://github.com/tc39/proposal-upsert
@@ -399,6 +402,7 @@
 
 - id: js_source_phase_imports
   name: Source Phase Imports
+  description: Customize the loading, linking, and execution of modules beyond the standard host execution model.
   resources:
     - title: Source Phase Imports Proposal
       url: https://github.com/tc39/proposal-source-phase-imports
@@ -425,6 +429,7 @@
 - id: js_pipeline_operator
   name: |
     Pipe Operator (`|>`)
+  description: A new `|>` operator for passing the result of one function to another.
   resources:
     - title: Pipe Operator (|>) for JavaScript Proposal
       url: https://github.com/tc39/proposal-pipeline-operator
@@ -439,12 +444,14 @@
 
 - id: js_async_context
   name: Async Context
+  description: APIs to propagate a value through asynchronous code, such as a promise continuation or async callbacks.
   resources:
     - title: Async Context Proposal
       url: https://github.com/tc39/proposal-async-context
 
 - id: js_extractors
   name: Extractors
+  description: A mechanism for executing user-defined logic during destructuring.
   resources:
     - title: Extractors Proposal
       url: https://github.com/tc39/proposal-extractors
@@ -546,12 +553,15 @@
 
 - id: js_signals
   name: Signals
+  description: Used in reactive programming to remove the need to manage updating in applications.
   resources:
     - url: https://github.com/tc39/proposal-signals
       title: Signals Proposal
 
 - id: js_record_tuple
-  name: Record & Tuple
+  name: |
+    `Record` & `Tuple`
+  description: Two deeply immutable data structures.
   patterns:
     - tuple
   resources:
@@ -560,6 +570,7 @@
 
 - id: js_pattern_matching
   name: Pattern Matching
+  description: A new `match` keyword for pattern-matching objects.
   patterns:
     - match
   resources:
@@ -567,7 +578,9 @@
       title: Pattern Matching Proposal
 
 - id: js_observable
-  name: Native Observables
+  name: |
+    `Observable`
+  description: A type that can be used to model push-based data sources such as DOM events, timer intervals, and sockets.
   patterns:
     - observable
   resources:

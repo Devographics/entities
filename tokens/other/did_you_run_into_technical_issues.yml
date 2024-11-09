@@ -5,6 +5,11 @@
     - nah
     - none [e]
     - nope
+    - all good
+    - "no,"
+    - nop
+    - not at all
+    - not really
 
 - id: translation_issues
   patterns:

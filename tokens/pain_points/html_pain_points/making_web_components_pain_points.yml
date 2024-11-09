@@ -27,8 +27,6 @@
 
 - id: reactivity
 
-- id: shadow_dom
-
 - id: lack_of_scoped_css
   patterns:
     - scoped css

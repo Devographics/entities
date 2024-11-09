@@ -123,6 +123,7 @@
     - webshop
     - store
     - shop
+    - e( |-)?commerce
 
 - id: electron
   name: Electron apps

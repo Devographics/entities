@@ -533,3 +533,7 @@
 - id: rocket_ship
   name: RocketShip
   homepageUrl: https://podcast.galaxies.dev/
+
+- id: stack_overflow_podcast
+  name: Stack Overflow Podcast
+  homepageUrl: https://stackoverflow.blog/podcast

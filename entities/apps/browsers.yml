@@ -125,3 +125,9 @@
 - id: librewolf
   name: LibreWolf
   homepageUrl: https://librewolf.net/
+
+- id: zen_browser
+  name: Zen
+  homepageUrl: https://zen-browser.app/
+  patterns:
+    - zen

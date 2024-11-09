@@ -47,10 +47,6 @@
   name: Node Weekly
   homepageUrl: https://nodeweekly.com/
 
-- id: ember_times
-  name: The Ember Times
-  homepageUrl: https://the-emberjs-times.ongoodbits.com/
-
 - id: web_development_reading_list
   name: Web Development Reading List
   homepageUrl: https://wdrl.info/
@@ -167,3 +163,11 @@
   homepageUrl: https://unicornclub.dev/
   patterns:
     - unicorn, club [l]
+
+- id: web_design_weekly
+  name: Web Design Weekly
+  homepageUrl: https://web-design-weekly.com/
+
+- id: friday_front_end
+  name: Friday Front-End
+  homepageUrl: https://fridayfrontend.com/

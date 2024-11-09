@@ -41,11 +41,6 @@
     - color( )?blind
     - colour( )?blind
 
-- id: carpal_tunnel
-  name: Carpal Tunnel
-  patterns:
-    - carpal
-
 - id: diabetes
   name: Diabetes
 
@@ -114,6 +109,8 @@
 
 - id: motion_sensitivity
   name: Motion sensitivity
+  patterns:
+    - motion
 
 - id: cognitive_disabilities
   name: Cognitive disabilities
@@ -128,3 +125,16 @@
 
 - id: multiple_sclerosis
   name: Multiple Sclerosis
+
+- id: mobility_impairments
+  name: Mobility Impairments
+
+- id: carpal_tunnel
+  parentId: mobility_impairments
+  name: Carpal Tunnel
+  patterns:
+    - carpal
+
+- id: arthritis
+  parentId: mobility_impairments
+  name: Arthritis

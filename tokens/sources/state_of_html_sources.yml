@@ -12,7 +12,7 @@
 #                             sources                            #
 ##################################################################
 
-- id: state_of_js_css_survey
+- id: state_of_html_survey
   patterns:
     - email
     - devographics.com
@@ -37,3 +37,16 @@
     - yearly
     - taken it
     - filled it
+
+- id: state_of_css_survey
+  patterns:
+    - stateofcss.com
+    - css2024
+
+- id: state_of_js_survey
+  patterns:
+    - stateofjs.com
+
+- id: adesso
+  name: Adesso
+  homepageUrl: https://www.adesso.de/de/

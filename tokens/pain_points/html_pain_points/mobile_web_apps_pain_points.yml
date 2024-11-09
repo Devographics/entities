@@ -1,8 +1,6 @@
 - id: ios_android_differences
   patterns:
     - difference, ios, android [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: access_to_native_apis
   name: Native APIs access
@@ -15,81 +13,55 @@
     - native, api [l]
     - access, native [l]
     - native, support [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: device_inconsistencies
   name: Device inconsistencies
   patterns:
     - cross, device [l]
     - cross, platform [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: distribution
-  tags:
-    - mobile_desktop_pain_points
 
 - id: notifications
   name: Notifications
   patterns:
     - notification
-  tags:
-    - mobile_desktop_pain_points
 
 - id: packaging
-  tags:
-    - mobile_desktop_pain_points
 
 - id: os_support
-  tags:
-    - mobile_desktop_pain_points
 
 - id: testing
   name: Testing
-  tags:
-    - mobile_desktop_pain_points
 
 - id: storage
   name: Storage
   patterns:
     - stores
     - storing
-  tags:
-    - mobile_desktop_pain_points
 
 - id: caching_issues
   name: Caching issues
   patterns:
     - caching
     - cache
-  tags:
-    - mobile_desktop_pain_points
 
 - id: gesture_handling
   patterns:
     - gesture
-  tags:
-    - mobile_desktop_pain_points
 
 - id: app_store_issues
   patterns:
     - app( )?store
-  tags:
-    - mobile_desktop_pain_points
 
 - id: indexeddb_issues
   patterns:
     - indexeddb
-  tags:
-    - mobile_desktop_pain_points
 
 - id: offline_support
   name: Offline support
   patterns:
     - offline
-  tags:
-    - mobile_desktop_pain_points
 
 # pwa_issues
 
@@ -98,8 +70,6 @@
   patterns:
     - pwa
     - pwa, hard [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: pwa_lack_of_education
   name: Lack of education
@@ -108,16 +78,12 @@
     - education, pwa [l]
     - knowledge, pwa [l]
     - pwa, familiar [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: pwa_lack_of_support
   name: Lack of support
   parentId: pwa_issues
   patterns:
     - feature, pwa [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: pwa_hard_to_install
   name: Hard to install
@@ -125,16 +91,12 @@
   patterns:
     - pwa, install [l]
     - install
-  tags:
-    - mobile_desktop_pain_points
 
 - id: pwa_hard_to_update
   name: Hard to update
   parentId: pwa_issues
   patterns:
     - pwa, updat [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: pwa_cannot_submit_to_app_store
   name: App stores issues
@@ -142,15 +104,11 @@
   parentId: pwa_issues
   patterns:
     - pwa, store [l]
-  tags:
-    - mobile_desktop_pain_points
 
 # design_issues
 
 - id: ux_issues
   name: UX issues
-  tags:
-    - mobile_desktop_pain_points
 
 - id: difficulty_achieving_native_feel
   name: Native feel
@@ -159,8 +117,6 @@
   patterns:
     - native, feel [l]
     - native, look [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: ux_bad_native_elements
   name: Bad native elements
@@ -170,8 +126,6 @@
     - native, element [l]
     - native, control [l]
     - native, component [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: ux_touch_delay
   name: Touch delay
@@ -180,20 +134,14 @@
     - touch, delay [l]
     - touch, interaction [l]
     - touch, responsiveness [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: transitions
   parentId: ux_issues
-  tags:
-    - mobile_desktop_pain_points
 
 # apple_ios_issues
 
 - id: apple_ios_issues
   name: Apple/iOS issues
-  tags:
-    - mobile_desktop_pain_points
 
 - id: ios_lack_of_pwa_support
   name: Lack of PWA support
@@ -202,36 +150,38 @@
     - apple, pwa [l]
     - ios, pwa [l]
     - ios, support [l]
-  tags:
-    - mobile_desktop_pain_points
 
 - id: ios_general_issues
   name: iOS issues
   parentId: apple_ios_issues
   patterns:
     - ios
-  tags:
-    - mobile_desktop_pain_points
 
 - id: apple_general_issues
   name: Apple issues
   parentId: apple_ios_issues
   patterns:
     - apple
-  tags:
-    - mobile_desktop_pain_points
 
 - id: safari_general_issues
   name: Safari issues
   parentId: apple_ios_issues
   patterns:
     - safari
-  tags:
-    - mobile_desktop_pain_points
 
 - id: service_worker_issues
   name: Service workers issues
   patterns:
     - worker
-  tags:
-    - mobile_desktop_pain_points
+
+- id: file_system_access
+  patterns:
+    - file( |-)?system
+
+- id: permissions_issues
+  patterns:
+    - permission
+
+- id: keyboard_issues
+  patterns:
+    - keyboard

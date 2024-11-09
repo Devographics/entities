@@ -76,6 +76,8 @@
     - styl, time [l]
     - custom, time [l]
     - custom, date [l]
+    - date, input(s)? [l]
+    - date( )?picker
 
 - id: styling_colorpickers
   belongsTo: input_type_color
@@ -165,8 +167,7 @@
     - form, data [l]
 
 - id: default_form_submit_behavior
-  name: Default submit behavior
-  description: Buttons defaulting to submitting forms
+  name: Native submit behavior
   parentId: form_handling
   patterns:
     - default, submi [l]
@@ -190,9 +191,16 @@
   description: Issues concerning various form input elements
   patterns:
     - input [e]
+    - <input> [e]
 
 - id: autocomplete
   parentId: form_input_issues
+  patterns:
+    - auto( )?complete
+    - auto( )?completion
+    - auto( )?fill
+    - combo( )?box(e)?(s)?
+    - typeahead
 
 - id: textarea_auto_growing
   name: >
@@ -225,12 +233,27 @@
 
 - id: input_type_number
   parentId: form_input_issues
+  patterns:
+    - number, input [l]
 
 - id: input_type_color
   parentId: form_input_issues
 
 - id: select_element
   parentId: form_input_issues
+  patterns:
+    - select [e]
+
+- id: select_element_lack_of_search
+  parentId: form_input_issues
+  patterns:
+    - select, search [l]
+
+- id: select_element_multiselect
+  parentId: form_input_issues
+  patterns:
+    - multi( |-)?select
+    - select, multiple [l]
 
 - id: input_type_date
   parentId: form_input_issues
@@ -238,11 +261,10 @@
 - id: textarea_element
   parentId: form_input_issues
 
-- id: select_multiple_element
-  parentId: form_input_issues
-
 - id: datalist_element
   parentId: form_input_issues
+  patterns:
+    - datalist
 
 - id: selectlist_element
   parentId: form_input_issues
@@ -256,8 +278,11 @@
 - id: input_type_checkbox
   parentId: form_input_issues
 
-- id: input_type_radio
+- id: input_type_toggle
   parentId: form_input_issues
+  pattern:
+    - toggle
+    - switch
 
 ##################################################################
 #                        other tokens                            #
@@ -281,6 +306,10 @@
   patterns:
     - nested
 
+- id: multiple_forms
+  name: Multiple forms
+  description: Handling multiple forms on the same page
+
 - id: lack_additional_http_actions
   name: HTTP actions
   description: Lack of form support for HTTP actions such as PUT, PATCH, DELETE
@@ -288,6 +317,7 @@
     - PUT
     - PATCH
     - DELETE
+    - http
 
 - id: content_editable
   name: >

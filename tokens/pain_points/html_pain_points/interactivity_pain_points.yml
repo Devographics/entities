@@ -32,6 +32,12 @@
     - diff dom
     - diffing dom
 
+- id: shadow_dom_issues
+  name: Shadow DOM issues
+  parentId: interacting_with_dom
+  patterns:
+    - shadow, dom [l]
+
 - id: drag_and_drop
   name: Drag-and-drop support
   patterns:
@@ -52,8 +58,6 @@
   name: DOM API
 
 - id: inner_html
-
-- id: html_imports
 
 - id: missing_features
 
@@ -138,6 +142,8 @@
     - modal
 
 - id: sanitization_issues
+  tags:
+    - content_pain_points
   patterns:
     - sanitiz [p]
 

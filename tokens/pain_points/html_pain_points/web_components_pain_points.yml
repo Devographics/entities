@@ -1,1 +1,36 @@
 - id: web_components_syntax_issues
+
+- id: shadow_dom_issues
+  name: Shadow DOM Issues
+  patterns:
+    - shadow
+
+- id: framework_compatibility
+  name: Framework compatibility
+  description: Lack of compatibility with JS frameworks
+  patterns:
+    - framework, support [l]
+    - integrat.*framework [p]
+    - framework, incompatibility [l]
+    - framework, compatibility [l]
+    - framework, interop [l]
+    - framework, compat [l]
+    - framework, integration [l]
+
+- id: react_compatibility
+  parentId: framework_compatibility
+  name: React compatibility
+  description: Lack of compatibility with React
+  patterns:
+    - react, compat [l]
+    - react, work [l]
+    - react, integrat [l]
+    - react, support [l]
+    - react, interop [l]
+    - react [e]
+
+- id: prefers_frameworks
+  name: Competition from frameworks
+  description: Lack of added value compared to JavaScript frameworks
+  tags:
+    - interactivity_pain_points

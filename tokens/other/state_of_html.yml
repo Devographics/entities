@@ -118,6 +118,11 @@
   tags:
     - html_missing_elements
 
+- id: stylable_select
+  name: Stylable `<select>`
+  tags:
+    - html_missing_elements
+
 - id: multi_select
   tags:
     - html_missing_elements
@@ -145,6 +150,16 @@
 
 - id: calendar
   name: Calendar
+  tags:
+    - html_missing_elements
+
+- id: date_time_picker
+  name: Date & Time Picker
+  tags:
+    - html_missing_elements
+
+- id: time_picker
+  name: Time Picker
   tags:
     - html_missing_elements
 

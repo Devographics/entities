@@ -1,7 +1,3 @@
-##################################################################
-#                 accessibility_pain_points                      #
-##################################################################
-
 # element_issues
 
 - id: element_issues
@@ -141,6 +137,10 @@
   name: Excessive complexity
   parentId: a11y_implementation_issues
 
+- id: lack_of_testers
+  name: Hard to find testers
+  parentId: a11y_implementation_issues
+
 # company_issues
 
 - id: a11y_company_issues
@@ -183,6 +183,11 @@
   patterns:
     - client, demand [l]
     - customer, demand [l]
+    - convincing, client [l]
+
+- id: unaccessible_design_choices
+  name: Unaccessible design choices
+  parentId: a11y_company_issues
 
 # screen_reader_issues
 
@@ -221,6 +226,7 @@
     - screen reader.*inconsist [p]
     - incompat.*screen reader [p]
     - screen reader.*incompat [p]
+    - screen, reader, differences [l]
 
 - id: jaws_issues
   name: JAWS issues

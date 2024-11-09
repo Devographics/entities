@@ -352,18 +352,6 @@
   name: QuirksMode
   homepageUrl: https://www.quirksmode.org/
 
-- id: web_design_weekly
-  name: Web Design Weekly
-  homepageUrl: https://web-design-weekly.com/
-  tags:
-    - newsletters
-
-- id: friday_front_end
-  name: Friday Front-End
-  homepageUrl: https://fridayfrontend.com/
-  tags:
-    - newsletters
-
 - id: speckyboy
   name: Speckyboy
   homepageUrl: https://speckyboy.com/
@@ -539,3 +527,7 @@
 - id: web_features_explorer
   name: Web Features Explorer
   homepageUrl: https://web-platform-dx.github.io/web-features-explorer/
+
+- id: whatwg
+  name: WHATWG
+  homepageUrl: https://whatwg.org/

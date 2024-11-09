@@ -196,31 +196,6 @@
   tags:
     - screenreaders
 
-#################################################
-# A11y Conditions
-#################################################
-
-- id: low_bandwidth
-  name: Low bandwidth
-
-- id: offline_user
-  name: Offline access
-
-- id: single_handed
-  name: Single-handedness
-
-- id: computer_illiteracy
-  name: Computer illiteracy
-
-- id: keyboard_navigation
-  name: Keyboard navigation!!!
-
-- id: language_barrier
-  name: Language barrier
-
-#################################################
-# A11y Techniques
-#################################################
-
-- id: dark_mode
-  name: Dark mode
+- id: userway
+  name: UserWay
+  homepageUrl: https://userway.org/

@@ -368,6 +368,8 @@
 - id: pagespeed_insights
   name: PageSpeed Insights
   homepageUrl: https://pagespeed.web.dev/
+  patterns:
+    - pagespeed
   tags:
     - performance
 
@@ -436,3 +438,75 @@
   homepageUrl: https://www.datadoghq.com/
   tags:
     - analytics
+
+- id: gt_metrix
+  name: GTmetrix
+  homepageUrl: https://gtmetrix.com/
+
+- id: speed_curve
+  name: SpeedCurve
+  homepageUrl: https://www.speedcurve.com/
+
+- id: up_time_robot
+  name: UptimeRobot
+  homepageUrl: https://uptimerobot.com/
+
+- id: yellow_lab_tools
+  name: Yellow Lab tools
+  homepageUrl: https://yellowlab.tools/
+  patterns:
+    - yellow, lab [l]
+
+- id: adobe_analytics
+  name: Adobe Analytics
+  homepageUrl: https://business.adobe.com/products/analytics/adobe-analytics.html
+
+- id: azure_application_insights
+  name: Azure Application Insights
+  homepageUrl: https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
+  patterns:
+    - application, insights [l]
+
+- id: app_signal
+  name: AppSignal
+  homepageUrl: https://www.appsignal.com/
+
+- id: microsoft_clarity
+  name: Clarity
+  homepageUrl: https://clarity.microsoft.com/
+  patterns:
+    - clarity
+
+- id: full_story
+  name: Fullstory
+  homepageUrl: https://www.fullstory.com/
+
+- id: go_access
+  name: GoAccess
+  homepageUrl: https://goaccess.io/
+
+- id: goat_counter
+  name: GoatCounter
+  homepageUrl: https://www.goatcounter.com/
+
+- id: grafana
+  name: Grafana
+  homepageUrl: https://grafana.com/
+
+- id: hot_jar
+  name: Hotjar
+  homepageUrl: https://www.hotjar.com/
+
+- id: post_hog
+  name: PostHog
+  homepageUrl: https://posthog.com/
+
+- id: umami
+  name: Umami
+  homepageUrl: https://umami.is/
+
+- id: mailchimp
+  name: Mailchimp
+  homepageUrl: https://mailchimp.com/
+  patterns:
+    - mailchi.mp

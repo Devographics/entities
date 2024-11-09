@@ -129,3 +129,9 @@
 - id: dou
   name: Dou.ua
   homepageUrl: https://dou.ua/
+
+- id: 32_bit_cafe
+  name: 32-Bit Cafe
+  homepageUrl: https://32bit.cafe/
+  patterns:
+    - 32bit.cafe

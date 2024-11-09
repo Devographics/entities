@@ -9,8 +9,7 @@
     `<form>`
   patterns:
     - form [e]
-    - >
-      <form> [e]
+    - "<form> [e]"
 
 - id: select_element
   name: |

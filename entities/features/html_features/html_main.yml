@@ -458,6 +458,7 @@
   tags:
     - features
     - css_interoperability_features
+    - interactivity_pain_points
   patterns:
     - dialog
     - dialogue
@@ -1138,6 +1139,7 @@
   caniuse: mdn-html_global_attributes_popover
   tags:
     - features
+    - interactivity_pain_points
   patterns:
     - pop( |-)?over
     - popup

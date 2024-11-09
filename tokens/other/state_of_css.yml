@@ -42,6 +42,7 @@
     - in(-| )house
     - internal
     - mine
+    - ad(-| )?hoc
 
 - id: no_css_framework
   name: No CSS Framework

@@ -28,3 +28,16 @@
     - bookmarklet
   tags:
     - accessibility_tools
+
+- id: custom_site_generator
+  name: Custom Site Generator
+  tags:
+    - site_generators
+  patterns:
+    - custom
+    - homegrown
+    - my own
+    - in(-| )house
+    - internal
+    - mine
+    - ad(-| )?hoc

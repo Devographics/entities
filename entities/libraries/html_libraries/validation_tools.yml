@@ -13,3 +13,10 @@
 - id: w3c_validator
   name: W3C Validator
   homepageUrl: https://validator.w3.org/
+
+- id: ide_built_in
+  name: IDE Built-in Tool
+
+- id: markup_lint
+  name: MarkupLint
+  homepageUrl: https://markuplint.dev/
