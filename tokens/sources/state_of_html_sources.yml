@@ -37,11 +37,16 @@
     - yearly
     - taken it
     - filled it
+    - announcement_email
+    - announcement_post
+    - post_survey_share
+    - you [e]
+    - emailed
 
 - id: state_of_css_survey
   patterns:
     - stateofcss.com
-    - css2024
+    - css2024 [p]
 
 - id: state_of_js_survey
   patterns:
@@ -50,3 +55,7 @@
 - id: adesso
   name: Adesso
   homepageUrl: https://www.adesso.de/de/
+
+- id: sacha_greif
+  patterns:
+    - sg_twitter

@@ -142,6 +142,7 @@
     - modal
 
 - id: sanitization_issues
+  name: Sanitization issues
   tags:
     - content_pain_points
   patterns:

@@ -74,6 +74,7 @@
     `<applet>`
 
 - id: custom_highlight_api
+  webFeaturesId: highlight
   name: CSS Custom Highlight API
   description: |
     Provides a mechanism for styling arbitrary text ranges on a document by using JavaScript to create the ranges, and CSS to style them.
@@ -97,6 +98,7 @@
       CSS.highlights.set("my-custom-highlight", highlight);
 
 - id: set_html_unsafe
+  webFeaturesId: parse-html-unsafe
   name: "`setHtmlUnsafe()`"
   description: |
     Used to parse a string of HTML into a DocumentFragment, which then replaces the element's subtree in the DOM.

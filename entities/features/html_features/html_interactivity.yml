@@ -94,6 +94,7 @@
       `let fragment = document.createDocumentFragment()`
 
 - id: clipboard_api
+  webFeaturesId: async-clipboard
   name: Clipboard API
   description: |
     Provides the ability to respond to clipboard commands (cut, copy, and paste), as well as to asynchronously read from and write to the system clipboard.
@@ -106,3 +107,7 @@
         .then(
           (clipText) => (document.querySelector(".editor").innerText += clipText),
         );
+  patterns:
+    - clipboard
+  tags:
+    - html_pwas

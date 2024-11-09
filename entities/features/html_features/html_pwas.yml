@@ -92,11 +92,6 @@
 - id: avif
   name: AVIF
 
-- id: clipboard_api
-  name: Clipboard API
-  patterns:
-    - clipboard
-
 - id: progress_element
   name: "`<progress>`"
   patterns:

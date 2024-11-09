@@ -510,3 +510,9 @@
   homepageUrl: https://mailchimp.com/
   patterns:
     - mailchi.mp
+
+- id: outlook
+  name: Microsoft Outlook
+  homepageUrl: https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook
+  patterns:
+    - outlook.live.com

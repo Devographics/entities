@@ -78,6 +78,7 @@
     - machine, readable, data [l]
 
 - id: embedding_issues
+  name: Embedding issues
   patterns:
     - embedding
     - embed

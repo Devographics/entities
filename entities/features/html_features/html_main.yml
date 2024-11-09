@@ -109,6 +109,7 @@
     - features
 
 - id: blocking_render
+  webFeaturesId: blocking-render
   name: '`blocking="render"`'
   needsTranslation: false
   description: Specify that resources (scripts, stylesheets etc) should block
@@ -183,6 +184,7 @@
     - features
 
 - id: content_security_policy
+  webFeaturesId: csp
   name: Content-Security Policy (CSP)
   needsTranslation: true
   description: An added layer of security that helps to detect and mitigate XSS
@@ -211,6 +213,7 @@
     - features
 
 - id: controlslist_attribute
+  webFeaturesId: controls-list
   name: "`controlslist` attribute"
   needsTranslation: true
   description: Prevent certain controls from appearing in the toolbar of a media element.
@@ -345,6 +348,7 @@
     - features
 
 - id: datalist_element
+  webFeaturesId: datalist
   name: "`<datalist>`"
   needsTranslation: false
   description: Method of providing a list of presets for a user to select in a
@@ -368,6 +372,7 @@
     - datalist
 
 - id: declarative_shadow_dom
+  webFeaturesId: declarative-shadow-dom
   name: Declarative Shadow DOM
   needsTranslation: true
   description: Define shadow trees with HTML.
@@ -414,6 +419,7 @@
     - features
 
 - id: details_element
+  webFeaturesId: details
   name: "`<details>` and `<summary>`"
   needsTranslation: false
   description: A disclosure widget that can be toggled to hide or show content
@@ -437,6 +443,7 @@
     - detail.*summary
 
 - id: dialog_element
+  webFeaturesId: dialog
   name: "`<dialog>`"
   needsTranslation: false
   description: For dialog boxes or other interactive components, such as a
@@ -479,6 +486,7 @@
     - features
 
 - id: element_internals
+  webFeaturesId: form-associated-custom-elements
   name: "`ElementInternals` API"
   needsTranslation: false
   description: Assign hidden semantics to custom elements, facilitating
@@ -566,6 +574,7 @@
     - features
 
 - id: fetchpriority_attribute
+  webFeaturesId: fetch-priority
   name: |
     `fetchpriority` attribute
   needsTranslation: true
@@ -678,6 +687,7 @@
     - features
 
 - id: html_modules
+  webFeaturesId: js-modules
   name: HTML Modules
   needsTranslation: true
   description: Import HTML files via JS imports and access their elements and JS exports.
@@ -712,6 +722,7 @@
     - features
 
 - id: imperative_slot
+  webFeaturesId: slot-assign
   name: Imperative slot assignment
   needsTranslation: true
   description: A way to assign elements to slots manually via JS, so that slot
@@ -730,6 +741,7 @@
     - features
 
 - id: inert_attribute
+  webFeaturesId: inert
   name: "`inert` attribute"
   needsTranslation: true
   description: Attribute to make an element and its descendants non-interactive,
@@ -819,6 +831,7 @@
     - features
 
 - id: filesystem_access
+  webFeaturesId: file-system-access
   name: File System Access API
   needsTranslation: true
   description: Access files and directories on the user's local device.
@@ -863,6 +876,7 @@
     - features
 
 - id: media_capture
+  webFeaturesId: html-media-capture
   name: HTML Media Capture
   needsTranslation: true
   description: Capture input from the user’s camera.
@@ -1117,6 +1131,7 @@
     - <picture>
 
 - id: popover_api
+  webFeaturesId: popover
   name: Popover API
   needsTranslation: false
   description: HTML syntax and JS API facilitating popovers such as overlays,
@@ -1222,6 +1237,7 @@
     - features
 
 - id: respimg_attributes
+  webFeaturesId: preloading-responsive-images
   name: "`srcset` and `sizes` attributes"
   needsTranslation: true
   description:
@@ -1349,6 +1365,7 @@
     - features
 
 - id: search_element
+  webFeaturesId: search
   name: "`<search>`"
   needsTranslation: false
   description: Semantic element for wrapping search UI.
@@ -1441,6 +1458,7 @@
     - features
 
 - id: shadow_dom
+  webFeaturesId: shadow-dom
   name: Shadow DOM
   needsTranslation: false
   description: Encapsulate elements not visible from the outside, and style them
@@ -1454,6 +1472,7 @@
     - html_interoperability_features
 
 - id: showpicker
+  webFeaturesId: show-picker-input
   name: "`input.showPicker()`"
   needsTranslation: false
   description: Programmatically open the picker of form controls that have one
@@ -1539,6 +1558,7 @@
     - features
 
 - id: tabindex_attribute
+  webFeaturesId: tabindex
   name: "`tabindex` attribute"
   needsTranslation: true
   description: Make HTML elements focusable, allow or prevent them from being
@@ -1554,6 +1574,7 @@
     - features
 
 - id: template_element
+  webFeaturesId: template
   name: "`<template>`"
   needsTranslation: false
   description:
@@ -1641,6 +1662,7 @@
     - navigator\.share
 
 - id: window_controls_overlay
+  webFeaturesId: window-controls-overlay
   name: Window Controls Overlay API
   needsTranslation: true
   description: Allows PWAs to display custom content over the title bar area,

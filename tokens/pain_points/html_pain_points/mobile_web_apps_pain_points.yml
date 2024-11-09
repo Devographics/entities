@@ -51,6 +51,7 @@
     - gesture
 
 - id: app_store_issues
+  name: App Store Issues
   patterns:
     - app( )?store
 
@@ -137,6 +138,13 @@
 
 - id: transitions
   parentId: ux_issues
+
+# android
+
+- id: android_general_issues
+  name: Android issues
+  patterns:
+    - android
 
 # apple_ios_issues
 

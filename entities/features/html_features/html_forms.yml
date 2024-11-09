@@ -165,6 +165,7 @@
     - forms_pain_points
 
 - id: edit_context
+  webFeaturesId: edit-context
   name: |
     `EditContext`
   description: |
@@ -178,6 +179,7 @@
       canvas.editContext = editContext;
 
 - id: caret_position_from_point
+  webFeaturesId: document-caretpositionfrompoint
   name: |
     `caretPositionFromPoint`
   description: |

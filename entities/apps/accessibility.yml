@@ -199,3 +199,6 @@
 - id: userway
   name: UserWay
   homepageUrl: https://userway.org/
+
+- id: browser_devtools
+  name: Browser Devtools

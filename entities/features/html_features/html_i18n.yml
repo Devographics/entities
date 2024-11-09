@@ -58,6 +58,7 @@
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat
 
 - id: intl_segmenter
+  webFeaturesId: intl-segmenter
   name: |
     `Intl.Segmenter` API
   description: |
