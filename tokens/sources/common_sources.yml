@@ -84,3 +84,11 @@
     - kevin
     - powell
     - kp
+
+- id: adesso
+  name: Adesso
+  homepageUrl: https://www.adesso.de/de/
+
+- id: sacha_greif
+  patterns:
+    - sg_twitter

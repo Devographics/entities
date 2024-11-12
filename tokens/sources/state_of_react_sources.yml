@@ -6,7 +6,7 @@
 #                             sources                            #
 ##################################################################
 
-- id: state_of_js_survey
+- id: state_of_react_survey
   patterns:
     - email
     - devographics.com
@@ -15,8 +15,6 @@
     - mail
     - mailing list
     # - newsletter
-    - stateofcss.com
-    - stateofjs.com
     - for years
     - forever
     - been doing
@@ -31,5 +29,18 @@
     - yearly
     - taken it
     - filled it
+    - announcement_email
+    - announcement_post
+    - post_survey_share
+    - you [e]
+    - emailed
     - gmail
-    - other state of surveys
+
+- id: state_of_js_survey
+  patterns:
+    - stateofjs.com
+
+- id: state_of_css_survey
+  patterns:
+    - stateofcss.com
+    - css2024 [p]

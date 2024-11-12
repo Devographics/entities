@@ -51,11 +51,3 @@
 - id: state_of_js_survey
   patterns:
     - stateofjs.com
-
-- id: adesso
-  name: Adesso
-  homepageUrl: https://www.adesso.de/de/
-
-- id: sacha_greif
-  patterns:
-    - sg_twitter

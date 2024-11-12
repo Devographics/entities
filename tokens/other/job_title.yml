@@ -1,0 +1,158 @@
+- id: ceo
+  name: CEO
+
+- id: co_founder
+  name: Founder/Co-Founder
+  patterns:
+    - founder
+
+- id: consultant
+  name: Consultant
+
+- id: student
+  name: Student
+
+- id: freelancer
+  name: Freelancer
+
+- id: cto
+  name: CTO
+  patterns:
+    - chief technology officer
+
+- id: engineering_manager
+  name: Engineering Manager
+
+- id: director_of_engineering
+  name: Director of Engineering
+  patterns:
+    - director
+
+- id: head_of_engineering
+  name: Head of Engineering
+  patterns:
+    - head, engineering [l]
+
+# architect
+
+- id: software_architect
+  name: Software Architect
+  patterns:
+    - architect [e]
+
+- id: solution_architect
+  name: Solution Architect
+
+- id: frontend_architect
+  name: Frontend Architect
+  patterns:
+    - frontend, architect [l]
+    - front, architect [l]
+
+# lead
+
+- id: technical_lead
+  name: Technical Lead
+  patterns:
+    - team, lead [l]
+    - tech, lead [l]
+
+- id: frontend_lead
+  name: Frontend Lead
+  patterns:
+    - frontend, lead [l]
+    - front, lead [l]
+    - fe, lead [l]
+
+# engineer
+
+- id: software_engineer
+  name: Software Engineer
+  patterns:
+    - engineer
+
+- id: frontend_engineer
+  name: Frontend Engineer
+  patterns:
+    - frontend, engineer [l]
+    - front, engineer [l]
+    - fe, engineer [l]
+
+- id: backend_engineer
+  name: Backend Engineer
+  patterns:
+    # - back( |-)?end
+    - back, engineer [l]
+    - backend, engineer [l]
+
+- id: fullstack_engineer
+  name: Fullstack Engineer
+  patterns:
+    # - full( |-)?stack engineer
+    - full, engineer [l]
+    - fullstack, engineer [l]
+
+- id: junior_engineer
+  name: Junior Engineer
+  patterns:
+    - junior, engineer [l]
+
+- id: senior_engineer
+  name: Senior Engineer
+  patterns:
+    - senior, engineer [l]
+
+- id: lead_engineer
+  name: Lead Engineer
+  patterns:
+    - lead, engineer [l]
+
+# developer
+
+- id: developer
+  name: Developer
+  patterns:
+    - dev [e]
+    - developper
+    - webdev [p]
+
+- id: frontend_developer
+  name: Frontend Developer
+  patterns:
+    - front( |-)?end
+    - frontend, developer [l]
+    - front, developer [l]
+    - fe, developer [l]
+    - frontend, dev [l]
+    - front, dev [l]
+    - fe, dev [l]
+
+- id: backend_developer
+  name: Backend Developer
+  patterns:
+    - back( |-)?end
+    - back, developer [l]
+    - backend, developer [l]
+
+- id: fullstack_developer
+  name: Fullstack Developer
+  patterns:
+    - full( |-)?stack
+    - full, developer [l]
+    - fullstack, developer [l]
+
+- id: junior_developer
+  name: Junior Developer
+  patterns:
+    - junior, developer [l]
+
+- id: senior_developer
+  name: Senior Developer
+  patterns:
+    - senior, developer [l]
+    - senior, dev [l]
+
+- id: lead_developer
+  name: Lead Developer
+  patterns:
+    - lead, developer [l]
