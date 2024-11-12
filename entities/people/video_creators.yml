@@ -57,6 +57,11 @@
   belongsTo: daniel_shiffman
   name: The Coding Train
   youtubeUrl: https://www.youtube.com/user/shiffman
+  blueskyId: thecodingtrain.com
+  youtubeUrl2: https://www.youtube.com/thecodingtrain
+  youtubeName: The Coding Train
+  twitterName: thecodingtrain
+  twitchName: CodingTrainChooChoo
   patterns:
     - daniel shiffman
   tags:
@@ -149,6 +154,7 @@
   belongsTo: benjamin_debon
   name: Benjamin Code
   youtubeUrl: https://www.youtube.com/c/BenjaminCode
+  blueskyId: benjamincode.bsky.social
   tags:
     - youtube
 
@@ -352,6 +358,7 @@
   youtubeUrl: https://www.youtube.com/@WebDevCody
   youtubeName: WebDevCody
   homepageUrl: https://www.webdevcody.com/
+  blueskyId: webdevcody.bsky.social
   tags:
     - youtube
 
@@ -373,6 +380,15 @@
 - id: brais_moure
   name: Brais Moure (MoureDev)
   homepageUrl: https://www.youtube.com/@mouredev/podcasts
+  blueskyId: moure.dev
+  twitterName: mouredev
+  linkedinId: braismoure
+  instagramId: mouredev
+  tiktokUrl: https://www.tiktok.com/@mouredev
+  discordId: mouredev
+  youtubeName: MoureDev by Brais Moure
+  youtubeUrl: https://www.youtube.com/@mouredev
+  twitchName: MoureDev
   patterns:
     - mouredev
 
@@ -468,6 +484,7 @@
   name: Tsoding
   twitchUrl: https://www.twitch.tv/tsoding
   youtubeUrl: https://www.youtube.com/c/Tsoding
+  blueskyId: tsoding.bsky.social
 
 - id: huntabyte
   name: Huntabyte
