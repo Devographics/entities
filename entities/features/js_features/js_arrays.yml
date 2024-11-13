@@ -4,8 +4,11 @@
   caniuse: mdn-javascript_builtins_array_at
 
 - id: array_to_sorted
+  webFeaturesId: array-by-copy
   name: >
     `array.toSorted()`
+  description: >
+    Sort without mutating the original array.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted
   example:
     language: js
@@ -16,8 +19,11 @@
       console.log(values); // [1, 10, 21, 2]
 
 - id: array_to_reversed
+  webFeaturesId: array-by-copy
   name: >
     `array.toReversed()`
+  description: >
+    Reverse without mutating the original array.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed
   example:
     language: js
@@ -28,8 +34,11 @@
       console.log(items); // [1, 2, 3]
 
 - id: array_with
+  webFeaturesId: array-by-copy
   name: >
     `array.with()`
+  description: >
+    Returns a new array with the element at the given index replaced with the given value.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/with
   example:
     language: js
@@ -38,6 +47,7 @@
       console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
 
 - id: array_find_last
+  webFeaturesId: array-findlast
   name: >
     `array.findLast()`
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
@@ -53,8 +63,11 @@
       // { name: "fish", quantity: 1 }
 
 - id: array_to_spliced
+  webFeaturesId: array-by-copy
   name: >
     `array.toSpliced()`
+  description: >
+    Splice without mutating the original array.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced
   example:
     language: js
@@ -85,6 +98,8 @@
 
 - id: array_findlast
   name: "`array.findLast()`"
+  description: >
+    Returns the value of the last element that satisfies the testing function.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
   example:
     language: js

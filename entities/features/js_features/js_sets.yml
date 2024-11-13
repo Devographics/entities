@@ -2,6 +2,8 @@
   webFeaturesId: set-methods
   name: >
     `set.intersection()`
+  description: >
+    Returns a new set containing elements in both this set and the given set.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/intersection
   example:
     language: js
@@ -14,6 +16,8 @@
   webFeaturesId: set-methods
   name: >
     `set.union()`
+  description: >
+    Returns a new set containing elements of both this set and the given set.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/union
   example:
     language: js
@@ -24,6 +28,8 @@
 
 - id: set_difference
   webFeaturesId: set-methods
+  description: >
+    Returns a new set containing elements in this set but not in the given set.
   name: >
     `set.difference()`
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/difference
@@ -38,6 +44,8 @@
   webFeaturesId: set-methods
   name: >
     `set.symmetricDifference()`
+  description: >
+    Returns a new set containing elements which are in either this set or the given set, but not in both.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricDifference
   example:
     language: js
@@ -50,6 +58,8 @@
   webFeaturesId: set-methods
   name: >
     `set.isSubsetOf()`
+  description: >
+    Returns a boolean indicating if all elements of this set are in the given set.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isSubsetOf
   example:
     language: js
@@ -60,6 +70,8 @@
 
 - id: set_is_superset_of
   webFeaturesId: set-methods
+  description: >
+    Returns a boolean indicating if all elements of the given set are in this set.
   name: >
     `set.isSupersetOf()`
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isSupersetOf
@@ -74,6 +86,8 @@
   webFeaturesId: set-methods
   name: >
     `set.isDisjointFrom()`
+  description: >
+    Returns a boolean indicating if this set has no elements in common with the given set.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isDisjointFrom
   example:
     language: js

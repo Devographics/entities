@@ -7,7 +7,10 @@
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 - id: promise_all_settled
+  webFeaturesId: promise-allsettled
   name: "`Promise.allSettled()`"
+  description: >
+    Returns a single Promise that fulfills when all of the input's promises fulfills.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
   example:
     language: js
@@ -19,7 +22,10 @@
       );
 
 - id: promise_any
+  webFeaturesId: promise-any
   name: "`Promise.any()`"
+  description: >
+    Returns a single Promise that fulfills when any of the input's promises fulfills.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any
   caniuse: mdn-javascript_builtins_promise_any
   example:
@@ -34,7 +40,10 @@
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/await
 
 - id: promise_try
+  webFeaturesId: promise-try
   name: "`Promise.try()`"
+  description: >
+    Take a callback of any kind and wrap its result in a Promise.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/try
   caniuse: javascript_builtins_promise_try
   example:

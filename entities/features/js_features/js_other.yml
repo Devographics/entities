@@ -173,6 +173,8 @@
 # Language
 
 - id: nullish_coalescing
+  description: >
+    Return first value, or second value if first value is `null` or `undefined`.
   name: Nullish Coalescing
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
   example:
@@ -193,8 +195,10 @@
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
 
 - id: private_fields
-  name: Private Fields
-  mdn: /en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
+  description: >
+    Properties that cannot be legally referenced outside of the class.
+  name: Private Properties
+  mdn: /en-US/docs/Web/JavaScript/Reference/Classes/Private_properties
   example:
     language: js
     code: |
@@ -203,8 +207,10 @@
       }
 
 - id: dynamic_import
+  description: >
+    Load a module asynchronously and dynamically.
   name: Dynamic Import
-  mdn: /en-US/docs/Web/JavaScript/Reference/Statements/import
+  mdn: en-US/docs/Web/JavaScript/Reference/Operators/import
   example:
     language: js
     code: |
@@ -235,6 +241,8 @@
   caniuse: mdn-javascript_grammar_numeric_separators
 
 - id: logical_assignment
+  description: >
+    Evaluates the right operand and assigns to the left if the left operand is truthy.
   name: Logical Assignment
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment
   caniuse: mdn-javascript_operators_logical_and_assignment
@@ -258,6 +266,8 @@
 
 - id: error_cause
   name: "`error.cause`"
+  description: >
+    Indicate the specific original cause of the error.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause
   example:
     language: js
@@ -282,6 +292,8 @@
 
 - id: regexp_match_indices
   name: Regexp Match Indices
+  description: >
+    Store the start and end positions of each matched capture group.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/hasIndices
   example:
     language: js
@@ -289,8 +301,13 @@
       const str1 = "foo bar foo";
       const regex1 = /foo/dg;
       console.log(regex1.exec(str1).indices[0]); // Output: Array [0, 2]
+  resources:
+    - url: https://v8.dev/features/regexp-match-indices
+      title: RegExp match indices
 
 - id: hashbang_grammar
+  description: >
+    Provide the path to a specific JavaScript interpreter that you want to use to execute the script.
   name: Hashbang Grammar
   mdn: en-US/docs/Web/JavaScript/Reference/Lexical_grammar#hashbang_comments
   example:
@@ -304,6 +321,8 @@
   webFeaturesId: set-methods
   name: >
     `Object.groupBy()`
+  description: >
+    Group the elements of a given iterable according to the string values returned by a provided function.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/union
   example:
     language: js

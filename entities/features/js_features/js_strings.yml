@@ -1,5 +1,8 @@
 - id: string_replace_all
+  webFeaturesId: string-replaceall
   name: "`string.replaceAll()`"
+  description: >
+    Replace all instances of a string.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
   caniuse: mdn-javascript_builtins_string_replaceall
   example:
@@ -9,7 +12,10 @@
       const s2 = s1.replaceAll('_', '-');
 
 - id: string_match_all
+  webFeaturesId: string-matchall
   name: "`string.matchAll()`"
+  description: >
+    Return an iterator of all results matching this string against a regular expression.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
   caniuse: mdn-javascript_builtins_string_matchall
   example:
