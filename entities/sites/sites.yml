@@ -531,3 +531,7 @@
 - id: whatwg
   name: WHATWG
   homepageUrl: https://whatwg.org/
+
+- id: rum_archive
+  name: RUM Archive
+  homepageUrl: https://rumarchive.com/
