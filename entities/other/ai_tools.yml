@@ -99,10 +99,10 @@
 - id: poe
   name: Poe
   homepageUrl: https://poe.com/
-# - id:
-#   name:
-#   homepageUrl:
 
+- id: supermaven
+  name: Supermaven
+  homepageUrl: https://supermaven.com/
 # - id:
 #   name:
 #   homepageUrl:

@@ -21,6 +21,7 @@
   name: Sarah Drasner
   homepageUrl: https://sarahdrasnerdesign.com/
   blogUrl: https://sarahdrasnerdesign.com/writing
+  blueskyId: sarahedo.bsky.social
   patterns:
     - sara drasner
   tags:
@@ -75,6 +76,7 @@
     - overeacted
     - abramov
     - dan abromov
+    - dan [e]
 
 - id: robin_wieruch
   name: Robin Wieruch
@@ -312,6 +314,7 @@
 
 - id: tania_rascia
   name: Tania Rascia
+  blueskyId: tania.dev
   twitterName: taniarascia
   homepageUrl: https://www.taniarascia.com/
   homepage2: https://tania.dev/
@@ -699,6 +702,7 @@
   homepageUrl: https://meowni.ca/
   blogUrl: https://meowni.ca/blog/
   rssUrl: https://meowni.ca/blog.xml
+  blueskyId: notwaldorf.bsky.social
   tags:
     - css
 
@@ -719,6 +723,7 @@
   homepageUrl: https://www.cassie.codes/
   blogUrl: https://www.cassie.codes/writing/
   rssUrl: https://www.cassie.codes/feed.xml
+  blueskyId: cassiecodes.bsky.social
   tags:
     - css
 
@@ -738,6 +743,7 @@
   homepageUrl: https://charliegerard.dev/
   blogUrl: https://charliegerard.dev/blog/
   rssUrl: https://charliegerard.dev/rss.xml
+  blueskyId: devdevcharlie.com
   tags:
     - css
 
@@ -861,6 +867,7 @@
   name: Diana Smith
   twitterName: cyanharlow
   homepageUrl: https://diana-adrianne.com/
+  blueskyId: cyanharlow.bsky.social
   blog:
   rss:
   tags:
@@ -1244,6 +1251,7 @@
   homepage2: https://wizardzines.com/
   blogUrl: https://jvns.ca/
   rssUrl: https://jvns.ca/atom.xml
+  blueskyId: b0rk.jvns.ca
   tags:
     - css
 
@@ -1269,7 +1277,9 @@
   youtubeUrl: https://www.youtube.com/@TraversyMedia/
   youtubeName: TraversyMedia
   patterns:
-    - Traversy
+    - traversy
+    - traversey media
+    - traverse media
   tags:
     - css
 
@@ -1289,6 +1299,7 @@
   homepageUrl: http://www.stubbornella.org/content/
   blogUrl: http://www.stubbornella.org/content/
   rssUrl: http://www.stubbornella.org/content/feed/
+  blueskyId: nicolesullivan.bsky.social
   tags:
     - css
 
@@ -1298,6 +1309,7 @@
   homepageUrl: https://technicalinterviews.dev/
   blog:
   rss:
+  blueskyId: emmabostian.bsky.social
   related:
     - ladybug
   tags:
@@ -1321,6 +1333,7 @@
   youtubeUrl: https://www.youtube.com/@AliSpittelDev
   youtubeName: AliSpittelDev
   twitchName: aspittel
+  blueskyId: alispit.tel
   tags:
     - css
 
@@ -1522,6 +1535,8 @@
   instagramId: davidkpiano
   tags:
     - js
+  patterns:
+    - david, piano [l]
 
 - id: sindre_sorhus
   name: Sindre Sorhus
@@ -1723,6 +1738,7 @@
   homepageUrl: https://wattenberger.com/
   blogUrl: https://wattenberger.com/blog
   rssUrl: https://wattenberger.com/rss
+  blueskyId: wattenberger.com
   tags:
     - js
 
@@ -1757,7 +1773,7 @@
   youtubeName: jherr
   blueskyId: jherr.dev
   patterns:
-    - blue( )?collar
+    - blue( )?col(l)?ar
     - jack harrington
     - jack herington
   tags:
@@ -1796,6 +1812,7 @@
     - Ilya Klimov
     - Illya Klimov
     - Ilya Klymov
+    - Ilya Klimov
   tags:
     - js
 
@@ -2033,6 +2050,7 @@
   rss:
   youtubeUrl: https://www.youtube.com/@giftegwuenu
   youtubeName: giftegwuenu
+  blueskyId: thegiftcode.dev
   tags:
     - js
 
@@ -2085,6 +2103,7 @@
   rss:
   youtubeUrl: https://www.youtube.com/@AlyssaNicollcodes
   youtubeName: AlyssaNicollcodes
+  blueskyId: alyssanicoll.bsky.social
   tags:
     - js
 
@@ -2496,6 +2515,7 @@
   homepageUrl: http://kgrayson.com/
   blogUrl: https://dev.to/kathryngrayson
   rssUrl: https://dev.to/feed/kathryngrayson
+  blueskyId: kgrayson.com
   tags:
     - js
 
@@ -2531,6 +2551,7 @@
     - theo( )?gg
     - theot3
     - theo_discord
+    - t3gg
   tags:
     - youtube
     - video_creators
@@ -2678,6 +2699,7 @@
   homepage2: https://dev.to/shaundai
   blogUrl: https://dev.to/shaundai
   rssUrl: https://dev.to/feed/shaundai
+  blueskyId: shaundai.com
   tags:
     - js
 
@@ -2709,6 +2731,7 @@
   youtubeName: programmingwithmosh
   patterns:
     - mosh hamedani
+    - mosh [e]
   tags:
     - youtube
 
@@ -3468,7 +3491,7 @@
   name: Rob Palmer
   twitterName: robpalmer2
 
-- id: romainlanz
+- id: romain_lanz
   name: Romain Lanz
   twitterName: romainlanz
   homepageUrl: https://bento.me/romainlanz
@@ -3517,7 +3540,7 @@
   name: Vladilen Minin
   youtubeUrl: https://www.youtube.com/@VladilenMinin
   patterns:
-    - Владилен Минин
+    - владилен минин
 
   # 2023 picks
 - id: german_jablonski
@@ -3603,6 +3626,7 @@
 - id: aurora_scharff
   name: Aurora Scharff
   twitterName: aurorascharff
+  blueskyId: aurorascharff.bsky.social
 
 - id: carl_vitullo
   name: Carl Vitullo
@@ -3613,3 +3637,81 @@
   homepageUrl: https://patrickbrosset.com/
   blueskyId: patrickbrosset.com
   mastodonName: patrickbrosset
+
+- id: nana_janashia
+  name: Nana Janashia
+  homepageUrl: https://www.techworld-with-nana.com/
+
+- id: anjana_vakil
+  name: Anjana Vakil
+  homepageUrl: https://anjana.dev/
+
+- id: azu
+  name: Azu
+  twitterName: azu_re
+  blueskyId: azu.bsky.social
+
+- id: evan_wallace
+  name: Evan Wallace
+  homepageUrl: https://madebyevan.com/
+
+- id: carson_gross
+  name: Carson Gross
+  homepageUrl: https://bigsky.software/
+  patterns:
+    - htmx
+
+- id: john_resig
+  name: John Resig
+  homepageUrl: https://johnresig.com/
+
+- id: johnson_chu
+  name: Johnson Chu
+  twitterName: johnsoncodehk
+
+- id: lucas_santos
+  name: Lucas Santos
+  homepageUrl: https://blog.lsantos.dev/
+  twitterName: _staticvoid
+
+- id: mike_bostock
+  name: Mike Bostock
+  homepageUrl: https://bost.ocks.org/mike/
+
+- id: pilcrow
+  name: Pilcrow
+  homepageUrl: https://pilcrowonpaper.com/
+  blueskyId: pilcrowonpaper.com
+
+- id: sarah_rainsberger
+  name: Sarah Rainsberger
+  homepageUrl: https://www.rainsberger.ca/
+
+- id: taylor_otwell
+  name: Taylor Otwell
+  twitterName: taylorotwell
+
+- id: tj_devries
+  name: TJ DeVries
+  homepageUrl: https://teej.tv/
+  twitterName: teej_dv
+  patterns:
+    - teej [p]
+    - tj [e]
+
+- id: yagiz_nizipli
+  name: Yagiz Nizipli
+  homepageUrl: https://www.yagiz.co/
+
+- id: amy_dutton
+  name: Amy Dutton
+  homepageUrl: https://www.amydutton.me/
+  twitterName: selfteachme
+
+- id: george_hotz
+  name: George Hotz
+  youtubeUrl: https://www.youtube.com/@geohotarchive
+  twitterName: realgeorgehotz
+
+- id: anton_larichev
+  name: Anton Larichev

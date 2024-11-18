@@ -23,7 +23,7 @@
     - youtube
     - people
   patterns:
-    - fireship [p]
+    - fire( )?ship [p]
 
 - id: programming_with_mosh
   belongsTo: mosh_hamedani
@@ -86,11 +86,17 @@
     - primeagean
     - primegen
     - theprimagen
-    - theprimetime
-    - primetime
+    - prime( )?time
     - prime [e]
     - theprim [p]
     - primagean
+    - primegean
+    - primeagan
+    - primeagon
+    - primegan
+    - primeogen
+    - prime( )?reacts
+    - primogen
   tags:
     - youtube
     - people
@@ -124,7 +130,7 @@
   twitchName: trash_dev
   patterns:
     - trash
-    - trash( )?dev
+    - trash( |_)?dev
   tags:
     - twitch
 
@@ -266,6 +272,8 @@
 - id: joy_of_code
   name: Joy of Code
   youtubeUrl: https://www.youtube.com/c/joyofcodedev
+  patterns:
+    - joyofcodedev
   tags:
     - youtube
 
@@ -535,3 +543,218 @@
   twitterName: pcgramota
   homepageUrl: https://www.mishanep.com/
   youtubeUrl: https://www.youtube.com/channel/UCFq12kPZg4wTNPO7V_g3B-A
+
+- id: tech_world_with_nana
+  name: TechWorld with Nana
+  belongs_to: nana_janashia
+  youtubeUrl: https://www.youtube.com/c/techworldwithnana
+
+- id: colt_steele
+  name: Colt Steele
+  youtubeUrl: https://www.youtube.com/channel/UCrqAGUPPMOdo0jfQ6grikZw
+
+- id: self_teach_me
+  name: Self Teach Me
+  youtubeUrl: https://www.youtube.com/c/selfteachme
+  belongsTo: amy_dutton
+
+- id: ange_the_great
+  name: AngeTheGreat
+  youtubeUrl: https://www.youtube.com/@AngeTheGreat
+
+- id: anthony_writes_code
+  name: anthonywritescode
+  youtubeUrl: https://www.youtube.com/c/anthonywritescode
+
+- id: basti_ui
+  name: Basti Ui
+  youtubeUrl: https://www.youtube.com/c/BastiUI
+
+- id: big_box_swe
+  name: bigboxSWE
+  youtubeUrl: https://www.youtube.com/@bigboxSWE
+
+- id: bluuweb
+  name: Bluuweb
+  youtubeUrl: https://www.youtube.com/user/Bluuweb
+
+- id: casey_muratori
+  name: Casey Muratori
+  youtubeUrl: https://www.youtube.com/user/caseymuratori
+  twitterName: cmuratori
+
+- id: chris_biscardi
+  name: Chris Biscardi
+  youtubeUrl: https://www.youtube.com/c/chrisbiscardi
+  homepageUrl: https://www.christopherbiscardi.com/
+
+- id: chrome_for_developers
+  name: Chrome for Developers
+  youtubeUrl: https://www.youtube.com/user/ChromeDevelopers
+  patterns:
+    - chromedevs
+
+- id: code_opinion
+  name: CodeOpinion
+  youtubeUrl: https://www.youtube.com/channel/UC3RKA4vunFAfrfxiJhPEplw
+
+- id: coding_with_lewis
+  name: Coding with Lewis
+  youtubeUrl: https://www.youtube.com/c/CodingwithLewis
+
+- id: coding_apple
+  name: Coding Apple
+  youtubeUrl: https://www.youtube.com/@codingapple
+  homepageUrl: https://codingapple.com/
+
+- id: computerphile
+  name: Computerphile
+  youtubeUrl: https://www.youtube.com/Computerphile
+
+- id: codigo_fonte_tv
+  name: Código Fonte TV
+  youtubeUrl: https://www.youtube.com/codigofontetv
+
+- id: dev_theory
+  name: Dev Theory
+  youtubeUrl: https://www.youtube.com/channel/UCuUVSGnuyliNnCxz6hi2pvg
+
+- id: devaslife
+  name: devaslife
+  youtubeUrl: https://www.youtube.com/@devaslife
+
+- id: fabio_akita
+  name: Fabio akita
+  homepageUrl: https://www.akitaonrails.com/
+  youtubeUrl: https://www.youtube.com/@Akitando
+  patterns:
+    - akita on rails
+
+- id: faster_than_lime
+  name: fasterthanlime
+  youtubeUrl: https://www.youtube.com/@fasterthanlime
+
+- id: forrest_knight
+  name: ForrestKnight
+  youtubeUrl: https://www.youtube.com/@fknight
+
+- id: freya_holmer
+  name: Freya Holmér
+  youtubeUrl: https://www.youtube.com/@acegikmo
+  patterns:
+    - freya holmér
+
+- id: thriving_technologist
+  name: Thriving Technologist
+  youtubeUrl: https://www.youtube.com/@HealthyDev
+  patterns:
+    - healthy
+
+- id: honeypot
+  name: Honeypot
+  youtubeUrl: https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA
+
+- id: hussein_nasser
+  name: Hussein Nasser
+  youtubeUrl: https://www.youtube.com/@hnasr
+
+- id: john_hammond
+  name: John Hammond
+  youtubeUrl: https://www.youtube.com/@_JohnHammond
+
+- id: jon_gjengset
+  name: Jon Gjengset
+  youtubeUrl: https://www.youtube.com/c/JonGjengset
+
+- id: javascript_mastery
+  name: JavaScript Mastery
+  youtubeUrl: https://www.youtube.com/c/JavaScriptMastery
+  homepageUrl: https://www.jsmastery.pro/
+  patterns:
+    - js( )?mastery
+
+- id: leifer_mendez
+  name: Leifer Mendez
+  youtubeUrl: https://www.youtube.com/channel/UCgrIGp5QAnC0J8LfNJxDRDw
+
+- id: lets_get_rusty
+  name: Let's Get Rusty
+  youtubeUrl: https://www.youtube.com/@letsgetrusty
+  patterns:
+    - let's get rusty
+
+- id: live_overflow
+  name: LiveOverflow
+  youtubeUrl: https://www.youtube.com/LiveOverflow
+  homepageUrl: https://liveoverflow.com/
+
+- id: lucas_montano
+  name: Lucas Montano
+  youtubeUrl: https://www.youtube.com/lucasmontano
+
+- id: m_coding
+  name: mCoding
+  youtubeUrl: https://www.youtube.com/@mCoding
+
+- id: monsterlessons_academy
+  name: Monsterlessons Academy
+  youtubeUrl: https://www.youtube.com/c/monsterlessonsacademy
+  homepageUrl: https://monsterlessons-academy.com/
+
+- id: network_chuck
+  name: NetworkChuck
+  youtubeUrl: https://www.youtube.com/channel/UC9x0AN7BWHpCDHSm9NiJFJQ
+
+- id: nomad_coders
+  name: Nomad Coders
+  youtubeUrl: https://www.youtube.com/@nomadcoders
+  patterns:
+    - nomad( )?coder
+
+- id: ottomated
+  name: Ottomated
+  youtubeUrl: https://www.youtube.com/@Ottomated
+  homepageUrl: https://ottomated.net/
+
+- id: pedro_tech
+  name: PedroTech
+  youtubeUrl: https://www.youtube.com/@PedroTechnologies
+
+- id: pirate_software
+  name: Pirate Software
+  youtubeUrl: https://www.youtube.com/@PirateSoftware
+  homepageUrl: https://gopiratesoftware.com/
+  twitchUrl: https://www.twitch.tv/piratesoftware
+
+- id: programmers_are_also_human
+  name: Programmers are also human
+  youtubeUrl: https://www.youtube.com/@programmersarealsohuman5909
+
+- id: purple_school
+  name: PurpleSchool
+  youtubeUrl: https://www.youtube.com/@PurpleSchool
+  belongsTo: anton_larichev
+
+- id: pwn_function
+  name: PwnFunction
+  youtubeUrl: https://www.youtube.com/c/PwnFunction
+
+- id: randy
+  name: Randy
+  youtubeUrl: https://www.youtube.com/@randyprime
+
+- id: simon_dev
+  name: SimonDev
+  youtubeUrl: https://www.youtube.com/@simondev758
+
+- id: svelte_society
+  name: Svelte Society
+  youtubeUrl: https://www.youtube.com/c/SvelteSociety
+
+- id: thin_matrix
+  name: ThinMatrix
+  youtubeUrl: https://www.youtube.com/thinmatrix
+
+- id: vamoacodear
+  name: vamoacodear
+  youtubeUrl: https://www.youtube.com/c/@vamoacodear

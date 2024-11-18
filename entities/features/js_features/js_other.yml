@@ -242,9 +242,9 @@
 
 - id: logical_assignment
   description: >
-    Evaluates the right operand and assigns to the left if the left operand is truthy.
+    Operators to assign a value to a variable based on its own truthy/falsy status.
   name: Logical Assignment
-  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment
   caniuse: mdn-javascript_operators_logical_and_assignment
   example:
     language: js

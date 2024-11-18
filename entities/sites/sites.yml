@@ -535,3 +535,7 @@
 - id: rum_archive
   name: RUM Archive
   homepageUrl: https://rumarchive.com/
+
+- id: byte_byte_go
+  name: ByteByteGo
+  homepageUrl: https://bytebytego.com/
