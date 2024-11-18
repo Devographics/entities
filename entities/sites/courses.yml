@@ -94,8 +94,11 @@
   homepageUrl: https://platzi.com/
 
 - id: traversy_media
+  belongsTo: brad_traversy
   name: Traversy Media
   homepageUrl: https://www.traversymedia.com/
+  tags:
+    - video_creators
   patterns:
     - traversy
 
