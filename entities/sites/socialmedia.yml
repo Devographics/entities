@@ -105,6 +105,9 @@
 - id: bluesky
   name: Bluesky
   homepageUrl: https://bsky.app/
+  patterns:
+    - bsky.app [p]
+    - blue sky
 
 - id: threads
   name: Threads

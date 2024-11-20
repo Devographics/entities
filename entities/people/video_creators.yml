@@ -107,6 +107,7 @@
   youtubeUrl: https://www.youtube.com/channel/UCEDkO7wshcDZ7UZo17rPkzQ
   tags:
     - youtube
+    - women
 
 - id: coding_garden
   name: Coding Garden
@@ -120,6 +121,7 @@
   youtubeUrl: https://www.youtube.com/thecodercoder
   tags:
     - youtube
+    - women
   patterns:
     - jess chan
 
@@ -140,6 +142,7 @@
   twitchName: bashbunni
   tags:
     - twitch
+    - women
 
 - id: akshay_saini
   belongsTo: akshay_saini
@@ -336,6 +339,7 @@
   youtubeName: LayoutLand
   tags:
     - youtube
+    - women
 
 - id: hello_ruby
   name: Linda Liukas
@@ -344,6 +348,7 @@
   belongsTo: linda_liukas
   tags:
     - youtube
+    - women
 
 - id: tiff_in_tech
   belongsTo: tiffany_janzen
@@ -352,6 +357,7 @@
   youtubeName: TiffInTech
   tags:
     - youtube
+    - women
 
 - id: blondie_bytes
   belongsTo: kathryn_hodge
@@ -360,6 +366,7 @@
   youtubeName: blondiebytes
   tags:
     - youtube
+    - women
 
 - id: web_dev_cody
   name: Web Dev Cody
@@ -515,7 +522,9 @@
   homepageUrl: https://www.twitch.tv/afor_digital
   twitterName: afor_digital
   twitchUrl: https://www.twitch.tv/afor_digital/
-  youtubeUrl: https://www.youtube.com/@afor_digital
+  youtubeUrl: https://www.youtube.com/@afor_lives
+  tags:
+    - women
 
 - id: cosden_solutions
   name: Cosden Solution
@@ -526,6 +535,8 @@
   name: Juxtopposed
   youtubeUrl: https://www.youtube.com/@juxtopposed
   twitterName: juxtopposed
+  tags:
+    - women
 
 - id: lama_dev
   name: Lama Dev
@@ -548,6 +559,8 @@
   name: TechWorld with Nana
   belongs_to: nana_janashia
   youtubeUrl: https://www.youtube.com/c/techworldwithnana
+  tags:
+    - women
 
 - id: colt_steele
   name: Colt Steele
@@ -557,6 +570,8 @@
   name: Self Teach Me
   youtubeUrl: https://www.youtube.com/c/selfteachme
   belongsTo: amy_dutton
+  tags:
+    - women
 
 - id: ange_the_great
   name: AngeTheGreat
@@ -643,6 +658,8 @@
   youtubeUrl: https://www.youtube.com/@acegikmo
   patterns:
     - freya holmér
+  tags:
+    - women
 
 - id: thriving_technologist
   name: Thriving Technologist
@@ -758,6 +775,8 @@
 - id: vamoacodear
   name: vamoacodear
   youtubeUrl: https://www.youtube.com/c/@vamoacodear
+  tags:
+    - women
 
 - id: traversy_media
   belongsTo: brad_traversy

@@ -28,6 +28,7 @@
     - javascript
     - blogs
     - css
+    - women
 
 - id: heydon_pickering
   twitterName: heydonworks
@@ -168,6 +169,7 @@
   tags:
     - css
     - blogs
+    - women
   patterns:
     - chen ?hui ?jing
     - huijing
@@ -201,6 +203,7 @@
   tags:
     - css
     - blogs
+    - women
 
 - id: sara_soueidan
   twitterName: SaraSoueidan
@@ -216,6 +219,7 @@
   tags:
     - css
     - blogs
+    - women
 
 - id: josh_comeau
   twitterName: JoshWComeau
@@ -250,6 +254,7 @@
   blueskyId: rachelandrew.bsky.social
   tags:
     - css
+    - women
 
 - id: jen_simmons
   twitterName: jensimmons
@@ -262,6 +267,7 @@
   blueskyId: jensimmons.bsky.social
   tags:
     - css
+    - women
 
 - id: kevin_j_powell
   twitterName: KevinJPowell
@@ -311,6 +317,7 @@
     - stéphanie walter
   tags:
     - css
+    - women
 
 - id: tania_rascia
   name: Tania Rascia
@@ -322,6 +329,7 @@
   rssUrl: https://www.taniarascia.com/rss.xml
   tags:
     - javascript
+    - women
 
 - id: brad_frost
   twitterName: brad_frost
@@ -455,6 +463,7 @@
   tiktokUrl: https://www.tiktok.com/@unacode
   tags:
     - css
+    - women
   patterns:
     - una
 
@@ -476,6 +485,7 @@
   rssUrl: https://kittygiraudel.com/rss/index.xml
   tags:
     - css
+    - women
 
 - id: stephanie_eckles
   twitterName: 5t3ph
@@ -494,6 +504,7 @@
     - moderncss
   tags:
     - css
+    - women
 
 - id: hidde_de_vries
   twitterName: hdv
@@ -530,6 +541,7 @@
     - anna tudor
   tags:
     - css
+    - women
 
 - id: kilian_valkhof
   twitterName: kilianvalkhof
@@ -571,6 +583,7 @@
   rssUrl: https://www.miriamsuzanne.com/feed.xml
   tags:
     - css
+    - women
 
 - id: bramus_van_damme
   twitterName: bramus
@@ -621,6 +634,7 @@
   linkedinId: michelle-barker-02819230
   tags:
     - css
+    - women
   related:
     - css_irl
 
@@ -635,6 +649,7 @@
     - css
     - javascript
     - blogs
+    - women
 
 - id: philip_jagenstedt
   twitterName: foolip
@@ -695,6 +710,7 @@
   rssUrl: https://tink.uk/feed.xml
   tags:
     - accessibility
+    - women
 
 - id: monica_dinculescu
   name: Monica Dinculescu
@@ -705,6 +721,7 @@
   blueskyId: notwaldorf.bsky.social
   tags:
     - css
+    - women
 
 - id: lynn_fisher
   name: Lynn Fisher
@@ -715,6 +732,7 @@
   rssUrl: https://lynnandtonic.com/feed.xml
   tags:
     - css
+    - women
 
 - id: cassie_evans
   name: Cassie Evans
@@ -726,6 +744,7 @@
   blueskyId: cassiecodes.bsky.social
   tags:
     - css
+    - women
 
 - id: mandy_michael
   name: Mandy Michael
@@ -735,6 +754,7 @@
   rssUrl: https://medium.com/feed/@mandy.michael
   tags:
     - css
+    - women
 
 - id: charlie_gerard
   name: Charlie Gerard
@@ -746,6 +766,7 @@
   blueskyId: devdevcharlie.com
   tags:
     - css
+    - women
 
 - id: cassidy_williams
   name: Cassidy Williams
@@ -760,6 +781,7 @@
     - cassido
   tags:
     - css
+    - women
 
 - id: jake_archibald
   name: Jake Archibald
@@ -830,6 +852,7 @@
   tags:
     - css
     - accessibility
+    - women
 
 - id: zach_leatherman
   name: Zach Leatherman
@@ -872,6 +895,7 @@
   rss:
   tags:
     - css
+    - women
 
 - id: brad_westfall
   name: Brad Westfall
@@ -986,6 +1010,7 @@
   rssUrl: https://sia.codes/posts/
   tags:
     - css
+    - women
 
 - id: sarah_dayan
   name: Sarah Dayan
@@ -995,6 +1020,7 @@
   rssUrl: https://frontstuff.io/feed.xml
   tags:
     - css
+    - women
 
 - id: evan_you
   name: Evan You
@@ -1064,6 +1090,7 @@
   rss:
   tags:
     - css
+    - women
 
 - id: robin_rendle
   name: Robin Rendle
@@ -1254,6 +1281,7 @@
   blueskyId: b0rk.jvns.ca
   tags:
     - css
+    - women
 
 - id: jonathan_mircha
   name: Jonathan MirCha
@@ -1302,6 +1330,7 @@
   blueskyId: nicolesullivan.bsky.social
   tags:
     - css
+    - women
 
 - id: emma_bostian
   name: Emma Bostian
@@ -1314,6 +1343,7 @@
     - ladybug
   tags:
     - css
+    - women
 
 - id: elad_shechter
   name: Elad Shechter
@@ -1346,6 +1376,7 @@
   rss:
   tags:
     - css
+    - women
 
 - id: jens_oliver_meiert
   name: Jens Oliver Meiert
@@ -1385,6 +1416,7 @@
   tags:
     - accessibility
     - css
+    - women
 
 - id: mark_otto
   name: Mark Otto
@@ -1495,6 +1527,7 @@
   github: lex111
   tags:
     - css
+    - women
 
 - id: shawn_wang
   name: Shawn Wang
@@ -1741,6 +1774,7 @@
   blueskyId: wattenberger.com
   tags:
     - js
+    - women
 
 - id: andrei_neagoie
   name: Andrei Neagoie
@@ -1980,6 +2014,7 @@
   tags:
     - js
     - graphql
+    - women
 
 - id: max_stoiber
   name: Max Stoiber
@@ -2022,6 +2057,7 @@
   rss:
   tags:
     - graphql
+    - women
 
 - id: eve_porcello
   name: Eve Porcello
@@ -2032,6 +2068,7 @@
   rss:
   tags:
     - graphql
+    - women
 
 - id: tanmai_gopal
   name: Tanmai Gopal
@@ -2053,6 +2090,7 @@
   blueskyId: thegiftcode.dev
   tags:
     - js
+    - women
 
 - id: temani_afif
   name: Temani Afif
@@ -2063,6 +2101,7 @@
   mastodonName: css@front-end.social
   tags:
     - css
+    - women
   patterns:
     - afif
 
@@ -2106,6 +2145,7 @@
   blueskyId: alyssanicoll.bsky.social
   tags:
     - js
+    - women
 
 - id: david_east
   name: David East
@@ -2238,7 +2278,7 @@
   rssUrl: https://www.bitnative.com/feed/
   blueskyId: housecor.com
   youtubeName: Cory House
-  youtubeUrl: https://www.youtube.comahousecor/
+  youtubeUrl: https://www.youtube.com/housecor/
   linkedinId: coryhouse
   tags:
     - js
@@ -2508,6 +2548,7 @@
   twitchName: dawntraoz
   tags:
     - js
+    - women
 
 - id: kathryn_grayson_nanz
   name: Kathryn Grayson Nanz
@@ -2518,6 +2559,7 @@
   blueskyId: kgrayson.com
   tags:
     - js
+    - women
 
 - id: fernando_herrera
   name: Fernando Herrera
@@ -2564,6 +2606,7 @@
   tags:
     - youtube
     - video_creators
+    - women
 
 - id: jason_goodison
   name: Jason Goodison
@@ -2584,6 +2627,7 @@
   tags:
     - youtube
     - video_creators
+    - women
   patterns:
     - ania
     - anya
@@ -2790,6 +2834,7 @@
   twitchName: hellomayuko
   tags:
     - youtube
+    - women
 
 - id: jessica_chan
   name: Jessica Chan
@@ -2801,6 +2846,7 @@
   youtubeName: TheCoderCoder
   tags:
     - youtube
+    - women
   patterns:
     - jess chan
 
@@ -3027,12 +3073,14 @@
   homepageUrl: http://lindaliukas.com/
   tags:
     - youtube
+    - women
 
 - id: kathryn_hodge
   name: Kathryn Hodge
   twitterName: blondiebytes
   tags:
     - youtube
+    - women
 
 - id: tiffany_janzen
   name: Tiffany Janzen
@@ -3040,6 +3088,7 @@
   homepageUrl: https://www.tiffintech.com/
   tags:
     - youtube
+    - women
 
 - id: maya_bello
   name: Maya Bello
@@ -3048,6 +3097,7 @@
   twitterName: maya_loves_code
   tags:
     - youtube
+    - women
 
 - id: luba_yudasina
   name: Luba Yudasina
@@ -3056,6 +3106,7 @@
   youtubeName: lifeofluba
   tags:
     - youtube
+    - women
 
 - id: bukola_ayodele
   name: Bukola Ayodele
@@ -3064,6 +3115,7 @@
   homepageUrl: https://www.bukola.dev/
   tags:
     - youtube
+    - women
 
 - id: vadim_savin
   name: Vadim Savin
@@ -3078,6 +3130,8 @@
   twitterName: trunarla
   patterns:
     - mewtru
+  tags:
+    - women
 
 - id: daishi_kato
   name: Daishi Kato
@@ -3113,11 +3167,15 @@
   name: Rachel Nabors
   homepageUrl: http://rachelnabors.com/
   twitterName: rachelnabors
+  tags:
+    - women
 
 - id: shruti_kapoor
   name: Shruti Kapoor
   homepageUrl: https://shrutikapoor.dev/
   twitterName: shrutikapoor08
+  tags:
+    - women
 
 - id: joe_savona
   name: Joe Savona
@@ -3207,6 +3265,7 @@
   twitterName: delba_oliveira
   tags:
     - nextjs
+    - women
 
 - id: dax_raad
   name: Dax Raad
@@ -3274,12 +3333,14 @@
   twitterName: jjenzz
   tags:
     - React
+    - women
 
 - id: nadia_marakevich
   name: Nadia Makarevich
   homepageUrl: https://www.developerway.com/
   tags:
     - react
+    - women
 
 - id: nexxel
   name: Shoubhit (Nexxel)
@@ -3316,6 +3377,8 @@
   name: Sophie Alpert
   homepageUrl: https://sophiebits.com/
   twitterName: sophiebits
+  tags:
+    - women
 
 - id: steve_kinney
   name: Steve Kinney
@@ -3407,6 +3470,8 @@
   name: Deborah Kurata
   twitterName: DeborahKurata
   youtubeUrl: https://www.youtube.com/@deborah_kurata
+  tags:
+    - women
 
 - id: dominic_gannaway
   name: Dominic Gannaway
@@ -3437,6 +3502,8 @@
 - id: jessica_sachs
   name: Jessica Sachs
   twitterName: _jessicasachs
+  tags:
+    - women
 
 - id: jonas_schmedtmann
   name: Jonas Schmedtmann
@@ -3447,6 +3514,8 @@
   name: Lydia Hallie
   homepageUrl: https://www.lydiahallie.io/
   twitterName: lydiahallie
+  tags:
+    - women
 
 - id: marvin_hagemeister
   name: Marvin Hagemeister
@@ -3466,6 +3535,8 @@
   homepageUrl: https://www.developerway.com/
   patterns:
     - nadja makarevich
+  tags:
+    - women
 
 - id: nicholas_c_zakas
   name: Nicholas Zakas
