@@ -108,6 +108,7 @@
   patterns:
     - bsky.app [p]
     - blue sky
+    - bluesky [p]
 
 - id: threads
   name: Threads

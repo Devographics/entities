@@ -1,0 +1,22 @@
+- id: similar_to_java
+  name: Similar to Java
+  patterns:
+    - java
+
+- id: similar_to_php
+  name: Similar to PHP
+  patterns:
+    - php
+
+- id: similar_to_dart
+  name: Similar to Dart
+  patterns:
+    - dart
+
+- id: similar_to_typescript
+  name: Similar to TypeScript
+
+- id: similar_to_python
+  name: Similar to Python
+  patterns:
+    - python

@@ -539,3 +539,13 @@
 - id: byte_byte_go
   name: ByteByteGo
   homepageUrl: https://bytebytego.com/
+
+- id: apis_you_wont_hate
+  name: APIs you won't hate
+  homepageUrl: https://apisyouwonthate.com/
+  patterns:
+    - apisyouwonthate
+
+- id: tc39
+  name: TC39
+  homepageUrl: https://tc39.es/

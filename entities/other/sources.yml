@@ -46,10 +46,11 @@
 
 - id: angular_community
   name: Angular Community
-  homepageUrl: angular.io
+  homepageUrl: https://angular.dev/
   patterns:
     - angular
-    - angular.io
+    - angular.io [p]
+    - angular.dev [p]
 
 - id: vue_community
   name: Vue Community

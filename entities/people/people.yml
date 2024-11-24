@@ -1164,6 +1164,7 @@
   tags:
     - css
     - youtube
+    - spanish
   patterns:
     - midudev
     - midu
@@ -2744,8 +2745,10 @@
   blogUrl: https://dev.to/shaundai
   rssUrl: https://dev.to/feed/shaundai
   blueskyId: shaundai.com
+  youtubeUrl: https://www.youtube.com/@shaundai
   tags:
     - js
+    - women
 
 - id: mattias_petter_johansson
   name: Mattias Petter Johansson
@@ -2971,6 +2974,7 @@
   youtubeName: HolaMundoDev
   tags:
     - youtube
+    - spanish
 
 - id: adrian_hajdin
   name: Adrian Hajdin
@@ -3717,6 +3721,9 @@
 - id: anjana_vakil
   name: Anjana Vakil
   homepageUrl: https://anjana.dev/
+  blueskyId: anjana.dev
+  tags:
+    - women
 
 - id: azu
   name: Azu
@@ -3779,6 +3786,8 @@
   name: Amy Dutton
   homepageUrl: https://www.amydutton.me/
   twitterName: selfteachme
+  tags:
+    - women
 
 - id: george_hotz
   name: George Hotz
@@ -3787,3 +3796,71 @@
 
 - id: anton_larichev
   name: Anton Larichev
+
+- id: jo_franchetti
+  name: Jo Franchetti
+  twitterName: thisisjofrank
+  mastodonId: thisisjofrank
+  tags:
+    - women
+
+- id: erin_mikail_staples
+  name: Erin Mikail Staples
+  twitterName: erinmikail
+  tags:
+    - women
+
+- id: rizel_scarlett
+  name: Rizèl Scarlett
+  twitterName: blackgirlbytes
+  tags:
+    - women
+
+- id: angie_jones
+  name: Angie Jones
+  twitterName: techgirl1908
+  tags:
+    - women
+
+- id: michelle_bakels
+  name: Michelle Bakels
+  twitterName: michellebakels
+  tags:
+    - women
+
+- id: annie_sexton
+  name: Annie Sexton
+  twitterName: _anniebabannie_
+  homepageUrl: https://anniesexton.com/
+  blueskyId: anniesexton.com
+  tags:
+    - women
+
+- id: sidney_buckner
+  name: Sidney Buckner
+  twitterName: shidonichan
+  youtubeUrl: https://www.youtube.com/c/SidneyBuckner
+  tags:
+    - women
+
+- id: lizzie_siegle
+  name: Lizzie Siegle
+  homepageUrl: https://www.lizziesiegle.xyz/
+  twitterName: lizziepika
+  tags:
+    - women
+
+- id: sara_vieira
+  name: Sara Vieira
+  homepageUrl: https://iamsaravieira.com/
+  twitterName: NikkitaFTW
+  blueskyId: nikkitaftw.wtf
+  tags:
+    - women
+
+- id: angela_yu
+  name: Angela Yu
+  twitterName: yu_angela
+  homepageUrl: https://www.appbrewery.com/
+  tags:
+    - women

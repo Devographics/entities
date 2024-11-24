@@ -525,6 +525,7 @@
   youtubeUrl: https://www.youtube.com/@afor_lives
   tags:
     - women
+    - spanish
 
 - id: cosden_solutions
   name: Cosden Solution
@@ -786,3 +787,28 @@
     - courses
   patterns:
     - traversy
+
+- id: alberta_tech
+  name: AlbertaTech
+  youtubeUrl: https://www.youtube.com/channel/UCkdgAA0rfK7lG5dv4o__Paw
+  tags:
+    - women
+
+- id: zeu_dev
+  name: zeu
+  twitchUrl: https://www.twitch.tv/zeu_dev
+  blueskyId: zeu.dev
+  tags:
+    - women
+
+- id: codigo_facilito
+  name: codigofacilito
+  youtubeUrl: https://www.youtube.com/c/codigofacilito
+  tags:
+    - spanish
+
+- id: falcon_masters
+  name: FalconMasters
+  youtubeUrl: https://www.youtube.com/falconmasters
+  tags:
+    - spanish

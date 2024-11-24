@@ -124,7 +124,7 @@
   name: Angular Developer Survey
   homepageUrl: https://blog.angular.io/developer-survey-2021-results-38e653cbb36b
   patterns:
-    - angular
+    - angular, survey [l]
 
 - id: state_of_clojure
   name: State of Clojure

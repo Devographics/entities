@@ -106,3 +106,7 @@
 # - id:
 #   name:
 #   homepageUrl:
+
+- id: windsurf
+  name: Windsurf Editor
+  homepageUrl: https://codeium.com/windsurf
