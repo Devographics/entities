@@ -166,6 +166,7 @@
   blueskyId: benjamincode.bsky.social
   tags:
     - youtube
+    - french
 
 - id: code_bullet
   name: Code Bullet
@@ -236,6 +237,7 @@
   youtubeUrl: https://www.youtube.com/c/FaztTech/videos
   tags:
     - youtube
+    - spanish
 
 - id: http_203
   name: HTTP 203
@@ -249,6 +251,7 @@
   youtubeUrl: https://www.youtube.com/c/HolaMundoDev/videos
   tags:
     - youtube
+    - spanish
 
 - id: hyperplexed
   name: Hyperplexed
@@ -331,6 +334,7 @@
   youtubeUrl: https://www.youtube.com/c/ulbitv
   tags:
     - youtube
+    - russian
 
 - id: layout_land
   belongsTo: jen_simmons
@@ -406,6 +410,8 @@
   twitchName: MoureDev
   patterns:
     - mouredev
+  tags:
+    - spanish
 
 - id: hector_de_leon
   name: Hector de Leon
@@ -413,6 +419,8 @@
   patterns:
     - hdeleon
     - raw( )?radio
+  tags:
+    - spanish
 
 - id: arjan_codes
   name: Arjan Codes
@@ -455,6 +463,8 @@
 - id: dominicode
   name: Domini Code
   youtubeUrl: https://www.youtube.com/@DominiCode
+  tags:
+    - spanish
 
 - id: dreams_of_code
   name: Dreams of Code
@@ -463,6 +473,8 @@
 - id: micode
   name: Micode
   youtubeUrl: https://www.youtube.com/channel/UCYnvxJ-PKiGXo_tYXpWAC-w
+  tags:
+    - french
 
 - id: aarthificial
   name: Aarthificial
@@ -480,6 +492,8 @@
 - id: as_for_js
   name: As For JS…
   youtubeUrl: https://www.youtube.com/@AsForJS
+  tags:
+    - urkrainian
 
 - id: awesome_coding
   name: Awesome
@@ -494,6 +508,8 @@
 - id: betta_tech
   name: BettaTech
   youtubeUrl: https://www.youtube.com/channel/UCSf6S_PAhXsqGMTPDiKgdRg
+  tags:
+    - spanish
 
 - id: tsoding
   name: Tsoding
@@ -516,6 +532,8 @@
 - id: gentleman_programming
   name: Gentleman Programming
   youtubeUrl: https://www.youtube.com/c/GentlemanProgramming
+  tags:
+    - spanish
 
 - id: afor_digital
   name: afor digital
@@ -549,12 +567,16 @@
   patterns:
     - it(_|-| )?sin9k
   youtubeUrl: https://www.youtube.com/@it-sin9k
+  tags:
+    - russian
 
 - id: mishanep
   name: Михаил Непомнящий
   twitterName: pcgramota
   homepageUrl: https://www.mishanep.com/
   youtubeUrl: https://www.youtube.com/channel/UCFq12kPZg4wTNPO7V_g3B-A
+  tags:
+    - russian
 
 - id: tech_world_with_nana
   name: TechWorld with Nana
@@ -585,6 +607,8 @@
 - id: basti_ui
   name: Basti Ui
   youtubeUrl: https://www.youtube.com/c/BastiUI
+  tags:
+    - french
 
 - id: big_box_swe
   name: bigboxSWE
@@ -593,6 +617,8 @@
 - id: bluuweb
   name: Bluuweb
   youtubeUrl: https://www.youtube.com/user/Bluuweb
+  tags:
+    - spanish
 
 - id: casey_muratori
   name: Casey Muratori
@@ -622,6 +648,8 @@
   name: Coding Apple
   youtubeUrl: https://www.youtube.com/@codingapple
   homepageUrl: https://codingapple.com/
+  tags:
+    - korean
 
 - id: computerphile
   name: Computerphile
@@ -630,6 +658,8 @@
 - id: codigo_fonte_tv
   name: Código Fonte TV
   youtubeUrl: https://www.youtube.com/codigofontetv
+  tags:
+    - portuguese
 
 - id: dev_theory
   name: Dev Theory
@@ -645,6 +675,8 @@
   youtubeUrl: https://www.youtube.com/@Akitando
   patterns:
     - akita on rails
+  tags:
+    - portuguese
 
 - id: faster_than_lime
   name: fasterthanlime
@@ -694,6 +726,8 @@
 - id: leifer_mendez
   name: Leifer Mendez
   youtubeUrl: https://www.youtube.com/channel/UCgrIGp5QAnC0J8LfNJxDRDw
+  tags:
+    - spanish
 
 - id: lets_get_rusty
   name: Let's Get Rusty
@@ -709,6 +743,8 @@
 - id: lucas_montano
   name: Lucas Montano
   youtubeUrl: https://www.youtube.com/lucasmontano
+  tags:
+    - portuguese
 
 - id: m_coding
   name: mCoding
@@ -728,6 +764,8 @@
   youtubeUrl: https://www.youtube.com/@nomadcoders
   patterns:
     - nomad( )?coder
+  tags:
+    - korean
 
 - id: ottomated
   name: Ottomated
@@ -752,6 +790,8 @@
   name: PurpleSchool
   youtubeUrl: https://www.youtube.com/@PurpleSchool
   belongsTo: anton_larichev
+  tags:
+    - russian
 
 - id: pwn_function
   name: PwnFunction
@@ -778,6 +818,7 @@
   youtubeUrl: https://www.youtube.com/c/@vamoacodear
   tags:
     - women
+    - spanish
 
 - id: traversy_media
   belongsTo: brad_traversy

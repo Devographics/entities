@@ -1294,6 +1294,7 @@
   youtubeName: jonmircha
   tags:
     - css
+    - spanish
   patterns:
     - jonmircha
     - JhonMircha
@@ -1477,6 +1478,7 @@
   youtubeName: FilipeDeschamps
   tags:
     - css
+    - portuguese
 
 - id: chris_ferdinandi
   name: Chris Ferdinandi
@@ -1850,6 +1852,7 @@
     - Ilya Klimov
   tags:
     - js
+    - russian
 
 - id: douglas_crockford
   name: Douglas Crockford
@@ -2189,6 +2192,7 @@
   twitchName: carlosazaustre
   tags:
     - js
+    - spanish
 
 - id: leon_noel
   name: Leon Noel
@@ -2550,6 +2554,7 @@
   tags:
     - js
     - women
+    - spanish
 
 - id: kathryn_grayson_nanz
   name: Kathryn Grayson Nanz
@@ -2573,6 +2578,7 @@
   tags:
     - video_creators
     - courses
+    - spanish
 
 - id: theo_browne
   name: Theo Browne
@@ -2689,6 +2695,7 @@
   tags:
     - youtube
     - video_creators
+    - russian
 
 - id: william_candillon
   name: William Candillon
@@ -2891,6 +2898,7 @@
   blueskyId: benjamincode.bsky.social
   tags:
     - youtube
+    - french
 
 - id: vishwas_gopinath
   name: Vishwas Gopinath
@@ -3070,6 +3078,7 @@
   youtubeName: UlbiTV
   tags:
     - youtube
+    - russian
 
 - id: linda_liukas
   name: Linda Liukas
@@ -3220,6 +3229,7 @@
   twitterName: carmenansio
   homepageUrl: https://geary.co/
   youtubeName: Gearyco
+  youtubeUrl: https://www.youtube.com/@Gearyco
 
 - id: lucas_bonomi
   name: Kevin Geary
@@ -3617,6 +3627,8 @@
   youtubeUrl: https://www.youtube.com/@VladilenMinin
   patterns:
     - владилен минин
+  tags:
+    - russian
 
   # 2023 picks
 - id: german_jablonski
@@ -3684,6 +3696,8 @@
   youtubeUrl: https://www.youtube.com/@melvynxdev
   patterns:
     - melvynx
+  tags:
+    - french
 
 - id: ryan_toronto
   name: Ryan Toronto
