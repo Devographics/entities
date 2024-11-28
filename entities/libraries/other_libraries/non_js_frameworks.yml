@@ -1,39 +1,39 @@
 #################################################
-# Non-JS Stuff
+# non_js Stuff
 #################################################
 
 - id: rails
   name: Rails
   homepageUrl: https://rubyonrails.org/
   tags:
-    - non-js
+    - non_js
     - ruby
 
 - id: laravel
   name: Laravel
   homepageUrl: https://laravel.com/
   tags:
-    - non-js
+    - non_js
     - php
 
 - id: django
   name: Django
   homepageUrl: https://www.djangoproject.com/
   tags:
-    - non-js
+    - non_js
     - python
 
 - id: flask
   name: Flask
   homepageUrl: https://flask.palletsprojects.com/en/2.3.x/
   tags:
-    - non-js
+    - non_js
 
 - id: fastapi
   name: FastAPI
   homepageUrl: https://fastapi.tiangolo.com/
   tags:
-    - non-js
+    - non_js
 
 - id: asp_net
   name: ASP.NET

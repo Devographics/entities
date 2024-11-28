@@ -66,19 +66,19 @@
   name: Flutter
   homepageUrl: https://flutter.io/
   tags:
-    - mobile-desktop
+    - mobile_desktop
 
 - id: xamarin
   name: Xamarin
   homepageUrl: https://visualstudio.microsoft.com/xamarin/
   tags:
-    - mobile-desktop
+    - mobile_desktop
 
 - id: capacitor
   name: Capacitor
   homepageUrl: https://capacitor.ionicframework.com/
   tags:
-    - mobile-desktop
+    - mobile_desktop
 
 - id: quasar
   name: Quasar

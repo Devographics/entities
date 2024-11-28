@@ -119,6 +119,7 @@
   belongsTo: jessica_chan
   name: Coder Coder
   youtubeUrl: https://www.youtube.com/thecodercoder
+  blueskyId: thecodercoder.bsky.social
   tags:
     - youtube
     - women

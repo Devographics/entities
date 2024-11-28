@@ -33,7 +33,7 @@
   github: edmundhung/conform
   tags:
     - remix
-    - react-router
+    - react_router
     - forms
 
 - id: data_driven_forms
