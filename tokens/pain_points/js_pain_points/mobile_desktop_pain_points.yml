@@ -15,7 +15,7 @@
 
 - id: ios
 
-- id: android
+- id: android_issues
   name: Android issues
 
 - id: javascript

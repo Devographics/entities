@@ -1,0 +1,23 @@
+- id: android
+  name: Android
+  homepageUrl: https://www.android.com/
+
+- id: mac_os
+  name: macOS
+  homepageUrl: https://www.apple.com/macos/
+
+- id: windows
+  name: Windows
+  homepageUrl: https://www.microsoft.com/en-us/windows
+
+- id: ios
+  name: iOS
+  homepageUrl: https://www.apple.com/ios
+
+- id: chrome_os
+  name: ChromeOS
+  homepageUrl: https://chromeos.google/
+
+- id: linux
+  name: Linux
+  homepageUrl: https://www.linux.org/

@@ -1,4 +1,6 @@
 - id: state_of_js_survey
+  idAliases:
+    - state_of_js
   name: State of JavaScript
   homepageUrl: https://stateofjs.com
   patterns:
@@ -9,6 +11,8 @@
     - stateofjs.com
 
 - id: state_of_css_survey
+  idAliases:
+    - state_of_css
   name: State of CSS
   homepageUrl: https://stateofcss.com
   patterns:
@@ -17,6 +21,8 @@
     - stateofcss.com
 
 - id: state_of_graphql_survey
+  idAliases:
+    - state_of_graphql
   name: State of GraphQL
   homepageUrl: https://stateofgraphql.com
   patterns:
@@ -25,6 +31,8 @@
     - stateofgraphql.com
 
 - id: state_of_html_survey
+  idAliases:
+    - state_of_html
   name: State of HTML
   homepageUrl: https://stateofhtml.com
   patterns:
@@ -33,6 +41,8 @@
     - stateofhtml.com
 
 - id: state_of_react_survey
+  idAliases:
+    - state_of_react
   name: State of React
   homepageUrl: https://stateofreact.com
   patterns:
