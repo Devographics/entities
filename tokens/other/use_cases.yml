@@ -147,8 +147,8 @@
   tags:
     - css_uses
 
-- id: desktop
-  name: Desktop applications
+- id: desktop_applications
+  name: Desktop Applications
   tags:
     - css_uses
 
