@@ -36,6 +36,11 @@
     - email_announcement2
     - devto_js2024_announcement
     - state_of_js_email_share
+    - state_of_js_email2
+    - gmail
+    - newsletter
+    - newsletters
+    - post_survey_share_email
   tags:
     - sources_state_of_js
 
@@ -44,8 +49,7 @@
     - css2024
     - css2024_announcement_email
 
-- id: angular_homepage
-  name: Angular Community
+- id: angular
   patterns:
     - angular
     - angular.io [p]
@@ -68,10 +72,6 @@
   name: Astro Community
   patterns:
     - https://astro.build/
-
-- id: referral_5n0w
-  name: Snowball Sampling
-  homepageUrl: https://github.com/Devographics/surveys/issues/258
 
 - id: reddit_ad_campaign
   name: Reddit Ad Campaign

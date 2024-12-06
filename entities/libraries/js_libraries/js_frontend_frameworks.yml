@@ -65,6 +65,8 @@
   github: emberjs/ember.js
   description: A JavaScript framework for creating ambitious web applications
   homepageUrl: "https://emberjs.com"
+  patterns:
+    - emberjs
 
 - id: svelte
   name: Svelte

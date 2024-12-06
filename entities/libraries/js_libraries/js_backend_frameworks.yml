@@ -17,6 +17,7 @@
   homepageUrl: "https://nextjs.org"
   patterns:
     - next.js
+    - next [e]
 
 - id: koa
   name: Koa
@@ -56,6 +57,10 @@
   github: nuxt/nuxt.js
   # description: The Intuitive Vue Framework
   homepageUrl: https://nuxt.com/
+  tags:
+    - state_of_js_sources
+  patterns:
+    - nuxt_homepage
 
 - id: gatsby
   name: Gatsby

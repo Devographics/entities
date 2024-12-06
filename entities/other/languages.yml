@@ -104,6 +104,7 @@
   github: elm/compiler
   tags:
     - javascript_flavors
+    - libraries
 
 - id: reason
   name: Reason

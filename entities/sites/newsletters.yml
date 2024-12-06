@@ -112,6 +112,7 @@
   homepageUrl: https://thisweekinreact.com/
   patterns:
     - react weekly
+    - this_week_in_react_via_reddit
 
 - id: tldr
   name: TLDR

@@ -112,7 +112,14 @@
     - rate of change
     - to(o)? many change [p]
     - frequent change
-    - change very fast
+    - change(s)? very fast
+    - change(s)? so fast
+    - every( )?day a new
+    - pace of change
+    - fast change
+    - rapid change
+    - change too much
+    - too much change
 
 - id: reinventing_the_wheel
   name: Reinventing the wheel
@@ -124,7 +131,7 @@
   name: Version changes
   description: Breaking changes and other updating issues
   patterns:
-    - breaking changes
+    - breaking change(s)?
     - migration
     - version
     - upgrad [p]
@@ -165,6 +172,10 @@
     - confusing
     - cumbersome
     - overly complex
+    - overcomplexity
+    - over( )?complex
+    - over( )?complicated
+    - over( )?complicating
 
 - id: dependencies
   name: Dependencies
@@ -407,6 +418,7 @@
     - difficult to learn
     - where to start
     - how to start
+    - curva de aprendizaje
 
 - id: lack_of_documentation
   name: Lack of documentation
@@ -432,6 +444,10 @@
     # - standard
     - too many ways
     - so many ways
+
+- id: lack_of_good_examples
+  name: Lack of best practices
+  parentId: educational_issues
 
 - id: lack_of_knowledge
   name: Lack of knowledge
@@ -530,3 +546,19 @@
 
 - id: cors
   name: CORS
+
+- id: cache_issues
+  patterns:
+    - cache
+    - caching
+
+- id: scaling_issues
+  patterns:
+    - scaling
+    - scalability
+
+- id: server_client_issues
+  name: Frontend and backend integration
+  patterns:
+    - client, server [l]
+    - sharing, code [l]

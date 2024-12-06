@@ -549,3 +549,17 @@
 - id: tc39
   name: TC39
   homepageUrl: https://tc39.es/
+  patterns:
+    - tc39_chat
+
+- id: black_tech_pipeline
+  name: Black Tech Pipeline
+  homepageUrl: https://blacktechpipeline.com/
+  tags:
+    - diversity
+
+- id: codebar
+  name: Codebar
+  homepageUrl: https://codebar.io/
+  tags:
+    - diversity

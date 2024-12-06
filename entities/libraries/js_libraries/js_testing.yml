@@ -253,3 +253,11 @@
 - id: node_test_runner
   name: Node Test Runner
   homepageUrl: https://nodejs.org/en/learn/test-runner/introduction
+
+- id: cucumber
+  name: Cucumber
+  homepageUrl: https://cucumber.io/
+
+- id: node_tap
+  name: Node-Tap
+  homepageUrl: https://node-tap.org/

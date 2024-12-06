@@ -76,3 +76,19 @@
 - id: qt
   name: Qt
   homepageUrl: https://www.qt.io/
+
+- id: blazor
+  name: Blazor
+  homepageUrl: https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
+
+- id: unpoly
+  name: Unpoly
+  homepageUrl: https://unpoly.com/
+
+- id: hotwire
+  name: Hotwire
+  homepageUrl: https://hotwired.dev/
+
+- id: sapui5
+  name: SAPUI5
+  homepageUrl: https://pages.community.sap.com/topics/ui5

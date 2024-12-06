@@ -50,12 +50,6 @@
 
 - id: react
 
-- id: server_client_issues
-  name: Frontend and backend integration
-  patterns:
-    - client, server [l]
-    - sharing, code [l]
-
 - id: javascript_on_the_server
 
 - id: server_components_issues

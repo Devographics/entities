@@ -110,3 +110,11 @@
 - id: tanstack_start
   name: TanStack Start
   homepageUrl: https://tanstack.com/start/latest
+
+- id: inertia
+  name: Inertia
+  homepageUrl: https://inertiajs.com/
+
+- id: qwik_city
+  name: Qwik City
+  homepageUrl: https://qwik.dev/docs/qwikcity/

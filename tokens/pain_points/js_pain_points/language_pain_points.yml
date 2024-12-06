@@ -226,3 +226,41 @@
 - id: flexibility
 
 - id: ease_of_use
+
+- id: syntax_issues
+  patterns:
+    - syntax
+
+- id: hoisting_issues
+  patterns:
+    - hoisting
+    - hoist
+
+- id: race_conditions
+  patterns:
+    - race
+
+- id: readability_issues
+  patterns:
+    - readability
+
+- id: references_issues
+  patterns:
+    - reference
+
+- id: this_keyword_issues
+  patterns:
+    - this [e]
+
+- id: lack_of_pattern_matching
+  patterns:
+    - pattern matching
+    - pattern match
+    - match operator
+    - matching operator
+
+- id: lack_of_pipe_operator
+  patterns:
+    - pipe
+    - piping
+    - pipeline

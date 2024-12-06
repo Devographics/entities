@@ -45,7 +45,7 @@
     - meteor
 
 - id: angular_community
-  name: Angular Community
+  name: Angular
   homepageUrl: https://angular.dev/
   patterns:
     - angular

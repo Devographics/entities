@@ -92,3 +92,9 @@
 - id: sacha_greif
   patterns:
     - sg_twitter
+
+- id: not_sure
+  patterns:
+    - don't remember
+    - not sure
+    - don't know

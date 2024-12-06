@@ -25,6 +25,7 @@
     - http://m.facebook.com/
     - https://l.facebook.com/
     - https://lm.facebook.com/
+    - post_survey_share_facebook
 
 - id: producthunt
   name: Product Hunt
@@ -53,6 +54,7 @@
     - linked( |-)?in
     - lnkd
     - android-app://com.linkedin.android/
+    - post_survey_share_linkedin
 
 - id: hangouts
   name: Hangouts
@@ -64,6 +66,7 @@
   patterns:
     - t.co
     - x
+    - post_survey_share_twitter
 
 - id: instagram
   name: Instagram
@@ -109,6 +112,8 @@
     - bsky.app [p]
     - blue sky
     - bluesky [p]
+    - bsky
+    - blusky
 
 - id: threads
   name: Threads

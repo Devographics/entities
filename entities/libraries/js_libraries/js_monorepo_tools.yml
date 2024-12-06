@@ -31,6 +31,8 @@
 - id: moon
   name: Moon
   homepageUrl: https://moonrepo.dev/
+  patterns:
+    - moonrepo
 
 - id: bit_dev
   name: Bit

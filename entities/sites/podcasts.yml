@@ -537,3 +537,9 @@
 - id: stack_overflow_podcast
   name: Stack Overflow Podcast
   homepageUrl: https://stackoverflow.blog/podcast
+
+- id: deja_vue
+  name: DejaVue
+  homepageUrl: https://dejavue.fm/
+  patterns:
+    - dejavue_e035

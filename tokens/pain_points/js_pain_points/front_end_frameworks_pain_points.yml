@@ -136,3 +136,51 @@
   name: Angular issues
   patterns:
     - angular
+
+- id: async_issues
+  patterns:
+    - async [p]
+
+- id: build_issues
+  patterns:
+    - build
+    - bundler
+    - compiler
+
+- id: change_detection_issues
+  patterns:
+    - change, detection [l]
+
+- id: community_issues
+  patterns:
+    - community
+
+- id: data_loading_issues
+  patterns:
+    - data, loading [l]
+    - data, management [l]
+
+- id: lack_of_skill_transferability
+  patterns:
+    - transfer, skill [l]
+    - reuse, skill [l]
+
+- id: incompatibility_between_frameworks
+  patterns:
+    - transfer, skill [l]
+    - reuse, skill [l]
+
+- id: memoization_issues
+  patterns:
+    - memoization
+    - memo
+
+- id: nextjs_issues
+  patterns:
+    - nextjs
+    - next [e]
+
+- id: rendering_issues
+  patterns:
+    - render
+    - rendering
