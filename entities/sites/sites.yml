@@ -561,5 +561,6 @@
 - id: codebar
   name: Codebar
   homepageUrl: https://codebar.io/
+  hasAvatar: true
   tags:
     - diversity

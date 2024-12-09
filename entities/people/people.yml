@@ -3677,7 +3677,7 @@
   # 2023 picks
 - id: arisa_fukuzaki
   name: Arisa Fukuzaki
-  homepageUrl: https://arisa-fukuzaki.dev/
+  homepageUrl: https://bento.me/arisa-fukuzaki
 
 - id: robin_cussol
   name: Robin Cussol
@@ -3879,5 +3879,20 @@
   name: Angela Yu
   twitterName: yu_angela
   homepageUrl: https://www.appbrewery.com/
+  tags:
+    - women
+
+- id: josefine_schaefer
+  name: Josefine Schaefer
+  twitterName: jsfnschfr
+  homepageUrl: https://bento.me/josefine-sch
+  tags:
+    - women
+
+- id: salma_alam_naylor
+  name: Salma Alam-Naylor
+  homepageUrl: https://whitep4nth3r.com/
+  blueskyId: whitep4nth3r.com
+  youtubeUrl: https://www.youtube.com/whitep4nth3r
   tags:
     - women
