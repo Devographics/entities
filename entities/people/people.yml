@@ -3280,6 +3280,8 @@
   tags:
     - nextjs
     - women
+  patterns:
+    - delba
 
 - id: dax_raad
   name: Dax Raad
@@ -3300,14 +3302,6 @@
   twitterName: diegohaz
   tags:
     - ariakit
-
-# keeping old id with a typo for now, delete later
-- id: dominik_dorkmeister
-  name: Dominik Dorfmeister
-  twitterName: TkDodo
-  homepageUrl: https://tkdodo.eu/
-  patterns:
-    - tk( )?dodo
 
 - id: dominik_dorfmeister
   name: Dominik Dorfmeister
@@ -3434,6 +3428,8 @@
   patterns:
     - alexander_lichter_video_vue_security
     - alex lichter
+    - lichter
+    - litcher
 
 - id: andrew_burgess
   name: Andrew Burgess
@@ -3896,3 +3892,69 @@
   youtubeUrl: https://www.youtube.com/whitep4nth3r
   tags:
     - women
+
+- id: david_heinemeier_hansson
+  name: David Heinemeier Hansson
+  patterns:
+    - dhh
+  homepageUrl: https://dhh.dk/
+
+- id: daniel_bergholz
+  name: Daniel Bergholz
+  youtubeUrl: https://www.youtube.com/@DanielBergholz
+
+- id: kevin_fang
+  name: Kevin Fang
+  youtubeUrl: https://www.youtube.com/@kevinfaang
+
+- id: conner_ardman
+  name: Conner Ardman
+  youtubeUrl: https://www.youtube.com/@ConnerArdman
+
+- id: rainer_hahnekamp
+  name: Rainer Hahnekamp
+  youtubeUrl: https://www.youtube.com/c/RainerHahnekamp
+
+- id: juan_villalvazo
+  name: Juan Villalvazo
+  youtubeUrl: https://www.youtube.com/@vidaprogramador
+  tags:
+    - spanish
+
+- id: milan_jovanovic
+  name: Milan Jovanović
+  youtubeUrl: https://www.youtube.com/@MilanJovanovicTech
+  patterns:
+    - jovanović
+
+- id: nicolas_molina
+  name: Nicolas Molina
+  homepageUrl: https://nicobytes.com/
+
+- id: alan_buscaglia
+  name: Alan Buscaglia
+  githubId: Alan-TheGentleman
+  twitterName: alan_buscaglia
+  homepageUrl: https://alan-buscaglia-portfolio.netlify.app/
+
+- id: alex_rickabaugh
+  name: Alex Rickabaugh
+  twitterName: synalx
+
+- id: artem_zakharchenko
+  name: Artem Zakharchenko
+  twitterName: kettanaito
+  homepageUrl: https://kettanaito.com/
+
+- id: freddy_vega
+  name: Freddy Vega
+  homepageUrl: https://freddyvega.com/
+  twitterName: freddier
+
+- id: juan_pablo_de_la_torre
+  name: Juan Pablo de la Torre
+  homepageUrl: https://codigoconjuan.com/
+
+- id: nolan_lawson
+  name: Nolan Lawson
+  homepageUrl: https://nolanlawson.com/

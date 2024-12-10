@@ -31,6 +31,9 @@
 - id: hospitality
   patterns:
     - restaurant
+    - cooking
+    - cuisine
+    - gastronomy
 
 - id: energy
 
@@ -185,6 +188,7 @@
     - learning
 
 - id: student
+  name: Student
 
 - id: unemployed
 
@@ -193,6 +197,8 @@
 - id: agriculture
 
 - id: logistics
+  patterns:
+    - supply chain
 
 - id: manufacturing
 
@@ -201,6 +207,9 @@
 - id: real_estate
 
 - id: construction
+  patterns:
+    - architecture
+    - building
 
 - id: telecommunications
   patterns:
@@ -244,3 +253,18 @@
 - id: retired
 
 - id: robotics
+
+- id: erp
+
+- id: industry
+
+- id: engineering
+
+- id: oil_and_gas
+  patterns:
+    - oil
+    - gas
+
+- id: utilities
+  patterns:
+    - utility

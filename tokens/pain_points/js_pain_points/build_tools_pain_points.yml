@@ -12,3 +12,7 @@
   patterns:
     - hmr
     - hot module reloading
+
+- id: plugin_issues
+  patterns:
+    - plug( |-)?in

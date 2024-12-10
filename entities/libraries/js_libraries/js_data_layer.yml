@@ -171,6 +171,7 @@
   homepageUrl: https://tanstack.com/query/v4
   patterns:
     - react query
+    - tanstack [e]
   tags:
     - data_fetching
 

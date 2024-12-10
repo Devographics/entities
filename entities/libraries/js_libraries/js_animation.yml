@@ -209,3 +209,7 @@
 - id: moti
   name: Moti
   homepageUrl: https://moti.fyi/
+
+- id: atropos
+  name: Atropos
+  homepageUrl: https://atroposjs.com/

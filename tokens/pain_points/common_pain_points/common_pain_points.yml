@@ -120,6 +120,7 @@
     - rapid change
     - change too much
     - too much change
+    - moves too fast
 
 - id: reinventing_the_wheel
   name: Reinventing the wheel
@@ -128,7 +129,7 @@
     - reinventing
 
 - id: version_updates
-  name: Version changes
+  name: Breaking changes
   description: Breaking changes and other updating issues
   patterns:
     - breaking change(s)?
@@ -160,7 +161,7 @@
   name: Excessive complexity
   description: Too much complexity
   patterns:
-    # - complex [p]
+    - complex [e]
     - complicated [p]
     - complication [p]
     - over( |-)?engineer [p]
@@ -562,3 +563,10 @@
   patterns:
     - client, server [l]
     - sharing, code [l]
+
+- id: fragility
+  patterns:
+    - fragile
+    - unreliable
+    - flakey
+    - reliability

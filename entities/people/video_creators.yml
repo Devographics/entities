@@ -236,6 +236,9 @@
 - id: fazt
   name: Fazt
   youtubeUrl: https://www.youtube.com/c/FaztTech/videos
+  patterns:
+    - fatz [p]
+    - fazt [p]
   tags:
     - youtube
     - spanish
@@ -420,6 +423,8 @@
   patterns:
     - hdeleon
     - raw( )?radio
+    - hector de león
+    - héctor de león
   tags:
     - spanish
 
@@ -461,7 +466,7 @@
   name: CoderOne
   youtubeUrl: https://www.youtube.com/@CoderOne
 
-- id: dominicode
+- id: domini_code
   name: Domini Code
   youtubeUrl: https://www.youtube.com/@DominiCode
   tags:
@@ -525,6 +530,8 @@
 - id: low_level_learning
   name: Low Level Learning
   youtubeUrl: https://www.youtube.com/@LowLevelLearning
+  patterns:
+    - low( |-)?level
 
 - id: melkey
   name: Melkey
@@ -533,6 +540,8 @@
 - id: gentleman_programming
   name: Gentleman Programming
   youtubeUrl: https://www.youtube.com/c/GentlemanProgramming
+  patterns:
+    - gentleman
   tags:
     - spanish
 
@@ -854,3 +863,69 @@
   youtubeUrl: https://www.youtube.com/falconmasters
   tags:
     - spanish
+
+- id: lun_dev_code
+  name: Lun Dev Code
+  youtubeUrl: https://www.youtube.com/@lundeveloper
+  patterns:
+    - lun dev
+
+- id: todo_code
+  name: TodoCode
+  youtubeUrl: https://www.youtube.com/channel/UCz0EXCSvMwYKruljsZjCOzw
+  homepageUrl: https://todocodeacademy.com/
+  tags:
+    - spanish
+
+- id: core_dumped
+  name: Core Dumped
+  youtubeUrl: https://www.youtube.com/@CoreDumpped
+
+- id: dot_dager
+  name: Dot Dager
+  youtubeUrl: https://www.youtube.com/channel/UCvPGx8qh8AkrFZW06tESvaA
+  tags:
+    - spanish
+
+- id: edteam
+  name: EDteam
+  youtubeUrl: https://www.youtube.com/EDteam
+  tags:
+    - spanish
+
+- id: internet_of_bugs
+  name: Internet of Bugs
+  youtubeUrl: https://www.youtube.com/@InternetOfBugs
+
+- id: angular_youtube
+  name: Angular
+  youtubeUrl: https://www.youtube.com/angular
+  patterns:
+    - angular [e]
+
+- id: coding_in_flow
+  name: Coding in Flow
+  youtubeUrl: https://www.youtube.com/c/codinginflow
+
+- id: codigo_con_juan
+  belongsTo: juan_pablo_de_la_torre
+  name: Código con Juan
+  youtubeUrl: https://www.youtube.com/c/codigoconjuan
+  tags:
+    - spanish
+
+- id: ng_news
+  name: ng-news
+  homepageUrl: https://www.youtube.com/channel/UCpNgAFB5-_3WSHD_olBv7nw
+
+- id: nicobytes
+  belongsTo: nicolas_molina
+  name: nicobytes
+  youtubeUrl: https://www.youtube.com/c/nicobytes
+  patterns:
+    - nico bytes
+    - nico bites
+
+- id: typed_rocks
+  name: Typed Rocks
+  youtubeUrl: https://www.youtube.com/@Typed-Rocks

@@ -365,3 +365,17 @@
 - id: type_level_typescript
   name: Type-level TypeScript
   homepageUrl: https://type-level-typescript.com/
+
+- id: adocasts
+  name: Adocasts
+  homepageUrl: https://adocasts.com/
+
+- id: laracasts
+  name: Laracasts
+  homepageUrl: https://laracasts.com/
+  pattern:
+    - laracasts
+
+- id: manning
+  name: Manning
+  homepageUrl: https://www.manning.com/

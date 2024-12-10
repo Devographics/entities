@@ -103,6 +103,10 @@
 - id: supermaven
   name: Supermaven
   homepageUrl: https://supermaven.com/
+  patterns:
+    - superma
+    - supermav
+
 # - id:
 #   name:
 #   homepageUrl:
@@ -110,3 +114,57 @@
 - id: windsurf
   name: Windsurf Editor
   homepageUrl: https://codeium.com/windsurf
+
+- id: aider
+  name: Aider
+  homepageUrl: https://aider.chat/
+
+- id: amazon_q
+  name: Amazon Q
+  homepageUrl: https://aws.amazon.com/q
+
+- id: augment
+  name: Augment
+  homepageUrl: https://www.augmentcode.com/
+
+- id: bolt
+  name: Bolt
+  homepageUrl: https://bolt.new/
+  patterns:
+    - "bolt.new"
+
+- id: cline
+  name: Cline
+  homepageUrl: https://github.com/cline/cline
+
+- id: codestral
+  name: Codestral
+  homepageUrl: https://mistral.ai/news/codestral/
+
+- id: continue
+  name: Continue
+  homepageUrl: https://www.continue.dev/
+
+- id: deepseek
+  name: DeepSeek
+  homepageUrl: https://www.deepseek.com/
+
+- id: gitlab_duo
+  name: GitLab Duo
+  homepageUrl: https://about.gitlab.com/gitlab-duo/
+
+- id: grok
+  name: Grok
+  homepageUrl: https://x.ai/grok
+
+- id: mistral
+  name: Mistral
+  homepageUrl: https://mistral.ai/
+
+- id: ollama
+  name: Ollama
+  homepageUrl: https://ollama.com/
+
+- id: zed
+  name: Zed
+  homepageUrl: https://zed.dev/ai

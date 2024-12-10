@@ -38,9 +38,11 @@
     - state_of_js_email_share
     - state_of_js_email2
     - gmail
-    - newsletter
-    - newsletters
+    - newsletter [e]
+    - newsletters [e]
     - post_survey_share_email
+    - participated before
+    - previous
   tags:
     - sources_state_of_js
 
@@ -54,6 +56,7 @@
     - angular
     - angular.io [p]
     - angular.dev [p]
+    - angular_homepage
 
 - id: nx_community
   name: NX Community

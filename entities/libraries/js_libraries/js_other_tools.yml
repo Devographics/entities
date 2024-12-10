@@ -551,3 +551,27 @@
 - id: typia
   name: Typia
   homepageUrl: https://typia.io/
+
+- id: es_toolkit
+  name: es-toolkit
+  homepageUrl: https://es-toolkit.slash.page/
+
+- id: rambda
+  name: Rambda
+  homepageUrl: https://selfrefactor.github.io/rambda/
+
+- id: remult
+  name: Remult
+  homepageUrl: https://remult.dev/
+
+- id: tempo
+  name: Tempo
+  homepageUrl: https://tempo.formkit.com/
+
+- id: vine_js
+  name: VineJS
+  homepageUrl: https://vinejs.dev/
+
+- id: tanstack_router
+  name: TanStack Router
+  homepageUrl: https://tanstack.com/router/

@@ -72,6 +72,7 @@
   patterns:
     - fcc
     - free( |-)?code( |-)?camp
+    - w3school
 
 - id: css_specs
   name: The CSS Specs

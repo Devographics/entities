@@ -11,6 +11,9 @@
   name: Next.js issues
   patterns:
     - next( |.|-)?js
+    - next [e]
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: nextjs_cache_issues
   name: Next.js cache
@@ -76,3 +79,9 @@
 - id: middleware_issues
   patterns:
     - middleware
+
+- id: lack_of_websockets_support
+  patterns:
+    - websocket
+
+- id: astro_issues

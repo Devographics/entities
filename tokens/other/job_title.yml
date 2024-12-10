@@ -28,17 +28,32 @@
   patterns:
     - director
 
+- id: software_development_manager
+  name: Software Development Manager
+
+# head
+
 - id: head_of_engineering
   name: Head of Engineering
   patterns:
     - head, engineering [l]
+
+- id: head_of_development
+  name: Head of Development
+  patterns:
+    - head, development [l]
+
+- id: head_of_product
+  name: Head of Product
+  patterns:
+    - head, product [l]
 
 # architect
 
 - id: software_architect
   name: Software Architect
   patterns:
-    - architect [e]
+    - architect
 
 - id: solution_architect
   name: Solution Architect
@@ -48,6 +63,9 @@
   patterns:
     - frontend, architect [l]
     - front, architect [l]
+    - angular architect
+    - fe architect
+    - ui architect
 
 # lead
 
@@ -64,12 +82,19 @@
     - front, lead [l]
     - fe, lead [l]
 
+- id: lead
+  name: Lead
+  patterns:
+    - lead [e]
+
 # engineer
 
 - id: software_engineer
   name: Software Engineer
   patterns:
     - engineer
+    - engeneer
+    - ingeniero
 
 - id: frontend_engineer
   name: Frontend Engineer
@@ -82,15 +107,15 @@
   name: Backend Engineer
   patterns:
     # - back( |-)?end
-    - back, engineer [l]
     - backend, engineer [l]
+    - back, engineer [l]
 
 - id: fullstack_engineer
   name: Fullstack Engineer
   patterns:
     # - full( |-)?stack engineer
-    - full, engineer [l]
     - fullstack, engineer [l]
+    - full, engineer [l]
 
 - id: junior_engineer
   name: Junior Engineer
@@ -107,39 +132,50 @@
   patterns:
     - lead, engineer [l]
 
+- id: systems_engineer
+  name: Systems Engineer
+  patterns:
+    - system, engineer [l]
+    - systems, engineer [l]
+
 # developer
 
 - id: developer
   name: Developer
   patterns:
-    - dev [e]
     - developper
     - webdev [p]
+    - desarrollador
+    - développeur
+    - web dev
+    - dev [e]
 
 - id: frontend_developer
   name: Frontend Developer
   patterns:
-    - front( |-)?end
     - frontend, developer [l]
     - front, developer [l]
     - fe, developer [l]
     - frontend, dev [l]
     - front, dev [l]
     - fe, dev [l]
+    - front( |-)?end
+    - fe [e]
+    - front [e]
 
 - id: backend_developer
   name: Backend Developer
   patterns:
-    - back( |-)?end
-    - back, developer [l]
     - backend, developer [l]
+    - back, developer [l]
+    - back( |-)?end
 
 - id: fullstack_developer
   name: Fullstack Developer
   patterns:
-    - full( |-)?stack
-    - full, developer [l]
     - fullstack, developer [l]
+    - full, developer [l]
+    - full( |-)?stack
 
 - id: junior_developer
   name: Junior Developer
@@ -156,3 +192,32 @@
   name: Lead Developer
   patterns:
     - lead, developer [l]
+    - lead, dev [l]
+    - development, lead [l]
+
+# programmer
+
+- id: programmer
+  name: Programmer
+  patterns:
+    - programmer
+
+- id: senior_programmer
+  name: Senior Programmer
+  patterns:
+    - senior, programmer [l]
+
+# manager
+
+- id: manager
+  name: Manager
+
+- id: project_manager
+  name: Project Manager
+  patterns:
+    - project, manager [l]
+
+- id: product_manager
+  name: Product Manager
+  patterns:
+    - product, manager [l]

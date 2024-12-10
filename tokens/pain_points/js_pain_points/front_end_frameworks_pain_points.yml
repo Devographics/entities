@@ -175,12 +175,13 @@
     - memoization
     - memo
 
-- id: nextjs_issues
-  patterns:
-    - nextjs
-    - next [e]
-
 - id: rendering_issues
   patterns:
     - render
     - rendering
+
+- id: prefer_vanilla_js
+
+- id: syntax_issues
+
+- id: framework_specific_syntax

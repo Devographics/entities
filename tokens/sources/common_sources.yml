@@ -77,6 +77,9 @@
     - internet
     - online
     - social media
+    - social network
+    - social
+    - web [e]
 
 # for source norm. only; match short tokens such as "kevin"
 - id: kevin_j_powell

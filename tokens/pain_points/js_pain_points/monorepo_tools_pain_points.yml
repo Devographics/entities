@@ -20,3 +20,5 @@
   name: TypeScript support
   patterns:
     - typescript
+
+- id: imports_issues

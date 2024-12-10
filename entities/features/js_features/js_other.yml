@@ -460,6 +460,9 @@
 
       10 |> double |> triple |> console.log
       // 60
+  patterns:
+    - pipe
+    - pipeline
 
 - id: js_async_context
   name: Async Context
@@ -467,6 +470,8 @@
   resources:
     - title: Async Context Proposal
       url: https://github.com/tc39/proposal-async-context
+  patterns:
+    - async( )?context
 
 - id: js_extractors
   name: Extractors
@@ -576,6 +581,8 @@
   resources:
     - url: https://github.com/tc39/proposal-signals
       title: Signals Proposal
+  patterns:
+    - signal
 
 - id: js_record_tuple
   name: |
@@ -583,6 +590,7 @@
   description: Two deeply immutable data structures.
   patterns:
     - tuple
+    - records
   resources:
     - url: https://github.com/tc39/proposal-record-tuple
       title: Records & Tuples Proposal
@@ -591,6 +599,7 @@
   name: Pattern Matching
   description: A new `match` keyword for pattern-matching objects.
   patterns:
+    - pattern
     - match
   resources:
     - url: https://github.com/tc39/proposal-pattern-matching
@@ -626,3 +635,30 @@
   resources:
     - url: https://github.com/tc39/proposal-float16array
       title: Float16Array Proposal
+
+- id: js_native_types
+  patterns:
+    - native type
+    - native typing
+    - types [e]
+    - typing [e]
+
+- id: js_safe_assignment_operator
+  name: Safe Assignment Operator
+  resources:
+    - url: https://github.com/arthurfiorette/proposal-safe-assignment-operator
+      title: Safe Assignment Operator Proposal
+  patterns:
+    - safe, assignment [l]
+    - typing [e]
+
+- id: js_type_annotations
+  name: Type Annotations
+  resources:
+    - url: https://github.com/tc39/proposal-type-annotations
+      title: Type Annotations Proposal
+  patterns:
+    - type annotations
+    - type, comments [l]
+  tags:
+    - native_types_proposal

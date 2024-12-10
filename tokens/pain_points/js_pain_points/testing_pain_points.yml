@@ -40,13 +40,7 @@
 - id: async_testing
   patterns:
     - async
-
-- id: fragility
-  patterns:
-    - fragile
-    - unreliable
-    - flakey
-    - reliability
+    - asynchronous
 
 - id: writing_tests
 
@@ -62,3 +56,9 @@
     - test, env
 
 - id: lack_of_bun_support
+
+- id: browser_testing_issues
+  patterns:
+    - browser
+
+- id: long_time_to_run

@@ -20,3 +20,10 @@
   name: Similar to Python
   patterns:
     - python
+
+- id: similar_to_rust
+  name: Similar to Rust
+  patterns:
+    - rust
+
+- id: with_runtime_support

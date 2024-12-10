@@ -369,6 +369,8 @@
 - id: whiskey_web_and_whatnot
   name: Whiskey Web and Whatnot
   homepageUrl: https://www.whiskeywebandwhatnot.fm/
+  patterns:
+    - web, what, not [l]
 
 - id: go_time
   name: Go Time
@@ -543,3 +545,4 @@
   homepageUrl: https://dejavue.fm/
   patterns:
     - dejavue_e035
+    - dejavue_e036

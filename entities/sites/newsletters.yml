@@ -172,3 +172,19 @@
 - id: friday_front_end
   name: Friday Front-End
   homepageUrl: https://fridayfrontend.com/
+
+- id: fullstack_bulletin
+  name: Fullstack Bulletin
+  homepageUrl: https://fullstackbulletin.com/
+
+- id: we_are_developers
+  name: WeAreDevelopers
+  homepageUrl: https://www.wearedevelopers.com/
+
+- id: web_weekly
+  name: Web Weekly
+  homepageUrl: https://webweekly.email/
+
+- id: astro_weekly
+  name: Astro Weekly
+  homepageUrl: https://astroweekly.dev/
