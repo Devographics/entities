@@ -3425,6 +3425,8 @@
   name: Alexander Lichter
   homepageUrl: https://www.lichter.io/
   youtubeUrl: https://www.youtube.com/channel/UCVJ5qp8Vw8gXQ9RkuNdYWMw
+  blueskyId: thealexlichter.com
+  twitchName: TheAlexLichter
   patterns:
     - alexander_lichter_video_vue_security
     - alex lichter
