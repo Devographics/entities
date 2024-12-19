@@ -2586,7 +2586,7 @@
   alias: Theo
   homepageUrl: https://t3.gg/
   blogUrl: https://t3.gg/blog
-  twitterName: t3dotgg
+  twitterName: theo
   youtubeUrl: https://www.youtube.com/@t3dotgg
   youtubeName: t3dotgg
   twitchName: theo
@@ -3939,6 +3939,7 @@
   githubId: Alan-TheGentleman
   twitterName: alan_buscaglia
   homepageUrl: https://alan-buscaglia-portfolio.netlify.app/
+  twitchName: gentleman_programming
 
 - id: alex_rickabaugh
   name: Alex Rickabaugh

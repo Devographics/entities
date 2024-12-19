@@ -538,8 +538,10 @@
   youtubeUrl: https://www.youtube.com/@MelkeyDev
 
 - id: gentleman_programming
+  belongsTo: alan_buscaglia
   name: Gentleman Programming
   youtubeUrl: https://www.youtube.com/c/GentlemanProgramming
+  twitchName: gentleman_programming
   patterns:
     - gentleman
   tags:

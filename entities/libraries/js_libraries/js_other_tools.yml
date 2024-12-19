@@ -2,10 +2,6 @@
   name: Oak
   homepageUrl: https://oakserver.github.io/oak/
 
-- id: payload
-  name: Payload
-  homepageUrl: https://payloadcms.com/
-
 - id: enhance_dev
   name: Enhance
   homepageUrl: https://enhance.dev/
