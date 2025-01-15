@@ -35,12 +35,16 @@
     - you [e]
     - emailed
     - gmail
+    - email_announcement2
 
 - id: state_of_js_survey
   patterns:
     - stateofjs.com
+    - state, survey [l]
+    - other, survey [l]
 
 - id: state_of_css_survey
   patterns:
     - stateofcss.com
     - css2024 [p]
+    - css survey

@@ -22,8 +22,12 @@
   name: Microsoft Bing
   homepageUrl: https://www.bing.com/?/ai
 
+- id: microsoft_copilot
+  name: Microsoft Copilot
+  homepageUrl: https://copilot.microsoft.com/
+
 - id: copilot
-  name: Copilot
+  name: GitHub Copilot
   homepageUrl: https://github.com/features/copilot
 
 - id: codeium
@@ -34,8 +38,16 @@
   name: Codium
   homepageUrl: https://www.codium.ai/
 
+- id: qodo
+  name: Qodo (ex-Codium)
+  homepageUrl: https://www.qodo.ai/
+
 - id: code_whisperer
-  name: Amazon CodeWhisperer
+  name: Amazon Q Developer (ex-CodeWhisperer)
+  homepageUrl: https://aws.amazon.com/codewhisperer/
+
+- id: amazon_q_developer
+  name: Amazon Q Developer (ex-CodeWhisperer)
   homepageUrl: https://aws.amazon.com/codewhisperer/
 
 - id: cody
@@ -168,3 +180,27 @@
 - id: zed
   name: Zed
   homepageUrl: https://zed.dev/ai
+
+- id: devin
+  name: Devin
+  homepageUrl: https://devin.ai
+
+- id: replit_ai
+  name: Replit Agent & Assistant
+  homepageUrl: https://replit.com/ai
+
+- id: midjourney
+  name: Midjourney
+  homepageUrl: https://www.midjourney.com
+
+- id: stable_diffusion
+  name: Stable Diffusion
+  homepageUrl: https://stability.ai/stable-image
+
+- id: adobe_firefly
+  name: Adobe Firefly
+  homepageUrl: https://www.adobe.com/products/firefly.html
+
+- id: dall_e
+  name: DALL·E
+  homepageUrl: https://openai.com/index/dall-e-3/

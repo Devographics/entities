@@ -24,6 +24,9 @@
     code: |
       const value = useContext(SomeContext)
   homepageUrl: https://react.dev/reference/react/useContext
+  patterns:
+    - context [e]
+    - context api
 
 - id: usedebugvalue
   name: >

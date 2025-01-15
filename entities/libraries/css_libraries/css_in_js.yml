@@ -159,3 +159,9 @@
 - id: ecsstatic
   name: ecsstatic
   homepageUrl: https://www.ecsstatic.dev/
+
+- id: unistyles
+  name: Unistyles
+  homepageUrl: https://www.unistyl.es/
+  patterns:
+    - unistyle

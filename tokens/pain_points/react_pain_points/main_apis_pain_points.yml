@@ -10,7 +10,7 @@
     - context, render [l]
 
 - id: double_rendering
-  name: Double rendering
+  name: Excessive renderings
   patterns:
     - double, render [l]
     - double, rendering [l]

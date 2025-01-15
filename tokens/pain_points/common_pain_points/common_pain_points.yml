@@ -271,8 +271,6 @@
 - id: security
   name: Security
   description: Security issues
-  patterns:
-    - safety
 
 - id: ssr
   name: SSR

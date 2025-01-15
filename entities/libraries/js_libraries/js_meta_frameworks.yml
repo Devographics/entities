@@ -118,3 +118,13 @@
 - id: qwik_city
   name: Qwik City
   homepageUrl: https://qwik.dev/docs/qwikcity/
+
+- id: one_stack
+  name: One
+  homepageUrl: https://onestack.dev/
+  patterns:
+    - one [e]
+
+- id: waku
+  name: Waku
+  homepageUrl: https://waku.gg/

@@ -29,3 +29,33 @@
   name: Remix Auth
   github: sergiodxa/remix-auth
   npm: remix-auth
+
+- id: better_auth
+  name: Better Auth
+  homepageUrl: https://www.better-auth.com/
+
+- id: kinde
+  name: Kinde
+  homepageUrl: https://kinde.com/
+
+- id: msal
+  name: MSAL
+  homepageUrl: https://learn.microsoft.com/en-us/entra/identity-platform/msal-overview
+
+- id: oidc_client_ts
+  name: oidc-client-ts
+  homepageUrl: https://authts.github.io/oidc-client-ts/index.html
+  patterns:
+    - oidc
+
+- id: work_os
+  name: WorkOS
+  homepageUrl: https://workos.com/
+
+- id: iron_session
+  name: iron-session
+  homepageUrl: https://get-iron-session.vercel.app/
+
+- id: jwt
+  name: JSON Web Tokens
+  homepageUrl: https://jwt.io/

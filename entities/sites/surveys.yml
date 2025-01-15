@@ -89,7 +89,7 @@
   homepageUrl: https://go.dev/blog/survey2021-results
 
 - id: state_of_frontend
-  name: State of Frontend
+  name: State of Frontend (The Software House)
   homepageUrl: https://tsh.io/state-of-frontend/
   patterns:
     - frontend

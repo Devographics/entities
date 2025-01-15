@@ -229,23 +229,6 @@
   description: Runtime type system for IO decoding/encoding
   homepageUrl: https://gcanti.github.io/io-ts/
 
-- id: got_js
-  name: Got
-  npm: got
-  github: sindresorhus/got
-  description: Human-friendly and powerful HTTP request library for Node.js
-  homepageUrl: https://github.com/sindresorhus/got
-
-- id: ky_js
-  name: Ky
-  npm: ky
-  github: sindresorhus/ky
-  description: Tiny & elegant HTTP client based on window.fetch
-  homepageUrl: https://github.com/sindresorhus/ky
-  apiOnly: true # not used for normalization
-  patterns:
-    - ky [e]
-
 - id: n_js
   name: N
   homepageUrl: https://github.com/tj/n

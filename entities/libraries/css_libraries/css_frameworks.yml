@@ -255,6 +255,8 @@
 - id: fluent_ui_web
   name: Fluent UI
   homepageUrl: https://developer.microsoft.com/en-us/fluentui#/
+  patterns:
+    - fluent
 
 - id: tailwind_elements
   name: Tailwind Elements
@@ -283,3 +285,35 @@
 - id: primevue
   name: PrimeVue
   homepageUrl: https://primevue.org/
+
+- id: aceternity_ui
+  name: Aceternity UI
+  homepageUrl: https://ui.aceternity.com/
+  tags:
+    - react
+  patterns:
+    - aceternity
+
+- id: carbon_design_system
+  name: Carbon Design System
+  homepageUrl: https://carbondesignsystem.com/
+  tags:
+    - react
+  patterns:
+    - carbon
+
+- id: glue_stack
+  name: GlueStack
+  homepageUrl: https://gluestack.io/
+  tags:
+    - react
+
+- id: grommet
+  name: Grommet
+  homepageUrl: https://v2.grommet.io/
+  tags:
+    - react
+
+- id: park_ui
+  name: Park UI
+  homepageUrl: https://park-ui.com/

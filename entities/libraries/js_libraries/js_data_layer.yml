@@ -172,6 +172,7 @@
   patterns:
     - react query
     - tanstack [e]
+    - tan( )?stack( )?query
   tags:
     - data_fetching
 
@@ -210,3 +211,33 @@
 - id: mobx_state_tree
   name: MobX-State-Tree
   homepageUrl: https://mobx-state-tree.js.org/
+
+- id: got_js
+  name: Got
+  npm: got
+  github: sindresorhus/got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  homepageUrl: https://github.com/sindresorhus/got
+  patterns:
+    - got [e]
+
+- id: ky_js
+  name: Ky
+  npm: ky
+  github: sindresorhus/ky
+  description: Tiny & elegant HTTP client based on window.fetch
+  homepageUrl: https://github.com/sindresorhus/ky
+  patterns:
+    - ky [e]
+
+- id: wretch
+  name: Wretch
+  homepageUrl: https://github.com/elbywan/wretch
+
+- id: legend_state
+  name: Legend State
+  homepageUrl: https://legendapp.com/open-source/state/v3/
+
+- id: nuqs
+  name: nuqs
+  homepageUrl: https://nuqs.47ng.com/

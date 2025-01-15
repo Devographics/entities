@@ -114,6 +114,7 @@
     - bluesky [p]
     - bsky
     - blusky
+    - bsky
 
 - id: threads
   name: Threads

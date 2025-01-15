@@ -17,3 +17,13 @@
   name: Styled Components issues
   patterns:
     - styled components
+
+- id: css_issues
+  name: CSS issues
+  patterns:
+    - css
+
+- id: prop_drilling
+  name: Prop drilling
+  patterns:
+    - passing props

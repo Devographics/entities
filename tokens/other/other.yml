@@ -41,3 +41,16 @@
     - internal
     - mine
     - ad(-| )?hoc
+
+- id: custom_solution
+  name: Custom Solution
+  tags:
+    - auth
+  patterns:
+    - custom
+    - homegrown
+    - my own
+    - in(-| )house
+    - internal
+    - mine
+    - ad(-| )?hoc

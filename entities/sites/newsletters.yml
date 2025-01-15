@@ -113,6 +113,8 @@
   patterns:
     - react weekly
     - this_week_in_react_via_reddit
+    - this week on react
+    - twir
 
 - id: tldr
   name: TLDR
