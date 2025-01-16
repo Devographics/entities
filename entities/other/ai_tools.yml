@@ -204,3 +204,19 @@
 - id: dall_e
   name: DALL·E
   homepageUrl: https://openai.com/index/dall-e-3/
+
+- id: pytorch
+  name: PyTorch
+  homepageUrl: https://pytorch.org/
+
+- id: tensorflow
+  name: TensorFlow
+  homepageUrl: https://www.tensorflow.org/
+
+- id: scikit_learn
+  name: scikit-learn
+  homepageUrl: https://scikit-learn.org/stable/
+
+- id: vercel_ai_sdk
+  name: Vercel AI SDK
+  homepageUrl: https://sdk.vercel.ai/
