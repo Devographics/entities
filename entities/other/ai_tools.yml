@@ -220,3 +220,15 @@
 - id: vercel_ai_sdk
   name: Vercel AI SDK
   homepageUrl: https://sdk.vercel.ai/
+
+- id: void_editor
+  name: Void
+  homepageUrl: https://voideditor.com/
+
+- id: onnx_runtime
+  name: ONNX Runtime
+  homepageUrl: https://onnxruntime.ai/
+
+- id: transformers_js
+  name: Transformers.js
+  homepageUrl: https://huggingface.co/docs/transformers.js/en/index
