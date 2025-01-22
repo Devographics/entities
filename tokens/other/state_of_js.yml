@@ -39,11 +39,13 @@
 
 # libraries
 
-- id: effect_js
-  patterns:
-    - effect
-  tags:
-    - libraries
+# - id: effect_js
+#   name: Effect.js
+#   patterns:
+#     - effect
+#   tags:
+#     - libraries
+#   homepageUrl: https://effect.website/
 
 - id: immutable_js
   patterns:

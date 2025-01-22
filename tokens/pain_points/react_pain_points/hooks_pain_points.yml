@@ -13,10 +13,12 @@
   name: Excessive rerendering
   patterns:
     - re( |-)?render
+  tags:
+    - component_libraries_pain_points
 
 - id: dependency_arrays
   name: Dependency arrays
-  description: Too many dependencies
+  description: Specifying the list of variables `useEffect` depends on.
   patterns:
     - dependency
     - dependencies

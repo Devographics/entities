@@ -260,10 +260,6 @@
   patterns:
     - cognito
 
-- id: auth0
-  name: Auth0
-  homepageUrl: https://auth0.com/
-
 - id: descope
   name: Descope
   homepageUrl: https://www.descope.com/

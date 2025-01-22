@@ -9,9 +9,6 @@
 - id: urql
   name: URQL
   homepageUrl: https://formidable.com/open-source/urql/
-- id: react_query
-  name: React Query
-  homepageUrl: https://react-query.tanstack.com/
 - id: apollo_ios
   name: Apollo iOS
   homepageUrl: https://www.apollographql.com/docs/ios

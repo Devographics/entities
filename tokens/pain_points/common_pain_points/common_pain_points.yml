@@ -488,6 +488,7 @@
     - build time
 
 - id: form_issues
+  name: Form issues
   patterns:
     - form
 

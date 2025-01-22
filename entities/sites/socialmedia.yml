@@ -146,3 +146,9 @@
   patterns:
     - 32bit.cafe
     - 32( )?bit
+
+- id: r_nextjs
+  name: r/nextjs
+
+- id: r_reactnative
+  name: r/reactnative

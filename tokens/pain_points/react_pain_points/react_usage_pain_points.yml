@@ -23,3 +23,6 @@
   name: Vercel issues
   patterns:
     - vercel
+
+- id: hooks_issues
+  name: Hooks issues

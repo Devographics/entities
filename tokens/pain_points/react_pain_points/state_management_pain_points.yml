@@ -17,3 +17,14 @@
   name: Synchronization issues
   patterns:
     - sync [p]
+
+- id: reactivity_issues
+  name: Reactivity issues
+  patterns:
+    - reactive
+    - reactivity
+
+- id: side_effects_issues
+  name: Side effects issues
+  patterns:
+    - side effect

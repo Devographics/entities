@@ -4,6 +4,12 @@
   name: Auth.js
   homepageUrl: https://authjs.dev/
 
+- id: auth0
+  name: Auth0
+  homepageUrl: https://auth0.com/
+  tags:
+    - services
+
 - id: clerk
   name: Clerk
   homepageUrl: https://clerk.com/

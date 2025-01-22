@@ -18,10 +18,11 @@
   patterns:
     - styled components
 
-- id: css_issues
-  name: CSS issues
-  patterns:
-    - css
+# redundant with "styling & customization"
+# - id: css_issues
+#   name: CSS issues
+#   patterns:
+#     - css
 
 - id: prop_drilling
   name: Prop drilling

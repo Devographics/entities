@@ -92,8 +92,8 @@
     - animation
 
 - id: framer_motion
-  name: Framer Motion
-  homepageUrl: https://www.framer.com/motion/
+  name: Motion (ex-Framer Motion)
+  homepageUrl: https://motion.dev/
   tags:
     - animation
 

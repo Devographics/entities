@@ -442,6 +442,9 @@
   name: Effect
   homepageUrl: https://www.effect.website/
   github: Effect-TS/effect
+  patterns:
+    - effect [e]
+    - effect, schema [l]
 
 - id: floating_ui
   name: Floating UI

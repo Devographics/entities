@@ -132,3 +132,8 @@
 - id: built_in_head_tag_support
   name: Built-in Head Tags Supports
   homepageUrl: https://vercel.com/blog/whats-new-in-react-19#document-metadata-support
+
+- id: web_components_support
+  name: Web Components Support
+  patterns:
+    - web component

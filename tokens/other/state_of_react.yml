@@ -1,5 +1,12 @@
 # react_version
 
+- id: react_version_19
+  name: 19.x
+  patterns:
+    - 19 [p]
+  tags:
+    - react_version
+
 - id: react_version_20
   name: 20.x
   patterns:
