@@ -232,3 +232,27 @@
 - id: transformers_js
   name: Transformers.js
   homepageUrl: https://huggingface.co/docs/transformers.js/en/index
+
+- id: trae
+  name: Trae
+  homepageUrl: https://www.trae.ai/
+
+- id: lovable
+  name: Lovable
+  homepageUrl: https://lovable.dev/
+
+- id: openui_ai
+  name: OpenUI
+  homepageUrl: https://openui.fly.dev/
+
+- id: imagen_3
+  name: Imagen 3
+  homepageUrl: https://deepmind.google/technologies/imagen-3/
+
+- id: ideogram
+  name: Ideogram
+  homepageUrl: https://ideogram.ai/
+
+- id: grok
+  name: Grok
+  homepageUrl: https://x.ai/
