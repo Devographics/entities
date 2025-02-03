@@ -3,6 +3,21 @@
   patterns:
     - signals
 
+- id: excessive_rerendering
+  name: Excessive re-renderings
+  parentId: context_api
+  tags:
+    - state_management_pain_points
+    - main_apis_pain_points
+  patterns:
+    - re(-| )?render [p]
+    - double, render [l]
+    - double, rendering [l]
+    - double, renders [l]
+    - rendering twice
+
+# backwards compatibility typo
+# TODO: delete
 - id: excesssive_rerendering
   name: Excessive re-renderings
   parentId: context_api
