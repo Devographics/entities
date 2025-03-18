@@ -22,6 +22,7 @@
   tags:
     - youtube
     - people
+    - newsletters
   patterns:
     - fire( )?ship [p]
 
@@ -931,3 +932,35 @@
 - id: typed_rocks
   name: Typed Rocks
   youtubeUrl: https://www.youtube.com/@Typed-Rocks
+
+- id: dwarkesh_patel
+  name: Dwarkesh Patel
+  youtubeUrl: https://www.youtube.com/DwarkeshPatel
+  patterns:
+    - dwarkesh
+  tags:
+    - podcasts
+
+- id: 3_blue_1_brown
+  name: 3Blue1Brown
+  youtubeUrl: https://www.youtube.com/c/3blue1brown
+
+- id: ai_explained
+  name: AI Explained
+  youtubeUrl: https://www.youtube.com/@aiexplained-official
+
+- id: ai_code_king
+  name: AICodeKing
+  youtubeUrl: https://www.youtube.com/@AICodeKing
+
+- id: by_cloud
+  name: bycloud
+  youtubeUrl: https://www.youtube.com/@bycloudAI
+
+- id: dot_csv
+  name: Dot CSV
+  youtubeUrl: https://www.youtube.com/dotcsv
+
+- id: two_minute_papers
+  name: Two Minute Papers
+  youtubeUrl: https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg

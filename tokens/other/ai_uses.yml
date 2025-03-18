@@ -1,0 +1,19 @@
+- id: brainstorming
+  patterns:
+    - brainstorm [p]
+
+- id: code_completion
+  patterns:
+    - code, completion [l]
+
+- id: code_explanation
+  patterns:
+    - code, explanation [l]
+
+- id: code_debugging
+  patterns:
+    - debugging
+
+- id: music_generation
+  patterns:
+    - music

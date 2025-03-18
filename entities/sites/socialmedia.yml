@@ -6,6 +6,8 @@
   patterns:
     - hacker( |-|_)?news
     - ycombinator
+  tags:
+    - newsletters
 
 - id: reddit
   name: Reddit

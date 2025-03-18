@@ -125,3 +125,35 @@
 - id: google_workspace
   name: Google Workspace
   homepageUrl: https://workspace.google.com/
+
+- id: linear
+  name: Linear
+  homepageUrl: https://linear.app/
+
+- id: github_projects
+  name: GitHub Projects
+  homepageUrl: https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects
+
+- id: whatsapp
+  name: Whatsapp
+  homepageUrl: https://whatsapp.com/
+
+- id: signal
+  name: Signal
+  homepageUrl: https://signal.org/
+
+- id: wechat
+  name: WeChat
+  homepageUrl: https://www.wechat.com/
+
+- id: messenger
+  name: Messenger
+  homepageUrl: https://www.messenger.com/
+
+- id: imessage
+  name: iMessage
+  homepageUrl: https://support.apple.com/messages
+
+- id: tik_tok
+  name: TikTok
+  homepageUrl: https://www.tiktok.com/

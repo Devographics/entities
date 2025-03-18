@@ -1,0 +1,179 @@
+- id: context_limitations
+  patterns:
+    - context window
+    - context size
+    - context limit
+    - small context
+    - short context
+    - context limitation
+    - lack of context
+    - limited context
+    - loss of context
+    - context
+    - forgetting context
+    - losing context
+
+- id: inaccurate_incorrect_results
+  patterns:
+    - accuracy
+    - incorrect
+    - wrong
+    - inaccuracy
+    - inaccurate
+    - mistake
+    - fake
+    - misleading
+    - irrelevant
+
+- id: overconfidence
+  patterns:
+    - confident
+    - false confidence
+    - confidently
+
+- id: hallucinations
+  patterns:
+    - hallucinate
+    - ha(l)?lucination
+    - hallucinating
+    - invent
+    - lie
+    - a(l)?lucination
+    - delusion
+    - hallucinated
+    - halluncinations
+    - halucinacions
+
+- id: overly_verbose_results
+  patterns:
+    - verbose
+    - lengthy
+    - wordy
+
+- id: poor_reliability
+  patterns:
+    - unreliable
+    - reliability
+    - reliable
+    - unreliable
+    - unreliability
+
+- id: outdated_information
+  patterns:
+    - outdated
+    - out of date
+
+- id: api_differences
+
+- id: poor_generated_code_quality
+  patterns:
+    - bad, code [l]
+    - poor, code [l]
+    - spaghetti, code [l]
+    - mediocre, code [l]
+    - shitty, code [l]
+    - code, quality [l]
+    - code, not, working [l]
+    - code, not, work [l]
+    - code, doesn't, work [l]
+    - code, does not, work [l]
+    - broken, code [l]
+    - invalid, code [l]
+    - unnecessary, code [l]
+
+- id: poor_generated_code_style
+  patterns:
+    - code, style [l]
+    - coding, style [l]
+    - code, formatting [l]
+    - code, format [l]
+
+- id: lack_of_codebase_knowledge
+  patterns:
+    - codebase, knowledge [l]
+
+- id: slow_to_return_results
+  patterns:
+    - slow
+    - slowness
+    - speed
+    - timeout
+
+- id: misunderstanding_prompt
+  patterns:
+    - misunderstand, prompt [l]
+    - not, understand, prompt [l]
+    - misunderstanding
+    - prompting
+
+- id: high_cost
+  patterns:
+    - cost
+    - expensive
+    - price
+    - pricing
+
+- id: overly_generic_answers
+  patterns:
+    - generic
+
+- id: inconsistent_results
+  patterns:
+    - inconsistent
+    - inconsistency
+    - deterministic
+    - unpredictable
+
+- id: rate_limiting
+  patterns:
+    - rate, limit [l]
+    - usage, limit [l]
+
+- id: bad_ui_ux
+  patterns:
+    - bad, ui [l]
+    - bad, ux [l]
+
+- id: generated_code_bugs
+  patterns:
+    - bugs
+
+- id: lack_of_sources
+  patterns:
+    - citation, source [l]
+    - citing, source [l]
+    - show, source [l]
+    - lack, source [l]
+
+- id: high_environmental_impact
+  patterns:
+    - resources
+    - energy
+
+- id: lack_of_open_source
+  patterns:
+    - open, source [l]
+    - closed, source [l]
+
+- id: poor_ui_ux
+  patterns:
+    - ui
+    - ux
+    - interface
+
+- id: too_agreeable
+  patterns:
+    - agreeable
+    - eager to please
+    - lenient
+    - pliable
+
+- id: lack_of_structured_output
+  patterns:
+    - unstructured
+    - structured
+    - output, format [l]
+
+- id: excessive_bias
+  patterns:
+    - bias

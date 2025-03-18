@@ -1,0 +1,8 @@
+- id: poor_suggestions
+  patterns:
+    - suggestions
+
+- id: aggressive_suggestions
+  patterns:
+    - ag(g)?ressive
+    - intrusive

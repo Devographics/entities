@@ -1,0 +1,19 @@
+- id: a11y_tools
+  patterns:
+    - a11y
+    - accessibility
+
+- id: fact_checking
+  patterns:
+    - fake news
+    - accuracy
+
+- id: fraud_checking
+  patterns:
+    - fraud
+    - scam
+
+- id: no_browser_ai_apis
+  patterns:
+    - none
+    - don't want

@@ -546,3 +546,25 @@
   patterns:
     - dejavue_e035
     - dejavue_e036
+
+- id: better_offline
+  name: Better Offline
+  homepageUrl: https://www.betteroffline.com/
+
+- id: hard_fork
+  name: Hard Fork
+  homepageUrl: https://www.nytimes.com/column/hard-fork
+
+- id: practical_ai
+  name: Practical AI
+  homepageUrl: https://practicalai.fm/
+
+- id: tech_won_t_save_us
+  name: Tech Won't Save Us
+  homepageUrl: https://techwontsave.us/
+  patterns:
+    - tech won't save us
+
+- id: the_wan_show
+  name: The WAN Show
+  homepageUrl: https://www.youtube.com/playlist?list=PL8mG-RkN2uTw7PhlnAr4pZZz2QubIbujH

@@ -3968,5 +3968,46 @@
   homepageUrl: https://emilkowal.ski/
 
 - id: segun_adebayo
-  name:
+  name: Segun Adebayo
   homepageUrl: https://www.adebayosegun.com/
+
+- id: andre_bandarra
+  name: Andre Bandarra
+  homepageUrl: https://bandarra.me/
+
+- id: andrej_karpathy
+  name: Andrej Karpathy
+  homepageUrl: https://karpathy.ai/
+  youtubeUrl: https://www.youtube.com/andrejkarpathy
+  patterns:
+    - Karpathy
+
+- id: matthew_berman
+  name: Matthew Berman
+  homepageUrl: https://www.youtube.com/@matthew_berman
+
+- id: ed_zitron
+  name: Ed Zitron
+  homepageUrl: https://www.wheresyoured.at/
+
+- id: sam_altman
+  name: Sam Altman
+  homepageUrl: https://wikipedia.org/wiki/Sam_Altman
+  patterns:
+    - sama
+
+- id: simon_willison
+  name: Simon Willison
+  homepageUrl: https://simonwillison.net/
+
+- id: matt_wolfe
+  name: Matt Wolfe
+  youtubeUrl: https://www.youtube.com/@mreflow
+
+- id: wes_roth
+  name: Wes Roth
+  youtubeUrl: https://www.youtube.com/@WesRoth
+
+- id: yann_lecun
+  name: Yann LeCun
+  homepageUrl: http://yann.lecun.com/

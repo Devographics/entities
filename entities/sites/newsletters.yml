@@ -190,3 +190,35 @@
 - id: astro_weekly
   name: Astro Weekly
   homepageUrl: https://astroweekly.dev/
+
+- id: ai_report
+  name: The AI Report
+  homepageUrl: https://www.theaireport.ai/
+  tags:
+    - ai
+
+- id: alpha_signal
+  name: AlphaSignal
+  homepageUrl: https://alphasignal.ai/
+  tags:
+    - ai
+
+- id: ben_s_bites
+  name: Ben's Bites
+  homepageUrl: https://bensbites.com/
+  patterns:
+    - ben, bites [l]
+
+- id: deeplearning_ai
+  name: Deeplearning.ai
+  homepageUrl: https://www.deeplearning.ai/
+
+- id: ai_breakfast
+  name: AI Breakfast
+  homepageUrl: https://aibreakfast.beehiiv.com/
+
+- id: smol_ai_news
+  name: Smol AI News
+  homepageUrl: https://buttondown.com/ainews
+  patterns:
+    - ai news

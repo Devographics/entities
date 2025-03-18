@@ -168,6 +168,9 @@
 - id: grok
   name: Grok
   homepageUrl: https://x.ai/grok
+  patterns:
+    - grok2
+    - grok3
 
 - id: mistral
   name: Mistral
@@ -188,6 +191,8 @@
 - id: replit_ai
   name: Replit Agent & Assistant
   homepageUrl: https://replit.com/ai
+  patterns:
+    - repl( )?it
 
 - id: midjourney
   name: Midjourney
@@ -256,3 +261,140 @@
 - id: grok
   name: Grok
   homepageUrl: https://x.ai/
+
+- id: qwen
+  name: Qwen
+  homepageUrl: https://chat.qwen.ai/
+  patterns:
+    - qwen [p]
+    - gwen
+
+- id: cohere
+  name: Cohere
+  homepageUrl: https://cohere.com/
+
+- id: flux
+  name: Flux
+  homepageUrl: https://www.flux.ai/
+
+- id: giga_chat
+  name: GigaChat
+  homepageUrl: https://giga.chat/
+
+- id: kimi
+  name: Kimi
+  homepageUrl: https://kimi.moonshot.cn/
+
+- id: phi
+  name: Phi
+  homepageUrl: https://azure.microsoft.com/en-us/products/phi
+  patterns:
+    - phi4
+
+- id: t3_chat
+  name: T3 Chat
+  homepageUrl: https://t3.chat/
+
+- id: yandex_gpt
+  name: YandexGPT
+  homepageUrl: https://yandex.cloud/en/services/yandexgpt
+
+- id: gemma
+  name: Gemma
+  homepageUrl: https://ai.google.dev/gemma
+
+- id: groq
+  name: Groq
+  homepageUrl: https://groq.com/
+
+- id: avante
+  name: Avante.nvim
+  homepageUrl: https://github.com/yetone/avante.nvim
+
+- id: comfy
+  name: Comfy
+  homepageUrl: https://www.comfy.org/
+  patterns:
+    - comfy( )?ui
+
+- id: deepl
+  name: DeepL
+  homepageUrl: https://www.deepl.com/
+
+- id: lm_studio
+  name: LM Studio
+  homepageUrl: https://lmstudio.ai/
+
+- id: open_web_ui
+  name: Open WebUI
+  homepageUrl: https://www.openwebui.com/
+
+- id: roo_code
+  name: Roo Code
+  homepageUrl: https://github.com/RooVetGit/Roo-Code
+
+- id: pear_ai
+  name: PearAI
+  homepageUrl: https://trypear.ai/
+
+- id: apple_intelligence
+  name: Apple Intelligence
+  homepageUrl: https://www.apple.com/apple-intelligence/
+
+- id: fooocus
+  name: Fooocus
+  homepageUrl: https://github.com/lllyasviel/Fooocus
+
+- id: leonardo_ai
+  name: Leonardo.ai
+  homepageUrl: https://leonardo.ai/
+  patterns:
+    - leonardo
+
+- id: microsoft_designer
+  name: Microsoft Designer
+  homepageUrl: https://designer.microsoft.com/
+
+- id: recraft
+  name: Recraft
+  homepageUrl: https://www.recraft.ai/
+
+- id: open_router
+  name: OpenRouter
+  homepageUrl: https://openrouter.ai/
+
+- id: apple_image_playground
+  name: Apple Image Playground
+  homepageUrl: https://apps.apple.com/us/app/image-playground/id6479176117
+  patterns:
+    - image playground
+
+- id: kandinsky
+  name: Kandinsky
+  homepageUrl: https://ai-forever.github.io/Kandinsky-3/
+
+- id: amazon_bedrock
+  name: Amazon Bedrock
+  homepageUrl: https://aws.amazon.com/bedrock/
+  patterns:
+    - bedrock
+
+- id: lang_graph
+  name: LangGraph
+  homepageUrl: https://www.langchain.com/langgraph
+
+- id: hugging_face
+  name: Hugging Face
+  homepageUrl: https://huggingface.co/
+  tags:
+    - ai_sdks
+
+- id: lang_chain
+  name: LangChain
+  homepageUrl: https://www.langchain.com/
+  tags:
+    - ai_sdks
+
+- id: ollama
+  name: Ollama
+  homepageUrl: https://ollama.com/

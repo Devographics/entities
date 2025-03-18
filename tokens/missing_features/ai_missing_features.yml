@@ -1,0 +1,66 @@
+- id: larger_context_window
+  patterns:
+    - context
+
+- id: better_accuracy
+  patterns:
+    - accuracy
+    - correct
+    - correctness
+
+- id: source_attribution
+  patterns:
+    - attribution
+
+- id: long_term_memory
+  patterns:
+    - long, term, memory [l]
+    - memory
+
+- id: faster_speed
+  patterns:
+    - speed
+
+- id: better_ide_integration
+  patterns:
+    - ide, integration [l]
+    - editor, integration [l]
+
+- id: large_codebase_support
+  patterns:
+    - codebase
+    - code, base [l]
+
+- id: better_code_quality
+  patterns:
+    - code, quality [l]
+
+- id: code_reviews
+  patterns:
+    - code, review [l]
+
+- id: better_debugging
+  patterns:
+    - debuggin
+
+- id: lower_environmental_impact
+  patterns:
+    - environment
+    - environmental
+
+- id: fewer_hallucinations
+  patterns:
+    - hallucination
+    - hallucinating
+
+- id: less_overconfidence
+  patterns:
+    - confident
+    - confidence
+    - admit
+
+- id: higher_intelligence
+  patterns:
+    - intelligence
+    - reasoning
+    - reason

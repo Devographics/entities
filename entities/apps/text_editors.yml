@@ -134,6 +134,8 @@
 - id: neovim
   name: Neovim
   homepageUrl: https://neovim.io/
+  patterns:
+    - nvim
 
 - id: android_studio
   name: Android Studio

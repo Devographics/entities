@@ -1,0 +1,63 @@
+# sources
+
+- id: state_of_ai_survey
+  patterns:
+    - (e)?(-| )?mail
+    - mailing
+    - mailbox
+    - inbox
+    - newsletter [e]
+    - devographics.com
+    - ai2025_email_announcement
+    # - newsletter
+    - survey.devographics.com
+    - post_survey_share
+    - announcement_post
+    - devographics.com
+    - mailing list
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+    - annual
+    - yearly
+    - taken it
+    - filled it
+    - devto_announcement
+    - announcement_email
+    - email_announcement2
+    - gmail
+    - newsletter [e]
+    - newsletters [e]
+    - post_survey_share_email
+    - participated before
+    - previous
+    - state_of_js_email2
+
+- id: google_chrome_team
+
+- id: state_of_react_survey
+  patterns:
+    - react2024_banner
+    - react2024_results_announcement
+
+- id: angular
+  patterns:
+    - angular
+    - angular.io [p]
+    - angular.dev [p]
+    - angular_homepage
+
+- id: astro
+  patterns:
+    - astro_discord
+
+- id: vuejs
+  patterns:
+    - vue_discord

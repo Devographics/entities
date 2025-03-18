@@ -233,6 +233,7 @@
   homepageUrl: https://daily.dev/
   tags:
     - news
+    - newsletters
 
 - id: webdesignernews
   name: Web Designer News
@@ -565,3 +566,7 @@
   hasAvatar: true
   tags:
     - diversity
+
+- id: 404_media
+  name: 404 Media
+  homepageUrl: https://www.404media.co/

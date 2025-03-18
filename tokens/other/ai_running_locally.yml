@@ -1,0 +1,5 @@
+- id: yes_but_poor_experience
+  patterns:
+    - didn't like
+    - didn't work
+    - yes but

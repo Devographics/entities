@@ -1,0 +1,15 @@
+- id: anthropic_sdks
+  name: Anthropic SDKs
+  homepageUrl: https://docs.anthropic.com/en/api/client-sdks
+  patterns:
+    - anthropic
+  tags:
+    - ai_sdks
+
+- id: openai_sdks
+  name: OpenAI SDKs
+  homepageUrl: https://platform.openai.com/docs/libraries
+  patterns:
+    - open( )?ai
+  tags:
+    - ai_sdks
