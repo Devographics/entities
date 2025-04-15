@@ -317,6 +317,8 @@
 - id: ui_dev
   name: ui.dev
   homepageUrl: https://ui.dev/
+  tags:
+    - newsletters
 
 - id: hexlet
   name: Hexlet
@@ -570,3 +572,6 @@
 - id: 404_media
   name: 404 Media
   homepageUrl: https://www.404media.co/
+  tags:
+    - podcasts
+    - newsletters

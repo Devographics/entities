@@ -1,7 +1,7 @@
 - id: tabnine
   name: Tabnine
-  description: >
-    AI assistant for software developers
+  # description: >
+  #   AI assistant for software developers
   homepageUrl: https://www.tabnine.com/
 
 - id: chat_gpt
@@ -398,3 +398,27 @@
 - id: ollama
   name: Ollama
   homepageUrl: https://ollama.com/
+
+- id: duck_ai
+  name: Duck.ai
+  homepageUrl: https://duck.ai
+  patterns:
+    - duck [p]
+
+- id: raycast_ai
+  name: Raycast AI
+  homepageUrl: https://www.raycast.com/
+  patterns:
+    - ray( )?cast
+
+- id: suno_ai
+  name: Suno
+  homepageUrl: https://suno.com/
+  patterns:
+    - suno
+
+- id: warp
+  name: Warp
+  homepageUrl: https://www.warp.dev/
+  patterns:
+    - warp

@@ -1,0 +1,39 @@
+- id: boilerplate_code
+  patterns:
+    - boilerplate
+
+- id: configuration_code
+  patterns:
+    - config
+    - configuration
+
+- id: database_queries
+  patterns:
+    - sql
+    - database
+
+- id: ci_code
+  patterns:
+    - ci
+    - deployment
+
+- id: not_using_code_generation
+  patterns:
+    - don't use
+    - garbage
+
+- id: debugging_code
+  patterns:
+    - bug
+    - debug
+
+- id: refactoring_code
+  patterns:
+    - refactor
+    - simplify
+    - simplification
+
+- id: repetitive_code
+  patterns:
+    - repetition
+    - repetitive

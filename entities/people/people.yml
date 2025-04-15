@@ -2519,6 +2519,11 @@
   youtubeName: lexfridman
   tags:
     - podcasts
+    - video_creators
+  patterns:
+    - lex, friedman [l]
+    - lex, fridman [l]
+    - lex
 
 - id: manfred_steyer
   name: Manfred Steyer
@@ -2605,6 +2610,7 @@
   tags:
     - youtube
     - video_creators
+    - podcasts
 
 - id: tina_huang
   name: Tina Huang
@@ -3999,6 +4005,8 @@
 - id: simon_willison
   name: Simon Willison
   homepageUrl: https://simonwillison.net/
+  tags:
+    - newsletters
 
 - id: matt_wolfe
   name: Matt Wolfe
@@ -4011,3 +4019,25 @@
 - id: yann_lecun
   name: Yann LeCun
   homepageUrl: http://yann.lecun.com/
+
+- id: ashok_gelal
+  name: Ashok Gelal
+  homepageUrl: https://msty.app/
+
+- id: matthew_berman
+  name: Matthew Berman
+  youtubeUrl: https://www.youtube.com/@matthew_berman
+  tags:
+    - video_creators
+
+- id: marques_brownlee
+  name: Marques Brownlee
+  youtubeUrl: https://www.youtube.com/user/marquesbrownlee
+  patterns:
+    - mkbhd
+
+- id: sam_witteveen
+  name: Sam Witteveen
+  youtubeUrl: https://www.youtube.com/@samwitteveenai
+  tags:
+    - video_creators

@@ -14,6 +14,29 @@
   patterns:
     - debugging
 
-- id: music_generation
+- id: image_generation_processing
+  patterns:
+    - image
+    - vision
+    - visual
+
+- id: sound_music_generation
   patterns:
     - music
+    - song
+    - sound
+
+- id: code_assistance
+
+- id: search_information_gathering
+
+- id: not_using
+
+- id: data_manipulation_processing
+  patterns:
+    - data
+
+- id: text_processing
+  patterns:
+    - text
+    - spell( )?check

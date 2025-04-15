@@ -58,6 +58,8 @@
   patterns:
     - syntax
     - syntax.fm
+  tags:
+    - video_creators
 
 - id: css_podcast
   name: The CSS Podcast
@@ -427,17 +429,6 @@
   name: How About Tomorrow?
   homepageUrl: https://tomorrow.fm/
 
-- id: latent_space
-  name: Latent Space
-  homepageUrl: https://www.latent.space/podcast
-
-- id: lex_fridman
-  name: Lex Fridman
-  homepageUrl: https://lexfridman.com/podcast/
-  patterns:
-    - lex, friedman [l]
-    - lex, fridman [l]
-
 - id: mostly_technical
   name: Mostly Technical
   homepageUrl: https://mostlytechnical.com/
@@ -565,6 +556,13 @@
   patterns:
     - tech won't save us
 
-- id: the_wan_show
-  name: The WAN Show
-  homepageUrl: https://www.youtube.com/playlist?list=PL8mG-RkN2uTw7PhlnAr4pZZz2QubIbujH
+- id: ai_report
+  name: AI Report
+  homepageUrl: https://www.aireport.email/
+
+- id: vergecast
+  name: The Vergecast
+  homepageUrl: https://www.theverge.com/the-vergecast
+  patterns:
+    - verge( )?cast
+    - verge

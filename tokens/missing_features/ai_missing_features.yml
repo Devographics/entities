@@ -41,7 +41,7 @@
 
 - id: better_debugging
   patterns:
-    - debuggin
+    - debugging
 
 - id: lower_environmental_impact
   patterns:
@@ -64,3 +64,16 @@
     - intelligence
     - reasoning
     - reason
+
+- id: up_to_date_knowledge
+  patterns:
+    - up-to-date
+    - updated
+    - recent
+
+- id: self_evaluation
+  patterns:
+    - self(-| )?evaluation
+    - self(-| )?correction
+
+- id: system_integration

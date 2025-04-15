@@ -50,6 +50,12 @@
     - state_of_react_email
     - stateofreact.com
 
+- id: state_of_ai_survey
+  name: State of Web Dev AI
+  idAliases:
+    - state_of_ai
+  homepageUrl: https://stateofai.dev/
+
 - id: stack_overflow_survey
   name: Stack Overflow Annual Developer Survey
   homepageUrl: https://insights.stackoverflow.com/survey/

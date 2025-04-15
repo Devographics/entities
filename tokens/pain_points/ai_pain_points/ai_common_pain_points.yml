@@ -13,25 +13,13 @@
     - forgetting context
     - losing context
 
-- id: inaccurate_incorrect_results
-  patterns:
-    - accuracy
-    - incorrect
-    - wrong
-    - inaccuracy
-    - inaccurate
-    - mistake
-    - fake
-    - misleading
-    - irrelevant
-
 - id: overconfidence
   patterns:
     - confident
     - false confidence
     - confidently
 
-- id: hallucinations
+- id: hallucinations_inaccuracies
   patterns:
     - hallucinate
     - ha(l)?lucination
@@ -43,8 +31,31 @@
     - hallucinated
     - halluncinations
     - halucinacions
+    - holusinations
+    - bullshit [p]
+    - accuracy
+    - incorrect
+    - wrong
+    - inaccuracy
+    - inaccurate
+    - mistake
+    - fake
+    - misleading
+    - irrelevant
 
-- id: overly_verbose_results
+# - id: inaccurate_incorrect_results
+#   patterns:
+#     - accuracy
+#     - incorrect
+#     - wrong
+#     - inaccuracy
+#     - inaccurate
+#     - mistake
+#     - fake
+#     - misleading
+#     - irrelevant
+
+- id: overly_verbose_responses
   patterns:
     - verbose
     - lengthy
@@ -58,14 +69,16 @@
     - unreliable
     - unreliability
 
-- id: outdated_information
+- id: outdated_knowledge
   patterns:
     - outdated
     - out of date
 
 - id: api_differences
 
-- id: poor_generated_code_quality
+- id: poor_response_quality
+
+- id: code_generation_issues
   patterns:
     - bad, code [l]
     - poor, code [l]
@@ -80,6 +93,7 @@
     - broken, code [l]
     - invalid, code [l]
     - unnecessary, code [l]
+    - bugs
 
 - id: poor_generated_code_style
   patterns:
@@ -87,24 +101,38 @@
     - coding, style [l]
     - code, formatting [l]
     - code, format [l]
+    - not following conventions
+    - not idiomatic
+    - style [e]
 
 - id: lack_of_codebase_knowledge
   patterns:
     - codebase, knowledge [l]
+    - codebase, awareness [l]
+    - codebase, aware [l]
 
-- id: slow_to_return_results
+- id: lack_of_ecosystem_knowledge
+
+- id: slow_response_time
   patterns:
     - slow
     - slowness
     - speed
     - timeout
 
-- id: misunderstanding_prompt
+- id: performance_issues
+  patterns:
+    - performance
+
+- id: prompt_engineering_difficulty
+
+- id: lack_of_understanding
   patterns:
     - misunderstand, prompt [l]
     - not, understand, prompt [l]
     - misunderstanding
     - prompting
+    - following instructions
 
 - id: high_cost
   patterns:
@@ -112,6 +140,21 @@
     - expensive
     - price
     - pricing
+    - pricey
+    - prize
+    - paying
+
+- id: free_plan_limitations
+  patterns:
+    - free, limit [l]
+    - free, limitation [l]
+    - free, limited [l]
+    - token, limit [l]
+    - token, limitation [l]
+    - token, limited [l]
+    - message, limit [l]
+    - message, limitation [l]
+    - message, limited [l]
 
 - id: overly_generic_answers
   patterns:
@@ -133,10 +176,9 @@
   patterns:
     - bad, ui [l]
     - bad, ux [l]
-
-- id: generated_code_bugs
-  patterns:
-    - bugs
+    - ui
+    - ux
+    - interface
 
 - id: lack_of_sources
   patterns:
@@ -155,12 +197,6 @@
     - open, source [l]
     - closed, source [l]
 
-- id: poor_ui_ux
-  patterns:
-    - ui
-    - ux
-    - interface
-
 - id: too_agreeable
   patterns:
     - agreeable
@@ -177,3 +213,53 @@
 - id: excessive_bias
   patterns:
     - bias
+
+- id: local_setup_issues
+
+- id: wasted_time_effort
+  patterns:
+    - wasted time
+    - waste of time
+    - babysitting
+
+- id: model_selection_confusion
+  patterns:
+    - choice, model [l]
+    - deciding, model [l]
+    - selecting, model [l]
+
+- id: data_security
+
+- id: limited_reasoning_ability
+
+- id: tool_integration_issues
+
+- id: skill_degradation
+
+- id: intrusive_suggestions
+  patterns:
+    - too many suggestions
+    - intrusive
+    - distracting
+    - invasive
+    - aggressive
+    - in my face
+    - over-zealous
+    - gets in the way
+
+- id: privacy_concerns
+  patterns:
+    - privacy
+    - intellectual property
+
+- id: ethical_concerns
+  patterns:
+    - ethics
+
+- id: limited_usefulness
+
+- id: stuck_in_loops
+  patterns:
+    - stuck
+    - loop
+    - off-track

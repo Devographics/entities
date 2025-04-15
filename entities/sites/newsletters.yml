@@ -222,3 +222,53 @@
   homepageUrl: https://buttondown.com/ainews
   patterns:
     - ai news
+
+- id: latent_space
+  name: Latent Space
+  homepageUrl: https://www.latent.space/
+  tags:
+    - podcasts
+
+- id: pragmatic_engineer
+  name: The Pragmatic Engineer
+  homepageUrl: https://www.pragmaticengineer.com/
+
+- id: rundown_ai
+  name: The Rundown AI
+  homepageUrl: https://www.therundown.ai/
+  patterns:
+    - rundown
+
+- id: superhuman
+  name: Superhuman AI
+  homepageUrl: https://www.superhuman.ai/
+
+- id: the_batch
+  name: The Batch
+  homepageUrl: https://www.deeplearning.ai/the-batch/
+
+- id: the_neuron
+  name: The Neuron
+  homepageUrl: https://www.theneurondaily.com/
+
+- id: medium_newsletter
+  name: Medium
+  homepageUrl: https://medium.com
+  patterns:
+    - medium
+
+- id: reddit_newsletter
+  name: Reddit
+  homepageUrl: https://reddit.com
+  patterns:
+    - reddit
+
+- id: platformer
+  name: Platformer
+  homepageUrl: https://www.platformer.news/
+
+- id: verge_newsletters
+  name: The Verge
+  homepageUrl: https://www.theverge.com/newsletters
+  patterns:
+    - verge

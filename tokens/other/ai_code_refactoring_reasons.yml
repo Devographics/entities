@@ -1,0 +1,40 @@
+- id: bad_architecture
+  patterns:
+    - architecture
+
+- id: faulty_code
+  patterns:
+    - bad logic
+    - logical errors
+    - logical flaws
+    - low quality
+    - bad code
+    - does not work
+    - doesn't work
+    - doesn't compile
+    - don't work
+    - errors
+    - not working
+    - poor quality
+    - corectness
+    - bug
+    - buggy
+
+- id: excessive_comments
+  patterns:
+    - comments
+
+- id: codebase_compatibility
+  patterns:
+    - rest, codebase [l]
+
+- id: poor_maintainability
+  patterns:
+    - maintainability
+    - maintain [p]
+
+- id: not_matching_requirements
+
+- id: gaining_better_understanding
+
+- id: incomplete_implementation

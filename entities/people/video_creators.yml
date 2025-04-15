@@ -964,3 +964,70 @@
 - id: two_minute_papers
   name: Two Minute Papers
   youtubeUrl: https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg
+  patterns:
+    - 2 min
+    - 2 minute
+
+- id: wan_show
+  name: The WAN Show
+  homepageUrl: https://www.youtube.com/playlist?list=PL8mG-RkN2uTw7PhlnAr4pZZz2QubIbujH
+  tags:
+    - podcasts
+
+- id: ai_and_i
+  name: AI & I
+  homepageUrl: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+  patterns:
+    - ai & i
+  tags:
+    - podcasts
+
+- id: ai_ranch
+  name: AI Ranch
+  youtubeUrl: https://www.youtube.com/@airanch
+  tags:
+    - podcasts
+
+- id: ai_daily_brief
+  name: The AI Daily Brief
+  youtubeUrl: https://www.youtube.com/channel/UCKelCK4ZaO6HeEI1KQjqzWA
+  tags:
+    - podcasts
+    - newsletters
+
+- id: wvfrm
+  name: WVFRM Podcast
+  youtubeUrl: https://www.youtube.com/@Waveform
+  tags:
+    - podcasts
+  patterns:
+    - waveform
+
+- id: ai_search
+  name: AI Search
+  youtubeUrl: https://www.youtube.com/@theAIsearch
+
+- id: firebase
+  name: Firebase
+  youtubeUrl: https://www.youtube.com/user/Firebase
+
+- id: linus_tech_tips
+  name: Linus Tech Tips
+  youtubeUrl: https://www.youtube.com/user/LinusTechTips
+  patterns:
+    - ltt
+
+- id: mental_outlaw
+  name: Mental Outlaw
+  youtubeUrl: https://www.youtube.com/MentalOutlaw
+
+- id: tech_linked
+  name: TechLinked
+  youtubeUrl: https://www.youtube.com/techlinked
+
+- id: underscore_youtube
+  name: Underscore_
+  youtubeUrl: https://www.youtube.com/@Underscore_
+  patterns:
+    - underscore
+    - underscore_

@@ -1,3 +1,10 @@
 - id: cursor_pain_points
   patterns:
     - cursor
+
+- id: vs_code_pain_points
+
+- id: resource_intensive
+  patterns:
+    - cpu
+    - hog
