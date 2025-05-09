@@ -6,7 +6,7 @@
 - id: apollo_server
   name: Apollo Server
   homepageUrl: https://www.apollographql.com/docs/apollo-server/
-- id: yoga
+- id: yoga_graphql
   name: Yoga
   homepageUrl: https://www.graphql-yoga.com/
 - id: helix

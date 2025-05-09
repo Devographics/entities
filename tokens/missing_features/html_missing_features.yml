@@ -73,10 +73,6 @@
   patterns:
     - fullscreen
 
-- id: has_selector
-  patterns:
-    - has [e]
-
 - id: houdini
 
 - id: html_imports

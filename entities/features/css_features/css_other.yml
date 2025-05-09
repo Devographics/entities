@@ -324,6 +324,24 @@
   mdn: /en-US/docs/Web/CSS/attr
   caniuse: css3-attr
 
+- id: advanced_attr_function
+  name: Advanced `attr()`
+  description: Support for properties other than content
+  patterns:
+    - attr, property [l]
+    - attr, properties [l]
+  example:
+    language: css
+    code: |
+      .title {
+        background-color: attr(data-color type(<color>));
+      }
+  resources:
+    - title: New capabilities for attr()
+      url: https://una.im/advanced-attr/
+    - title: First Look at The Modern attr()
+      url: https://ishadeed.com/article/modern-attr/
+
 - id: individual_transform_properties
   # mdn:
   # caniuse:
@@ -457,3 +475,40 @@
   resources:
     - title: "Tree Counting Functions: the sibling-count() and sibling-index() notations"
       url: https://www.w3.org/TR/css-values-5/#tree-counting
+
+- id: at_function
+  name: "`@function`"
+  resources:
+    - title: Functions in CSS?!
+      url: https://css-tricks.com/functions-in-css/
+    - title: CSS Custom Functions are coming … and they are going to be a game changer!
+      url: https://www.bram.us/2025/02/09/css-custom-functions-teaser/
+  example:
+    language: css
+    code: |
+      @function --negate(--value) {
+        result: calc(-1 * var(--value));
+      }
+
+- id: display_contents
+  name: "`display: contents`"
+  patterns:
+    - "display: content"
+    - "display:content"
+  tags:
+    - browser_interoperability
+
+- id: if_function
+  name: "`if()`"
+  example:
+    language: css
+    code: |
+      div {
+        color: var(--color);
+        background-color: if(style(--color: white): black; else: white);
+      }
+  resources:
+    - title: "Feature: CSS if() function"
+      url: https://chromestatus.com/feature/6313805904347136
+    - title: “If” CSS Gets Inline Conditionals
+      url: https://css-tricks.com/if-css-gets-inline-conditionals/

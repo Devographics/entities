@@ -1,0 +1,31 @@
+- id: severance
+
+- id: last_of_us
+
+- id: white_lotus
+
+- id: black_mirror
+
+- id: silo
+
+- id: arcane
+
+- id: andor
+
+- id: reacher
+
+- id: daredevil
+
+- id: adolescence
+
+- id: star_trek
+
+- id: invincible
+
+- id: the_wheel_of_time
+  patterns:
+    - wheel of time
+
+- id: three_body_problem
+  patterns:
+    - 3 body

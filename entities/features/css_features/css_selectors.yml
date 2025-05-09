@@ -31,10 +31,14 @@
     - \:has [p]
     - has\(\)
     - ":has"
+    - has [e]
   tags:
     - css
     - css_selectors
     - html_interoperability_features
+    - html_missing_features
+    - browser_interoperability
+    - interactivity_pain_points
 
 - id: where_selector
   webFeaturesId: where
@@ -86,3 +90,17 @@
   patterns:
     - not\(\)
     - :not
+
+- id: target_text_selector
+  name: "`::target-text`"
+  mdn: en-US/docs/Web/CSS/::target-text
+  caniuse: mdn-css_selectors_target-text
+  example:
+    language: css
+    code: |
+      ::target-text {
+        background-color: pink;
+      }
+  tags:
+    - css
+    - css_selectors

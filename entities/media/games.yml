@@ -1,0 +1,23 @@
+- id: balatro
+
+- id: minecraft
+
+- id: baldurs_gate
+  patterns:
+    - baldur's gate
+
+- id: kingdom_come_deliverance_2
+
+- id: tears_of_the_kingdom
+
+- id: echoes_of_wisdom
+
+- id: breath_of_the_wild
+
+- id: league_of_legends
+
+- id: factorio
+
+- id: cyberpunk_2077
+  patterns:
+    - cyberpunk

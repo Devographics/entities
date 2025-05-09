@@ -1,0 +1,38 @@
+- id: japan
+- id: canada
+- id: new_zealand
+- id: germany
+- id: spain
+- id: sweden
+- id: netherlands
+  patterns:
+    - holland
+- id: italy
+- id: norway
+- id: australia
+- id: ireland
+- id: france
+- id: portugal
+- id: switzerland
+- id: denmark
+- id: usa
+  patterns:
+    - united states
+    - states
+    - u.s.
+    - u.s.a.
+- id: finland
+- id: iceland
+- id: uk
+  patterns:
+    - england
+    - united kingdom
+    - britain
+- id: thailand
+- id: singapore
+- id: greece
+- id: scotland
+- id: austria
+- id: mexico
+- id: china
+- id: korea

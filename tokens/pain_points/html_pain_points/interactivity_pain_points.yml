@@ -107,12 +107,6 @@
   patterns:
     - bindings
 
-- id: has_selector
-  patterns:
-    - \:has [p]
-    - has\(\)
-    - ":has"
-
 - id: custom_elements
 
 - id: lack_of_reactivity_support
