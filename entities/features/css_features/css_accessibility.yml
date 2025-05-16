@@ -10,7 +10,7 @@
   example:
     language: css
     code: |
-      @media (prefers-reduced-motion) {
+      @media (prefers-reduced-motion: reduce) {
         .animation {
           animation: none;
         }
@@ -162,5 +162,5 @@
     language: css
     code: |
       code {
-        color: light-dark(var(--light-code), var(--dark-code));
+        color: light-dark(black, white);
       }

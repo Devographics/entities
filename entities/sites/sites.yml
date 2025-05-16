@@ -520,6 +520,10 @@
   name: Chrome Platform Status
   homepageUrl: https://chromestatus.com/
 
+- id: web_platform_status
+  name: Web Platform Status
+  homepageUrl: https://webstatus.dev/
+
 - id: webkit_blog
   name: WebKit Blog
   homepageUrl: https://webkit.org/blog/

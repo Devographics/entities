@@ -1,10 +1,8 @@
 - id: react_lack_of_signals
-  name: Lack of signals
   patterns:
     - signals
 
 - id: excessive_rerendering
-  name: Excessive re-renderings
   parentId: context_api
   tags:
     - state_management_pain_points
@@ -19,7 +17,6 @@
 # backwards compatibility typo
 # TODO: delete
 - id: excesssive_rerendering
-  name: Excessive re-renderings
   parentId: context_api
   tags:
     - state_management_pain_points
@@ -27,7 +24,6 @@
     - re(-| )?render [p]
 
 - id: nextjs_issues
-  name: Next.js issues
   tags:
     - new_apis_pain_points
     - back_end_infrastructure_pain_points
@@ -35,9 +31,7 @@
     - next( |.)?js
 
 - id: vercel_issues
-  name: Vercel issues
   patterns:
     - vercel
 
 - id: hooks_issues
-  name: Hooks issues

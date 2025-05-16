@@ -1,22 +1,17 @@
 - id: caching
-  name: Caching
 
 - id: graphql_issues
-  name: GraphQL issues
   patterns:
     - graphql
 
 - id: apollo_issues
-  name: Apollo issues
   patterns:
     - apollo
 
 - id: optimistic_updates
-  name: Optimistic updates
   patterns:
     - optimistic
 
 - id: cancelling_requests
-  name: Unable to cancel requests
   patterns:
     - cancel [p]

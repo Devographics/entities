@@ -204,7 +204,7 @@
   example:
     language: css
     code: |
-      @container style(color: green) {
+      @container style(--fontColor: green) {
         /* <stylesheet> */
       }
   patterns:

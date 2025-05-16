@@ -381,8 +381,13 @@
   example:
     language: css
     code: |
-      .slider-link {
-        anchor-name: var(--is);
+      .anchor {
+        anchor-name: --my-anchor;
+      }
+      .target {
+        position: absolute;
+        position-anchor: --my-anchor;
+        position-area: start end;
       }
   mdn: /en-US/docs/Web/CSS/CSS_anchor_positioning
   caniuse: css-anchor-positioning
@@ -393,6 +398,8 @@
     - title: >
         Tether elements to each other with CSS anchor positioning
       url: https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/
+    - title: CSS Anchor Positioning Guide
+      url: https://css-tricks.com/css-anchor-positioning-guide/
   tags:
     - html_interoperability_features
   patterns:
@@ -469,6 +476,8 @@
   resources:
     - title: "Tree Counting Functions: the sibling-count() and sibling-index() notations"
       url: https://www.w3.org/TR/css-values-5/#tree-counting
+    - title: Let the stagger experiments begin
+      url: https://nerdy.dev/sibling-index
 
 - id: sibling_count
   name: "`sibling-count()`"

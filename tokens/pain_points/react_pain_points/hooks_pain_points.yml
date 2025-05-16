@@ -1,23 +1,19 @@
 - id: rules_of_hooks
-  name: Rules of hooks
   patterns:
     - rules, hooks [l]
 
 - id: hooks_disallowed_conditional_logic
-  name: Disallowed conditional logic
   patterns:
     - conditional
     - conditionally
 
 - id: excessive_rerendering
-  name: Excessive rerendering
   patterns:
     - re( |-)?render
   tags:
     - component_libraries_pain_points
 
 - id: dependency_arrays
-  name: Dependency arrays
   description: Specifying the list of variables `useEffect` depends on.
   patterns:
     - dependency

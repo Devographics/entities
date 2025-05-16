@@ -43,7 +43,7 @@
 
       /*   EXIT STATE   */
       dialog {
-        transition: translate 0.7s ease-out, display 0.7s ease-out allow-discrete;
+        transition: opacity 1s, display 1s allow-discrete, overlay 1s allow-discrete;
         translate: 0 100vh;
       }
 
@@ -60,7 +60,7 @@
 
 - id: view_transitions
   webFeaturesId: cross-document-view-transitions
-  name: ViewTransition API
+  name: View Transition API
   mdn: en-US/docs/Web/API/View_Transitions_API
   caniuse: mdn-api_viewtransition
   example:

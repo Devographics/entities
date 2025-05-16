@@ -119,6 +119,13 @@
     - title: "Leading-Trim: The Future of Digital Typesetting"
       url: https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202
       language: en-US
+  example:
+    language: css
+    code: |
+      p {
+        text-box-edge: cap alphabetic;
+        text-box-trim: trim-both;
+      }
   patterns:
     - leading( |-)?trim
 

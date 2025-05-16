@@ -1,10 +1,8 @@
 - id: context_api
-  name: Context API
   patterns:
     - context
 
 - id: context_api_rerendering
-  name: Excessive context re-renderings
   parentId: context_api
   patterns:
     - context, render [l]

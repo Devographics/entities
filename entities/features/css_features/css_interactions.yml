@@ -60,6 +60,7 @@
   caniuse: pointer-events
 
 - id: scroll_timeline
+  webFeaturesId: scroll-driven-animations
   name: "`scroll-timeline`"
   caniuse: css-scroll-timeline
   mdn: /en-US/docs/Web/CSS/scroll-timeline
@@ -76,6 +77,7 @@
     - html_interoperability_features
 
 - id: view_timeline
+  webFeaturesId: scroll-driven-animations
   name: "`view-timeline`"
   caniuse: css-view-timeline
   mdn: /en-US/docs/Web/CSS/view-timeline
@@ -128,3 +130,46 @@
       .container {
         scrollbar-gutter: stable;
       }
+
+- id: scroll_state
+  webFeaturesId: container-scroll-state-queries
+  name: Container scroll-state queries
+  mdn: en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries
+  caniuse: mdn-css_at-rules_container_scroll-state_queries
+  example:
+    language: css
+    code: |
+      @container scroller scroll-state(scrollable: top) {
+        .back-to-top {
+          translate: 0 0;
+        }
+      }
+
+- id: css_carousels
+  webFeaturesId: scroll-markers
+  name: CSS Carousels
+  mdn: en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
+  caniuse: mdn-css_selectors_scroll-marker
+  example:
+    language: css
+    code: |
+      .carousel {
+        &::scroll-button(left) {
+          content: "⬅" / "Scroll Left";
+        }
+        
+        &::scroll-button(right) {
+          content: "⮕" / "Scroll Right";
+        }
+
+        &::scroll-button(*):focus-visible {
+          outline-offset: 5px;
+        }
+      }
+  resources:
+    - url: https://developer.chrome.com/blog/carousels-with-css
+      title: Carousels with CSS
+    - url: https://chrome.dev/carousel/
+      title: CSS Carousel Gallery
+    - url: https://css-tricks.com/css-carousels/
+      title: CSS Carousels

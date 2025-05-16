@@ -175,3 +175,22 @@
         offset-path: border-box;
         offset-distance: 5%;
       }
+
+- id: css_shape_function
+  name: "`shape()`"
+  mdn: en-US/docs/Web/CSS/basic-shape/shape
+  caniuse: mdn-css_types_basic-shape_shape
+  resources:
+    - url: https://css-tricks.com/css-shape-commands/
+      title: CSS shape() Commands
+  example:
+    language: css
+    code: |
+      .clipped {
+        clip-path: shape(
+          from top left,
+          hline to 100%,
+          vline to 100%,
+          curve to 0% 100% with 50% 0%,
+        );
+      }

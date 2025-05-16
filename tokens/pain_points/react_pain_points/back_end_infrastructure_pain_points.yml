@@ -1,5 +1,4 @@
 - id: end_to_end_type_safety
-  name: End-to-end type safety
   tags:
     - data_loading_pain_points
   patterns:
@@ -8,32 +7,26 @@
     - type sharing
 
 - id: create_react_app_issues
-  name: Create React App issues
   patterns:
     - create, react, app [l]
     - cra
 
 - id: webpack_issues
-  name: Webpack issues
   patterns:
     - webpack
 
 - id: firebase_issues
-  name: Firebase issues
   patterns:
     - firebase
 
 - id: pricing_issues
-  name: High costs
   patterns:
     - pricing
 
 - id: aws_issues
-  name: AWS Issues
   patterns:
     - aws
 
 - id: graphql_issues
-  name: GraphQL Issues
   patterns:
     - graphql
