@@ -1,13 +1,820 @@
-- id: taylor_swift
+- genre: pop
+  homepageUrl: https://www.taylorswift.com/
+  id: taylor_swift
+  name: Taylor Swift
+- genre: metal
+  homepageUrl: https://linkinpark.com/
+  id: linkin_park
+  name: Linkin Park
+- genre: hip_hop
+  homepageUrl: https://oklama.com/
+  id: kendrick_lamar
+  name: Kendrick Lamar
+- genre: pop
+  homepageUrl: https://www.iamchappellroan.com/
+  id: chappell_roan
+  name: Chappell Roan
+  patterns:
+    - chap(p)?el(l)? roan
+- genre: metal
+  homepageUrl: https://www.toolband.com/
+  id: tool
+  name: Tool
+- genre: hip_hop
+  homepageUrl: https://golfwang.com/
+  id: tyler_the_creator
+  name: Tyler, The Creator
+- genre: hip_hop
+  homepageUrl: https://www.iamdoechii.com/
+  id: doechii
+  name: Doechii
+- genre: kpop
+  homepageUrl: https://www.blackpinkmusic.com/
+  id: blackpink
+  name: BLACKPINK
+- genre: classic_rock
+  homepageUrl: https://www.pinkfloyd.com/
+  id: pink_floyd
+  name: Pink Floyd
+- genre: pop
+  homepageUrl: https://www.ladygaga.com/
+  id: lady_gaga
+  name: Lady Gaga
+- genre: metal
+  homepageUrl: https://www.sleep-token.com/
+  id: sleep_token
+  name: Sleep Token
+- genre: pop
+  homepageUrl: https://www.badbunnytour.com/
+  id: bad_bunny
+  name: Bad Bunny
+- genre: pop
+  homepageUrl: https://www.sabrinacarpenter.com/
+  id: sabrina_carpenter
+  name: Sabrina Carpenter
+- genre: pop
+  homepageUrl: https://billieeilishfragrances.com/
+  id: billie_eilish
+  name: Billie Eilish
+- genre: rock
+  homepageUrl: https://kinggizzardandthelizardwizard.com/
+  id: king_gizzard_and_the_lizard_wizard
+  name: King Gizzard & The Lizard Wizard
+  patterns:
+    - king gizzard
+    - king gizard
+- genre: rock
+  homepageUrl: https://www.talking-heads.net/
+  id: talking_heads
+  name: Talking Heads
+- genre: rock
+  homepageUrl: https://www.radiohead.com/
+  id: radiohead
+  name: Radiohead
+- genre: rock
+  homepageUrl: https://blackcountrynewroad.com/
+  id: black_country_new_road
+  name: Black Country, New Road
+- genre: electronic
+  homepageUrl: https://www.daftpunk.com/
+  id: daft_punk
+  name: Daft Punk
+- genre: metal
+  homepageUrl: https://www.ghost-official.com/
+  id: ghost
+  name: Ghost
+- genre: edm
+  homepageUrl: https://100gecs.com/
+  id: 100_gecs
+  name: 100 gecs
+- genre: alternative
+  homepageUrl: https://www.imaginedragonsmusic.com/
+  id: imagine_dragons
+  name: Imagine Dragons
+- genre: hip_hop
+  homepageUrl: https://www.eminem.com/
+  id: eminem
+  name: Eminem
+- genre: hip_hop
+  homepageUrl: https://www.drakeofficial.com/
+  id: drake
+  name: Drake
+- genre: pop
+  homepageUrl: https://www.theweeknd.com/
+  id: the_weeknd
+  name: The Weeknd
+- genre: pop
+  homepageUrl: https://www.arianagrande.com/
+  id: ariana_grande
+  name: Ariana Grande
+- genre: r&b
+  homepageUrl: https://www.szasos.com/
+  id: sza
+  name: SZA
+- genre: country
+  homepageUrl: https://www.morganwallen.com/
+  id: morgan_wallen
+  name: Morgan Wallen
+- genre: hip_hop
+  homepageUrl: https://www.travisscott.com/
+  id: travis_scott
+  name: Travis Scott
+- genre: hip_hop
+  homepageUrl: https://www.kanyewest.com/
+  id: kanye_west
+  name: Kanye West
+- genre: hip_hop
+  homepageUrl: https://www.postmalone.com/
+  id: post_malone
+  name: Post Malone
+- genre: country
+  homepageUrl: https://www.zachbryan.com/
+  id: zach_bryan
+  name: Zach Bryan
+- genre: pop
+  homepageUrl: https://www.feidofficial.com/
+  id: feid
+  name: Feid
+- genre: country
+  homepageUrl: https://www.officialjellyroll.com/
+  id: jelly_roll
+  name: Jelly Roll
+- genre: pop
+  homepageUrl: https://www.dualipa.com/
+  id: dua_lipa
+  name: Dua Lipa
+- genre: rock
+  homepageUrl: https://www.coldplay.com/
+  id: coldplay
+  name: Coldplay
+- genre: folk
+  homepageUrl: https://www.noahkahan.com/
+  id: noah_kahan
+  name: Noah Kahan
+- genre: pop
+  homepageUrl: https://www.tatemcrae.com/
+  id: tate_mcrae
+  name: Tate McRae
+- genre: hip_hop
+  homepageUrl: https://www.futurefreebandz.com/
+  id: future
+  name: Future
+- genre: hip_hop
+  homepageUrl: https://www.metroboomin.net/
+  id: metro_boomin
+  name: Metro Boomin
+- genre: hip_hop
+  homepageUrl: https://www.lilbabyofficial.com/
+  id: lil_baby
+  name: Lil Baby
+- genre: pop
+  homepageUrl: https://www.playofficial.com/
+  id: play
+  name: Play
+- genre: metal
+  homepageUrl: https://www.metallica.com/
+  id: metallica
+  name: Metallica
+- genre: electronic
+  homepageUrl: https://www.fredagain.com/
+  id: fred_again
+  name: Fred Again..
+- genre: alternative
+  homepageUrl: https://www.twentyonepilots.com/
+  id: twenty_one_pilots
+  name: Twenty One Pilots
+- genre: pop
+  homepageUrl: https://abbasite.com/
+  id: abba
+  name: ABBA
+- genre: electronic
+  homepageUrl: https://www.aboveandbeyond.nu/
+  id: above_and_beyond
+  name: Above & Beyond
+  patterns:
+    - above & beyond
+- genre: rock
+  homepageUrl: https://pwrup.acdc.com/
+  id: ac_dc
+  name: AC/DC
+  patterns:
+    - ac/dc
+    - ac dc
+- genre: pop
+  homepageUrl: https://www.adele.com/
+  id: adele
+  name: Adele
+- genre: pop
+  homepageUrl: https://www.eltonjohn.com/
+  id: elton_john
+  name: Elton John
+- genre: pop
+  homepageUrl: https://www.johnmayer.com/
+  id: john_mayer
+  name: John Mayer
+- genre: folk
+  homepageUrl: https://www.thelongestjohns.com/
+  id: the_longest_johns
+  name: The Longest Johns
+- genre: rock
+  homepageUrl: https://www.thebeatles.com/
+  id: the_beatles
+  name: The Beatles
+- genre: pop
+  homepageUrl: https://www.michaeljackson.com/
+  id: michael_jackson
+  name: Michael Jackson
+- genre: pop
+  homepageUrl: https://www.madonna.com/
+  id: madonna
+  name: Madonna
+- genre: pop
+  homepageUrl: https://www.rihanna.com/
+  id: rihanna
+  name: Rihanna
+- genre: pop
+  homepageUrl: https://www.beyonce.com/
+  id: beyonce
+  name: Beyoncé
+- genre: pop
+  homepageUrl: https://www.brunomars.com/
+  id: bruno_mars
+  name: Bruno Mars
+- genre: pop
+  homepageUrl: https://www.edsheeran.com/
+  id: ed_sheeran
+  name: Ed Sheeran
+- genre: pop
+  homepageUrl: https://www.justinbiebermusic.com/
+  id: justin_bieber
+  name: Justin Bieber
+- genre: pop
+  homepageUrl: https://www.mariahcarey.com/
+  id: mariah_carey
+  name: Mariah Carey
+- genre: pop
+  homepageUrl: https://www.whitneyhouston.com/
+  id: whitney_houston
+  name: Whitney Houston
+- genre: pop
+  homepageUrl: https://www.celinedion.com/
+  id: celine_dion
+  name: Celine Dion
+- genre: rock
+  homepageUrl: https://www.u2.com/
+  id: u2
+  name: U2
+- genre: rock
+  homepageUrl: https://www.fleetwoodmac.com/
+  id: fleetwood_mac
+  name: Fleetwood Mac
+- genre: rock
+  homepageUrl: https://www.rollingstones.com/
+  id: the_rolling_stones
+  name: The Rolling Stones
+- genre: folk
+  homepageUrl: https://www.bobdylan.com/
+  id: bob_dylan
+  name: Bob Dylan
+- genre: rock
+  homepageUrl: https://www.queenonline.com/
+  id: queen
+  name: Queen
+- genre: classic_rock
+  homepageUrl: https://www.ledzeppelin.com/
+  id: led_zeppelin
+  name: Led Zeppelin
+- genre: rock
+  homepageUrl: https://www.nirvana.com/
+  id: nirvana
+  name: Nirvana
+- genre: rock
+  homepageUrl: https://eagles.com/
+  id: the_eagles
+  name: The Eagles
+- genre: rock
+  homepageUrl: https://brucespringsteen.net/
+  id: bruce_springsteen
+  name: Bruce Springsteen
+- genre: hip_hop
+  homepageUrl: https://lifeandtimes.com/
+  id: jay_z
+  name: Jay-Z
+- genre: hip_hop
+  homepageUrl: https://www.lilwayneofficial.com/
+  id: lil_wayne
+  name: Lil Wayne
+- genre: hip_hop
+  homepageUrl: https://www.nickiminajofficial.com/
+  id: nicki_minaj
+  name: Nicki Minaj
+- genre: hip_hop
+  homepageUrl: https://blackeyedpeas.com/
+  id: the_black_eyed_peas
+  name: The Black Eyed Peas
+- genre: rock
+  homepageUrl: https://www.greenday.com/
+  id: green_day
+  name: Green Day
+- genre: rock
+  homepageUrl: https://thebeachboys.com/
+  id: the_beach_boys
+  name: The Beach Boys
+- genre: classic_rock
+  homepageUrl: https://www.davidbowie.com/
+  id: david_bowie
+  name: David Bowie
+- genre: pop
+  homepageUrl: https://www.prince.com/
+  id: prince
+  name: Prince
+- genre: rock
+  homepageUrl: https://thedoors.com/
+  id: the_doors
+  name: The Doors
+- genre: rock
+  homepageUrl: https://www.aerosmith.com/
+  id: aerosmith
+  name: Aerosmith
+- genre: rock
+  homepageUrl: https://www.bonjovi.com/
+  id: bon_jovi
+  name: Bon Jovi
+- genre: pop
+  homepageUrl: https://www.shakira.com/
+  id: shakira
+  name: Shakira
+- genre: r&b
+  homepageUrl: https://www.usherworld.com/
+  id: usher
+  name: Usher
+- genre: pop
+  homepageUrl: https://www.kellyclarkson.com/
+  id: kelly_clarkson
+  name: Kelly Clarkson
+- genre: pop
+  homepageUrl: https://www.britneyspears.com/
+  id: britney_spears
+  name: Britney Spears
+- genre: rock
+  homepageUrl: https://www.maroon5.com/
+  id: maroon_5
+  name: Maroon 5
+- genre: edm
+  homepageUrl: https://www.thechainsmokers.com/
+  id: the_chainsmokers
+  name: The Chainsmokers
+- genre: hip_hop
+  homepageUrl: https://www.cardib.com/
+  id: cardi_b
+  name: Cardi B
+- genre: hip_hop
+  homepageUrl: https://www.megantheestallion.com/
+  id: megan_thee_stallion
+  name: Megan Thee Stallion
+- genre: pop
+  homepageUrl: https://www.oliviarodrigo.com/
+  id: olivia_rodrigo
+  name: Olivia Rodrigo
+- genre: pop
+  homepageUrl: https://hstyles.co.uk/
+  id: harry_styles
+  name: Harry Styles
+- genre: pop
+  homepageUrl: https://justintimberlake.com/
+  id: justin_timberlake
+  name: Justin Timberlake
+- genre: rock
+  homepageUrl: https://www.thekillersmusic.com/
+  id: the_killers
+  name: The Killers
+- genre: pop
+  homepageUrl: https://www.lanadelrey.com/
+  id: lana_del_rey
+  name: Lana Del Rey
+- genre: r&b
+  homepageUrl: https://blonded.co/
+  id: frank_ocean
+  name: Frank Ocean
+- genre: rock
+  homepageUrl: https://www.thesmiths.com/
+  id: the_smiths
+  name: The Smiths
+- genre: rock
+  homepageUrl: https://www.thecure.com/
+  id: the_cure
+  name: The Cure
+- genre: rock
+  homepageUrl: https://redhotchilipeppers.com/
+  id: red_hot_chili_peppers
+  name: Red Hot Chili Peppers
+- genre: rock
+  homepageUrl: https://pearljam.com/
+  id: pearl_jam
+  name: Pearl Jam
+- genre: rock
+  homepageUrl: https://www.soundgardenworld.com/
+  id: soundgarden
+  name: Soundgarden
+- genre: rock
+  homepageUrl: https://www.aliceinchains.com/
+  id: alice_in_chains
+  name: Alice in Chains
+- genre: rock
+  homepageUrl: https://www.nin.com/
+  id: nine_inch_nails
+  name: Nine Inch Nails
+- genre: metal
+  homepageUrl: https://www.toolband.com/
+  id: tool
+  name: Tool
+- genre: metal
+  homepageUrl: https://systemofadown.com/
+  id: system_of_a_down
+  name: System of a Down
+- genre: metal
+  homepageUrl: https://www.evanescence.com/
+  id: evanescence
+  name: Evanescence
+- genre: alternative
+  homepageUrl: https://www.paramore.net/
+  id: paramore
+  name: Paramore
+- genre: rock
+  homepageUrl: https://www.panicatthedisco.com/
+  id: panic_at_the_disco
+  name: Panic! At The Disco
+- genre: alternative
+  homepageUrl: https://falloutboy.com/
+  id: fall_out_boy
+  name: Fall Out Boy
+- genre: alternative
+  homepageUrl: https://www.mychemicalromance.com/
+  id: my_chemical_romance
+  name: My Chemical Romance
+- genre: alternative
+  homepageUrl: https://www.twentyonepilots.com/
+  id: twenty_one_pilots
+  name: Twenty One Pilots
+- genre: alternative
+  homepageUrl: https://www.imaginedragonsmusic.com/
+  id: imagine_dragons
+  name: Imagine Dragons
+- genre: alternative
+  homepageUrl: https://www.bastillebastille.com/
+  id: bastille
+  name: Bastille
+- genre: rock
+  homepageUrl: https://www.arcticmonkeys.com/
+  id: arctic_monkeys
+  name: Arctic Monkeys
+- genre: rock
+  homepageUrl: https://the1975.com/
+  id: the_1975
+  name: The 1975
+- genre: pop
+  homepageUrl: https://www.tameimpala.com/
+  id: tame_impala
+  name: Tame Impala
+- genre: rock
+  homepageUrl: https://www.glassanimals.com/
+  id: glass_animals
+  name: Glass Animals
+- genre: pop
+  homepageUrl: https://www.portugaltheman.com/
+  id: portugal_the_man
+  name: Portugal. The Man
+- genre: alternative
+  homepageUrl: https://www.fosterthepeople.com/
+  id: foster_the_people
+  name: Foster the People
+- genre: folk
+  homepageUrl: https://www.mumfordandsons.com/
+  id: mumford_and_sons
+  name: Mumford & Sons
+- genre: folk
+  homepageUrl: https://www.ofmonstersandmen.com/
+  id: of_monsters_and_men
+  name: Of Monsters and Men
+- genre: alternative
+  homepageUrl: https://www.florenceandthemachine.net/
+  id: florence_and_the_machine
+  name: Florence + The Machine
+- genre: folk
+  homepageUrl: https://hozier.com/
+  id: hozier
+  name: Hozier
+- genre: pop
+  homepageUrl: https://samsmithworld.com/
+  id: sam_smith
+  name: Sam Smith
+- genre: pop
+  homepageUrl: https://www.adele.com/
+  id: adele
+  name: Adele
+- genre: pop
+  homepageUrl: https://elliegoulding.com/
+  id: ellie_goulding
+  name: Ellie Goulding
+- genre: pop
+  homepageUrl: https://www.lorde.co.nz/
+  id: lorde
+  name: Lorde
+- genre: pop
+  homepageUrl: https://www.siamusic.net/
+  id: sia
+  name: Sia
+- genre: pop
+  homepageUrl: https://www.inzayn.com/
+  id: zayn
+  name: ZAYN
+- genre: pop
+  homepageUrl: https://www.niallhoran.com/
+  id: niall_horan
+  name: Niall Horan
+- genre: pop
+  homepageUrl: https://www.louis-tomlinson.com/
+  id: louis_tomlinson
+  name: Louis Tomlinson
+- genre: pop
+  homepageUrl: https://liampayneofficial.com/
+  id: liam_payne
+  name: Liam Payne
+- genre: pop
+  homepageUrl: https://www.onedirectionmusic.com/
+  id: one_direction
+  name: One Direction
+- genre: hip_hop
+  homepageUrl: https://www.lilnasx.com/
+  id: lil_nas_x
+  name: Lil Nas X
+- genre: hip_hop
+  homepageUrl: https://www.dojacat.com/
+  id: doja_cat
+  name: Doja Cat
+- genre: hip_hop
+  homepageUrl: https://www.youtube.com/channel/UC2FCUwThC0RAzaQoI0TtpLA
+  id: saweetie
+  name: Saweetie
+- genre: pop
+  homepageUrl: https://www.charlixcx.com/
+  id: charli_xcx
+  name: Charli XCX
+- genre: metal
+  homepageUrl: https://www.babymetal.com/
+  id: babymetal
+  name: BABYMETAL
+- genre: pop
+  homepageUrl: https://ado-shop.com/
+  id: ado
+  name: Ado
+- genre: pop
+  homepageUrl: https://aespa-officialus.com/
+  id: aespa
+  name: aespa
+- genre: pop
+  homepageUrl: https://www.ajrbrothers.com/
+  id: ajr
+  name: AJR
+- genre: pop
+  homepageUrl: https://www.aurora-music.com/
+  id: aurora
+  name: AURORA
+- genre: metal
+  homepageUrl: https://www.electriccallboy.com/
+  id: electric_callboy
+  name: Electric Callboy
+- genre: electronic
+  homepageUrl: https://www.arminvanbuuren.com/
+  id: armin_van_buuren
+  name: Armin van Buuren
+- genre: metal
+  id: gojira
+  name: Gojira
 
-- id: linkin_park
+- genre: rock
+  homepageUrl: https://www.dgmlive.com/
+  id: king_crimson
+  name: King Crimson
+- genre: rock
+  homepageUrl: https://kingsofleon.com/
+  id: kings_of_leon
+  name: Kings of Leon
+- genre: metal
+  homepageUrl: https://www.beastinblack.com/
+  id: beast_in_black
+  name: Beast in Black
+- genre: rock
+  homepageUrl: https://www.theblackkeys.com/
+  id: black_keys
+  name: The Black Keys
+- genre: soul
+  homepageUrl: https://www.theblackpumas.com/
+  id: black_pumas
+  name: Black Pumas
+- genre: metal
+  homepageUrl: https://www.blacksabbath.com/
+  id: black_sabbath
+  name: Black Sabbath
+- genre: metal
+  homepageUrl: https://www.bmthofficial.com/
+  id: bring_me_the_horizon
+  name: Bring Me the Horizon
+- genre: folk
+  homepageUrl: https://boniver.org/
+  id: bon_iver
+  name: Bon Iver
+- genre: rock
+  homepageUrl: https://www.muse.mu/
+  id: muse
+  name: Muse
+- genre: metal
+  homepageUrl: https://badomensofficial.com/
+  id: bad_omens
+  name: Bad Omens
+- genre: metal
+  homepageUrl: https://dreamtheater.net/
+  id: dream_theater
+  name: Dream Theater
+- genre: electronic
+  homepageUrl: https://porterrobinson.com/
+  id: porter_robinson
+  name: Porter Robinson
+- genre: classical
+  homepageUrl: https://www.hanszimmerlive.com/
+  id: hans_zimmer
+  name: Hans Zimmer
+- genre: rock
+  homepageUrl: https://foofighters.com/
+  id: foo_fighters
+  name: Foo Fighters
+- genre: metal
+  homepageUrl: https://www.ironmaiden.com/
+  id: iron_maiden
+  name: Iron Maiden
+- genre: rock
+  homepageUrl: https://www.qotsa.com/
+  id: queens_of_the_stone_age
+  name: Queens of the Stone Age
+- genre: metal
+  homepageUrl: https://www.rammstein.de/en/
+  id: rammstein
+  name: Rammstein
+- genre: metal
+  homepageUrl: https://nightwish.com/
+  id: nightwish
+  name: Nightwish
+- genre: folk
+  homepageUrl: https://frank-turner.com/
+  id: frank_turner
+  name: Frank Turner
+- genre: electronic
+  homepageUrl: https://machinegirl.bandcamp.com/
+  id: machine_girl
+  name: Machine Girl
+- genre: metal
+  homepageUrl: https://www.machinehead1.com/
+  id: machine_head
+  name: Machine Head
+- genre: electronic
+  homepageUrl: https://www.purplediscomachine.com/
+  id: purple_disco_machine
+  name: Purple Disco Machine
+- genre: rock
+  homepageUrl: https://www.ratm.com/
+  id: rage_against_the_machine
+  name: Rage Against the Machine
+- genre: alternative
+  homepageUrl: https://florenceandthemachine.net/
+  id: florence_plus_the_machine
+  name: Florence + The Machine
+  patterns:
+    - florence, machine [l]
+- genre: rock
+  homepageUrl: https://www.viagraboys.com/
+  id: viagra_boys
+  name: Viagra Boys
+- genre: rock
+  homepageUrl: https://www.oasisinet.com/
+  id: oasis
+  name: Oasis
+- genre: rock
+  homepageUrl: https://www.nickcave.com/
+  id: nick_cave
+  name: Nick Cave
+- genre: classical
+  homepageUrl: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+  id: bach
+  name: Johann Sebastian Bach
+- genre: classical
+  homepageUrl: https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart
+  id: mozart
+  name: Wolfgang Amadeus Mozart
+- genre: pop
+  homepageUrl: https://www.yoasobi-music.jp/
+  id: yoasobi
+  name: YOASOBI
+- genre: electronic
+  homepageUrl: https://skrillex.com/
+  id: skrillex
+  name: Skrillex
+- genre: funk
+  homepageUrl: https://vulfpeck.com/
+  id: vulfpeck
+  name: Vulfpeck
+- genre: electronic
+  homepageUrl: https://www.justice.church/
+  id: justice
+  name: Justice
+- genre: rock
+  homepageUrl: https://khruangbin.com/
+  id: khruangbin
+  name: Khruangbin
+- genre: alternative
+  homepageUrl: https://www.gorillaz.com/
+  id: gorillaz
+  name: Gorillaz
+- genre: rock
+  homepageUrl: https://www.rush.com/
+  id: rush
+  name: Rush
+- genre: hip_hop
+  homepageUrl: https://www.renmakesmusic.co.uk/
+  id: ren
+  name: Ren
+- genre: rock
+  homepageUrl: https://fontainesdc.com/
+  id: fontaines_dc
+  name: Fontaines D.C.
+  patterns:
+    - fontaines
+- genre: folk
+  homepageUrl: https://jackjohnsonmusic.com/
+  id: jack_johnson
+  name: Jack Johnson
+- genre: classical
+  homepageUrl: https://www.johnwilliams.org/
+  id: john_williams
+  name: John Williams
+- genre: pop
+  homepageUrl: https://www.bensonboone.com/
+  id: benson_boone
+  name: Benson Boone
+- genre: classical
+  homepageUrl: https://en.wikipedia.org/wiki/Frédéric_Chopin
+  id: chopin
+  name: Frédéric Chopin
+- genre: metal
+  homepageUrl: https://www.disturbed1.com/
+  id: disturbed
+  name: Disturbed
+- genre: rock
+  homepageUrl: https://www.direstraits.com/
+  id: dire_straits
+  name: Dire Straits
+- genre: rock
+  homepageUrl: https://incubushq.com/
+  id: incubus
+  name: Incubus
+- genre: hip_hop
+  homepageUrl: https://www.bbnomula.com/
+  id: bbnos
+  name: bbno$
+  patterns:
+    - bbno [p]
+- genre: electronic
+  homepageUrl: https://www.alanwalker.com/
+  id: alan_walker
+  name: Alan Walker
+- genre: electronic
+  homepageUrl: https://www.themidnightofficial.com/
+  id: the_midnight
+  name: The Midnight
+- genre: alternative
+  homepageUrl: https://www.beachhousebaltimore.com/
+  id: beach_house
+  name: Beach House
+- genre: jazz
+  homepageUrl: https://www.jacobcollier.com/
+  id: jacob_collier
+  name: Jacob Collier
+- genre: metal
+  homepageUrl: https://www.architectsofficial.com/
+  id: architects
+  name: Architects
+- genre: metal
+  homepageUrl: https://www.sabaton.net/
+  id: sabaton
+  name: Sabaton
+- genre: funk
+  homepageUrl: https://www.junglejunglejungle.com/
+  id: jungle
+  name: Jungle
 
-- id: kendrick_lamar
+- id: slipknot
+  name: Slipknot
+  genre: metal
 
-- id: chappell_roan
-
-- id: tool
-
-- id: tyler_the_creator
-
-- id: doechii
+- id: m83
+  name: M83
+  genre: edm

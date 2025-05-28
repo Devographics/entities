@@ -142,11 +142,6 @@
   patterns:
     - image, capture [l]
 
-- id: scroll_driven_animations
-  name: Scroll-driven animations
-  patterns:
-    - scroll, animation [l]
-
 - id: temporal
 
 - id: text_wrap_balance

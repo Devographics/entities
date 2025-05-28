@@ -272,3 +272,9 @@
   homepageUrl: https://www.theverge.com/newsletters
   patterns:
     - verge
+
+- id: the_index_piccalilli
+  name: The Index (Piccalilli)
+  homepageUrl: https://piccalil.li/the-index/
+  patterns:
+    - the index

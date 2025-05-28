@@ -1,0 +1,86 @@
+# sources
+
+- id: state_of_devs_survey
+  patterns:
+    - (e)?(-| )?mail
+    - mailing
+    - mailbox
+    - inbox
+    - newsletter [e]
+    - devographics.com
+    - survey.devographics.com
+    - post_survey_share
+    - announcement_post
+    - devographics.com
+    - mailing list
+    - stateofcss.com
+    - stateofjs.com
+    - for years
+    - forever
+    - been doing
+    - been taking
+    - past year
+    - previous year
+    - previous survey
+    - every year
+    - last year
+    - subscribed
+    - annual
+    - yearly
+    - taken it
+    - filled it
+    - devto_announcement
+    - announcement_email
+    - email_announcement2
+    - gmail
+    - newsletter [e]
+    - newsletters [e]
+    - post_survey_share_email
+    - participated before
+    - previous
+    - devto_devs2025_announcement
+    - ai2025_email_announcement
+    - ai2025_results_announcement
+    - react2024_results_announcement
+    - css2024_announcement_email
+    - devographics
+    - emailed
+    - your newsletter
+    - newletter
+    - news letter
+    - state_of_js_email2
+    - other surveys
+  tags:
+    - sources_state_of_js
+
+- id: state_of_ai_survey
+  patterns:
+    - ai2025_banner
+    - ai2025_devto_article
+    - state of ai
+
+- id: tokyodev
+
+- id: cassidy_williams
+  patterns:
+    - casidoo
+    - cassi
+    - cassidy
+
+- id: css_tricks
+  patterns:
+    - trick
+
+- id: josh_comeau
+  patterns:
+    - josh
+
+- id: r_javascript
+  name: r/javascript
+  homepageUrl: https://www.reddit.com/r/javascript/
+
+- id: le_wagon_tokyo
+  name: Le Wagon Tokyo
+  homepageUrl: https://www.lewagon.com/tokyo
+  patterns:
+    - lewagontokyo

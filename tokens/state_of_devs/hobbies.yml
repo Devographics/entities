@@ -1,0 +1,243 @@
+- id: 3d_printing
+  patterns:
+    - 3d
+
+- id: amateur_radio
+
+- id: anime
+
+- id: baking
+
+- id: archery
+
+- id: photography
+
+- id: programming
+  patterns:
+    - coding
+    - development
+
+- id: hiking_walking
+  patterns:
+    - hiking
+    - walking
+    - trekking
+    - backpacking
+
+- id: music
+
+- id: dancing
+  patterns:
+    - dance
+
+- id: lego
+
+- id: travel
+  patterns:
+    - travel [p]
+
+- id: cars
+
+- id: chess
+
+- id: coffee
+
+- id: puzzles
+
+- id: writing
+
+- id: language_learning
+  patterns:
+    - language
+    - linguistics
+
+- id: audiobooks
+
+- id: cycling
+  patterns:
+    - bicycle
+    - bicycling
+    - biking
+
+- id: birdwatching
+  patterns:
+    - birding
+    - bird
+
+- id: board_games
+
+- id: climbing
+  patterns:
+    - bouldering
+
+- id: concerts
+  patterns:
+    - festivals
+
+- id: pets
+  patterns:
+    - dog
+    - cat
+
+- id: music
+  patterns:
+    - djing
+
+- id: drawing_painting
+  patterns:
+    - drawing
+    - painting
+
+- id: fashion
+
+- id: fishing
+
+- id: drone_flying
+  patterns:
+    - drone
+    - fpv
+
+- id: game_development
+  patterns:
+    - game( )?dev
+
+- id: home_brewing
+
+- id: kayaking
+
+- id: knitting
+  patterns:
+    - crochet
+    - knit
+    - crocheting
+
+- id: martial_arts
+  patterns:
+    - bjj
+    - aikido
+
+- id: meditation
+
+- id: motorcycles
+  patterns:
+    - motorcycling
+    - motorcycle
+    - motorbike
+
+- id: motorsports
+
+- id: sailing
+
+- id: diving
+  patterns:
+    - scuba
+
+- id: sewing
+
+- id: singing
+
+- id: skateboarding
+
+- id: skiing
+
+- id: snowboarding
+
+- id: surfing
+
+- id: tennis
+
+- id: theatre
+  patterns:
+    - theater
+
+- id: youtube
+
+- id: yoga
+
+- id: badminton
+
+- id: basket_ball
+  patterns:
+    - basket
+
+- id: pilates
+
+- id: volleyball
+
+- id: rowing
+
+- id: pickleball
+
+- id: food
+
+- id: genealogy
+
+- id: geocaching
+
+- id: golf
+
+- id: graphic_design
+
+- id: interior_design
+
+- id: nature
+
+- id: pinball
+
+- id: software_projects
+
+- id: podcasts
+
+- id: poker
+
+- id: scouting
+
+- id: studying
+  patterns:
+    - study
+
+- id: volunteering
+
+- id: padel
+
+- id: bowling
+
+- id: boxing
+
+- id: calisthenics
+
+- id: cardio
+
+- id: cross_fit
+
+- id: darts
+
+- id: disc_golf
+
+- id: elliptical
+
+- id: floorball
+
+- id: football
+
+- id: frisbee
+
+- id: gardening
+
+- id: gym
+
+- id: hiit
+
+- id: hockey
+
+- id: squash
+
+- id: inline_skating
+  patterns:
+    - roller [p]
+
+- id: ice_skating
+
+- id: horseback_riding
+  patterns:
+    - horse riding

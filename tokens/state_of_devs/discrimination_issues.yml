@@ -1,0 +1,27 @@
+- id: appearance_body
+  patterns:
+    - appearance
+    - fatphobia
+    - hair
+    - height [p]
+
+- id: food_preferences
+  patterns:
+    - vegan
+    - veganism
+    - vegetarian
+    - meat
+    - vegetarianism
+
+- id: country_citizenship
+  patterns:
+    - citizenship
+    - country
+    - immigrant
+    - nationality
+
+- id: education
+
+- id: ethnicity
+
+- id: language

@@ -1,0 +1,47 @@
+- id: trump
+
+- id: war_and_conflict
+  patterns:
+    - wars
+    - war
+    - conflict
+
+- id: capitalism
+
+- id: fascism
+
+- id: gaza_israel_conflict
+  patterns:
+    - gaza
+    - israel
+    - palestine
+
+- id: erosion_of_privacy
+  patterns:
+    - privacy
+
+- id: concerns_about_russia
+  patterns:
+    - russia
+
+- id: misinformation
+
+- id: economic_inequality
+
+- id: lgbtq_rights
+
+- id: influence_of_social_media
+
+- id: biodiversity_crisis
+  patterns:
+    - ecodiversity
+    - biodiversity
+
+- id: racism_and_discrimination
+  patterns:
+    - racism
+    - discrimination
+    - xenophobia
+    - antisemitism
+
+- id: education_decline

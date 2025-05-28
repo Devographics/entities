@@ -1,0 +1,114 @@
+- id: alcohol
+
+- id: asmr
+
+- id: audiobooks_podcasts
+  patterns:
+    - audiobook
+    - podcast
+
+- id: blue_light_filter
+  patterns:
+    - blue
+
+- id: breathing_exercises
+  patterns:
+    - breathing
+
+- id: noise_machine
+  patterns:
+    - noise
+    - sound machine
+
+- id: cannabis_cbd
+  patterns:
+    - cannabis
+    - cbd
+    - marijuana
+    - weed
+    - thc
+
+- id: cpap_machine
+  patterns:
+    - cpap
+
+- id: meditation_relaxation
+  patterns:
+    - meditation
+    - relaxation
+    - relaxing
+    - meditating
+    - mindfulness
+
+- id: melatonin
+
+- id: music
+
+- id: nose_mouth_strips
+  patterns:
+    - strip
+    - nose
+    - nasal
+    - mouth
+    - tape
+
+- id: reading_books
+  patterns:
+    - reading
+    - book
+    - read
+
+- id: cold_room
+  patterns:
+    - cold
+    - cool
+
+- id: exercise
+  patterns:
+    - sport
+    - work( )?out
+    - cardio
+    - fitness
+    - physical activity
+    - gym
+  tags:
+    - happiness_factors
+
+- id: stretching_yoga
+  patterns:
+    - stretching
+    - yoga
+
+- id: weighted_blanket
+  patterns:
+    - heavy blanket
+
+- id: avoiding_stimulants
+  patterns:
+    - caffeine
+    - caffine
+    - stimulant
+    - coffee
+    - cafeine
+
+- id: better_diet
+  patterns:
+    - diet
+
+- id: better_sleep_schedule
+
+- id: better_mattress
+  patterns:
+    - mattress
+
+- id: sleep_headphones
+
+- id: sleep_tracking_apps
+
+- id: bedtime_rituals
+
+- id: avoiding_screens
+
+- id: controlling_light_exposure
+  patterns:
+    - dimming

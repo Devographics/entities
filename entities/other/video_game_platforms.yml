@@ -1,0 +1,19 @@
+- id: 3ds
+
+- id: linux
+
+- id: meta_quest
+  patterns:
+    - quest
+
+- id: geforce_now
+  patterns:
+    - geforce
+
+- id: playdate
+
+- id: rog_ally
+
+- id: snes
+
+- id: wii

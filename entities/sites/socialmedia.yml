@@ -154,3 +154,19 @@
 
 - id: r_reactnative
   name: r/reactnative
+
+- id: 4_chan
+  name: 4chan
+  homepageUrl: https://4chan.org/index.php
+
+- id: pinterest
+  name: Pinterest
+  homepageUrl: https://www.pinterest.com/
+
+- id: red_note
+  name: RedNote (Xiaohongshu)
+  homepageUrl: https://www.xiaohongshu.com/
+
+- id: substack
+  name: Substack
+  homepageUrl: https://substack.com/

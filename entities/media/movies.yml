@@ -1,29 +1,503 @@
-- id: dune_2
-
 - id: dune
+  name: Dune
+  homepageUrl: https://en.wikipedia.org/wiki/Dune_(2021_film)
+
+- id: dune_2
+  name: "Dune: Part Two"
+  homepageUrl: https://en.wikipedia.org/wiki/Dune%3A_Part_Two
+  parentId: dune
 
 - id: flow
+  name: Flow
+  homepageUrl: https://en.wikipedia.org/wiki/Flow_(2024_film)
 
 - id: the_substance
+  name: The Substance
+  homepageUrl: https://en.wikipedia.org/wiki/The_Substance
 
 - id: deadpool_and_wolverine
+  name: Deadpool & Wolverine
   patterns:
     - deadpool & wolverine
+  homepageUrl: https://en.wikipedia.org/wiki/Deadpool_%26_Wolverine
 
 - id: mickey_17
+  name: Mickey 17
+  homepageUrl: https://en.wikipedia.org/wiki/Mickey_17
 
 - id: oppenheimer
+  name: Oppenheimer
+  homepageUrl: https://en.wikipedia.org/wiki/Oppenheimer_(film)
 
 - id: conclave
+  name: Conclave
+  homepageUrl: https://en.wikipedia.org/wiki/Conclave_(film)
 
 - id: wild_robot
+  name: The Wild Robot
+  homepageUrl: https://en.wikipedia.org/wiki/The_Wild_Robot
 
 - id: civil_war
+  name: Civil War
+  homepageUrl: https://en.wikipedia.org/wiki/Civil_War_(film)
 
 - id: everything_everywhere_all_at_once
+  name: Everything Everywhere All at Once
+  homepageUrl: https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once
 
 - id: interstellar
+  name: Interstellar
+  homepageUrl: https://en.wikipedia.org/wiki/Interstellar_(film)
 
 - id: anora
+  name: Anora
+  homepageUrl: https://en.wikipedia.org/wiki/Anora
 
 - id: wicked
+  name: Wicked
+  homepageUrl: https://en.wikipedia.org/wiki/Wicked_(2024_film)
+
+- id: mad_max_fury_road
+  name: "Mad Max: Fury Road"
+  homepageUrl: https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road
+
+- id: parasite
+  name: Parasite
+  homepageUrl: https://en.wikipedia.org/wiki/Parasite_(2019_film)
+
+- id: moonlight
+  name: Moonlight
+  homepageUrl: https://en.wikipedia.org/wiki/Moonlight_(2016_film)
+
+- id: get_out
+  name: Get Out
+  homepageUrl: https://en.wikipedia.org/wiki/Get_Out
+
+- id: the_social_network
+  name: The Social Network
+  homepageUrl: https://en.wikipedia.org/wiki/The_Social_Network
+
+- id: la_la_land
+  name: La La Land
+  homepageUrl: https://en.wikipedia.org/wiki/La_La_Land
+
+- id: the_shape_of_water
+  name: The Shape of Water
+  homepageUrl: https://en.wikipedia.org/wiki/The_Shape_of_Water
+
+- id: "1917"
+  name: "1917"
+  homepageUrl: https://en.wikipedia.org/wiki/1917_(2019_film)
+
+- id: the_farewell
+  name: The Farewell
+  homepageUrl: https://en.wikipedia.org/wiki/The_Farewell_(2019_film)
+
+- id: lady_bird
+  name: Lady Bird
+  homepageUrl: https://en.wikipedia.org/wiki/Lady_Bird_(film)
+
+- id: the_handmaiden
+  name: The Handmaiden
+  homepageUrl: https://en.wikipedia.org/wiki/The_Handmaiden
+
+- id: call_me_by_your_name
+  name: Call Me by Your Name
+  homepageUrl: https://en.wikipedia.org/wiki/Call_Me_by_Your_Name_(film)
+
+- id: roma
+  name: Roma
+  homepageUrl: https://en.wikipedia.org/wiki/Roma_(2018_film)
+
+- id: spider_man_into_the_spider_verse
+  name: "Spider-Man: Into the Spider-Verse"
+  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse
+
+- id: the_martian
+  name: The Martian
+  homepageUrl: https://en.wikipedia.org/wiki/The_Martian_(film)
+
+- id: arrival
+  name: Arrival
+  homepageUrl: https://en.wikipedia.org/wiki/Arrival_(film)
+
+- id: whiplash
+  name: Whiplash
+  homepageUrl: https://en.wikipedia.org/wiki/Whiplash_(2014_film)
+
+- id: inside_llewyn_davis
+  name: Inside Llewyn Davis
+  homepageUrl: https://en.wikipedia.org/wiki/Inside_Llewyn_Davis
+
+- id: the_grand_budapest_hotel
+  name: The Grand Budapest Hotel
+  homepageUrl: https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel
+
+- id: the_master
+  name: The Master
+  homepageUrl: https://en.wikipedia.org/wiki/The_Master_(2012_film)
+
+- id: hereditary
+  name: Hereditary
+  homepageUrl: https://en.wikipedia.org/wiki/Hereditary_(film)
+
+- id: ex_machina
+  name: Ex Machina
+  homepageUrl: https://en.wikipedia.org/wiki/Ex_Machina_(film)
+
+- id: boyhood
+  name: Boyhood
+  homepageUrl: https://en.wikipedia.org/wiki/Boyhood_(film)
+
+- id: the_revenant
+  name: The Revenant
+  homepageUrl: https://en.wikipedia.org/wiki/The_Revenant_(2015_film)
+
+- id: the_irishman
+  name: The Irishman
+  homepageUrl: https://en.wikipedia.org/wiki/The_Irishman
+
+- id: joker
+  name: Joker
+  homepageUrl: https://en.wikipedia.org/wiki/Joker_(2019_film)
+
+- id: black_panther
+  name: Black Panther
+  homepageUrl: https://en.wikipedia.org/wiki/Black_Panther_(film)
+
+- id: three_billboards_outside_ebbing_missouri
+  name: Three Billboards Outside Ebbing, Missouri
+  homepageUrl: https://en.wikipedia.org/wiki/Three_Billboards_
+
+- id: star_wars
+  name: Star Wars
+
+# - id: lord_of_the_rings
+#   name: 'The Lord of the Rings: The Return of the King'
+
+# - id: spider_man_across_spiderverse
+#   name: 'Spider-Man: Across the Spider-Verse'
+
+# - id: spiderman
+#   name: Spider-Man
+- id: sinners
+  name: Sinners
+  homepageUrl: https://en.wikipedia.org/wiki/Sinners_(2025_film)
+
+- id: rings
+  name: Rings
+  homepageUrl: https://en.wikipedia.org/wiki/Rings_(film)
+
+- id: iron_man
+  name: Iron Man
+  homepageUrl: https://en.wikipedia.org/wiki/Iron_Man_(2008_film)
+
+- id: nosferatu
+  name: Nosferatu
+  homepageUrl: https://en.wikipedia.org/wiki/Nosferatu
+
+- id: poor_things
+  name: Poor Things
+  homepageUrl: https://en.wikipedia.org/wiki/Poor_Things_(film)
+
+- id: alien
+  name: Alien
+  homepageUrl: https://en.wikipedia.org/wiki/Alien_(film)
+
+- id: aliens
+  name: Aliens
+  homepageUrl: https://en.wikipedia.org/wiki/Aliens_(film)
+
+- id: a_minecraft_movie
+  name: A Minecraft Movie
+  patterns:
+    - minecraft
+  homepageUrl: https://en.wikipedia.org/wiki/Minecraft_(film)
+
+- id: alien_romulus
+  name: "Alien: Romulus"
+  homepageUrl: https://en.wikipedia.org/wiki/Alien:_Romulus
+
+- id: top_gun
+  name: Top Gun
+  homepageUrl: https://en.wikipedia.org/wiki/Top_Gun
+
+- id: world_war_z
+  name: World War Z
+  homepageUrl: https://en.wikipedia.org/wiki/World_War_Z_(film)
+
+- id: train_to_busan
+  name: Train to Busan
+  homepageUrl: https://en.wikipedia.org/wiki/Train_to_Busan
+
+- id: boyhood
+  name: Boyhood
+  homepageUrl: https://en.wikipedia.org/wiki/Boyhood_(2014_film)
+
+- id: john_wick
+  name: John Wick
+  homepageUrl: https://en.wikipedia.org/wiki/John_Wick
+
+- id: harry_potter
+  name: Harry Potter and the Sorcerer's Stone
+  homepageUrl: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)
+
+- id: harry_potter
+  name: Harry Potter and the Chamber of Secrets
+  homepageUrl: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets_(film)
+
+- id: the_matrix
+  name: The Matrix
+  homepageUrl: https://en.wikipedia.org/wiki/The_Matrix
+
+- id: thunderbolts
+  name: Thunderbolts
+  homepageUrl: https://en.wikipedia.org/wiki/Thunderbolts_(film)
+
+- id: the_fall
+  name: The Fall
+  homepageUrl: https://en.wikipedia.org/wiki/The_Fall_(2006_film)
+
+- id: the_unknown
+  name: The Unknown
+  homepageUrl: https://en.wikipedia.org/wiki/The_Unknown_(1927_film)
+
+- id: tenet
+  name: Tenet
+  homepageUrl: https://en.wikipedia.org/wiki/Tenet_(film)
+
+- id: love_actually
+  name: Love Actually
+  homepageUrl: https://en.wikipedia.org/wiki/Love_Actually
+
+- id: free_guy
+  name: Free Guy
+  homepageUrl: https://en.wikipedia.org/wiki/Free_Guy
+
+- id: the_last_duel
+  name: The Last Duel
+  homepageUrl: https://en.wikipedia.org/wiki/The_Last_Duel_(2021_film)
+
+- id: sonic_the_hedgehog
+  name: Sonic the Hedgehog
+  patterns:
+    - sonic
+  homepageUrl: https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(film)
+
+- id: beetlejuice
+  name: Beetlejuice
+  homepageUrl: https://en.wikipedia.org/wiki/Beetlejuice
+
+- id: deadpool
+  name: Deadpool
+  homepageUrl: https://en.wikipedia.org/wiki/Deadpool_(film)
+
+- id: dungeons_and_dragons
+  name: "Dungeons & Dragons: Honor Among Thieves"
+  homepageUrl: https://en.wikipedia.org/wiki/Dungeons_%26_Dragons:_Honor_Among_Thieves
+
+- id: gladiator
+  name: Gladiator
+  homepageUrl: https://en.wikipedia.org/wiki/Gladiator_(2000_film)
+
+- id: blade_runner
+  name: Blade Runner
+  homepageUrl: https://en.wikipedia.org/wiki/Blade_Runner
+
+- id: spirited_away
+  name: Spirited Away
+  homepageUrl: https://en.wikipedia.org/wiki/Spirited_Away
+
+- id: top_gun_maverick
+  name: "Top Gun: Maverick"
+  homepageUrl: https://en.wikipedia.org/wiki/Top_Gun:_Maverick
+
+- id: moonlight
+  name: Moonlight
+  homepageUrl: https://en.wikipedia.org/wiki/Moonlight_(2016_film)
+
+- id: batman
+  name: The Batman
+  homepageUrl: https://en.wikipedia.org/wiki/The_Batman_(film)
+
+- id: saw
+  name: Saw
+  homepageUrl: https://en.wikipedia.org/wiki/Saw_(2004_film)
+
+- id: castle_in_the_sky
+  name: Castle in the Sky
+  homepageUrl: https://en.wikipedia.org/wiki/Castle_in_the_Sky
+
+- id: sing
+  name: Sing
+  homepageUrl: https://en.wikipedia.org/wiki/Sing_(2016_film)
+
+- id: godzilla_vs_kong
+  name: Godzilla vs. Kong
+  homepageUrl: https://en.wikipedia.org/wiki/Godzilla_vs._Kong
+
+- id: knives_out
+  name: Knives Out
+  homepageUrl: https://en.wikipedia.org/wiki/Knives_Out
+
+- id: barbie
+  name: Barbie
+  homepageUrl: https://en.wikipedia.org/wiki/Barbie_(film)
+
+- id: moana
+  name: Moana
+  homepageUrl: https://en.wikipedia.org/wiki/Moana_(2016_film)
+
+- id: nightcrawler
+  name: Nightcrawler
+  homepageUrl: https://en.wikipedia.org/wiki/Nightcrawler_(film)
+
+- id: inception
+  name: Inception
+  homepageUrl: https://en.wikipedia.org/wiki/Inception
+
+- id: braveheart
+  name: Braveheart
+  homepageUrl: https://en.wikipedia.org/wiki/Braveheart
+
+- id: avengers_endgame
+  name: "Avengers: Endgame"
+  patterns:
+    - endgame
+  homepageUrl: https://en.wikipedia.org/wiki/Avengers:_Endgame
+
+- id: a_complete_unknown
+  name: A Complete Unknown
+  homepageUrl: https://en.wikipedia.org/wiki/A_Complete_Unknown
+
+- id: inside_out
+  name: Inside Out
+  homepageUrl: https://en.wikipedia.org/wiki/Inside_Out_(2015_film)
+
+- id: inside_out_2
+  name: Inside Out 2
+  homepageUrl: https://en.wikipedia.org/wiki/Inside_Out_2
+
+- id: perfect_days
+  name: Perfect Days
+  homepageUrl: https://en.wikipedia.org/wiki/Perfect_Days_(2023_film)
+
+- id: a_real_pain
+  name: A Real Pain
+  homepageUrl: https://en.wikipedia.org/wiki/A_Real_Pain
+
+- id: spider_man
+  name: Spider-Man
+  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man_(2002_film)
+
+- id: across_the_spider_verse
+  name: "Spider-Man: Across the Spider-Verse"
+  parentId: spider_man
+  patterns:
+    - across, spider [l]
+  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse
+
+- id: into_the_spider_verse
+  name: "Spider-Man: Into the Spider-Verse"
+  parentId: spider_man
+  patterns:
+    - into, spider [l]
+  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse
+
+- id: the_boy_and_the_heron
+  name: The Boy and the Heron
+  homepageUrl: https://en.wikipedia.org/wiki/The_Boy_and_the_Heron
+
+- id: captain_america_brave_new_world
+  name: "Captain America: Brave New World"
+  homepageUrl: https://en.wikipedia.org/wiki/Captain_America:_Brave_New_World
+
+- id: furiosa
+  name: Furiosa
+  homepageUrl: https://en.wikipedia.org/wiki/Furiosa
+
+- id: challengers
+  name: Challengers
+  homepageUrl: https://en.wikipedia.org/wiki/Challengers_(film)
+
+- id: the_brutalist
+  name: The Brutalist
+  homepageUrl: https://en.wikipedia.org/wiki/The_Brutalist
+
+- id: heretic
+  name: Heretic
+  homepageUrl: https://en.wikipedia.org/wiki/Heretic_(film)
+
+- id: a_different_man
+  name: A Different Man
+  homepageUrl: https://en.wikipedia.org/wiki/A_Different_Man
+
+- id: a_man_called_otto
+  name: A Man Called Otto
+  homepageUrl: https://en.wikipedia.org/wiki/A_Man_Called_Otto
+
+- id: better_man
+  name: Better Man
+  homepageUrl: https://en.wikipedia.org/wiki/Better_Man
+
+- id: bullet_train
+  name: Bullet Train
+  homepageUrl: https://en.wikipedia.org/wiki/Bullet_Train_(film)
+
+- id: how_to_train_your_dragon
+  name: How to Train Your Dragon
+  homepageUrl: https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_(film)
+
+- id: the_gorge
+  name: The Gorge
+  homepageUrl: https://en.wikipedia.org/wiki/The_Gorge_(film)
+
+- id: the_ministry_of_ungentlemanly_warfare
+  name: The Ministry of Ungentlemanly Warfare
+  homepageUrl: https://en.wikipedia.org/wiki/The_Ministry_of_Ungentlemanly_Warfare
+
+- id: don_t_look_up
+  name: Don't Look Up
+  homepageUrl: https://en.wikipedia.org/wiki/Don%27t_Look_Up_(2021_film)
+
+- id: look_back
+  name: Look Back
+  homepageUrl: https://en.wikipedia.org/wiki/Look_Back_(film)
+
+- id: i_m_still_here
+  name: I'm Still Here
+  homepageUrl: https://en.wikipedia.org/wiki/I%27m_Still_Here_(2024_film)
+
+- id: mission_impossible
+  name: Mission Impossible
+  homepageUrl: https://en.wikipedia.org/wiki/Mission:_Impossible_(film_series)
+
+- id: companion
+  name: Companion
+  homepageUrl: https://en.wikipedia.org/wiki/Companion_(film)
+
+- id: american_fiction
+  name: American Fiction
+  homepageUrl: https://en.wikipedia.org/wiki/American_Fiction_(film)
+
+- id: the_princess_bride
+  name: The Princess Bride
+  patterns:
+    - princess, bride [l]
+  homepageUrl: https://en.wikipedia.org/wiki/The_Princess_Bride_(film)
+
+- id: princess_mononoke
+  name: Princess Mononoke
+  homepageUrl: https://en.wikipedia.org/wiki/Princess_Mononoke
+
+- id: howl_s_moving_castle
+  name: Howl's Moving Castle
+  homepageUrl: https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)
+
+- id: the_menu
+  name: The Menu
+  homepageUrl: https://en.wikipedia.org/wiki/The_Menu_(2022_film)
+
+- id: love_lies_bleeding
+  name: Love Lies Bleeding
+  homepageUrl: https://en.wikipedia.org/wiki/Love_Lies_Bleeding_(2024_film)

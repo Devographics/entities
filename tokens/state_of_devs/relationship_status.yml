@@ -1,0 +1,12 @@
+- id: divorced_separated
+  patterns:
+    - divorced
+    - separated
+
+- id: married
+
+- id: polyamorous
+
+- id: widowed
+  patterns:
+    - widow

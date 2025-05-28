@@ -149,6 +149,7 @@
     - développeur
     - web dev
     - dev [e]
+    - desenvolvedor
 
 - id: frontend_developer
   name: Frontend Developer
@@ -221,3 +222,15 @@
   name: Product Manager
   patterns:
     - product, manager [l]
+
+- id: computer_scientist
+
+- id: creative_technologist
+
+- id: data_scientist
+
+- id: designer
+
+- id: head_of_design
+
+- id: head_of_technology

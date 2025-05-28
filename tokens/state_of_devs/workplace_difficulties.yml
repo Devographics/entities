@@ -1,0 +1,40 @@
+- id: bureaucracy
+  patterns:
+    - bureaucratic
+    - red tape
+
+- id: lack_of_human_contact
+  patterns:
+    - alone
+    - loneliness
+    - lonely
+
+- id: bad_management
+  patterns:
+    - leadership
+    - management
+    - micromanagement
+
+- id: in_person_work
+  patterns:
+    - remote
+
+- id: unfulfilling_work
+  patterns:
+    - unfulfilling
+    - uninteresting
+
+- id: lack_of_compensation
+  patterns:
+    - benefit
+    - "401"
+    - bonus
+
+- id: office_politics
+  patterns:
+    - politics
+    - political
+
+- id: unemployed
+
+- id: long_hours

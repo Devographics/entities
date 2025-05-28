@@ -138,3 +138,9 @@
 - id: arthritis
   parentId: mobility_impairments
   name: Arthritis
+
+- id: allergies
+  patterns:
+    - allergy
+
+- id: asthma

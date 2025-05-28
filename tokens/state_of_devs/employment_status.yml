@@ -1,0 +1,7 @@
+- id: intern
+  patterns:
+    - intern [p]
+
+- id: professor
+  patterns:
+    - teacher

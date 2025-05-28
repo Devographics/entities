@@ -1,23 +1,690 @@
-- id: balatro
+- id: legend_of_zelda
+  name: Legend of Zelda
 
-- id: minecraft
-
-- id: baldurs_gate
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild
+  id: breath_of_the_wild
+  name: "The Legend of Zelda: Breath of the Wild"
+  parentId: legend_of_zelda
   patterns:
-    - baldur's gate
+    - botw
 
-- id: kingdom_come_deliverance_2
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
+  id: echoes_of_wisdom
+  name: "The Legend of Zelda: Echoes of Wisdom"
+  parentId: legend_of_zelda
+  patterns:
+    - eow
 
-- id: tears_of_the_kingdom
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom
+  id: tears_of_the_kingdom
+  name: "The Legend of Zelda: Tears of the Kingdom"
+  parentId: legend_of_zelda
+  patterns:
+    - totk
 
-- id: echoes_of_wisdom
+- genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Elden_Ring
+  id: elden_ring
+  name: Elden Ring
 
-- id: breath_of_the_wild
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)
+  id: god_of_war
+  name: God of War
 
-- id: league_of_legends
+- id: god_of_war_ragnarok
+  name: God of War Ragnarök
+  homepageUrl: https://en.wikipedia.org/wiki/God_of_War_Ragnar%C3%B6k
+  parentId: god_of_war
 
-- id: factorio
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt
+  id: the_witcher_3_wild_hunt
+  name: "The Witcher 3: Wild Hunt"
+  patterns:
+    - witcher 3
 
-- id: cyberpunk_2077
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Red_Dead_Redemption_2
+  id: red_dead_redemption_2
+  name: Red Dead Redemption 2
+
+- genre: rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Hades_(video_game)
+  id: hades
+  name: Hades
+
+- genre: life_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons
+  id: animal_crossing_new_horizons
+  name: "Animal Crossing: New Horizons"
+
+- genre: battle_royale
+  homepageUrl: https://en.wikipedia.org/wiki/Fortnite
+  id: fortnite
+  name: Fortnite
+
+- genre: party
+  homepageUrl: https://en.wikipedia.org/wiki/Among_Us
+  id: among_us
+  name: Among Us
+
+- genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Dark_Souls_III
+  id: dark_souls_iii
+  name: Dark Souls III
+
+- genre: fps
+  homepageUrl: https://en.wikipedia.org/wiki/Overwatch_(video_game)
+  id: overwatch
+  name: Overwatch
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Persona_5
+  id: persona_5
+  name: Persona 5
+
+- genre: sandbox
+  homepageUrl: https://en.wikipedia.org/wiki/Minecraft
+  id: minecraft
+  name: Minecraft
+
+- genre: platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Celeste_(video_game)
+  id: celeste
+  name: Celeste
+
+- genre: metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Hollow_Knight
+  id: hollow_knight
+  name: Hollow Knight
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Disco_Elysium
+  id: disco_elysium
+  name: Disco Elysium
+
+- genre: survival_horror
+  homepageUrl: https://en.wikipedia.org/wiki/Resident_Evil_2_(2019_video_game)
+  id: resident_evil_2_2019
+  name: Resident Evil 2 (2019)
+
+- genre: fps
+  homepageUrl: https://en.wikipedia.org/wiki/Doom_Eternal
+  id: doom_eternal
+  name: DOOM Eternal
+
+- id: monster_hunter
+  name: Monster Hunter
+
+- genre: action_rpg
+  parentId: monster_hunter
+  homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter_Wilds
+  id: monster_hunter_wilds
+  name: "Monster Hunter Wilds"
+
+- genre: action_rpg
+  parentId: monster_hunter
+  homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter:_World
+  id: monster_hunter_world
+  name: "Monster Hunter: World"
+
+- genre: platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Super_Mario_Odyssey
+  id: super_mario_odyssey
+  name: Super Mario Odyssey
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man_(2018_video_game)
+  id: marvels_spider_man
+  name: Marvel’s Spider-Man
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Cyberpunk_2077
+  id: cyberpunk_2077
+  name: Cyberpunk 2077
+
+- genre: action
+  homepageUrl: https://en.wikipedia.org/wiki/Death_Stranding
+  id: death_stranding
+  name: Death Stranding
+
+- genre: puzzle
+  homepageUrl: https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn
+  id: return_of_the_obra_dinn
+  name: Return of the Obra Dinn
+
+- genre: strategy_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Fire_Emblem:_Three_Houses
+  id: fire_emblem_three_houses
+  name: "Fire Emblem: Three Houses"
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Ghost_of_Tsushima
+  id: ghost_of_tsushima
+  name: Ghost of Tsushima
+
+- genre: co_op
+  homepageUrl: https://en.wikipedia.org/wiki/It_Takes_Two_(video_game)
+  id: it_takes_two
+  name: It Takes Two
+
+- genre: platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Inside_(video_game)
+  id: inside
+  name: Inside
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/The_Outer_Worlds
+  id: the_outer_worlds
+  name: The Outer Worlds
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Control_(video_game)
+  id: control
+  name: Control
+
+- genre: rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Slay_the_Spire
+  id: slay_the_spire
+  name: Slay the Spire
+
+- genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Genshin_Impact
+  id: genshin_impact
+  name: Genshin Impact
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Undertale
+  id: undertale
+  name: Undertale
+
+- genre: farming_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Stardew_Valley
+  id: stardew_valley
+  name: Stardew Valley
+
+- genre: third_person_shooter
+  homepageUrl: https://en.wikipedia.org/wiki/Splatoon_2
+  id: splatoon_2
+  name: Splatoon 2
+
+- genre: fps
+  homepageUrl: https://en.wikipedia.org/wiki/Titanfall_2
+  id: titanfall_2
+  name: Titanfall 2
+
+- genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Bloodborne
+  id: bloodborne
+  name: Bloodborne
+
+- genre: action
+  homepageUrl: https://en.wikipedia.org/wiki/Bayonetta_2
+  id: bayonetta_2
+  name: Bayonetta 2
+
+- genre: visual_novel
+  homepageUrl: https://en.wikipedia.org/wiki/Doki_Doki_Literature_Club!
+  id: doki_doki_literature_club
+  name: Doki Doki Literature Club!
+
+- genre: run_and_gun
+  homepageUrl: https://en.wikipedia.org/wiki/Cuphead
+  id: cuphead
+  name: Cuphead
+
+- genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/NieR:_Automata
+  id: nier_automata
+  name: "NieR: Automata"
+
+- genre: battle_royale
+  homepageUrl: https://en.wikipedia.org/wiki/Apex_Legends
+  id: apex_legends
+  name: Apex Legends
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/The_Last_of_Us_Part_II
+  id: the_last_of_us_part_ii
+  name: The Last of Us Part II
+
+- genre: fighting
+  homepageUrl: https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate
+  id: super_smash_bros_ultimate
+  name: Super Smash Bros. Ultimate
+
+- genre: metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Metroid_Dread
+  id: metroid_dread
+  name: Metroid Dread
+
+- genre: rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Dead_Cells
+  id: dead_cells
+  name: Dead Cells
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Tunic_(video_game)
+  id: tunic
+  name: Tunic
+
+- genre: rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Loop_Hero
+  id: loop_hero
+  name: Loop Hero
+
+- genre: survival
+  homepageUrl: https://en.wikipedia.org/wiki/Valheim
+  id: valheim
+  name: Valheim
+
+- genre: exploration
+  homepageUrl: https://en.wikipedia.org/wiki/Outer_Wilds
+  id: outer_wilds
+  name: Outer Wilds
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Sea_of_Thieves
+  id: sea_of_thieves
+  name: Sea of Thieves
+
+- genre: rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Balatro_(video_game)
+  id: balatro
+  name: Balatro
+
+- genre: sandbox
+  homepageUrl: https://en.wikipedia.org/wiki/Minecraft
+  id: minecraft
+  name: Minecraft
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance
+  id: kingdom_come_deliverance
+  name: "Kingdom Come: Deliverance"
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance_II
+  id: kingdom_come_deliverance_2
+  name: "Kingdom Come: Deliverance II"
+  parentId: kingdom_come_deliverance
+  patterns:
+    - kingdom come deliverence ii
+
+- genre: moba
+  homepageUrl: https://en.wikipedia.org/wiki/League_of_Legends
+  id: league_of_legends
+  name: League of Legends
+
+- genre: simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Factorio
+  id: factorio
+  name: Factorio
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Cyberpunk_2077
+  id: cyberpunk_2077
+  name: Cyberpunk 2077
   patterns:
     - cyberpunk
+
+- genre: puzzle
+  homepageUrl: https://en.wikipedia.org/wiki/Monument_Valley_(video_game)
+  id: monument_valley
+  name: Monument Valley
+
+- genre: farming_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Stardew_Valley
+  id: stardew_valley
+  name: Stardew Valley
+
+- genre: racing
+  homepageUrl: https://en.wikipedia.org/wiki/Mario_Kart_8
+  id: mario_kart
+  name: Mario Kart 8 Deluxe
+
+- id: mario_wonder
+  name: Super Mario Bros. Wonder
+  patterns:
+    - mario, wonder [l]
+
+- id: mario_odyssey
+  name: Super Mario Odyssey
+  patterns:
+    - mario, odyssey
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/The_Last_of_Us
+  id: the_last_of_us
+  name: The Last of Us
+
+- genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Last_Epoch
+  id: last_epoch
+  name: Last Epoch
+
+- genre: puzzle
+  homepageUrl: https://en.wikipedia.org/wiki/Blue_Prince_(video_game)
+  id: blue_prince
+  name: The Blue Prince
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33
+  id: clair_obscur_expedition_33
+  name: "Clair Obscur: Expedition 33"
+  patterns:
+    - clair, obscur [l]
+
+- genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)
+  id: god_of_war
+  name: God of War (2018)
+- id: rimworld
+  name: RimWorld
+  genre: simulation
+  homepageUrl: https://en.wikipedia.org/wiki/RimWorld
+
+- id: palworld
+  name: Palworld
+  genre: survival
+  homepageUrl: https://en.wikipedia.org/wiki/Palworld
+
+- id: world_of_warcraft
+  patterns:
+    - wow
+  name: World of Warcraft
+  genre: mmorpg
+  homepageUrl: https://en.wikipedia.org/wiki/World_of_Warcraft
+
+- id: forza_horizon
+  name: Forza Horizon 5
+  genre: racing
+  homepageUrl: https://en.wikipedia.org/wiki/Forza_Horizon_5
+
+- id: horizon_game
+  name: Horizon
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Horizon_(video_game_series)
+
+- id: horizon_forbidden_west
+  parentId: horizon_game
+  name: Horizon Forbidden West
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Horizon_Forbidden_West
+
+- id: horizon_zero_dawn
+  parentId: horizon_game
+  name: Horizon Zero Dawn
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Horizon_Zero_Dawn
+
+- id: final_fantasy
+  name: Final Fantasy
+
+- id: final_fantasy_14
+  parentId: final_fantasy
+  patterns:
+    - final, fantasy, xiv [l]
+  name: Final Fantasy XIV
+  genre: mmorpg
+  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XIV
+
+- id: final_fantasy_16
+  parentId: final_fantasy
+  patterns:
+    - final, fantasy, xvi [l]
+  name: Final Fantasy XVI
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XVI
+
+- id: final_fantasy_7
+  parentId: final_fantasy
+  patterns:
+    - final, fantasy, vii [l]
+  name: Final Fantasy VII Remake
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake
+
+- id: the_finals
+  name: The Finals
+  genre: fps
+  homepageUrl: https://en.wikipedia.org/wiki/The_Finals_(video_game)
+
+- id: assassins_creed
+  name: Assassin's Creed
+  patterns:
+    - assassin, creed [l]
+    - assassins, creed [l]
+
+- id: assassins_creed_shadows
+  name: Assassin's Creed Shadows
+  parentId: assassins_creed
+  genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed_Shadows
+
+- id: assassins_creed_odyssey
+  name: Assassin's Creed Odyssey
+  parentId: assassins_creed
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed_Odyssey
+
+- id: split_fiction
+  name: Split Fiction
+  homepageUrl: https://en.wikipedia.org/wiki/Split_Fiction
+  genre: action_adventure
+
+- id: civilization
+  name: Civilization
+
+- id: civilization_5
+  name: Civilization 5
+  parentId: civilization
+  patterns:
+    - civilization, v [l]
+  genre: strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Civilization_V
+
+- id: civilization_6
+  name: Civilization 6
+  parentId: civilization
+  patterns:
+    - civilization, vi [l]
+  genre: strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Civilization_VI
+
+- id: civilization_7
+  name: Civilization 7
+  parentId: civilization
+  patterns:
+    - civilization, vii [l]
+  genre: strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Civilization_(series)
+
+- id: elder_scrolls_oblivion_remastered
+  name: "The Elder Scrolls IV: Oblivion Remastered"
+  homepageUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
+  patterns:
+    - oblivion
+
+- id: age_of_empires
+  name: Age of Empires
+
+- id: age_of_empires_2
+  name: Age of Empires II
+  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires_II
+  parentId: age_of_empires
+  patterns:
+    - age, empires, ii [l]
+
+- id: age_of_empires_4
+  name: Age of Empires IV
+  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires_IV
+  parentId: age_of_empires
+  patterns:
+    - age, empires, iv [l]
+- id: satisfactory
+  name: Satisfactory
+  genre: simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Satisfactory_(video_game)
+
+- id: starfield
+  name: Starfield
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Starfield_(video_game)
+
+- id: starcraft
+  name: StarCraft
+  genre: rts
+  homepageUrl: https://en.wikipedia.org/wiki/StarCraft
+
+- id: starcraft_2
+  parentId: starcraft
+  name: StarCraft II
+  genre: rts
+  homepageUrl: https://en.wikipedia.org/wiki/StarCraft_II
+
+- id: star_wars_jedi_fallen_order
+  name: "Star Wars Jedi: Fallen Order"
+  genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Fallen_Order
+
+- id: star_wars_jedi_survivor
+  name: "Star Wars Jedi: Survivor"
+  genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Survivor
+
+- id: star_citizen
+  name: Star Citizen
+  genre: space_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Star_Citizen
+
+- id: sea_of_stars
+  name: Sea of Stars
+  genre: jrpg
+  homepageUrl: https://en.wikipedia.org/wiki/Sea_of_Stars_(video_game)
+
+- id: call_of_duty
+  name: Call of Duty
+  genre: fps
+  homepageUrl: https://en.wikipedia.org/wiki/Call_of_Duty
+
+- id: call_of_duty_black_ops_6
+  parentId: call_of_duty
+  patterns:
+    - black ops 6
+  name: "Call of Duty: Black Ops 6"
+  genre: fps
+  homepageUrl: https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_6
+- id: euro_truck_simulator
+  name: Euro Truck Simulator
+  genre: simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Euro_Truck_Simulator
+
+- id: power_wash_simulator
+  name: PowerWash Simulator
+  genre: simulation
+  homepageUrl: https://en.wikipedia.org/wiki/PowerWash_Simulator
+
+- id: microsoft_flight_simulator
+  name: Microsoft Flight Simulator
+  genre: simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator
+
+- id: diablo
+  name: Diablo
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Diablo_(series)
+
+- id: diablo_2
+  parentId: diablo
+  patterns:
+    - diablo ii
+  name: Diablo II
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Diablo_II
+
+- id: diablo_3
+  parentId: diablo
+  patterns:
+    - diablo iii
+  name: Diablo III
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Diablo_III
+
+- id: diablo_4
+  parentId: diablo
+  patterns:
+    - diablo iv
+  name: Diablo IV
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Diablo_IV
+
+- id: marvel_rivals
+  name: Marvel Rivals
+  genre: third_person_shooter
+  homepageUrl: https://en.wikipedia.org/wiki/Marvel_Rivals
+
+- id: helldivers_2
+  patterns:
+    - helldivers
+  name: Helldivers 2
+  genre: third_person_shooter
+  homepageUrl: https://en.wikipedia.org/wiki/Helldivers_2
+
+- id: rocket_league
+  name: Rocket League
+  genre: sports
+  homepageUrl: https://en.wikipedia.org/wiki/Rocket_League
+
+- genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Baldur%27s_Gate_3
+  id: baldurs_gate
+  name: Baldur's Gate 3
+  patterns:
+    - baldur's gate
+    - baldur, 3 [l]
+
+- id: hogwarts_legacy
+  patterns:
+    - hogwart, legacy [l]
+  name: Hogwarts Legacy
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Hogwarts_Legacy
+- id: path_of_exile
+  name: Path of Exile
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Path_of_Exile
+
+- id: path_of_exile_2
+  parentId: path_of_exile
+  name: Path of Exile 2
+  genre: action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Path_of_Exile_2
+
+- id: dragon_age
+  name: Dragon Age
+  genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Dragon_Age
+
+- id: dragon_age_the_veilguard
+  parentId: dragon_age
+  patterns:
+    - veilguard
+  name: "Dragon Age: The Veilguard"
+  genre: rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Dragon_Age:_The_Veilguard
+
+- id: gta
+  name: Grand Theft Auto
+  genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto
+
+- id: gta_v
+  parentId: gta
+  name: Grand Theft Auto V
+  genre: action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto_V

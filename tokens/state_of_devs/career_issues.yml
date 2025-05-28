@@ -1,0 +1,36 @@
+- id: boredom
+  patterns:
+    - bored
+    - boreout
+    - bore-out
+
+- id: gaslighting
+
+- id: impostor_syndrome
+  patterns:
+    - impostor
+    - imposter
+
+- id: bullying
+
+- id: physical_assault
+  patterns:
+    - physical
+
+- id: racism
+  patterns:
+    - racism
+    - racist
+
+- id: bad_management
+  patterns:
+    - bad, leadership [l]
+    - bad, management [l]
+
+- id: bad_coworkers
+
+- id: return_to_office
+  tags:
+    - workplace_difficulties
+  patterns:
+    - rto

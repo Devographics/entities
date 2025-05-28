@@ -93,6 +93,39 @@
         animation-duration: 1ms;
       }
 
+- id: scroll_driven_animations
+  webFeaturesId: scroll-driven-animations
+  mdn: /en-US/docs/Web/CSS/CSS_scroll-driven_animations
+  caniuse: mdn-css_properties_animation-timeline
+  name: Scroll-driven animations
+  patterns:
+    - scroll, animation [l]
+  tags:
+    - html_missing_features
+  resources:
+    - title: Scroll-driven Animations
+      url: https://scroll-driven-animations.style/
+    - title: Unleash the Power of Scroll-Driven Animations
+      url: https://css-tricks.com/unleash-the-power-of-scroll-driven-animations/
+    - title: Animate elements on scroll with Scroll-driven animations
+      url: https://developer.chrome.com/docs/css-ui/scroll-driven-animations
+  example:
+    language: css
+    code: |
+      html {
+        scroll-timeline: --page-scroll block;
+      }
+
+      @keyframes grow-progress {
+        from { transform: scaleX(0); }
+        to { transform: scaleX(1); }
+      }
+
+      #progress {
+        animation: grow-progress auto linear;
+        animation-timeline: --page-scroll;
+      }
+
 - id: scroll_behavior
   webFeaturesId: scroll-behavior
   name: "`scroll-behavior`"

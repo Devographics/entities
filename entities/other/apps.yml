@@ -157,3 +157,190 @@
 - id: tik_tok
   name: TikTok
   homepageUrl: https://www.tiktok.com/
+
+- id: anytype
+  name: Anytype
+  homepageUrl: https://anytype.io/
+
+- id: apple_notes
+  name: Apple Notes
+
+- id: apple_reminders
+  name: Apple Reminders
+
+- id: azure_devops
+  name: Azure DevOps
+  homepageUrl: https://azure.microsoft.com/en-us/products/devops
+  patterns:
+    - azure
+    - devops
+
+- id: click_up
+  name: ClickUp
+  homepageUrl: https://clickup.com/
+
+- id: beeper
+  name: Beeper
+  homepageUrl: https://www.beeper.com/
+
+- id: element
+  name: Element
+  homepageUrl: https://element.io/
+
+- id: google_chat
+  name: Google Chat
+  homepageUrl: https://mail.google.com/chat/u/0/#chat/home
+  patterns:
+    - gmail chat
+    - google chat
+    - gchat
+
+- id: mattermost
+  name: Mattermost
+  homepageUrl: https://mattermost.com/
+
+- id: matrix
+  name: Matrix
+  homepageUrl: https://matrix.org/
+
+- id: line
+  name: Line
+  homepageUrl: https://www.line.me/
+
+- id: bear_app
+  name: Bear
+  homepageUrl: https://bear.app/
+  patterns:
+    - bear
+
+- id: craft_docs
+  name: Craft
+  homepageUrl: https://www.craft.do/
+  patterns:
+    - craft
+
+- id: git_lab
+  name: GitLab
+  homepageUrl: https://about.gitlab.com/
+
+- id: google_meet
+  name: Google Meet
+  homepageUrl: https://meet.google.com/
+  patterns:
+    - meet
+
+- id: youtrack
+  name: YouTrack
+  homepageUrl: https://www.jetbrains.com/youtrack/
+
+- id: monday
+  name: Monday
+  homepageUrl: https://monday.com/
+
+- id: shortcut
+  name: Shortcut
+  homepageUrl: https://www.shortcut.com/
+
+- id: miro
+  name: Miro
+  homepageUrl: https://miro.com/
+
+- id: redmine
+  name: Redmine
+  homepageUrl: https://www.redmine.org/
+
+- id: viber
+  name: Viber
+  homepageUrl: https://www.viber.com/
+
+- id: threema
+  name: Threema
+  homepageUrl: https://threema.com/
+
+- id: rocket_chat
+  name: Rocket.Chat
+  homepageUrl: https://www.rocket.chat/
+
+- id: webex
+  name: Webex
+  homepageUrl: https://www.webex.com/
+
+- id: google_keep
+  name: Google Keep
+  homepageUrl: https://keep.google.com/
+
+- id: google_tasks
+  name: Google Tasks
+  homepageUrl: https://tasks.google.com/tasks/?sa=0
+
+- id: joplin
+  name: Joplin
+  homepageUrl: https://joplinapp.org/
+
+- id: logseq
+  name: Logseq
+  homepageUrl: https://logseq.com/
+
+- id: raycast
+  name: Raycast
+  homepageUrl: https://www.raycast.com/
+
+- id: tick_tick
+  name: TickTick
+  homepageUrl: https://ticktick.com/
+
+- id: figma
+  name: Figma
+  homepageUrl: https://www.figma.com/
+
+- id: google_sheets
+  name: Google Sheets
+  homepageUrl: https://sheets.google.com
+
+- id: plane_app
+  name: Plane
+  homepageUrl: https://plane.so/
+  patterns:
+    - plane
+
+- id: productive_app
+  name: Productive
+  homepageUrl: https://productive.io/
+  patterns:
+    - productive
+
+- id: simple_note
+  name: Simplenote
+  homepageUrl: https://simplenote.com/
+
+- id: sunsama
+  name: Sunsama
+  homepageUrl: https://www.sunsama.com/
+
+- id: taiga
+  name: Taiga
+  homepageUrl: https://taiga.io/
+
+- id: teamwork
+  name: Teamwork
+  homepageUrl: https://www.teamwork.com/
+
+- id: things_app
+  name: Things
+  homepageUrl: https://culturedcode.com/things/
+
+- id: whimsical
+  name: Whimsical
+  homepageUrl: https://whimsical.com/
+
+- id: workflowy
+  name: Workflowy
+  homepageUrl: https://workflowy.com/
+
+- id: wrike
+  name: Wrike
+  homepageUrl: https://www.wrike.com/
+
+- id: zen_hub
+  name: Zenhub
+  homepageUrl: https://www.zenhub.com/

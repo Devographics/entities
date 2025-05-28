@@ -1,11 +1,5 @@
 # used to normalize the results of the freeform "how did you hear about this survey" field
 
-- id: vk
-  name: VK
-  homepageUrl: https://vk.com/
-  patterns:
-    - away.vk.com
-
 - id: svelte_community
   name: Svelte Community
   patterns:

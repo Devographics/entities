@@ -1,0 +1,37 @@
+- id: anxiety
+
+- id: anemia
+
+- id: autoimmune_disorder
+  patterns:
+    - autoimmune
+
+- id: gastrointestinal_issues
+  patterns:
+    - digestive
+    - ibs
+    - stomach
+    - gastrointestinal
+    - gi
+    - ibd
+
+- id: high_blood_pressure
+  patterns:
+    - blood pressure
+    - hypertension
+
+- id: neck_pain
+  patterns:
+    - neck issues
+
+- id: shoulder_pain
+  patterns:
+    - shoulder issues
+
+- id: back_pain
+  patterns:
+    - back issues
+
+- id: sleep_apnea
+
+- id: insomnia

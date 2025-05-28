@@ -1,0 +1,30 @@
+- id: hybrid_remote_work
+  patterns:
+    - hybrid
+
+- id: depends_on_role
+  patterns:
+    - depends
+
+- id: unemployed
+
+- id: freelance_self_employed
+  patterns:
+    - freelance
+    - freelancer
+    - self
+    - solo
+    - consultant
+
+- id: remote_based_on_distance
+
+- id: remote_first
+
+- id: mostly_remote
+  patterns:
+    - mostly
+    - most
+
+- id: remote_for_developer_roles
+  patterns:
+    - developers

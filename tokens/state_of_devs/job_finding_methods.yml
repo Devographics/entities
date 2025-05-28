@@ -1,0 +1,50 @@
+- id: merger_acquisition
+  patterns:
+    - acquisition
+    - acquired
+    - merger
+
+- id: apprenticeship
+
+- id: career_fair
+
+- id: headhunter
+  patterns:
+    - head-hunted
+    - headhunted
+
+- id: internship
+  patterns:
+    - intern
+    - internships
+
+- id: contacted_by_company
+  patterns:
+    - found me
+    - contacted me
+
+- id: previous_contractor
+  patterns:
+    - consultant
+    - contractor
+
+- id: friend_recommendation
+  patterns:
+    - friend
+
+- id: job_fair
+
+- id: through_university
+  patterns:
+    - university
+    - campus
+    - student
+    - teacher
+
+- id: recruiter
+  patterns:
+    - recruiting
+    - head( )?hunter
+    - head( )?hunted
+
+- id: unemployed

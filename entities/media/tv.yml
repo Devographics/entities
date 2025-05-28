@@ -1,31 +1,358 @@
 - id: severance
-
+  name: Severance
+  homepageUrl: https://en.wikipedia.org/wiki/Severance_(TV_series)
+  patterns:
+    - severence
+  type: live_action
 - id: last_of_us
-
+  name: The Last of Us
+  homepageUrl: https://en.wikipedia.org/wiki/The_Last_of_Us_(TV_series)
+  type: live_action
 - id: white_lotus
-
+  name: The White Lotus
+  homepageUrl: https://en.wikipedia.org/wiki/The_White_Lotus
+  type: live_action
 - id: black_mirror
-
+  name: Black Mirror
+  homepageUrl: https://en.wikipedia.org/wiki/Black_Mirror
+  type: live_action
 - id: silo
-
+  name: Silo
+  homepageUrl: https://en.wikipedia.org/wiki/Silo_(TV_series)
+  type: live_action
 - id: arcane
-
+  name: Arcane
+  homepageUrl: https://en.wikipedia.org/wiki/Arcane_(TV_series)
+  type: animated
 - id: andor
-
+  name: Andor
+  homepageUrl: https://en.wikipedia.org/wiki/Andor_(TV_series)
+  type: live_action
 - id: reacher
-
+  name: Reacher
+  homepageUrl: https://en.wikipedia.org/wiki/Reacher_(TV_series)
+  type: live_action
 - id: daredevil
-
+  name: Daredevil
+  homepageUrl: https://en.wikipedia.org/wiki/Daredevil_(TV_series)
+  type: live_action
 - id: adolescence
-
+  name: Adolescence
+  homepageUrl: https://en.wikipedia.org/wiki/Adolescence_(TV_series)
+  type: live_action
 - id: star_trek
-
+  name: "Star Trek: The Original Series"
+  homepageUrl: https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series
+  type: live_action
 - id: invincible
-
+  name: Invincible
+  homepageUrl: https://en.wikipedia.org/wiki/Invincible_(TV_series)
+  type: animated
 - id: the_wheel_of_time
+  name: The Wheel of Time
+  homepageUrl: https://en.wikipedia.org/wiki/The_Wheel_of_Time_(TV_series)
   patterns:
     - wheel of time
-
+  type: live_action
 - id: three_body_problem
+  name: 3 Body Problem
+  homepageUrl: https://en.wikipedia.org/wiki/3_Body_Problem_(TV_series)
   patterns:
     - 3 body
+  type: live_action
+- id: game_changer
+  name: Game Changer
+  homepageUrl: https://en.wikipedia.org/wiki/Game_Changer_(game_show)
+  type: live_action
+- id: game_of_thrones
+  name: Game of Thrones
+  homepageUrl: https://en.wikipedia.org/wiki/Game_of_Thrones
+  type: live_action
+- id: squid_game
+  name: Squid Game
+  homepageUrl: https://en.wikipedia.org/wiki/Squid_Game
+  type: live_action
+- id: ted_lasso
+  name: Ted Lasso
+  homepageUrl: https://en.wikipedia.org/wiki/Ted_Lasso
+  type: live_action
+- id: house_of_dragons
+  name: House of the Dragon
+  homepageUrl: https://en.wikipedia.org/wiki/House_of_the_Dragon
+  type: live_action
+- id: the_office
+  name: The Office
+  homepageUrl: https://en.wikipedia.org/wiki/The_Office_(American_TV_series)
+  type: live_action
+- id: solo_leveling
+  name: Solo Leveling
+  homepageUrl: https://en.wikipedia.org/wiki/Solo_Leveling_(TV_series)
+  type: animated
+- id: slow_horses
+  name: Slow Horses
+  homepageUrl: https://en.wikipedia.org/wiki/Slow_Horses_(TV_series)
+  type: live_action
+- id: the_pitt
+  name: The Pitt
+  homepageUrl: https://en.wikipedia.org/wiki/The_Pitt_(TV_series)
+  type: live_action
+- id: frieren
+  name: "Frieren: Beyond Journey's End"
+  homepageUrl: https://en.wikipedia.org/wiki/Frieren:_Beyond_Journey%27s_End
+  type: animated
+- id: bad_sisters
+  name: Bad Sisters
+  homepageUrl: https://en.wikipedia.org/wiki/Bad_Sisters
+  type: live_action
+- id: breaking_bad
+  name: Breaking Bad
+  homepageUrl: https://en.wikipedia.org/wiki/Breaking_Bad
+  type: live_action
+- id: doctor_who
+  name: Doctor Who
+  homepageUrl: https://en.wikipedia.org/wiki/Doctor_Who
+  type: live_action
+- id: the_bear
+  name: The Bear
+  homepageUrl: https://en.wikipedia.org/wiki/The_Bear_(TV_series)
+  type: live_action
+- id: shrinking
+  name: Shrinking
+  homepageUrl: https://en.wikipedia.org/wiki/Shrinking_(TV_series)
+  type: live_action
+- id: taskmaster
+  name: Taskmaster
+  homepageUrl: https://en.wikipedia.org/wiki/Taskmaster_(TV_series)
+  type: live_action
+- id: love_is_blind
+  name: Love Is Blind
+  homepageUrl: https://en.wikipedia.org/wiki/Love_Is_Blind_(TV_series)
+  type: live_action
+- id: love_on_the_spectrum
+  name: Love on the Spectrum
+  homepageUrl: https://en.wikipedia.org/wiki/Love_on_the_Spectrum
+  type: live_action
+- id: family_guy
+  name: Family Guy
+  homepageUrl: https://en.wikipedia.org/wiki/Family_Guy
+  type: animated
+- id: modern_family
+  name: Modern Family
+  homepageUrl: https://en.wikipedia.org/wiki/Modern_Family
+  type: live_action
+- id: spy_x_family
+  name: Spy × Family
+  homepageUrl: https://en.wikipedia.org/wiki/Spy_%C3%97_Family
+  patterns:
+    - spy, family [l]
+  type: animated
+- id: brooklyn_99
+  name: Brooklyn Nine-Nine
+  homepageUrl: https://en.wikipedia.org/wiki/Brooklyn_Nine-Nine
+  type: live_action
+- id: dark
+  name: Dark
+  homepageUrl: https://en.wikipedia.org/wiki/Dark_(TV_series)
+  type: live_action
+- id: better_call_saul
+  name: Better Call Saul
+  homepageUrl: https://en.wikipedia.org/wiki/Better_Call_Saul
+  type: live_action
+- id: abbott_elementary
+  name: Abbott Elementary
+  homepageUrl: https://en.wikipedia.org/wiki/Abbott_Elementary
+  type: live_action
+- id: the_studio
+  name: The Studio
+  homepageUrl: https://en.wikipedia.org/wiki/The_Studio_(TV_series)
+  type: live_action
+- id: pantheon
+  name: Pantheon
+  homepageUrl: https://en.wikipedia.org/wiki/Pantheon_(TV_series)
+  type: animated
+- id: for_all_mankind
+  name: For All Mankind
+  homepageUrl: https://en.wikipedia.org/wiki/For_All_Mankind_(TV_series)
+  type: live_action
+- id: paradise
+  name: Paradise
+  homepageUrl: https://en.wikipedia.org/wiki/Paradise_(2025_TV_series)
+  type: live_action
+- id: dexter
+  name: Dexter
+  homepageUrl: https://en.wikipedia.org/wiki/Dexter_(TV_series)
+  type: live_action
+- id: the_sopranos
+  name: The Sopranos
+  homepageUrl: https://en.wikipedia.org/wiki/The_Sopranos
+  type: live_action
+- id: common_side_effects
+  name: Common Side Effects
+  homepageUrl: https://en.wikipedia.org/wiki/Common_Side_Effects_(TV_series)
+  type: live_action
+- id: silicon_valley
+  name: Silicon Valley
+  homepageUrl: https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)
+  type: live_action
+- id: hacks
+  name: Hacks
+  homepageUrl: https://en.wikipedia.org/wiki/Hacks_(TV_series)
+  type: live_action
+- id: suits
+  name: Suits
+  homepageUrl: https://en.wikipedia.org/wiki/Suits_(TV_series)
+  type: live_action
+- id: gilmore_girls
+  name: Gilmore Girls
+  homepageUrl: https://en.wikipedia.org/wiki/Gilmore_Girls
+  type: live_action
+- id: the_residence
+  name: The Residence
+  homepageUrl: https://en.wikipedia.org/wiki/The_Residence_(TV_series)
+  type: live_action
+- id: the_righteous_gemstones
+  name: The Righteous Gemstones
+  homepageUrl: https://en.wikipedia.org/wiki/The_Righteous_Gemstones
+  type: live_action
+- id: house
+  name: House
+  homepageUrl: https://en.wikipedia.org/wiki/House_(TV_series)
+  type: live_action
+- id: avatar_the_last_airbender
+  name: "Avatar: The Last Airbender"
+  patterns:
+    - avatar
+  homepageUrl: https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender
+  type: animated
+- id: last_week_tonight
+  name: Last Week Tonight with John Oliver
+  homepageUrl: https://en.wikipedia.org/wiki/Last_Week_Tonight_with_John_Oliver
+  type: live_action
+- id: the_good_place
+  name: The Good Place
+  homepageUrl: https://en.wikipedia.org/wiki/The_Good_Place
+  type: live_action
+- id: friends
+  name: Friends
+  homepageUrl: https://en.wikipedia.org/wiki/Friends
+  type: live_action
+- id: the_rookie
+  name: The Rookie
+  homepageUrl: https://en.wikipedia.org/wiki/The_Rookie_(TV_series)
+  type: live_action
+- id: one_piece
+  name: One Piece
+  homepageUrl: https://en.wikipedia.org/wiki/One_Piece_(1999_TV_series)
+  type: animated
+- id: yellowstone
+  name: Yellowstone
+  homepageUrl: https://en.wikipedia.org/wiki/Yellowstone_(American_TV_series)
+  type: live_action
+- id: succession
+  name: Succession
+  homepageUrl: https://en.wikipedia.org/wiki/Succession_(TV_series)
+  type: live_action
+- id: the_handmaids_tale
+  name: The Handmaid's Tale
+  patterns:
+    - handmaid
+  homepageUrl: https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale_(TV_series)
+  type: live_action
+- id: the_boys
+  name: The Boys
+  homepageUrl: https://en.wikipedia.org/wiki/The_Boys_(TV_series)
+  type: live_action
+- id: shogun
+  name: Shōgun
+  homepageUrl: https://en.wikipedia.org/wiki/Sh%C5%8Dgun_(2024_TV_series)
+  type: live_action
+- id: fallout
+  name: Fallout
+  homepageUrl: https://en.wikipedia.org/wiki/Fallout_(American_TV_series)
+  type: live_action
+- id: the_expanse
+  name: The Expanse
+  patterns:
+    - expense
+    - expanse
+  homepageUrl: https://en.wikipedia.org/wiki/The_Expanse_(TV_series)
+  type: live_action
+- id: apothecary_diaries
+  name: The Apothecary Diaries
+  homepageUrl: https://en.wikipedia.org/wiki/The_Apothecary_Diaries
+  type: animated
+- id: rick_and_morty
+  name: Rick and Morty
+  homepageUrl: https://en.wikipedia.org/wiki/Rick_and_Morty
+  type: animated
+- id: the_big_bang_theory
+  name: The Big Bang Theory
+  homepageUrl: https://en.wikipedia.org/wiki/The_Big_Bang_Theory
+  type: live_action
+- id: the_penguin
+  name: The Penguin
+  homepageUrl: https://en.wikipedia.org/wiki/The_Penguin_(TV_series)
+  type: live_action
+- id: foundation
+  name: Foundation
+  homepageUrl: https://en.wikipedia.org/wiki/Foundation_(TV_series)
+  type: live_action
+- id: the_rehearsal
+  name: The Rehearsal
+  homepageUrl: https://en.wikipedia.org/wiki/The_Rehearsal_(TV_series)
+  type: live_action
+- id: survivor
+  name: Survivor
+  homepageUrl: https://en.wikipedia.org/wiki/Survivor_(American_TV_series)
+  type: live_action
+- id: dan_da_dan
+  name: Dandadan
+  homepageUrl: https://en.wikipedia.org/wiki/Dandadan
+  type: animated
+- id: what_we_do_in_the_shadows
+  name: What We Do in the Shadows
+  homepageUrl: https://en.wikipedia.org/wiki/What_We_Do_in_the_Shadows_(TV_series)
+  type: live_action
+- id: the_great_british_bake_off
+  name: The Great British Bake Off
+  patterns:
+    - great, british [l]
+  homepageUrl: https://en.wikipedia.org/wiki/The_Great_British_Bake_Off
+  type: live_action
+- id: mr_robot
+  name: Mr. Robot
+  homepageUrl: https://en.wikipedia.org/wiki/Mr._Robot
+  type: live_action
+- id: wednesday
+  name: Wednesday
+  homepageUrl: https://en.wikipedia.org/wiki/Wednesday_(TV_series)
+  type: live_action
+- id: sakamoto_days
+  name: Sakamoto Days
+  homepageUrl: https://en.wikipedia.org/wiki/Sakamoto_Days
+  type: animated
+- id: curb_your_enthusiasm
+  name: Curb Your Enthusiasm
+  homepageUrl: https://en.wikipedia.org/wiki/Curb_Your_Enthusiasm
+  type: live_action
+- id: how_i_met_your_mother
+  name: How I Met Your Mother
+  homepageUrl: https://en.wikipedia.org/wiki/How_I_Met_Your_Mother
+  type: live_action
+- id: star_wars_tv_series
+  name: Star Wars TV Series
+  patterns:
+    - star wars
+  type: live_action
+- id: only_murders_in_the_building
+  name: Only Murders in the Building
+  homepageUrl: https://en.wikipedia.org/wiki/Only_Murders_in_the_Building
+  type: live_action
+- id: ghosts
+  name: Ghosts
+  homepageUrl: https://en.wikipedia.org/wiki/Ghosts_(American_TV_series)
+  type: live_action
+- id: love_deaths_and_robots
+  name: Love, Death & Robots
+  homepageUrl: https://en.wikipedia.org/wiki/Love,_Death_%26_Robots
+  type: animated

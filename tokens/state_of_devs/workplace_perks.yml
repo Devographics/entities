@@ -1,0 +1,11 @@
+- id: benefits
+
+- id: remote_work_benefit
+  patterns:
+    - remote
+
+- id: freedom_autonomy
+  patterns:
+    - autonomy
+    - freedom
+    - flexibility

@@ -1,0 +1,13 @@
+- id: blogs_websites
+  patterns:
+    - articles
+    - blogs
+    - blog posts
+    - websites
+    - sites
+
+- id: books
+
+- id: rss_feeds
+  patterns:
+    - rss

@@ -2,11 +2,14 @@
 - id: canada
 - id: new_zealand
 - id: germany
+  patterns:
+    - alemania
 - id: spain
 - id: sweden
 - id: netherlands
   patterns:
     - holland
+    - amsterdam
 - id: italy
 - id: norway
 - id: australia
@@ -14,6 +17,8 @@
 - id: france
 - id: portugal
 - id: switzerland
+  patterns:
+    - swiss
 - id: denmark
 - id: usa
   patterns:
@@ -21,6 +26,8 @@
     - states
     - u.s.
     - u.s.a.
+    - america
+    - us
 - id: finland
 - id: iceland
 - id: uk
@@ -28,6 +35,7 @@
     - england
     - united kingdom
     - britain
+    - london
 - id: thailand
 - id: singapore
 - id: greece
@@ -36,3 +44,26 @@
 - id: mexico
 - id: china
 - id: korea
+- id: andorra
+- id: argentina
+- id: costa_rica
+- id: poland
+- id: vietnam
+- id: taiwan
+- id: belgium
+- id: chile
+- id: croatia
+- id: brazil
+- id: indonesia
+  patterns:
+    - bali
+- id: new_zealand
+- id: estonia
+- id: russia
+- id: dubai
+- id: uruguay
+- id: uae
+- id: philippines
+
+- id: india
+- id: czech_republic

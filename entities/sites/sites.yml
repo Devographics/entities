@@ -231,6 +231,8 @@
 - id: daily_dev
   name: Daily Dev
   homepageUrl: https://daily.dev/
+  patterns:
+    - daily.dev
   tags:
     - news
     - newsletters
@@ -579,3 +581,23 @@
   tags:
     - podcasts
     - newsletters
+
+- id: tumblr
+  name: Tumblr
+  homepageUrl: https://www.tumblr.com/
+
+- id: vk
+  name: VK
+  homepageUrl: https://vk.com/
+  patterns:
+    - away.vk.com
+
+- id: tokyodev
+  name: TokyoDev
+  homepageUrl: https://www.tokyodev.com/
+  patterns:
+    - tokyo dev
+
+- id: indeed
+  name: Indeed
+  homepageUrl: https://indeed.com/
