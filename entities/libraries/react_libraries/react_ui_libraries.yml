@@ -47,3 +47,7 @@
 - id: kendo_react
   name: KendoReact
   homepageUrl: https://www.telerik.com/kendo-react-ui
+
+- id: base_ui
+  name: base ui
+  homepageUrl: https://base-ui.com/

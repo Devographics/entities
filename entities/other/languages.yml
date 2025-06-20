@@ -177,7 +177,7 @@
 
 - id: javascript
   name: JavaScript
-  homepageUrl: https://www.javascript.com/
+  homepageUrl: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 - id: gleam
   name: Gleam

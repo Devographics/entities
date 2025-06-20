@@ -1,69 +1,200 @@
-- id: japan
-- id: canada
-- id: new_zealand
-- id: germany
+- id: JPN
+  normalizationOnly: true
   patterns:
+    - japan
+- id: CAN
+  normalizationOnly: true
+  patterns:
+    - canada
+- id: NZL
+  normalizationOnly: true
+  patterns:
+    - new_zealand
+- id: DEU
+  normalizationOnly: true
+  patterns:
+    - germany
     - alemania
-- id: spain
-- id: sweden
-- id: netherlands
+- id: ESP
+  normalizationOnly: true
   patterns:
+    - spain
+- id: SWE
+  normalizationOnly: true
+  patterns:
+    - sweden
+- id: NLD
+  normalizationOnly: true
+  patterns:
+    - netherlands
+    - dutch [p]
     - holland
     - amsterdam
-- id: italy
-- id: norway
-- id: australia
-- id: ireland
-- id: france
-- id: portugal
-- id: switzerland
+- id: ITA
+  normalizationOnly: true
   patterns:
+    - italy
+- id: NOR
+  normalizationOnly: true
+  patterns:
+    - norway
+- id: AUS
+  normalizationOnly: true
+  patterns:
+    - australia
+- id: IRL
+  normalizationOnly: true
+  patterns:
+    - ireland
+- id: FRA
+  normalizationOnly: true
+  patterns:
+    - france
+- id: PRT
+  normalizationOnly: true
+  patterns:
+    - portugal
+- id: CHE
+  normalizationOnly: true
+  patterns:
+    - switzerland
     - swiss
-- id: denmark
-- id: usa
+- id: DNK
+  normalizationOnly: true
   patterns:
+    - denmark
+- id: USA
+  normalizationOnly: true
+  patterns:
+    - usa
     - united states
     - states
     - u.s.
     - u.s.a.
     - america
     - us
-- id: finland
-- id: iceland
-- id: uk
+- id: FIN
+  normalizationOnly: true
   patterns:
+    - finland
+- id: ISL
+  normalizationOnly: true
+  patterns:
+    - iceland
+- id: GBR
+  normalizationOnly: true
+  patterns:
+    - uk
     - england
     - united kingdom
     - britain
     - london
-- id: thailand
-- id: singapore
-- id: greece
-- id: scotland
-- id: austria
-- id: mexico
-- id: china
-- id: korea
-- id: andorra
-- id: argentina
-- id: costa_rica
-- id: poland
-- id: vietnam
-- id: taiwan
-- id: belgium
-- id: chile
-- id: croatia
-- id: brazil
-- id: indonesia
+- id: THA
+  normalizationOnly: true
   patterns:
+    - thailand
+- id: SGP
+  normalizationOnly: true
+  patterns:
+    - singapore
+- id: GRC
+  normalizationOnly: true
+  patterns:
+    - greece
+- id: SCT
+  normalizationOnly: true
+  patterns:
+    - scotland
+- id: AUT
+  normalizationOnly: true
+  patterns:
+    - austria
+- id: MEX
+  normalizationOnly: true
+  patterns:
+    - mexico
+- id: CHN
+  normalizationOnly: true
+  patterns:
+    - china
+- id: KOR
+  normalizationOnly: true
+  patterns:
+    - korea
+- id: AND
+  normalizationOnly: true
+  patterns:
+    - andorra
+- id: ARG
+  normalizationOnly: true
+  patterns:
+    - argentina
+- id: CRI
+  normalizationOnly: true
+  patterns:
+    - costa_rica
+- id: POL
+  normalizationOnly: true
+  patterns:
+    - poland
+- id: NVM
+  normalizationOnly: true
+  patterns:
+    - vietnam
+- id: TWN
+  normalizationOnly: true
+  patterns:
+    - taiwan
+- id: BEL
+  normalizationOnly: true
+  patterns:
+    - belgium
+- id: CHL
+  normalizationOnly: true
+  patterns:
+    - chile
+- id: HRV
+  normalizationOnly: true
+  patterns:
+    - croatia
+- id: BRA
+  normalizationOnly: true
+  patterns:
+    - brazil
+- id: IDN
+  normalizationOnly: true
+  patterns:
+    - indonesia
     - bali
-- id: new_zealand
-- id: estonia
-- id: russia
-- id: dubai
-- id: uruguay
-- id: uae
-- id: philippines
+- id: EST
+  normalizationOnly: true
+  patterns:
+    - estonia
+- id: RUS
+  normalizationOnly: true
+  patterns:
+    - russia
+- id: ARE
+  normalizationOnly: true
+  patterns:
+    - united arab emirates
+    - dubai
+    - uae
+- id: URY
+  normalizationOnly: true
+  patterns:
+    - uruguay
+- id: PHL
+  normalizationOnly: true
+  patterns:
+    - philippines
 
-- id: india
-- id: czech_republic
+- id: IND
+  normalizationOnly: true
+  patterns:
+    - india
+- id: CZE
+  normalizationOnly: true
+  patterns:
+    - czechia
+    - czech_republic

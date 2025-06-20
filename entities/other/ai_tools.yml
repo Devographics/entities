@@ -422,3 +422,11 @@
   homepageUrl: https://www.warp.dev/
   patterns:
     - warp
+
+- id: code_rabbit
+  name: CodeRabbit
+  homepageUrl: https://www.coderabbit.ai/
+
+- id: code_qa
+  name: codeQA
+  homepageUrl: https://www.codeqa.ai/

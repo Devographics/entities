@@ -94,6 +94,7 @@
     - vw
 
 - id: cascade_layers
+  name: Cascade Layers
   webFeaturesId: cascade-layers
   mdn: /en-US/docs/Web/CSS/@layer
   caniuse: css-cascade-layers
@@ -439,6 +440,7 @@
     - "@import [e]"
 
 - id: at_page
+  webFeaturesId: page-setup
   name: "`@page`"
   mdn: /en-US/docs/Web/CSS/@page
   caniuse: css-paged-media
@@ -453,6 +455,7 @@
     - "@page [e]"
 
 - id: calc_size
+  webFeaturesId: calc-size
   name: "`calc-size()`"
   resources:
     - url: https://chromestatus.com/feature/5196713071738880

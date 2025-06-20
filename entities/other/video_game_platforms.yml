@@ -1,19 +1,27 @@
 - id: 3ds
+  name: 3DS
 
 - id: linux
+  name: Linux
 
 - id: meta_quest
+  name: Meta Quest
   patterns:
     - quest
 
 - id: geforce_now
+  name: GeForce Now
   patterns:
     - geforce
 
 - id: playdate
+  name: Playdate
 
 - id: rog_ally
+  name: ROG Ally
 
 - id: snes
+  name: SNES
 
 - id: wii
+  name: wii
