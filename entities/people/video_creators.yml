@@ -941,9 +941,11 @@
   tags:
     - podcasts
 
-- id: 3_blue_1_brown
+- id: three_blue_one_brown
   name: 3Blue1Brown
   youtubeUrl: https://www.youtube.com/c/3blue1brown
+  patterns:
+    - 3 blue 1 brown
 
 - id: ai_explained
   name: AI Explained

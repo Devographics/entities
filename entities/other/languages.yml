@@ -138,10 +138,6 @@
   patterns:
     - r [e]
 
-- id: typescript
-  name: TypeScript
-  homepageUrl: typescriptlang.org/
-
 - id: gdscript
   name: GDScript
 
