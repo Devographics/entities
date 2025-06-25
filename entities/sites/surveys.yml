@@ -56,6 +56,16 @@
     - state_of_ai
   homepageUrl: https://stateofai.dev/
 
+- id: state_of_devs_survey
+  idAliases:
+    - state_of_devs
+  name: State of Devs
+  homepageUrl: https://stateofdevs.com
+  patterns:
+    - state( |-|_)?of( |-|_)?devs
+    - stateofdevs
+    - stateofdevs.com
+
 - id: stack_overflow_survey
   name: Stack Overflow Annual Developer Survey
   homepageUrl: https://insights.stackoverflow.com/survey/
