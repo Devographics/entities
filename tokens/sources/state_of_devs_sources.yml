@@ -39,10 +39,6 @@
     - participated before
     - previous
     - devto_devs2025_announcement
-    - ai2025_email_announcement
-    - ai2025_results_announcement
-    - react2024_results_announcement
-    - css2024_announcement_email
     - devographics
     - emailed
     - your newsletter
@@ -51,13 +47,15 @@
     - state_of_js_email2
     - other surveys
   tags:
-    - sources_state_of_js
+    - sources_state_of_devs
 
 - id: state_of_ai_survey
   patterns:
     - ai2025_banner
     - ai2025_devto_article
     - state of ai
+    - ai2025_email_announcement
+    - ai2025_results_announcement
 
 - id: tokyodev
 
