@@ -4045,3 +4045,13 @@
 - id: sidney_brandhorst
   name: Sidney Brandhorst
   homepageUrl: https://brandhorstconsulting.com/
+
+- id: declan_chidlow
+  name: Declan Chidlow
+  homepageUrl: https://vale.rocks/
+
+- id: lola_odelola
+  name: Lola Odelola
+  homepageUrl: https://lostinthesource.com/
+  tags:
+    - women
