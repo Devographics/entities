@@ -13,6 +13,8 @@
         background: color(display-p3 0 1 0);
       }
   caniuse: css-color-function
+  patterns:
+    - color()
 
 - id: accent_color
   webFeaturesId: accent-color
@@ -106,6 +108,7 @@
     - html_interoperability_features
   patterns:
     - relative color
+    - relative colour
 
 - id: forced_colors
   webFeaturesId: forced-colors
@@ -151,3 +154,19 @@
       .gradient {
         background: linear-gradient(in oklab, hsl(80 90% 50%), red);
       }
+
+- id: contrast_color
+  name: "`contrast-color()`"
+  webFeaturesId: contrast-color
+  mdn: en-US/docs/Web/CSS/color_value/contrast-color
+  caniuse: mdn-css_types_color_contrast-color
+  example:
+    language: css
+    code: |
+      button {
+        --background-color: darkblue;
+        background-color: var(--background-color);
+        color: contrast-color(var(--background-color));
+      }
+  patterns:
+    - contrast, color [l]

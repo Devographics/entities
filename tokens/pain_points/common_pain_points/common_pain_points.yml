@@ -178,6 +178,12 @@
     - over( )?complicated
     - over( )?complicating
 
+- id: hard_to_memorize
+  patterns:
+    - remembering
+    - memorize
+    - remember
+
 - id: dependencies
   name: Dependencies
   description: Too many dependencies

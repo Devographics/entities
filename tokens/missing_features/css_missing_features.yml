@@ -9,7 +9,7 @@
     - \:parent
     - (target|select|style) (a )?parent
 
-- id: scoping
+- id: better_scoping
   name: Scoping
   patterns:
     - encapsulation
@@ -78,6 +78,7 @@
   name: For Loops
   patterns:
     - loop
+    - looping
 
 - id: input_styling
   name: Input Styling
@@ -99,8 +100,11 @@
     - select input
     - select menu
     - select styling
+    - custom select
+    - styled select
+    - stylable select
   tags:
-    - css_missing_features
+    - css_interoperability_features
 
 - id: random
   name: "`random()` Function"
@@ -123,10 +127,15 @@
 - id: at_custom_media
   name: "`@custom-media`"
   resources:
+    - url: https://www.w3.org/TR/mediaqueries-5/#custom-mq
+      title: Custom Media Queries
     - url: https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-custom-media
       title: PostCSS Custom Media
+    - url: https://css-tricks.com/can-we-have-custom-media-queries-please/
+      title: Can we have custom media queries, please?
   patterns:
     - "@custom-media [e]"
+    - custom media queries
 
 - id: flex_wrap_detection
   name: Flex Wrap Detection
@@ -183,6 +192,9 @@
     - grid, masonry [l]
     - grid, masonry, layout [l]
     - ma(n)?sonry
+  tags:
+    - layout_pain_points
+    - html_missing_features
 
 - id: grid_lines_styling
   name: Grid-lines Styling
@@ -315,3 +327,14 @@
 
 - id: better_animations
   name: Better Animations
+
+- id: safari_unsupported_features
+  patterns:
+    - safari
+  tags:
+    - css_interoperability_features
+
+- id: grid_gap_border
+
+- id: flex_wrap_balance
+  name: "`flex-wrap: balance;`"

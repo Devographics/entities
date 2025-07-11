@@ -55,6 +55,8 @@
   idAliases:
     - state_of_ai
   homepageUrl: https://stateofai.dev/
+  patterns:
+    - state of ai
 
 - id: state_of_devs_survey
   idAliases:
@@ -65,6 +67,7 @@
     - state( |-|_)?of( |-|_)?devs
     - stateofdevs
     - stateofdevs.com
+    - state of developers
 
 - id: stack_overflow_survey
   name: Stack Overflow Annual Developer Survey
@@ -179,3 +182,9 @@
   homepageUrl: https://www.netlify.com/blog/announcing-the-2023-web-development-survey/
   patterns:
     - netlify
+
+- id: state_of_vue_survey
+  name: State of Vue.js
+  homepageUrl: https://stateofvue.framer.website/
+  patterns:
+    - state, vue [l]

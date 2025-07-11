@@ -32,6 +32,7 @@
     - has\(\)
     - ":has"
     - has [e]
+    - has()
   tags:
     - css
     - css_selectors
@@ -90,6 +91,7 @@
   patterns:
     - not\(\)
     - :not
+    - :not()
 
 - id: target_text_selector
   name: "`::target-text`"

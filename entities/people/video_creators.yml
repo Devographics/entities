@@ -648,6 +648,8 @@
   youtubeUrl: https://www.youtube.com/user/ChromeDevelopers
   patterns:
     - chromedevs
+    - chrome, developers [l]
+    - chrome [e]
 
 - id: code_opinion
   name: CodeOpinion
@@ -1033,3 +1035,16 @@
   patterns:
     - underscore
     - underscore_
+
+- id: coding_2_go
+  name: Coding2GO
+  youtubeUrl: https://www.youtube.com/@coding2go
+  homepageUrl: https://coding2go.com/
+
+- id: optimistic_web
+  name: Optimistic Web
+  youtubeUrl: https://www.youtube.com/@OptimisticWeb
+
+- id: better_stack
+  name: Better Stack
+  youtubeUrl: https://www.youtube.com/@betterstack

@@ -566,3 +566,30 @@
   patterns:
     - verge( )?cast
     - verge
+
+- id: con_tejas
+  name: ConTejas Code
+  homepageUrl: https://www.youtube.com/playlist?list=PLEJpU2pV0Lie1VWU1unMg_7FRQ1gqFmAZ
+
+- id: bad_at_css
+  name: Bad@CSS
+  homepageUrl: https://badatcss.com/
+  patterns:
+    - bad@css
+    - bad @ css
+
+- id: general_musings
+  name: General Musings
+  homepageUrl: https://zencastr.com/General-Musings-with-Kevin-Powell
+
+- id: local_first
+  name: localfirst.fm
+  homepageUrl: https://www.localfirst.fm/
+
+- id: the_programming_podcast
+  name: The Programming Podcast
+  homepageUrl: https://www.youtube.com/@TheProgrammingPodcast
+
+- id: the_standup
+  name: The Standup
+  homepageUrl: https://www.youtube.com/playlist?list=PL2Fq-K0QdOQiJpufsnhEd1z3xOv2JMHuk

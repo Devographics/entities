@@ -252,6 +252,8 @@
   rssUrl: https://rachelandrew.co.uk/feed/
   mastodonName: rachelandrew@front-end.social
   blueskyId: rachelandrew.bsky.social
+  patterns:
+    - rachel andrews
   tags:
     - css
     - women
@@ -288,6 +290,8 @@
     - ken powell
     - kevin_powell
     - kevinpowell
+    - kevin [e]
+    - kewin poell
 
 - id: harry_roberts
   twitterName: csswizardry
@@ -528,6 +532,9 @@
     - css
   patterns:
     - nerdy.dev
+    - adam, argile [l]
+    - adam, argyll [l]
+    - argyle
 
 - id: ana_tudor
   twitterName: anatudor
@@ -829,6 +836,7 @@
     - htm_hell
     - html hell
     - matuzović
+    - matuzo [p]
   tags:
     - css
 
@@ -3219,6 +3227,8 @@
   name: Roma Komarov
   twitterName: kizmarh
   homepageUrl: https://kizu.dev/
+  patterns:
+    - kizu
 
 - id: amit_sheen
   name: Amit Sheen
@@ -4055,3 +4065,69 @@
   homepageUrl: https://lostinthesource.com/
   tags:
     - women
+
+- id: ana_rodrigues
+  name: Ana Rodrigues
+  homepageUrl: https://anarodrigu.es/
+  tags:
+    - women
+
+- id: brecht_de_ruyte
+  name: Brecht de Ruyte
+  homepageUrl: https://utilitybend.com/
+
+- id: geoff_graham
+  name: Geoff Graham
+  homepageUrl: https://geoffgraham.me/
+
+- id: jane_ori
+  name: Jane Ori
+  homepageUrl: https://propjockey.io/
+  tags:
+    - women
+
+- id: jim_nielsen
+  name: Jim Nielsen
+  homepageUrl: https://www.jim-nielsen.com/
+
+- id: julia_miocene
+  name: Julia Miocene
+  homepageUrl: https://miocene.io/
+  tags:
+    - women
+
+- id: maggie_appleton
+  name: Maggie Appleton
+  homepageUrl: https://maggieappleton.com/
+  tags:
+    - women
+
+- id: sara_joy
+  name: Sara Joy
+  homepageUrl: https://sarajoy.dev/
+  tags:
+    - women
+
+- id: saron_yitbarek
+  name: Saron Yitbarek
+  homepageUrl: https://saron.io/
+  tags:
+    - women
+
+- id: will_myers
+  name: Will Myers
+  homepageUrl: https://www.will-myers.com/
+
+- id: zoran_jambor
+  name: Zoran Jambor
+  homepageUrl: https://zoranjambor.com/
+
+- id: nils_binder
+  name: Nils Binder
+  homepageUrl: https://ichimnetz.com/
+
+- id: dmitry_mayorov
+  name: Dmitry Mayorov
+  youtubeUrl: https://www.youtube.com/@dmtrmrv
+  tags:
+    - video_creators

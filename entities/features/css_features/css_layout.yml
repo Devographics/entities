@@ -9,6 +9,8 @@
   patterns:
     - grid [e]
     - grids [e]
+    - css grid
+    - css grids
 
 - id: subgrid
   webFeaturesId: subgrid
@@ -42,6 +44,8 @@
     - html_interoperability_features
   patterns:
     - flex [e]
+    - "display: flex"
+    - flex( |-)?box
 
 - id: multi_column
   webFeaturesId: column-fill

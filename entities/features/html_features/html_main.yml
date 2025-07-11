@@ -466,6 +466,7 @@
     - features
     - css_interoperability_features
     - interactivity_pain_points
+    - favorite_new_features
   patterns:
     - dialog
     - dialogue

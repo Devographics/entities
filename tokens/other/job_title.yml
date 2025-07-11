@@ -10,6 +10,14 @@
 
 - id: freelancer
 
+- id: intern
+
+- id: owner
+
+- id: lecturer
+
+- id: professor
+
 - id: cto
   patterns:
     - chief technology officer
@@ -123,6 +131,8 @@
     - web dev
     - dev [e]
     - desenvolvedor
+    - devloper
+    - softwaredeveloper
 
 - id: frontend_developer
   patterns:
@@ -196,3 +206,7 @@
 - id: head_of_design
 
 - id: head_of_technology
+
+- id: systems_analyst
+
+- id: unemployed

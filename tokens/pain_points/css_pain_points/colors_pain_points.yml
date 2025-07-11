@@ -1,0 +1,16 @@
+- id: contrast_issues
+  patterns:
+    - contrast
+
+- id: dark_mode_issues
+  patterns:
+    - dark
+
+- id: theming_issues
+  patterns:
+    - theme
+    - theming
+
+- id: selecting_best_color_mode
+  patterns:
+    - too many

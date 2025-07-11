@@ -44,10 +44,6 @@
   patterns:
     - cookie
 
-- id: masonry_layout
-  patterns:
-    - masonry
-
 - id: relative_colors
   patterns:
     - relative, color [l]

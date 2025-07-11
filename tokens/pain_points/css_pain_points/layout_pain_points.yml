@@ -1,0 +1,50 @@
+- id: flexbox_issues
+  patterns:
+    - flex [p]
+
+- id: height_issues
+  patterns:
+    - height [p]
+
+- id: width_issues
+  patterns:
+    - height [p]
+
+- id: overflow_issues
+  patterns:
+    - overflow [p]
+
+- id: centering_issues
+  patterns:
+    - center [p]
+
+- id: alignment_issues
+  patterns:
+    - align [p]
+
+- id: margin_issues
+  patterns:
+    - margin
+
+- id: positioning_issues
+  patterns:
+    - position [p]
+
+- id: z_index_issues
+  patterns:
+    - z, index [l]
+    - stack
+    - stacking
+
+- id: scrollbar_issues
+  patterns:
+    - scroll( |-)?bar
+  tags:
+    - interactions_pain_points
+
+- id: scrolling_issues
+  patterns:
+    - scrolling
+    - scroll
+  tags:
+    - interactions_pain_points

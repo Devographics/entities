@@ -128,6 +128,7 @@
       }
   patterns:
     - leading( |-)?trim
+    - text-box
 
 - id: direction
   name: "`direction`"
@@ -187,6 +188,8 @@
   tags:
     - css
     - css_typography
+  patterns:
+    - text-balance
 
 - id: text_wrap_pretty
   webFeaturesId: text-wrap-pretty

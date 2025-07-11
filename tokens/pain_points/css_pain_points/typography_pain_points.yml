@@ -1,0 +1,14 @@
+- id: line_height_issues
+  patterns:
+    - vertical
+    - line( |-)?height
+    - lead
+    - leading
+
+- id: font_sizing_issues
+  patterns:
+    - sizing
+
+- id: text_overflow_issues
+  patterns:
+    - overflow

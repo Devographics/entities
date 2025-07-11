@@ -91,6 +91,7 @@
     - tailwind
   tags:
     - css_pain_points
+    - gamechanger_feature
 
 - id: tailwind_ui
   name: Tailwind UI
@@ -147,7 +148,10 @@
   contexts: [state_of_css]
   homepageUrl: https://mantine.dev/
   github: mantinedev/mantine
+  tags:
     - react
+  patterns:
+    - mantineui
 
 - id: ark_ui
   name: Ark UI
@@ -257,6 +261,7 @@
   homepageUrl: https://developer.microsoft.com/en-us/fluentui#/
   patterns:
     - fluent
+    - fluentui
 
 - id: tailwind_elements
   name: Tailwind Elements

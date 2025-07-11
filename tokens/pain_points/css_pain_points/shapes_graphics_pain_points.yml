@@ -1,0 +1,11 @@
+- id: svg_issues
+  patterns:
+    - svg
+
+- id: gradient_issues
+  patterns:
+    - gradient
+
+- id: shape_issues
+  patterns:
+    - shape

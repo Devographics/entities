@@ -601,3 +601,9 @@
 - id: indeed
   name: Indeed
   homepageUrl: https://indeed.com/
+
+- id: modern_css_daily
+  name: Modern CSS Daily
+  homepageUrl: https://modern-css.davecross.co.uk/
+  patterns:
+    - modern-css

@@ -13,6 +13,7 @@
     - css
     - css_pre_post_processors
     - state_of_css
+    - gamechanger_feature
   patterns:
     - scss
 

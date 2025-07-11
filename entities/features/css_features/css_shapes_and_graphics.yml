@@ -105,6 +105,8 @@
       }
   patterns:
     - fit-content
+    - min-content
+    - max-content
 
 - id: repeating_linear_gradient
   name: "`repeating-linear-gradient()`"
@@ -149,6 +151,8 @@
     - title: Linear() Generator
       url: https://linear-easing-generator.netlify.app/
       language: en-US
+  patterns:
+    - linear [e]
 
 - id: background_attachment
   name: >

@@ -268,3 +268,7 @@
 - id: utilities
   patterns:
     - utility
+
+- id: marketing
+
+- id: publishing

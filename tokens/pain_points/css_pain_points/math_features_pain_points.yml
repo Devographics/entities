@@ -1,0 +1,12 @@
+- id: lack_of_random_function
+  patterns:
+    - random
+
+- id: math_is_hard
+  patterns:
+    - hard
+    - pain
+
+- id: handling_units
+  patterns:
+    - units

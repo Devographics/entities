@@ -1,8 +1,8 @@
 #################################################
 # CSS other features
 #################################################
-- id: variables
-  name: Variables
+- id: css_custom_properties
+  name: Custom Properties (Variables)
   mdn: /en-US/docs/Web/CSS/CSS_Variables
   caniuse: css-variables
   example:
@@ -14,6 +14,12 @@
       .foo {
         background-color: var(--main-bg-color);
       }
+  patterns:
+    - variables [e]
+    - custom properties
+    - css variables
+    - custom variables
+    - css properties
 
 - id: feature_support_queries
   webFeaturesId: supports
@@ -108,6 +114,7 @@
     - "@layers [e]"
     - layer [e]
     - layers [e]
+    - css layers
 
 - id: math_functions
   mdn: /en-US/docs/Web/CSS/CSS_Functions#math_functions
@@ -474,6 +481,21 @@
         height: calc-size(auto);
       }
 
+- id: interpolate_size
+  webFeaturesId: interpolate-size/
+  name: "`interpolate-size()`"
+  mdn: en-US/docs/Web/CSS/interpolate-size
+  resources:
+    - url: https://chromestatus.com/feature/5196713071738880
+      title: CSS interpolate-size property and calc-size() function
+  caniuse: mdn-css_types_calc-size
+  example:
+    language: css
+    code: |
+      main {
+        interpolate-size: allow-keywords;
+      }
+
 - id: sibling_index
   name: "`sibling-index()`"
   resources:
@@ -524,3 +546,20 @@
       url: https://chromestatus.com/feature/6313805904347136
     - title: “If” CSS Gets Inline Conditionals
       url: https://css-tricks.com/if-css-gets-inline-conditionals/
+
+- id: is_function
+  name: "`:is()`"
+  mdn: en-US/docs/Web/CSS/:is
+  caniuse: css-matches-pseudo
+  example:
+    language: css
+    code: |
+      :is(ol, ul, menu:unsupported) :is(ol, ul) {
+        color: green;
+      }
+  patterns:
+    - is\(\)
+    - |
+      :is [e]
+    - |
+      :is\(\) [e]

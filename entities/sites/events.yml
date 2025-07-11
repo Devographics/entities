@@ -5,3 +5,11 @@
 - id: singapore_js
   name: SingaporeJS
   homepageUrl: https://www.meetup.com/singapore-js/
+
+- id: css_day
+  name: CSS Day
+  homepageUrl: https://cssday.nl/
+
+- id: js_nation
+  name: JS Nation
+  homepageUrl: https://jsnation.com/

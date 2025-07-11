@@ -67,6 +67,7 @@
   name: Migraine
   patterns:
     - headache
+    - migraines
 
 - id: speech_impairment
   name: Speech Impairment

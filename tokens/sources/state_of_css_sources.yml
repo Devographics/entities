@@ -28,5 +28,40 @@
     - announcement_email
     - announcement_post
     - post_survey_share
+    - css2024
+    - css2024_announcement_email
+    - email_announcement
+    - email_announcement2
   tags:
     - sources_state_of_css
+
+- id: state_of_ai_survey
+  patterns:
+    - ai2025_banner
+
+- id: state_of_ai_survey
+  patterns:
+    - ai2025_banner
+    - ai2025_email_announcement
+    - ai2025_banner
+    - ai2025_results_announcement
+
+- id: angular
+  patterns:
+    - angular_homepage
+
+- id: css_day
+
+- id: css_tricks
+  patterns:
+    - css_tricks_keeping_up
+
+- id: state_of_devs_survey
+  patterns:
+    - devs2025-part1-announcement
+    - devs2025_banner
+    - devto_devs2025_announcement
+
+- id: state_of_js_survey
+  patterns:
+    - state_of_js_email2
