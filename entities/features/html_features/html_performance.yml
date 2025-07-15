@@ -1,0 +1,13 @@
+- id: link_rel_expect
+  webFeaturesId: link-rel-expect
+  name: |
+    `<link rel="expect">`
+
+- id: speculation_rules
+  webFeaturesId: speculation-rules
+  name: Speculation Rules
+
+- id: img_sizes_auto
+  webFeaturesId: sizes-auto
+  name: |
+    `<img sizes="auto" loading="lazy">`

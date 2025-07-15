@@ -44,3 +44,15 @@
     Customized built-in elements
   description: |
     `<button is="fancy-button">`
+
+- id: declarative_custom_elements
+  name: Declarative Custom Elements
+  resources:
+    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Declarative-Custom-Elements-Strawman.md
+      title: Declarative Syntax for Custom Elements
+
+- id: reference_target_api
+  name: Reference Target API
+  resources:
+    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/reference-target-explainer.md
+      title: Reference Target for Cross-Root ARIA

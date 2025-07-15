@@ -14,7 +14,7 @@
       }
   caniuse: css-color-function
   patterns:
-    - color()
+    - color\(\)
 
 - id: accent_color
   webFeaturesId: accent-color

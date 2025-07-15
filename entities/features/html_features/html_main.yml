@@ -471,6 +471,14 @@
     - dialog
     - dialogue
 
+- id: dialog_closedby
+  webFeaturesId: dialog-closedby
+  name: "`<dialog closedby>`"
+
+- id: dialog_requestclose
+  webFeaturesId: requestclose
+  name: "`dialog.requestClose()`"
+
 - id: dom_parts
   name: DOM Parts
   needsTranslation: true
@@ -1160,6 +1168,11 @@
     - pop( |-)?over
     - popup
 
+- id: popover_hint
+  webFeaturesId: popover-hint
+  name: |
+    `popover="hint"`
+
 - id: portal_element
   name: "`<portal>`"
   needsTranslation: false
@@ -1726,3 +1739,17 @@
         File Handling API: Register your PWA as a handler for file types.
   tags:
     - features
+
+- id: invokers
+  webFeaturesId: invoker-commands
+  name: Invoker commands
+
+- id: hidden_until_found
+  webFeaturesId: hidden-until-found
+  name: |
+    `hidden="until-found"`
+
+- id: move_before
+  webFeaturesId: move-before
+  name: |
+    `moveBefore()`

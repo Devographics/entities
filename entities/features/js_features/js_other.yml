@@ -91,10 +91,6 @@
   name: Web Components
   mdn: /en-US/docs/Web/Web_Components
 
-- id: webgl
-  name: WebGL
-  mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
-
 - id: webrtc
   name: WebRTC
   mdn: /en-US/docs/Web/API/WebRTC_API

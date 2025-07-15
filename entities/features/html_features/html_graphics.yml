@@ -1,0 +1,21 @@
+- id: mapml
+  name: MapML
+
+- id: canvas_colorspace
+  webFeaturesId: canvas-2d-color-management
+  name: Color management for 2D canvas
+
+- id: canvas_drawelement
+  name: |
+    `ctx.drawElement()`
+
+- id: jpeg_xl
+  name: JPEG XL
+
+- id: media_capture
+  webFeaturesId: html-media-capture
+  name: HTML media capture
+
+- id: webgl
+  name: WebGL
+  mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL

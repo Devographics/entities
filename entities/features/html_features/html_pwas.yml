@@ -67,8 +67,6 @@
   name: |
     `<input>`
 
-- id: jpeg_xl
-
 - id: scrollbar_styling
   patterns:
     - scrollbar

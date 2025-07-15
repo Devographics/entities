@@ -1,0 +1,7 @@
+- id: filesystem_filewriter_api
+  name: Filesystem & FileWriter API
+
+- id: register_protocol_handler
+  webFeaturesId: registerprotocolhandler
+  name: |
+    `registerProtocolHandler()`
