@@ -135,7 +135,7 @@
   caniuse: web-share
 
 - id: webxr
-  name: WebXR Device API
+  name: navigator.xr (WebXR Device API)
   mdn: /en-US/docs/Web/API/WebXR_Device_API
   caniuse: webxr
 

@@ -1749,7 +1749,12 @@
   name: |
     `hidden="until-found"`
 
-- id: move_before
+- id: element_move_before
   webFeaturesId: move-before
   name: |
-    `moveBefore()`
+    `element.moveBefore()`
+
+- id: element_before
+  name: |
+    `element.before()`
+  mdn: en-US/docs/Web/API/Element/before

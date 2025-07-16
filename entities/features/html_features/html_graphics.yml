@@ -1,4 +1,4 @@
-- id: mapml
+- id: mapviewer_element
   name: MapML
 
 - id: canvas_colorspace
