@@ -446,8 +446,8 @@
   webFeaturesId: dialog
   name: "`<dialog>`"
   needsTranslation: false
-  description: For dialog boxes or other interactive components, such as a
-    dismissible alerts, or subwindows.
+  description: |
+    Creates a modal or non-modal dialog box, such as a confirmation prompt or a subwindow used to enter data.
   example:
     language: html
     code: |-
@@ -474,10 +474,14 @@
 - id: dialog_closedby
   webFeaturesId: dialog-closedby
   name: "`<dialog closedby>`"
+  description: |
+    Controls which user actions close a dialog. For example <dialog closedby="any"> allows the dialog to be closed by clicking outside of it (light dismiss).
 
 - id: dialog_requestclose
   webFeaturesId: requestclose
   name: "`dialog.requestClose()`"
+  description: |
+    Closes the dialog in a way that can be cancelled (unlike `dialog.close()`).
 
 - id: dom_parts
   name: DOM Parts
@@ -1172,6 +1176,17 @@
   webFeaturesId: popover-hint
   name: |
     `popover="hint"`
+  description: |
+    A way to create less persistent popovers, such as tooltips.
+  example:
+    language: html
+    code: |
+      <div id="tooltip" popover="hint">
+        Save this document
+      </div>
+      <button popovertarget="tooltip">
+        Save
+      </button>
 
 - id: portal_element
   name: "`<portal>`"
@@ -1743,6 +1758,20 @@
 - id: invokers
   webFeaturesId: invoker-commands
   name: Invoker commands
+  description: |
+    A declarative way for `<button>` to invoke predefined custom commands.
+  example:
+    language: html
+    code: |
+      <button commandfor="mydialog" command="show-modal">
+        Show modal dialog
+      </button>
+      <dialog id="mydialog">
+        <button commandfor="mydialog" command="close">
+          Close
+        </button>
+        *dialog content*
+      </dialog>
 
 - id: hidden_until_found
   webFeaturesId: hidden-until-found
@@ -1753,8 +1782,20 @@
   webFeaturesId: move-before
   name: |
     `element.moveBefore()`
+  description: |
+    Move an element before another while preserving state (focus, iframe loads, animation frame, etc).
+  example:
+    language: js
+    code: |
+      referenceElement.parentNode.before(newElement, referenceElement);
 
 - id: element_before
   name: |
     `element.before()`
   mdn: en-US/docs/Web/API/Element/before
+  description: |
+    DOM method that moves an element before another.
+  example:
+    language: js
+    code: |
+      referenceElement.before(newElement);

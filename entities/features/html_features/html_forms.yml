@@ -72,6 +72,8 @@
 - id: input_type_color
   name: |
     `<input type="color">`
+  description: |
+    Creates a color picker from which users can choose a color value.
   tags:
     - html_interoperability_features
   patterns:
@@ -80,12 +82,16 @@
 - id: input_type_color_colospace
   name: |
     `<input type="color" colorspace="display-p3">`
+  description: |
+    Creates a color picker which allows the user to select a wide-gamut (P3) color.
   tags:
     - html_interoperability_features
 
 - id: input_type_color_alpha
   name: |
-    `<input type="color alpha">`
+    `<input type="color" alpha>`
+  description: |
+    Creates a color picker which allows the user to select a semi-transparent color.
   tags:
     - html_interoperability_features
 
@@ -206,4 +212,6 @@
 
 - id: input_checkbox_switch
   name: |
-    `<input type=checkbox switch>`
+    `<input type="checkbox" switch>`
+  description: |
+    A way to render a checkbox as a switch.
