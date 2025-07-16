@@ -49,6 +49,7 @@
     `protocol_handlers`
 
 - id: app_manifest_share_target
+  webFeaturesId: app-share-targets
   name: |
     `share_target`
 
@@ -80,6 +81,7 @@
     - transition api
 
 - id: web_bluetooth_api
+  webFeaturesId: web-bluetoot
   name: Web Bluetooth API
   patterns:
     - bluetooth
@@ -170,3 +172,12 @@
   mdn: https://developer.mozilla.org/en-US/docs/Web/API/Push_API
   patterns:
     - push, notification [l]
+
+- id: web_usb_api
+  webFeaturesId: webusb
+  name: WebUSB
+
+- id: payment_request_api
+  webFeaturesId: payment-request
+  name: |
+    `PaymentRequest` API

@@ -489,6 +489,7 @@
   mdn: en-US/docs/Web/API/Web_Authentication_API
 
 - id: web_nfc_api
+  webFeaturesId: web-nfc
   name: Web NFC API
   mdn: en-US/docs/Web/API/Web_NFC_API
   patterns:
@@ -501,6 +502,7 @@
     - serial, api [l]
 
 - id: speech_recognition_api
+  webFeaturesId: speech-recognition
   name: |
     `SpeechRecognition`
   mdn: en-US/docs/Web/API/SpeechRecognition
