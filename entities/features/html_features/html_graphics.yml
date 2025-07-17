@@ -1,6 +1,6 @@
 - id: mapviewer_element
   name: MapML
-  experimental: true # proposal/unsupported feature
+  isExperimental: true # proposal/unsupported feature
   description: |
     Embed interactive maps in HTML.
   example:
@@ -21,7 +21,7 @@
       const ctx = canvas.getContext("2d", {colorSpace: "display-p3"});
 
 - id: canvas_drawelement
-  experimental: true # proposal/unsupported feature
+  isExperimental: true # proposal/unsupported feature
   name: |
     `ctx.drawElement()`
   description: |

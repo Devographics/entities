@@ -615,7 +615,7 @@
     - features
 
 - id: focusgroup_attribute
-  experimental: true # proposal/unsupported feature
+  isExperimental: true # proposal/unsupported feature
   name: "`focusgroup` attribute"
   needsTranslation: true
   description:
@@ -703,7 +703,7 @@
     - features
 
 - id: html_modules
-  experimental: true # proposal/unsupported feature
+  isExperimental: true # proposal/unsupported feature
   webFeaturesId: js-modules
   name: HTML Modules
   needsTranslation: true
@@ -1394,7 +1394,7 @@
     - features
 
 - id: scoped_element_registries
-  experimental: true # proposal/unsupported feature
+  isExperimental: true # proposal/unsupported feature
   name: Scoped Custom Element Registries
   needsTranslation: true
   description:

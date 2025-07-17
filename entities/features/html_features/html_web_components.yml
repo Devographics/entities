@@ -55,7 +55,7 @@
     `<button is="fancy-button">`
 
 - id: declarative_custom_elements
-  experimental: true # proposal/unsupported feature
+  isExperimental: true # proposal/unsupported feature
   name: Declarative Custom Elements
   description: |
     Create web components declaratively through HTML, with or without JS.
@@ -75,7 +75,7 @@
       title: Declarative Syntax for Custom Elements
 
 - id: reference_target_api
-  experimental: true # proposal/unsupported feature
+  isExperimental: true # proposal/unsupported feature
   name: Reference Target API
   description: |
     A way to “redirect” id references to a component to elements in its shadow DOM.
