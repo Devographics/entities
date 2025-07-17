@@ -64,11 +64,6 @@
 #   description: |
 #     `parent.appendChild(child)`
 
-- id: element_before
-  name: "`el1.before(...elements)`"
-  description: |
-    Replaced the older `parent.insertBefore(el2, el1)`
-
 - id: element_replace_with
   name: "`el1.replaceWith(el2)`"
   description: |

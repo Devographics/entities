@@ -51,7 +51,7 @@
 - id: app_manifest_share_target
   webFeaturesId: app-share-targets
   name: |
-    `share_target`
+    `share_target` manifest field
   description: |
     Lets a PWA receive data (text, files, URLs) shared from other apps via the system share dialog.
   example:

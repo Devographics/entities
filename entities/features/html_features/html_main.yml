@@ -377,7 +377,8 @@
   webFeaturesId: declarative-shadow-dom
   name: Declarative Shadow DOM
   needsTranslation: true
-  description: Define shadow trees with HTML.
+  description: |
+    Define shadow trees with HTML, such as when server-side-rendering web components.
   example:
     language: html
     code: |-
@@ -477,7 +478,7 @@
   webFeaturesId: dialog-closedby
   name: "`<dialog closedby>`"
   description: |
-    Controls which user actions close a dialog. For example <dialog closedby="any"> allows the dialog to be closed by clicking outside of it (light dismiss).
+    Controls which user actions close a dialog. For example `<dialog closedby="any">` allows the dialog to be closed by clicking outside of it (light dismiss).
 
 - id: dialog_requestclose
   webFeaturesId: requestclose
@@ -704,7 +705,6 @@
 
 - id: html_modules
   isExperimental: true # proposal/unsupported feature
-  webFeaturesId: js-modules
   name: HTML Modules
   needsTranslation: true
   description: |
@@ -1385,11 +1385,7 @@
   example:
     language: js
     code: |
-      const sanitizer = Sanitizer({
-        elements: ["p", "div"],
-        replaceWithChildrenElements: ["b"],
-        attributes: ["cite", "onclick"],
-      });
+      greeting.setHTML('Hello ' + nameInput.value);
   tags:
     - features
 
@@ -1441,6 +1437,7 @@
     - features
 
 - id: customizable_select
+  webFeaturesId: customizable-select
   name: Customizable Select
   needsTranslation: false
   description: |
@@ -1777,7 +1774,8 @@
 
 - id: invokers
   webFeaturesId: invoker-commands
-  name: Invoker commands
+  name: |
+    `command` and `commandfor` attributes (Invokers)
   description: |
     A declarative way for `<button>` to invoke predefined custom commands.
   example:
