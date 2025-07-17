@@ -1,16 +1,51 @@
 - id: mapviewer_element
   name: MapML
+  experimental: true # proposal/unsupported feature
+  description: |
+    Embed interactive maps in HTML.
+  example:
+    language: html
+    code: |
+      <mapviewer controls width="600" height="400">
+        <maplayer src="osm.mapml"></maplayer>
+      </mapviewer>
 
 - id: canvas_colorspace
   webFeaturesId: canvas-2d-color-management
   name: Color management for 2D canvas
+  description: |
+    Set the color space for the graphics being drawn on a  `<canvas>` element.
+  example:
+    language: js
+    code: |
+      const ctx = canvas.getContext("2d", {colorSpace: "display-p3"});
 
 - id: canvas_drawelement
+  experimental: true # proposal/unsupported feature
   name: |
     `ctx.drawElement()`
+  description: |
+    Draw an HTML element on `<canvas>`,  with conveniences for redrawing and hit testing.
+  example:
+    language: html
+    code: |
+      <canvas id="canvas" layoutsubtree="true">
+        <p>Hello world!</p>
+      </canvas>
+      <script type="module">
+        const ctx = canvas.getContext("2d");
+        const text = canvas.querySelector("p");
+        ctx.drawElement(text, 30, 0);
+      </script>
 
 - id: jpeg_xl
   name: JPEG XL
+  description: |
+    An image format optimized for web environments.
+  example:
+    language: html
+    code: |
+      <img src="image.jxl" />
 
 - id: media_capture
   webFeaturesId: html-media-capture
@@ -18,4 +53,10 @@
 
 - id: webgl
   name: WebGL
+  description: |
+    A low-level API for rendering 2D and 3D graphics with the GPU on `<canvas>` , based on OpenGL.
   mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
+  example:
+    language: js
+    code: |
+      const gl = canvas.getContext("webgl");

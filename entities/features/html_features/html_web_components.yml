@@ -9,9 +9,18 @@
     `<slot>`  element
 
 - id: slot_attribute
-  name: Named slot assigment
+  name: |
+    `slot` attribute
   description: |
-    `slot="slot_name"` attribute
+    Replacing predefined parts of a component UI with your own elements.
+  example:
+    language: html
+    code: |
+      <my-switch>
+        Wi-Fi
+        <span slot="start">Enabled</span>
+        <span slot="end">Diabled</span>
+      </my-switch>
 
 # see also part_selector. duplicate?
 - id: part_pseudo
@@ -46,13 +55,38 @@
     `<button is="fancy-button">`
 
 - id: declarative_custom_elements
+  experimental: true # proposal/unsupported feature
   name: Declarative Custom Elements
+  description: |
+    Create web components declaratively through HTML, with or without JS.
+  example:
+    language: html
+    code: |
+      <definition name="progress-ring">
+        <template shadowmode="open">
+          <div id="base" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{root.attributes.percentage.value}}">
+            <slot>{{ root.attributes.percentage.value }}%</slot>
+          </div>
+          <style>#base { /* ... */ }</style>
+        </template>
+      </definition>
   resources:
     - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Declarative-Custom-Elements-Strawman.md
       title: Declarative Syntax for Custom Elements
 
 - id: reference_target_api
+  experimental: true # proposal/unsupported feature
   name: Reference Target API
+  description: |
+    A way to “redirect” id references to a component to elements in its shadow DOM.
+  example:
+    language: js
+    code: |
+      this.attachShadow({ 
+        mode: "open",
+        referenceTarget: "real-input",
+      });
+      this.shadowRoot.innerHTML = `<input id="real-input">`;
   resources:
     - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/reference-target-explainer.md
       title: Reference Target for Cross-Root ARIA

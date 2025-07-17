@@ -52,6 +52,22 @@
   webFeaturesId: app-share-targets
   name: |
     `share_target`
+  description: |
+    Lets a PWA receive data (text, files, URLs) shared from other apps via the system share dialog.
+  example:
+    language: json
+    code: |
+      "share_target": {
+        "action": "/share",
+        "method": "POST",
+        "enctype": "multipart/form-data",
+        "params": {
+          "title": "title",
+          "text": "text",
+          "url": "url",
+          "files": [{ "name": "image", "accept": ["image/*"] }]
+        }
+      }
 
 - id: app_manifest_launch_handler
   name: |
@@ -83,11 +99,24 @@
 - id: web_bluetooth_api
   webFeaturesId: web-bluetoot
   name: Web Bluetooth API
+  description: |
+    Connect to and communicate with nearby Bluetooth Low Energy (BLE) devices.
+  example:
+    language: js
+    code: |
+      const device = await navigator.bluetooth.requestDevice({ filters: [{ services: ["heart_rate"] }] });
   patterns:
     - bluetooth
 
 - id: webgpu
   name: WebGPU
+  description: |
+    A JavaScript API that provides low-level access to the GPU for high-performance graphics and parallel computation in the browser.
+  example:
+    language: js
+    code: |
+      const adapter = await navigator.gpu.requestAdapter();
+      const device = await adapter?.requestDevice();
 
 - id: avif
   name: AVIF
@@ -176,8 +205,26 @@
 - id: web_usb_api
   webFeaturesId: webusb
   name: WebUSB
+  description: |
+    Directly communicate with USB devices, enabling data exchange without drivers or native apps.
+  example:
+    language: js
+    code: |
+      const device = await navigator.usb.requestDevice({ filters: [{ vendorId: 0x2341 }] });
+      await device.open();
 
 - id: payment_request_api
   webFeaturesId: payment-request
   name: |
     `PaymentRequest` API
+  description: |
+    Enables a consistent, secure way for websites to request payments using the browser’s native UI.
+  example:
+    language: js
+    code: |
+      const request = new PaymentRequest(
+        [{ supportedMethods: "basic-card" }], 
+        { total: { label: "Total", amount: { currency: "USD", value: "9.99" } } }
+      );
+      let response = await request.show();
+      response.complete("success"));

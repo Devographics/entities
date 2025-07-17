@@ -112,8 +112,8 @@
   webFeaturesId: blocking-render
   name: '`blocking="render"`'
   needsTranslation: false
-  description: Specify that resources (scripts, stylesheets etc) should block
-    rendering until loaded.
+  description: |
+    Block rendering (but not parsing) until certain resources have been loaded. Available on `<link> `, `<script>` and `<style> `.
   example:
     language: html
     code: <script blocking="render" async src="async-script.js"></script>
@@ -187,11 +187,12 @@
   webFeaturesId: csp
   name: Content-Security Policy (CSP)
   needsTranslation: true
-  description: An added layer of security that helps to detect and mitigate XSS
-    and other attacks.
+  description: |
+    A set of directives from a website to a browser, that helps to detect and mitigate XSS attacks.
   example:
     language: http
-    code: "Content-Security-Policy: default-src 'self'"
+    code: |
+      Content-Security-Policy: script-src 'self';
   mdn: en-US/docs/Web/HTTP/CSP
   w3c: TR/CSP3/
   caniuse: contentsecuritypolicy2
@@ -342,7 +343,8 @@
   description: Using custom elements, that you or someone else defined.
   example:
     language: html
-    code: <sl-switch>Switch</sl-switch>
+    code: |
+      <my-switch start="Enabled" end="Disabled">Wi-Fi</my-switch>
   mdn: en-US/docs/Web/API/Web_components/Using_custom_elements
   tags:
     - features
@@ -507,8 +509,8 @@
   example:
     language: js
     code: |-
-      this.#internals = this.attachInternals()
-      this.#internals.ariaChecked = true;
+      this.#internals = this.attachInternals();
+      this.#internals.role = "progressbar";
   mdn: en-US/docs/Web/API/ElementInternals
   resources:
     - url: https://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface
@@ -613,6 +615,7 @@
     - features
 
 - id: focusgroup_attribute
+  experimental: true # proposal/unsupported feature
   name: "`focusgroup` attribute"
   needsTranslation: true
   description:
@@ -700,10 +703,12 @@
     - features
 
 - id: html_modules
+  experimental: true # proposal/unsupported feature
   webFeaturesId: js-modules
   name: HTML Modules
   needsTranslation: true
-  description: Import HTML files via JS imports and access their elements and JS exports.
+  description: |
+    Import HTML files via JS imports and access their elements and JS exports.
   example:
     language: html
     code: |-
@@ -744,7 +749,9 @@
     language: js
     code: |-
       this.attachShadow({mode: "open", slotAssignment: "manual" });
-      this.shadowRoot.querySelector("slot[name=foo]").assign(element);
+      let headerSlot = this.shadowRoot.querySelector("slot[name=header]");
+      let header = this.querySelector("header");
+      if (header) headerSlot.assign(header);
   mdn: en-US/docs/Web/API/HTMLSlotElement/assign
   resources:
     - url: https://html.spec.whatwg.org/multipage/scripting.html#dom-slot-assign
@@ -847,11 +854,15 @@
   webFeaturesId: file-system-access
   name: File System Access API
   needsTranslation: true
-  description: Access files and directories on the user's local device.
+  description: |
+    Access files and directories on the user's local device and create writable files that can be updated.
   example:
     language: js
-    code: |-
-      const handle = await window.showSaveFilePicker(opts);
+    code: |
+      const handle = await window.showSaveFilePicker();
+      const writable = await handle.createWritable();
+      await writable.write("Hello, world!");
+      await writable.close();
   mdn: en-US/docs/Web/API/File_System_API
   resources:
     - url: https://web.dev/file-system-access/
@@ -929,10 +940,11 @@
 - id: model_element
   name: "`<model>` for AR/VR/3D content"
   needsTranslation: false
-  description: Allows embedding 3D graphical content into HTML.
+  description: |
+    Allows embedding 3D models in HTML with built-in controls.
   example:
     language: html
-    code: <model src="3d-assets/car"></model>
+    code: <model src="3d-assets/car.glb"></model>
   resources:
     - url: https://immersive-web.github.io/model-element/
       title: The &lt;model&gt; element
@@ -1074,6 +1086,8 @@
 
 - id: canvas_element
   name: "`<canvas>`"
+  description: |
+    Element for drawing dynamic 2D or 3D graphics using JavaScript.
   needsTranslation: false
   example:
     language: html
@@ -1088,9 +1102,8 @@
     - canvas
 
 - id: svg_element
-  name: "`<svg>`"
-  needsTranslation: false
-  # description: Embed SVG vector graphics directly in markup
+  name: "`<svg>` (inline SVG)"
+  description: Embed SVG vector graphics directly in markup
   example:
     language: html
     code: |-
@@ -1103,17 +1116,15 @@
     - features
 
 - id: math_element
-  name: "`<math>`"
-  needsTranslation: false
-  # description: Display math directly in HTML, using MathML.
+  name: "`<math>` (inline MathML)"
+  description: Display math directly in HTML, using MathML.
   example:
     language: html
     code: |-
-      <math display="inline">
-          <msup>
-              <mi>π</mi>
-              <mn>2</mn>
-          </msup>
+      <!-- x² + 1 -->
+      <math>
+        <msup><mi>x</mi><mn>2</mn></msup>
+        <mo>+</mo><mn>1</mn>
       </math>
   mdn: en-US/docs/Web/MathML/Element/math
   w3c: TR/mathml-core/#the-top-level-math-element
@@ -1370,11 +1381,20 @@
 - id: sanitizer_api
   name: Sanitizer API
   needsTranslation: true
-  description: API to prevent XSS attacks by sanitizing strings of HTML.
+  description: API to prevent XSS attacks by sanitizing untrusted strings of HTML.
+  example:
+    language: js
+    code: |
+      const sanitizer = Sanitizer({
+        elements: ["p", "div"],
+        replaceWithChildrenElements: ["b"],
+        attributes: ["cite", "onclick"],
+      });
   tags:
     - features
 
 - id: scoped_element_registries
+  experimental: true # proposal/unsupported feature
   name: Scoped Custom Element Registries
   needsTranslation: true
   description:
@@ -1777,6 +1797,14 @@
   webFeaturesId: hidden-until-found
   name: |
     `hidden="until-found"`
+  description: |
+    Hide an element until it is found (e.g. via a find-in-page search or when targeted by the URL hash).
+  example:
+    language: html
+    code: |
+      <section class="drawer" aria-expanded="false" hidden="until-found">
+        <!-- content -->
+      </section>
 
 - id: element_move_before
   webFeaturesId: move-before

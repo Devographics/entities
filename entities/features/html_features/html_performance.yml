@@ -2,10 +2,34 @@
   webFeaturesId: link-rel-expect
   name: |
     `<link rel="expect">`
+  description: |
+    Block rendering until the element referenced by the `href` value is connected and fully parsed.
+  example:
+    language: html
+    code: |
+      <link rel="expect" href="#hero" blocking="render">
 
 - id: speculation_rules
   webFeaturesId: speculation-rules
   name: Speculation Rules
+  description: |
+    Hints for the browser to proactively download pages in the background to improve performance.
+  example:
+    language: html
+    code: |
+      <script type="speculationrules">
+        {
+          "prefetch": [{ "urls": ["/about", "/pricing"] }],
+          "prerender": [
+            {
+              "where": {
+                "href_matches": "^/product/\\d+$",
+                "selector_matches": "a.nav-link"
+              }
+            }
+          ]
+        }
+      </script>
 
 - id: img_sizes_auto
   webFeaturesId: sizes-auto

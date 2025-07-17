@@ -136,6 +136,13 @@
 
 - id: webxr
   name: navigator.xr (WebXR Device API)
+  description: |
+    Create AR/VR sessions with compatible output devices.
+  example:
+    language: js
+    code: |
+      const xr = navigator.xr;
+      const session = await xr?.requestSession("immersive-vr");
   mdn: /en-US/docs/Web/API/WebXR_Device_API
   caniuse: webxr
 
@@ -491,6 +498,14 @@
 - id: web_nfc_api
   webFeaturesId: web-nfc
   name: Web NFC API
+  description: |
+    Read from and write to NFC tags using a device’s built-in NFC reader.
+  example:
+    language: js
+    code: |
+      const reader = new NDEFReader();
+      await reader.scan();
+      reader.onreading = e => console.log(e.message.records);
   mdn: en-US/docs/Web/API/Web_NFC_API
   patterns:
     - nfc
@@ -505,6 +520,15 @@
   webFeaturesId: speech-recognition
   name: |
     `SpeechRecognition`
+  description: |
+    API that converts microphone input to text.
+  example:
+    language: js
+    code: |
+      const rec = new SpeechRecognition();
+      rec.lang = "en-US";
+      rec.addEventListener("result", e => console.log(e.results[0][0].transcript));
+      rec.start();
   mdn: en-US/docs/Web/API/SpeechRecognition
   patterns:
     - speech( )?recognition

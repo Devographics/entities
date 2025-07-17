@@ -5,3 +5,9 @@
   webFeaturesId: registerprotocolhandler
   name: |
     `registerProtocolHandler()`
+  description: |
+    Lets a web app register itself as the handler for certain protocols (like `mailto:` or `web+custom:`).
+  example:
+    language: js
+    code: |
+      navigator.registerProtocolHandler("mailto", "https://fancywebmail.com/?compose=%s");
