@@ -56,3 +56,16 @@
   resources:
     - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/reference-target-explainer.md
       title: Reference Target for Cross-Root ARIA
+
+- id: has_slotted
+  webFeaturesId: has-slotted
+  name: |
+    `:has-slotted`
+  description: |
+    CSS pseudo-class that allows targeting `<slot>` elements only when they have slotted nodes.
+  example:
+    language: css
+    code: |
+      .icon-wrapper slot[name=icon]:not(:has-slotted) {
+        display: none;
+      }
