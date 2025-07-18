@@ -135,7 +135,7 @@
   caniuse: web-share
 
 - id: webxr
-  name: navigator.xr (WebXR Device API)
+  name: "`navigator.xr` (WebXR Device API)"
   description: |
     Create AR/VR sessions with compatible output devices.
   example:
@@ -497,7 +497,7 @@
 
 - id: web_nfc_api
   webFeaturesId: web-nfc
-  name: Web NFC API
+  name: Web NFC
   description: |
     Read from and write to NFC tags using a device’s built-in NFC reader.
   example:

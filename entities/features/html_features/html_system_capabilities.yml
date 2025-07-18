@@ -4,7 +4,7 @@
 - id: register_protocol_handler
   webFeaturesId: registerprotocolhandler
   name: |
-    `registerProtocolHandler()`
+    `navigator.registerProtocolHandler()`
   description: |
     Lets a web app register itself as the handler for certain protocols (like `mailto:` or `web+custom:`).
   example:

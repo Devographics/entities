@@ -1,5 +1,5 @@
 - id: mapviewer_element
-  name: MapML
+  name: "`<mapviewer>` (Inline MapML)"
   isExperimental: true # proposal/unsupported feature
   description: |
     Embed interactive maps in HTML.
@@ -12,7 +12,7 @@
 
 - id: canvas_colorspace
   webFeaturesId: canvas-2d-color-management
-  name: Color management for 2D canvas
+  name: "`colorSpace` for 2D canvas"
   description: |
     Set the color space for the graphics being drawn on a  `<canvas>` element.
   example:
@@ -23,7 +23,7 @@
 - id: canvas_drawelement
   isExperimental: true # proposal/unsupported feature
   name: |
-    `ctx.drawElement()`
+    `ctx.drawElement()` (HTML in canvas)
   description: |
     Draw an HTML element on `<canvas>`,  with conveniences for redrawing and hit testing.
   example:
