@@ -97,8 +97,8 @@
     - transition api
 
 - id: web_bluetooth_api
-  webFeaturesId: web-bluetoot
-  name: Web Bluetooth API
+  webFeaturesId: web-bluetooth
+  name: Web Bluetooth
   description: |
     Connect to and communicate with nearby Bluetooth Low Energy (BLE) devices.
   example:
@@ -204,7 +204,7 @@
 
 - id: web_usb_api
   webFeaturesId: webusb
-  name: WebUSB
+  name: Web USB
   description: |
     Directly communicate with USB devices, enabling data exchange without drivers or native apps.
   example:
@@ -215,8 +215,7 @@
 
 - id: payment_request_api
   webFeaturesId: payment-request
-  name: |
-    `PaymentRequest` API
+  name: Payment Request API
   description: |
     Enables a consistent, secure way for websites to request payments using the browser’s native UI.
   example:

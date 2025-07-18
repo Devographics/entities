@@ -6,7 +6,7 @@
 
 - id: accordion_element
   webFeaturesId: details-name
-  name: Exclusive Accordion
+  name: "`<details name>` (Exclusive Accordion)"
   needsTranslation: true
   description:
     Group `<details>` elements so that only up to one in the group can
@@ -476,7 +476,7 @@
 
 - id: dialog_closedby
   webFeaturesId: dialog-closedby
-  name: "`<dialog closedby>`"
+  name: "`<dialog closedby="any">`"
   description: |
     Controls which user actions close a dialog. For example `<dialog closedby="any">` allows the dialog to be closed by clicking outside of it (light dismiss).
 
@@ -503,7 +503,7 @@
 
 - id: element_internals
   webFeaturesId: form-associated-custom-elements
-  name: "`ElementInternals` API"
+  name: "`ElementInternals`"
   needsTranslation: false
   description: Assign hidden semantics to custom elements, facilitating
     accessibility and allowing them to participate fully in forms.
@@ -741,7 +741,7 @@
 
 - id: imperative_slot
   webFeaturesId: slot-assign
-  name: Imperative slot assignment
+  name: '`slotAssignment: "manual"` (Imperative slot assignment)'
   needsTranslation: true
   description: A way to assign elements to slots manually via JS, so that slot
     assignment does not have to be managed by the component consumers.
@@ -881,7 +881,8 @@
     - features
 
 - id: lazy_loading
-  name: Lazy loading
+  name: |
+    `loading="lazy"`
   needsTranslation: true
   description: Load certain resources only when needed.
   example:
@@ -938,7 +939,7 @@
     - features
 
 - id: model_element
-  name: "`<model>` for AR/VR/3D content"
+  name: "`<model>` (Inline AR/VR/3D content)"
   needsTranslation: false
   description: |
     Allows embedding 3D models in HTML with built-in controls.
@@ -1102,7 +1103,7 @@
     - canvas
 
 - id: svg_element
-  name: "`<svg>` (inline SVG)"
+  name: "`<svg>` (Inline SVG)"
   description: Embed SVG vector graphics directly in markup
   example:
     language: html
@@ -1116,7 +1117,7 @@
     - features
 
 - id: math_element
-  name: "`<math>` (inline MathML)"
+  name: "`<math>` (Inline MathML)"
   description: Display math directly in HTML, using MathML.
   example:
     language: html
@@ -1156,7 +1157,7 @@
 
 - id: popover_api
   webFeaturesId: popover
-  name: Popover API
+  name: "`popover` attribute (Popover API)"
   needsTranslation: false
   description: HTML syntax and JS API facilitating popovers such as overlays,
     popups, menus etc.
@@ -1379,7 +1380,7 @@
     - features
 
 - id: sanitizer_api
-  name: Sanitizer API
+  name: "`element.setHTML()` and `Document.parseHTML()` (Sanitizer API)"
   needsTranslation: true
   description: API to prevent XSS attacks by sanitizing untrusted strings of HTML.
   example:
@@ -1775,7 +1776,7 @@
 - id: invokers
   webFeaturesId: invoker-commands
   name: |
-    `command` and `commandfor` attributes (Invokers)
+    `command` and `commandfor` attributes (Command Invokers)
   description: |
     A declarative way for `<button>` to invoke predefined custom commands.
   example:
