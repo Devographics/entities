@@ -14,11 +14,11 @@
   example:
     language: html
     code: |-
-      <details open name="sidebar_panel" id="main_info">
+      <details open name="sidebar_panel">
       	<summary>Main info</summary>
       	<!-- controls -->
       </details>
-      <details name="sidebar_panel" id="style_settings">
+      <details name="sidebar_panel">
       	<summary>Style</summary>
       	<!-- controls -->
       </details>
