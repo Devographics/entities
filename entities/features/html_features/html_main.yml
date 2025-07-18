@@ -476,7 +476,8 @@
 
 - id: dialog_closedby
   webFeaturesId: dialog-closedby
-  name: "`<dialog closedby="any">`"
+  name: |
+    `<dialog closedby="any">`
   description: |
     Controls which user actions close a dialog. For example `<dialog closedby="any">` allows the dialog to be closed by clicking outside of it (light dismiss).
 
@@ -1380,9 +1381,10 @@
     - features
 
 - id: sanitizer_api
-  name: "`element.setHTML()` and `Document.parseHTML()` (Sanitizer API)"
+  name: Sanitizer API
   needsTranslation: true
-  description: API to prevent XSS attacks by sanitizing untrusted strings of HTML.
+  description: |
+    `element.setHTML()` and `Document.parseHTML()`. API to prevent XSS attacks by sanitizing untrusted strings of HTML.
   example:
     language: js
     code: |
