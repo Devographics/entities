@@ -100,6 +100,6 @@
   example:
     language: css
     code: |
-      .icon-wrapper slot[name=icon]:not(:has-slotted) {
+      .icon-wrapper:not(:has(slot[name=icon]:has-slotted)) {
         display: none;
       }
