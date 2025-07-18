@@ -90,3 +90,11 @@
 - id: direction_property
   name: |
     `direction` CSS property
+
+- id: intl_locale
+  webFeaturesId: intl-locale
+  name: |
+    `Intl.Locale` API
+  description: |
+    The `Intl.Locale` API parses Unicode locale identifiers, with language, region, and script codes, such as `zh-Hans-CN` or `en-GB`.
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale
