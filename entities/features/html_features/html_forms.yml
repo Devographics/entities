@@ -215,3 +215,8 @@
     `<input type="checkbox" switch>`
   description: |
     A way to render a checkbox as a switch.
+  resources:
+    - url: https://webkit.org/blog/15054/an-html-switch-control/
+      title: An HTML Switch Control | WebKit
+    - url: https://www.smashingmagazine.com/2024/05/switching-it-up-html-latest-control/
+      title: Switching It Up With HTML’s Latest Control — Smashing Magazine
