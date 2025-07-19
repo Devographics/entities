@@ -117,6 +117,14 @@
     code: |
       const adapter = await navigator.gpu.requestAdapter();
       const device = await adapter?.requestDevice();
+  mdn: /en-US/docs/Web/API/WebGPU_API
+  resources:
+    - url: https://developer.chrome.com/blog/webgpu-io2023/
+      title: WebGPU: Unlocking modern GPU access in the browser  |  Blog  |  Chrome for Developers
+    - url: https://developer.chrome.com/docs/web-platform/webgpu/
+      title: WebGPU  |  Chrome for Developers
+    - url: https://webkit.org/demos/webgpu/
+      title: WebGPU demos
 
 - id: avif
   name: AVIF
