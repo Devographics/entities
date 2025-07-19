@@ -8,6 +8,7 @@
     language: html
     code: |
       <link rel="expect" href="#hero" blocking="render">
+  mdn: /en-US/docs/Web/HTML/Reference/Attributes/rel#expect
 
 - id: speculation_rules
   webFeaturesId: speculation-rules
