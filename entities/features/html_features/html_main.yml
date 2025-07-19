@@ -1825,6 +1825,10 @@
     language: js
     code: |
       referenceElement.parentNode.moveBefore(newElement, referenceElement);
+  mdn: /en-US/docs/Web/API/Element/moveBefore
+  resources:
+    - url: https://developer.chrome.com/blog/movebefore-api
+      title: Preserve state during DOM mutations with moveBefore()  |  Blog  |  Chrome for Developers
 
 - id: element_before
   name: |
