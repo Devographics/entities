@@ -1801,6 +1801,12 @@
         </button>
         *dialog content*
       </dialog>
+  mdn: /en-US/docs/Web/API/Invoker_Commands_API
+  resources:
+    - url: https://open-ui.org/components/invokers.explainer/
+      title: Invoker Commands (Explainer) | Open UI
+    - url: https://css-tricks.com/invoker-commands-additional-ways-to-work-with-dialog-popover-and-more/
+      title: Invoker Commands: Additional Ways to Work With Dialog, Popover… and More? | CSS-Tricks
 
 - id: hidden_until_found
   webFeaturesId: hidden-until-found
