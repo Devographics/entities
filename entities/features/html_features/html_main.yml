@@ -1205,6 +1205,16 @@
       <button popovertarget="tooltip">
         Save
       </button>
+  mdn: /en-US/docs/Web/HTML/Reference/Global_attributes/popover#hint
+  resources:
+    - url: https://open-ui.org/components/popover-hint.research.explainer/
+      title: Popover=hint (Explainer) | Open UI
+    - url: https://developer.chrome.com/blog/popover-hint
+      title: Popover = hint  |  Blog  |  Chrome for Developers
+    - url: https://una.im/popover-hint/
+      title: una.im | What is popover=hint?
+    - url: https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint
+      title: HTML Standard
 
 - id: portal_element
   name: "`<portal>`"
