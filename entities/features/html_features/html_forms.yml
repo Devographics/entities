@@ -79,6 +79,10 @@
     - html_interoperability_features
   patterns:
     - color( |-)?picker
+  mdn: en-US/docs/Web/HTML/Reference/Elements/input/color
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color)
+      title: HTML Standard
 
 - id: input_type_color_colospace
   name: |
@@ -87,6 +91,11 @@
     Creates a color picker which allows the user to select a wide-gamut (P3) color.
   tags:
     - html_interoperability_features
+  resources:
+    - url: https://webkit.org/blog/16900/p3-and-alpha-color-pickers/
+      title: Add wide gamut P3 and alpha transparency to your color picker in HTML | WebKit
+    - url: https://html.spec.whatwg.org/multipage/input.html#attr-input-colorspace
+      title: HTML Standard
 
 - id: input_type_color_alpha
   name: |
@@ -95,6 +104,11 @@
     Creates a color picker which allows the user to select a semi-transparent color.
   tags:
     - html_interoperability_features
+  resources:
+    - url: https://webkit.org/blog/16900/p3-and-alpha-color-pickers/
+      title: Add wide gamut P3 and alpha transparency to your color picker in HTML | WebKit
+    - url: https://html.spec.whatwg.org/multipage/input.html#attr-input-alpha
+      title: HTML Standard
 
 - id: input_type_color_list
   name: |
