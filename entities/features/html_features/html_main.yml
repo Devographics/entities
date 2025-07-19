@@ -1814,6 +1814,10 @@
       <section class="drawer" aria-expanded="false" hidden="until-found">
         <!-- content -->
       </section>
+  mdn: /en-US/docs/Web/HTML/Reference/Global_attributes/hidden#the_hidden_until_found_state
+  resources:
+    - url: https://developer.chrome.com/docs/css-ui/hidden-until-found
+      title: Making collapsed content accessible with hidden=until-found  |  CSS and UI  |  Chrome for Developers
 
 - id: element_move_before
   webFeaturesId: move-before
