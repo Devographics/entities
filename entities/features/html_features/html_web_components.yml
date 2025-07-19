@@ -5,10 +5,12 @@
 #################################################
 
 - id: slot_element
+  webFeaturesId: slot
   name: |
     `<slot>`  element
 
 - id: slot_attribute
+  webFeaturesId: slot
   name: |
     `slot` attribute
   description: |

@@ -200,6 +200,7 @@
     - features
 
 - id: contenteditable_plaintext
+  webFeaturesId: contenteditable-plaintextonly
   name: '`contenteditable="plaintext-only"`'
   needsTranslation: false
   description: Permits editing of the element's raw text, but not rich text formatting.
@@ -1088,6 +1089,7 @@
     - features
 
 - id: canvas_element
+  webFeaturesId: canvas
   name: "`<canvas>`"
   description: |
     Element for drawing dynamic 2D or 3D graphics using JavaScript.
@@ -1105,6 +1107,7 @@
     - canvas
 
 - id: svg_element
+  webFeaturesId: svg
   name: "`<svg>` (Inline SVG)"
   description: Embed SVG vector graphics directly in markup
   example:
@@ -1694,6 +1697,7 @@
     - features
 
 - id: web_share_api
+  webFeaturesId: share
   name: Web Share API
   needsTranslation: true
   description: Exposes a mechanism for sharing content to various user-selected targets.
@@ -1755,6 +1759,7 @@
     - features
 
 - id: file_handling_api
+  webFeaturesId: app-file-handlers
   name: |
     `file_handlers` manifest field
   needsTranslation: true
