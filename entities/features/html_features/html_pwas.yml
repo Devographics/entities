@@ -204,7 +204,7 @@
 
 - id: web_usb_api
   webFeaturesId: webusb
-  name: Web USB
+  name: WebUSB API
   description: |
     Directly communicate with USB devices, enabling data exchange without drivers or native apps.
   example:
@@ -215,7 +215,8 @@
 
 - id: payment_request_api
   webFeaturesId: payment-request
-  name: Payment Request API
+  name: |
+    `PaymentRequest` API
   description: |
     Enables a consistent, secure way for websites to request payments using the browser’s native UI.
   example:

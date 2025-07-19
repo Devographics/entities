@@ -35,3 +35,5 @@
   webFeaturesId: sizes-auto
   name: |
     `<img sizes="auto" loading="lazy">`
+  description: |
+    The `sizes="auto"` attribute reserves layout space for an image before it loads, avoiding some layout shifts.

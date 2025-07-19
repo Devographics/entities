@@ -344,7 +344,7 @@
   example:
     language: html
     code: |
-      <my-switch start="Enabled" end="Disabled">Wi-Fi</my-switch>
+      <my-switch start="On" end="Off">Wi-Fi</my-switch>
   mdn: en-US/docs/Web/API/Web_components/Using_custom_elements
   tags:
     - features
@@ -479,7 +479,7 @@
   name: |
     `<dialog closedby="any">`
   description: |
-    Controls which user actions close a dialog. For example `<dialog closedby="any">` allows the dialog to be closed by clicking outside of it (light dismiss).
+    Allows the dialog to be closed by clicking outside of it (light dismiss).
 
 - id: dialog_requestclose
   webFeaturesId: requestclose
@@ -511,8 +511,8 @@
   example:
     language: js
     code: |-
-      this.#internals = this.attachInternals();
-      this.#internals.role = "progressbar";
+      this._internals = this.attachInternals();
+      this._internals.role = "progressbar";
   mdn: en-US/docs/Web/API/ElementInternals
   resources:
     - url: https://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface
@@ -882,6 +882,7 @@
     - features
 
 - id: lazy_loading
+  webFeaturesId: loading-lazy
   name: |
     `loading="lazy"`
   needsTranslation: true
@@ -1118,6 +1119,7 @@
     - features
 
 - id: math_element
+  webFeaturesId: mathml
   name: "`<math>` (Inline MathML)"
   description: Display math directly in HTML, using MathML.
   example:
@@ -1753,7 +1755,8 @@
     - features
 
 - id: file_handling_api
-  name: File Handling API
+  name: |
+    `file_handlers` manifest field
   needsTranslation: true
   description: Allows PWAs to register themselves as handlers for certain file types.
   example:
@@ -1816,7 +1819,7 @@
   example:
     language: js
     code: |
-      referenceElement.parentNode.before(newElement, referenceElement);
+      referenceElement.parentNode.moveBefore(newElement, referenceElement);
 
 - id: element_before
   name: |

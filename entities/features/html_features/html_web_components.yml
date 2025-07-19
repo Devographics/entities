@@ -18,8 +18,8 @@
     code: |
       <my-switch>
         Wi-Fi
-        <span slot="start">Enabled</span>
-        <span slot="end">Diabled</span>
+        <i slot="start" class="icon-on">On</i>
+        <i slot="end" class="icon-off">Off</i>
       </my-switch>
 
 # see also part_selector. duplicate?
@@ -70,6 +70,8 @@
           <style>#base { /* ... */ }</style>
         </template>
       </definition>
+
+      <progress-ring value="50"></progress-ring>
   resources:
     - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Declarative-Custom-Elements-Strawman.md
       title: Declarative Syntax for Custom Elements
@@ -78,7 +80,7 @@
   isExperimental: true # proposal/unsupported feature
   name: Reference Target API
   description: |
-    A way to “redirect” id references to a component to elements in its shadow DOM.
+    A way to “redirect” id references to a component to elements in its shadow DOM (for ARIA, labels, popovers etc).
   example:
     language: js
     code: |
@@ -100,6 +102,6 @@
   example:
     language: css
     code: |
-      .icon-wrapper:not(:has(slot[name=icon]:has-slotted)) {
+      slot[name=icon]:not(:has-slotted) + .icon-label {
         display: none;
       }
