@@ -37,3 +37,4 @@
     `<img sizes="auto" loading="lazy">`
   description: |
     The `sizes="auto"` attribute reserves layout space for an image before it loads, avoiding some layout shifts.
+  mdn: /en-US/docs/Web/HTML/Reference/Elements/img#auto_3
