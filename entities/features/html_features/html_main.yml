@@ -481,12 +481,20 @@
     `<dialog closedby="any">`
   description: |
     Allows the dialog to be closed by clicking outside of it (light dismiss).
+  mdn: /en-US/docs/Web/HTML/Reference/Elements/dialog#closedby
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby
+      title: HTML Standard
 
 - id: dialog_requestclose
   webFeaturesId: requestclose
   name: "`dialog.requestClose()`"
   description: |
     Closes the dialog in a way that can be cancelled (unlike `dialog.close()`).
+  mdn: /en-us/docs/web/api/htmldialogelement/requestclose
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-requestclose
+      title: HTML Standard
 
 - id: dom_parts
   name: DOM Parts
