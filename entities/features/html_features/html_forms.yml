@@ -79,7 +79,7 @@
     - html_interoperability_features
   patterns:
     - color( |-)?picker
-  mdn: en-US/docs/Web/HTML/Reference/Elements/input/color
+  mdn: /en-US/docs/Web/HTML/Reference/Elements/input/color
   resources:
     - url: https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color)
       title: HTML Standard
