@@ -120,9 +120,9 @@
   mdn: /en-US/docs/Web/API/WebGPU_API
   resources:
     - url: https://developer.chrome.com/blog/webgpu-io2023/
-      title: WebGPU: Unlocking modern GPU access in the browser  |  Blog  |  Chrome for Developers
+      title: "WebGPU: Unlocking modern GPU access in the browser"
     - url: https://developer.chrome.com/docs/web-platform/webgpu/
-      title: WebGPU  |  Chrome for Developers
+      title: WebGPU
     - url: https://webkit.org/demos/webgpu/
       title: WebGPU demos
 
