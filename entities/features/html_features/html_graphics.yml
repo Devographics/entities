@@ -19,6 +19,10 @@
     language: js
     code: |
       const ctx = canvas.getContext("2d", {colorSpace: "display-p3"});
+  mdn: /en-US/docs/Web/API/HTMLCanvasElement/getContext#colorspace
+  resources:
+    - url: https://webkit.org/blog/12058/wide-gamut-2d-graphics-using-html-canvas/
+      title: Wide Gamut 2D Graphics using HTML Canvas | WebKit
 
 - id: canvas_drawelement
   isExperimental: true # proposal/unsupported feature
