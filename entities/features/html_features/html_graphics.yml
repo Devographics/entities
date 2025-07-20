@@ -50,6 +50,10 @@
     language: html
     code: |
       <img src="image.jxl" />
+  caniuse: jpegxl
+  resources:
+    - url: https://jpeg.org/jpegxl/
+      title: JPEG - JPEG XL
 
 - id: media_capture
   webFeaturesId: html-media-capture
