@@ -1412,6 +1412,7 @@
     language: js
     code: |
       greeting.setHTML('Hello ' + nameInput.value);
+  mdn: /en-US/docs/Web/API/HTML_Sanitizer_API
   tags:
     - features
 
