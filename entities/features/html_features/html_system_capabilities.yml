@@ -11,3 +11,7 @@
     language: js
     code: |
       navigator.registerProtocolHandler("mailto", "https://fancywebmail.com/?compose=%s");
+  mdn: /en-US/docs/Web/API/Navigator/registerProtocolHandler
+  resources:
+    - url: https://developer.chrome.com/docs/web-platform/best-practices/url-protocol-handler
+      title: URL protocol handler registration for PWAs  |  Web Platform  |  Chrome for Developers
