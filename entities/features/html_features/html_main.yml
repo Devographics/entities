@@ -113,7 +113,7 @@
   name: '`blocking="render"`'
   needsTranslation: false
   description: |
-    Block rendering (but not parsing) until certain resources have been loaded. Available on `<link> `, `<script>` and `<style> `.
+    Block rendering (but not parsing) until certain resources have been loaded. Available on `<link>`, `<script>` and `<style>`.
   example:
     language: html
     code: <script blocking="render" async src="async-script.js"></script>
@@ -1635,7 +1635,7 @@
   name: "`tabindex` attribute"
   needsTranslation: true
   description: Make HTML elements focusable, allow or prevent them from being
-    sequentially focusable
+    sequentially focusable.
   example:
     language: html
     code: <div role="button" tabindex="0">I’m Tabbable</div>
