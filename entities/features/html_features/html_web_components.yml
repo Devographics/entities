@@ -108,3 +108,4 @@
       slot[name=icon]:not(:has-slotted) + .icon-label {
         display: none;
       }
+  mdn: /en-US/docs/Web/CSS/:has-slotted
