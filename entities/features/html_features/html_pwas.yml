@@ -113,6 +113,10 @@
       const device = await navigator.bluetooth.requestDevice({ filters: [{ services: ["heart_rate"] }] });
   patterns:
     - bluetooth
+  mdn: /en-US/docs/Web/API/Web_Bluetooth_API
+  resources:
+    - url: https://developer.chrome.com/docs/capabilities/bluetooth
+      title: Communicating with Bluetooth devices over JavaScript  |  Capabilities  |  Chrome for Developers
 
 - id: webgpu
   name: WebGPU
