@@ -23,6 +23,7 @@
         <i slot="start" class="icon-on">On</i>
         <i slot="end" class="icon-off">Off</i>
       </my-switch>
+  mdn: /en-US/docs/Web/HTML/Reference/Global_attributes/slot
 
 # see also part_selector. duplicate?
 - id: part_pseudo
