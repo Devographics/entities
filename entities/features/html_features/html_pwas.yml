@@ -236,3 +236,7 @@
       );
       let response = await request.show();
       response.complete("success"));
+  mdn: /en-US/docs/Web/API/PaymentRequest
+  resources:
+    - url: https://web.dev/explore/payments
+      title: Web Payments  |  web.dev
