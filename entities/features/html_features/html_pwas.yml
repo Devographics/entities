@@ -68,6 +68,12 @@
           "files": [{ "name": "image", "accept": ["image/*"] }]
         }
       }
+  mdn: /en-US/docs/Web/Progressive_web_apps/Manifest/Reference/share_target
+  resources:
+    - url: https://developer.chrome.com/docs/capabilities/web-apis/web-share-target
+      title: Receiving shared data with the Web Share Target API  |  Capabilities  |  Chrome for Developers
+    - url: https://web.dev/patterns/files/receive-shared-files/
+      title: How to receive shared files  |  Files and directories patterns  |  web.dev
 
 - id: app_manifest_launch_handler
   name: |
