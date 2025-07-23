@@ -220,6 +220,10 @@
     code: |
       const device = await navigator.usb.requestDevice({ filters: [{ vendorId: 0x2341 }] });
       await device.open();
+  mdn: /en-US/docs/Web/API/WebUSB_API
+  resources:
+    - url: https://developer.chrome.com/docs/capabilities/usb
+      title: Access USB Devices on the Web  |  Capabilities  |  Chrome for Developers
 
 - id: payment_request_api
   webFeaturesId: payment-request
