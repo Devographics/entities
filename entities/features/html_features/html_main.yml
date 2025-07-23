@@ -889,19 +889,25 @@
   description: "`<main>`, `<nav>`, `<aside>`, `<header>`, `<footer>`, `<section>`"
   resources:
     - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/main
-      title: <main>: The Main element - HTML | MDN
+      title: |
+        <main>: The Main element
     - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/nav
-      title: <nav>: The Navigation Section element - HTML | MDN
+      title: |
+        <nav>: The Navigation Section element
     - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside
-      title: <aside>: The Aside element - HTML | MDN
+      title: |
+        <aside>: The Aside element
     - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header
-      title: <header>: The Header element - HTML | MDN
+      title: |
+      <header>: The Header element
     - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer
-      title: <footer>: The Footer element - HTML | MDN
+      title: |
+        <footer>: The Footer element
     - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section
-      title: <section>: The Generic Section element - HTML | MDN
+      title: |
+      <section>: The Generic Section element
     - url: https://developer.chrome.com/docs/lighthouse/accessibility/use-landmarks/
-      title: HTML5 landmark elements are used to improve navigation  |  Lighthouse  |  Chrome for Developers
+      title: HTML5 landmark elements are used to improve navigation
   tags:
     - features
 
