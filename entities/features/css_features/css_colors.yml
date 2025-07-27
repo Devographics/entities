@@ -168,5 +168,3 @@
         background-color: var(--background-color);
         color: contrast-color(var(--background-color));
       }
-  patterns:
-    - contrast, color [l]

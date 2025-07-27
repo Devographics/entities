@@ -1,5 +1,8 @@
 - id: field_sizing
+  webFeaturesId: field-sizing
   name: "`field-sizing`"
+  description: |
+    Allows form controls such as `<textarea>` to be sized based on their content.
   mdn: /en-US/docs/Web/CSS/field-sizing
   caniuse: mdn-css_properties_field-sizing
   example:

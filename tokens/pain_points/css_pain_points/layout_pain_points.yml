@@ -48,3 +48,24 @@
     - scroll
   tags:
     - interactions_pain_points
+
+- id: absolute_positioning_issues
+  patterns:
+    - absolute
+
+- id: box_model_issues
+  patterns:
+    - box, model [l]
+    - box, sizing [l]
+
+- id: table_layouts_issues
+  patterns:
+    - table
+
+- id: sizing_issues
+  patterns:
+    - sizing
+
+- id: spacing_issues
+  patterns:
+    - spacing

@@ -1,6 +1,7 @@
 - id: contrast_issues
   patterns:
     - contrast
+    - constrast
 
 - id: dark_mode_issues
   patterns:
@@ -10,7 +11,32 @@
   patterns:
     - theme
     - theming
+    - system
 
 - id: selecting_best_color_mode
   patterns:
     - too many
+
+- id: gradients_issues
+  patterns:
+    - gradient
+
+- id: color_spaces_issues
+  patterns:
+    - color spaces
+
+- id: color_manipulation_issues
+
+- id: color_syntax_issues
+  patterns:
+    - syntax
+
+- id: too_many_color_formats
+
+- id: color_generation_issues
+
+- id: new_color_spaces_adoption_issues
+
+- id: color_variables_issues
+  patterns:
+    - variable

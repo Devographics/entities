@@ -333,6 +333,7 @@
   caniuse: css3-attr
 
 - id: advanced_attr_function
+  webFeaturesId: attr
   name: Advanced `attr()`
   description: Support for properties other than content
   patterns:
@@ -497,7 +498,10 @@
       }
 
 - id: sibling_index
+  webFeaturesId: sibling-count
   name: "`sibling-index()`"
+  mdn: en-US/docs/Web/CSS/sibling-index
+  caniuse: mdn-css_types_sibling-index
   resources:
     - title: "Tree Counting Functions: the sibling-count() and sibling-index() notations"
       url: https://www.w3.org/TR/css-values-5/#tree-counting
@@ -505,13 +509,19 @@
       url: https://nerdy.dev/sibling-index
 
 - id: sibling_count
+  webFeaturesId: sibling-count
   name: "`sibling-count()`"
+  mdn: en-US/docs/Web/CSS/sibling-count
+  caniuse: mdn-css_types_sibling-count
   resources:
     - title: "Tree Counting Functions: the sibling-count() and sibling-index() notations"
       url: https://www.w3.org/TR/css-values-5/#tree-counting
 
 - id: at_function
+  webFeaturesId: function
   name: "`@function`"
+  description: |
+    The `@function` CSS at-rule defines a custom function that takes CSS values or custom properties as arguments, and returns a CSS value.
   resources:
     - title: Functions in CSS?!
       url: https://css-tricks.com/functions-in-css/
@@ -525,7 +535,10 @@
       }
 
 - id: display_contents
+  webFeaturesId: display-contents
   name: "`display: contents`"
+  description: |
+    Sets an element to display only its contents, not itself.
   patterns:
     - "display: content"
     - "display:content"
@@ -533,7 +546,10 @@
     - browser_interoperability
 
 - id: if_function
+  webFeaturesId: if
   name: "`if()`"
+  description: |
+    The `if()` CSS function is an inline conditional value that returns a value based on a set of conditions.
   example:
     language: css
     code: |
