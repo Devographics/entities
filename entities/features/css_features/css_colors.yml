@@ -142,6 +142,7 @@
 
 - id: gradient_color_spaces
   webFeaturesId: gradient-interpolation
+  name: Interpolation Color Spaces
   # mdn:
   caniuse: mdn-css_types_image_gradient_conic-gradient_interpolation_color_space
   resources:
