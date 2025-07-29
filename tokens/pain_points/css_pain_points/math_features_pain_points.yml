@@ -2,11 +2,6 @@
   patterns:
     - random
 
-- id: math_is_hard
-  patterns:
-    - hard
-    - pain
-
 - id: handling_units
   patterns:
     - units

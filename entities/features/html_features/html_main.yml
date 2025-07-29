@@ -1215,6 +1215,7 @@
   tags:
     - features
     - interactivity_pain_points
+    - favorite_new_features
   patterns:
     - pop( |-)?over
     - popup

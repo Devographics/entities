@@ -109,12 +109,6 @@
 - id: random
   name: "`random()` Function"
 
-- id: popups_popovers
-  name: Popups & Popovers
-  patterns:
-    - popup
-    - popover
-
 - id: animate_to_auto
   name: Animate to Auto
   patterns:

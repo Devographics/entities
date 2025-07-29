@@ -17,7 +17,7 @@
   patterns:
     - too many
 
-- id: gradients_issues
+- id: gradient_issues
   patterns:
     - gradient
 
