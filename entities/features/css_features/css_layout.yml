@@ -156,6 +156,7 @@
       }
 
 - id: at_container
+  webFeaturesId: container-queries
   name: >
     `@container`
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
@@ -169,13 +170,12 @@
           grid-template-columns: 2fr 1fr;
         }
       }
-  patterns:
-    - "@container [e]"
-    - container [e]
-    - containers [e]
-    - container( |-)(media|width)? ?quer(y|ies)
-    - (element|object|component)s? (based )?(media )?quer(y|ies)
-    - html_interoperability_features
+  # patterns:
+  #   - "@container [e]"
+  #   - container [e]
+  #   - containers [e]
+  #   - container( |-)(media|width)? ?quer(y|ies)
+  #   - (element|object|component)s? (based )?(media )?quer(y|ies)
 
 - id: at_container_size
   webFeaturesId: container-queries
@@ -197,7 +197,6 @@
     # - container # too broad
     - container( |-)(media|width)? ?quer(y|ies)
     - (element|object|component)s? (based )?(media )?quer(y|ies)
-    - html_interoperability_features
 
 - id: at_container_style
   webFeaturesId: container-style-queries
