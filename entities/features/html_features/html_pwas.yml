@@ -71,9 +71,9 @@
   mdn: /en-US/docs/Web/Progressive_web_apps/Manifest/Reference/share_target
   resources:
     - url: https://developer.chrome.com/docs/capabilities/web-apis/web-share-target
-      title: Receiving shared data with the Web Share Target API  |  Capabilities  |  Chrome for Developers
+      title: Receiving shared data with the Web Share Target API
     - url: https://web.dev/patterns/files/receive-shared-files/
-      title: How to receive shared files  |  Files and directories patterns  |  web.dev
+      title: How to receive shared files
 
 - id: app_manifest_launch_handler
   name: |
@@ -116,7 +116,7 @@
   mdn: /en-US/docs/Web/API/Web_Bluetooth_API
   resources:
     - url: https://developer.chrome.com/docs/capabilities/bluetooth
-      title: Communicating with Bluetooth devices over JavaScript  |  Capabilities  |  Chrome for Developers
+      title: Communicating with Bluetooth devices over JavaScript
 
 - id: webgpu
   name: WebGPU
@@ -233,7 +233,7 @@
   mdn: /en-US/docs/Web/API/WebUSB_API
   resources:
     - url: https://developer.chrome.com/docs/capabilities/usb
-      title: Access USB Devices on the Web  |  Capabilities  |  Chrome for Developers
+      title: Access USB Devices on the Web
 
 - id: payment_request_api
   webFeaturesId: payment-request
@@ -253,4 +253,4 @@
   mdn: /en-US/docs/Web/API/PaymentRequest
   resources:
     - url: https://web.dev/explore/payments
-      title: Web Payments  |  web.dev
+      title: Web Payments

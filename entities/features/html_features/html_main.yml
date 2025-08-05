@@ -1240,9 +1240,9 @@
     - url: https://open-ui.org/components/popover-hint.research.explainer/
       title: Popover=hint (Explainer) | Open UI
     - url: https://developer.chrome.com/blog/popover-hint
-      title: Popover = hint  |  Blog  |  Chrome for Developers
+      title: Popover = hint
     - url: https://una.im/popover-hint/
-      title: una.im | What is popover=hint?
+      title: What is popover=hint?
     - url: https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint
       title: HTML Standard
 
@@ -1864,7 +1864,7 @@
   mdn: /en-US/docs/Web/HTML/Reference/Global_attributes/hidden#the_hidden_until_found_state
   resources:
     - url: https://developer.chrome.com/docs/css-ui/hidden-until-found
-      title: Making collapsed content accessible with hidden=until-found  |  CSS and UI  |  Chrome for Developers
+      title: Making collapsed content accessible with hidden=until-found
 
 - id: element_move_before
   webFeaturesId: move-before
@@ -1879,7 +1879,7 @@
   mdn: /en-US/docs/Web/API/Element/moveBefore
   resources:
     - url: https://developer.chrome.com/blog/movebefore-api
-      title: Preserve state during DOM mutations with moveBefore()  |  Blog  |  Chrome for Developers
+      title: Preserve state during DOM mutations with moveBefore()
 
 - id: element_before
   name: |
