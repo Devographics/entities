@@ -32,7 +32,6 @@
     - has\(\)
     - ":has"
     - has [e]
-    - has()
   tags:
     - css
     - css_selectors
