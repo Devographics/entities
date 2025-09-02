@@ -170,3 +170,7 @@
 - id: substack
   name: Substack
   homepageUrl: https://substack.com/
+
+- id: mixi2
+  name: mixi2
+  homepageUrl: https://mixi.social/
