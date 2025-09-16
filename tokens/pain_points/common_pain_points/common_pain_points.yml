@@ -22,7 +22,7 @@
 
 - id: browser_support
   name: Browser support
-  description: Browser support, compatibility, and consistency issues
+  description: Browser support, compatibility, and consistency issues.
   patterns:
     - browser adoption
     - consistency

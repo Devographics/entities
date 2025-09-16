@@ -26,6 +26,13 @@
     - vs_code
     - vs( |-|_)?code
 
+- id: vs_code
+  name: "VS Code"
+  homepageUrl: https://code.visualstudio.com/
+  patterns:
+    - vs_code
+    - vs( |-|_)?code
+
 - id: visual_studio_not_code
   name: Visual Studio
   homepageUrl: https://visualstudio.microsoft.com/

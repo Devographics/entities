@@ -1733,7 +1733,7 @@
     code: |
       let repoPattern = new URLPattern("https://github.com/:owner/:repo/");
   mdn: en-US/docs/Web/API/URLPattern
-  caniuse: mdn-api_urlpattern](https://caniuse.com/mdn-api_urlpattern
+  caniuse: https://caniuse.com/mdn-api_urlpattern
   tags:
     - features
 

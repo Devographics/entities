@@ -382,6 +382,27 @@
       let chunksOf2 = Array.from(digits().chunks(2));
       // [ [0, 1], [2, 3], [4, 5], [6, 7], [8, 9] ]
 
+- id: js_iterator_methods
+  webFeaturesId: iterator-methods
+  name: Iterator Methods
+  description: >
+    Helper methods such as `map`, `filter`, `reduce`, and others applied to Iterators.
+  resources:
+    - title: Iterator helpers have become Baseline Newly available
+      url: https://web.dev/blog/baseline-iterator-helpers
+  example:
+    language: js
+    code: |
+      function* factorials (n) {
+        let result = 1;
+        for (let i = 1; i <= n; i++) {
+          result *= i;
+          yield result;
+        }
+      }
+
+      const filteredFactorials = factorials(128).filter(x => x % 8 === 0);
+
 - id: js_get_or_insert
   name: |
     `map.getOrInsert()`
@@ -684,3 +705,22 @@
     - type, comments [l]
   tags:
     - native_types_proposal
+
+- id: structured_clone
+  webFeaturesId: structured-clone
+  name: >
+    `structuredClone()`
+  description: Creates a deep copy of an object.
+
+- id: scheduler_api
+  webFeaturesId: scheduler
+  name: Scheduler API
+  description: The Scheduler API provides a way to prioritize all tasks belonging to an application.
+  mdn: en-US/docs/Web/API/Scheduler
+  example:
+    language: js
+    code: |
+      scheduler
+        .postTask(() => "Task executing")
+        .then((taskResult) => console.log(`${taskResult}`)) // Log result
+        .catch((error) => console.error(`Error: ${error}`)); // Log errors
