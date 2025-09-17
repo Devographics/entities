@@ -479,11 +479,11 @@
   example:
     language: js
     code: |
-      const double = x => x * 2;
-      const triple = x => x * 3;
-
-      10 |> double |> triple |> console.log
-      // 60
+      input
+        |> f(#, 0)
+        |> await g(#, { opt: true })
+        |> Array.from(#)
+        |> console.log(`Result is ${#}.`);
   patterns:
     - pipe
     - pipeline
@@ -637,6 +637,15 @@
   resources:
     - url: https://github.com/tc39/proposal-record-tuple
       title: Records & Tuples Proposal
+
+- id: js_composites
+  name: Composites
+  description: Keys for Maps and Sets that represent a structured group of values.
+  patterns:
+    - composites
+  resources:
+    - url: https://github.com/tc39/proposal-composites
+      title: Composites Proposal
 
 - id: js_pattern_matching
   name: Pattern Matching
