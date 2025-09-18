@@ -1,7 +1,7 @@
 - id: state_of_js_survey
   idAliases:
     - state_of_js
-  name: State of JavaScript
+  name: State of JavaScript (Devographics)
   homepageUrl: https://stateofjs.com
   patterns:
     - state( |-|_)?of( |-|_)?js
@@ -13,7 +13,7 @@
 - id: state_of_css_survey
   idAliases:
     - state_of_css
-  name: State of CSS
+  name: State of CSS (Devographics)
   homepageUrl: https://stateofcss.com
   patterns:
     - state( |-|_)?of( |-|_)?css
@@ -23,7 +23,7 @@
 - id: state_of_graphql_survey
   idAliases:
     - state_of_graphql
-  name: State of GraphQL
+  name: State of GraphQL (Devographics)
   homepageUrl: https://stateofgraphql.com
   patterns:
     - state( |-|_)?of( |-|_)?graphql
@@ -33,7 +33,7 @@
 - id: state_of_html_survey
   idAliases:
     - state_of_html
-  name: State of HTML
+  name: State of HTML (Devographics)
   homepageUrl: https://stateofhtml.com
   patterns:
     - state( |-|_)?of( |-|_)?html
@@ -43,7 +43,7 @@
 - id: state_of_react_survey
   idAliases:
     - state_of_react
-  name: State of React
+  name: State of React (Devographics)
   homepageUrl: https://stateofreact.com
   patterns:
     - state( |-|_)?of( |-|_)?react
@@ -51,7 +51,7 @@
     - stateofreact.com
 
 - id: state_of_ai_survey
-  name: State of Web Dev AI
+  name: State of Web Dev AI (Devographics)
   idAliases:
     - state_of_ai
   homepageUrl: https://stateofai.dev/
@@ -61,7 +61,7 @@
 - id: state_of_devs_survey
   idAliases:
     - state_of_devs
-  name: State of Devs
+  name: State of Devs (Devographics)
   homepageUrl: https://stateofdevs.com
   patterns:
     - state( |-|_)?of( |-|_)?devs
@@ -174,7 +174,7 @@
     - purescript
 
 - id: state_of_react_native
-  name: State of React Native
+  name: State of React Native (Software Mansion)
   homepageUrl: https://results.stateofreactnative.com/
 
 - id: netlify_survey
