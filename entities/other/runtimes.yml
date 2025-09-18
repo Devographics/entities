@@ -124,6 +124,12 @@
 - id: nextjs_edge_runtime
   name: Vercel Edge Runtime
   homepageUrl: https://nextjs.org/docs/api-reference/edge-runtime
+  tags:
+    - edge_runtimes
+
+- id: vercel_functions
+  name: Vercel Functions
+  homepageUrl: https://vercel.com/docs/functions
   patterns:
     - next
     - vercel
