@@ -430,3 +430,7 @@
 - id: code_qa
   name: codeQA
   homepageUrl: https://www.codeqa.ai/
+
+- id: n8n
+  name: n8n
+  homepageUrl: https://n8n.io/

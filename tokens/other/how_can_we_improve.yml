@@ -70,7 +70,6 @@
   description: Interactive or visual code examples
   patterns:
     - interactive
-    - visual
 
 - id: sentiment_ui
   description: Sentiment UI improvements
