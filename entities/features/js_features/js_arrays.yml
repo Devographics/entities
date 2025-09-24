@@ -62,6 +62,23 @@
       console.log(inventory.findLast(item => item.quantity <2));
       // { name: "fish", quantity: 1 }
 
+# alias
+- id: array_findlast
+  webFeaturesId: array-findlast
+  name: >
+    `array.findLast()`
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
+  example:
+    language: js
+    code: |
+      const inventory = [
+        { name: "bananas", quantity: 0 },
+        { name: "fish", quantity: 1 },
+        { name: "cherries", quantity: 5 },
+      ];
+      console.log(inventory.findLast(item => item.quantity <2));
+      // { name: "fish", quantity: 1 }
+
 - id: array_to_spliced
   webFeaturesId: array-by-copy
   name: >
@@ -95,16 +112,3 @@
 
       Array.fromAsync(asyncIterable).then((array) => console.log(array));
       // [0, 1, 2, 3, 4]
-
-- id: array_findlast
-  name: "`array.findLast()`"
-  description: >
-    Returns the value of the last element that satisfies the testing function.
-  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
-  example:
-    language: js
-    code: |
-      const array1 = [5, 12, 50, 130, 44];
-      const found = array1.findLast((element) => element > 45);
-      console.log(found);
-      // expected output: 130

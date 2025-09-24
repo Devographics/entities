@@ -22,7 +22,7 @@
   homepageUrl: https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024#offscreen-renamed-to-activity
 
 - id: react_forget
-  name: React Compiler (React Forget)
+  name: React Compiler
   homepageUrl: https://react.dev/learn/react-compiler
 
 - id: cache
@@ -65,16 +65,18 @@
       // <ProductDetailPage addToCart={addToCart} />
 
 - id: server_actions
-  name: Server Actions
-  homepageUrl: https://nextjs.org/docs/app/api-reference/functions/server-actions
+  name: Server Functions
+  homepageUrl: https://react.dev/reference/rsc/server-functions
   example:
     language: js
     code: |
-      export default function ServerComponent() {
-        async function myAction() {
-          'use server'
-          // ...
+      "use server";
+
+      export async function updateName(name) {
+        if (!name) {
+          return {error: 'Name is required'};
         }
+        await db.users.updateName(name);
       }
 
 - id: useformstate
@@ -137,3 +139,53 @@
   name: Web Components Support
   patterns:
     - web component
+
+- id: react_form_component_actions
+  name: >
+    `<form> Actions`
+  description: >
+    Pass a function to the action prop of form to run the function when the form is submitted.
+  homepageUrl: https://react.dev/reference/react-dom/components/form
+  example:
+    language: js
+    code: |
+      export default function Search() {
+        function search(formData) {
+          const query = formData.get("query");
+          alert(`You searched for '${query}'`);
+        }
+        return (
+          <form action={search}>
+            <input name="query" />
+            <button type="submit">Search</button>
+          </form>
+        );
+      }
+
+- id: react_view_transition
+  isExperimental: true
+  name: >
+    `<ViewTransition>`
+  description: >
+    `<ViewTransition>` lets you animate elements that update inside a Transition.
+  homepageUrl: https://react.dev/reference/react/ViewTransition
+  example:
+    language: js
+    code: |
+      <ViewTransition>
+        <div>...</div>
+      </ViewTransition>
+
+- id: react_activity
+  isExperimental: true
+  name: >
+    `<Activity>`
+  description: >
+    `<Activity>` lets you hide and restore the UI and internal state of its children.
+  homepageUrl: https://react.dev/reference/react/Activity
+  example:
+    language: js
+    code: |
+      <Activity mode={visibility}>
+        <Sidebar />
+      </Activity>

@@ -162,7 +162,7 @@
     - ui_libraries
 
 - id: next_ui
-  name: NextUI
+  name: HeroUI (previously NextUI)
   description: >
     Beautiful, fast and modern React UI library.
   homepageUrl: https://nextui.org/
@@ -322,3 +322,7 @@
 - id: park_ui
   name: Park UI
   homepageUrl: https://park-ui.com/
+
+- id: magic_ui
+  name: Magic UI
+  homepageUrl: https://magicui.design/

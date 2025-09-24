@@ -60,6 +60,7 @@
   name: HTML media capture
 
 - id: webgl
+  webFeaturesId: webgl
   name: WebGL
   description: |
     A low-level API for rendering 2D and 3D graphics with the GPU on `<canvas>` , based on OpenGL.

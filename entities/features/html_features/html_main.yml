@@ -1725,6 +1725,7 @@
     - features
 
 - id: urlpattern
+  webFeaturesId: urlpattern
   name: URLPattern API
   needsTranslation: false
   description: Match URLs or parts of URLs against a pattern

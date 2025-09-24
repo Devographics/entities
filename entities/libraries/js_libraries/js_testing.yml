@@ -261,3 +261,13 @@
 - id: node_tap
   name: Node-Tap
   homepageUrl: https://node-tap.org/
+
+- id: bun_test
+  name: >
+    `bun test`
+  homepageUrl: https://bun.com/docs/cli/test
+
+- id: bun_install
+  name: >
+    `bun install`
+  homepageUrl: https://bun.com/package-manager

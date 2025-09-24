@@ -80,6 +80,7 @@
   mdn: /en-US/docs/Web/API/Service_Worker_API
 
 - id: web_animations
+  webFeaturesId: web-animations
   name: Web Animations
   mdn: /en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API
 
@@ -92,10 +93,12 @@
   mdn: /en-US/docs/Web/Web_Components
 
 - id: webrtc
+  webFeaturesId: webrtc
   name: WebRTC
   mdn: /en-US/docs/Web/API/WebRTC_API
 
 - id: websocket
+  webFeaturesId: websockets
   name: WebSocket
   mdn: /en-US/docs/Web/API/WebSockets_API
   patterns:
@@ -110,16 +113,19 @@
   mdn: /en-US/docs/Web/API/WebVR_API
 
 - id: page_visibility
+  webFeaturesId: page-visibility
   name: Page Visibility API
   mdn: /en-US/docs/Web/API/Page_Visibility_API
   caniuse: pagevisibility
 
 - id: broadcast_channel
+  webFeaturesId: broadcast-channel
   name: Broadcast Channel API
   mdn: /en-US/docs/Web/API/Broadcast_Channel_API
   caniuse: broadcastchannel
 
 - id: geolocation
+  webFeaturesId: geolocation
   name: Geolocation API
   mdn: /en-US/docs/Web/API/Geolocation_API
   caniuse: geolocation
@@ -135,6 +141,7 @@
   caniuse: web-share
 
 - id: webxr
+  webFeaturesId: webxr-device
   name: "`navigator.xr` (WebXR Device API)"
   description: |
     Create AR/VR sessions with compatible output devices.
@@ -161,6 +168,7 @@
   homepageUrl: https://developer.chrome.com/docs/android/trusted-web-activity
 
 - id: wasm
+  webFeaturesId: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly
 
@@ -176,6 +184,7 @@
 # Language
 
 - id: nullish_coalescing
+  webFeaturesId: nullish-coalescing
   description: >
     Return first value, or second value if first value is `null` or `undefined`.
   name: Nullish Coalescing
@@ -244,6 +253,7 @@
   caniuse: mdn-javascript_grammar_numeric_separators
 
 - id: logical_assignment
+  webFeaturesId: logical-assignments
   description: >
     Operators to assign a value to a variable based on its own truthy/falsy status.
   name: Logical Assignment
@@ -263,11 +273,13 @@
       // expected output: "title is empty"
 
 - id: temporal
+  webFeaturesId: temporal
   name: Temporal
   description: Provides standard objects and functions for working with dates and times.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 - id: error_cause
+  webFeaturesId: error-cause
   name: "`error.cause`"
   description: >
     Indicate the specific original cause of the error.
@@ -309,6 +321,7 @@
       title: RegExp match indices
 
 - id: hashbang_grammar
+  webFeaturesId: hashbang-comments
   description: >
     Provide the path to a specific JavaScript interpreter that you want to use to execute the script.
   name: Hashbang Grammar
@@ -509,10 +522,12 @@
       let Foo(a, { b }, [c]) = x;
 
 - id: gamepad_api
+  webFeaturesId: gamepad
   name: Gamepad API
   mdn: en-US/docs/Web/API/Gamepad_API
 
 - id: web_authentication_api
+  webFeaturesId: webauthn
   name: Web Authentication API
   mdn: en-US/docs/Web/API/Web_Authentication_API
 
@@ -590,6 +605,7 @@
       title: Dynamic Code Brand Checks Proposal
 
 - id: regexp_escape
+  webFeaturesId: regexp-escape
   name: |
     `RegExp.escape`
   description: Escaping a string for use inside a Regular Expression.
@@ -682,6 +698,7 @@
       title: Decorator Metadata Proposal
 
 - id: js_float16_arrays
+  webFeaturesId: float16array
   name: Float16Array
   description: Add float16 (aka half-precision or binary16) TypedArrays to JavaScript.
   resources:
