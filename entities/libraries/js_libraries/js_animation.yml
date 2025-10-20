@@ -65,6 +65,19 @@
   tags:
     - animation
 
+- id: gsap
+  name: GSAP
+  npm: gsap
+  github: greensock/GSAP
+  description: GreenSock's GSAP JavaScript animation library (including Draggable).
+  homepageUrl: "https://greensock.com"
+  patterns:
+    - green( |-)sock
+    - gsap
+    - gasp
+  tags:
+    - animation
+
 - id: lottie
   name: Lottie
   npm: null

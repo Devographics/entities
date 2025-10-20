@@ -195,3 +195,16 @@
   homepageUrl: https://react.dev/reference/react/useOptimistic
   tags:
     - react_new_features
+
+- id: useeffectevent
+  name: >
+    `useEffectEvent`
+  description: >
+    `useEffectEvent` is a React Hook that lets you extract non-reactive logic from your Effects into a reusable function called an Effect Event.
+  example:
+    language: js
+    code: |
+      const onSomething = useEffectEvent(callback)
+  homepageUrl: https://react.dev/reference/react/useEffectEvent
+  tags:
+    - react_new_features

@@ -128,3 +128,7 @@
 - id: waku
   name: Waku
   homepageUrl: https://waku.gg/
+
+- id: create_vite
+  name: create-vite
+  homepageUrl: https://vite.dev/guide/#scaffolding-your-first-vite-project
