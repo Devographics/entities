@@ -129,32 +129,30 @@
     - do notation
 
 - id: built_in_formatter
+  name: Built-in formatter
   patterns:
     - formatter
     - fmt
     - go fmt
 
 - id: pattern_matching
+  name: Pattern matching
   patterns:
     - pattern
     - match
 
-- id: better_static_types
-  patterns:
-    - static types
-    - static typing
-
 - id: better_error_handling
+  name: Error handling
   patterns:
     - error handling
 
-- id: immutable_data_structures
-
 - id: feature_structs
+  name: Structs
   patterns:
     - struct
 
 - id: pipe_operator
+  name: Pipe operator
   patterns:
     - pipe
     - pipeline
@@ -162,51 +160,61 @@
     - piping
 
 - id: feature_signals
+  name: Signals
   patterns:
     - signals
 
 - id: immutability_features
+  name: Immutability features
   patterns:
     - immutability
     - immutable
 
-- id: extension_methods
-
 - id: feature_linq
+  name: Linq
   patterns:
     - linq
 
 - id: feature_decorators
+  name: Decorators
   patterns:
     - decorator
 
 - id: feature_switch
+  name: Switch
   patterns:
     - switch
 
 - id: partial_classes
+  name: Partial classes
 
 - id: if_expressions
+  name: If expressions
   patterns:
     - if, expression [l]
 
 - id: feature_macros
+  name: Macros
   patterns:
     - macros
 
 - id: feature_defer
+  name: Defer
   patterns:
     - defer
 
 - id: feature_channels
+  name: Channels
   patterns:
     - channels
 
 - id: feature_context
+  name: Context
   patterns:
     - context
 
 - id: compilation_to_binary
+  name: Compilation to binary
   patterns:
     - compilation, binary [l]
     - compilation, native [l]
@@ -220,44 +228,68 @@
     - compiling, languaged [l]
 
 - id: feature_dependency_injection
+  name: Dependency feature_dependency_injection
   patterns:
     - dependency injection
 
 - id: feature_goroutines
+  name: Goroutines
   patterns:
     - goroutine
 
 - id: feature_extension_functions
+  name: Extension functions
   patterns:
     - extension functions
+    - extension methods
 
 - id: feature_null_safety
+  name: Null safety
   patterns:
     - null safety
 
 - id: feature_option_result
+  name: Option/result
   patterns:
     - option, result [l]
-    - result
 
 - id: feature_traits
+  name: Traits
   patterns:
     - traits
 
 - id: feature_list_comprehension
+  name: List comprehension
   patterns:
     - list, comprehension [l]
 
 - id: memory_management
+  name: Memory management
   patterns:
     - memory, control [l]
 
 - id: named_arguments
+  name: Named arguments
   patterns:
     - keyword arguments
     - kwarg
     - keyword parameter
 
 - id: tail_call_optimization
+  name: Tail call optimization
   patterns:
     - tco
+
+- id: feature_typed_errors
+  name: Typed errors
+  patterns:
+    - error, type [l]
+    - error, typed [l]
+    - error, typing [l]
+
+- id: feature_result_type
+  name: Result type
+  patterns:
+    - result, type [l]
+    - result, typed [l]
+    - result, typing [l]

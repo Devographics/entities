@@ -2204,13 +2204,13 @@
   parentId: web_components
   depth: 1
 
-- id: typescript
-  name: >
-    TypeScript types
-  description: >
-    Typing components and their JSX/TSX/templating integrations (including Custom Elements Manifest).
-  parentId: tooling
-  depth: 1
+# - id: typescript
+#   name: >
+#     TypeScript types
+#   description: >
+#     Typing components and their JSX/TSX/templating integrations (including Custom Elements Manifest).
+#   parentId: tooling
+#   depth: 1
 
 - id: css_modules
   name: >

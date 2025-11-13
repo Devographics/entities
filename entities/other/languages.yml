@@ -151,6 +151,7 @@
 
 - id: zig
   name: Zig
+  homepageUrl: https://ziglang.org/
 
 - id: powershell
   name: Powershell
@@ -179,6 +180,7 @@
 
 - id: gleam
   name: Gleam
+  homepageUrl: https://gleam.run/
 
 - id: nix
   name: Nix
