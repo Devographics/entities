@@ -62,6 +62,11 @@
 - id: w3schools
   name: W3Schools
   homepageUrl: https://www.w3schools.com/
+  patterns:
+    - w3 school
+  tags:
+    - courses
+    - first_steps
 
 - id: freecodecamp
   name: freeCodeCamp

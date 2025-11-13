@@ -593,3 +593,19 @@
 - id: the_standup
   name: The Standup
   homepageUrl: https://www.youtube.com/playlist?list=PL2Fq-K0QdOQiJpufsnhEd1z3xOv2JMHuk
+
+- id: typescript_fm
+  name: TypeScript.fm
+  homepageUrl: https://typescript.fm/
+
+- id: developer_voices
+  name: Developer Voices
+  homepageUrl: https://www.developervoices.com/
+
+- id: weekly_dev_s_brew
+  name: Weekly Dev's Brew
+  homepageUrl: https://www.weeklybrew.dev/
+  patterns:
+    - weekly, brew [l]
+  tags:
+    - podcasts

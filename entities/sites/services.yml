@@ -190,6 +190,8 @@
 - id: ovh
   name: OVH
   homepageUrl: https://www.ovhcloud.com/
+  patterns:
+    - ovhcloud
 
 - id: railway
   name: Railway
@@ -208,6 +210,9 @@
     - own server
     - own machine
     - custom server
+    - own hosting
+    - self(-| )?host
+    - self(-| )?hosting
 
 - id: surge
   name: Surge
@@ -249,6 +254,22 @@
 - id: ibm_cloud
   name: IBM Cloud
   homepageUrl: https://www.ibm.com/cloud
+
+- id: dokploy
+  name: Dokploy
+  homepageUrl: https://dokploy.com/
+
+- id: caprover
+  name: CapRover
+  homepageUrl: https://caprover.com/
+
+- id: codeberg_pages
+  name: Codeberg Pages
+  homepageUrl: https://docs.codeberg.org/codeberg-pages/
+
+- id: dokku
+  name: Dokku
+  homepageUrl: https://dokku.com/
 
 ###
 # Auth

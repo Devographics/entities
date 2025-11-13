@@ -53,3 +53,7 @@
 - id: moonjs
   name: Moon
   homepageUrl: https://moonrepo.dev/
+
+- id: bazel
+  name: Bazel
+  homepageUrl: https://bazel.build/

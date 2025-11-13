@@ -567,3 +567,88 @@
   name: Radash
   homepageUrl: https://radash-docs.vercel.app/
   github: https://github.com/sodiray/radash
+
+- id: never_throw
+  name: NeverThrow
+  homepageUrl: https://github.com/supermacro/neverthrow
+
+- id: asdf
+  name: asdf
+  homepageUrl: https://asdf-vm.com/
+
+- id: fnm
+  name: fnm
+  homepageUrl: https://github.com/Schniz/fnm
+
+- id: knip
+  name: knip
+  homepageUrl: https://knip.dev/
+
+- id: mise
+  name: mise
+  homepageUrl: https://mise.jdx.dev/
+
+- id: nodenv
+  name: nodenv
+  homepageUrl: https://github.com/nodenv/nodenv
+
+- id: oxlint
+  name: oxlint
+  homepageUrl: https://oxc.rs/docs/guide/usage/linter
+  patterns:
+    - oxclint
+
+- id: volta
+  name: Volta
+  homepageUrl: https://volta.sh/
+
+- id: jsr_std
+  name: |
+    jsr:@std
+  homepageUrl: https://jsr.io/@std
+  patterns:
+    - jsr, std [l]
+
+- id: radashi
+  name: Radashi
+  homepageUrl: https://radashi.js.org/
+
+- id: big_js
+  name: big.js
+  homepageUrl: https://mikemcl.github.io/big.js/
+
+- id: cspell
+  name: CSpell
+  homepageUrl: https://cspell.org/
+
+- id: dprint
+  name: dprint
+  homepageUrl: https://dprint.dev/
+  tags:
+    - rust
+
+- id: lint_staged
+  name: lint-staged
+  homepageUrl: https://github.com/lint-staged/lint-staged
+
+- id: ni
+  name: ni
+  homepageUrl: https://github.com/antfu-collective/ni
+  patterns:
+    - antfu/ni
+
+- id: nvs
+  name: nvs
+  homepageUrl: https://github.com/jasongin/nvs
+
+- id: proto
+  name: Proto
+  homepageUrl: https://moonrepo.dev/proto
+
+- id: decimal_js
+  name: decimal.js
+  homepageUrl: https://mikemcl.github.io/decimal.js/
+
+- id: type_fest
+  name: type-fest
+  homepageUrl: https://github.com/sindresorhus/type-fest

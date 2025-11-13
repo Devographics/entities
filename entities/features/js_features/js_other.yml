@@ -380,6 +380,8 @@
       let box = new Box(0);
       box.x = 42;  // x is declared
       box.y = 42;  // error
+  patterns:
+    - struct
 
 - id: js_iterator_chunking
   name: Iterator Chunking
@@ -394,6 +396,8 @@
 
       let chunksOf2 = Array.from(digits().chunks(2));
       // [ [0, 1], [2, 3], [4, 5], [6, 7], [8, 9] ]
+  patterns:
+    - iterator chunking
 
 - id: js_iterator_methods
   webFeaturesId: iterator-methods
@@ -649,10 +653,12 @@
   description: Two deeply immutable data structures.
   patterns:
     - tuple
-    - records
+    - record
   resources:
     - url: https://github.com/tc39/proposal-record-tuple
       title: Records & Tuples Proposal
+  tags:
+    - js_missing_features
 
 - id: js_composites
   name: Composites

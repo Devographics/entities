@@ -172,3 +172,15 @@
 - id: vite_plugin_pwa
   name: Vite PWA
   homepageUrl: https://vite-pwa-org.netlify.app/
+
+- id: lynx_js
+  name: Lynx
+  homepageUrl: https://lynxjs.org/
+  patterns:
+    - lynx
+
+- id: neutralino_js
+  name: Neutralinojs
+  homepageUrl: https://neutralino.js.org/
+  patterns:
+    - neutralino

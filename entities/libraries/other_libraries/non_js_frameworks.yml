@@ -92,3 +92,24 @@
 - id: sapui5
   name: SAPUI5
   homepageUrl: https://pages.community.sap.com/topics/ui5
+
+- id: symfony
+  name: Symfony
+  homepageUrl: https://symfony.com/
+  tags:
+    - non_js
+    - php
+
+- id: streamlit
+  name: Streamlit
+  homepageUrl: https://streamlit.io/
+  tags:
+    - non_js
+    - python
+
+- id: pytorch
+  name: PyTorch
+  homepageUrl: https://pytorch.org/
+  tags:
+    - non_js
+    - python

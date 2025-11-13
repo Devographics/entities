@@ -33,12 +33,6 @@
   patterns:
     - forum
 
-- id: w3schools
-  name: W3Schools
-  homepageUrl: https://www.w3schools.com/
-  tags:
-    - css_first_steps
-
 - id: w3c
   name: W3C
   patterns:
@@ -77,6 +71,7 @@
     - documents
   tags:
     - css_first_steps
+    - courses
 
 - id: events
   patterns:

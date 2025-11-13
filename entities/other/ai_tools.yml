@@ -175,6 +175,9 @@
 - id: mistral
   name: Mistral
   homepageUrl: https://mistral.ai/
+  patterns:
+    - le chat
+    - lechat
 
 - id: ollama
   name: Ollama
@@ -434,3 +437,61 @@
 - id: n8n
   name: n8n
   homepageUrl: https://n8n.io/
+
+- id: glean
+  name: Glean
+  homepageUrl: https://www.glean.com/
+
+- id: kiro
+  name: Kiro
+  homepageUrl: https://kiro.dev/
+
+- id: amp_code
+  name: Amp
+  homepageUrl: https://ampcode.com/
+  patterns:
+    - amp
+
+- id: open_code
+  name: OpenCode
+  homepageUrl: https://opencode.ai/
+
+- id: open_ai_codex
+  name: OpenAI Codex
+  homepageUrl: https://openai.com/codex/
+  patterns:
+    - codex
+
+- id: augment_code
+  name: Augment Code
+  homepageUrl: https://www.augmentcode.com/
+
+- id: builder_io
+  name: builder.io
+  homepageUrl: https://www.builder.io/
+
+- id: crush_ai
+  name: Crush
+  homepageUrl: https://github.com/charmbracelet/crush
+  patterns:
+    - crush
+
+- id: glm
+  name: GLM
+  homepageUrl: https://glm45.org/
+
+- id: junie
+  name: Junie
+  homepageUrl: https://www.jetbrains.com/junie/
+
+- id: kagi_assistant
+  name: Kagi Assistant
+  homepageUrl: https://help.kagi.com/kagi/ai/assistant.html
+  patterns:
+    - kagi
+
+- id: kilo_code
+  name: Kilo
+  homepageUrl: https://kilocode.ai/
+  patterns:
+    - kilo

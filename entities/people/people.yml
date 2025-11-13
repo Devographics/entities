@@ -1713,6 +1713,8 @@
   blueskyId: ryansolid.bsky.social
   tags:
     - js
+  patterns:
+    - ryansolid
 
 - id: ben_ilegbodu
   name: Ben Ilegbodu
@@ -1894,6 +1896,9 @@
   patterns:
     - tanner linsey
     - tanner lindsley
+    - tanner lindsey
+    - tanner linesly
+    - tanner lansely
   tags:
     - js
 
@@ -2615,6 +2620,7 @@
     - theot3
     - theo_discord
     - t3gg
+    - th3o
   tags:
     - youtube
     - video_creators
@@ -3449,6 +3455,7 @@
     - alex lichter
     - lichter
     - litcher
+    - thealexlichter
 
 - id: andrew_burgess
   name: Andrew Burgess
@@ -4131,3 +4138,90 @@
   youtubeUrl: https://www.youtube.com/@dmtrmrv
   tags:
     - video_creators
+
+- id: c_j_reynolds
+  name: CJ Reynolds
+  homepageUrl: https://w3cj.sh/
+
+- id: boshen
+  name: Boshen
+  homepageUrl: https://bsky.app/profile/boshen.github.io
+
+- id: danny_thompson
+  name: Danny Thompson
+  homepageUrl: https://www.dthompsondev.com/
+
+- id: david_bushell
+  name: David Bushell
+  homepageUrl: https://dbushell.com/
+
+- id: jonathan_blow
+  name: Jonathan Blow
+  homepageUrl: https://en.wikipedia.org/wiki/Jonathan_Blow
+
+- id: kai_lentit
+  name: Kai Lentit
+  homepageUrl: https://www.youtube.com/@programmersarealsohuman5909
+  tags:
+    - video_creators
+
+- id: kent_beck
+  name: Kent Beck
+  homepageUrl: https://kentbeck.com/
+
+- id: chikuba_kotaro
+  name: Chikuba Kotaro (mizchi)
+  homepageUrl: https://mizchi.dev/
+  patterns:
+    - mizchi
+
+- id: nikita_dubko
+  name: Nikita Dubko
+  homepageUrl: https://mefody.dev/
+
+- id: remy_sharp
+  name: Remy Sharp
+  homepageUrl: https://remysharp.com/
+
+- id: rich_hickey
+  name: Rich Hickey
+  homepageUrl: https://en.wikipedia.org/wiki/Rich_Hickey
+
+- id: ricky_hanlon
+  name: Ricky Hanlon
+  homepageUrl: https://rickhanlon.codes/
+
+- id: swizec_teller
+  name: Swizec Teller
+  homepageUrl: https://swizec.com/
+
+- id: alem_tuzlak
+  name: Alem Tuzlak
+  youtubeUrl: https://www.youtube.com/@alemtuzlak
+  tags:
+    - video_creators
+
+- id: brian_treese
+  name: Brian Treese
+  hompageUrl: https://briantree.se/
+  youtubeUrl: https://www.youtube.com/@briantreese
+
+- id: bryce_bostwick
+  name: Bryce Bostwick
+  homepageUrl: https://bryce.co/
+  youtubeUrl: https://www.youtube.com/@brycedotco
+
+- id: ethan_niser
+  name: Ethan Niser
+  homepageUrl: https://www.youtube.com/@ethanniser
+  youtubeUrl: https://ethanniser.dev/
+
+- id: igor_sedov
+  name: Igor Sedov
+  homepageUrl: https://igorsedov.com/
+  youtubeUrl: https://www.youtube.com/@theigorsedov
+
+- id: nuno_maduro
+  name: Nuno Maduro
+  homepageUrl: https://nunomaduro.com/
+  youtubeUrl: https://www.youtube.com/nunomaduro

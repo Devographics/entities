@@ -18,7 +18,8 @@
   patterns:
     - std
     - standard
-    - std lib
+    - std( |-)?lib
+    - standart
 
 - id: documentation
   name: Documentation
@@ -74,6 +75,10 @@
   patterns:
     - enum
 
+- id: import_bytes
+  name: Import Bytes
+  homepageUrl: https://github.com/tc39/proposal-import-bytes
+
 - id: multi_threading
   name: Multithreading
   patterns:
@@ -101,3 +106,158 @@
     - it's not typescript
     - lack of type
     - lack of typing
+
+- id: js_math_clamp
+  name: |
+    `math.clamp()`
+  patterns:
+    - math, clamp [l]
+
+- id: js_throw_expressions
+  name: |
+    `throw` Expressions
+  homepageUrl: https://github.com/tc39/proposal-throw-expressions
+  patterns:
+    - throw expressions
+
+- id: js_do_expressions
+  name: |
+    `do` Expressions
+  homepageUrl: https://github.com/tc39/proposal-do-expressions
+  patterns:
+    - do expression
+    - do notation
+
+- id: built_in_formatter
+  patterns:
+    - formatter
+    - fmt
+    - go fmt
+
+- id: pattern_matching
+  patterns:
+    - pattern
+    - match
+
+- id: better_static_types
+  patterns:
+    - static types
+    - static typing
+
+- id: better_error_handling
+  patterns:
+    - error handling
+
+- id: immutable_data_structures
+
+- id: feature_structs
+  patterns:
+    - struct
+
+- id: pipe_operator
+  patterns:
+    - pipe
+    - pipeline
+    - pipelining
+    - piping
+
+- id: feature_signals
+  patterns:
+    - signals
+
+- id: immutability_features
+  patterns:
+    - immutability
+    - immutable
+
+- id: extension_methods
+
+- id: feature_linq
+  patterns:
+    - linq
+
+- id: feature_decorators
+  patterns:
+    - decorator
+
+- id: feature_switch
+  patterns:
+    - switch
+
+- id: partial_classes
+
+- id: if_expressions
+  patterns:
+    - if, expression [l]
+
+- id: feature_macros
+  patterns:
+    - macros
+
+- id: feature_defer
+  patterns:
+    - defer
+
+- id: feature_channels
+  patterns:
+    - channels
+
+- id: feature_context
+  patterns:
+    - context
+
+- id: compilation_to_binary
+  patterns:
+    - compilation, binary [l]
+    - compilation, native [l]
+    - compiling, binary [l]
+    - compiling, native [l]
+    - compile, binary [l]
+    - compile, native [l]
+    - compile(d)?, executable [l]
+    - compile(d)?, languaged [l]
+    - compiling, executable [l]
+    - compiling, languaged [l]
+
+- id: feature_dependency_injection
+  patterns:
+    - dependency injection
+
+- id: feature_goroutines
+  patterns:
+    - goroutine
+
+- id: feature_extension_functions
+  patterns:
+    - extension functions
+
+- id: feature_null_safety
+  patterns:
+    - null safety
+
+- id: feature_option_result
+  patterns:
+    - option, result [l]
+    - result
+
+- id: feature_traits
+  patterns:
+    - traits
+
+- id: feature_list_comprehension
+  patterns:
+    - list, comprehension [l]
+
+- id: memory_management
+  patterns:
+    - memory, control [l]
+
+- id: named_arguments
+  patterns:
+    - keyword arguments
+    - kwarg
+    - keyword parameter
+
+- id: tail_call_optimization
+  patterns:
+    - tco

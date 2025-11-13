@@ -50,6 +50,8 @@
   homepageUrl: "http://recharts.org"
   tags:
     - data_visualization
+  patterns:
+    - rechart
 
 - id: mermaid
   name: Mermaid
@@ -169,3 +171,19 @@
 - id: skia
   name: Skia
   homepageUrl: https://skia.org/
+
+- id: billboard
+  name: billboard.js
+  homepageUrl: https://naver.github.io/billboard.js/
+
+- id: layer_chart
+  name: LayerChart
+  homepageUrl: https://www.layerchart.com/
+
+- id: ogl
+  name: OGL
+  homepageUrl: https://github.com/oframe/ogl
+
+- id: unovis
+  name: Unovis
+  homepageUrl: https://unovis.dev/

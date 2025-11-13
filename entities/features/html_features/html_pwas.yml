@@ -135,6 +135,8 @@
       title: WebGPU
     - url: https://webkit.org/demos/webgpu/
       title: WebGPU demos
+  tags:
+    - js_missing_features
 
 - id: avif
   name: AVIF

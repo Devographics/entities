@@ -529,10 +529,12 @@
   youtubeUrl: https://www.youtube.com/@huntabyte
 
 - id: low_level_learning
-  name: Low Level Learning
-  youtubeUrl: https://www.youtube.com/@LowLevelLearning
+  name: Low Level
+  homepageUrl: https://lowlevel.tv/
+  youtubeUrl: https://www.youtube.com/lowlevellearning
   patterns:
     - low( |-)?level
+    - low( |-)?level( |-)?tv
 
 - id: melkey
   name: Melkey
@@ -1048,3 +1050,96 @@
 - id: better_stack
   name: Better Stack
   youtubeUrl: https://www.youtube.com/@betterstack
+
+- id: 6_seniors
+  name: MaximumJavascript (6Seniors)
+  youtubeUrl: https://www.youtube.com/@6seniors
+  patterns:
+    - maximum javascript
+
+- id: brackeys
+  name: Brackeys
+  youtubeUrl: https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA
+
+- id: code_report
+  name: code_report
+  youtubeUrl: https://www.youtube.com/codereport
+
+- id: code_parade
+  name: CodeParade
+  homepageUrl: http://codeparade.net/
+  youtubeUrl: https://www.youtube.com/c/codeparade
+
+- id: cult_repo
+  name: CultRepo
+  homepageUrl: https://www.cultrepo.com/
+  youtubeUrl: https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA
+
+- id: doug_doug
+  name: DougDoug
+  youtubeUrl: https://www.youtube.com/gloudas
+
+- id: face_dev
+  name: FaceDev
+  youtubeUrl: https://www.youtube.com/@FaceDevStuff
+
+- id: holy_js
+  name: HolyJS
+  youtubeUrl: https://www.youtube.com/@HolyJS
+
+- id: krazam
+  name: KRAZAM
+  youtubeUrl: https://www.youtube.com/c/KRAZAM
+
+- id: laurie_wired
+  name: Laurie Wired
+  homepageUrl: https://lauriewired.com/
+  youtubeUrl: https://www.youtube.com/@lauriewired
+
+- id: logan_smith
+  name: Logan Smith
+  youtubeUrl: https://www.youtube.com/@_noisecode
+
+- id: mano_deyvin
+  name: Mano Deyvin
+  homepageUrl: https://manodeyvin.com.br/
+  youtubeUrl: https://www.youtube.com/@manodeyvin
+
+- id: pewdiepei
+  name: PewDiePie
+  youtubeUrl: https://www.youtube.com/user/PewDiePie
+
+- id: siberia_can_code
+  name: Siberia Can Code
+  youtubeUrl: https://www.youtube.com/c/SIBERIACANCODE
+
+- id: sphaerophoria
+  name: sphaerophoria
+  youtubeUrl: https://www.youtube.com/@sphaerophoria
+
+- id: sylvan_franklin
+  name: Sylvan Franklin
+  homepageUrl: https://sylvanfranklin.com/
+  youtubeUrl: https://www.youtube.com/@sylvanfranklin
+
+- id: the_coding_sloth
+  name: The Coding Sloth
+  youtubeUrl: https://www.youtube.com/@TheCodingSloth
+
+- id: typecraft
+  name: Typecraft
+  youtubeUrl: https://www.youtube.com/@typecraft_dev
+  homepageUrl: https://typecraft.dev/
+
+- id: vimjoyer
+  name: Vimjoyer
+  youtubeUrl: https://www.youtube.com/@vimjoyer
+
+- id: moozaru
+  name: Moozaru (ムーザルちゃんねる)
+  youtubeUrl: https://www.youtube.com/@moozaru
+  patterns:
+    - ムーザル
+    - ムーざる
+  tags:
+    - japanese

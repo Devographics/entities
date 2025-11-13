@@ -36,6 +36,8 @@
     - gastronomy
 
 - id: energy
+  patterns:
+    - energetics
 
 - id: crypto
   patterns:
@@ -95,6 +97,7 @@
     - bioinformatics
     - biometric
     - bioscience
+    - biology
 
 - id: pharma
 
@@ -199,17 +202,23 @@
 - id: logistics
   patterns:
     - supply chain
+    - logistic
 
 - id: manufacturing
 
 - id: insurance
 
 - id: real_estate
+  patterns:
+    - real state
+    - proptech
 
 - id: construction
   patterns:
     - architecture
     - building
+    - aec
+    - housing
 
 - id: telecommunications
   patterns:
@@ -217,6 +226,8 @@
     - telecom
     - telcom
     - telecommunication
+    - telecomunications
+    - telco
 
 - id: ai
   name: AI
@@ -249,6 +260,7 @@
   patterns:
     - medicine
     - health
+    - medical
 
 - id: retired
 
@@ -272,3 +284,19 @@
 - id: marketing
 
 - id: publishing
+
+- id: b2b
+
+- id: b2c
+
+- id: project_management
+
+- id: productivity
+
+- id: personal_projects
+  patterns:
+    - personal project
+    - personal app
+    - personal application
+    - side project
+    - hobby

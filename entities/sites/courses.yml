@@ -1,3 +1,14 @@
+- id: ai_learning
+  name: AI-led learning
+  patterns:
+    - ai [e]
+
+- id: school_university
+  name: School/university
+  patterns:
+    - school [e]
+    - university [e]
+
 - id: codecademy
   name: Codecademy
   homepageUrl: https://www.codecademy.com/
@@ -379,3 +390,7 @@
 - id: manning
   name: Manning
   homepageUrl: https://www.manning.com/
+
+- id: boot_dev
+  name: Boot.dev
+  homepageUrl: https://www.boot.dev/

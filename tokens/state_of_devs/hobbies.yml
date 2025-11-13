@@ -115,6 +115,7 @@
   patterns:
     - bjj
     - aikido
+    - kickboxing
 
 - id: meditation
 
@@ -241,3 +242,5 @@
 - id: horseback_riding
   patterns:
     - horse riding
+
+- id: comedy

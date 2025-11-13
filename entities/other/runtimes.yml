@@ -215,3 +215,24 @@
     - edge_runtimes
   patterns:
     - yandex
+
+- id: fastly_compute
+  name: Fastly Compute
+  homepageUrl: https://www.fastly.com/products/edge-compute
+  tags:
+    - edge_runtimes
+
+- id: scaleway_functions
+  name: Scaleway Functions
+  homepageUrl: https://www.scaleway.com/en/serverless-functions/
+  tags:
+    - edge_runtimes
+
+- id: val_town
+  name: Val Town
+  homepageUrl: https://www.val.town/
+  tags:
+    - edge_runtimes
+  patterns:
+    - val
+    - valtown

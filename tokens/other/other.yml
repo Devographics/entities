@@ -54,3 +54,10 @@
     - internal
     - mine
     - ad(-| )?hoc
+
+# why_did_you_take_the_survey
+
+- id: extra_free_time
+  name: Extra free time
+  tags:
+    - why_did_you_take_the_survey

@@ -2,6 +2,12 @@
   patterns:
     - brainstorm [p]
 
+- id: code_assistance
+  patterns:
+    - code, assist [l]
+    - code, assistance [l]
+    - code, suggestion [l]
+
 - id: code_completion
   patterns:
     - code, completion [l]
@@ -9,6 +15,10 @@
 - id: code_explanation
   patterns:
     - code, explanation [l]
+
+- id: code_documentation
+  patterns:
+    - code, documentation [l]
 
 - id: code_debugging
   patterns:
@@ -40,3 +50,5 @@
   patterns:
     - text
     - spell( )?check
+    - proof( )?reading
+    - editing

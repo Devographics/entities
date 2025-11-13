@@ -159,3 +159,23 @@
 - id: goland
   name: GoLand
   homepageUrl: https://www.jetbrains.com/go/
+
+- id: fleet
+  name: Fleet
+  homepageUrl: https://www.jetbrains.com/fleet/
+
+- id: helix
+  name: Helix
+  homepageUrl: https://helix-editor.com/
+
+- id: mc_edit
+  name: MCEdit
+  homepageUrl: https://www.mcedit.net/
+
+- id: micro
+  name: micro
+  homepageUrl: https://micro-editor.github.io/
+
+- id: vi
+  name: vi
+  homepageUrl: https://en.wikipedia.org/wiki/Vi_(text_editor)

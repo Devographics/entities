@@ -72,3 +72,53 @@
 - id: open_source
   tags:
     - usage_type
+
+# native_types_proposal
+
+- id: static_types
+  tags:
+    - native_types_proposal
+  patterns:
+    - static
+
+- id: similar_to_typescript
+  tags:
+    - native_types_proposal
+
+- id: typescript_is_enough
+  tags:
+    - native_types_proposal
+
+- id: no_opinion
+  tags:
+    - native_types_proposal
+  patterns:
+    - don(')?t care
+    - don(')?t know
+
+- id: runtime_types
+  tags:
+    - native_types_proposal
+  patterns:
+    - runtime
+
+# build_step_advantages
+
+- id: all_of_the_above
+  tags:
+    - build_step_advantages
+  patterns:
+    - all
+
+- id: obfuscation
+  name: Obfuscation
+  tags:
+    - build_step_advantages
+
+- id: no_advantages
+  name: No advantages
+  patterns:
+    - nothing
+    - no advantage
+  tags:
+    - build_step_advantages

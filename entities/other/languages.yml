@@ -37,6 +37,8 @@
 - id: golang
   name: Go
   homepageUrl: https://go.dev/
+  patterns:
+    - go
 
 - id: haskell
   name: Haskell
@@ -386,3 +388,19 @@
 - id: twig
   name: Twig
   homepageUrl: https://twig.symfony.com/
+
+- id: fortran
+  name: Fortran
+  homepageUrl: https://fortran-lang.org/
+
+- id: godot
+  name: Godot
+  homepageUrl: https://godotengine.org/
+
+- id: odin
+  name: Odin
+  homepageUrl: https://odin-lang.org/
+
+- id: wgsl
+  name: WGSL
+  homepageUrl: https://www.w3.org/TR/WGSL/

@@ -149,11 +149,12 @@
   patterns:
     - netlify
 
-- id: angular_devceloper_survey
+- id: angular_developer_survey
   name: Angular Developer Survey
-  homepageUrl: https://blog.angular.io/developer-survey-2021-results-38e653cbb36b
+  homepageUrl: https://blog.angular.dev/angular-developer-survey-2023-86372317c95f
   patterns:
     - angular, survey [l]
+    - state of angular
 
 - id: state_of_clojure
   name: State of Clojure
@@ -188,3 +189,15 @@
   homepageUrl: https://stateofvue.framer.website/
   patterns:
     - state, vue [l]
+
+- id: go_developer_survey
+  name: Go Developer Survey
+  homepageUrl: https://go.dev/blog/survey2024-h2-results
+  patterns:
+    - go
+
+- id: state_of_php_survey
+  name: State of PHP
+  homepageUrl: https://blog.jetbrains.com/phpstorm/2025/10/state-of-php-2025/
+  patterns:
+    - php

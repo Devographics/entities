@@ -43,8 +43,8 @@
   name: Technical issues
 
 - id: automated_testing
-  name: Automated testing
-  description: Automated testing issues
+  # name: Automated testing
+  # description: Automated testing issues
   parentId: a11y_technical_issues
 
 - id: keyboard_navigation_issues

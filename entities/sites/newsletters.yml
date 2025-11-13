@@ -96,8 +96,6 @@
 - id: bytes
   name: Bytes
   homepageUrl: https://bytes.dev/
-  tags:
-    - people
 
 - id: react_status
   name: React Status
@@ -278,3 +276,11 @@
   homepageUrl: https://piccalil.li/the-index/
   patterns:
     - the index
+
+- id: console_dev
+  name: console
+  homepageUrl: https://console.dev/
+
+- id: import_react
+  name: Import React
+  homepageUrl: https://importreact.beehiiv.com/
