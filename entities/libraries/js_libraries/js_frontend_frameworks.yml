@@ -228,3 +228,7 @@
 - id: arrowjs
   name: Arrow
   homepageUrl: https://www.arrow-js.com/
+
+- id: ripple
+  name: Ripple
+  homepageUrl: https://www.ripplejs.com/

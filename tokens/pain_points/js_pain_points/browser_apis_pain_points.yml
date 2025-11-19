@@ -46,8 +46,6 @@
   patterns:
     - pwa
 
-- id: safari
-
 - id: cookies
 
 - id: content_editable

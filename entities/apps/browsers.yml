@@ -25,6 +25,7 @@
 - id: firefox
   name: Firefox
   homepageUrl: https://www.mozilla.org/en-US/firefox/new/
+  parentId: mozilla
 
 - id: firefox_developer
   name: Firefox Quantum
@@ -74,10 +75,12 @@
 - id: safari
   name: Safari
   homepageUrl: https://www.apple.com/safari/
+  parentId: apple
 
 - id: safari_ios
   name: Safari iOS
   homepageUrl: https://www.apple.com/safari/
+  parentId: apple
 
 - id: vivaldi
   name: Vivaldi

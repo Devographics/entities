@@ -67,8 +67,6 @@
   patterns:
     - react [e]
 
-- id: safari
-
 - id: transitions
   name: Transitions
   patterns:

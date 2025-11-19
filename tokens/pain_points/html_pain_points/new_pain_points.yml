@@ -536,13 +536,13 @@
   parentId: auto_growing_text_fields
   depth: 3
 
-- id: safari
-  name: >
-    Safari browser
-  description: >
-    Issues specific to the Safari browser, across all platforms.
-  parentId: apple
-  depth: 2
+# - id: safari
+#   name: >
+#     Safari browser
+#   description: >
+#     Issues specific to the Safari browser, across all platforms.
+#   parentId: apple
+#   depth: 2
 
 - id: apple
   name: >

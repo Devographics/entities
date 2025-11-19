@@ -297,9 +297,6 @@
 
 # - id: customization
 
-# - id: safari
-#   name: Safari
-
 - id: nested_forms
   name: Nested forms
   description: Handling forms with multiple levels of nesting

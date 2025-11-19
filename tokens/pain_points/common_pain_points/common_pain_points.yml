@@ -53,8 +53,10 @@
   tags:
     - css_missing_features
 
-- id: safari
+- id: safari_issues
   name: Safari
+  patterns:
+    - safari
 
 - id: styling_customization
   name: Styling & customization

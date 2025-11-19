@@ -1,9 +1,5 @@
 # pain points
 
-- id: safari
-  patterns:
-    - webkit
-
 - id: email
   # name: Email
 

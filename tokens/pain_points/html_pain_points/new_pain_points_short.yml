@@ -510,13 +510,13 @@
   parentId: dx
   depth: 1
 
-- id: safari
-  name: >
-    Safari browser
-  description: >
-    Issues specific to the Safari browser, across all platforms.
-  parentId: apple
-  depth: 2
+# - id: safari
+#   name: >
+#     Safari browser
+#   description: >
+#     Issues specific to the Safari browser, across all platforms.
+#   parentId: apple
+#   depth: 2
 
 - id: apple
   name: >

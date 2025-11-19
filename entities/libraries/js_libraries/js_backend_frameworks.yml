@@ -118,6 +118,12 @@
   description: Bringing full-stack to the Jamstack.
   homepageUrl: "https://redwoodjs.com"
 
+- id: redwood_sdk
+  name: Redwood SDK
+  npm: null
+  github: https://github.com/redwoodjs/sdk
+  homepageUrl: https://rwsdk.com/
+
 - id: hapi
   name: Hapi
   npm: "@hapi/hapi"
@@ -249,3 +255,7 @@
 - id: create_t3_app
   name: create-t3-app
   homepageUrl: https://create.t3.gg/
+
+- id: orpc
+  name: oRPC
+  homepageUrl: https://orpc.unnoq.com/
