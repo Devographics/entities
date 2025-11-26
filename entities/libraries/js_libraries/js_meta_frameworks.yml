@@ -112,6 +112,7 @@
   homepageUrl: https://tanstack.com/start/latest
 
 - id: inertia
+  alias: inertiajs
   name: Inertia
   homepageUrl: https://inertiajs.com/
 
