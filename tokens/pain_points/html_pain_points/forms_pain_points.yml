@@ -250,7 +250,8 @@
     - select, search [l]
 
 - id: select_element_multiselect
-  parentId: form_input_issues
+  name: MultiSelect
+  parentId: select_element
   patterns:
     - multi( |-)?select
     - select, multiple [l]

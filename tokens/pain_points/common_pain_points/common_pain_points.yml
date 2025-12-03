@@ -123,12 +123,14 @@
     - change too much
     - too much change
     - moves too fast
+  parentId: cognitive_overload
 
 - id: reinventing_the_wheel
   name: Reinventing the wheel
   description: Constantly having to re-learn or re-implement the same concepts
   patterns:
     - reinventing
+  parentId: cognitive_overload
 
 - id: version_updates
   name: Breaking changes
@@ -158,6 +160,7 @@
     - hard to choose
     - hard to decide
     - hard to pick
+  parentId: cognitive_overload
 
 - id: excessive_complexity
   name: Excessive complexity
@@ -179,12 +182,14 @@
     - over( )?complex
     - over( )?complicated
     - over( )?complicating
+  parentId: cognitive_overload
 
 - id: hard_to_memorize
   patterns:
     - remembering
     - memorize
     - remember
+  parentId: cognitive_overload
 
 - id: dependencies
   name: Dependencies
@@ -372,6 +377,7 @@
 - id: reliance_on_javascript
   name: Reliance on JavaScript
   description: Excessive reliance on JavaScript
+  description_long: Lack of declarative HTML APIs, slow rendering due to dependence on correct loading & execution of JS, issues around the higher barrier-to-entry of JS APIs, etc.
   patterns:
     - js [e]
     - javascript [e]
@@ -577,3 +583,13 @@
     - unreliable
     - flakey
     - reliability
+
+- id: data_binding
+  name: >
+    Data Binding
+  description: >
+    Pain points around the lack of a native way to bind JavaScript data to DOM elements, so that changes in one are automatically reflected in the other.
+  parentId: reactivity
+  tags:
+    - interactivity_pain_points
+    - making_web_components_pain_points

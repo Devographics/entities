@@ -61,8 +61,6 @@
 
 - id: missing_features
 
-- id: data_binding
-
 - id: react_overuse
   patterns:
     - react [e]

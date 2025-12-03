@@ -2,8 +2,6 @@
 #                    web_components_pain_points                  #
 ##################################################################
 
-- id: data_binding
-
 - id: templating
   name: Templating
   description: Lack of templating

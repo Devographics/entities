@@ -96,6 +96,7 @@
   tags:
     - css
     - accessibility
+    - accessibility_techniques
 
 - id: focus_visible
   webFeaturesId: focus-visible

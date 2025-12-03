@@ -29,6 +29,7 @@
     - mobile_web_apps_pain_points
 
 - id: svg_features
+  name: SVG Features
   patterns:
     - svg
   tags:

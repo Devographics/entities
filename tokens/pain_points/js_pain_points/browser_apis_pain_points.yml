@@ -77,8 +77,6 @@
     - inconsistent
     - support
 
-- id: chrome
-
 - id: discoverability
   patterns:
     - discover

@@ -1,3741 +1,3706 @@
-- id: styling
-  name: >
+- id: styling_issues
+  name: |
     Styling
-  description: >
+  description: |
     Issues around styling UA-generated UI, CSS not working in certain contexts, etc.
   parentId: styling_customization
   depth: 1
 
 - id: styling_customization
-  name: >
+  name: |
     Styling and UI customization
-  description: >
+  description: |
     Issues around styling and customizing browser-generated UI.
 
-- id: dx
-  name: >
-    DX
-  description: >
+- id: high_cognitive_load
+  name: |
+    🗑️ High cognitive load
+  description: |
     Learnability, API ergonomics (DX), cognitive overhead, things being too low-level, confusing, annoying, or a hassle.
 
 - id: reliance_on_javascript
-  name: >
+  name: |
     Reliance on JavaScript
-  description: >
+  description: |
     Lack of declarative APIs, slow rendering due to dependence on correct loading & execution of JS, issues around the higher barrier-to-entry of JS APIs, etc.
 
-- id: switch_control
-  name: >
+- id: input_checkbox_switch
+  name: |
     Switch Control
-  description: >
+  description: |
     The lack of a native switch or toggle control, forcing developers to build one from a checkbox.
   parentId: missing_elements
   depth: 1
 
 - id: missing_elements
-  name: >
+  name: |
     Missing elements
-  description: >
+  description: |
     The need to build common UI patterns from scratch due to the lack of built-in, accessible HTML elements.
 
 - id: limitations
-  name: >
+  name: |
     Limitations
-  description: >
+  description: |
     Things not being possible. Missing features or incomplete capabilities. Poor integration between web platform technologies.
 
 - id: button_toggle
-  name: >
+  name: |
     Toggle buttons
-  description: >
+  description: |
     The lack of a native way to create buttons that act as toggles (pressed = on), including toggle button groups.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: workplace
-  name: >
+  name: |
     Workplace issues
-  description: >
+  description: |
     Issues around getting one’s workplace to agree on certain policies and/or priorities.
 
 - id: educational_issues
-  name: >
+  name: |
     Educational issues
-  description: >
+  description: |
     Lack of awareness, poor docs, lack of best practices, lack of good examples. This is about the availability and quality of educational resources, not about learnability issues instrinsic to the technology (use `poor_learnability` for that).
 
-- id: interop
-  name: >
+- id: interop_issues
+  name: |
     Interop issues
-  description: >
+  description: |
     Browser support issues, implementation bugs, cross‑browser implementation differences or inconsistencies, browser prioritization, speed of adoption of new features, any issues where specific browsers, browser engines, or browser companies are mentioned (and it’s not to praise them).
 
-- id: accessibility
-  name: >
+- id: accessibility_issues
+  name: |
     Accessibility
-  description: >
+  description: |
     Obstacles in providing accessible experiences (regardless of cause), assistive‑tech compatibility, etc.
 
 - id: chrome
-  name: >
+  name: |
     Chrome browser
-  description: >
+  description: |
     Issues specific to the Chrome browser or the Chromum rendering engine, across all platforms.
   parentId: google
   depth: 2
 
 - id: google
-  name: >
+  name: |
     Google
-  description: >
+  description: |
     Issues specific to the Google ecosystem (e.g., Chrome, Blink, Android).
-  parentId: specific_platforms_vendors
   depth: 1
+  parentId: interop_issues
 
 - id: specific_platforms_vendors
-  name: >
-    Specific platforms & vendors
-  description: >
+  name: |
+    🗑️ Specific platforms & vendors
+  description: |
     Issues mentioning specific platforms, operating systems, or browser vendors.
 
 - id: validation_errors
-  name: >
+  name: |
     Validation Errors
-  description: >
+  description: |
     Pain points related to the UA-generated validation errors. For issues with styling and customizing the content of built-in error messages, combine with `styling_customization` or its descendants.
-  parentId: form_validation
+  parentId: form_validation_issues
   depth: 2
 
 - id: form_validation_issues
-  name: >
+  name: |
     Form Validation
-  description: >
+  description: |
     General pain points with form validation.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
-- id: react_compatibility
-  name: >
+- id: react_issues
+  name: |
     React compatibility
-  description: >
+  description: |
     Issues around compatibility with React.
-  parentId: framework_compatibility
+  parentId: framework_issues
   depth: 2
 
-- id: framework_compatibility
-  name: >
+- id: framework_issues
+  name: |
     Framework compatibility
-  description: >
+  description: |
     Issues around compatibility with JS frameworks.
   parentId: ecosystem
   depth: 1
 
 - id: ecosystem
-  name: >
+  name: |
     Ecosystem
-  description: >
+  description: |
     Ecosystem issues, poor discoverability, poor marketing.
 
 - id: cross_field_validation
-  name: >
+  name: |
     Cross-Field Validation
-  description: >
+  description: |
     Difficulties in implementing validation logic where the validity of one field depends on the value of another field.
-  parentId: form_validation
+  parentId: form_validation_issues
   depth: 2
 
 - id: form_data_handling
-  name: >
+  name: |
     Form Data Handling
-  description: >
+  description: |
     Pain points related to accessing and manipulating form data on the client-side, such as using the FormData API or converting form data to JSON.
   parentId: forms_js_handling
   depth: 2
 
 - id: forms_js_handling
-  name: >
+  name: |
     Forms & JS
-  description: >
+  description: |
     Pain points related to handling forms with JS, form JS APIs, events, etc.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: firefox
-  name: >
+  name: |
     Firefox browser
-  description: >
+  description: |
     Issues specific to the Firefox browser, across all platforms.
-  parentId: mozilla
+  # parentId: mozilla
   depth: 2
+  parentId: interop_issues
 
 - id: mozilla
-  name: >
+  name: |
     Mozilla
-  description: >
+  description: |
     Issues specific to the Mozilla ecosystem (e.g., Firefox, Gecko).
-  parentId: specific_platforms_vendors
+  parentId: interop_issues
   depth: 1
 
 - id: button_element
-  name: >
+  name: |
     <​button>
-  description: >
+  description: |
     Pain points related to the `<button>` element, including its default behaviors within a form.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: input_element
-  name: >
+  name: |
     <​input>
-  description: >
+  description: |
     General pain points with the `<input>` element or for input types not covered by more specific codes.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
-- id: date_picker
-  name: >
+- id: input_type_date
+  name: |
     Date Picker
-  description: >
+  description: |
     Pain points related to `<input type="date">` and its associated picker UI.
   parentId: pickers
   depth: 2
 
 - id: pickers
-  name: >
+  name: |
     Pickers
-  description: >
+  description: |
     Pain points related to the UI that "picks" a value for an input, such as a calendar or color swatch.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: color_picker
-  name: >
+  name: |
     Color Picker
-  description: >
+  description: |
     Pain points related to `<input type="color">` and its associated picker UI.
   parentId: pickers
   depth: 2
 
 - id: customizable_select
-  name: >
+  name: |
     Customizable select
-  description: >
+  description: |
     A <select> element that is stylable and has more UI flexibility
   parentId: select_element
   depth: 2
 
 - id: select_element
-  name: >
+  name: |
     <​select>
-  description: >
+  description: |
     Pain points related to the `<select>` element.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: multi_handle_slider
-  name: >
+  name: |
     Multi-Handle Slider
-  description: >
+  description: |
     The lack of a native range input that supports multiple thumbs or handles, for selecting a min/max range.
   parentId: slider
   depth: 2
 
 - id: slider
-  name: >
+  name: |
     Slider
-  description: >
+  description: |
     Pain points related to `<input type="range">`.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: date_range_picker
-  name: >
+  name: |
     Date Range Picker
-  description: >
+  description: |
     A native control for selecting a start and an end date.
-  parentId: date_picker
+  parentId: input_type_date
   depth: 3
 
 - id: datalist_element
-  name: >
+  name: |
     <​datalist>
-  description: >
+  description: |
     Pain points related to the `<datalist>` element, including styling and inconsistent UI.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: ui_customization
-  name: >
+  name: |
     UI Customization
-  description: >
+  description: |
     Issues around customizing the browser-provided UI, *beyond styling*, such as changing text, adding or removing controls, etc.
   parentId: styling_customization
   depth: 1
 
 - id: select_element_multiselect
-  name: >
+  name: |
     Multiselect
-  description: >
+  description: |
     Issues with the user experience and appearance of `<select multiple>`.
   parentId: select_element
   depth: 2
 
 - id: multi_value_inputs
-  name: >
+  name: |
     Multi-value inputs
-  description: >
+  description: |
     Issues around difficulties with using or creating input elements for complex, structured values, involving multiple elementary form controls.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: too_much_work
-  name: >
+  name: |
     High effort
-  description: >
+  description: |
     Requires too much work. Includes APIs being too low-level, requiring a lot of manual developer effort to use.
-  parentId: dx
+  parentId: cognitive_overload
   depth: 1
 
-- id: form_validation_api
-  name: >
-    Validation API
-  description: >
-    Issues with the programmatic aspects of the Constraint Validation API (e.g., `setCustomValidity()`).
-  parentId: form_validation
-  depth: 2
+- id: cognitive_overload
+  name: |
+    Cognitive overload
 
-- id: end-user_ux
-  name: >
+- id: end_user_ux_issues
+  name: |
     End-user experience
-  description: >
+  description: |
     Issues around difficulties providing a good user experience for end-users. Do not include DX issues here (use `ergonomics` for that).
 
 - id: rich_text_editing
-  name: >
+  name: |
     Rich Text Editing
-  description: >
+  description: |
     Pain points with `contentEditable` and the general difficulty of building rich text editors on the web.
   parentId: editing_apis
   depth: 1
 
 - id: editing_apis
-  name: >
+  name: |
     Editing APIs
-  description: >
+  description: |
     Pain points related to APIs for text editing.
 
 - id: excessive_complexity
-  name: >
+  name: |
     Excessive complexity
-  description: >
+  description: |
     The landscape or technology feels overengineered, overcomplicated, making it hard to get started.
-  parentId: dx
+  parentId: cognitive_overload
   depth: 1
 
 - id: declarative_apis
-  name: >
+  name: |
     Declarative APIs
-  description: >
+  description: |
     Complaints about lack of declarative APIs (combine with `limitations`), or current declarative APIs (as a whole) being hard to use (combine with `ergonomics`).
 
 - id: form_associated_ce
-  name: >
+  name: |
     Form-Associated Custom Elements
-  description: >
+  description: |
     Issues related to creating and using Form-Associated Custom Elements (FACE) and issues around form participation and semantics for web components.
   parentId: web_components
   depth: 1
 
 - id: web_components
-  name: >
+  name: |
     Web Components
-  description: >
+  description: |
     Pain points related to authoring and using Web Components (Custom Elements, Shadow DOM, etc.).
 
-- id: form_submission
-  name: >
+- id: form_submission_issues
+  name: |
     Form Submission
-  description: >
+  description: |
     Pain points related to the process of submitting form data.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: elementinternals
-  name: >
+  name: |
     ElementInternals
-  description: >
+  description: |
     Issues related to the ElementInternals APIs.
   parentId: web_components
   depth: 1
 
 - id: textarea_element
-  name: >
+  name: |
     <​textarea>
-  description: >
+  description: |
     Pain points specific to the `<textarea>` element.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: forms_state_management
-  name: >
+  name: |
     Forms State Management
-  description: >
+  description: |
     Pain points related to preserving form state on navigation and in any other cases.
   parentId: state_management
   depth: 1
 
 - id: state_management
-  name: >
+  name: |
     State Management
-  description: >
+  description: |
     Difficulties with managing and preserving UI state (e.g., focus, scroll position, form input values, component state) during DOM manipulations.
 
 - id: autocomplete
-  name: >
+  name: |
     Autocomplete
-  description: >
+  description: |
     Pain points with the `autocomplete` attribute and browser autofill behavior.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: time_picker
-  name: >
+  name: |
     Time Picker
-  description: >
+  description: |
     Pain points related to `<input type="time">` and its associated picker UI.
   parentId: pickers
   depth: 2
 
 - id: server_client
-  name: >
+  name: |
     Server-client communication
-  description: >
+  description: |
     Issues around server-client integration & communication, server-side rendering, etc.
 
 - id: invalid
-  name: >
+  name: |
     Invalid/Spam
-  description: >
+  description: |
     Nonsense or non‑actionable or off-topic content.
 
 - id: reliability
-  name: >
+  name: |
     Reliability
-  description: >
+  description: |
     Crashes, device/context loss, flaky behavior, and error handling.
 
 - id: checkbox_input
-  name: >
+  name: |
     Checkbox Input
-  description: >
+  description: |
     Pain points specific to `<input type="checkbox">`.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: performance
-  name: >
+  name: |
     Performance
-  description: >
+  description: |
     Throughput, latency, memory, jank, lag, frame drops, battery/thermal, and loading time.
 
 - id: auto_growing_text_fields
-  name: >
+  name: |
     Auto-Growing Text Fields
-  description: >
+  description: |
     The lack of a native, declarative way for a text field (e.g., `<textarea>`) to resize automatically to fit its content.
   parentId: textarea_element
   depth: 2
 
 - id: combobox_element
-  name: >
+  name: |
     Combobox element
-  description: >
+  description: |
     The lack of a native, accessible combobox element that combines a text input with a dropdown list of suggestions, similar to `<datalist>` but with more control.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: select_element_search
-  name: >
+  name: |
     Searchable select
-  description: >
+  description: |
     The lack of a built-in ability to search or filter the options within a `<select>` element.
   parentId: select_element
   depth: 2
 
-- id: radio_input
-  name: >
+- id: input_type_radio
+  name: |
     radio input
-  description: >
+  description: |
     Pain points specific to `<input type="radio">`.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: progress_element
-  name: >
+  name: |
     <​progress>
-  description: >
+  description: |
     Pain points related to the `<progress>` element.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: fieldset_element
-  name: >
+  name: |
     <​fieldset>
-  description: >
+  description: |
     Pain points related to styling and using the `<fieldset>` and `<legend>` elements.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: number_input
-  name: >
+  name: |
     Number Input
-  description: >
+  description: |
     Pain points specific to `<input type="number">`, including styling stepper buttons and inconsistent behavior.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
-- id: input_showpicker
-  name: >
+- id: showpicker
+  name: |
     input.showPicker()
   parentId: pickers
   depth: 2
 
-- id: i18n
-  name: >
+- id: i18n_issues
+  name: |
     Internationalization
-  description: >
+  description: |
     Localization, RTL, logical coordinates, culturally‑appropriate rendering etc.
 
 - id: file_input
-  name: >
+  name: |
     File Input
-  description: >
+  description: |
     Pain points specific to `<input type="file">`, especially around styling the button and displaying selected files.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
+- id: id_management
+  name: |
+    Difficulty managing ids
+  description: |
+    Difficulties around creating and managing unique ids, linking to ids, etc.
+
 - id: input_masking
-  name: >
+  name: |
     Input Masking
-  description: >
+  description: |
     The lack of a native feature for formatting user input in real-time, such as for phone numbers or currency.
   parentId: input_element
   depth: 2
 
 - id: verbosity_boilerplate
-  name: >
+  name: |
     Excessive verbosity / Boilerplate
-  description: >
+  description: |
     APIs being overly verbose and/or requiring too much boilerplate.
-  parentId: dx
+  parentId: cognitive_overload
   depth: 1
 
 - id: field_sizing_content
-  name: >
+  name: |
     field-sizing: content
   parentId: auto_growing_text_fields
   depth: 3
 
-# - id: safari
-#   name: >
-#     Safari browser
-#   description: >
-#     Issues specific to the Safari browser, across all platforms.
-#   parentId: apple
-#   depth: 2
+- id: safari
+  name: |
+    Safari browser
+  description: |
+    Issues specific to the Safari browser, across all platforms.
+  # parentId: apple
+  depth: 2
+  parentId: interop_issues
 
 - id: apple
-  name: >
+  name: |
     Apple
-  description: >
+  description: |
     Issues specific to Apple as a platform or vendor, and the Apple ecosystem (e.g., Safari, WebKit, iOS).
-  parentId: specific_platforms_vendors
+  parentId: interop_issues
   depth: 1
 
 - id: input_inset_content
-  name: >
+  name: |
     Input Groups (Prefix/Suffix)
-  description: >
+  description: |
     Pain points related to the inability to declaratively add prefixes or suffixes (text or icons) inside or alongside an input field, such as for currency symbols or units.
   parentId: input_element
   depth: 2
 
-- id: aria
-  name: >
+- id: aria_issues
+  name: |
     ARIA
-  description: >
+  description: |
     Issues related to using Accessible Rich Internet Applications (ARIA) attributes and patterns.
-  parentId: accessibility
+  parentId: accessibility_issues
   depth: 1
 
 - id: http_methods
-  name: >
+  name: |
     HTTP Methods
-  description: >
+  description: |
     The limitation of `<form>` elements to only support GET and POST methods, lacking support for PUT, PATCH, DELETE, etc.
-  parentId: form_submission
+  parentId: form_submission_issues
   depth: 2
 
 - id: security_privacy
-  name: >
+  name: |
     Security & privacy
-  description: >
+  description: |
     Threats, mitigations, permissions, and fingerprinting/privacy budget concerns, cross-origin issues etc. Pain points related to general concerns about security and privacy on the web.
 
-- id: quality
-  name: >
-    Low quality results
-  description: >
+- id: poor_design_issues
+  name: |
+    Poor design
+  description: |
     Fidelity issues that are outside the developer’s control or API limitations making it hard to produce high-fidelity results. E.g. rendering is too low quality, low dpi, blurry, browser-generated UI is poor or ugly, etc.
 
 - id: generated_content_replaced_elements
-  name: >
+  name: |
     ::before and ::after on replaced elements
-  parentId: css
   depth: 1
 
-- id: css
-  name: >
+- id: css_issues
+  name: |
     CSS
-  description: >
+  description: |
     Issues related to CSS or specific CSS features (if no more specific leaf)
 
 - id: mobile
-  name: >
+  name: |
     Mobile
-  description: >
+  description: |
     Issues specific to mobile, across all mobile platforms.
   parentId: environments_consumers
   depth: 1
 
 - id: environments_consumers
-  name: >
+  name: |
     Environments & Consumers
-  description: >
+  description: |
     Issues relevant to specific environments or consumers of web content, e.g. devices, bots, viewing modes, etc.
 
 - id: responsive_design
-  name: >
+  name: |
     Responsive design
 
 - id: mobile_vs_desktop
-  name: >
+  name: |
     Mobile vs Desktop
-  description: >
+  description: |
     Challenges around supporting both mobile and desktop, but not specifically about either of the two.
   parentId: environments_consumers
   depth: 1
 
 - id: ios
-  name: >
+  name: |
     iOS
-  description: >
+  description: |
     Issues specific to iOS as a platform.
-  parentId: apple
+  # parentId: apple
   depth: 2
+  parentId: interop_issues
 
 - id: ssr_hydration
-  name: >
+  name: |
     SSR & hydration
-  description: >
+  description: |
     Performance bottlenecks related to the process of making server-rendered HTML interactive on the client using JavaScript frameworks.
   parentId: server_client
   depth: 1
 
 - id: poor_learnability
-  name: >
+  name: |
     Poor learnability
-  description: >
+  description: |
     High learning curve, requires too much knowledge to get started, or too much information to memorize.
-  parentId: dx
+  parentId: cognitive_overload
   depth: 1
 
 - id: multi_step_forms
-  name: >
+  name: |
     Multi-step Forms
-  description: >
+  description: |
     Pain points related to implementing forms that are broken into multiple steps or pages.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
-- id: formdata_api
-  name: >
+- id: formdata
+  name: |
     FormData API
   parentId: form_data_handling
   depth: 3
 
 - id: pattern_attribute
-  name: >
+  name: |
     pattern Attribute
-  description: >
+  description: |
     Issues related to the `pattern` attribute for validation.
-  parentId: form_validation
+  parentId: form_validation_issues
   depth: 2
 
 - id: async_validation
-  name: >
+  name: |
     Async Validation
-  description: >
+  description: |
     The lack of a built-in mechanism for performing asynchronous validation, such as checking a username's availability against a server.
-  parentId: form_validation
+  parentId: form_validation_issues
   depth: 2
 
 - id: vendor_politics
-  name: >
+  name: |
     Vendor politics
-  description: >
+  description: |
     Pain points arising from the strategic decisions, priorities, or market position of browser vendors or platform owners (e.g. Apple, Google).
 
-- id: css_custom_highlight_api
-  name: >
+- id: custom_highlight_api
+  name: |
     CSS Custom Highlight API
-  parentId: css
   depth: 1
 
 - id: standards
-  name: >
+  name: |
     Standards & Specs
-  description: >
+  description: |
     Pain points around specifications and standards (e.g., ISO, WCAG, RGAA).
 
 - id: shadow_dom
-  name: >
+  name: |
     Shadow DOM
-  description: >
+  description: |
     Shadow trees, encapsulation boundaries, slotting, parts, cross-root ARIA and integration with events, other APIs and page elements. Combine with `styling` for shadow DOM styling issues.
   parentId: web_components
   depth: 1
 
 - id: cross_root_aria
-  name: >
+  name: |
     Cross-root ARIA
   parentId: cross_root_refs
   depth: 4
 
 - id: cross_root_refs
-  name: >
+  name: |
     Cross-root element references
-  description: >
+  description: |
     Issues with element references crossing shadow boundaries, including cross-root ARIA
   parentId: cross_root
   depth: 3
 
 - id: cross_root
-  name: >
+  name: |
     Cross-root issues
-  description: >
+  description: |
     Issues around crossing shadow boundaries.
   parentId: shadow_dom
   depth: 2
 
 - id: interactive_table_features
-  name: >
+  name: |
     Interactive table features
-  description: >
+  description: |
     Desire for native browser features for tables like sorting, filtering, and pagination, without relying on JavaScript libraries.
   parentId: tables
   depth: 2
 
 - id: tables
-  name: >
+  name: |
     Tables
-  description: >
+  description: |
     Issues around tables and table layout
   parentId: content
   depth: 1
 
 - id: content
-  name: >
+  name: |
     Content
 
 - id: interactivity
-  name: >
+  name: |
     Interactivity
 
 - id: tabs_element
-  name: >
+  name: |
     Tabs element
-  description: >
+  description: |
     Pain points from the lack of a native HTML element for tabbed interfaces, a common UI pattern.
   parentId: missing_elements
   depth: 1
 
 - id: footnotes_endnotes
-  name: >
+  name: |
     Footnotes/endnotes
-  description: >
+  description: |
     Issues related to the lack of native HTML elements for semantic footnotes and endnotes.
   parentId: content
   depth: 1
 
 - id: carousel
-  name: >
+  name: |
     Carousel
-  description: >
+  description: |
     The lack of a native, declarative HTML element for creating carousels or sliders, forcing developers to build them from scratch.
   parentId: missing_elements
   depth: 1
 
 - id: details_summary_element
-  name: >
+  name: |
     <​details>/<​summary>
-  description: >
+  description: |
     Pain points related to the <details> and <summary> elements, including styling limitations (especially the marker), animation difficulties, and accessibility concerns.
 
 - id: lack_of_best_practices
-  name: >
+  name: |
     Lack of best practices
-  description: >
+  description: |
     Issues arising from the absence of clear, established best practices.
   parentId: educational_issues
   depth: 1
 
 - id: lack_of_documentation
-  name: >
+  name: |
     Lack of documentation or code examples
-  description: >
+  description: |
     Issues due to missing, incomplete, unclear, or outdated documentation or code examples.
   parentId: educational_issues
   depth: 1
 
-- id: testing
-  name: >
+- id: testing_issues
+  name: |
     Testing
-  description: >
+  description: |
     Things being hard to test, unclear how to test them, difficulty procuring the right tools or resources to test, etc.
-  parentId: debugging
+  parentId: debugging_issues
   depth: 1
 
-- id: debugging
-  name: >
+- id: debugging_issues
+  name: |
     Debugging
-  description: >
+  description: |
     Issues around difficulty finding and eliminating bugs, regardless of the cause.
 
-- id: accordion
-  name: >
+- id: accordion_element
+  name: |
     Accordion functionality
   parentId: missing_elements
   depth: 1
 
-- id: css_discrete_animations
-  name: >
+- id: discrete_properties_animations
+  name: |
     Discrete Animations
-  description: >
+  description: |
     Pain points related to animating discrete properties (like `display` or `visibility`), often in the context of entry/exit animations for elements like `<details>` or popovers.
   parentId: transitions_animations
   depth: 1
 
 - id: transitions_animations
-  name: >
-    Transitions
-  description: >
+  name: |
+    🗑️ Transitions
+  description: |
     Pain points in using UI transitions & animations, the View Transitions API, etc.
 
 - id: details_name_attribute
-  name: >
+  name: |
     <​details name> (Exclusive accordion)
   parentId: details_summary_element
   depth: 1
 
 - id: popover_api
-  name: >
+  name: |
     Popover API
-  description: >
+  description: |
     Pain points specific to Popover API.
-  parentId: interactivity
   depth: 1
 
 - id: dialog_element
-  name: >
+  name: |
     <​dialog> Element
-  description: >
+  description: |
     Pain points related to the native HTML `<dialog>` element.
-  parentId: interactivity
   depth: 1
 
 - id: windows
-  name: >
+  name: |
     Microsoft Windows
-  description: >
+  description: |
     Issues specific to the Microsoft Windows operating system.
-  parentId: microsoft
+  # parentId: microsoft
   depth: 2
+  parentId: interop_issues
 
 - id: microsoft
-  name: >
+  name: |
     Microsoft
-  description: >
+  description: |
     Issues specific to Microsoft as a platform or vendor.
-  parentId: specific_platforms_vendors
+  parentId: interop_issues
   depth: 1
 
 - id: virtualization
-  name: >
+  name: |
     Virtualization / Windowing
-  description: >
+  description: |
     The need for or issues with techniques for rendering long lists or large tables by only rendering the visible items (virtual scrolling).
   parentId: rendering
   depth: 2
 
 - id: rendering
-  name: >
+  name: |
     Rendering
-  description: >
+  description: |
     General issues related to the browser's process of painting pixels on the screen, including layout, style recalculation, and compositing.
-  parentId: quality
+  parentId: poor_design_issues
   depth: 1
 
-- id: na
-  name: >
+- id: no_pain_points
+  name: |
     Not applicable
-  description: >
+  description: |
     No use cases, no pain, no issues.
 
-- id: macos
-  name: >
-    macOS
-  description: >
-    Issues specific to macOS as a platform.
-  parentId: apple
-  depth: 2
-
 - id: linux
-  name: >
+  name: |
     Linux
-  parentId: specific_platforms_vendors
+  parentId: interop_issues
   depth: 1
 
 - id: tooling
-  name: >
+  name: |
     Tooling
-  description: >
+  description: |
     Issues around third party tools, or lack thereof, including tooling in the browser (extensions, devtools, etc.).
 
 - id: color_management
-  name: >
+  name: |
     Color management
-  description: >
+  description: |
     Color‑management and color‑space handling across web platform features
 
 - id: css_color_functions
-  name: >
+  name: |
     CSS Color Functions
-  description: >
+  description: |
     Issues related to modern CSS color functions and color spaces (e.g., `oklch`, `color-mix()`, `color-contrast()`).
   parentId: css_values_units
   depth: 2
 
 - id: css_values_units
-  name: >
+  name: |
     CSS Values & Units
-  description: >
+  description: |
     Pain points related to specific CSS values and units.
-  parentId: css
   depth: 1
 
 - id: templating
-  name: >
+  name: |
     Templating & rendering
-  description: >
+  description: |
     Authoring and running templates, data binding, reactive rendering, Declarative Shadow DOM, and server boundaries. Also includes issues related to the <template> element.
   parentId: html_reuse
   depth: 2
 
 - id: html_reuse
-  name: >
+  name: |
     HTML Reuse
-  description: >
+  description: |
     Pain points related to reusing and modularizing HTML content.
   parentId: content
   depth: 1
 
 - id: iframe_element
-  name: >
+  name: |
     <​iframe> Element
-  description: >
+  description: |
     Pain points related to the `<iframe>` element.
 
 - id: desktop
-  name: >
+  name: |
     Desktop
-  description: >
+  description: |
     Issues specific to desktop, across all platforms.
   parentId: environments_consumers
   depth: 1
 
-- id: css_anchor_positioning
-  name: >
+- id: anchor_positioning
+  name: |
     CSS Anchor Positioning
-  description: >
+  description: |
     Pain points related to the CSS Anchor Positioning API, often in conjunction with the Popover API. Includes issues with browser support and the perceived necessity of this API for positioning popovers and tooltips effectively.
-  parentId: css
   depth: 1
 
 - id: tooltips
-  name: >
+  name: |
     Tooltips
-  description: >
+  description: |
     Pain points related to creating accessible, reliable tooltips.
-  parentId: interactivity
   depth: 1
 
 - id: top_layer
-  name: >
+  name: |
     Top Layer
-  description: >
+  description: |
     Issues related to the top layer, where elements like <dialog> and popovers are rendered. Includes z-index conflicts, stacking order control, and interactions between multiple top-layer elements.
-  parentId: css
   depth: 1
 
 - id: context_menus
-  name: >
+  name: |
     Context Menus
-  description: >
+  description: |
     Issues related to creating custom context menus, often citing the deprecation of `<menu type="context">` and the difficulty of implementing accessible custom solutions.
 
 - id: printing
-  name: >
+  name: |
     Printing
-  description: >
+  description: |
     Issues related to styling and controlling the printing of web pages, including paged media features.
   parentId: environments_consumers
   depth: 1
 
 - id: browser_devtools
-  name: >
+  name: |
     Browser dev tools
-  description: >
+  description: |
     Issues around the dev tools built-in to browsers.
   parentId: tooling
   depth: 1
 
 - id: unclear
-  name: >
+  name: |
     Unclear
-  description: >
+  description: |
     Not enough information to determine what the pain point is.
 
-- id: android
-  name: >
+- id: android_issues
+  name: |
     Android
-  parentId: google
+  # parentId: google
   depth: 2
+  parentId: interop_issues
 
 - id: code_editor
-  name: >
+  name: |
     Editable code
-  description: >
+  description: |
     Issues around the difficulties using or implementing in-page editable code areas, or wishes there was a native code editor element.
   parentId: rich_text_editing
   depth: 2
 
 - id: web_audio_api
-  name: >
+  name: |
     Web Audio API
-  description: >
+  description: |
     Issues related to the Web Audio API, such as latency (combine with `performance`), dropouts (combine with `quality`), or cross-browser inconsistencies (combine with `browser_support`).
   parentId: apis_capabilities
   depth: 2
 
 - id: apis_capabilities
-  name: >
+  name: |
     Specific platform APIs & capabilities
-  description: >
+  description: |
     Pain points around APIs opening access to native capabilities, like the Clipboard API, the File System API, etc.
   parentId: system_capabilities
   depth: 1
 
 - id: system_capabilities
-  name: >
+  name: |
     System capabilities
 
-- id: audio
-  name: >
+- id: audio_issues
+  name: |
     Audio
-  description: >
+  description: |
     HTML and programmatic audio on the web.
 
 - id: scrollbars
-  name: >
+  name: |
     Scrollbars
-  description: >
+  description: |
     Issues related to scrollbars.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: cls
-  name: >
+  name: |
     Cumulative Layout Shift
-  description: >
+  description: |
     Issues where the page layout unexpectedly shifts during or after loading, impacting user experience. This is a Core Web Vitals metric.
   parentId: core_web_vitals
   depth: 2
 
 - id: core_web_vitals
-  name: >
+  name: |
     Core Web Vitals
-  description: >
+  description: |
     Pain points specifically mentioning or clearly describing metrics from the Core Web Vitals initiative.
   parentId: performance
   depth: 1
 
 - id: dialog_closedby
-  name: >
+  name: |
     <​dialog> closedby attribute
   parentId: dialog_element
   depth: 2
 
 - id: radio_input_nullable
-  name: >
+  name: |
     Nullable Radio Inputs
-  description: >
+  description: |
     The desire for a native way to deselect all radio buttons in a group, allowing for a 'none' or null state without custom JavaScript.
-  parentId: radio_input
+  parentId: input_type_radio
   depth: 2
 
 - id: meta
-  name: >
+  name: |
     Meta-issues
-  description: >
+  description: |
     Meta-issues not intrinsic to the technology itself or its support in browsers (hardware, spec issues, political issues, etc.).
 
 - id: seo
-  name: >
+  name: |
     SEO
-  description: >
+  description: |
     Issues related to difficulties around Search Engine Optimization (SEO).
   parentId: environments_consumers
   depth: 1
 
 - id: data_binding
-  name: >
+  name: |
     Data Binding
-  description: >
+  description: |
     Pain points around the lack of a native way to bind JavaScript data to DOM elements, so that changes in one are automatically reflected in the other.
   parentId: reactivity
   depth: 4
 
 - id: reactivity
-  name: >
+  name: |
     Reactive rendering & data bindings
-  description: >
+  description: |
     Built‑in reactivity for rendering (signals or equivalent) so templates update from state changes. Complaints about lack of reactivity, or how hard it is to implement reactive data bindings with no framework.
   parentId: templating
   depth: 3
 
 - id: lack_of_awareness
-  name: >
+  name: |
     Lack of awareness
-  description: >
+  description: |
     The user was not aware that a particular technology or API existed.
   parentId: educational_issues
   depth: 1
 
 - id: password_show_hide
-  name: >
+  name: |
     Toggle password visibility
   parentId: password_input
   depth: 3
 
 - id: password_input
-  name: >
+  name: |
     <​input type=password>
   parentId: input_element
   depth: 2
 
 - id: date_and_time
-  name: >
+  name: |
     Date & Time
-  description: >
+  description: |
     Issues related to managing dates and times, including lack of support of modern APIs.
 
 - id: html_modules
-  name: >
+  name: |
     HTML Modules
-  description: >
+  description: |
     Issues around the lack of or desire for HTML Modules, for packaging and importing components and content.
   parentId: html_reuse
   depth: 2
 
 - id: markdown_editor
-  name: >
+  name: |
     Markdown editor
-  description: >
+  description: |
     Issues around the difficulties using or implementing in-page markdown editors, whether that is via contentEditable, textareas, or other methods.
   parentId: rich_text_editing
   depth: 2
 
-- id: css_masonry_layout
-  name: >
+- id: masonry_layout
+  name: |
     CSS Masonry Layout
-  description: >
+  description: |
     Issues related to the desire for a native CSS Masonry layout.
   parentId: css_layout
   depth: 2
 
 - id: css_layout
-  name: >
+  name: |
     CSS Layout
-  description: >
+  description: |
     General issues related to CSS layout models.
-  parentId: css
   depth: 1
 
 - id: sql
-  name: >
+  name: |
     SQL
-  description: >
+  description: |
     Issues related to using SQL(ite) in the browser.
   parentId: storage
   depth: 2
 
 - id: storage
-  name: >
+  name: |
     Storage
-  description: >
+  description: |
     Issues related to storing data on the client-side.
   parentId: system_capabilities
   depth: 1
 
-- id: id_management
-  name: >
-    Difficulty managing ids
-  description: >
-    Difficulties around creating and managing unique ids, linking to ids, etc.
-  parentId: dx
-  depth: 1
-
 - id: browser_extensions
-  name: >
+  name: |
     Browser extensions
-  description: >
+  description: |
     Incompatibilities between browser extensions (either specific ones or a broad category) and certain technologies.
 
-- id: light_dark
-  name: >
+- id: dark_mode_issues
+  name: |
     Dark mode issues
 
 - id: custom_elements
-  name: >
+  name: |
     Custom Elements
-  description: >
+  description: |
     Issues related to defining and using custom elements, including syntax verbosity, lifecycle, and the reliance on JavaScript.
   parentId: web_components
   depth: 1
 
-- id: loading
-  name: >
+- id: loading_issues
+  name: |
     Loading
-  description: >
+  description: |
     General issues related to loading page subresources like scripts, stylesheets, and modules, preloading, or loading UX.
 
 - id: signals
-  name: >
+  name: |
     Signals
-  description: >
+  description: |
     Desire for a native implementation of the Signals pattern for fine-grained reactivity.
   parentId: reactivity
   depth: 4
 
 - id: div_overuse
-  name: >
+  name: |
     Div Overuse
-  description: >
+  description: |
     Frustration with the prevalent overuse of the `<div>` element for all purposes, often at the expense of more semantic elements.
   parentId: semantics
   depth: 2
 
 - id: semantics
-  name: >
+  name: |
     Semantics
-  description: >
+  description: |
     Issues related to understanding, choosing, and correctly using semantically appropriate HTML elements.
   parentId: content
   depth: 1
 
 - id: form_submission_json
-  name: >
+  name: |
     JSON form submission
-  description: >
+  description: |
     The desire for a declarative or built-in way to submit form data as application/json without requiring custom JavaScript to intercept the submission and serialize the data.
-  parentId: form_submission
+  parentId: form_submission_issues
   depth: 2
 
 - id: markdown
-  name: >
+  name: |
     Markdown
-  description: >
+  description: |
     Desire for native/standardized HTML↔Markdown conversion
   parentId: content
   depth: 1
 
 - id: haptic_feedback
-  name: >
+  name: |
     Haptics
-  description: >
+  description: |
     Issues related to the lack of cross-platform APIs for providing haptic feedback.
   parentId: apis_capabilities
   depth: 2
 
 - id: form_nesting
-  name: >
+  name: |
     <​form> Nesting
-  description: >
+  description: |
     Pain points related to the HTML specification's limitation that <form> elements cannot be nested inside one another.
-  parentId: forms
+  parentId: forms_issues
   depth: 1
 
 - id: responsive_images
-  name: >
+  name: |
     Responsive images
-  description: >
+  description: |
     Selecting sources by viewport/container and device characteristics, including issues around related syntax (srcset, sizes, etc)
-  parentId: images
+  parentId: images_issues
   depth: 2
 
-- id: images
-  name: >
+- id: images_issues
+  name: |
     Images
-  description: >
+  description: |
     Still images across the platform, including performance issues around rendering images on a web page.
-  parentId: graphics
+  parentId: graphics_issues
   depth: 1
 
 - id: img_srcset_sizes
-  name: >
+  name: |
     srcset and sizes attributes
   parentId: responsive_images
   depth: 3
 
-- id: svg
-  name: >
+- id: svg_element
+  name: |
     SVG
-  description: >
+  description: |
     Issues related to Vector graphics via Scalable Vector Graphics, including issues related to embedding and manipulating SVG content.
-  parentId: graphics
+  parentId: graphics_issues
   depth: 1
 
 - id: svg_strokes
-  name: >
+  name: |
     Strokes
-  description: >
+  description: |
     Issues related to how SVG strokes are painted or specified.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: svg_security
-  name: >
+  name: |
     SVG Security
-  description: >
+  description: |
     Security concerns with SVGs, particularly around script execution in user-provided or untrusted SVG content.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: tools_export_formats
-  name: >
+  name: |
     Export formats
-  description: >
+  description: |
     Design tools/exporters lacking modern codecs/containers (e.g., AVIF/JPEG XL).
   parentId: tooling
   depth: 1
 
 - id: image_formats_jpegxl
-  name: >
+  name: |
     JPEG XL
-  description: >
+  description: |
     Next‑gen image format emphasizing efficiency and features.
   parentId: image_formats
   depth: 3
 
 - id: image_formats
-  name: >
+  name: |
     Image formats
-  description: >
+  description: |
     Encoders/codecs/containers supported by the web.
-  parentId: images
+  parentId: images_issues
   depth: 2
 
 - id: video_controls
-  name: >
+  name: |
     Video controls
-  description: >
+  description: |
     Customizing, styling, and extending built‑in controls/UX.
-  parentId: video
+  parentId: video_element
   depth: 1
 
-- id: video
-  name: >
+- id: video_element
+  name: |
     Video
-  description: >
+  description: |
     Issues related to including videos, including performance issues around videos.
 
 - id: audio_controls
-  name: >
+  name: |
     Audio controls
-  description: >
+  description: |
     Customizing, styling, and extending built‑in controls/UX.
-  parentId: audio
+  parentId: audio_issues
   depth: 1
 
 - id: svg_external_styling
-  name: >
+  name: |
     External SVG styling
-  description: >
+  description: |
     Styling SVG used via <img>, CSS images, or external files (e.g., currentColor, CSS vars).
   parentId: svg_css_integration
   depth: 3
 
 - id: svg_css_integration
-  name: >
+  name: |
     SVG–CSS integration
-  description: >
+  description: |
     Applying CSS properties/images/animations to SVG, styling SVG, passing styling parameters to SVG etc.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: svg_fonts
-  name: >
+  name: |
     SVG fonts
-  description: >
+  description: |
     Font usage/embedding and text metrics in SVG.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
-- id: charts
-  name: >
+- id: charts_issues
+  name: |
     Charts
-  description: >
+  description: |
     Issues around displaying charts of any type
 
-- id: canvas
-  name: >
+- id: canvas_element
+  name: |
     Canvas
-  description: >
+  description: |
     2D drawing via <canvas>.
-  parentId: graphics
+  parentId: graphics_issues
   depth: 1
 
 - id: svg_gradients
-  name: >
+  name: |
     SVG gradients
-  description: >
+  description: |
     Gradient definitions and usage in SVG.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: svg_layout
-  name: >
+  name: |
     SVG layout & stacking order
-  description: >
+  description: |
     Issues related to layout or paint/stacking order of SVG content
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: animated_images_playback
-  name: >
+  name: |
     Playback control
-  description: >
+  description: |
     Start/stop/loop controls for animated images (e.g., GIF/animated PNG/WebP).
   parentId: animated_images
   depth: 3
 
 - id: animated_images
-  name: >
+  name: |
     Animated images
-  description: >
+  description: |
     Animated raster/vector images used as media.
-  parentId: images
+  parentId: images_issues
   depth: 2
 
-- id: container_queries
-  name: >
+- id: at_container
+  name: |
     Container Queries
-  description: >
+  description: |
     Pain points related to CSS Container Queries, often in relation to other features like responsive images.
-  parentId: css
   depth: 1
 
 - id: svg_filters
-  name: >
+  name: |
     SVG filters
-  description: >
+  description: |
     Filter primitives and their rendering behavior.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: image_loading
-  name: >
+  name: |
     Image loading
-  description: >
+  description: |
     Fetching/decoding/display strategies for images, strategies to make image loading appear smoother, lazy loading etc
-  parentId: images
+  parentId: images_issues
   depth: 2
 
 - id: video_loading
-  name: >
+  name: |
     Video loading
-  description: >
+  description: |
     Issues around how or when videos load, including native lazy loading
-  parentId: video
+  parentId: video_element
   depth: 1
 
 - id: video_playback
-  name: >
+  name: |
     Video playback
-  description: >
+  description: |
     Issues related to video playback, scrubbing, autoplay etc.
-  parentId: video
+  parentId: video_element
   depth: 1
 
 - id: video_thumbnails_posters
-  name: >
+  name: |
     Video thumbnails and posters
-  description: >
+  description: |
     Issues related to generating/displaying video thumbnails and posters, either for scrubbing or static display
-  parentId: video
+  parentId: video_element
   depth: 1
 
-- id: animations
-  name: >
+- id: animations_issues
+  name: |
     Animations
-  description: >
+  description: |
     Issues related to UI animations across all technologies, regardless of technology used to implement them (CSS animations, Lottie, etc)
 
 - id: html_to_image
-  name: >
+  name: |
     HTML to Image
-  description: >
+  description: |
     Issues around generating a raster image (e.g., PNG, JPEG) from arbitrary HTML/DOM content and/or painting it to canvas, often for 'screenshot' or download functionality.
-  parentId: canvas
+  parentId: canvas_element
   depth: 2
 
 - id: canvas_pixel_issues
-  name: >
+  name: |
     Canvas pixel-level issues
-  description: >
+  description: |
     HiDPI scaling, DevicePixelRatio handling, crisp rendering, zoom/antialiasing behavior and other pixel-level rendering issues
-  parentId: canvas
+  parentId: canvas_element
   depth: 2
 
 - id: svg_paths
-  name: >
+  name: |
     SVG paths
-  description: >
+  description: |
     Authoring and manipulating path data (the d attribute), including control points.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: webgpu
-  name: >
+  name: |
     WebGPU
-  description: >
+  description: |
     Modern GPU API for the web.
-  parentId: graphics
+  parentId: graphics_issues
   depth: 1
 
 - id: webxr
-  name: >
+  name: |
     WebXR
-  description: >
+  description: |
     Augmented/virtual reality APIs on the web.
 
 - id: webgl
-  name: >
+  name: |
     WebGL
-  description: >
+  description: |
     Shader‑based 2D/3D via WebGL.
-  parentId: graphics
+  parentId: graphics_issues
   depth: 1
 
 - id: audio_tracks
-  name: >
+  name: |
     Audio Descriptions
-  description: >
+  description: |
     Issues related to providing audio descriptions for video content, a key accessibility feature.
   parentId: tracks
   depth: 1
 
 - id: tracks
-  name: >
+  name: |
     Multimedia tracks
-  description: >
+  description: |
     Timed text or audio tracks (subtitles, captions, etc) across elements.
 
 - id: image_formats_avif
-  name: >
+  name: |
     AVIF
-  description: >
+  description: |
     Modern intra‑frame image format based on AV1.
   parentId: image_formats
   depth: 3
 
 - id: svg_sizing
-  name: >
+  name: |
     SVG sizing & coordinates
-  description: >
+  description: |
     Issues around sizing, coordinates, RWD, etc. for SVG content
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: video_streaming
-  name: >
+  name: |
     Streaming (DASH/HLS)
-  description: >
+  description: |
     Authoring/playing adaptive streams (HLS/DASH/m3u8).
-  parentId: video
+  parentId: video_element
   depth: 1
 
 - id: streaming
-  name: >
+  name: |
     Streaming
-  description: >
+  description: |
     Issues related to streaming HTML content from the server to the client, including browser inconsistencies, performance challenges, and hooking up interactivity to streamed content.
   parentId: server_client
   depth: 1
 
 - id: svg_text_wrapping
-  name: >
+  name: |
     Text wrapping
-  description: >
+  description: |
     Automatic line/paragraph wrapping and flow inside SVG.
   parentId: svg_text
   depth: 3
 
 - id: svg_text
-  name: >
+  name: |
     SVG text
-  description: >
+  description: |
     Text elements and layout in SVG.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: canvas_accessibility
-  name: >
+  name: |
     Canvas Accessibility
-  description: >
+  description: |
     Pain points related to making canvas content accessible, such as the lack of a DOM-like accessibility tree.
-  parentId: canvas
+  parentId: canvas_element
   depth: 2
 
 - id: audio_vtt
-  name: >
+  name: |
     Audio timed text
-  description: >
+  description: |
     Using WebVTT (or similar) with <audio>.
   parentId: audio_tracks
   depth: 2
 
 - id: webvtt
-  name: >
+  name: |
     WebVTT
-  description: >
+  description: |
     WebVTT and subtitles/captions more broadly
   parentId: tracks
   depth: 1
 
 - id: canvas_light_dark
-  name: >
+  name: |
     Canvas light/dark mode
-  parentId: canvas
+  parentId: canvas_element
   depth: 2
 
 - id: getusermedia
-  name: >
+  name: |
     Camera capture
-  description: >
+  description: |
     Media capture via getUserMedia and device enumeration.
 
 - id: canvas_text
-  name: >
+  name: |
     Canvas text rendering
-  description: >
+  description: |
     Text drawing APIs for canvas contexts.
-  parentId: canvas
+  parentId: canvas_element
   depth: 2
 
 - id: image_loading_lqip
-  name: >
+  name: |
     LQIP
-  description: >
+  description: |
     Declarative low‑quality placeholders and blur‑up patterns.
   parentId: image_loading
   depth: 3
 
 - id: loading_ux
-  name: >
+  name: |
     Loading experience
-  description: >
+  description: |
     Issues around the end-user experience around content loading
-  parentId: end-user_ux
+  parentId: end_user_ux_issues
   depth: 1
 
 - id: video_transparency
-  name: >
+  name: |
     Videos with alpha transparency
-  description: >
+  description: |
     Transparent/alpha‑channel video use cases.
-  parentId: video
+  parentId: video_element
   depth: 1
 
 - id: wasm
-  name: >
+  name: |
     WebAssembly (WASM)
-  description: >
+  description: |
     Issues related to using WebAssembly (WASM) in the browser.
   parentId: storage
   depth: 2
 
 - id: 3d_graphics
-  name: >
+  name: |
     3D graphics
-  description: >
+  description: |
     Embedding of existing 3D models via <model>, CSS 3D or other technologies
-  parentId: graphics
+  parentId: graphics_issues
   depth: 1
 
-- id: embedding
-  name: >
+- id: embedding_issues
+  name: |
     Embedding Content
-  description: >
+  description: |
     Pain points related to embedding content from various sources.
   parentId: content
   depth: 1
 
 - id: model_element
-  name: >
+  name: |
     <​model> (Inline AR/VR/3D content)
-  description: >
+  description: |
     Embedding of existing 3D models via `<model>`.
   parentId: 3d_graphics
   depth: 2
 
 - id: image_maps
-  name: >
+  name: |
     Image Maps
-  description: >
+  description: |
     Issues related to the `<map>` and `<area>` elements, such as making them responsive.
-  parentId: images
+  parentId: images_issues
   depth: 2
 
 - id: svg_printing
-  name: >
+  name: |
     SVG printing
-  description: >
+  description: |
     Issues around printing SVG to PDF or paper
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: canvas_hit_testing
-  name: >
+  name: |
     Canvas hit testing
-  description: >
+  description: |
     Pointer region detection and interaction for non‑rectangular shapes.
   parentId: canvas_interactivity
   depth: 3
 
 - id: canvas_interactivity
-  name: >
+  name: |
     Canvas interactivity
-  parentId: canvas
+  parentId: canvas_element
   depth: 2
 
 - id: vector_animations
-  name: >
+  name: |
     Vector Animations
-  description: >
+  description: |
     Issues related to animating vector graphics, including requests for a standard declarative format similar to Lottie.
-  parentId: animations
+  parentId: animations_issues
   depth: 1
 
 - id: pdf_controls
-  name: >
+  name: |
     PDF embed
-  description: >
+  description: |
     Customizing, styling, and extending built‑in controls/UX for embedding PDFs
   parentId: pdf
   depth: 1
 
 - id: pdf
-  name: >
+  name: |
     PDF
-  description: >
+  description: |
     Embedding and generating PDFs in/with the web platform.
 
 - id: svg_favicon
-  name: >
+  name: |
     SVG favicon
-  description: >
+  description: |
     Using SVG as site icons/favicons across platforms and UAs.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: reparenting
-  name: >
+  name: |
     Stable reparenting
-  description: >
+  description: |
     The need for reparenting that preserves state
   parentId: dom_apis
   depth: 2
 
 - id: dom_apis
-  name: >
+  name: |
     DOM APIs
-  description: >
+  description: |
     Issues related to core DOM manipulation APIs, including issues around creating, updating, or removing DOM nodes via JavaScript APIs.
-  parentId: interactivity
   depth: 1
 
 - id: image_hdr
-  name: >
+  name: |
     HDR images
-  description: >
+  description: |
     High‑dynamic‑range still images and fallbacks.
-  parentId: images
+  parentId: images_issues
   depth: 2
 
 - id: video_hdr
-  name: >
+  name: |
     HDR video
-  description: >
+  description: |
     High‑dynamic‑range video playback and fallbacks.
-  parentId: video
+  parentId: video_element
   depth: 1
 
 - id: svg_events
-  name: >
+  name: |
     SVG events
-  description: >
+  description: |
     Event propagation and hit‑testing differences for SVG elements.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: events
-  name: >
+  name: |
     Event management
-  description: >
+  description: |
     Issues around events, complex interactions being hard to define via events, etc. For issues around handling events, including event composition, retargeting, and authoring patterns across light/shadow boundaries, combine with `cross_root`.
 
 - id: fetchpriority
-  name: >
+  name: |
     fetchpriority attribute
   parentId: resource_hints
   depth: 2
 
 - id: resource_hints
-  name: >
+  name: |
     Resource Hints
-  description: >
+  description: |
     Issues with declarative APIs for prioritizing resource loading, such as `preload`, `prefetch`, `preconnect`, and Speculation Rules.
-  parentId: loading
+  parentId: loading_issues
   depth: 1
 
 - id: svg_html_integration
-  name: >
+  name: |
     HTML in SVG
-  description: >
+  description: |
     Embedding HTML/CSS within SVG (e.g., foreignObject) for rich layout.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: image_formats_webp
-  name: >
+  name: |
     WebP
-  description: >
+  description: |
     WebP still/animated image usage and trade‑offs.
   parentId: image_formats
   depth: 3
 
 - id: community
-  name: >
+  name: |
     Community & dev practices
-  description: >
+  description: |
     Issues related to public perception, community discourse, or web developer practices
 
 - id: canvas_sizing
-  name: >
+  name: |
     Canvas sizing
-  description: >
+  description: |
     Issues around (re)sizing, coordinates, RWD, etc. for canvas
-  parentId: canvas
+  parentId: canvas_element
   depth: 2
 
 - id: tools_visual_editors
-  name: >
+  name: |
     Visual editors
-  description: >
+  description: |
     Graphical authoring tools for SVG/canvas have gaps for common tasks.
   parentId: tooling
   depth: 1
 
 - id: html_in_canvas
-  name: >
+  name: |
     HTML in canvas
-  description: >
+  description: |
     Drawing HTML in canvas, improved repainting/interactivity when drawing HTML content in canvas etc
   parentId: html_to_image
   depth: 3
 
 - id: svg_light_dark
-  name: >
+  name: |
     SVG light/dark mode
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: svg_shapes
-  name: >
+  name: |
     SVG Shapes & Primitives
-  description: >
+  description: |
     Pain points related to the lack of built-in primitives for common shapes like stars or regular polygons in SVG.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
 - id: svg_3d_transforms
-  name: >
+  name: |
     3D Transforms in SVG
-  description: >
+  description: |
     The inability to apply 3D transforms to SVG elements.
-  parentId: svg
+  parentId: svg_element
   depth: 2
 
-- id: typography
-  name: >
+- id: typography_issues
+  name: |
     Typography
-  description: >
+  description: |
     Issues related to text and font styling on the web.
 
 - id: animated_images_transparency
-  name: >
+  name: |
     Transparent animation
-  description: >
+  description: |
     Alpha‑channel animation use cases beyond GIF.
   parentId: animated_images
   depth: 3
 
 - id: svg_mesh_gradients
-  name: >
+  name: |
     Mesh gradients
-  description: >
+  description: |
     Freeform mesh gradients as proposed for SVG Next.
   parentId: svg_gradients
   depth: 3
 
 - id: animations_physics_based
-  name: >
+  name: |
     Physics-based Animations
-  description: >
+  description: |
     Issues around creating physics-based animations, such as spring animations, natively on the web platform.
-  parentId: animations
+  parentId: animations_issues
   depth: 1
 
 - id: img_sizes_auto
-  name: >
+  name: |
     <​img sizes=auto>
   parentId: img_srcset_sizes
   depth: 4
 
 - id: performance_vsync_control
-  name: >
+  name: |
     V-Sync Control
-  description: >
+  description: |
     The inability for applications to control V-Sync, which can be important for reducing input latency in games or drawing applications.
   parentId: performance
   depth: 1
 
 - id: image_formats_heic
-  name: >
+  name: |
     HEIC/HEIF
-  description: >
+  description: |
     HEIC/HEIF image usage on the web.
   parentId: image_formats
   depth: 3
 
 - id: wc_svg_integration
-  name: >
+  name: |
     Custom elements + SVG
-  description: >
+  description: |
     SVG integration points relevant to components, such as creating custom elements in the SVG namespace (authoring/composition constraints), using SVGs in shadow DOM etc.
   parentId: web_components
   depth: 1
 
-- id: graphics
-  name: >
+- id: graphics_issues
+  name: |
     Graphics
 
 - id: wc_adoption_momentum
-  name: >
+  name: |
     Adoption & momentum
-  description: >
+  description: |
     Concerns about the low adoption rate, uncertain future, or lack of momentum of Web Components in the broader web development ecosystem.
   parentId: web_components
   depth: 1
 
 - id: slots_light_dom
-  name: >
+  name: |
     Light‑DOM slots
-  description: >
+  description: |
     Using slots without creating a shadow root (slotting for light‑DOM components).
   parentId: slots
   depth: 2
 
 - id: slots
-  name: >
+  name: |
     Slotting & Slots
-  description: >
+  description: |
     Issues around slotted elements, slotting, etc.
   parentId: web_components
   depth: 1
 
 - id: extending_builtin_elements
-  name: >
+  name: |
     Extending built-in elements
-  description: >
+  description: |
     Web Components extending built‑in elements that retain native semantics (e.g., button, input), whether via the `is` attribute, wrapping, or alternative proposals.
   parentId: web_components
   depth: 1
 
 - id: css_architecture
-  name: >
+  name: |
     CSS Architecture
-  description: >
+  description: |
     Fundamental issues and philosophical disagreements with the CSS architecture of Web Components, particularly the strict encapsulation of Shadow DOM and its break from the global CSS cascade.
   parentId: wc_css_integration
   depth: 2
 
 - id: wc_css_integration
-  name: >
+  name: |
     Styling & theming
-  description: >
+  description: |
     CSS used with components: cascade, scoping, parts, custom properties, adopted style sheets, CSS modules, and theming. Issues around CSS across component boundaries (e.g., position: sticky, grid/flex).
   parentId: web_components
   depth: 1
 
 - id: attr_prop_reflection
-  name: >
+  name: |
     Attr–prop reflection
-  description: >
+  description: |
     Synchronizing attributes and properties, including reactive updates when either changes.
   parentId: ce_attributes_props
   depth: 2
 
 - id: ce_attributes_props
-  name: >
+  name: |
     Custom element attributes and props
-  description: >
+  description: |
     Issues around custom element attributes, properties, their values, keeping them in sync, etc.
   parentId: web_components
   depth: 1
 
 - id: css_states
-  name: >
+  name: |
     CSS states
-  description: >
+  description: |
     Issues related to the :state() pseudo-class and its corresponding JS API.
   parentId: elementinternals
   depth: 2
 
 - id: slotted_descendants
-  name: >
+  name: |
     Slotted descendants
-  description: >
+  description: |
     Issues specifically around handling descendants of slotted elements.
   parentId: slotted_elements
   depth: 3
 
 - id: slotted_elements
-  name: >
+  name: |
     Slotted elements
-  description: >
+  description: |
     Issues around slotted elements and their descendants
   parentId: slots
   depth: 2
 
 - id: slotted_styling
-  name: >
+  name: |
     Styling slotted elements and their descendants
   parentId: slots
   depth: 2
 
 - id: declarative_shadow_dom
-  name: >
+  name: |
     Declarative Shadow DOM
-  description: >
+  description: |
     Authoring, referencing, and tooling around Declarative Shadow DOM (DSD).
   parentId: shadow_dom
   depth: 2
 
 - id: wc_css_cascade
-  name: >
+  name: |
     Web Components CSS cascade & specificity
-  description: >
+  description: |
     Issues around the way CSS cascading and specificity works for web components. For issues around inability to override light DOM styles from shadow styles, having to use `!important` etc. combine with `styling` and `slotted_elements` or `shadow_dom_host` as needed.
   parentId: wc_css_integration
   depth: 2
 
 - id: slotted_pseudo
-  name: >
+  name: |
     ::slotted()
-  description: >
+  description: |
     Issues around the `::slotted()` pseudo-element
   parentId: slotted_styling
   depth: 3
 
 - id: shadow_mutation_observer
-  name: >
+  name: |
     Cross‑root mutations
-  description: >
+  description: |
     Observing changes across open shadow roots without manually traversing the composed tree.
   parentId: shadow_dom
   depth: 2
 
 - id: auto_slotting
-  name: >
+  name: |
     Auto‑slotting
-  description: >
+  description: |
     Declarative auto‑assignment of nodes to slots via selectors/tag names (without MutationObserver glue).
   parentId: slots
   depth: 2
 
 - id: wc_loading_packaging
-  name: >
+  name: |
     Loading & packaging
-  description: >
+  description: |
     Defining when/how components load, packaging their assets, and import mechanisms.
   parentId: web_components
   depth: 1
 
 - id: global_theming
-  name: >
+  name: |
     Global theming of web components
-  description: >
+  description: |
     Mechanisms for page‑level themes to influence components consistently (beyond custom properties). Using design tokens or CSS utility classes (including frameworks like Tailwind) from the page within components.
   parentId: wc_css_integration
   depth: 2
 
 - id: declarative_data_binding
-  name: >
+  name: |
     Declarative data binding
-  description: >
+  description: |
     The lack of a native, declarative way to bind component state/properties to its template, causing template updates to be manual and imperative.
   parentId: data_binding
   depth: 5
 
 - id: wc_discoverability
-  name: >
+  name: |
     Discoverability
-  description: >
+  description: |
     Issues around discovering web components to use.
   parentId: web_components
   depth: 1
 
 - id: inconsistencies
-  name: >
+  name: |
     Inconsistencies across web platform features
-  description: >
+  description: |
     E.g. poor integration between different features or web technologies
 
 - id: custom_element_lifecycle_hooks
-  name: >
+  name: |
     Custom elements
-  description: >
+  description: |
     Issues around existing or missing Custom Elements lifecycle hooks.
   parentId: web_components
   depth: 1
 
 - id: reader_mode
-  name: >
+  name: |
     Reader mode
-  description: >
+  description: |
     Issues around consuming website content in reader modes, both with those built-in to browsers and via third-party extensions/apps.
   parentId: environments_consumers
   depth: 1
 
 - id: native_templating
-  name: >
+  name: |
     Native templating
-  description: >
+  description: |
     HTML‑level template syntax (e.g., interpolation/conditionals/loops) without third‑party libraries.
   parentId: templating
   depth: 3
 
 - id: templating_jsx_like
-  name: >
+  name: |
     JSX‑like templating
-  description: >
+  description: |
     JSX‑style or similar declarative authoring for component templates.
   parentId: templating
   depth: 3
 
 - id: focusable_custom_elements
-  name: >
+  name: |
     Focusable host
-  description: >
+  description: |
     Making a CE host focusable (and tabbable) without managing tabindex attributes manually.
   parentId: web_components
   depth: 1
 
 - id: focus_management
-  name: >
+  name: |
     Focus Management
-  description: >
+  description: |
     Challenges with managing focus, especially in dynamic contexts. Includes focus trapping, roving tabindex, moving focus programmatically, and preserving focus when DOM elements are added, removed, or moved.
 
 - id: ide_support
-  name: >
+  name: |
     IDE support & autocomplete
-  description: >
+  description: |
     Editor completion/import for custom tags/attributes/parts/events.
   parentId: tooling
   depth: 1
 
 - id: children_ready_lifecycle_hook
-  name: >
+  name: |
     Children ready hook
-  description: >
+  description: |
     A way to await or observe that a component’s subtree (light + shadow) is fully initialized before acting (lifecycle hook, event, whatever), especially in nested component trees.
   parentId: custom_element_lifecycle_hooks
   depth: 2
 
 - id: wc_authoring_model
-  name: >
+  name: |
     Authoring model
-  description: >
+  description: |
     Pain points related to the fundamental authoring model of Web Components, often contrasting its imperative, class-based (OOP) nature with the declarative, functional approaches of popular frameworks.
   parentId: web_components
   depth: 1
 
-# - id: typescript
-#   name: >
-#     TypeScript types
-#   description: >
-#     Typing components and their JSX/TSX/templating integrations (including Custom Elements Manifest).
-#   parentId: tooling
-#   depth: 1
+- id: typescript_issues
+  name: |
+    TypeScript types
+  description: |
+    Typing components and their JSX/TSX/templating integrations (including Custom Elements Manifest).
+  parentId: tooling
+  depth: 1
 
 - id: css_modules
-  name: >
+  name: |
     CSS modules
-  description: >
+  description: |
     Importing CSS via ES modules/import attributes (e.g., import sheet from './x.css' with { type: 'css' }).
   parentId: wc_loading_packaging
   depth: 2
 
 - id: css_parts
-  name: >
+  name: |
     Defining and styling parts
-  description: >
+  description: |
     For issues around ::part() being hard to use, combine with `ergonomics` (or a suitable leaf). For issues around ::part() being unable to style certain things, combine with `limitations` and `styling`.
   parentId: wc_css_integration
   depth: 2
 
 - id: dsd_reusability
-  name: >
+  name: |
     DSD reusability
-  description: >
+  description: |
     The inability to define a Declarative Shadow DOM template once and reuse it across multiple component instances, leading to HTML bloat and poor ergonomics.
   parentId: declarative_shadow_dom
   depth: 3
 
 - id: poor_composability
-  name: >
+  name: |
     Poor composability
-  parentId: dx
+  parentId: cognitive_overload
   depth: 1
 
 - id: shadow_open_stylable
-  name: >
+  name: |
     Shadow DOM without style encapsulation
-  description: >
+  description: |
     Desire for DOM encapsulation while allowing page styles to cascade into the shadow tree. For complaints about lack of adoption of `mode: open-stylable` shadow roots, combine with `browser_support`.
   parentId: shadow_dom
   depth: 2
 
 - id: wc_state_management
-  name: >
+  name: |
     Web Components State management
-  description: >
+  description: |
     Issues around managing state within and between components, including the lack of built-in solutions and integration with external state management libraries.
   parentId: state_management
   depth: 1
 
 - id: declarative_custom_elements
-  name: >
+  name: |
     Declarative custom elements
-  description: >
+  description: |
     HTML‑only definitions/usage of custom elements (no JS bootstrapping) and their authoring model. This also includes complaints about reliance on JavaScript.
   parentId: custom_elements
   depth: 2
 
 - id: progressive_enhancement
-  name: >
+  name: |
     Progressive enhancement
-  description: >
+  description: |
     Difficulties in applying progressive enhancement patterns, where components fail to render or function gracefully when JavaScript is unavailable, fails, or has not yet executed.
 
 - id: dom_diffing
-  name: >
+  name: |
     DOM diffing & patching
-  description: >
+  description: |
     The desire for a built-in, performant mechanism for incremental DOM updates (diffing/patching), requiring developers to either manually manage DOM updates or use a library to avoid full-rerenders.
   parentId: templating
   depth: 3
 
 - id: wc_hmr
-  name: >
+  name: |
     Hot Module Replacement (HMR)
-  description: >
+  description: |
     The lack of effective Hot Module Replacement (HMR), making the edit-refresh cycle slower than with modern frameworks.
   parentId: web_components
   depth: 1
 
 - id: template_domparts
-  name: >
+  name: |
     Template Instantiation / DOM Parts
-  description: >
+  description: |
     Template Instantiation / DOM Parts for efficient, incremental updates without a VDOM.
   parentId: templating
   depth: 3
 
 - id: import_attributes
-  name: >
+  name: |
     Import attributes
-  parentId: loading
+  parentId: loading_issues
   depth: 1
 
 - id: reference_target_api
-  name: >
+  name: |
     Reference Target API
-  description: >
+  description: |
     Issues mentioning the Reference Target API specifically
   parentId: cross_root_aria
   depth: 5
 
 - id: has_slotted
-  name: >
+  name: |
     :has-slotted CSS pseudo-class
-  description: >
+  description: |
     Combine with `browser_support` for issues around lack of adoption.
   parentId: slots
   depth: 2
 
 - id: scoped_registries
-  name: >
+  name: |
     Scoped registries
-  description: >
+  description: |
     The inability to scope custom element definitions, leading to naming collisions, especially in micro-frontend architectures or when multiple versions of a component library are loaded.
   parentId: custom_element_registration
   depth: 2
 
 - id: custom_element_registration
-  name: >
+  name: |
     Registries & naming
-  description: >
+  description: |
     Custom element registries, registering elements, associating classes and tag names, definition scope, tag naming rules, and related composition patterns.
   parentId: web_components
   depth: 1
 
 - id: props_complex_values
-  name: >
+  name: |
     Complex values for props
-  description: >
+  description: |
     Difficulties around handling props having objects or arrays as values and their prop/attribute reflection.
   parentId: ce_attributes_props
   depth: 2
 
 - id: analytics_integration
-  name: >
+  name: |
     Analytics integration
-  description: >
+  description: |
     Compatibility with page-level analytics, telemetry, and similar tools
   parentId: limitations
   depth: 1
 
 - id: component_based_architecture
-  name: >
+  name: |
     Component-Based Architecture
-  description: >
+  description: |
     Pain points related to building websites with a component-based model, such as state management, content composition, and framework reliance. Combine with `accessibility`  for accessibility challenges that are specific to or exacerbated by component-based development (e.g., managing heading levels, generating unique IDs).
 
 - id: custom_attributes
-  name: >
+  name: |
     Custom attributes
-  description: >
+  description: |
     Extending built-in elements or custom elements with custom attributes.
   parentId: extending_builtin_elements
   depth: 2
 
-- id: decorators
-  name: >
+- id: decorators_issues
+  name: |
     JS Decorators
-  description: >
+  description: |
     For issues around lack of support of decorators in browsers combine with `browser_support`.
 
 - id: import_maps
-  name: >
+  name: |
     Import maps
-  description: >
+  description: |
     For issues around import maps being hard to manage, combine with `ergonomics` or a suitable leaf.
 
-- id: css_style_queries
-  name: >
+- id: at_container_style
+  name: |
     Style queries
-  description: >
+  description: |
     Style‑container queries and related primitives used for component theming/responsiveness.
   parentId: wc_css_integration
   depth: 2
 
 - id: sortable_lists
-  name: >
+  name: |
     Sortable Lists
-  description: >
+  description: |
     Pain points around creating sortable lists, including drag and drop functionality and reordering elements.
-  parentId: interactivity
   depth: 1
 
 - id: invokers
-  name: >
+  name: |
     Invokers / Commands
-  description: >
+  description: |
     Pain points and feedback related to the proposed Invokers and Command attributes for declaratively triggering actions on other elements.
-  parentId: interactivity
   depth: 1
 
 - id: command_invokers
-  name: >
+  name: |
     Command invokers
   parentId: invokers
   depth: 2
 
 - id: element_movebefore
-  name: >
+  name: |
     element.moveBefore()
   parentId: reparenting
   depth: 3
 
 - id: aria_live_regions
-  name: >
+  name: |
     ARIA live regions
-  description: >
+  description: |
     Issues around ARIA live regions and generally announcing DOM changes to assistive technology.
-  parentId: aria
+  parentId: aria_issues
   depth: 2
 
 - id: incremental_dom_updates
-  name: >
+  name: |
     Incremental DOM updates
-  description: >
+  description: |
     Challenges related to updating parts of DOM trees to reflect state, including strategies like DOM diffing, virtual DOM or API proposals such as DOM parts.
   parentId: dom_apis
   depth: 2
 
 - id: modal_issues
-  name: >
+  name: |
     Modal Issues
-  description: >
+  description: |
     Common accessibility, usability, and focus-management problems when implementing modals with the `<dialog>` element.
   parentId: dialog_element
   depth: 2
 
 - id: creating_elements
-  name: >
+  name: |
     Creating elements
-  description: >
+  description: |
     Issues around creating elements, complex DOM trees, etc.
   parentId: dom_apis
   depth: 2
 
-- id: view_transitions_api
-  name: >
+- id: view_transitions
+  name: |
     View Transitions API
   parentId: transitions_animations
   depth: 1
 
 - id: partial_page_updates
-  name: >
+  name: |
     Partial Page Updates
-  description: >
+  description: |
     The desire for a native mechanism to update parts of a page with HTML from a server response, without a full page reload, similar to what libraries like htmx or Turbo provide.
   parentId: native_htmx_like_features
   depth: 2
 
 - id: native_htmx_like_features
-  name: >
+  name: |
     htmx Features
-  description: >
+  description: |
     The lack of native access to WebSockets, Server Sent Events, and other features supported by htmx directly in HTML.
   parentId: declarative_apis
   depth: 1
 
 - id: html_imports
-  name: >
+  name: |
     HTML Imports
-  description: >
+  description: |
     Lack of native HTML imports or templating.
   parentId: html_reuse
   depth: 2
 
 - id: drag_and_drop
-  name: >
+  name: |
     Drag & Drop
-  description: >
+  description: |
     Common challenges with APIs for implementing drag-and-drop functionality.
 
 - id: observable_api
-  name: >
+  name: |
     Observable API
   parentId: events
   depth: 1
 
 - id: scroll-triggered_animations
-  name: >
+  name: |
     Scroll-triggered Animations
-  description: >
+  description: |
     Performance issues with animations that are linked to the user's scroll position.
-  parentId: animations
+  parentId: animations_issues
   depth: 1
 
 - id: dialog_requestclose
-  name: >
+  name: |
     dialog.requestClose()
   parentId: dialog_element
   depth: 2
 
 - id: xslt
-  name: >
+  name: |
     XSLT
-  parentId: css
-  depth: 1
 
 - id: headings
-  name: >
+  name: |
     Headings
-  description: >
+  description: |
     Issues related to managing heading elements and maintaining a correct and logical document outline.
   parentId: content
   depth: 1
 
 - id: template_element
-  name: >
+  name: |
     <​template> Element
-  description: >
+  description: |
     Issues specific to the `<template>` element, often about its limitations or ergonomics.
   parentId: templating
   depth: 3
 
 - id: intl_apis
-  name: >
+  name: |
     Intl API
-  description: >
+  description: |
     Pain points related to the JavaScript `Intl` object and its APIs, such as being too low-level, missing features, or ergonomic issues.
-  parentId: i18n
+  parentId: i18n_issues
   depth: 1
 
 - id: intl_apis_segmenter
-  name: >
+  name: |
     Intl.Segmenter
-  description: >
+  description: |
     Pain points related to `Intl.Segmenter` API.
   parentId: intl_apis
   depth: 2
 
 - id: maps
-  name: >
+  name: |
     Map Issues
-  description: >
+  description: |
     Pain points related to embedding maps and handling maps on the web in general.
   parentId: content
   depth: 1
 
 - id: math
-  name: >
+  name: |
     Math on the Web
-  description: >
+  description: |
     Pain points specific to math on the Web, such as its verbosity, styling limitations, and unfavorable comparisons to TeX/LaTeX.
   parentId: content
   depth: 1
 
 - id: content_security_policy
-  name: >
+  name: |
     Content Security Policy (CSP)
-  description: >
+  description: |
     Pain points around Content Security Policy, often citing its complexity, difficulty in configuration, and debugging.
   parentId: security_privacy
   depth: 1
 
 - id: iframe_auto_sizing
-  name: >
+  name: |
     Iframe auto-sizing
-  description: >
+  description: |
     Difficulties in making `<iframe>` elements automatically size to their content's height or width, especially without JavaScript.
   parentId: iframe_element
   depth: 1
 
 - id: intl_apis_locale
-  name: >
+  name: |
     Intl.Locale
-  description: >
+  description: |
     Pain points related to `Intl.Locale` API.
   parentId: intl_apis
   depth: 2
 
 - id: declarative_i18n
-  name: >
+  name: |
     Declarative i18n
-  description: >
+  description: |
     The desire for internationalization and localization features to be built into HTML declaratively, rather than relying on JavaScript.
-  parentId: i18n
+  parentId: i18n_issues
   depth: 1
 
 - id: html_fragment_reuse
-  name: >
+  name: |
     Reusing HTML fragments
-  description: >
+  description: |
     Reuse HTML fragments from the same page
   parentId: html_reuse
   depth: 2
 
 - id: toast_notifications
-  name: >
+  name: |
     Toast Notifications
-  description: >
+  description: |
     The lack of a native HTML element or API for creating non-modal, timed "toast" notifications.
   parentId: missing_elements
   depth: 1
 
 - id: content_state_management
-  name: >
+  name: |
     Content State Management
-  description: >
+  description: |
     The lack of a native, browser-provided mechanism for managing application state, leading to reliance on large frameworks.
   parentId: state_management
   depth: 1
 
 - id: sanitizer_api
-  name: >
+  name: |
     Sanitizer API
-  description: >
+  description: |
     Issues related to the HTML Sanitizer API, including its absence, limitations, or ergonomics.
   parentId: security_privacy
   depth: 1
 
 - id: mathml
-  name: >
+  name: |
     MathML
-  description: >
+  description: |
     Pain points specific to MathML.
   parentId: math
   depth: 2
 
 - id: css_integration
-  name: >
+  name: |
     CSS Integration
-  description: >
+  description: |
     Pain points related to the integration between a feature and CSS. For issues arising from the intersection of CSS features and accessibility, such as ensuring modern CSS layouts or 'clever' CSS solutions are accessible, combine with `accessibility`.
-  parentId: css
   depth: 1
 
 - id: table_layout
-  name: >
+  name: |
     Table Layout & Styling
-  description: >
+  description: |
     Issues with styling tables, including responsiveness, sticky headers/columns, and layout control.
   parentId: tables
   depth: 2
 
 - id: callout
-  name: >
+  name: |
     Callouts/admonitions
   parentId: missing_elements
   depth: 1
 
 - id: cors
-  name: >
+  name: |
     CORS
-  description: >
+  description: |
     Pain points with Cross-Origin Resource Sharing (CORS) and related cross-origin security policies.
   parentId: security_privacy
   depth: 1
 
 - id: structured_data
-  name: >
+  name: |
     Machine‑readable data beyond the time element: RDFa/JSON‑LD/Microformats
   parentId: content
   depth: 1
 
 - id: non_render_blocking
-  name: >
+  name: |
     Non-render blocking
-  description: >
+  description: |
     The desire to opt-out of render blocking (usually for stylesheets)
   parentId: rendering
   depth: 2
 
 - id: lighthouse
-  name: >
+  name: |
     Lighthouse
-  description: >
+  description: |
     Issues specific to using the Lighthouse auditing tool, its recommendations, or score variability.
   parentId: tooling_profiling
   depth: 2
 
 - id: tooling_profiling
-  name: >
+  name: |
     Performance profiling tools
-  description: >
+  description: |
     Issues related to choosing and using tools that measure performance or report performance issues.
   parentId: tooling
   depth: 1
 
 - id: speculation_rules
-  name: >
+  name: |
     Speculation Rules
-  description: >
+  description: |
     Issues with the Speculation Rules API for prerendering or prefetching navigations.
   parentId: resource_hints
   depth: 2
 
 - id: css_loading
-  name: >
+  name: |
     CSS Loading
-  description: >
+  description: |
     Issues related to loading stylesheets, including render-blocking behavior, asynchronous loading, and unused CSS.
-  parentId: loading
+  parentId: loading_issues
   depth: 1
 
 - id: lazy_loading
-  name: >
+  name: |
     Lazy Loading
-  description: >
+  description: |
     Issues related to the native `loading="lazy"` attribute for images and iframes, and the desire for similar functionality for other elements.
-  parentId: loading
+  parentId: loading_issues
   depth: 1
 
 - id: fouc
-  name: >
+  name: |
     Flash of Unstyled Content
-  description: >
+  description: |
     The specific problem where content briefly appears without its intended styling, often due to CSS loading behavior.
   parentId: loading_ux
   depth: 2
 
 - id: render_blocking
-  name: >
+  name: |
     blocking=render attribute
   parentId: rendering
   depth: 2
 
 - id: third_party_scripts
-  name: >
+  name: |
     Third-party Scripts
-  description: >
+  description: |
     Issues caused by scripts not authored by the site owner, such as analytics, ads, trackers, and customer support widgets.
   parentId: ecosystem
   depth: 1
 
 - id: script_loading
-  name: >
+  name: |
     Script Loading
-  description: >
+  description: |
     Pain points related to loading and executing JavaScript, including `async`, `defer`, ES modules, and dynamic imports.
-  parentId: loading
+  parentId: loading_issues
   depth: 1
 
 - id: fcp
-  name: >
+  name: |
     First Contentful Paint
-  description: >
+  description: |
     Issues related to the time it takes for the first piece of DOM content to render. This is a Core Web Vitals metric.
   parentId: core_web_vitals
   depth: 2
 
 - id: raster_images
-  name: >
+  name: |
     Raster Images
-  description: >
+  description: |
     Performance issues around rendering raster images on a web page.
-  parentId: images
+  parentId: images_issues
   depth: 2
 
 - id: feature_capability_detection
-  name: >
+  name: |
     Feature detection
-  description: >
+  description: |
     Issues around detecting support for web platform features, device/OS capabilities, etc.
   parentId: progressive_enhancement
   depth: 1
 
 - id: large_dom
-  name: >
+  name: |
     Large DOM Trees
-  description: >
+  description: |
     Performance problems caused by having a very large or complex DOM tree.
   parentId: rendering
   depth: 2
 
 - id: skeleton_loading
-  name: >
+  name: |
     Native skeleton primitive
   parentId: loading_ux
   depth: 2
 
 - id: service_workers
-  name: >
+  name: |
     Service Workers
-  description: >
+  description: |
     Issues related to the performance or complexity of using Service Workers for caching and other background tasks.
 
 - id: fonts
-  name: >
+  name: |
     Fonts
-  description: >
+  description: |
     Issues related to web font loading, performance, and rendering, including Flash of Unstyled Text (FOUT) and Flash of Invisible Text (FOIT).
-  parentId: typography
+  parentId: typography_issues
   depth: 1
 
 - id: preload
-  name: >
+  name: |
     Preload
-  description: >
+  description: |
     Pain points related to using `<link rel="preload">` to fetch resources declaratively.
   parentId: resource_hints
   depth: 2
 
 - id: prefetch
-  name: >
+  name: |
     Prefetch
-  description: >
+  description: |
     Pain points related to using `<link rel="prefetch">` or other prefetching mechanisms.
   parentId: resource_hints
   depth: 2
 
 - id: cross_document_view_transitions
-  name: >
+  name: |
     Cross-document View Transitions
-  parentId: view_transitions_api
+  parentId: view_transitions
   depth: 2
 
 - id: lcp
-  name: >
+  name: |
     Largest Contentful Paint
-  description: >
+  description: |
     Issues related to the perceived loading speed of the main content of a page. This is a Core Web Vitals metric.
   parentId: core_web_vitals
   depth: 2
 
 - id: threading
-  name: >
+  name: |
     Threading
-  description: >
+  description: |
     Issues around threading & parallelization, UIs locking up due to single threading, etc.
   parentId: performance
   depth: 1
 
 - id: loading_waterfall
-  name: >
+  name: |
     Loading waterfall
-  description: >
+  description: |
     Issues around the “loading waterfall” where subresources cannot start loading before their parent resources (present in ESM, CSS imports etc)
-  parentId: loading
+  parentId: loading_issues
   depth: 1
 
 - id: inp
-  name: >
+  name: |
     Interaction to Next Paint
-  description: >
+  description: |
     Issues related to the responsiveness of a page to user input. This is a Core Web Vitals metric.
   parentId: core_web_vitals
   depth: 2
 
 - id: contenteditable_attribute
-  name: >
+  name: |
     contentEditable Attribute
-  description: >
+  description: |
     Pain points related to the `contenteditable` global attribute for in-page editing, beyond those covered by `rich_text_editing`.
   parentId: editing_apis
   depth: 1
 
 - id: preconnect
-  name: >
+  name: |
     Preconnect
-  description: >
+  description: |
     Issues with using `<link rel="preconnect">` to establish early connections.
   parentId: resource_hints
   depth: 2
 
 - id: team_buy_in
-  name: >
+  name: |
     Team/Stakeholder buy-in
-  description: >
+  description: |
     Difficulties in convincing teammates, managers, clients, or other stakeholders of the importance and priority of accessibility work.
   parentId: workplace
   depth: 1
 
 - id: wcag
-  name: >
+  name: |
     WCAG Issues
-  description: >
+  description: |
     Issues related to the Web Accessibility Guidelines (WCAG) and/or its relationship with other accessibility guidelines. For issues around the learnability of WCAG combine with `poor_learnability`.
   parentId: standards
   depth: 1
 
 - id: jaws
-  name: >
+  name: |
     JAWS
-  description: >
+  description: |
     Issues specific to the JAWS (Job Access With Speech) screen reader.
   parentId: screen_readers
   depth: 2
 
 - id: screen_readers
-  name: >
+  name: |
     Screen Reader Issues
-  description: >
+  description: |
     Issues with screen readers in general, or specific screen readers.
-  parentId: accessibility
+  parentId: accessibility_issues
   depth: 1
 
 - id: conflicting_advice
-  name: >
+  name: |
     Conflicting advice
-  description: >
+  description: |
     Frustration from receiving conflicting or contradictory information and best practices from different sources (specs, experts, community).
   parentId: educational_issues
   depth: 1
 
 - id: lack_of_tools
-  name: >
+  name: |
     Lack of Tools
-  description: >
+  description: |
     Pain points caused by the absence of necessary tools.
   parentId: tooling
   depth: 1
 
 - id: testing_automation
-  name: >
+  name: |
     Automated testing
-  description: >
+  description: |
     Issues around the lack, limitations, or difficulty of implementing automated accessibility testing.
-  parentId: testing
+  parentId: testing_issues
   depth: 2
 
 - id: low_priority
-  name: >
+  name: |
     Low Priority
-  description: >
+  description: |
     Employer deprioritizes a11y.
   parentId: workplace
   depth: 1
 
 - id: accessible_visual_design
-  name: >
+  name: |
     Accessible visual design
-  description: >
+  description: |
     Issues around the challenges of creating aesthetically pleasing interfaces that are also accessible. Combine with `workplace` and/or `low_priority` for challenges around coworkers prioritizing visual design over accessibility, getting designers on board, etc.
-  parentId: accessibility
+  parentId: accessibility_issues
   depth: 1
 
 - id: color_contrast
-  name: >
+  name: |
     Color contrast
-  description: >
+  description: |
     Issues around evaluating and/or maintaining adequate color contrast.
 
 - id: screen_readers_access
-  name: >
+  name: |
     Screen reader access
-  description: >
+  description: |
     Difficulty procuring screen readers for testing.
   parentId: screen_readers
   depth: 2
 
 - id: keyboard_navigation
-  name: >
+  name: |
     Keyboard navigation
-  description: >
+  description: |
     Issues around managing good keyboard navigation and keyboard shortcuts.
 
 - id: nvda
-  name: >
+  name: |
     NVDA
-  description: >
+  description: |
     Issues specific to the NVDA (NonVisual Desktop Access) screen reader.
   parentId: screen_readers
   depth: 2
 
 - id: voiceover
-  name: >
+  name: |
     VoiceOver
-  description: >
+  description: |
     Issues specific to Apple's VoiceOver screen reader.
   parentId: screen_readers
   depth: 2
 
 - id: visually_hidden
-  name: >
+  name: |
     Visually hidden content
-  description: >
+  description: |
     Issues related to showing content to screen readers that is hidden from sighted users, often involving CSS hacks due to the lack of a native method.
   parentId: screen_readers
   depth: 2
 
 - id: a11y_overlays
-  name: >
+  name: |
     Accessibility Overlays
-  description: >
+  description: |
     Issues related to third-party accessibility overlays or widgets that claim to automatically fix accessibility issues, but often create new problems.
-  parentId: accessibility
+  parentId: accessibility_issues
   depth: 1
 
 - id: alt_text
-  name: >
+  name: |
     Alternative text for images or other rich content (authoring, review, and tooling gaps)
-  parentId: accessibility
+  parentId: accessibility_issues
   depth: 1
 
 - id: apca
-  name: >
+  name: |
     APCA
-  description: >
+  description: |
     Issues related to the Accessible Perceptual Contrast Algorithm (APCA).
   parentId: color_contrast
   depth: 1
 
 - id: webview
-  name: >
+  name: |
     WebView
   parentId: environments_consumers
   depth: 1
 
 - id: skip_links
-  name: >
+  name: |
     Skip links
-  description: >
+  description: |
     Pain points around implementing 'skip to content' links for keyboard users.
   parentId: keyboard_navigation
   depth: 1
 
 - id: talkback
-  name: >
+  name: |
     TalkBack
-  description: >
+  description: |
     Issues specific to Google's TalkBack screen reader on Android.
   parentId: screen_readers
   depth: 2
 
 - id: a11y_tree_aom
-  name: >
+  name: |
     Programmatic access to the Accessibility Tree / AOM
-  parentId: accessibility
+  parentId: accessibility_issues
   depth: 1
 
 - id: native_look_feel
-  name: >
+  name: |
     Native Look & Feel
-  description: >
+  description: |
     Issues around achieving a native look and feel.
   parentId: system_capabilities
   depth: 1
 
-- id: pwa
-  name: >
+- id: pwa_issues
+  name: |
     PWA
-  description: >
+  description: |
     Issues around Progressive Web Apps, their support in different browsers and OSs.
   parentId: system_capabilities
   depth: 1
 
 - id: system_ai_integration
-  name: >
+  name: |
     System AI integration
-  description: >
+  description: |
     Pain points and feature requests related to integrating with system-level or browser-integrated AI, LLM, or other machine learning models (e.g., Apple Intelligence, Windows Copilot).
   parentId: system_capabilities
   depth: 1
 
 - id: pwa_installation
-  name: >
+  name: |
     PWA Installation
-  description: >
+  description: |
     Pain points specifically related to the user experience of installing a Progressive Web App.
-  parentId: pwa
+  parentId: pwa_issues
   depth: 2
 
 - id: pwa_monetization
-  name: >
+  name: |
     PWA Monetization
-  description: >
+  description: |
     Difficulties monetizing Progressive Web Apps, particularly in comparison to native apps.
-  parentId: pwa
+  parentId: pwa_issues
   depth: 2
 
 - id: persistent_storage
-  name: >
+  name: |
     Persistent Storage
-  description: >
+  description: |
     The need for client-side storage that is guaranteed to persist and not be evicted by the browser's clearing mechanisms.
   parentId: storage
   depth: 2
 
 - id: web_bluetooth
-  name: >
+  name: |
     Web Bluetooth
-  description: >
+  description: |
     Issues around the web bluetooth API and generally accessing bluetooth capabilities from web apps.
   parentId: apis_capabilities
   depth: 2
 
 - id: filesystem_apis
-  name: >
+  name: |
     Filesystem APIs
-  description: >
+  description: |
     Issues around all file system access APIs.
   parentId: apis_capabilities
   depth: 2
 
-- id: filesystem_access_api
-  name: >
+- id: filesystem_access
+  name: |
     Filesystem Access API
   parentId: filesystem_apis
   depth: 3
 
 - id: webusb
-  name: >
+  name: |
     WebUSB API
   parentId: apis_capabilities
   depth: 2
 
 - id: scope_creep
-  name: >
+  name: |
     Scope creep
-  description: >
+  description: |
     Sentiments that the web platform is adding too many features or encroaching on native application territory, potentially increasing complexity or security risks.
 
 - id: web_share_api
-  name: >
+  name: |
     Web Share API
-  description: >
+  description: |
     Issues related to the Web Share API for invoking the native sharing capabilities of the device.
   parentId: apis_capabilities
   depth: 2
 
-- id: geolocation_api
-  name: >
+- id: geolocation
+  name: |
     Geolocation API
-  description: >
+  description: |
     Issues related to the Geolocation API for accessing the user's location.
   parentId: apis_capabilities
   depth: 2
 
-- id: privacy
-  name: >
+- id: privacy_issues
+  name: |
     Privacy
   parentId: security_privacy
   depth: 1
 
 - id: web_midi_api
-  name: >
+  name: |
     Web MIDI API
-  description: >
+  description: |
     Issues specific to the Web MIDI API for interacting with musical instruments.
   parentId: apis_capabilities
   depth: 2
 
 - id: shape_detection_api
-  name: >
+  name: |
     Shape Detection API
-  description: >
+  description: |
     Issues related to APIs for detecting shapes in images, such as the Barcode Detection API or Face Detection API.
   parentId: apis_capabilities
   depth: 2
 
-- id: permissions
-  name: >
+- id: permissions_issues
+  name: |
     Permissions
-  description: >
+  description: |
     Issues related to the process and UI for requesting, granting, or revoking user permissions for sensitive APIs.
   parentId: security_privacy
   depth: 1
 
 - id: web_nfc
-  name: >
+  name: |
     Web NFC
   parentId: apis_capabilities
   depth: 2
 
 - id: peripheral_access
-  name: >
+  name: |
     Peripheral access
-  description: >
+  description: |
     Issues related to accessing peripheral devices like printers and scanners.
   parentId: system_capabilities
   depth: 1
 
 - id: web_monetization_api
-  name: >
+  name: |
     Web Monetization API
   parentId: apis_capabilities
   depth: 2
 
 - id: contacts_api
-  name: >
+  name: |
     Contacts API
-  description: >
+  description: |
     Issues related to accessing the user's contacts.
   parentId: apis_capabilities
   depth: 2
 
 - id: payment_request_api
-  name: >
+  name: |
     Payment Request API
   parentId: apis_capabilities
   depth: 2
 
 - id: media_capture
-  name: >
+  name: |
     Media Capture & Streams
-  description: >
+  description: |
     Issues related to capturing audio and video, including selecting cameras/microphones and controlling capture settings.
   parentId: apis_capabilities
   depth: 2
 
 - id: gamepad_api
-  name: >
+  name: |
     Gamepad API
-  description: >
+  description: |
     Issues related to the Gamepad API for interacting with game controllers.
   parentId: apis_capabilities
   depth: 2
 
 - id: pwa_notifications
-  name: >
+  name: |
     PWA Notifications
-  description: >
+  description: |
     Issues related to implementing or using push notifications within a Progressive Web App.
-  parentId: pwa
+  parentId: pwa_issues
   depth: 2
 
 - id: webhid_api
-  name: >
+  name: |
     WebHID API
   parentId: apis_capabilities
   depth: 2
 
 - id: speech_recognition_api
-  name: >
+  name: |
     Speech Recognition API
-  description: >
+  description: |
     Issues related to the Web Speech API's speech recognition capabilities.
   parentId: apis_capabilities
   depth: 2
 
-- id: accelerometer
-  name: >
+- id: accelerometer_api
+  name: |
     Accelerometer
   parentId: device_orientation_events_api
   depth: 3
 
 - id: device_orientation_events_api
-  name: >
+  name: |
     Device Orientation Events API
-  description: >
+  description: |
     Issues with accessing device motion and orientation data, including the Accelerometer, Gyroscope, and Magnetometer APIs.
   parentId: apis_capabilities
   depth: 2
 
 - id: background_processes
-  name: >
+  name: |
     Background Processes
-  description: >
+  description: |
     Issues related to running tasks when the web page is not active, such as background data synchronization or location tracking.
   parentId: system_capabilities
   depth: 1
 
 - id: web_serial_api
-  name: >
+  name: |
     Web Serial API
   parentId: apis_capabilities
   depth: 2
 
 - id: indexeddb
-  name: >
+  name: |
     IndexedDB
-  description: >
+  description: |
     Issues specific to the IndexedDB API.
   parentId: storage
   depth: 2
 
 - id: origin_private_file_system
-  name: >
+  name: |
     Origin Private File System
-  description: >
+  description: |
     Issues specific to the Origin Private File System (OPFS), such as file locking or multi-tab access.
   parentId: filesystem_apis
   depth: 3
 
 - id: secure_storage
-  name: >
+  name: |
     Secure Storage
-  description: >
+  description: |
     Issues related to securely storing sensitive information, such as cryptographic keys, on the client-side.
   parentId: storage
   depth: 2
 
 - id: file_handling_api
-  name: >
+  name: |
     File Handling API
   parentId: filesystem_apis
   depth: 3
 
 - id: clipboard_api
-  name: >
+  name: |
     Clipboard API
-  description: >
+  description: |
     Issues related to programmatic copying and pasting using the Clipboard API.
   parentId: apis_capabilities
   depth: 2
 
 - id: background_location
-  name: >
+  name: |
     Background location
-  description: >
+  description: |
     Issues specifically concerning the ability to reliably track a user's location while the application is in the background, a common requirement for navigation, fitness, and tracking applications.
-  parentId: geolocation_api
+  parentId: geolocation
   depth: 3
 
 - id: low_level_access
-  name: >
+  name: |
     Low-level access
-  description: >
+  description: |
     The desire for lower-level APIs that provide more control, as opposed to high-level, opinionated APIs.
   parentId: limitations
   depth: 1
 
 - id: vibration_api
-  name: >
+  name: |
     Vibration API
-  description: >
+  description: |
     Issues related to the Vibration API for providing haptic feedback.
   parentId: haptic_feedback
   depth: 3
 
 - id: gyroscope
-  name: >
+  name: |
     Gyroscope
   parentId: device_orientation_events_api
   depth: 3
 
 - id: battery_status_api
-  name: >
+  name: |
     Battery Status API
-  description: >
+  description: |
     Issues related to the Battery Status API for accessing information about the system's battery charge level.
   parentId: apis_capabilities
   depth: 2
 
 - id: focusgroup
-  name: >
+  name: |
     Focusgroup
-  description: >
+  description: |
     Issues related to the proposed `focusgroup` attribute for managing focus within a group of elements, particularly for keyboard navigation.
   parentId: focus_management
   depth: 1
 
 - id: temporal_api
-  name: >
+  name: |
     Temporal API
-  description: >
+  description: |
     Pain points related to the modern Temporal API, as a replacement for the `Date` object.
   parentId: date_and_time
   depth: 1
 
 - id: close_watcher_api
-  name: >
+  name: |
     Close Watcher API
-  description: >
+  description: |
     Issues related to the Close Watcher API for handling close requests (e.g., the Escape key) in a consistent way for components like dialogs and popovers.
   parentId: declarative_apis
   depth: 1
 
 - id: hidden_until_found
-  name: >
+  name: |
     hidden=until-found attribute
-  description: >
+  description: |
     Issues related to the `hidden="until-found"` attribute, which allows content to be hidden but searchable via find-in-page.
 
 - id: favicons
-  name: >
+  name: |
     Favicons
-  description: >
+  description: |
     Issues related to favicons, app icons, and touch icons, including format support (e.g., animated favicons) and consistency across platforms.
-  parentId: images
+  parentId: images_issues
   depth: 2
 
 - id: css_drop_caps
-  name: >
+  name: |
     Drop Caps
-  description: >
+  description: |
     The lack of a simple, native CSS feature for creating drop caps.
-  parentId: css
   depth: 1
 
 - id: details_content_pseudo_element
-  name: >
+  name: |
     ::details-content
   parentId: details_summary_element
   depth: 1
 
 - id: cookie_store_api
-  name: >
+  name: |
     Cookie Store API
-  description: >
+  description: |
     Pain points related to the Cookie Store API for accessing HTTP cookies from service workers and the page.
   parentId: storage
   depth: 2
 
-- id: css_scope_rule
-  name: >
+- id: at_scope
+  name: |
     CSS @scope
-  description: >
+  description: |
     Issues related to the CSS `@scope` at-rule for scoping styles to a specific part of the DOM tree.
-  parentId: css
   depth: 1
 
 - id: navigation_api
-  name: >
+  name: |
     Navigation API
-  description: >
+  description: |
     Pain points related to the Navigation API for managing client-side routing and history in single-page applications (SPAs).
   parentId: dom_apis
   depth: 2
 
-- id: css_if_function
-  name: >
+- id: if_function
+  name: |
     CSS if() Function
-  description: >
+  description: |
     The desire for a native `if()` or conditional function within CSS to apply values based on a condition, without needing media or container queries.
-  parentId: css
   depth: 1
 
-- id: css_attr
-  name: >
+- id: attr_function
+  name: |
     CSS attr() Function
-  description: >
+  description: |
     Pain points related to the limitations of the CSS `attr()` function, especially the desire for it to work with any CSS property, not just `content`.
-  parentId: css
   depth: 1
 
 - id: css_nesting
-  name: >
+  name: |
     CSS Nesting
-  description: >
+  description: |
     Issues related to the native CSS Nesting feature.
-  parentId: css
   depth: 1
 
-- id: css_line_clamp
-  name: >
+- id: line_clamp
+  name: |
     CSS Line Clamp
-  description: >
+  description: |
     Issues with multi-line text truncation and the `line-clamp` property (or lack thereof).
   parentId: css_properties
   depth: 2
 
 - id: css_properties
-  name: >
+  name: |
     CSS Properties
-  description: >
+  description: |
     Pain points related to specific CSS properties not covered by other codes.
-  parentId: css
   depth: 1
 
 - id: scroll_markers
-  name: >
+  name: |
     Scroll markers
-  description: >
+  description: |
     Issues related to the ::scroll-marker and ::scroll-marker-group pseudo-elements.
   parentId: scroll-triggered_animations
   depth: 2
 
-- id: css_text_box_trim
-  name: >
+- id: text_box_trim
+  name: |
     Text Box Trim
-  description: >
+  description: |
     Issues related to controlling the space above and below text, often referred to as `text-box-trim` or leading control.
-  parentId: css
   depth: 1
 
 - id: web_authn
-  name: >
+  name: |
     Web Authentication API
-  description: >
+  description: |
     Issues related to WebAuthn and Passkeys for passwordless authentication, including cross-device and cross-browser support.
   parentId: security_privacy
   depth: 1
 
-- id: css_grid_layout
-  name: >
+- id: grid
+  name: |
     CSS Grid Layout
-  description: >
+  description: |
     Issues specific to CSS Grid Layout.
   parentId: css_layout
   depth: 2
 
 - id: virtual_keyboard_api
-  name: >
+  name: |
     Virtual Keyboard API
   parentId: apis_capabilities
   depth: 2
 
 - id: ink_api
-  name: >
+  name: |
     Ink API
   parentId: apis_capabilities
   depth: 2
 
 - id: css_hyphenation
-  name: >
+  name: |
     Hyphenation
-  description: >
+  description: |
     Issues related to automatic hyphenation of text in CSS.
-  parentId: css
   depth: 1
 
-- id: css_subgrid
-  name: >
+- id: subgrid
+  name: |
     CSS Subgrid
-  description: >
+  description: |
     Pain points related to the `subgrid` feature of CSS Grid Layout.
-  parentId: css_grid_layout
+  parentId: grid
   depth: 3
 
 - id: webrtc
-  name: >
+  name: |
     Web Real-Time Communication (WebRTC)
   parentId: apis_capabilities
   depth: 2
 
 - id: pwa_background_sync
-  name: >
+  name: |
     PWA Background Sync
-  description: >
+  description: |
     Issues with the Background Sync API for deferring actions until the user has stable connectivity.
-  parentId: pwa
+  parentId: pwa_issues
   depth: 2
 
 - id: sharedworker
-  name: >
+  name: |
     SharedWorker
 
 - id: translator_api
-  name: >
+  name: |
     Native Translation APIs
   parentId: apis_capabilities
   depth: 2
 
 - id: trusted_types
-  name: >
+  name: |
     Trusted Types
-  description: >
+  description: |
     Issues related to implementing Trusted Types to prevent DOM-based cross-site scripting (XSS) attacks.
   parentId: security_privacy
   depth: 1
 
 - id: speech_synthesis_api
-  name: >
+  name: |
     Speech Synthesis API
-  description: >
+  description: |
     Issues related to the Web Speech API's speech synthesis (text-to-speech) capabilities, such as inconsistent voice quality across browsers.
   parentId: apis_capabilities
   depth: 2
 
 - id: interest_invokers
-  name: >
+  name: |
     Interest invokers
   parentId: invokers
   depth: 2
 
 - id: popover_hint
-  name: >
+  name: |
     popover=hint
   parentId: popover_api
   depth: 2
 
 - id: shadow_dom_host
-  name: >
+  name: |
     Shadow root host
-  description: >
+  description: |
     Issues related to the shadow root host or selectors that target it (`:host`/`:host()`/`:host-context()` etc.).
   parentId: shadow_dom
   depth: 2
 
 - id: summarizer_api
-  name: >
+  name: |
     Summarizer API
   parentId: apis_capabilities
   depth: 2
 
 - id: title_attribute
-  name: >
+  name: |
     title attribute
-  description: >
+  description: |
     Pain points related to the native `title` attribute, including its inaccessibility on touch devices, styling limitations, and inconsistent user experience.
   parentId: content
   depth: 1
 
 - id: search_input
-  name: >
+  name: |
     Search Input
-  description: >
+  description: |
     Pain points specific to `<input type="search">`, including styling of the cancel button.
   parentId: input_element
   depth: 2
 
 - id: picture_in_picture_api
-  name: >
+  name: |
     Picture-in-Picture API
-  description: >
+  description: |
     Issues related to the Picture-in-Picture API, including the desire to use it for arbitrary HTML content, not just video.
   parentId: apis_capabilities
   depth: 2
 
 - id: css_visual_vs_dom_order
-  name: >
+  name: |
     Visual vs. DOM Order
-  description: >
+  description: |
     Accessibility issues arising when modern CSS layout techniques (like Flexbox or Grid) cause the visual reading order to diverge from the DOM order, breaking keyboard navigation and screen reader experiences.
-  parentId: accessibility
+  parentId: accessibility_issues
   depth: 1
 
 - id: i18n_number_formatting
-  name: >
+  name: |
     Number Formatting
-  description: >
+  description: |
     Issues related to the localization of number inputs and programmatic number formatting, such as handling different decimal separators.
-  parentId: i18n
+  parentId: i18n_issues
   depth: 1
 
 - id: contenteditable_plaintext_only
-  name: >
+  name: |
     contenteditable=”plaintext-only”
   parentId: contenteditable_attribute
   depth: 2
 
 - id: select_element_nested_optgroups
-  name: >
+  name: |
     Nested Optgroups
-  description: >
+  description: |
     The inability to nest `<optgroup>` elements within a `<select>` to create hierarchical option lists.
   parentId: select_element
   depth: 2
 
 - id: table_treegrid
-  name: >
+  name: |
     Treegrid Tables
-  description: >
+  description: |
     Issues related to creating hierarchical or tree-like table structures, often related to the ARIA treegrid pattern and the lack of native HTML support for it.
   parentId: tables
   depth: 2
 
 - id: list_reordering_animations
-  name: >
+  name: |
     List Reordering Animations
-  description: >
+  description: |
     Difficulties in creating performant and smooth animations when items in a list are added, removed, or reordered, often requiring complex techniques like FLIP (First, Last, Invert, Play).
-  parentId: animations
+  parentId: animations_issues
   depth: 1
 
 - id: css_counters
-  name: >
+  name: |
     CSS Counters
-  description: >
+  description: |
     Issues related to the functionality and limitations of CSS counters.
   parentId: css_properties
   depth: 2
 
 - id: aria_nesting_references
-  name: >
+  name: |
     ARIA Nesting & References
-  description: >
+  description: |
     Issues with ARIA attributes like `aria-labelledby` and `aria-describedby` not working as expected with nested structures or across certain element boundaries.
-  parentId: aria
+  parentId: aria_issues
   depth: 2
 
 - id: input_state_management
-  name: >
+  name: |
     Input State Management
-  description: >
+  description: |
     Pain points related to managing the state of form inputs, especially when their attributes (like `type`) are dynamically changed.
   parentId: state_management
   depth: 1
 
 - id: web_transport_api
-  name: >
+  name: |
     WebTransport API
-  description: >
+  description: |
     Issues related to the WebTransport API for client-server messaging.
   parentId: apis_capabilities
   depth: 2
 
 - id: framework_dominance
-  name: >
+  name: |
     Framework Dominance
-  description: >
+  description: |
     Pain points arising from the dominance of specific JavaScript frameworks, leading to a monoculture, abstracting away platform features, and making it difficult to use or advocate for HTML-first approaches.
   parentId: ecosystem
   depth: 1
 
 - id: platform_marketing
-  name: >
+  name: |
     Platform Marketing
-  description: >
+  description: |
     Issues related to the marketing and branding of web platform technologies themselves, such as the desire for better logos, clearer messaging, or increased awareness campaigns.
   parentId: ecosystem
   depth: 1
 
 - id: pdf_generation
-  name: >
+  name: |
     PDF Generation
-  description: >
+  description: |
     Pain points related to generating high-quality, accessible, and consistently rendered PDFs from HTML and CSS content.
   parentId: pdf
   depth: 1
 
 - id: html_email
-  name: >
+  name: |
     HTML Email
-  description: >
+  description: |
     Issues related to inconsistent or outdated HTML and CSS support in email clients, making it difficult to create reliable and modern email templates.
   parentId: environments_consumers
   depth: 1
 
 - id: social_meta_tags
-  name: >
+  name: |
     Social Meta Tags
-  description: >
+  description: |
     Pain points related to the verbosity, inconsistency, and lack of a unified standard for social media metadata tags (e.g., Open Graph, Twitter Cards).
   parentId: content
   depth: 1
 
 - id: job_market
-  name: >
+  name: |
     Job Market & Value
-  description: >
+  description: |
     Concerns about the job market, including the low number of roles for HTML specialists, low pay, and the perception that companies and other developers do not value deep HTML skills.
   parentId: workplace
   depth: 1
 
 - id: legacy_devices
-  name: >
+  name: |
     Legacy Devices
-  description: >
+  description: |
     Challenges in supporting older or less capable devices, such as smart TVs, set-top boxes, or older mobile phones, which often lag significantly in browser feature support.
   parentId: environments_consumers
   depth: 1
 
 - id: offline_portability
-  name: >
+  name: |
     Offline Portability
-  description: >
+  description: |
     Issues related to features not working when loading files directly from the filesystem (file:// protocol), requiring a local server for development and preventing simple offline sharing.
-  parentId: dx
-  depth: 1

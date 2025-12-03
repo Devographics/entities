@@ -3,3 +3,11 @@
 
 - id: dark_mode
   name: Dark mode
+
+- id: wcag_guidelines
+  name: WCAG Guidelines
+  patterns:
+    - wcag
+
+- id: accessible_fonts
+  name: Accessible fonts

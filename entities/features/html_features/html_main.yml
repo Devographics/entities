@@ -931,6 +931,7 @@
   caniuse: loading-lazy-attr
   tags:
     - features
+  parentId: loading_issues
 
 - id: media_capture
   webFeaturesId: html-media-capture
@@ -1520,6 +1521,8 @@
     - select list
     - selectmenu
     - select menu
+    - custom select
+  parentId: select_element
 
 - id: selectlist_element
   name: "`<selectlist>`"

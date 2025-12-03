@@ -81,6 +81,7 @@
     - imports
     - partials
     - templat [p]
+  parentId: html_reuse
 
 - id: import_maps
 

@@ -1,6 +1,7 @@
 - id: google
   name: Google
   homepageUrl: https://google.com
+  parentId: interop_issues
 
 - id: github
   name: GitHub
@@ -458,7 +459,7 @@
 - id: mozilla
   name: Mozilla
   homepageUrl: https://www.mozilla.org/
-  parentId: specific_platforms_vendors
+  parentId: interop_issues
 
 - id: bing
   name: Bing

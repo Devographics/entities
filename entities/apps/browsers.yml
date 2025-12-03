@@ -1,102 +1,129 @@
 - id: chrome
   name: Chrome
   homepageUrl: https://www.google.com/chrome/
+  tags:
+    - browser_apis_pain_points
+  # parentId: interop_issues
+  parentId: google
 
 - id: chrome_android
   name: Chrome Android
   homepageUrl: https://www.google.com/chrome/
+  parentId: interop_issues
 
 - id: chrome_ios
   name: Chrome iOS
   homepageUrl: https://www.google.com/chrome/
+  parentId: interop_issues
 
 - id: brave
   name: Brave
   homepageUrl: https://brave.com/
+  parentId: interop_issues
 
 - id: chromium
   name: Chromium
   homepageUrl: https://www.chromium.org/Home
+  parentId: interop_issues
 
 - id: edge
   name: Edge
   homepageUrl: https://www.microsoft.com/en-us/windows/microsoft-edge
+  parentId: interop_issues
 
 - id: firefox
   name: Firefox
   homepageUrl: https://www.mozilla.org/en-US/firefox/new/
-  parentId: mozilla
+  # parentId: mozilla
+  parentId: interop_issues
 
 - id: firefox_developer
   name: Firefox Quantum
   homepageUrl: https://www.mozilla.org/en-US/firefox/developer/
-
+  parentId: interop_issues
   patterns:
     - Firefox Developers Edition
+
 - id: firefox_android
   name: Firefox Android
   homepageUrl: https://www.mozilla.org/en-US/firefox/new/
+  parentId: interop_issues
 
 - id: internet_explorer_11
   name: Internet Explorer 11
   homepageUrl: https://www.microsoft.com/en-us/download/internet-explorer-11-for-windows-7-details.aspx
+  parentId: interop_issues
+
 - id: internet_explorer_8_9_10
   name: Internet Explorer 8/9/10
   homepageUrl: https://www.microsoft.com/en-us/download/internet-explorer.aspx
   patterns:
     - Internet Explorer
+  parentId: interop_issues
 
 - id: opera
   name: Opera
   homepageUrl: https://www.opera.com/
+  parentId: interop_issues
 
 - id: opera_mini
   name: Opera Mini
   homepageUrl: https://www.opera.com/mobile
+  parentId: interop_issues
 
 - id: samsung_internet
   name: Samsung Internet
   homepageUrl: https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_US
+  parentId: interop_issues
 
   patterns:
     - Samsung
 - id: ucbrowser
   name: UC Browser
   homepageUrl: https://www.ucweb.com/
+  parentId: interop_issues
 
 - id: polypane
   name: Polypane
   homepageUrl: https://polypane.app/
+  parentId: interop_issues
 
 - id: yandex
   name: Yandex
   homepageUrl: https://browser.yandex.com/
+  parentId: interop_issues
 
 - id: safari
   name: Safari
   homepageUrl: https://www.apple.com/safari/
-  parentId: apple
+  # parentId: apple
+  parentId: interop_issues
 
 - id: safari_ios
   name: Safari iOS
   homepageUrl: https://www.apple.com/safari/
-  parentId: apple
+  # parentId: apple
+  parentId: interop_issues
 
 - id: vivaldi
   name: Vivaldi
   homepageUrl: https://vivaldi.com/
+  parentId: interop_issues
 
 - id: responsively
   name: Responsively
   homepageUrl: https://responsively.app/
+  parentId: interop_issues
 
 - id: blisk
   name: Blisk
   homepageUrl: https://blisk.io/
+  parentId: interop_issues
 
 - id: sizzy
   name: Sizzy
   homepageUrl: https://sizzy.co/
+  parentId: interop_issues
 
 - id: gnome_web
   name: Gnome Web
@@ -104,33 +131,41 @@
   patterns:
     - gnome
     - epiphany
+  parentId: interop_issues
 
 - id: duckduckgo
   name: DuckDuckGo Browser
   homepageUrl: https://duckduckgo.com/app
+  parentId: interop_issues
 
 - id: sidekick
   name: Sidekick
   homepageUrl: https://www.meetsidekick.com/
+  parentId: interop_issues
 
 - id: qutebrowser
   name: Qutebrowser
   homepageUrl: https://qutebrowser.org/
+  parentId: interop_issues
 
 - id: orion
   name: Orion
   homepageUrl: https://browser.kagi.com/
+  parentId: interop_issues
 
 - id: arc
   name: Arc
   homepageUrl: https://arc.net/
+  parentId: interop_issues
 
 - id: librewolf
   name: LibreWolf
   homepageUrl: https://librewolf.net/
+  parentId: interop_issues
 
 - id: zen_browser
   name: Zen
   homepageUrl: https://zen-browser.app/
   patterns:
     - zen
+  parentId: interop_issues
