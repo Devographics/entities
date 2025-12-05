@@ -66,7 +66,7 @@
 
 - id: interop_issues
   name: |
-    Interop issues
+    Browser Support
   description: |
     Browser support issues, implementation bugs, cross‑browser implementation differences or inconsistencies, browser prioritization, speed of adoption of new features, any issues where specific browsers, browser engines, or browser companies are mentioned (and it’s not to praise them).
 
@@ -78,7 +78,7 @@
 
 - id: chrome
   name: |
-    Chrome browser
+    Chrome
   description: |
     Issues specific to the Chrome browser or the Chromum rendering engine, across all platforms.
   parentId: google
@@ -162,12 +162,12 @@
 
 - id: firefox
   name: |
-    Firefox browser
+    Firefox
   description: |
     Issues specific to the Firefox browser, across all platforms.
   # parentId: mozilla
   depth: 2
-  parentId: interop_issues
+  parentId: mozilla
 
 - id: mozilla
   name: |
@@ -546,7 +546,7 @@
     Issues specific to the Safari browser, across all platforms.
   # parentId: apple
   depth: 2
-  parentId: interop_issues
+  parentId: apple
 
 - id: apple
   name: |
@@ -613,7 +613,7 @@
 
 - id: environments_consumers
   name: |
-    Environments & Consumers
+    Environments
   description: |
     Issues relevant to specific environments or consumers of web content, e.g. devices, bots, viewing modes, etc.
 
@@ -636,7 +636,7 @@
     Issues specific to iOS as a platform.
   # parentId: apple
   depth: 2
-  parentId: interop_issues
+  parentId: apple
 
 - id: ssr_hydration
   name: |
@@ -937,7 +937,7 @@
 
 - id: html_reuse
   name: |
-    HTML Reuse
+    Code Modularization
   description: |
     Pain points related to reusing and modularizing HTML content.
   parentId: content
