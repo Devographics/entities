@@ -1758,22 +1758,6 @@
     Flash of Unstyled Text (FOUT) and Flash of Invisible Text (FOIT).
   parentId: typography_issues
 
-- id: preload
-  name: |
-    Preload
-  description: >
-    Pain points related to using `<link rel="preload">` to fetch resources
-    declaratively.
-  parentId: resource_hints
-
-- id: prefetch
-  name: |
-    Prefetch
-  description: >
-    Pain points related to using `<link rel="prefetch">` or other prefetching
-    mechanisms.
-  parentId: resource_hints
-
 - id: cross_document_view_transitions
   name: |
     Cross-document View Transitions

@@ -1428,6 +1428,7 @@
   needsTranslation: true
   description: Speed up future loads from a given origin by preemptively
     performing part or all of the DNS+TCP+TLS handshake.
+  parentId: resource_hints
   example:
     language: html
     code: <link rel="preconnect" href="(url)" />
@@ -1443,6 +1444,7 @@
   name: "Resource Hints: prefetch (`<link rel=prefetch>`)"
   needsTranslation: true
   description: Prefetch a resource so it can be loaded more quickly.
+  parentId: resource_hints
   example:
     language: html
     code: <link rel="prefetch" href="(url)">
@@ -1458,6 +1460,7 @@
   name: "Resource Hints: preload (`<link rel=preload>`)"
   needsTranslation: true
   description: Start loading certain resources early in the page lifecycle.
+  parentId: resource_hints
   example:
     language: html
     code: <link rel="preload" href="(url)" />
@@ -1477,6 +1480,7 @@
   description:
     A hint to browsers that the user might need the target resource for
     the next navigation
+  parentId: resource_hints
   example:
     language: html
     code: <link rel="prerender" href="(url)" />
