@@ -28,9 +28,6 @@
 
 # - id: styling_customization (defined in common_pain_points)
 
-- id: responsive_design
-  parentId: styling_customization
-
 - id: styling_radio_inputs
   belongsTo: input_type_radio
   parentId: styling_customization

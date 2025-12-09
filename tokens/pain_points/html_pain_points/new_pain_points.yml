@@ -137,23 +137,6 @@
     complex, structured values, involving multiple elementary form controls.
   parentId: forms_issues
 
-- id: too_much_work
-  name: |
-    High effort
-  description: >
-    Requires too much work. Includes APIs being too low-level, requiring a lot
-    of manual developer effort to use.
-  parentId: cognitive_overload
-
-- id: cognitive_overload
-  name: |
-    Cognitive overload
-- id: end_user_ux_issues
-  name: |
-    End-user experience
-  description: >
-    Issues around difficulties providing a good user experience for end-users.
-    Do not include DX issues here (use `ergonomics` for that).
 - id: editing_apis
   name: |
     Editing APIs

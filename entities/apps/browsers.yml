@@ -12,12 +12,12 @@
 - id: chrome_android
   name: Chrome Android
   homepageUrl: https://www.google.com/chrome/
-  parentId: interop_issues
+  parentId: google
 
 - id: chrome_ios
   name: Chrome iOS
   homepageUrl: https://www.google.com/chrome/
-  parentId: interop_issues
+  parentId: google
 
 - id: brave
   name: Brave
@@ -27,44 +27,43 @@
 - id: chromium
   name: Chromium
   homepageUrl: https://www.chromium.org/Home
-  parentId: interop_issues
+  parentId: google
 
 - id: edge
   name: Edge
   homepageUrl: https://www.microsoft.com/en-us/windows/microsoft-edge
-  parentId: interop_issues
+  parentId: microsoft
 
 - id: firefox
   name: Firefox
   homepageUrl: https://www.mozilla.org/en-US/firefox/new/
-  # parentId: mozilla
-  parentId: interop_issues
+  parentId: mozilla
   descriptionIssues: >
     Issues specific to the Firefox browser, across all platforms.
 
 - id: firefox_developer
   name: Firefox Quantum
   homepageUrl: https://www.mozilla.org/en-US/firefox/developer/
-  parentId: interop_issues
+  parentId: mozilla
   patterns:
     - Firefox Developers Edition
 
 - id: firefox_android
   name: Firefox Android
   homepageUrl: https://www.mozilla.org/en-US/firefox/new/
-  parentId: interop_issues
+  parentId: mozilla
 
 - id: internet_explorer_11
   name: Internet Explorer 11
   homepageUrl: https://www.microsoft.com/en-us/download/internet-explorer-11-for-windows-7-details.aspx
-  parentId: interop_issues
+  parentId: microsoft
 
 - id: internet_explorer_8_9_10
   name: Internet Explorer 8/9/10
   homepageUrl: https://www.microsoft.com/en-us/download/internet-explorer.aspx
   patterns:
     - Internet Explorer
-  parentId: interop_issues
+  parentId: microsoft
 
 - id: opera
   name: Opera
@@ -104,13 +103,13 @@
     Issues specific to the Safari browser, across all platforms.
   homepageUrl: https://www.apple.com/safari/
   # parentId: apple
-  parentId: interop_issues
+  parentId: apple
 
 - id: safari_ios
   name: Safari iOS
   homepageUrl: https://www.apple.com/safari/
   # parentId: apple
-  parentId: interop_issues
+  parentId: apple
 
 - id: vivaldi
   name: Vivaldi
