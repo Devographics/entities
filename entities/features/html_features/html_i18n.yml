@@ -63,6 +63,7 @@
     `Intl.Segmenter` API
   description: |
     Language-sensitive segmentation of text into graphemes, words or sentences.
+  parentId: intl_apis
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter
   example:
     language: js
@@ -105,6 +106,8 @@
     `direction` CSS property
 
 - id: intl_locale
+  idAliases:
+    - intl_apis_locale
   webFeaturesId: intl-locale
   name: |
     `Intl.Locale` API

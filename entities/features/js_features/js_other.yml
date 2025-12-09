@@ -291,10 +291,16 @@
       // expected output: "title is empty"
 
 - id: temporal
+  idAliases:
+    - temporal_api
   webFeaturesId: temporal
   name: Temporal
   description: Provides standard objects and functions for working with dates and times.
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+  descriptionIssues: >
+    Pain points related to the modern Temporal API, as a replacement for the
+    `Date` object.
+  parentId: date_and_time
 
 - id: error_cause
   webFeaturesId: error-cause

@@ -33,13 +33,6 @@
     on), including toggle button groups.
   parentId: forms_issues
 
-- id: workplace
-  name: |
-    Workplace issues
-  description: >
-    Issues around getting one’s workplace to agree on certain policies and/or
-    priorities.
-
 - id: interop_issues
   name: |
     Interop issues
@@ -164,13 +157,6 @@
     Pain points related to the process of submitting form data.
   parentId: forms_issues
 
-- id: elementinternals
-  name: |
-    ElementInternals
-  description: |
-    Issues related to the ElementInternals APIs.
-  parentId: web_components
-
 - id: forms_state_management
   name: |
     Forms State Management
@@ -219,22 +205,6 @@
     The lack of a built-in ability to search or filter the options within a
     `<select>` element.
   parentId: select_element
-
-- id: number_input
-  name: |
-    Number Input
-  description: >
-    Pain points specific to `<input type="number">`, including styling stepper
-    buttons and inconsistent behavior.
-  parentId: forms_issues
-
-- id: file_input
-  name: |
-    File Input
-  description: >
-    Pain points specific to `<input type="file">`, especially around styling the
-    button and displaying selected files.
-  parentId: forms_issues
 
 - id: id_management
   name: |
@@ -408,13 +378,6 @@
     sliders, forcing developers to build them from scratch.
   parentId: missing_elements
 
-- id: details_summary_element
-  name: |
-    <​details>/<​summary>
-  description: >
-    Pain points related to the <details> and <summary> elements, including
-    styling limitations (especially the marker), animation difficulties, and
-    accessibility concerns.
 - id: testing_issues
   name: |
     Testing
@@ -438,10 +401,6 @@
   description: >
     Issues related to UI animations across all technologies, regardless of
     technology used to implement them (CSS animations, Lottie, etc)
-- id: details_name_attribute
-  name: |
-    <​details name> (Exclusive accordion)
-  parentId: details_summary_element
 
 - id: microsoft
   name: |
@@ -967,6 +926,7 @@
     Camera capture
   description: |
     Media capture via getUserMedia and device enumeration.
+
 - id: canvas_text
   name: |
     Canvas text rendering
@@ -1625,6 +1585,7 @@
     For issues around headings in web components combine with web_components.
     For issues around headings in components in general, combine with
     `component_based_architectures`
+
 - id: intl_apis
   name: |
     Intl API
@@ -1632,13 +1593,6 @@
     Pain points related to the JavaScript `Intl` object and its APIs, such as
     being too low-level, missing features, or ergonomic issues.
   parentId: i18n_issues
-
-- id: intl_apis_segmenter
-  name: |
-    Intl.Segmenter
-  description: |
-    Pain points related to `Intl.Segmenter` API.
-  parentId: intl_apis
 
 - id: math
   name: |
@@ -1655,13 +1609,6 @@
     Difficulties in making `<iframe>` elements automatically size to their
     content's height or width, especially without JavaScript.
   parentId: iframe_element
-
-- id: intl_apis_locale
-  name: |
-    Intl.Locale
-  description: |
-    Pain points related to `Intl.Locale` API.
-  parentId: intl_apis
 
 - id: declarative_i18n
   name: |
@@ -2008,14 +1955,6 @@
     evicted by the browser's clearing mechanisms.
   parentId: storage
 
-- id: web_bluetooth
-  name: |
-    Web Bluetooth
-  description: >
-    Issues around the web bluetooth API and generally accessing bluetooth
-    capabilities from web apps.
-  parentId: apis_capabilities
-
 - id: filesystem_apis
   name: |
     Filesystem APIs
@@ -2023,28 +1962,10 @@
     Issues around all file system access APIs.
   parentId: apis_capabilities
 
-- id: webusb
-  name: |
-    WebUSB API
-  parentId: apis_capabilities
-
 - id: privacy_issues
   name: |
     Privacy
   parentId: security_privacy
-
-- id: web_midi_api
-  name: |
-    Web MIDI API
-  description: >
-    Issues specific to the Web MIDI API for interacting with musical
-    instruments.
-  parentId: apis_capabilities
-
-- id: web_nfc
-  name: |
-    Web NFC
-  parentId: apis_capabilities
 
 - id: peripheral_access
   name: |
@@ -2052,18 +1973,6 @@
   description: |
     Issues related to accessing peripheral devices like printers and scanners.
   parentId: system_capabilities
-
-- id: web_monetization_api
-  name: |
-    Web Monetization API
-  parentId: apis_capabilities
-
-- id: contacts_api
-  name: |
-    Contacts API
-  description: |
-    Issues related to accessing the user's contacts.
-  parentId: apis_capabilities
 
 - id: pwa_notifications
   name: |
@@ -2073,24 +1982,6 @@
     Progressive Web App.
   parentId: pwa_issues
 
-- id: webhid_api
-  name: |
-    WebHID API
-  parentId: apis_capabilities
-
-- id: accelerometer_api
-  name: |
-    Accelerometer
-  parentId: device_orientation_events_api
-
-- id: device_orientation_events_api
-  name: |
-    Device Orientation Events API
-  description: >
-    Issues with accessing device motion and orientation data, including the
-    Accelerometer, Gyroscope, and Magnetometer APIs.
-  parentId: apis_capabilities
-
 - id: background_processes
   name: |
     Background Processes
@@ -2098,13 +1989,6 @@
     Issues related to running tasks when the web page is not active, such as
     background data synchronization or location tracking.
   parentId: system_capabilities
-
-- id: indexeddb
-  name: |
-    IndexedDB
-  description: |
-    Issues specific to the IndexedDB API.
-  parentId: storage
 
 - id: origin_private_file_system
   name: |
@@ -2139,19 +2023,6 @@
     high-level, opinionated APIs.
   parentId: limitations
 
-- id: gyroscope
-  name: |
-    Gyroscope
-  parentId: device_orientation_events_api
-
-- id: battery_status_api
-  name: |
-    Battery Status API
-  description: >
-    Issues related to the Battery Status API for accessing information about the
-    system's battery charge level.
-  parentId: apis_capabilities
-
 - id: focusgroup
   name: |
     Focusgroup
@@ -2159,23 +2030,6 @@
     Issues related to the proposed `focusgroup` attribute for managing focus
     within a group of elements, particularly for keyboard navigation.
   parentId: focus_management
-
-- id: temporal_api
-  name: |
-    Temporal API
-  description: >
-    Pain points related to the modern Temporal API, as a replacement for the
-    `Date` object.
-  parentId: date_and_time
-
-- id: close_watcher_api
-  name: |
-    Close Watcher API
-  description: >
-    Issues related to the Close Watcher API for handling close requests (e.g.,
-    the Escape key) in a consistent way for components like dialogs and
-    popovers.
-  parentId: declarative_apis
 
 - id: favicons
   name: |
@@ -2192,19 +2046,6 @@
     The lack of a simple, native CSS feature for creating drop caps.
   parentId: css_issues
 
-- id: details_content_pseudo_element
-  name: |
-    ::details-content
-  parentId: details_summary_element
-
-- id: cookie_store_api
-  name: |
-    Cookie Store API
-  description: >
-    Pain points related to the Cookie Store API for accessing HTTP cookies from
-    service workers and the page.
-  parentId: storage
-
 - id: css_properties
   name: |
     CSS Properties
@@ -2220,43 +2061,12 @@
     pseudo-elements.
   parentId: scroll-triggered_animations
 
-- id: web_authn
-  name: |
-    Web Authentication API
-  description: >
-    Issues related to WebAuthn and Passkeys for passwordless authentication,
-    including cross-device and cross-browser support.
-  parentId: security_privacy
-
-- id: virtual_keyboard_api
-  name: |
-    Virtual Keyboard API
-  parentId: apis_capabilities
-
-- id: ink_api
-  name: |
-    Ink API
-  parentId: apis_capabilities
-
 - id: css_hyphenation
   name: |
     Hyphenation
   description: |
     Issues related to automatic hyphenation of text in CSS.
   parentId: css_issues
-
-- id: pwa_background_sync
-  name: |
-    PWA Background Sync
-  description: >
-    Issues with the Background Sync API for deferring actions until the user has
-    stable connectivity.
-  parentId: pwa_issues
-
-- id: translator_api
-  name: |
-    Native Translation APIs
-  parentId: apis_capabilities
 
 - id: trusted_types
   name: |
@@ -2266,24 +2076,6 @@
     scripting (XSS) attacks.
   parentId: security_privacy
 
-- id: speech_synthesis_api
-  name: |
-    Speech Synthesis API
-  description: >
-    Issues related to the Web Speech API's speech synthesis (text-to-speech)
-    capabilities, such as inconsistent voice quality across browsers.
-  parentId: apis_capabilities
-
-- id: interest_invokers
-  name: |
-    Interest invokers
-  parentId: invokers
-
-- id: summarizer_api
-  name: |
-    Summarizer API
-  parentId: apis_capabilities
-
 - id: title_attribute
   name: |
     title attribute
@@ -2292,22 +2084,6 @@
     inaccessibility on touch devices, styling limitations, and inconsistent user
     experience.
   parentId: content
-
-- id: search_input
-  name: |
-    Search Input
-  description: >
-    Pain points specific to `<input type="search">`, including styling of the
-    cancel button.
-  parentId: input_element
-
-- id: picture_in_picture_api
-  name: |
-    Picture-in-Picture API
-  description: >
-    Issues related to the Picture-in-Picture API, including the desire to use it
-    for arbitrary HTML content, not just video.
-  parentId: apis_capabilities
 
 - id: css_visual_vs_dom_order
   name: |
@@ -2325,11 +2101,6 @@
     Issues related to the localization of number inputs and programmatic number
     formatting, such as handling different decimal separators.
   parentId: i18n_issues
-
-- id: contenteditable_plaintext_only
-  name: |
-    contenteditable=”plaintext-only”
-  parentId: contenteditable_attribute
 
 - id: select_element_nested_optgroups
   name: |
@@ -2380,13 +2151,6 @@
     Pain points related to managing the state of form inputs, especially when
     their attributes (like `type`) are dynamically changed.
   parentId: state_management
-
-- id: web_transport_api
-  name: |
-    WebTransport API
-  description: |
-    Issues related to the WebTransport API for client-server messaging.
-  parentId: apis_capabilities
 
 - id: framework_dominance
   name: |

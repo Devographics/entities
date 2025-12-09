@@ -367,3 +367,23 @@
   parentId: forms_issues
   patterns:
     - fieldset
+
+- id: input_type_number
+  idAliases:
+    - number_input
+  name: |
+    `<input type="number">`
+  descriptionIssues: >
+    Pain points specific to `<input type="number">`, including styling stepper
+    buttons and inconsistent behavior.
+  parentId: forms_issues
+
+- id: input_type_file
+  idAliases:
+    - file_input
+  name: |
+    `<input type="file">`
+  description: >
+    Pain points specific to `<input type="file">`, especially around styling the
+    button and displaying selected files.
+  parentId: forms_issues

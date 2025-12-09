@@ -346,3 +346,13 @@
   description: Lack of form typesafety
   patterns:
     - type(-| )?safety
+
+- id: input_type_search
+  idAliases:
+    - search_input
+  name: |
+    Search Input
+  descriptionIssues: >
+    Pain points specific to `<input type="search">`, including styling of the
+    cancel button.
+  parentId: input_element

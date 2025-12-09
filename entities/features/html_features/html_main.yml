@@ -5,6 +5,8 @@
 #################################################
 
 - id: accordion_element
+  idAliases:
+    - details_name_attribute
   webFeaturesId: details-name
   name: "`<details name>` (Exclusive Accordion)"
   needsTranslation: true
@@ -443,11 +445,17 @@
     - features
 
 - id: details_element
+  idAliases:
+    - details_summary_element
   webFeaturesId: details
   name: "`<details>` and `<summary>`"
   needsTranslation: false
   description: A disclosure widget that can be toggled to hide or show content
     interactively.
+  descriptionIssues: >
+    Pain points related to the <details> and <summary> elements, including
+    styling limitations (especially the marker), animation difficulties, and
+    accessibility concerns.
   example:
     language: html
     code: |-
@@ -465,6 +473,11 @@
     - <details>
     - <summary>
     - detail.*summary
+
+- id: details_content_pseudo_element
+  name: |
+    ::details-content
+  parentId: details_element
 
 - id: dialog_element
   webFeaturesId: dialog
@@ -1988,3 +2001,161 @@
     language: js
     code: |
       referenceElement.before(newElement);
+
+- id: cookie_store_api
+  name: |
+    Cookie Store API
+  descriptionIssues: >
+    Pain points related to the Cookie Store API for accessing HTTP cookies from
+    service workers and the page.
+  parentId: storage
+
+- id: web_authn
+  name: |
+    Web Authentication API
+  description: >
+    Issues related to WebAuthn and Passkeys for passwordless authentication,
+    including cross-device and cross-browser support.
+  parentId: security_privacy
+
+- id: virtual_keyboard_api
+  name: |
+    Virtual Keyboard API
+  parentId: apis_capabilities
+
+- id: ink_api
+  name: |
+    Ink API
+  parentId: apis_capabilities
+
+- id: pwa_background_sync
+  name: |
+    PWA Background Sync
+  descriptionIssues: >
+    Issues with the Background Sync API for deferring actions until the user has
+    stable connectivity.
+  parentId: pwa_issues
+
+- id: translator_api
+  name: |
+    Native Translation APIs
+  parentId: apis_capabilities
+
+- id: speech_synthesis_api
+  name: |
+    Speech Synthesis API
+  descriptionIssues: >
+    Issues related to the Web Speech API's speech synthesis (text-to-speech)
+    capabilities, such as inconsistent voice quality across browsers.
+  parentId: apis_capabilities
+
+- id: summarizer_api
+  name: |
+    Summarizer API
+  parentId: apis_capabilities
+
+- id: interest_invokers
+  name: |
+    Interest invokers
+  parentId: invokers
+
+- id: picture_in_picture_api
+  name: |
+    Picture-in-Picture API
+  descriptionIssues: >
+    Issues related to the Picture-in-Picture API, including the desire to use it
+    for arbitrary HTML content, not just video.
+  parentId: apis_capabilities
+
+- id: web_transport_api
+  name: |
+    WebTransport API
+  descriptionIssues: |
+    Issues related to the WebTransport API for client-server messaging.
+  parentId: apis_capabilities
+
+- id: web_usb_api
+  webFeaturesId:: webusb
+  name: |
+    WebUSB API
+  parentId: apis_capabilities
+
+- id: web_bluetooth
+  name: |
+    Web Bluetooth
+  description: >
+    Issues around the web bluetooth API and generally accessing bluetooth
+    capabilities from web apps.
+  parentId: apis_capabilities
+
+- id: web_midi_api
+  name: |
+    Web MIDI API
+  descriptionIssues: >
+    Issues specific to the Web MIDI API for interacting with musical
+    instruments.
+  parentId: apis_capabilities
+
+- id: web_nfc
+  name: |
+    Web NFC
+  parentId: apis_capabilities
+
+- id: web_monetization_api
+  name: |
+    Web Monetization API
+  parentId: apis_capabilities
+
+- id: contacts_api
+  name: |
+    Contacts API
+  descriptionIssues: |
+    Issues related to accessing the user's contacts.
+  parentId: apis_capabilities
+
+- id: webhid_api
+  name: |
+    WebHID API
+  parentId: apis_capabilities
+
+- id: accelerometer_api
+  name: |
+    Accelerometer
+  parentId: device_orientation_events_api
+
+- id: device_orientation_events_api
+  name: |
+    Device Orientation Events API
+  descriptionIssues: >
+    Issues with accessing device motion and orientation data, including the
+    Accelerometer, Gyroscope, and Magnetometer APIs.
+  parentId: apis_capabilities
+
+- id: indexeddb
+  name: |
+    IndexedDB
+  descriptionIssues: |
+    Issues specific to the IndexedDB API.
+  parentId: storage
+
+- id: gyroscope
+  name: |
+    Gyroscope API
+  parentId: device_orientation_events_api
+
+- id: battery_status_api
+  name: |
+    Battery Status API
+  descriptionIssues: >
+    Issues related to the Battery Status API for accessing information about the
+    system's battery charge level.
+  parentId: apis_capabilities
+
+- id: close_watcher_api
+  name: |
+    Close Watcher API
+  descriptionIssues: >
+    Issues related to the Close Watcher API for handling close requests (e.g.,
+    the Escape key) in a consistent way for components like dialogs and
+    popovers.
+  parentId: declarative_apis

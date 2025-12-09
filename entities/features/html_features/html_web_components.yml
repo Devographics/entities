@@ -118,3 +118,10 @@
         display: none;
       }
   mdn: /en-US/docs/Web/CSS/:has-slotted
+
+- id: elementinternals
+  name: |
+    ElementInternals
+  description: |
+    Issues related to the ElementInternals APIs.
+  parentId: web_components

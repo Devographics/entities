@@ -165,3 +165,8 @@
 # - id: prerender_attribute
 #   name: |
 #     `prerender`
+
+- id: contenteditable_plaintext_only
+  name: |
+    contenteditable=”plaintext-only”
+  parentId: contenteditable_attribute
