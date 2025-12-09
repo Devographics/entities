@@ -42,6 +42,9 @@
 
 - id: css_modules
   name: CSS Modules
+  descriptionIssues: >
+    Importing CSS via ES modules/import attributes (e.g., import sheet from
+    './x.css' with { type: 'css' }).
   contexts: [state_of_css]
   github: css-modules/css-modules
   homepageUrl: https://github.com/css-modules/css-modules

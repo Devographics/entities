@@ -5,6 +5,11 @@
 - id: templating
   name: Templating
   description: Lack of templating
+  descriptionIssues: >
+    Authoring and running templates, data binding, reactive rendering,
+    Declarative Shadow DOM, and server boundaries. Also includes issues related
+    to the <template> element.
+  parentId: html_reuse
   patterns:
     - templating
     - templates
@@ -13,8 +18,6 @@
   patterns:
     - event
 
-- id: progressive_enhancement
-
 - id: class_based_architecture
   name: Class-based architecture
   description: Forces the use of class syntax
@@ -22,8 +25,6 @@
     - classes
     - class-based
     - don't like.*class [p]
-
-- id: reactivity
 
 - id: lack_of_scoped_css
   patterns:

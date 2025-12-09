@@ -2,10 +2,6 @@
 #                 html_interoperability_features                 #
 ##################################################################
 
-- id: web_components
-  tags:
-    - html_interoperability_features
-
 - id: contenteditable
   patterns:
     - content(-| )?editable
@@ -67,19 +63,6 @@
 #                     html_missing_elements                      #
 ##################################################################
 
-- id: autocomplete
-  name: Autocomplete
-  description: Autocomplete, comboxbox, typeahead, etc. inputs
-  patterns:
-    - combo( |-)?box
-    - autocomplete
-    - typeahead
-    - autoco [p]
-  tags:
-    - html_missing_elements
-    - html_functionality_features
-    - css_missing_features
-
 - id: tooltip
   name: Tooltip
   tags:
@@ -114,10 +97,6 @@
   patterns:
     - multi( |-)?range
     - dual( |-)?range
-
-- id: color_picker
-  tags:
-    - html_missing_elements
 
 - id: stylable_select
   name: Stylable `<select>`
@@ -154,26 +133,7 @@
   tags:
     - html_missing_elements
 
-- id: date_time_picker
-  name: Date & Time Picker
-  tags:
-    - html_missing_elements
-
-- id: time_picker
-  name: Time Picker
-  tags:
-    - html_missing_elements
-
-- id: date_range_picker
-  tags:
-    - html_missing_elements
-
 - id: drop_zone
-  tags:
-    - html_missing_elements
-
-- id: slider
-  name: Slider
   tags:
     - html_missing_elements
 

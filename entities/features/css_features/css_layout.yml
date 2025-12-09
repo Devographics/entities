@@ -15,6 +15,9 @@
 - id: subgrid
   webFeaturesId: subgrid
   name: Subgrid
+  descriptionIssues: |
+    Issues specific to CSS Grid Layout.
+  parentId: css_layout
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
   caniuse: css-subgrid
   example:
@@ -159,6 +162,9 @@
   webFeaturesId: container-queries
   name: >
     `@container`
+  descriptionIssues: >
+    Pain points related to CSS Container Queries, often in relation to other
+    features like responsive images.
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
   caniuse: css-container-queries
   example:
@@ -202,6 +208,9 @@
   webFeaturesId: container-style-queries
   name: >
     `@container` style queries
+  description: >
+    Style‑container queries and related primitives used for component
+    theming/responsiveness.
   mdn: en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries#container_style_queries_2
   caniuse: css-container-queries-style
   example:

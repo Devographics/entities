@@ -91,6 +91,9 @@
 - id: clipboard_api
   webFeaturesId: async-clipboard
   name: Clipboard API
+  descriptionIssues: |
+    Issues related to programmatic copying and pasting using the Clipboard API.
+  parentId: apis_capabilities
   description: |
     Provides the ability to respond to clipboard commands (cut, copy, and paste), as well as to asynchronously read from and write to the system clipboard.
   mdn: en-US/docs/Web/API/Clipboard_API

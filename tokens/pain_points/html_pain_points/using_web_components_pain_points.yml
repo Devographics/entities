@@ -6,16 +6,6 @@
   name: Availability
   decription: Lack of good available options
 
-- id: fouc
-  name: FOUC
-  decription: Flash of unstyled content
-  tags:
-    - making_web_components_pain_points
-  patterns:
-    - flash of unstyled content
-    - flash of
-    - fout
-
 - id: missing_features
   name: Lack of features
   description: Missing or limited features
@@ -46,7 +36,5 @@
     - naming.*conflicts
 
 - id: lack_of_usage
-
-- id: progressive_enhancement
 
 - id: no_objects_as_attributes

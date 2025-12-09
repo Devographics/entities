@@ -15,6 +15,10 @@
   name: Speculation Rules
   description: |
     Hints for the browser to proactively download pages in the background to improve performance.
+  descriptionIssues: >
+    Issues with the Speculation Rules API for prerendering or prefetching
+    navigations.
+  parentId: resource_hints
   example:
     language: html
     code: |
@@ -34,6 +38,7 @@
 
 - id: img_sizes_auto
   webFeaturesId: sizes-auto
+  parentId: img_srcset_sizes
   name: |
     `<img sizes="auto" loading="lazy">`
   description: |

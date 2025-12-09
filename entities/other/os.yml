@@ -1,23 +1,38 @@
 - id: android
+  idAliases:
+    - android_issues
   name: Android
   homepageUrl: https://www.android.com/
+  parentId: google
 
 - id: mac_os
   name: macOS
   homepageUrl: https://www.apple.com/macos/
+  parentId: apple
 
 - id: windows
   name: Windows
   homepageUrl: https://www.microsoft.com/en-us/windows
+  descriptionIssues: |
+    Issues specific to the Microsoft Windows operating system.
+  parentId: microsoft
 
 - id: ios
   name: iOS
+  descriptionIssues: |
+    Issues specific to iOS as a platform.
+  parentId: apple
   homepageUrl: https://www.apple.com/ios
+  tags:
+    - css_general_pain_points
+    - mobile_desktop_pain_points
 
 - id: chrome_os
   name: ChromeOS
   homepageUrl: https://chromeos.google/
+  parentId: google
 
 - id: linux
   name: Linux
   homepageUrl: https://www.linux.org/
+  parentId: interop_issues

@@ -9,6 +9,10 @@
     - 3d
 
 - id: anchor_positioning
+  descriptionIssues: >
+    Pain points related to the CSS Anchor Positioning API, often in conjunction
+    with the Popover API. Includes issues with browser support and the perceived
+    necessity of this API for positioning popovers and tooltips effectively.
   patterns:
     - anchor
 
@@ -34,11 +38,6 @@
     - broadcast
 
 - id: canvas
-
-- id: color_picker
-  patterns:
-    - color, picker [l]
-    - input, color [l]
 
 - id: cookie_store
   patterns:
@@ -84,6 +83,10 @@
   parentId: html_reuse
 
 - id: import_maps
+  name: Import Maps
+  instructions: >
+    For issues around import maps being hard to manage, combine with
+    `ergonomics` or a suitable leaf.
 
 - id: indexed_db
 
@@ -94,10 +97,6 @@
 - id: show_open_file_picker
 
 - id: offscreen_canvas
-
-- id: view_transitions
-  patterns:
-    - page, transition [l]
 
 - id: passkeys
 
@@ -145,9 +144,20 @@
   patterns:
     - text, wrap, balance [l]
 
+- id: haptic_feedback
+  name: |
+    Haptics
+  description: >
+    Issues related to the lack of cross-platform APIs for providing haptic
+    feedback.
+  parentId: apis_capabilities
+
 - id: vibration_api
   patterns:
     - vibration
+  descriptionIssues: |
+    Issues related to the Vibration API for providing haptic feedback.
+  parentId: haptic_feedback
 
 - id: video_autoplay
   patterns:

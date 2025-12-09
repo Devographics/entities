@@ -33,6 +33,11 @@
   name: Discrete Properties Animations
   description: >
     Animate to and from properties such as `display: none`
+  descriptionIssues: >
+    Pain points related to animating discrete properties (like `display` or
+    `visibility`), often in the context of entry/exit animations for elements
+    like `<details>` or popovers.
+  parentId: animations_issues
   example:
     language: css
     code: |
@@ -63,6 +68,7 @@
   name: View Transition API
   mdn: en-US/docs/Web/API/View_Transitions_API
   caniuse: mdn-api_viewtransition
+  parentId: animations_issues
   example:
     language: css
     code: |
@@ -85,7 +91,11 @@
   patterns:
     - view(-| )?transition
     - page transition
-    - viewtransition
+    - transition api
+    - page, transition [l]
+  tags:
+    - html_pwas
+    - html_missing_features
 
 - id: animation_timeline
   name: |

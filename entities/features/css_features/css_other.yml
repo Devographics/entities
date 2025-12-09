@@ -274,6 +274,10 @@
 
 - id: shadow_dom_host
   name: Shadow DOM `:host()`
+  descriptionIssues: >
+    Issues related to the shadow root host or selectors that target it
+    (`:host`/`:host()`/`:host-context()` etc.).
+  parentId: shadow_dom
   mdn: /en-US/docs/Web/CSS/:host_function
   caniuse: mdn-api_shadowroot_host
   example:
@@ -329,6 +333,10 @@
 
 - id: attr_function
   name: "`attr()`"
+  descriptionIssues: >
+    Pain points related to the limitations of the CSS `attr()` function,
+    especially the desire for it to work with any CSS property, not just
+    `content`.
   mdn: /en-US/docs/Web/CSS/attr
   caniuse: css3-attr
 
@@ -366,6 +374,8 @@
 - id: at_scope
   webFeaturesId: scope
   name: "`@scope`"
+  description: >
+    Scope styles to a specific part of the DOM tree.
   mdn: /en-US/docs/Web/CSS/@scope
   caniuse: css-cascade-scope
   w3c: https://drafts.csswg.org/css-cascade-6/#scope-atrule
@@ -550,6 +560,9 @@
   name: "`if()`"
   description: |
     The `if()` CSS function is an inline conditional value that returns a value based on a set of conditions.
+  descriptionIssues: >
+    The desire for a native `if()` or conditional function within CSS to apply
+    values based on a condition, without needing media or container queries.
   example:
     language: css
     code: |

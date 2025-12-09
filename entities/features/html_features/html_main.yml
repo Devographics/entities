@@ -8,6 +8,7 @@
   webFeaturesId: details-name
   name: "`<details name>` (Exclusive Accordion)"
   needsTranslation: true
+  parentId: missing_elements
   description:
     Group `<details>` elements so that only up to one in the group can
     be open at a time.
@@ -189,6 +190,10 @@
   needsTranslation: true
   description: |
     A set of directives from a website to a browser, that helps to detect and mitigate XSS attacks.
+  descriptionIssues: >
+    Pain points around Content Security Policy, often citing its complexity,
+    difficulty in configuration, and debugging.
+  parentId: security_privacy
   example:
     language: http
     code: |
@@ -240,6 +245,10 @@
   name: CORS
   needsTranslation: false
   description: Opt-in to allowing requests from different origins.
+  descriptionIssues: >
+    Pain points with Cross-Origin Resource Sharing (CORS) and related
+    cross-origin security policies.
+  parentId: security_privacy
   example:
     language: http
     code: |-
@@ -251,6 +260,9 @@
       title: Fetch Standard
   tags:
     - features
+    - common_pain_points
+    - content_pain_points
+    - browser_apis_pain_points
 
 - id: credentialless_attribute
   name: Credentialess iframes
@@ -356,6 +368,10 @@
   needsTranslation: false
   description: Method of providing a list of presets for a user to select in a
     form control, while still allowing custom options.
+  descriptionIssues: >
+    Pain points related to the `<datalist>` element, including styling and
+    inconsistent UI.
+  parentId: forms_issues
   example:
     language: html
     code: |-
@@ -371,6 +387,7 @@
   caniuse: datalist
   tags:
     - features
+    - forms_pain_points
   patterns:
     - datalist
 
@@ -380,6 +397,9 @@
   needsTranslation: true
   description: |
     Define shadow trees with HTML, such as when server-side-rendering web components.
+  descriptionIssues: |
+    Authoring, referencing, and tooling around Declarative Shadow DOM (DSD).
+  parentId: shadow_dom
   example:
     language: html
     code: |-
@@ -452,6 +472,8 @@
   needsTranslation: false
   description: |
     Creates a modal or non-modal dialog box, such as a confirmation prompt or a subwindow used to enter data.
+  descriptionIssues: |
+    Pain points related to the native HTML `<dialog>` element.
   example:
     language: html
     code: |-
@@ -479,6 +501,7 @@
   webFeaturesId: dialog-closedby
   name: |
     `<dialog closedby="any">`
+  parentId: dialog_element
   description: |
     Allows the dialog to be closed by clicking outside of it (light dismiss).
   mdn: /en-US/docs/Web/HTML/Reference/Elements/dialog#closedby
@@ -489,6 +512,7 @@
 - id: dialog_requestclose
   webFeaturesId: requestclose
   name: "`dialog.requestClose()`"
+  parentId: dialog_element
   description: |
     Closes the dialog in a way that can be cancelled (unlike `dialog.close()`).
   mdn: /en-us/docs/web/api/htmldialogelement/requestclose
@@ -682,6 +706,7 @@
   name: FormData API
   needsTranslation: true
   description: API to more easily extract and manipulate form data values via JS
+  parentId: form_data_handling
   example:
     language: js
     code: |
@@ -719,6 +744,10 @@
   needsTranslation: true
   description: |
     Import HTML files via JS imports and access their elements and JS exports.
+  descriptionIssues: >
+    Issues around the lack of or desire for HTML Modules, for packaging and
+    importing components and content.
+  parentId: html_reuse
   example:
     language: html
     code: |-
@@ -863,6 +892,7 @@
 - id: filesystem_access
   webFeaturesId: file-system-access
   name: File System Access API
+  parentId: filesystem_apis
   needsTranslation: true
   description: |
     Access files and directories on the user's local device and create writable files that can be updated.
@@ -882,6 +912,8 @@
   patterns:
     - filesystem
     - file system
+  tags:
+    - browser_apis_pain_points
 
 - id: landmark_elements
   name: Landmark elements
@@ -917,6 +949,9 @@
     `loading="lazy"`
   needsTranslation: true
   description: Load certain resources only when needed.
+  descriptionIssues: >
+    Issues related to the native `loading="lazy"` attribute for images and
+    iframes, and the desire for similar functionality for other elements.
   example:
     language: html
     code: |-
@@ -938,6 +973,10 @@
   name: HTML Media Capture
   needsTranslation: true
   description: Capture input from the user’s camera.
+  descriptionIssues: >
+    Issues related to capturing audio and video, including selecting
+    cameras/microphones and controlling capture settings.
+  parentId: apis_capabilities
   example:
     language: html
     code: <input type="file" accept="video/*" capture>
@@ -952,6 +991,7 @@
   caniuse: html-media-capture
   tags:
     - features
+    - html_graphics
 
 - id: menu_element
   name: "`<menu>` element"
@@ -976,6 +1016,9 @@
   needsTranslation: false
   description: |
     Allows embedding 3D models in HTML with built-in controls.
+  descriptionIssues: |
+    Embedding of existing 3D models via `<model>`.
+  parentId: 3d_graphics
   example:
     language: html
     code: <model src="3d-assets/car.glb"></model>
@@ -1018,6 +1061,10 @@
   description:
     Initiate, intercept, and manage navigation actions, examine history
     entries. Successor to the older `history` and `location` APIs.
+  descriptionIssues: >
+    Pain points related to the Navigation API for managing client-side routing
+    and history in single-page applications (SPAs).
+  parentId: dom_apis
   example:
     language: js
     code: |-
@@ -1080,6 +1127,9 @@
 
 - id: video_element
   name: "`<video>`"
+  descriptionIssues: >
+    Issues related to including videos, including performance issues around
+    videos.
   needsTranslation: false
   example:
     language: html
@@ -1123,6 +1173,9 @@
   name: "`<canvas>`"
   description: |
     Element for drawing dynamic 2D or 3D graphics using JavaScript.
+  descriptionIssues: |
+    2D drawing via <canvas>.
+  parentId: graphics_issues
   needsTranslation: false
   example:
     language: html
@@ -1140,6 +1193,10 @@
   webFeaturesId: svg
   name: "`<svg>` (Inline SVG)"
   description: Embed SVG vector graphics directly in markup
+  descriptionIssues: >
+    Issues related to Vector graphics via Scalable Vector Graphics, including
+    issues related to embedding and manipulating SVG content.
+  parentId: graphics_issues
   example:
     language: html
     code: |-
@@ -1197,6 +1254,8 @@
   needsTranslation: false
   description: HTML syntax and JS API facilitating popovers such as overlays,
     popups, menus etc.
+  descriptionIssues: |
+    Pain points specific to Popover API.
   example:
     language: html
     code: |-
@@ -1227,6 +1286,7 @@
     `popover="hint"`
   description: |
     A way to create less persistent popovers, such as tooltips.
+  parentId: popover_api
   example:
     language: html
     code: |
@@ -1310,6 +1370,10 @@
   description: |
     Begin work on certain resources early to improve performance.
     Syntax: `<link rel="pre* | dns-prefetch | modulepreload">`.
+  descriptionIssues: >
+    Issues with declarative APIs for prioritizing resource loading, such as
+    `preload`, `prefetch`, `preconnect`, and Speculation Rules.
+  parentId: loading_issues
   example:
     language: html
     code: |-
@@ -1431,6 +1495,10 @@
   needsTranslation: true
   description: |
     `element.setHTML()` and `Document.parseHTML()`. API to prevent XSS attacks by sanitizing untrusted strings of HTML.
+  descriptionIssues: >
+    Issues related to the HTML Sanitizer API, including its absence,
+    limitations, or ergonomics.
+  parentId: security_privacy
   example:
     language: js
     code: |
@@ -1561,6 +1629,11 @@
   needsTranslation: false
   description: Encapsulate elements not visible from the outside, and style them
     with CSS not affecting the rest of the page.
+  descriptionIssues: >
+    Shadow trees, encapsulation boundaries, slotting, parts, cross-root ARIA and
+    integration with events, other APIs and page elements. Combine with
+    `styling` for shadow DOM styling issues.
+  parentId: web_components
   example:
     language: js
     code: 'this.shadowRoot = this.attachShadow({mode: "open"});'
@@ -1572,6 +1645,7 @@
 - id: showpicker
   webFeaturesId: show-picker-input
   name: "`input.showPicker()`"
+  parentId: pickers
   needsTranslation: false
   description: Programmatically open the picker of form controls that have one
     (color pickers, date inputs etc).
@@ -1636,7 +1710,8 @@
 - id: structured_data
   name: Structured data (RDFa, Microdata, Microformats)
   needsTranslation: true
-  description: Technologies for embedding machine-readable data in HTML.
+  description: Technologies for embedding machine-readable data in HTML (RDFa/JSON‑LD/Microformats).
+  parentId: content
   example:
     language: html
     code: |-
@@ -1678,6 +1753,10 @@
   description:
     A mechanism for holding HTML that is not to be rendered immediately
     but may be utilized later via JS.
+  descriptionIssues: >
+    Issues specific to the `<template>` element, often about its limitations or
+    ergonomics.
+  parentId: templating
   example:
     language: html
     code: |-
@@ -1746,6 +1825,10 @@
   name: Web Share API
   needsTranslation: true
   description: Exposes a mechanism for sharing content to various user-selected targets.
+  descriptionIssues: >
+    Issues related to the Web Share API for invoking the native sharing
+    capabilities of the device.
+  parentId: apis_capabilities
   example:
     language: js
     code: navigator.share(shareData)
@@ -1805,6 +1888,7 @@
 
 - id: file_handling_api
   webFeaturesId: app-file-handlers
+  parentId: filesystem_apis
   name: |
     `file_handlers` manifest field
   needsTranslation: true
@@ -1828,12 +1912,16 @@
   tags:
     - features
 
-- id: invokers
+- id: command_invokers
   webFeaturesId: invoker-commands
   name: |
     `command` and `commandfor` attributes (Command Invokers)
   description: |
     A declarative way for `<button>` to invoke predefined custom commands.
+  descriptionIssues: >
+    Pain points and feedback related to the proposed Invokers and Command
+    attributes for declaratively triggering actions on other elements.
+  parentId: interactivity
   example:
     language: html
     code: |
@@ -1859,6 +1947,9 @@
     `hidden="until-found"`
   description: |
     Hide an element until it is found (e.g. via a find-in-page search or when targeted by the URL hash).
+  descriptionIssues: >
+    Issues related to the `hidden="until-found"` attribute, which allows content
+    to be hidden but searchable via find-in-page.
   example:
     language: html
     code: |

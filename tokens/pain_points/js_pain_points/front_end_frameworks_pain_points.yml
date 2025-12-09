@@ -20,8 +20,6 @@
 - id: routing
   name: Routing
 
-- id: seo
-
 - id: server_components
   patterns:
     - rsc
@@ -82,6 +80,9 @@
 
 - id: react_issues
   name: React issues
+  description: |
+    Issues around compatibility with React.
+  parentId: framework_issues
   patterns:
     - react
 
@@ -150,10 +151,6 @@
 - id: change_detection_issues
   patterns:
     - change, detection [l]
-
-- id: community_issues
-  patterns:
-    - community
 
 - id: data_loading_issues
   patterns:

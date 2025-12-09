@@ -62,6 +62,11 @@
   name: Declarative Custom Elements
   description: |
     Create web components declaratively through HTML, with or without JS.
+  descriptionIssues: >
+    HTML‑only definitions/usage of custom elements (no JS bootstrapping) and
+    their authoring model. This also includes complaints about reliance on
+    JavaScript.
+  parentId: custom_elements
   example:
     language: html
     code: |
@@ -84,6 +89,7 @@
   name: Reference Target API
   description: |
     A way to “redirect” id references to a component to elements in its shadow DOM (for ARIA, labels, popovers etc).
+  parentId: cross_root_aria
   example:
     language: js
     code: |
@@ -102,6 +108,9 @@
     `:has-slotted`
   description: |
     CSS pseudo-class that allows targeting `<slot>` elements only when they have slotted nodes.
+  instructions: |
+    Combine with `browser_support` for issues around lack of adoption.
+  parentId: slots
   example:
     language: css
     code: |

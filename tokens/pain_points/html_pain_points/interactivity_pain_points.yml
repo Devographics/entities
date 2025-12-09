@@ -9,7 +9,7 @@
 - id: dom_manipulation
   name: DOM manipulation
   description: Adding, modifying, and removing DOM elements
-  parentId: interacting_with_dom
+  parentId: dom_apis
   patterns:
     - dom manipulation
     - creating.*element(s)?
@@ -18,14 +18,18 @@
 - id: element_selection
   name: Element selection
   description: Selecting and targeting DOM elements
-  parentId: interacting_with_dom
+  parentId: dom_apis
   patterns:
     - finding, element [l]
 
 - id: dom_diffing
   name: DOM diffing
   description: Lack of a native DOM diffing algorithm
-  parentId: interacting_with_dom
+  descriptionIssues: >
+    The desire for a built-in, performant mechanism for incremental DOM updates
+    (diffing/patching), requiring developers to either manually manage DOM
+    updates or use a library to avoid full-rerenders.
+  parentId: templating
   patterns:
     - dom(-| )?diff
     - dom(-| )?diffing
@@ -34,12 +38,14 @@
 
 - id: shadow_dom_issues
   name: Shadow DOM issues
-  parentId: interacting_with_dom
+  parentId: dom_apis
   patterns:
     - shadow, dom [l]
 
 - id: drag_and_drop
   name: Drag-and-drop support
+  descriptionIssues: |
+    Common challenges with APIs for implementing drag-and-drop functionality.
   patterns:
     - drag
     - drag.*drop
@@ -49,8 +55,15 @@
 - id: event_management
   name: Event management
   description: Handling user events
+  descriptionIssues: >
+    Issues around events, complex interactions being hard to define via events,
+    etc. For issues around handling events, including event composition,
+    retargeting, and authoring patterns across light/shadow boundaries, combine
+    with `cross_root`.
   patterns:
     - event
+  tags:
+    - browser_apis_pain_points
 
 - id: frustration_with_javascript
 
@@ -75,8 +88,8 @@
 - id: lack_of_virtual_dom
 
 - id: tooltips
-
-- id: web_components
+  descriptionIssues: |
+    Pain points related to creating accessible, reliable tooltips.
 
 - id: content_shift
   patterns:
@@ -103,8 +116,6 @@
   patterns:
     - bindings
 
-- id: custom_elements
-
 - id: lack_of_reactivity_support
   name: Reactivity
   description: Lack of support for reactivity
@@ -115,6 +126,10 @@
     - using_web_components_pain_points
 
 - id: native_htmx_like_features
+  description: >
+    The lack of native access to WebSockets, Server Sent Events, and other
+    features supported by htmx directly in HTML.
+  parentId: declarative_apis
   patterns:
     - htmx
 
@@ -126,10 +141,6 @@
     - native, primitive [l]
 
 - id: reliance_on_jquery
-
-- id: modal_issues
-  patterns:
-    - modal
 
 - id: sanitization_issues
   name: Sanitization issues

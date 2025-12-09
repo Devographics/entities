@@ -74,6 +74,11 @@
     - customising
     - customizing
     - styl(e)?ab [p]
+  instructions: >
+    If no way to achieve desired customization combine with `limitations`. If
+    pain point is caused due to inconsistent browser support of customization
+    capabilities, combine with `browser_support`. If customization is possible,
+    but too hard, combine with `ergonomics`.
 
 - id: error_handling
   name: Error handling
@@ -90,6 +95,9 @@
 
 - id: state_management
   name: State management
+  descriptionIssues: >
+    Difficulties with managing and preserving UI state (e.g., focus, scroll
+    position, form input values, component state) during DOM manipulations.
   patterns:
     - state mgmt
     - state
@@ -165,6 +173,10 @@
 - id: excessive_complexity
   name: Excessive complexity
   description: Too much complexity
+  descriptionIssues: >
+    The landscape or technology feels overengineered, overcomplicated, making it
+    hard to get started.
+  parentId: cognitive_overload
   patterns:
     - complex [e]
     - complicated [p]
@@ -182,7 +194,6 @@
     - over( )?complex
     - over( )?complicated
     - over( )?complicating
-  parentId: cognitive_overload
 
 - id: hard_to_memorize
   patterns:
@@ -202,6 +213,7 @@
 - id: lack_of_tools
   name: Lack of tools
   decription: Lack of adequate tooling and libraries
+  parentId: tooling
   patterns:
     - lack, tools [l]
     - tooling
@@ -247,6 +259,9 @@
 - id: performance
   name: Performance
   description: Performance issues
+  descriptionIssues: >
+    Throughput, latency, memory, jank, lag, frame drops, battery/thermal, and
+    loading time.
   patterns:
     - slow
     - slowness
@@ -254,6 +269,7 @@
     - optimization
     - perfomance [p]
     - performances
+    - perf
 
 - id: hydration
   name: Hydration
@@ -362,6 +378,9 @@
 
 - id: lack_of_awareness
   name: Lack of awareness
+  descriptionIssues: |
+    The user was not aware that a particular technology or API existed.
+  parentId: educational_issues
   patterns:
     - awareness
 
@@ -377,7 +396,7 @@
 - id: reliance_on_javascript
   name: Reliance on JavaScript
   description: Excessive reliance on JavaScript
-  description_long: Lack of declarative HTML APIs, slow rendering due to dependence on correct loading & execution of JS, issues around the higher barrier-to-entry of JS APIs, etc.
+  descriptionLong: Lack of declarative HTML APIs, slow rendering due to dependence on correct loading & execution of JS, issues around the higher barrier-to-entry of JS APIs, etc.
   patterns:
     - js [e]
     - javascript [e]
@@ -391,6 +410,12 @@
     - require, js [l]
     - reliance, js [l]
     - need, js [l]
+  instructions: >
+    For lack of declarative APIs, use `declarative_apis` (or a child) +
+    `limitations`. For slow rendering due to dependence on correct loading &
+    execution of JS, combine with `performance`, `end-user_ux` etc. accordingly.
+    For issues around the higher barrier-to-entry of JS APIs, combine with
+    `poor_learnability`.
 
 - id: responsive_design
   name: Responsive design
@@ -407,6 +432,13 @@
   name: Lack of usefulness
 
 - id: seo
+  name: SEO
+  descriptionIssues: |
+    Issues related to difficulties around Search Engine Optimization (SEO).
+  parentId: environments_consumers
+  instructions: >
+    If a feature makes SEO hard, combine with `ergonomics`. If a feature makes
+    content inaccessible to SEO with no way out, combine with `limitations`.
 
 - id: testing
   name: Testing
@@ -420,6 +452,8 @@
 - id: educational_issues
   name: Education
   description: Issues related to learning new technologies
+  descriptionLong: >
+    Lack of awareness, poor docs, lack of best practices, lack of good examples, and issues regarding availability and quality of educational resources.
 
 - id: tough_learning_curve
   name: Tough learning curve
@@ -435,7 +469,9 @@
 
 - id: lack_of_documentation
   name: Lack of documentation
-  description: Lack of documentation or code examples
+  description: >
+    Issues due to missing, incomplete, unclear, or outdated documentation or
+    code examples.
   parentId: educational_issues
   patterns:
     - docs
@@ -449,6 +485,8 @@
 
 - id: lack_of_best_practices
   name: Lack of best practices
+  description: |
+    Issues arising from the absence of clear, established best practices.
   parentId: educational_issues
   patterns:
     - best practice
@@ -479,10 +517,16 @@
 - id: focus_management
   name: Focus management
   description: Managing user focus
+  descriptionIssues: >
+    Challenges with managing focus, especially in dynamic contexts. Includes
+    focus trapping, roving tabindex, moving focus programmatically, and
+    preserving focus when DOM elements are added, removed, or moved.
+  parentId: a11y_technical_issues
   patterns:
     - focus
   tags:
     - html_missing_features
+    - accessibility_pain_poins
 
 - id: discoverability
   name: Discoverability
@@ -538,10 +582,15 @@
     - overrated
 
 - id: scope_creep
+  name: Scope Creep
   patterns:
     - do too much
     - too many features
     - feature creep
+  descriptionIssues: >
+    Sentiments that the web platform is adding too many features or encroaching
+    on native application territory, potentially increasing complexity or
+    security risks.
 
 - id: lack_of_flexibility
   patterns:
@@ -557,9 +606,6 @@
   name: Authentication
   patterns:
     - auth
-
-- id: cors
-  name: CORS
 
 - id: cache_issues
   patterns:
@@ -589,7 +635,76 @@
     Data Binding
   description: >
     Pain points around the lack of a native way to bind JavaScript data to DOM elements, so that changes in one are automatically reflected in the other.
+  descriptionIssues: >
+    Pain points around the lack of a native way to bind JavaScript data to DOM
+    elements, so that changes in one are automatically reflected in the other.
   parentId: reactivity
   tags:
     - interactivity_pain_points
     - making_web_components_pain_points
+
+- id: community_issues
+  patterns:
+    - community
+  descriptionIssues: >
+    Issues related to public perception, community discourse, or web developer
+    practices
+
+- id: fouc
+  name: FOUC
+  decription: Flash of unstyled content
+  descriptionIssues: >
+    The specific problem where content briefly appears without its intended
+    styling, often due to CSS loading behavior.
+  parentId: loading_ux
+  tags:
+    - using_web_components_pain_points
+    - making_web_components_pain_points
+  patterns:
+    - flash of unstyled content
+    - flash of
+    - fout
+
+# company_issues
+
+- id: workplace_issues
+  name: Company issues
+  description: Issues dealing with the corporate context
+  patterns:
+    - organization
+    - company
+    - companies
+    - employer
+    - boss
+    - management
+
+- id: lack_of_budget
+  name: Lack of budget
+  parentId: workplace_issues
+  patterns:
+    - budget
+
+- id: low_priority
+  name: Low priority
+  parentId: workplace_issues
+  patterns:
+    - buy(-| )?in
+    - don't care
+    - don't prioritize
+    - don't value
+    - convincing
+    - on board
+    - no one care
+    - no one else care
+    - priority
+    - company, time [l]
+    - boss, time [l]
+    - companies, time [l]
+
+- id: lack_of_client_demand
+  name: Lack of client demand
+  parentId: workplace_issues
+  patterns:
+    - client, demand [l]
+    - customer, demand [l]
+    - convincing, client [l]

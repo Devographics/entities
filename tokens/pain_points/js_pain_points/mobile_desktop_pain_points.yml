@@ -6,15 +6,10 @@
   patterns:
     - app store
 
-- id: apple
-  parentId: interop_issues
-
 - id: testing
   name: Testing
   patterns:
     - test [p]
-
-- id: ios
 
 - id: android_issues
   name: Android issues

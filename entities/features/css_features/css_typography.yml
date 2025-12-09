@@ -93,6 +93,9 @@
 - id: line_clamp
   webFeaturesId: line-clamp
   name: "`line-clamp`"
+  descriptionIssues: >
+    Issues with multi-line text truncation and the `line-clamp` property (or
+    lack thereof).
   mdn: /en-US/docs/Web/CSS/-webkit-line-clamp
   caniuse: css-line-clamp
   example:
@@ -110,6 +113,9 @@
 
 - id: text_box_trim
   name: "`text-box-edge`/`text-box-trim`"
+  descriptionIssues: >
+    Issues related to controlling the space above and below text, often referred
+    to as `text-box-trim` or leading control.
   w3c: https://drafts.csswg.org/css-inline-3/#propdef-leading-trim
   caniuse: css-text-box-trim
   tags:

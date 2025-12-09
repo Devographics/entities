@@ -25,6 +25,9 @@
 
 - id: browser_extensions
   name: Browser Extensions
+  descriptionIssues: >
+    Incompatibilities between browser extensions (either specific ones or a
+    broad category) and certain technologies.
   patterns:
     - extension
   tags:

@@ -4,6 +4,8 @@
     - constrast
 
 - id: dark_mode_issues
+  name: |
+    Dark mode issues
   patterns:
     - dark
 

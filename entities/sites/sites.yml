@@ -2,6 +2,8 @@
   name: Google
   homepageUrl: https://google.com
   parentId: interop_issues
+  descriptionIssues: >
+    Issues specific to the Google ecosystem (e.g., Chrome, Blink, Android).
 
 - id: github
   name: GitHub
@@ -456,10 +458,20 @@
   name: Ecosia
   homepageUrl: https://www.ecosia.org/
 
+- id: apple
+  name: Apple
+  homepageUrl: https://www.apple.com/
+  descriptionIssues: >
+    Issues specific to Apple as a platform or vendor, and the Apple ecosystem
+    (e.g., Safari, WebKit, iOS).
+  parentId: interop_issues
+
 - id: mozilla
   name: Mozilla
   homepageUrl: https://www.mozilla.org/
   parentId: interop_issues
+  descriptionIssues: |
+    Issues specific to the Mozilla ecosystem (e.g., Firefox, Gecko).
 
 - id: bing
   name: Bing

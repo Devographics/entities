@@ -22,6 +22,9 @@
     - selects [e]
   tags:
     - html_functionality_features
+  descriptionIssues: |
+    Pain points related to the `<select>` element.
+  parentId: forms_issues
 
 - id: select_multiple_element
   name: |
@@ -34,6 +37,8 @@
 - id: input_type_date
   name: |
     `<input type="date">`
+  descriptionIssues: >
+    Pain points related to `<input type="date">` and its associated picker UI.
   patterns:
     - input type="date"
     - date, input [l]
@@ -41,6 +46,9 @@
     - calendar
     - calender
     - date
+  parentId: pickers
+  tags:
+    - forms_pain_points
 
 - id: input_type_time
   name: |
@@ -161,6 +169,9 @@
 - id: pattern_attribute
   name: |
     `pattern` attribute
+  descriptionIssues: |
+    Issues related to the `pattern` attribute for validation.
+  parentId: form_validation_issues
 
 - id: input_set_custom_validity
   name: |
@@ -227,11 +238,132 @@
 
 - id: input_checkbox_switch
   name: |
+    Switch Control
+  name2: |
     `<input type="checkbox" switch>`
   description: |
     A way to render a checkbox as a switch.
+  descriptionIssues: >
+    The lack of a native switch or toggle control, forcing developers to build
+    one from a checkbox.
   resources:
     - url: https://webkit.org/blog/15054/an-html-switch-control/
       title: An HTML Switch Control | WebKit
     - url: https://www.smashingmagazine.com/2024/05/switching-it-up-html-latest-control/
       title: Switching It Up With HTML’s Latest Control — Smashing Magazine
+
+- id: input_element
+  name: |
+    `<input>`
+  descriptionIssues: >
+    General pain points with the `<input>` element or for input types not
+    covered by more specific codes.
+  parentId: forms_issues
+
+- id: color_picker
+  patterns:
+    - color, picker [l]
+    - input, color [l]
+  tags:
+    - html_missing_elements
+    - html_missing_features
+  descriptionIssues: |
+    Pain points related to `<input type="color">` and its associated picker UI.
+  parentId: pickers
+
+- id: slider
+  name: Slider
+  tags:
+    - html_missing_elements
+  descriptionIssues: |
+    Pain points related to `<input type="range">`.
+  parentId: forms_issues
+
+- id: date_range_picker
+  name: |
+    Date Range Picker
+  description: |
+    A native control for selecting a start and an end date.
+  parentId: input_type_date
+  tags:
+    - html_missing_elements
+
+- id: select_element_multiselect
+  name: MultiSelect
+  descriptionIssues: |
+    Issues with the user experience and appearance of `<select multiple>`.
+  parentId: select_element
+  patterns:
+    - multi( |-)?select
+    - select, multiple [l]
+
+- id: textarea_element
+  name: |
+    `<textarea>`
+  descriptionIssues: |
+    Pain points specific to the `<textarea>` element.
+  parentId: forms_issues
+  tags:
+    - forms_pain_points
+  patterns:
+    - text(-| )?area
+
+- id: autocomplete
+  name: Autocomplete
+  description: Autocomplete, comboxbox, typeahead, etc. inputs
+  descriptionIssues: |
+    Pain points with the `autocomplete` attribute and browser autofill behavior.
+  parentId: forms_issues
+  patterns:
+    - combo( |-)?box
+    - autocomplete
+    - typeahead
+    - autoco [p]
+  tags:
+    - html_missing_elements
+    - html_functionality_features
+    - css_missing_features
+    - forms_pain_points
+
+- id: date_time_picker
+  name: Date & Time Picker
+  tags:
+    - html_missing_elements
+
+- id: time_picker
+  name: Time Picker
+  descriptionIssues: |
+    Pain points related to `<input type="time">` and its associated picker UI.
+  parentId: pickers
+  tags:
+    - html_missing_elements
+
+- id: input_type_checkbox
+  name: |
+    `<input type="checkbox">`
+  descriptionIssues: |
+    Pain points specific to `<input type="checkbox">`.
+  parentId: forms_issues
+  mdn: en-US/docs/Web/HTML/Reference/Elements/input/checkbox
+  patterns:
+    - checkbox [p]
+
+- id: input_type_radio
+  name: |
+    `<input type="radio">`
+  descriptionIssues: |
+    Pain points specific to `<input type="radio">`.
+  parentId: forms_issues
+  mdn: en-US/docs/Web/HTML/Reference/Elements/input/radio
+  patterns:
+    - radio
+
+- id: fieldset_element
+  name: |
+    `<fieldset>`
+  descriptionIssues: >
+    Pain points related to styling and using the `<fieldset>` and `<legend>`
+    elements.
+  parentId: forms_issues
+  patterns:
+    - fieldset

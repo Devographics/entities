@@ -36,6 +36,9 @@
 
 - id: storage
   name: Storage
+  descriptionIssues: |
+    Issues related to storing data on the client-side.
+  parentId: system_capabilities
   patterns:
     - stores
     - storing
@@ -68,6 +71,10 @@
 
 - id: pwa_issues
   name: PWA issues
+  descriptionIssues: >
+    Issues around Progressive Web Apps, their support in different browsers and
+    OSs.
+  parentId: system_capabilities
   patterns:
     - pwa
     - pwa, hard [l]
@@ -177,16 +184,16 @@
   patterns:
     - safari
 
-- id: service_worker_issues
-  name: Service workers issues
-  patterns:
-    - worker
-
 - id: file_system_access
   patterns:
     - file( |-)?system
 
 - id: permissions_issues
+  name: Permissions
+  descriptionIssues: >
+    Issues related to the process and UI for requesting, granting, or revoking
+    user permissions for sensitive APIs.
+  parentId: security_privacy
   patterns:
     - permission
 

@@ -7,16 +7,16 @@
 - id: security_privacy
   name: Security & privacy
   description: Lack of security and privacy
+  descriptionIssues: >
+    Threats, mitigations, permissions, and fingerprinting/privacy budget
+    concerns, cross-origin issues etc. Pain points related to general concerns
+    about security and privacy on the web.
+  instructions: >
+    If security & privacy mitigations are making a feature hard to use, combine
+    with `ergonomics`.
   patterns:
     - security
     - privacy
-
-- id: cors_issues
-  parentId: security_privacy
-  name: CORS issues
-  description: Issues with implementing CORS
-  patterns:
-    - cross(-| )?origin
 
 - id: csp_issues
   parentId: security_privacy
@@ -79,6 +79,9 @@
 
 - id: embedding_issues
   name: Embedding issues
+  descriptionIssues: |
+    Pain points related to embedding content from various sources.
+  parentId: content
   patterns:
     - embedding
     - embed
@@ -109,6 +112,9 @@
 - id: i18n_issues
   name: Internationalization
   description: Issues with internationalizing, localizing, and translating content
+  descriptionIssues: >
+    Localization, RTL, logical coordinates, culturally‑appropriate rendering
+    etc.
   patterns:
     - translation
     - locali(z|s)ation
@@ -120,4 +126,10 @@
   tags:
     - front_end_frameworks_pain_points
 
-- id: performance
+- id: maps_issues
+  name: |
+    Map Issues
+  descriptionIssues: >
+    Pain points related to embedding maps and handling maps on the web in
+    general.
+  parentId: content

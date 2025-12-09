@@ -182,6 +182,9 @@
   webFeaturesId: masonry
   name: Masonry Layout
   description: Native support for Pinterest-style free-flowing grid layouts.
+  descriptionIssues: |
+    Issues related to the desire for a native CSS Masonry layout.
+  parentId: css_layout
   patterns:
     - grid, masonry [l]
     - grid, masonry, layout [l]

@@ -93,6 +93,7 @@
 - id: sql
   name: SQL
   homepageUrl: https://en.wikipedia.org/wiki/SQL
+  parentId: storage
 
 - id: html
   name: HTML

@@ -47,10 +47,6 @@
   # description: Automated testing issues
   parentId: a11y_technical_issues
 
-- id: keyboard_navigation_issues
-  name: Keyboard navigation
-  parentId: a11y_technical_issues
-
 - id: tab_index
   name: >
     `tabindex`
@@ -61,9 +57,6 @@
   parentId: a11y_technical_issues
 
 - id: carousels
-  parentId: a11y_technical_issues
-
-- id: focus_management
   parentId: a11y_technical_issues
 
 - id: aria
@@ -141,61 +134,29 @@
   name: Hard to find testers
   parentId: a11y_implementation_issues
 
-# company_issues
-
-- id: a11y_company_issues
-  name: Company issues
-  description: Issues with the place of accessibility in a corporate context
-  patterns:
-    - organization
-    - company
-    - companies
-    - employer
-    - boss
-    - management
-
-- id: lack_of_budget
-  name: Lack of budget
-  parentId: a11y_company_issues
-  patterns:
-    - budget
-
-- id: low_priority
-  name: Low priority
-  parentId: a11y_company_issues
-  patterns:
-    - buy(-| )?in
-    - don't care
-    - don't prioritize
-    - don't value
-    - convincing
-    - on board
-    - no one care
-    - no one else care
-    - priority
-    - company, time [l]
-    - boss, time [l]
-    - companies, time [l]
-
-- id: lack_of_client_demand
-  name: Lack of client demand
-  parentId: a11y_company_issues
-  patterns:
-    - client, demand [l]
-    - customer, demand [l]
-    - convincing, client [l]
-
 - id: unaccessible_design_choices
   name: Unaccessible design choices
-  parentId: a11y_company_issues
+  parentId: workplace_issues
 
 # screen_reader_issues
 
 - id: screen_reader_issues
+  idAliases:
+    - screen_readers
   name: Screen reader issues
+  description: |
+    Issues with screen readers in general, or specific screen readers.
+  parentId: accessibility_issues
+  instructions: >
+    Combine with `browser_support` for inconsistencies between screen readers or
+    lack of support for certain features. Combine with `testing` for issues
+    around testing in screen readers, procuring screen readers for testing, etc.
+    For issues with specific screen readers, use a leaf, e.g. `jaws`.
 
 - id: screen_readers_access
   name: Access to screen readers
+  descriptionIssues: |
+    Difficulty procuring screen readers for testing.
   parentId: screen_reader_issues
 
 - id: screen_readers_learning_curve

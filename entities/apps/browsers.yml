@@ -5,6 +5,9 @@
     - browser_apis_pain_points
   # parentId: interop_issues
   parentId: google
+  descriptionIssues: >
+    Issues specific to the Chrome browser or the Chromum rendering engine,
+    across all platforms.
 
 - id: chrome_android
   name: Chrome Android
@@ -36,6 +39,8 @@
   homepageUrl: https://www.mozilla.org/en-US/firefox/new/
   # parentId: mozilla
   parentId: interop_issues
+  descriptionIssues: >
+    Issues specific to the Firefox browser, across all platforms.
 
 - id: firefox_developer
   name: Firefox Quantum
@@ -95,6 +100,8 @@
 
 - id: safari
   name: Safari
+  descriptionIssues: |
+    Issues specific to the Safari browser, across all platforms.
   homepageUrl: https://www.apple.com/safari/
   # parentId: apple
   parentId: interop_issues

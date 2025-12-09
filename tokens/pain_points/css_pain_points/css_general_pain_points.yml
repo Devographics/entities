@@ -3,13 +3,6 @@
 - id: email
   # name: Email
 
-- id: ios
-
-- id: performance
-  # name: Performance
-  patterns:
-    - perf
-
 - id: internet_explorer
   patterns:
     - ie( |-)?11

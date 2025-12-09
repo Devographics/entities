@@ -117,7 +117,10 @@
 - id: async_validation
   name: Async validation
   description: Making async calls to validate form inputs
-  parentId: validation_issues
+  descriptionIssues: >
+    The lack of a built-in mechanism for performing asynchronous validation,
+    such as checking a username's availability against a server.
+  parentId: form_validation_issues
 
 - id: conditional_validation
   name: Conditional validation
@@ -213,9 +216,16 @@
     - text( |-)?area, auto [l]
 
 - id: button_element
-  parentId: form_input_issues
+  name: |
+    `<button>`
+  descriptionIssues: >
+    Pain points related to the `<button>` element, including its default
+    behaviors within a form.
+  parentId: forms_issues
   patterns:
     - button
+  tags:
+    - html_pwas
 
 - id: input_type_file
   parentId: form_input_issues
@@ -248,24 +258,6 @@
   parentId: form_input_issues
   patterns:
     - select, search [l]
-
-- id: select_element_multiselect
-  name: MultiSelect
-  parentId: select_element
-  patterns:
-    - multi( |-)?select
-    - select, multiple [l]
-
-- id: input_type_date
-  parentId: form_input_issues
-
-- id: textarea_element
-  parentId: form_input_issues
-
-- id: datalist_element
-  parentId: form_input_issues
-  patterns:
-    - datalist
 
 - id: selectlist_element
   parentId: form_input_issues
@@ -332,6 +324,10 @@
 
 - id: rich_text_editing
   name: Rich text editing
+  descriptionIssues: >
+    Pain points with `contentEditable` and the general difficulty of building
+    rich text editors on the web.
+  parentId: editing_apis
   patterns:
     - rich
 
@@ -343,6 +339,10 @@
 - id: multi_step_forms
   name: Multi-step forms
   description: Handling forms split across multiple pages
+  descriptionIssues: >
+    Pain points related to implementing forms that are broken into multiple
+    steps or pages.
+  parentId: forms_issues
   patterns:
     - multi(-| )?step
     - multi(-| )?page

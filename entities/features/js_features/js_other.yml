@@ -75,10 +75,6 @@
       const cacheStorage = await caches.open(cacheName);
   mdn: /en-US/docs/Web/API/CacheStorage
 
-- id: service_workers
-  name: Service Workers
-  mdn: /en-US/docs/Web/API/Service_Worker_API
-
 - id: web_animations
   webFeaturesId: web-animations
   name: Web Animations
@@ -91,10 +87,21 @@
 - id: web_components
   name: Web Components
   mdn: /en-US/docs/Web/Web_Components
+  descriptionIssues: >
+    Pain points related to authoring and using Web Components (Custom Elements,
+    Shadow DOM, etc.).
+  tags:
+    - html_interoperability_features
+    - interactivity_pain_points
+    - language_pain_points
+    - front_end_frameworks_pain_points
+  patterns:
+    - web component
 
 - id: webrtc
   webFeaturesId: webrtc
   name: WebRTC
+  parentId: apis_capabilities
   mdn: /en-US/docs/Web/API/WebRTC_API
 
 - id: websocket
@@ -127,6 +134,9 @@
 - id: geolocation
   webFeaturesId: geolocation
   name: Geolocation API
+  descriptionIssues: |
+    Issues related to the Geolocation API for accessing the user's location.
+  parentId: apis_capabilities
   mdn: /en-US/docs/Web/API/Geolocation_API
   caniuse: geolocation
 
@@ -145,6 +155,8 @@
   name: "`navigator.xr` (WebXR Device API)"
   description: |
     Create AR/VR sessions with compatible output devices.
+  descriptionIssues: |
+    Augmented/virtual reality APIs on the web.
   example:
     language: js
     code: |
@@ -240,7 +252,13 @@
 
 - id: custom_elements
   name: Custom Elements
+  descriptionIssues: >
+    Issues related to defining and using custom elements, including syntax
+    verbosity, lifecycle, and the reliance on JavaScript.
+  parentId: web_components
   mdn: /en-US/docs/Web/Web_Components
+  tags:
+    - interactivity_pain_points
 
 # moved to features_html
 # - id: shadow_dom
@@ -528,6 +546,9 @@
 - id: gamepad_api
   webFeaturesId: gamepad
   name: Gamepad API
+  descriptionIssues: |
+    Issues related to the Gamepad API for interacting with game controllers.
+  parentId: apis_capabilities
   mdn: en-US/docs/Web/API/Gamepad_API
 
 - id: web_authentication_api
@@ -552,6 +573,7 @@
 
 - id: web_serial_api
   name: Web Serial API
+  parentId: apis_capabilities
   mdn: en-US/docs/Web/API/Web_Serial_API
   patterns:
     - serial, api [l]
@@ -562,6 +584,9 @@
     `SpeechRecognition`
   description: |
     API that converts microphone input to text.
+  descriptionIssues: |
+    Issues related to the Web Speech API's speech recognition capabilities.
+  parentId: apis_capabilities
   example:
     language: js
     code: |

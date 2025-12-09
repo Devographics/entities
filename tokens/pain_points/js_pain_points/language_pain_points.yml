@@ -46,6 +46,10 @@
 
 - id: typescript_issues
   name: TypeScript issues
+  descriptionIssues: >
+    Typing components and their JSX/TSX/templating integrations (including
+    Custom Elements Manifest).
+  parentId: tooling
   tags:
     - front_end_frameworks_pain_points
 
@@ -182,9 +186,16 @@
     - poo
 
 - id: reactivity
+  name: Reactivity
   description: Issues with reactivity
+  descriptionIssues: >
+    Built‑in reactivity for rendering (signals or equivalent) so templates
+    update from state changes. Complaints about lack of reactivity, or how hard
+    it is to implement reactive data bindings with no framework.
   tags:
     - front_end_frameworks_pain_points
+    - making_web_components_pain_points
+    - state_management_pain_points
 
 - id: scope
   description: Issues with scope
@@ -210,12 +221,6 @@
   name: Transpiling
   patterns:
     - transpil [p]
-
-- id: web_components
-  patterns:
-    - web component
-  tags:
-    - front_end_frameworks_pain_points
 
 - id: try_catch
   patterns:

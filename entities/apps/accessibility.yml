@@ -5,6 +5,10 @@
 - id: lighthouse
   name: Lighthouse
   homepageUrl: https://developer.chrome.com/docs/lighthouse/overview/
+  descriptionIssues: >
+    Issues specific to using the Lighthouse auditing tool, its recommendations,
+    or score variability.
+  parentId: tooling_profiling
   tags:
     - performance
 
@@ -145,6 +149,9 @@
 
 - id: voiceover
   name: VoiceOver
+  descriptionIssues: |
+    Issues specific to Apple's VoiceOver screen reader.
+  parentId: screen_readers
   homepageUrl: https://www.apple.com/voiceover/info/guide/_1121.html
   tags:
     - screenreaders
@@ -157,11 +164,17 @@
 - id: jaws
   name: JAWS
   homepageUrl: https://www.freedomscientific.com/products/software/jaws/
+  descriptionIssues: |
+    Issues specific to the JAWS (Job Access With Speech) screen reader.
+  parentId: screen_readers
   tags:
     - screenreaders
 
 - id: nvda
   name: NVDA
+  descriptionIssues: |
+    Issues specific to the NVDA (NonVisual Desktop Access) screen reader.
+  parentId: screen_readers
   homepageUrl: https://www.nvaccess.org/download/
   tags:
     - screenreaders
@@ -192,6 +205,9 @@
 
 - id: talkback
   name: TalkBack
+  descriptionIssues: |
+    Issues specific to Google's TalkBack screen reader on Android.
+  parentId: screen_readers
   homepageUrl: https://support.google.com/accessibility/android/answer/6283677?hl=en
   tags:
     - screenreaders
@@ -202,3 +218,10 @@
 
 - id: browser_devtools
   name: Browser Devtools
+  descriptionIssues: |
+    Issues around the dev tools built-in to browsers.
+  parentId: tooling
+  instructions: >
+    Combine with `debugging` if the issue is around debugging using the browser
+    dev tools being hard. Combine with `limitations` if the issue is around a
+    missing feature in the browser dev tools.

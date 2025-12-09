@@ -19,6 +19,18 @@
 
 - id: keyboard_navigation
   name: Keyboard navigation
+  descriptionIssues: |
+    Issues around managing good keyboard navigation and keyboard shortcuts.
+  instructions: >
+    For issues around focus management, use `focus_management` instead. For
+    issues around keyboard navigation being hard to do well, use `ergonomics` or
+    a suitable leaf. For issues around knowing what type of keyboard navigation
+    to implement, combine with `educational_issues`. For issues around too much
+    JS needed to implement keyboard navigation, combine with
+    `reliance_on_javascript`.
+  tags:
+    - accessibility_pain_poins
+  parentId: a11y_technical_issues
 
 - id: language_barrier
   name: Language barrier

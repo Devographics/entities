@@ -55,15 +55,14 @@
     - url: https://jpeg.org/jpegxl/
       title: JPEG - JPEG XL
 
-- id: media_capture
-  webFeaturesId: html-media-capture
-  name: HTML media capture
-
 - id: webgl
   webFeaturesId: webgl
   name: WebGL
   description: |
     A low-level API for rendering 2D and 3D graphics with the GPU on `<canvas>` , based on OpenGL.
+  descriptionIssues: |
+    Shader‑based 2D/3D via WebGL.
+  parentId: graphics_issues
   mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
   example:
     language: js

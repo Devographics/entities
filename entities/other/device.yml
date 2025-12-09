@@ -1,8 +1,17 @@
 - id: desktop
   name: Desktop
+  descriptionIssues: |
+    Issues specific to desktop, across all platforms.
+  parentId: environments_consumers
 
 - id: mobile
   name: Mobile
+  descriptionIssues: |
+    Issues specific to mobile, across all mobile platforms.
+  parentId: environments_consumers
 
 - id: tablet
   name: Tablet
+  descriptionIssues: |
+    Issues specific to tablets, across all platforms.
+  parentId: environments_consumers

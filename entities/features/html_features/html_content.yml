@@ -76,6 +76,7 @@
 - id: custom_highlight_api
   webFeaturesId: highlight
   name: CSS Custom Highlight API
+  parentId: css_issues
   description: |
     Provides a mechanism for styling arbitrary text ranges on a document by using JavaScript to create the ranges, and CSS to style them.
   mdn: en-US/docs/Web/API/CSS_Custom_Highlight_API

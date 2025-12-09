@@ -125,10 +125,16 @@
 
 - id: progressive_enhancement
   name: Progressive Enhancement
+  descriptionIssues: >
+    Difficulties in applying progressive enhancement patterns, where components
+    fail to render or function gracefully when JavaScript is unavailable, fails,
+    or has not yet executed.
   patterns:
     - no( |-)?JS
   tags:
     - accessibility_features
+    - making_web_components_pain_points
+    - using_web_components_pain_points
 
 - id: focus_traps
   name: Focus Traps

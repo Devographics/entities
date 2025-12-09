@@ -4,6 +4,7 @@
 - id: sqlite
   name: SQLite
   homepageUrl: https://www.sqlite.org/
+  parentId: storage
 - id: postgresql
   name: PostgreSQL
   homepageUrl: https://www.postgresql.org/

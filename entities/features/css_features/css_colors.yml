@@ -33,6 +33,11 @@
 
 - id: color_contrast
   name: "`color-contrast()`"
+  descriptionIssues: |
+    Issues around evaluating and/or maintaining adequate color contrast.
+  instructions: >
+    For issues around WCAG color contrast recommendations or algorithms, combine
+    with `wcag`.
   mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
   caniuse: mdn-css_types_color_color-contrast
   example:

@@ -15,6 +15,13 @@
     Service Workers
   description: |
     `navigator.serviceWorker.register("/sw.js")`
+  descriptionIssues: >
+    Issues related to the performance or complexity of using Service Workers for
+    caching and other background tasks.
+  mdn: /en-US/docs/Web/API/Service_Worker_API
+  tags:
+    - js_other
+    - mobile_web_apps_pain_points
 
 - id: notifications_api
   name: |
@@ -86,21 +93,11 @@
     `<aside>`, `<article>`, `<main>`, `<nav>`, `<section>`, etc.
   homepageUrl: https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html
 
-- id: input_element
-  name: |
-    `<input>`
-
 - id: scrollbar_styling
   patterns:
     - scrollbar
   tags:
     - html_interoperability_features
-
-- id: view_transitions
-  patterns:
-    - page transition
-    - view transition
-    - transition api
 
 - id: web_bluetooth_api
   webFeaturesId: web-bluetooth
@@ -122,6 +119,9 @@
   name: WebGPU
   description: |
     A JavaScript API that provides low-level access to the GPU for high-performance graphics and parallel computation in the browser.
+  descriptionIssues: |
+    Modern GPU API for the web.
+  parentId: graphics_issues
   example:
     language: js
     code: |
@@ -143,11 +143,17 @@
 
 - id: progress_element
   name: "`<progress>`"
+  descriptionIssues: |
+    Pain points related to the `<progress>` element.
   patterns:
     - <progress [p]
 
 - id: shape_detection_api
   name: Shape Detection API
+  descriptionIssues: >
+    Issues related to APIs for detecting shapes in images, such as the Barcode
+    Detection API or Face Detection API.
+  parentId: apis_capabilities
   resources:
     - url: https://developer.chrome.com/docs/capabilities/shape-detection
       title: "The Shape Detection API: a picture is worth a thousand words, faces, and barcodes"
@@ -156,41 +162,11 @@
   tags:
     - html_interoperability_features
 
-- id: input_type_radio
-  name: |
-    `<input type="radio">`
-  patterns:
-    - radio
-
-- id: input_type_checkbox
-  name: |
-    `<input type="checkbox">`
-  patterns:
-    - checkbox [p]
-
-- id: button_element
-  name: |
-    `<button>`
-  patterns:
-    - button
-
-- id: textarea_element
-  name: |
-    `<textarea>`
-  patterns:
-    - text(-| )?area
-
 - id: table_element
   name: |
     `<table>`
   patterns:
     - <table
-
-- id: fieldset_element
-  name: |
-    `<fieldset>`
-  patterns:
-    - fieldset
 
 - id: webp_format
   name: WebP
@@ -241,6 +217,7 @@
   webFeaturesId: payment-request
   name: |
     `PaymentRequest` API
+  parentId: apis_capabilities
   description: |
     Enables a consistent, secure way for websites to request payments using the browser’s native UI.
   example:
