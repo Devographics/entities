@@ -339,13 +339,6 @@
   instructions: >
     Combine with `web_components` for issues specific to Server-Side Rendering
     (SSR) and client-side hydration of web components.
-- id: poor_learnability
-  name: |
-    Poor learnability
-  description: >
-    High learning curve, requires too much knowledge to get started, or too much
-    information to memorize.
-  parentId: cognitive_overload
 
 - id: vendor_politics
   name: |
@@ -489,13 +482,6 @@
     General issues related to the browser's process of painting pixels on the
     screen, including layout, style recalculation, and compositing.
   parentId: poor_design_issues
-
-- id: macos
-  name: |
-    macOS
-  description: |
-    Issues specific to macOS as a platform.
-  parentId: apple
 
 - id: tooling
   name: |
@@ -1263,7 +1249,7 @@
 
 - id: extending_builtin_elements
   name: |
-    Extending built-in elements
+    Web Components extending built-in elements
   description: >
     Web Components extending built‑in elements that retain native semantics
     (e.g., button, input), whether via the `is` attribute, wrapping, or
@@ -1281,7 +1267,7 @@
 
 - id: wc_css_integration
   name: |
-    Styling & theming
+    Web Components styling & theming
   description: >
     CSS used with components: cascade, scoping, parts, custom properties,
     adopted style sheets, CSS modules, and theming. Issues around CSS across
@@ -1590,11 +1576,6 @@
     Pain points around creating sortable lists, including drag and drop
     functionality and reordering elements.
   parentId: interactivity
-
-- id: command_invokers
-  name: |
-    Command invokers
-  parentId: invokers
 
 - id: element_movebefore
   name: |

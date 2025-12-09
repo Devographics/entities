@@ -1913,6 +1913,8 @@
     - features
 
 - id: command_invokers
+  idAliases:
+    - invokers
   webFeaturesId: invoker-commands
   name: |
     `command` and `commandfor` attributes (Command Invokers)

@@ -6,6 +6,8 @@
   parentId: google
 
 - id: mac_os
+  idAliases:
+    - macos
   name: macOS
   homepageUrl: https://www.apple.com/macos/
   parentId: apple

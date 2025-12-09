@@ -140,6 +140,14 @@
     - reinventing
   parentId: cognitive_overload
 
+- id: poor_learnability
+  name: |
+    Poor learnability
+  description: >
+    High learning curve, requires too much knowledge to get started, or too much
+    information to memorize.
+  parentId: cognitive_overload
+
 - id: version_updates
   name: Breaking changes
   description: Breaking changes and other updating issues

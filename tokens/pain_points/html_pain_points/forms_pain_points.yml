@@ -262,9 +262,6 @@
 - id: selectlist_element
   parentId: form_input_issues
 
-- id: input_type_time
-  parentId: form_input_issues
-
 - id: input_type_datetime_locale
   parentId: form_input_issues
 

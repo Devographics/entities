@@ -51,12 +51,20 @@
     - forms_pain_points
 
 - id: input_type_time
+  idAliases:
+    - time_picker
   name: |
     `<input type="time">`
   patterns:
     - input type="time"
     - time, input [l]
     - time, picker [l]
+  descriptionIssues: |
+    Pain points related to `<input type="time">` and its associated picker UI.
+  parentId: pickers
+  tags:
+    - html_missing_elements
+    - forms_pain_points
 
 - id: input_type_datetime_locale
   name: |
@@ -147,6 +155,11 @@
 - id: input_type_range
   name: |
     `<input type="range">`
+  tags:
+    - html_missing_elements
+  descriptionIssues: |
+    Pain points related to `<input type="range">`.
+  parentId: forms_issues
 
 - id: input_type_range_list
   name: |
@@ -261,6 +274,8 @@
   parentId: forms_issues
 
 - id: color_picker
+  name: |
+    `<input type="color">`
   patterns:
     - color, picker [l]
     - input, color [l]
@@ -270,14 +285,6 @@
   descriptionIssues: |
     Pain points related to `<input type="color">` and its associated picker UI.
   parentId: pickers
-
-- id: slider
-  name: Slider
-  tags:
-    - html_missing_elements
-  descriptionIssues: |
-    Pain points related to `<input type="range">`.
-  parentId: forms_issues
 
 - id: date_range_picker
   name: |
@@ -289,7 +296,8 @@
     - html_missing_elements
 
 - id: select_element_multiselect
-  name: MultiSelect
+  name: |
+    `<select multiple>`
   descriptionIssues: |
     Issues with the user experience and appearance of `<select multiple>`.
   parentId: select_element
@@ -327,14 +335,6 @@
 
 - id: date_time_picker
   name: Date & Time Picker
-  tags:
-    - html_missing_elements
-
-- id: time_picker
-  name: Time Picker
-  descriptionIssues: |
-    Pain points related to `<input type="time">` and its associated picker UI.
-  parentId: pickers
   tags:
     - html_missing_elements
 
