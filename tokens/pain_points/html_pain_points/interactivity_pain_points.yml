@@ -64,6 +64,7 @@
     - event
   tags:
     - browser_apis_pain_points
+    - making_web_components_pain_points
 
 - id: frustration_with_javascript
 
@@ -88,6 +89,7 @@
 - id: lack_of_virtual_dom
 
 - id: tooltips
+  name: Tooltips
   descriptionIssues: |
     Pain points related to creating accessible, reliable tooltips.
 

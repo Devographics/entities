@@ -198,21 +198,6 @@
   patterns:
     - push, notification [l]
 
-- id: web_usb_api
-  webFeaturesId: webusb
-  name: WebUSB API
-  description: |
-    Directly communicate with USB devices, enabling data exchange without drivers or native apps.
-  example:
-    language: js
-    code: |
-      const device = await navigator.usb.requestDevice({ filters: [{ vendorId: 0x2341 }] });
-      await device.open();
-  mdn: /en-US/docs/Web/API/WebUSB_API
-  resources:
-    - url: https://developer.chrome.com/docs/capabilities/usb
-      title: Access USB Devices on the Web
-
 - id: payment_request_api
   webFeaturesId: payment-request
   name: |

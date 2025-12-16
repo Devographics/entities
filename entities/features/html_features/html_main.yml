@@ -1202,13 +1202,19 @@
     - <canvas(\/)?>
     - canvas
 
+- id: canvas_technology
+  webFeaturesId: canvas
+  name: Canvas
+  description: |
+    Element for drawing dynamic 2D or 3D graphics using JavaScript.
+  descriptionIssues: |
+    2D drawing via <canvas>.
+  parentId: graphics_issues
+
 - id: svg_element
   webFeaturesId: svg
   name: "`<svg>` (Inline SVG)"
   description: Embed SVG vector graphics directly in markup
-  descriptionIssues: >
-    Issues related to Vector graphics via Scalable Vector Graphics, including
-    issues related to embedding and manipulating SVG content.
   parentId: graphics_issues
   example:
     language: html
@@ -1218,6 +1224,15 @@
       </svg>
   mdn: en-US/docs/Web/SVG/Element/svg
   w3c: TR/SVG2/struct.html#NewDocument
+
+- id: svg_technology
+  webFeaturesId: svg
+  name: SVG
+  description: The SVG graphics format
+  descriptionIssues: >
+    Issues related to Vector graphics via Scalable Vector Graphics, including
+    issues related to embedding and manipulating SVG content.
+  parentId: graphics_issues
   tags:
     - features
 
@@ -2079,15 +2094,28 @@
   parentId: apis_capabilities
 
 - id: web_usb_api
-  webFeaturesId:: webusb
+  idAliases:
+    - webusb
+  webFeaturesId: webusb
   name: |
     WebUSB API
   parentId: apis_capabilities
+  description: |
+    Directly communicate with USB devices, enabling data exchange without drivers or native apps.
+  example:
+    language: js
+    code: |
+      const device = await navigator.usb.requestDevice({ filters: [{ vendorId: 0x2341 }] });
+      await device.open();
+  mdn: /en-US/docs/Web/API/WebUSB_API
+  resources:
+    - url: https://developer.chrome.com/docs/capabilities/usb
+      title: Access USB Devices on the Web
 
 - id: web_bluetooth
   name: |
     Web Bluetooth
-  description: >
+  descriptionIssues: >
     Issues around the web bluetooth API and generally accessing bluetooth
     capabilities from web apps.
   parentId: apis_capabilities

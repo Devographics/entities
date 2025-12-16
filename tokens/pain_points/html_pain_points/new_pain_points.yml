@@ -35,7 +35,7 @@
 
 - id: interop_issues
   name: |
-    Interop issues
+    Browser support
   description: >
     Browser support issues, implementation bugs, cross‑browser implementation
     differences or inconsistencies, browser prioritization, speed of adoption of

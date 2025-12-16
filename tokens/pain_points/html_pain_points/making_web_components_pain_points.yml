@@ -14,10 +14,6 @@
     - templating
     - templates
 
-- id: events
-  patterns:
-    - event
-
 - id: class_based_architecture
   name: Class-based architecture
   description: Forces the use of class syntax

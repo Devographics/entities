@@ -43,6 +43,7 @@
       </script>
 
 - id: jpeg_xl
+  webFeaturesId: jpegxl
   name: JPEG XL
   description: |
     An image format optimized for web environments.
