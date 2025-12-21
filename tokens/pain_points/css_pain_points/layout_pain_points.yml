@@ -1,3 +1,9 @@
+- id: css_layout_issues
+  name: |
+    CSS Layout
+  description: |
+    General issues related to CSS layout models.
+
 - id: flexbox_issues
   patterns:
     - flex [p]
@@ -69,3 +75,11 @@
 - id: spacing_issues
   patterns:
     - spacing
+
+- id: table_layout
+  name: |
+    Table Layout & Styling
+  description: >
+    Issues with styling tables, including responsiveness, sticky
+    headers/columns, and layout control.
+  parentId: tables

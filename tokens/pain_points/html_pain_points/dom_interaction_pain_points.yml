@@ -1,0 +1,20 @@
+- id: element_movebefore
+  name: |
+    element.moveBefore()
+  parentId: reparenting
+
+- id: incremental_dom_updates
+  name: |
+    Incremental DOM updates
+  description: >
+    Challenges related to updating parts of DOM trees to reflect state,
+    including strategies like DOM diffing, virtual DOM or API proposals such as
+    DOM parts.
+  parentId: dom_apis
+
+- id: creating_elements
+  name: |
+    Creating elements
+  description: |
+    Issues around creating elements, complex DOM trees, etc.
+  parentId: dom_apis

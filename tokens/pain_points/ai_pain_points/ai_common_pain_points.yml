@@ -120,10 +120,6 @@
     - speed
     - timeout
 
-- id: performance_issues
-  patterns:
-    - performance
-
 - id: prompt_engineering_difficulty
 
 - id: lack_of_understanding

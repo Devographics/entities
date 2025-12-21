@@ -34,3 +34,322 @@
   description: Lack of added value compared to JavaScript frameworks
   tags:
     - interactivity_pain_points
+
+- id: form_associated_ce
+  name: |
+    Form-Associated Custom Elements
+  description: >
+    Issues related to creating and using Form-Associated Custom Elements (FACE)
+    and issues around form participation and semantics for web components.
+  parentId: web_components
+
+- id: cross_root_aria
+  name: |
+    Cross-root ARIA
+  parentId: cross_root_refs
+
+- id: cross_root_refs
+  name: |
+    Cross-root element references
+  description: >
+    Issues with element references crossing shadow boundaries, including
+    cross-root ARIA
+  parentId: cross_root
+
+- id: cross_root
+  name: |
+    Cross-root issues
+  description: |
+    Issues around crossing shadow boundaries.
+  parentId: shadow_dom
+  instructions: >
+    Combine with `aria` for issues around cross-root ARIA references, including
+    lack of support for the Reference Target API (combine with
+    `browser_support`). Combine with `styling` for issues around cross-root
+    styling (styling light DOM from shadow CSS, styling shadow DOM from the
+    outside etc). Combine with `wc_css_integration` for issues around CSS
+    features not working properly across shadow boundaries (e.g. flex/grid,
+    position: sticky, etc). Combine with `events` for issues around event
+    composition, retargeting, and authoring patterns across light/shadow
+    boundaries.
+
+- id: wc_svg_integration
+  name: |
+    Custom elements + SVG
+  description: >
+    SVG integration points relevant to components, such as creating custom
+    elements in the SVG namespace (authoring/composition constraints), using
+    SVGs in shadow DOM etc.
+  parentId: web_components
+
+- id: wc_adoption_momentum
+  name: |
+    Adoption & momentum
+  description: >
+    Concerns about the low adoption rate, uncertain future, or lack of momentum
+    of Web Components in the broader web development ecosystem.
+  parentId: web_components
+
+- id: slots_light_dom
+  name: |
+    Light‑DOM slots
+  description: >
+    Using slots without creating a shadow root (slotting for light‑DOM
+    components).
+  parentId: slots
+
+- id: slots
+  name: |
+    Slotting & Slots
+  description: |
+    Issues around slotted elements, slotting, etc.
+  parentId: web_components
+
+- id: extending_builtin_elements
+  name: |
+    Web Components extending built-in elements
+  description: >
+    Web Components extending built‑in elements that retain native semantics
+    (e.g., button, input), whether via the `is` attribute, wrapping, or
+    alternative proposals.
+  parentId: web_components
+
+- id: wc_css_architecture
+  name: |
+    CSS Architecture
+  description: >
+    Fundamental issues and philosophical disagreements with the CSS architecture
+    of Web Components, particularly the strict encapsulation of Shadow DOM and
+    its break from the global CSS cascade.
+  parentId: wc_css_integration
+
+- id: wc_css_integration
+  name: |
+    Web Components styling & theming
+  description: >
+    CSS used with components: cascade, scoping, parts, custom properties,
+    adopted style sheets, CSS modules, and theming. Issues around CSS across
+    component boundaries (e.g., position: sticky, grid/flex).
+  parentId: web_components
+
+- id: attr_prop_reflection
+  name: |
+    Attr–prop reflection
+  description: >
+    Synchronizing attributes and properties, including reactive updates when
+    either changes.
+  parentId: ce_attributes_props
+
+- id: ce_attributes_props
+  name: |
+    Custom element attributes and props
+  description: >
+    Issues around custom element attributes, properties, their values, keeping
+    them in sync, etc.
+  parentId: web_components
+
+- id: wc_css_states
+  name: |
+    CSS states
+  description: |
+    Issues related to the :state() pseudo-class and its corresponding JS API.
+  parentId: elementinternals
+
+- id: slotted_descendants
+  name: |
+    Slotted descendants
+  description: |
+    Issues specifically around handling descendants of slotted elements.
+  parentId: slotted_elements
+  instructions: >
+    For issues around styling slotted element descendants combine with
+    `styling`.
+
+- id: slotted_elements
+  name: |
+    Slotted elements
+  description: |
+    Issues around slotted elements and their descendants
+  parentId: slots
+  instructions: >
+    Typically to be combined with other codes, e.g. `styling` + `limitations` +
+    `slotted_elements`
+
+- id: slotted_styling
+  name: |
+    Styling slotted elements and their descendants
+  parentId: slots
+
+- id: wc_css_cascade
+  name: |
+    Web Components CSS cascade & specificity
+  description: >
+    Issues around the way CSS cascading and specificity works for web
+    components. For issues around inability to override light DOM styles from
+    shadow styles, having to use `!important` etc. combine with `styling` and
+    `slotted_elements` or `shadow_dom_host` as needed.
+  parentId: wc_css_integration
+
+- id: slotted_pseudo
+  name: |
+    ::slotted()
+  description: |
+    Issues around the `::slotted()` pseudo-element
+  parentId: slotted_styling
+
+- id: shadow_mutation_observer
+  name: |
+    Cross‑root mutations
+  description: >
+    Observing changes across open shadow roots without manually traversing the
+    composed tree.
+  parentId: shadow_dom
+
+- id: auto_slotting
+  name: |
+    Auto‑slotting
+  description: >
+    Declarative auto‑assignment of nodes to slots via selectors/tag names
+    (without MutationObserver glue).
+  parentId: slots
+
+- id: wc_loading_packaging
+  name: |
+    Loading & packaging
+  description: >
+    Defining when/how components load, packaging their assets, and import
+    mechanisms.
+  parentId: web_components
+
+- id: wc_global_theming
+  name: |
+    Global theming of web components
+  description: >
+    Mechanisms for page‑level themes to influence components consistently
+    (beyond custom properties). Using design tokens or CSS utility classes
+    (including frameworks like Tailwind) from the page within components.
+  parentId: wc_css_integration
+
+- id: wc_discoverability
+  name: |
+    Discoverability
+  description: |
+    Issues around discovering web components to use.
+  parentId: web_components
+
+- id: custom_element_lifecycle_hooks
+  name: |
+    Custom elements
+  description: |
+    Issues around existing or missing Custom Elements lifecycle hooks.
+  parentId: web_components
+
+- id: focusable_custom_elements
+  name: |
+    Focusable host
+  description: >
+    Making a CE host focusable (and tabbable) without managing tabindex
+    attributes manually.
+  parentId: web_components
+
+- id: children_ready_lifecycle_hook
+  name: |
+    Children ready hook
+  description: >
+    A way to await or observe that a component’s subtree (light + shadow) is
+    fully initialized before acting (lifecycle hook, event, whatever),
+    especially in nested component trees.
+  parentId: custom_element_lifecycle_hooks
+
+- id: wc_authoring_model
+  name: |
+    Authoring model
+  description: >
+    Pain points related to the fundamental authoring model of Web Components,
+    often contrasting its imperative, class-based (OOP) nature with the
+    declarative, functional approaches of popular frameworks.
+  parentId: web_components
+
+- id: css_parts
+  name: |
+    Defining and styling parts
+  description: >
+    For issues around ::part() being hard to use, combine with `ergonomics` (or
+    a suitable leaf). For issues around ::part() being unable to style certain
+    things, combine with `limitations` and `styling`.
+  parentId: wc_css_integration
+
+- id: dsd_reusability
+  name: |
+    DSD reusability
+  description: >
+    The inability to define a Declarative Shadow DOM template once and reuse it
+    across multiple component instances, leading to HTML bloat and poor
+    ergonomics.
+  parentId: declarative_shadow_dom
+
+- id: shadow_open_stylable
+  name: |
+    Shadow DOM without style encapsulation
+  description: >
+    Desire for DOM encapsulation while allowing page styles to cascade into the
+    shadow tree. For complaints about lack of adoption of `mode: open-stylable`
+    shadow roots, combine with `browser_support`.
+  parentId: shadow_dom
+
+- id: wc_state_management
+  name: |
+    Web Components State management
+  description: >
+    Issues around managing state within and between components, including the
+    lack of built-in solutions and integration with external state management
+    libraries.
+  parentId: state_management
+
+- id: wc_hmr
+  name: |
+    Hot Module Replacement (HMR)
+  description: >
+    The lack of effective Hot Module Replacement (HMR), making the edit-refresh
+    cycle slower than with modern frameworks.
+  parentId: web_components
+
+- id: template_domparts
+  name: |
+    Template Instantiation / DOM Parts
+  description: >
+    Template Instantiation / DOM Parts for efficient, incremental updates
+    without a VDOM.
+  parentId: templating
+
+- id: scoped_registries
+  name: |
+    Scoped registries
+  description: >
+    The inability to scope custom element definitions, leading to naming
+    collisions, especially in micro-frontend architectures or when multiple
+    versions of a component library are loaded.
+  parentId: custom_element_registration
+
+- id: custom_element_registration
+  name: |
+    Registries & naming
+  description: >
+    Custom element registries, registering elements, associating classes and tag
+    names, definition scope, tag naming rules, and related composition patterns.
+  parentId: web_components
+
+- id: props_complex_values
+  name: |
+    Complex values for props
+  description: >
+    Difficulties around handling props having objects or arrays as values and
+    their prop/attribute reflection.
+  parentId: ce_attributes_props
+
+- id: custom_attributes
+  name: |
+    Custom attributes
+  description: |
+    Extending built-in elements or custom elements with custom attributes.
+  parentId: extending_builtin_elements

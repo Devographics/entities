@@ -719,6 +719,7 @@
   resources:
     - url: https://github.com/tc39/proposal-observable
       title: Observable Proposal
+  parentId: event_management
 
 - id: js_json_parse_source_access
   name: JSON.parse source text access

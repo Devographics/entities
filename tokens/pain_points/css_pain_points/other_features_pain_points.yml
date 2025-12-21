@@ -1,0 +1,20 @@
+- id: css_counters
+  name: |
+    CSS Counters
+  description: |
+    Issues related to the functionality and limitations of CSS counters.
+  parentId: css_properties
+
+- id: css_hyphenation
+  name: |
+    Hyphenation
+  description: |
+    Issues related to automatic hyphenation of text in CSS.
+  parentId: css_issues
+
+- id: css_drop_caps
+  name: |
+    Drop Caps
+  description: |
+    The lack of a simple, native CSS feature for creating drop caps.
+  parentId: css_issues

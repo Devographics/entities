@@ -1,0 +1,6 @@
+- id: microsoft
+  name: |
+    Microsoft
+  descriptionIssues: |
+    Issues specific to Microsoft as a platform or vendor.
+  parentId: interop_issues

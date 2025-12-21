@@ -12,3 +12,11 @@
 - id: text_overflow_issues
   patterns:
     - overflow
+
+- id: fonts
+  name: |
+    Fonts
+  description: >
+    Issues related to web font loading, performance, and rendering, including
+    Flash of Unstyled Text (FOUT) and Flash of Invisible Text (FOIT).
+  parentId: typography_issues

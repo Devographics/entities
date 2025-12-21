@@ -1,3 +1,9 @@
+# content
+
+- id: content
+  name: |
+    Content
+
 ##################################################################
 #                    content_pain_points                         #
 ##################################################################
@@ -109,23 +115,6 @@
   patterns:
     - iframe
 
-- id: i18n_issues
-  name: Internationalization
-  description: Issues with internationalizing, localizing, and translating content
-  descriptionIssues: >
-    Localization, RTL, logical coordinates, culturally‑appropriate rendering
-    etc.
-  patterns:
-    - translation
-    - locali(z|s)ation
-    - internationali(z|s)ation
-    - Intl
-    - locale
-    - multiple, language [l]
-    - i18n
-  tags:
-    - front_end_frameworks_pain_points
-
 - id: maps_issues
   name: |
     Map Issues
@@ -133,3 +122,233 @@
     Pain points related to embedding maps and handling maps on the web in
     general.
   parentId: content
+
+- id: missing_elements
+  name: |
+    Missing elements
+  description: >
+    The need to build common UI patterns from scratch due to the lack of
+    built-in, accessible HTML elements.
+
+- id: button_toggle
+  name: |
+    Toggle buttons
+  description: >
+    The lack of a native way to create buttons that act as toggles (pressed =
+    on), including toggle button groups.
+  parentId: forms_issues
+
+- id: editing_apis
+  name: |
+    Editing APIs
+  description: |
+    Pain points related to APIs for text editing.
+
+- id: tabs_element
+  name: |
+    Tabs element
+  description: >
+    Pain points from the lack of a native HTML element for tabbed interfaces, a
+    common UI pattern.
+  parentId: missing_elements
+
+# tables
+
+- id: tables
+  name: |
+    Tables
+  description: |
+    Issues around tables and table layout
+  parentId: content
+
+- id: table_treegrid
+  name: |
+    Treegrid Tables
+  description: >
+    Issues related to creating hierarchical or tree-like table structures, often
+    related to the ARIA treegrid pattern and the lack of native HTML support for
+    it.
+  parentId: tables
+
+- id: interactive_table_features
+  name: |
+    Interactive table features
+  description: >
+    Desire for native browser features for tables like sorting, filtering, and
+    pagination, without relying on JavaScript libraries.
+  parentId: tables
+
+- id: tabs_element
+  name: |
+    Tabs element
+  description: >
+    Pain points from the lack of a native HTML element for tabbed interfaces, a
+    common UI pattern.
+  parentId: missing_elements
+
+- id: footnotes_endnotes
+  name: |
+    Footnotes/endnotes
+  description: >
+    Issues related to the lack of native HTML elements for semantic footnotes
+    and endnotes.
+  parentId: content
+
+- id: carousel
+  name: |
+    Carousel
+  description: >
+    The lack of a native, declarative HTML element for creating carousels or
+    sliders, forcing developers to build them from scratch.
+  parentId: missing_elements
+
+# html_reuse
+
+- id: html_reuse
+  name: |
+    HTML Reuse
+  description: |
+    Pain points related to reusing and modularizing HTML content.
+  parentId: content
+
+- id: html_fragment_reuse
+  name: |
+    Reusing HTML fragments
+  description: |
+    Reuse HTML fragments from the same page
+  parentId: html_reuse
+
+- id: context_menus
+  name: |
+    Context Menus
+  description: >
+    Issues related to creating custom context menus, often citing the
+    deprecation of `<menu type="context">` and the difficulty of implementing
+    accessible custom solutions.
+
+- id: code_editor
+  name: |
+    Editable code
+  description: >
+    Issues around the difficulties using or implementing in-page editable code
+    areas, or wishes there was a native code editor element.
+  parentId: rich_text_editing
+
+- id: markdown_editor
+  name: |
+    Markdown editor
+  description: >
+    Issues around the difficulties using or implementing in-page markdown
+    editors, whether that is via contentEditable, textareas, or other methods.
+  parentId: rich_text_editing
+
+- id: div_overuse
+  name: |
+    Div Overuse
+  description: >
+    Frustration with the prevalent overuse of the `<div>` element for all
+    purposes, often at the expense of more semantic elements.
+  parentId: semantics
+
+- id: semantics
+  name: |
+    Semantics
+  description: >
+    Issues related to understanding, choosing, and correctly using semantically
+    appropriate HTML elements.
+  parentId: content
+
+- id: markdown
+  name: |
+    Markdown
+  description: |
+    Desire for native/standardized HTML↔Markdown conversion
+  parentId: content
+
+- id: reparenting
+  name: |
+    Stable reparenting
+  description: |
+    The need for reparenting that preserves state
+  parentId: dom_apis
+
+- id: dom_apis
+  name: |
+    DOM APIs
+  description: >
+    Issues related to core DOM manipulation APIs, including issues around
+    creating, updating, or removing DOM nodes via JavaScript APIs.
+  parentId: interactivity
+
+- id: mathml
+  name: |
+    MathML
+  description: |
+    Pain points specific to MathML.
+  parentId: math
+
+- id: iframe_auto_sizing
+  name: |
+    Iframe auto-sizing
+  description: >
+    Difficulties in making `<iframe>` elements automatically size to their
+    content's height or width, especially without JavaScript.
+  parentId: iframe_element
+
+- id: contenteditable_attribute
+  name: |
+    contentEditable Attribute
+  description: >
+    Pain points related to the `contenteditable` global attribute for in-page
+    editing, beyond those covered by `rich_text_editing`.
+  parentId: editing_apis
+
+- id: title_attribute
+  name: |
+    title attribute
+  description: >
+    Pain points related to the native `title` attribute, including its
+    inaccessibility on touch devices, styling limitations, and inconsistent user
+    experience.
+  parentId: content
+
+- id: social_meta_tags
+  name: |
+    Social Meta Tags
+  description: >
+    Pain points related to the verbosity, inconsistency, and lack of a unified
+    standard for social media metadata tags (e.g., Open Graph, Twitter Cards).
+  parentId: content
+
+- id: math
+  name: |
+    Math on the Web
+  description: >
+    Pain points specific to math on the Web, such as its verbosity, styling
+    limitations, and unfavorable comparisons to TeX/LaTeX.
+  parentId: content
+
+- id: headings
+  name: |
+    Headings
+  description: >
+    Issues related to managing heading elements and maintaining a correct and
+    logical document outline.
+  parentId: content
+  instructions: >
+    For issues around headings in web components combine with web_components.
+    For issues around headings in components in general, combine with
+    `component_based_architectures`
+
+- id: xslt
+  name: |
+    XSLT
+
+- id: partial_page_updates
+  name: |
+    Partial Page Updates
+  description: >
+    The desire for a native mechanism to update parts of a page with HTML from a
+    server response, without a full page reload, similar to what libraries like
+    htmx or Turbo provide.
+  parentId: native_htmx_like_features

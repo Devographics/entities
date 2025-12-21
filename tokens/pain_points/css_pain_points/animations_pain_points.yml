@@ -1,0 +1,29 @@
+- id: list_reordering_animations
+  name: |
+    List Reordering Animations
+  description: >
+    Difficulties in creating performant and smooth animations when items in a
+    list are added, removed, or reordered, often requiring complex techniques
+    like FLIP (First, Last, Invert, Play).
+  parentId: animations_issues
+
+- id: scroll_markers
+  name: |
+    Scroll markers
+  description: >
+    Issues related to the ::scroll-marker and ::scroll-marker-group
+    pseudo-elements.
+  parentId: scroll-triggered_animations
+
+- id: cross_document_view_transitions
+  name: |
+    Cross-document View Transitions
+  parentId: view_transitions
+
+- id: scroll-triggered_animations
+  name: |
+    Scroll-triggered Animations
+  description: >
+    Performance issues with animations that are linked to the user's scroll
+    position.
+  parentId: animations_issues

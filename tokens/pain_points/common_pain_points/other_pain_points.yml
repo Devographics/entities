@@ -1,0 +1,20 @@
+- id: pdf_controls
+  name: |
+    PDF embed
+  description: |
+    Customizing, styling, and extending built‑in controls/UX for embedding PDFs
+  parentId: pdf
+
+- id: pdf
+  name: |
+    PDF
+  description: |
+    Embedding and generating PDFs in/with the web platform.
+
+- id: pdf_generation
+  name: |
+    PDF Generation
+  description: >
+    Pain points related to generating high-quality, accessible, and consistently
+    rendered PDFs from HTML and CSS content.
+  parentId: pdf

@@ -42,3 +42,18 @@
 - id: color_variables_issues
   patterns:
     - variable
+
+- id: css_color_functions
+  name: |
+    CSS Color Functions
+  description: >
+    Issues related to modern CSS color functions and color spaces (e.g.,
+    `oklch`, `color-mix()`, `color-contrast()`).
+  parentId: css_values_units
+
+- id: apca
+  name: |
+    APCA
+  description: |
+    Issues related to the Accessible Perceptual Contrast Algorithm (APCA).
+  parentId: color_contrast

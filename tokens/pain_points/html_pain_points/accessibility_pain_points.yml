@@ -1,3 +1,10 @@
+- id: accessibility_issues
+  name: |
+    Accessibility
+  description: >
+    Obstacles in providing accessible experiences (regardless of cause),
+    assistive‑tech compatibility, etc.
+
 # element_issues
 
 - id: element_issues
@@ -194,3 +201,90 @@
   parentId: screen_reader_issues
   patterns:
     - jaws
+
+- id: aria_issues
+  name: |
+    ARIA
+  description: >
+    Issues related to using Accessible Rich Internet Applications (ARIA)
+    attributes and patterns.
+  parentId: accessibility_issues
+
+- id: aria_live_regions
+  name: |
+    ARIA live regions
+  description: >
+    Issues around ARIA live regions and generally announcing DOM changes to
+    assistive technology.
+  parentId: aria_issues
+
+- id: accessible_visual_design
+  name: |
+    Accessible visual design
+  description: >
+    Issues around the challenges of creating aesthetically pleasing interfaces
+    that are also accessible. Combine with `workplace` and/or `low_priority` for
+    challenges around coworkers prioritizing visual design over accessibility,
+    getting designers on board, etc.
+  parentId: accessibility_issues
+
+- id: visually_hidden
+  name: |
+    Visually hidden content
+  description: >
+    Issues related to showing content to screen readers that is hidden from
+    sighted users, often involving CSS hacks due to the lack of a native method.
+  parentId: screen_reader_issues
+
+- id: aria_nesting_references
+  name: |
+    ARIA Nesting & References
+  description: >
+    Issues with ARIA attributes like `aria-labelledby` and `aria-describedby`
+    not working as expected with nested structures or across certain element
+    boundaries.
+  parentId: aria_issues
+
+- id: a11y_tree_aom
+  name: |
+    Programmatic access to the Accessibility Tree / AOM
+  parentId: accessibility_issues
+
+- id: skip_links
+  name: |
+    Skip links
+  description: |
+    Pain points around implementing 'skip to content' links for keyboard users.
+  parentId: keyboard_navigation
+
+- id: a11y_overlays
+  name: |
+    Accessibility Overlays
+  description: >
+    Issues related to third-party accessibility overlays or widgets that claim
+    to automatically fix accessibility issues, but often create new problems.
+  parentId: accessibility_issues
+
+- id: alt_text
+  name: >
+    Alternative text for images or other rich content (authoring, review, and
+    tooling gaps)
+  parentId: accessibility_issues
+
+- id: wcag
+  name: |
+    WCAG Issues
+  description: >
+    Issues related to the Web Accessibility Guidelines (WCAG) and/or its
+    relationship with other accessibility guidelines. For issues around the
+    learnability of WCAG combine with `poor_learnability`.
+  parentId: standards
+
+- id: css_visual_vs_dom_order
+  name: |
+    Visual vs. DOM Order
+  description: >
+    Accessibility issues arising when modern CSS layout techniques (like Flexbox
+    or Grid) cause the visual reading order to diverge from the DOM order,
+    breaking keyboard navigation and screen reader experiences.
+  parentId: accessibility_issues

@@ -1,0 +1,34 @@
+- id: styling_issues
+  name: |
+    Styling
+  description: >
+    Issues around styling UA-generated UI, CSS not working in certain contexts,
+    etc.
+  parentId: styling_customization
+  instructions: >
+    If no way to accomplish desired styling, combine with `limitations`. If pain
+    point is caused due to lack of browser adoption, combine with
+    `browser_support`. If styling is possible, but too hard, combine with
+    `ergonomics`.
+
+- id: ui_customization
+  name: |
+    UI Customization
+  description: >
+    Issues around customizing the browser-provided UI, *beyond styling*, such as
+    changing text, adding or removing controls, etc.
+  parentId: styling_customization
+
+- id: poor_design_issues
+  name: |
+    Poor design
+  description: >
+    Fidelity issues that are outside the developer’s control or API limitations
+    making it hard to produce high-fidelity results. E.g. rendering is too low
+    quality, low dpi, blurry, browser-generated UI is poor or ugly, etc.
+
+- id: color_management
+  name: |
+    Color management
+  description: |
+    Color‑management and color‑space handling across web platform features

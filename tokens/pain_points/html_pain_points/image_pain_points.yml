@@ -1,0 +1,353 @@
+- id: images_issues
+  name: |
+    Images
+  description: >
+    Still images across the platform, including performance issues around
+    rendering images on a web page.
+  parentId: graphics_issues
+
+- id: responsive_images
+  name: |
+    Responsive images
+  description: >
+    Selecting sources by viewport/container and device characteristics,
+    including issues around related syntax (srcset, sizes, etc)
+  parentId: images_issues
+
+- id: img_srcset_sizes
+  name: |
+    srcset and sizes attributes
+  parentId: responsive_images
+
+- id: svg_strokes
+  name: |
+    Strokes
+  description: |
+    Issues related to how SVG strokes are painted or specified.
+  parentId: svg_element
+
+- id: svg_security
+  name: |
+    SVG Security
+  description: >
+    Security concerns with SVGs, particularly around script execution in
+    user-provided or untrusted SVG content.
+  parentId: svg_element
+
+- id: image_formats_jpegxl
+  name: |
+    JPEG XL
+  description: |
+    Next‑gen image format emphasizing efficiency and features.
+  parentId: image_formats
+
+- id: image_formats
+  name: |
+    Image formats
+  description: |
+    Encoders/codecs/containers supported by the web.
+  parentId: images_issues
+
+- id: svg_external_styling
+  name: |
+    External SVG styling
+  description: >
+    Styling SVG used via <img>, CSS images, or external files (e.g.,
+    currentColor, CSS vars).
+  parentId: svg_css_integration
+
+- id: svg_css_integration
+  name: |
+    SVG–CSS integration
+  description: >
+    Applying CSS properties/images/animations to SVG, styling SVG, passing
+    styling parameters to SVG etc.
+  parentId: svg_element
+
+- id: svg_fonts
+  name: |
+    SVG fonts
+  description: |
+    Font usage/embedding and text metrics in SVG.
+  parentId: svg_element
+
+- id: charts_issues
+  name: |
+    Charts
+  description: |
+    Issues around displaying charts of any type
+
+- id: svg_gradients
+  name: |
+    SVG gradients
+  description: |
+    Gradient definitions and usage in SVG.
+  parentId: svg_element
+
+- id: svg_layout
+  name: |
+    SVG layout & stacking order
+  description: |
+    Issues related to layout or paint/stacking order of SVG content
+  parentId: svg_element
+
+- id: animated_images_playback
+  name: |
+    Playback control
+  description: |
+    Start/stop/loop controls for animated images (e.g., GIF/animated PNG/WebP).
+  parentId: animated_images
+
+- id: animated_images
+  name: |
+    Animated images
+  description: |
+    Animated raster/vector images used as media.
+  parentId: images_issues
+
+- id: svg_filters
+  name: |
+    SVG filters
+  description: |
+    Filter primitives and their rendering behavior.
+  parentId: svg_element
+
+- id: image_loading
+  name: |
+    Image loading
+  description: >
+    Fetching/decoding/display strategies for images, strategies to make image
+    loading appear smoother, lazy loading etc
+  parentId: images_issues
+
+- id: html_to_image
+  name: |
+    HTML to Image
+  description: >
+    Issues around generating a raster image (e.g., PNG, JPEG) from arbitrary
+    HTML/DOM content and/or painting it to canvas, often for 'screenshot' or
+    download functionality.
+  parentId: canvas_element
+
+- id: canvas_pixel_issues
+  name: |
+    Canvas pixel-level issues
+  description: >
+    HiDPI scaling, DevicePixelRatio handling, crisp rendering, zoom/antialiasing
+    behavior and other pixel-level rendering issues
+  parentId: canvas_element
+
+- id: svg_paths
+  name: |
+    SVG paths
+  description: >
+    Authoring and manipulating path data (the d attribute), including control
+    points.
+  parentId: svg_element
+
+- id: image_formats_avif
+  name: |
+    AVIF
+  description: |
+    Modern intra‑frame image format based on AV1.
+  parentId: image_formats
+
+- id: svg_sizing
+  name: |
+    SVG sizing & coordinates
+  description: |
+    Issues around sizing, coordinates, RWD, etc. for SVG content
+  parentId: svg_element
+
+- id: svg_text_wrapping
+  name: |
+    Text wrapping
+  description: |
+    Automatic line/paragraph wrapping and flow inside SVG.
+  parentId: svg_text
+
+- id: svg_text
+  name: |
+    SVG text
+  description: |
+    Text elements and layout in SVG.
+  parentId: svg_element
+
+- id: canvas_accessibility
+  name: |
+    Canvas Accessibility
+  description: >
+    Pain points related to making canvas content accessible, such as the lack of
+    a DOM-like accessibility tree.
+  parentId: canvas_element
+
+- id: canvas_light_dark
+  name: |
+    Canvas light/dark mode
+  parentId: canvas_element
+
+- id: canvas_text
+  name: |
+    Canvas text rendering
+  description: |
+    Text drawing APIs for canvas contexts.
+  parentId: canvas_element
+
+- id: image_loading_lqip
+  name: |
+    LQIP
+  description: |
+    Declarative low‑quality placeholders and blur‑up patterns.
+  parentId: image_loading
+
+- id: 3d_graphics
+  name: |
+    3D graphics
+  description: |
+    Embedding of existing 3D models via <model>, CSS 3D or other technologies
+  parentId: graphics_issues
+
+- id: image_maps
+  name: |
+    Image Maps
+  description: >
+    Issues related to the `<map>` and `<area>` elements, such as making them
+    responsive.
+  parentId: images_issues
+
+- id: svg_printing
+  name: |
+    SVG printing
+  description: |
+    Issues around printing SVG to PDF or paper
+  parentId: svg_element
+
+- id: canvas_hit_testing
+  name: |
+    Canvas hit testing
+  description: |
+    Pointer region detection and interaction for non‑rectangular shapes.
+  parentId: canvas_interactivity
+
+- id: canvas_interactivity
+  name: |
+    Canvas interactivity
+  parentId: canvas_element
+
+- id: vector_animations
+  name: |
+    Vector Animations
+  description: >
+    Issues related to animating vector graphics, including requests for a
+    standard declarative format similar to Lottie.
+  parentId: animations_issues
+
+- id: svg_favicon
+  name: |
+    SVG favicon
+  description: |
+    Using SVG as site icons/favicons across platforms and UAs.
+  parentId: svg_element
+
+- id: image_hdr
+  name: |
+    HDR images
+  description: |
+    High‑dynamic‑range still images and fallbacks.
+  parentId: images_issues
+
+- id: svg_events
+  name: |
+    SVG events
+  description: |
+    Event propagation and hit‑testing differences for SVG elements.
+  parentId: svg_element
+
+- id: svg_html_integration
+  name: |
+    HTML in SVG
+  description: |
+    Embedding HTML/CSS within SVG (e.g., foreignObject) for rich layout.
+  parentId: svg_element
+
+- id: image_formats_webp
+  name: |
+    WebP
+  description: |
+    WebP still/animated image usage and trade‑offs.
+  parentId: image_formats
+
+- id: canvas_sizing
+  name: |
+    Canvas sizing
+  description: |
+    Issues around (re)sizing, coordinates, RWD, etc. for canvas
+  parentId: canvas_element
+
+- id: html_in_canvas
+  name: |
+    HTML in canvas
+  description: >
+    Drawing HTML in canvas, improved repainting/interactivity when drawing HTML
+    content in canvas etc
+  parentId: html_to_image
+
+- id: svg_light_dark
+  name: |
+    SVG light/dark mode
+  parentId: svg_element
+
+- id: svg_shapes
+  name: |
+    SVG Shapes & Primitives
+  description: >
+    Pain points related to the lack of built-in primitives for common shapes
+    like stars or regular polygons in SVG.
+  parentId: svg_element
+
+- id: svg_3d_transforms
+  name: |
+    3D Transforms in SVG
+  description: |
+    The inability to apply 3D transforms to SVG elements.
+  parentId: svg_element
+
+- id: animated_images_transparency
+  name: |
+    Transparent animation
+  description: |
+    Alpha‑channel animation use cases beyond GIF.
+  parentId: animated_images
+
+- id: svg_mesh_gradients
+  name: |
+    Mesh gradients
+  description: |
+    Freeform mesh gradients as proposed for SVG Next.
+  parentId: svg_gradients
+
+- id: image_formats_heic
+  name: |
+    HEIC/HEIF
+  description: |
+    HEIC/HEIF image usage on the web.
+  parentId: image_formats
+
+- id: graphics_issues
+  name: |
+    Graphics
+
+- id: raster_images
+  name: |
+    Raster Images
+  description: |
+    Performance issues around rendering raster images on a web page.
+  parentId: images_issues
+
+- id: favicons
+  name: |
+    Favicons
+  description: >
+    Issues related to favicons, app icons, and touch icons, including format
+    support (e.g., animated favicons) and consistency across platforms.
+  parentId: images_issues

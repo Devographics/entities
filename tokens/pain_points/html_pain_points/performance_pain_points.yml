@@ -1,0 +1,149 @@
+- id: performance
+  name: Performance
+  description: Performance issues
+  descriptionIssues: >
+    Throughput, latency, memory, jank, lag, frame drops, battery/thermal, and
+    loading time.
+  patterns:
+    - slow
+    - slowness
+    - speed
+    - optimization
+    - perfomance [p]
+    - performances
+    - perf
+  tags:
+    - ai_common_pain_points
+
+- id: core_web_vitals
+  name: |
+    Core Web Vitals
+  description: >
+    Pain points specifically mentioning or clearly describing metrics from the
+    Core Web Vitals initiative.
+  parentId: performance
+
+- id: cls
+  name: |
+    Cumulative Layout Shift
+  description: >
+    Issues where the page layout unexpectedly shifts during or after loading,
+    impacting user experience. This is a Core Web Vitals metric.
+  parentId: core_web_vitals
+
+- id: performance_vsync_control
+  name: |
+    V-Sync Control
+  description: >
+    The inability for applications to control V-Sync, which can be important for
+    reducing input latency in games or drawing applications.
+  parentId: performance
+
+- id: ram_usage
+  parentId: performance
+
+- id: threading
+  name: |
+    Threading
+  description: >
+    Issues around threading & parallelization, UIs locking up due to single
+    threading, etc.
+  parentId: performance
+
+- id: loading_waterfall
+  name: |
+    Loading waterfall
+  description: >
+    Issues around the “loading waterfall” where subresources cannot start
+    loading before their parent resources (present in ESM, CSS imports etc)
+  parentId: loading_issues
+
+- id: lcp
+  name: |
+    Largest Contentful Paint
+  description: >
+    Issues related to the perceived loading speed of the main content of a page.
+    This is a Core Web Vitals metric.
+  parentId: core_web_vitals
+
+- id: inp
+  name: |
+    Interaction to Next Paint
+  description: >
+    Issues related to the responsiveness of a page to user input. This is a Core
+    Web Vitals metric.
+  parentId: core_web_vitals
+
+- id: script_loading
+  name: |
+    Script Loading
+  description: >
+    Pain points related to loading and executing JavaScript, including `async`,
+    `defer`, ES modules, and dynamic imports.
+  parentId: loading_issues
+
+- id: fcp
+  name: |
+    First Contentful Paint
+  description: >
+    Issues related to the time it takes for the first piece of DOM content to
+    render. This is a Core Web Vitals metric.
+  parentId: core_web_vitals
+
+- id: loading_issues
+  name: |
+    Loading
+  description: >
+    General issues related to loading page subresources like scripts,
+    stylesheets, and modules, preloading, or loading UX.
+
+- id: loading_ux
+  name: |
+    Loading experience
+  description: |
+    Issues around the end-user experience around content loading
+  parentId: end_user_ux_issues
+
+- id: fetchpriority
+  name: |
+    fetchpriority attribute
+  parentId: resource_hints
+
+- id: import_attributes
+  name: |
+    Import attributes
+  parentId: loading_issues
+
+- id: css_loading
+  name: |
+    CSS Loading
+  description: >
+    Issues related to loading stylesheets, including render-blocking behavior,
+    asynchronous loading, and unused CSS.
+  parentId: loading_issues
+
+- id: skeleton_loading
+  name: |
+    Native skeleton primitive
+  parentId: loading_ux
+
+- id: preconnect
+  name: |
+    Preconnect
+  description: |
+    Issues with using `<link rel="preconnect">` to establish early connections.
+  parentId: resource_hints
+
+- id: non_render_blocking
+  name: |
+    Non-render blocking
+  description: |
+    The desire to opt-out of render blocking (usually for stylesheets)
+  parentId: rendering
+
+- id: large_dom
+  name: |
+    Large DOM Trees
+  description: |
+    Performance problems caused by having a very large or complex DOM tree.
+  parentId: rendering

@@ -1,0 +1,74 @@
+# educational_issues
+
+- id: educational_issues
+  name: Education
+  description: Issues related to learning new technologies
+  descriptionLong: >
+    Lack of awareness, poor docs, lack of best practices, lack of good examples, and issues regarding availability and quality of educational resources.
+
+- id: tough_learning_curve
+  name: Tough learning curve
+  parentId: educational_issues
+  patterns:
+    - hard to learn
+    - learning curve
+    - hard to get started
+    - difficult to learn
+    - where to start
+    - how to start
+    - curva de aprendizaje
+
+- id: lack_of_documentation
+  name: Lack of documentation
+  description: >
+    Issues due to missing, incomplete, unclear, or outdated documentation or
+    code examples.
+  parentId: educational_issues
+  patterns:
+    - docs
+    - documentation
+    - documentaion
+    - lack, education [l]
+    - lack, tutorial [l]
+    - lack, resources [l]
+    - learning resources
+    - not documented
+
+- id: lack_of_best_practices
+  name: Lack of best practices
+  description: |
+    Issues arising from the absence of clear, established best practices.
+  parentId: educational_issues
+  patterns:
+    - best practice
+    - standardization
+    - lack of standard
+    # - standard
+    - too many ways
+    - so many ways
+
+- id: lack_of_good_examples
+  name: Lack of best practices
+  parentId: educational_issues
+
+- id: lack_of_knowledge
+  name: Lack of knowledge
+  parentId: educational_issues
+  patterns:
+    - education
+    - lack of information
+    - lack of knowledge
+    - awareness
+    - knowledge
+    - never heard
+    - know nothing
+    - not.*familiar
+    - never used
+
+- id: conflicting_advice
+  name: |
+    Conflicting advice
+  description: >
+    Frustration from receiving conflicting or contradictory information and best
+    practices from different sources (specs, experts, community).
+  parentId: educational_issues

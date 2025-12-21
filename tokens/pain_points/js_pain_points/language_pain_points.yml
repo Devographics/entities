@@ -269,3 +269,11 @@
     - pipe
     - piping
     - pipeline
+
+- id: signals
+  name: |
+    Signals
+  description: >
+    Desire for a native implementation of the Signals pattern for fine-grained
+    reactivity.
+  parentId: reactivity

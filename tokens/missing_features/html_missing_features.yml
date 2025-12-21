@@ -162,3 +162,16 @@
 - id: video_autoplay
   patterns:
     - video, autoplay [l]
+
+- id: callout
+  name: |
+    Callouts/admonitions
+  parentId: missing_elements
+
+- id: toast_notifications
+  name: |
+    Toast Notifications
+  description: >
+    The lack of a native HTML element or API for creating non-modal, timed
+    "toast" notifications.
+  parentId: missing_elements

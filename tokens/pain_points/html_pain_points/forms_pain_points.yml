@@ -1,33 +1,3 @@
-##################################################################
-#                           browser_support                      #
-##################################################################
-
-# - id: browser_support (defined in common_pain_points)
-
-##################################################################
-#                           accessibility                        #
-##################################################################
-
-# - id: accessibility (defined in common_pain_points)
-
-##################################################################
-#                             performance                        #
-##################################################################
-
-# - id: performance (defined in common_pain_points)
-
-##################################################################
-#                   reliance_on_javascript                       #
-##################################################################
-
-# - id: reliance_on_javascript (defined in common_pain_points)
-
-##################################################################
-#                         styling_customization                  #
-##################################################################
-
-# - id: styling_customization (defined in common_pain_points)
-
 - id: styling_radio_inputs
   belongsTo: input_type_radio
   parentId: styling_customization
@@ -356,3 +326,204 @@
     Pain points specific to `<input type="search">`, including styling of the
     cancel button.
   parentId: input_element
+
+- id: pickers
+  name: |
+    Pickers
+  description: >
+    Pain points related to the UI that "picks" a value for an input, such as a
+    calendar or color swatch.
+  parentId: forms_issues
+
+- id: multi_handle_slider
+  name: |
+    Multi-Handle Slider
+  description: >
+    The lack of a native range input that supports multiple thumbs or handles,
+    for selecting a min/max range.
+  parentId: slider
+
+# validation
+
+- id: form_validation_issues
+  name: |
+    Form Validation
+  description: |
+    General pain points with form validation.
+  parentId: forms_issues
+
+- id: validation_errors
+  name: |
+    Validation Errors
+  description: >
+    Pain points related to the UA-generated validation errors. For issues with
+    styling and customizing the content of built-in error messages, combine with
+    `styling_customization` or its descendants.
+  parentId: form_validation_issues
+
+- id: cross_field_validation
+  name: |
+    Cross-Field Validation
+  description: >
+    Difficulties in implementing validation logic where the validity of one
+    field depends on the value of another field.
+  parentId: form_validation_issues
+
+- id: form_data_handling
+  name: |
+    Form Data Handling
+  description: >
+    Pain points related to accessing and manipulating form data on the
+    client-side, such as using the FormData API or converting form data to JSON.
+  parentId: forms_js_handling
+
+- id: forms_js_handling
+  name: |
+    Forms & JS
+  description: |
+    Pain points related to handling forms with JS, form JS APIs, events, etc.
+  parentId: forms_issues
+
+- id: multi_value_inputs
+  name: |
+    Multi-value inputs
+  description: >
+    Issues around difficulties with using or creating input elements for
+    complex, structured values, involving multiple elementary form controls.
+  parentId: forms_issues
+
+- id: form_submission_issues
+  name: |
+    Form Submission
+  description: |
+    Pain points related to the process of submitting form data.
+  parentId: forms_issues
+
+- id: forms_state_management
+  name: |
+    Forms State Management
+  description: >
+    Pain points related to preserving form state on navigation and in any other
+    cases.
+  parentId: state_management
+
+- id: auto_growing_text_fields
+  name: |
+    Auto-Growing Text Fields
+  description: >
+    The lack of a native, declarative way for a text field (e.g., `<textarea>`)
+    to resize automatically to fit its content.
+  parentId: textarea_element
+
+- id: combobox_element
+  name: |
+    Combobox element
+  description: >
+    The lack of a native, accessible combobox element that combines a text input
+    with a dropdown list of suggestions, similar to `<datalist>` but with more
+    control.
+  parentId: forms_issues
+
+- id: select_element_search
+  name: |
+    Searchable select
+  description: >
+    The lack of a built-in ability to search or filter the options within a
+    `<select>` element.
+  parentId: select_element
+
+- id: input_masking
+  name: |
+    Input Masking
+  description: >
+    The lack of a native feature for formatting user input in real-time, such as
+    for phone numbers or currency.
+  parentId: input_element
+
+- id: field_sizing_content
+  name: |
+    field-sizing: content
+  parentId: auto_growing_text_fields
+
+- id: input_inset_content
+  name: |
+    Input Groups (Prefix/Suffix)
+  description: >
+    Pain points related to the inability to declaratively add prefixes or
+    suffixes (text or icons) inside or alongside an input field, such as for
+    currency symbols or units.
+  parentId: input_element
+
+- id: http_methods
+  name: |
+    HTTP Methods
+  description: >
+    The limitation of `<form>` elements to only support GET and POST methods,
+    lacking support for PUT, PATCH, DELETE, etc.
+  parentId: form_submission_issues
+
+- id: radio_input_nullable
+  name: |
+    Nullable Radio Inputs
+  description: >
+    The desire for a native way to deselect all radio buttons in a group,
+    allowing for a 'none' or null state without custom JavaScript.
+  parentId: input_type_radio
+
+- id: password_show_hide
+  name: |
+    Toggle password visibility
+  parentId: password_input
+
+- id: password_input
+  name: |
+    <​input type=password>
+  parentId: input_element
+
+- id: date_and_time
+  name: |
+    Date & Time
+  description: >
+    Issues related to managing dates and times, including lack of support of
+    modern APIs.
+
+- id: form_submission_json
+  name: |
+    JSON form submission
+  description: >
+    The desire for a declarative or built-in way to submit form data as
+    application/json without requiring custom JavaScript to intercept the
+    submission and serialize the data.
+  parentId: form_submission_issues
+
+- id: form_nesting
+  name: |
+    <​form> Nesting
+  description: >
+    Pain points related to the HTML specification's limitation that <form>
+    elements cannot be nested inside one another.
+  parentId: forms_issues
+
+- id: input_state_management
+  name: |
+    Input State Management
+  description: >
+    Pain points related to managing the state of form inputs, especially when
+    their attributes (like `type`) are dynamically changed.
+  parentId: state_management
+
+- id: focusgroup
+  name: |
+    Focusgroup
+  description: >
+    Issues related to the proposed `focusgroup` attribute for managing focus
+    within a group of elements, particularly for keyboard navigation.
+  parentId: focus_management
+
+- id: select_element_nested_optgroups
+  name: |
+    Nested Optgroups
+  description: >
+    The inability to nest `<optgroup>` elements within a `<select>` to create
+    hierarchical option lists.
+  parentId: select_element

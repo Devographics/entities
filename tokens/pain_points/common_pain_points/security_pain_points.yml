@@ -1,0 +1,7 @@
+- id: trusted_types
+  name: |
+    Trusted Types
+  description: >
+    Issues related to implementing Trusted Types to prevent DOM-based cross-site
+    scripting (XSS) attacks.
+  parentId: security_privacy

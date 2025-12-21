@@ -1,0 +1,29 @@
+- id: tools_export_formats
+  name: |
+    Export formats
+  description: >
+    Design tools/exporters lacking modern codecs/containers (e.g., AVIF/JPEG
+    XL).
+  parentId: tooling
+
+- id: tools_visual_editors
+  name: |
+    Visual editors
+  description: |
+    Graphical authoring tools for SVG/canvas have gaps for common tasks.
+  parentId: tooling
+
+- id: ide_support
+  name: |
+    IDE support & autocomplete
+  description: |
+    Editor completion/import for custom tags/attributes/parts/events.
+  parentId: tooling
+
+- id: tooling_profiling
+  name: |
+    Performance profiling tools
+  description: >
+    Issues related to choosing and using tools that measure performance or
+    report performance issues.
+  parentId: tooling

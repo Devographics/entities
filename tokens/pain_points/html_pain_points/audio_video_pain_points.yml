@@ -1,0 +1,99 @@
+- id: video_controls
+  name: |
+    Video controls
+  description: |
+    Customizing, styling, and extending built‑in controls/UX.
+  parentId: video_element
+
+- id: audio_controls
+  name: |
+    Audio controls
+  description: |
+    Customizing, styling, and extending built‑in controls/UX.
+  parentId: audio_issues
+
+- id: video_loading
+  name: |
+    Video loading
+  description: |
+    Issues around how or when videos load, including native lazy loading
+  parentId: video_element
+
+- id: video_playback
+  name: |
+    Video playback
+  description: |
+    Issues related to video playback, scrubbing, autoplay etc.
+  parentId: video_element
+
+- id: video_thumbnails_posters
+  name: |
+    Video thumbnails and posters
+  description: >
+    Issues related to generating/displaying video thumbnails and posters, either
+    for scrubbing or static display
+  parentId: video_element
+
+- id: tracks
+  name: |
+    Multimedia tracks
+  description: |
+    Timed text or audio tracks (subtitles, captions, etc) across elements.
+
+- id: video_streaming
+  name: |
+    Streaming (DASH/HLS)
+  description: |
+    Authoring/playing adaptive streams (HLS/DASH/m3u8).
+  parentId: video_element
+
+- id: streaming
+  name: |
+    Streaming
+  description: >
+    Issues related to streaming HTML content from the server to the client,
+    including browser inconsistencies, performance challenges, and hooking up
+    interactivity to streamed content.
+  parentId: server_client
+
+- id: audio_tracks
+  name: |
+    Audio Descriptions
+  description: >
+    Issues related to providing audio descriptions for video content, a key
+    accessibility feature.
+  parentId: tracks
+
+- id: audio_vtt
+  name: |
+    Audio timed text
+  description: |
+    Using WebVTT (or similar) with <audio>.
+  parentId: audio_tracks
+
+- id: webvtt
+  name: |
+    WebVTT
+  description: |
+    WebVTT and subtitles/captions more broadly
+  parentId: tracks
+
+- id: getusermedia
+  name: |
+    Camera capture
+  description: |
+    Media capture via getUserMedia and device enumeration.
+
+- id: video_transparency
+  name: |
+    Videos with alpha transparency
+  description: |
+    Transparent/alpha‑channel video use cases.
+  parentId: video_element
+
+- id: video_hdr
+  name: |
+    HDR video
+  description: |
+    High‑dynamic‑range video playback and fallbacks.
+  parentId: video_element

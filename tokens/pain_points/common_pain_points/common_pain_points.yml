@@ -1,3 +1,9 @@
+- id: invalid
+  name: |
+    Invalid/Spam
+  description: |
+    Nonsense or non‑actionable or off-topic content.
+
 ##################################################################
 #                       General Pain points                      #
 ##################################################################
@@ -108,134 +114,6 @@
     - state mgmt
     - state
 
-# cognitive_overload
-
-- id: cognitive_overload
-  name: |
-    Cognitive overload
-- id: end_user_ux_issues
-  name: |
-    End-user experience
-  description: >
-    Issues around difficulties providing a good user experience for end-users.
-    Do not include DX issues here (use `ergonomics` for that).
-
-- id: too_much_work
-  name: |
-    High effort
-  description: >
-    Requires too much work. Includes APIs being too low-level, requiring a lot
-    of manual developer effort to use.
-  parentId: cognitive_overload
-
-- id: speed_of_change
-  name: Speed of change
-  description: Features, libraries, and APIs changing too fast
-  patterns:
-    - change to(o)? fast
-    - changes to(o)? fast
-    - changing to(o)? fast
-    - keeping up
-    - always changing
-    - keep up
-    - churn
-    - constant.*chang [p]
-    - fast changing
-    - changing api
-    - changes too often
-    - changing too rapidly
-    - api change [p]
-    - rate of change
-    - to(o)? many change [p]
-    - frequent change
-    - change(s)? very fast
-    - change(s)? so fast
-    - every( )?day a new
-    - pace of change
-    - fast change
-    - rapid change
-    - change too much
-    - too much change
-    - moves too fast
-  parentId: cognitive_overload
-
-- id: reinventing_the_wheel
-  name: Reinventing the wheel
-  description: Constantly having to re-learn or re-implement the same concepts
-  patterns:
-    - reinventing
-  parentId: cognitive_overload
-
-- id: poor_learnability
-  name: |
-    Poor learnability
-  description: >
-    High learning curve, requires too much knowledge to get started, or too much
-    information to memorize.
-  parentId: cognitive_overload
-
-- id: version_updates
-  name: Breaking changes
-  description: Breaking changes and other updating issues
-  patterns:
-    - breaking change(s)?
-    - migration
-    - version
-    - upgrad [p]
-
-- id: too_many_choices
-  name: Choice overload
-  description: Overwhelming amount of options and choices
-  patterns:
-    - to(o)? many choice [p]
-    - decision fatigue
-    - choice paralysis
-    - choice overload
-    - to(o)? many of them [p]
-    - (to|so)?(o)? many (different|new)?( )?(libraries|lib|framework|option|choice|tool) [p]
-    - to(o)? much choice [p]
-    - to(o)? many.*choose [p]
-    - choosing a framework
-    - too many [e]
-    - overwhelming
-    - overwhelmed
-    - hard to choose
-    - hard to decide
-    - hard to pick
-  parentId: cognitive_overload
-
-- id: excessive_complexity
-  name: Excessive complexity
-  description: Too much complexity
-  descriptionIssues: >
-    The landscape or technology feels overengineered, overcomplicated, making it
-    hard to get started.
-  parentId: cognitive_overload
-  patterns:
-    - complex [e]
-    - complicated [p]
-    - complication [p]
-    - over( |-)?engineer [p]
-    - overcomplicate
-    - too, complex [l]
-    - very, complex [l]
-    - complexity
-    - clunky
-    - confusing
-    - cumbersome
-    - overly complex
-    - overcomplexity
-    - over( )?complex
-    - over( )?complicated
-    - over( )?complicating
-
-- id: hard_to_memorize
-  patterns:
-    - remembering
-    - memorize
-    - remember
-  parentId: cognitive_overload
-
 - id: dependencies
   name: Dependencies
   description: Too many dependencies
@@ -289,21 +167,6 @@
     - build size
     - installation size
     - package size
-
-- id: performance
-  name: Performance
-  description: Performance issues
-  descriptionIssues: >
-    Throughput, latency, memory, jank, lag, frame drops, battery/thermal, and
-    loading time.
-  patterns:
-    - slow
-    - slowness
-    - speed
-    - optimization
-    - perfomance [p]
-    - performances
-    - perf
 
 - id: hydration
   name: Hydration
@@ -367,8 +230,36 @@
     - config [p]
     - configuration [p]
 
+# ecosystem
+
 - id: ecosystem
   name: Ecosystem issues
+
+- id: platform_marketing
+  name: |
+    Platform Marketing
+  description: >
+    Issues related to the marketing and branding of web platform technologies
+    themselves, such as the desire for better logos, clearer messaging, or
+    increased awareness campaigns.
+  parentId: ecosystem
+
+- id: framework_dominance
+  name: |
+    Framework Dominance
+  description: >
+    Pain points arising from the dominance of specific JavaScript frameworks,
+    leading to a monoculture, abstracting away platform features, and making it
+    difficult to use or advocate for HTML-first approaches.
+  parentId: ecosystem
+
+- id: third_party_scripts
+  name: |
+    Third-party Scripts
+  description: >
+    Issues caused by scripts not authored by the site owner, such as analytics,
+    ads, trackers, and customer support widgets.
+  parentId: ecosystem
 
 - id: fragmentation
   name: Fragmentation
@@ -484,73 +375,6 @@
   name: Reliance on frameworks
   description: Excessive reliance on frameworks and libraries over native APIs
 
-# educational_issues
-
-- id: educational_issues
-  name: Education
-  description: Issues related to learning new technologies
-  descriptionLong: >
-    Lack of awareness, poor docs, lack of best practices, lack of good examples, and issues regarding availability and quality of educational resources.
-
-- id: tough_learning_curve
-  name: Tough learning curve
-  parentId: educational_issues
-  patterns:
-    - hard to learn
-    - learning curve
-    - hard to get started
-    - difficult to learn
-    - where to start
-    - how to start
-    - curva de aprendizaje
-
-- id: lack_of_documentation
-  name: Lack of documentation
-  description: >
-    Issues due to missing, incomplete, unclear, or outdated documentation or
-    code examples.
-  parentId: educational_issues
-  patterns:
-    - docs
-    - documentation
-    - documentaion
-    - lack, education [l]
-    - lack, tutorial [l]
-    - lack, resources [l]
-    - learning resources
-    - not documented
-
-- id: lack_of_best_practices
-  name: Lack of best practices
-  description: |
-    Issues arising from the absence of clear, established best practices.
-  parentId: educational_issues
-  patterns:
-    - best practice
-    - standardization
-    - lack of standard
-    # - standard
-    - too many ways
-    - so many ways
-
-- id: lack_of_good_examples
-  name: Lack of best practices
-  parentId: educational_issues
-
-- id: lack_of_knowledge
-  name: Lack of knowledge
-  parentId: educational_issues
-  patterns:
-    - education
-    - lack of information
-    - lack of knowledge
-    - awareness
-    - knowledge
-    - never heard
-    - know nothing
-    - not.*familiar
-    - never used
-
 - id: focus_management
   name: Focus management
   description: Managing user focus
@@ -608,9 +432,6 @@
     - buggy
     - flakey
     - flakiness
-
-- id: ram_usage
-  parentId: performance
 
 - id: overuse_issues
   patterns:
@@ -680,6 +501,14 @@
     - interactivity_pain_points
     - making_web_components_pain_points
 
+- id: declarative_data_binding
+  name: |
+    Declarative data binding
+  description: >
+    The lack of a native, declarative way to bind component state/properties to
+    its template, causing template updates to be manual and imperative.
+  parentId: data_binding
+
 - id: community_issues
   patterns:
     - community
@@ -745,3 +574,288 @@
     - client, demand [l]
     - customer, demand [l]
     - convincing, client [l]
+
+# limitations
+
+- id: limitations
+  name: |
+    Limitations
+  description: >
+    Things not being possible. Missing features or incomplete capabilities. Poor
+    integration between web platform technologies.
+
+- id: declarative_apis
+  name: |
+    Declarative APIs
+  description: >
+    Complaints about lack of declarative APIs (combine with `limitations`), or
+    current declarative APIs (as a whole) being hard to use (combine with
+    `ergonomics`).
+
+- id: interop_issues
+  name: |
+    Browser support
+  description: >
+    Browser support issues, implementation bugs, cross‑browser implementation
+    differences or inconsistencies, browser prioritization, speed of adoption of
+    new features, any issues where specific browsers, browser engines, or
+    browser companies are mentioned (and it’s not to praise them).
+  instructions: >
+    Do not use for issues around browser adoption being too fast for developers
+    to keep up, use `educational_issues` for that.
+
+# environments_consumers
+
+- id: environments_consumers
+  name: |
+    Environments & Consumers
+  description: >
+    Issues relevant to specific environments or consumers of web content, e.g.
+    devices, bots, viewing modes, etc.
+
+- id: html_email
+  name: |
+    HTML Email
+  description: >
+    Issues related to inconsistent or outdated HTML and CSS support in email
+    clients, making it difficult to create reliable and modern email templates.
+  parentId: environments_consumers
+
+- id: webview
+  name: |
+    WebView
+  parentId: environments_consumers
+
+- id: legacy_devices
+  name: |
+    Legacy Devices
+  description: >
+    Challenges in supporting older or less capable devices, such as smart TVs,
+    set-top boxes, or older mobile phones, which often lag significantly in
+    browser feature support.
+  parentId: environments_consumers
+
+- id: reader_mode
+  name: |
+    Reader mode
+  description: >
+    Issues around consuming website content in reader modes, both with those
+    built-in to browsers and via third-party extensions/apps.
+  parentId: environments_consumers
+
+- id: printing_issues
+  name: |
+    Printing
+  description: >
+    Issues related to styling and controlling the printing of web pages,
+    including paged media features.
+  parentId: environments_consumers
+
+- id: mobile_vs_desktop
+  name: |
+    Mobile vs Desktop
+  description: >
+    Challenges around supporting both mobile and desktop, but not specifically
+    about either of the two.
+  parentId: environments_consumers
+
+# framework_issues
+
+- id: framework_issues
+  name: |
+    Framework compatibility
+  description: |
+    Issues around compatibility with JS frameworks.
+  parentId: ecosystem
+
+- id: server_client
+  name: |
+    Server-client communication
+  description: >
+    Issues around server-client integration & communication, server-side
+    rendering, etc.
+
+- id: reliability
+  name: |
+    Reliability
+  description: |
+    Crashes, device/context loss, flaky behavior, and error handling.
+
+- id: id_management
+  name: |
+    Difficulty managing ids
+  description: |
+    Difficulties around creating and managing unique ids, linking to ids, etc.
+
+- id: ssr_hydration
+  name: |
+    SSR & hydration
+  description: >
+    Performance bottlenecks related to the process of making server-rendered
+    HTML interactive on the client using JavaScript frameworks.
+  parentId: server_client
+  instructions: >
+    Combine with `web_components` for issues specific to Server-Side Rendering
+    (SSR) and client-side hydration of web components.
+
+- id: vendor_politics
+  name: |
+    Vendor politics
+  description: >
+    Pain points arising from the strategic decisions, priorities, or market
+    position of browser vendors or platform owners (e.g. Apple, Google).
+  instructions: >
+    If specific ones are mentioned, combine with the corresponding descendants
+    of `specific_platforms_vendors`
+
+- id: standards
+  name: |
+    Standards & Specs
+  description: |
+    Pain points around specifications and standards (e.g., ISO, WCAG, RGAA).
+
+- id: testing_issues
+  name: |
+    Testing
+  description: >
+    Things being hard to test, unclear how to test them, difficulty procuring
+    the right tools or resources to test, etc.
+  parentId: debugging_issues
+
+- id: debugging_issues
+  name: |
+    Debugging
+  description: >
+    Issues around difficulty finding and eliminating bugs, regardless of the
+    cause.
+  instructions: >
+    For issues around debugging tools, combine with `tools` (or a suitable
+    leaf).
+
+- id: animations_issues
+  name: |
+    Animations
+  description: >
+    Issues related to UI animations across all technologies, regardless of
+    technology used to implement them (CSS animations, Lottie, etc)
+
+- id: rendering_issues
+  name: |
+    Rendering
+  description: >
+    General issues related to the browser's process of painting pixels on the
+    screen, including layout, style recalculation, and compositing.
+  parentId: poor_design_issues
+
+- id: virtualization
+  name: |
+    Virtualization / Windowing
+  description: >
+    The need for or issues with techniques for rendering long lists or large
+    tables by only rendering the visible items (virtual scrolling).
+  parentId: rendering
+
+- id: render_blocking
+  name: |
+    blocking=render attribute
+  parentId: rendering
+
+- id: tooling_issues
+  name: |
+    Tooling
+  description: >
+    Issues around third party tools, or lack thereof, including tooling in the
+    browser (extensions, devtools, etc.).
+
+- id: scrollbars
+  name: |
+    Scrollbars
+  description: |
+    Issues related to scrollbars.
+  parentId: forms_issues
+  instructions: >
+    For pain points around styling scrollbars, combine with `styling` and
+    `browser_support` or `limitations` depending on whether it’s an interop
+    issue or missing styling flexibility.
+
+- id: typography_issues
+  name: |
+    Typography
+  description: |
+    Issues related to text and font styling on the web.
+
+- id: animations_physics_based
+  name: |
+    Physics-based Animations
+  description: >
+    Issues around creating physics-based animations, such as spring animations,
+    natively on the web platform.
+  parentId: animations_issues
+
+- id: inconsistencies
+  name: |
+    Inconsistencies across web platform features
+  description: |
+    E.g. poor integration between different features or web technologies
+
+- id: analytics_integration
+  name: |
+    Analytics integration
+  description: |
+    Compatibility with page-level analytics, telemetry, and similar tools
+  parentId: limitations
+
+- id: component_based_architecture
+  name: |
+    Component-Based Architecture
+  description: >
+    Pain points related to building websites with a component-based model, such
+    as state management, content composition, and framework reliance. Combine
+    with `accessibility`  for accessibility challenges that are specific to or
+    exacerbated by component-based development (e.g., managing heading levels,
+    generating unique IDs).
+
+- id: low_level_access
+  name: |
+    Low-level access
+  description: >
+    The desire for lower-level APIs that provide more control, as opposed to
+    high-level, opinionated APIs.
+  parentId: limitations
+
+- id: privacy_issues
+  name: |
+    Privacy
+  parentId: security_privacy
+
+- id: pwa_installation
+  name: |
+    PWA Installation
+  description: >
+    Pain points specifically related to the user experience of installing a
+    Progressive Web App.
+  parentId: pwa_issues
+
+- id: pwa_monetization
+  name: |
+    PWA Monetization
+  description: >
+    Difficulties monetizing Progressive Web Apps, particularly in comparison to
+    native apps.
+  parentId: pwa_issues
+
+- id: testing_automation
+  name: |
+    Automated testing
+  description: >
+    Issues around the lack, limitations, or difficulty of implementing automated
+    accessibility testing.
+  parentId: testing_issues
+
+- id: offline_portability
+  name: |
+    Offline Portability
+  description: >
+    Issues related to features not working when loading files directly from the
+    filesystem (file:// protocol), requiring a local server for development and
+    preventing simple offline sharing.

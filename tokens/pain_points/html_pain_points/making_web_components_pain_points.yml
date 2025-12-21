@@ -14,6 +14,21 @@
     - templating
     - templates
 
+- id: native_templating
+  name: |
+    Native templating
+  description: >
+    HTML‑level template syntax (e.g., interpolation/conditionals/loops) without
+    third‑party libraries.
+  parentId: templating
+
+- id: templating_jsx_like
+  name: |
+    JSX‑like templating
+  description: |
+    JSX‑style or similar declarative authoring for component templates.
+  parentId: templating
+
 - id: class_based_architecture
   name: Class-based architecture
   description: Forces the use of class syntax

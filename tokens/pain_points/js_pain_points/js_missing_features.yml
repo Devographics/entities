@@ -293,3 +293,10 @@
     - result, type [l]
     - result, typed [l]
     - result, typing [l]
+
+- id: decorators_issues
+  name: |
+    JS Decorators
+  description: >
+    For issues around lack of support of decorators in browsers combine with
+    `browser_support`.

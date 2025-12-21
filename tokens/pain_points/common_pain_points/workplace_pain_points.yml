@@ -1,0 +1,16 @@
+- id: job_market
+  name: |
+    Job Market & Value
+  description: >
+    Concerns about the job market, including the low number of roles for HTML
+    specialists, low pay, and the perception that companies and other developers
+    do not value deep HTML skills.
+  parentId: workplace
+
+- id: team_buy_in
+  name: |
+    Team/Stakeholder buy-in
+  description: >
+    Difficulties in convincing teammates, managers, clients, or other
+    stakeholders of the importance and priority of accessibility work.
+  parentId: workplace
