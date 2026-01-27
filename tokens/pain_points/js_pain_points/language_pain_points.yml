@@ -123,6 +123,7 @@
     - callback
 
 - id: class_syntax
+  name: Class syntax
   description: Class syntax
   patterns:
     - class
@@ -144,11 +145,12 @@
 - id: undefined
   description: Behavior of `undefined`
 
-- id: frameworks
-  description: Frameworks
-  pattern:
-    - framework
-    - frameworks
+# - id: frameworks
+#   name: Frameworks
+#   description: Frameworks
+#   pattern:
+#     - framework
+#     - frameworks
 
 - id: imports
   name: Imports

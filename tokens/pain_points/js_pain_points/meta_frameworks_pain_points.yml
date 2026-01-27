@@ -7,14 +7,6 @@
     - file.*routing [p]
     - file.*router [p]
 
-- id: nextjs_issues
-  name: Next.js issues
-  patterns:
-    - next( |.|-)?js
-    - next [e]
-  tags:
-    - front_end_frameworks_pain_points
-
 - id: nextjs_cache_issues
   name: Next.js cache
   parentId: nextjs_issues

@@ -9,11 +9,7 @@
     - there are way too many
     - there are too much
 
-- id: use_effect
-
 - id: css
-
-- id: hooks
 
 - id: prop_driling
 
@@ -53,11 +49,10 @@
   patterns:
     - framework, compatibility [l]
 
-- id: hooks
-
 - id: prop_drilling
 
 - id: excessive_rendering
+  name: Excessive rendering
   patterns:
     - re(-| )?render
     - re(-| )?rendering

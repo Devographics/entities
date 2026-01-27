@@ -16,7 +16,7 @@
   # description: The React Framework
   homepageUrl: "https://nextjs.org"
   patterns:
-    - next.js
+    - next( |.|-)?js
     - next [e]
 
 - id: koa

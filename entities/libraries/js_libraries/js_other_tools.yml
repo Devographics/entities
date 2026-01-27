@@ -399,10 +399,6 @@
   name: Swiper
   homepageUrl: https://swiperjs.com/
 
-- id: fnm
-  name: Fast Node Manager
-  homepageUrl: https://github.com/Schniz/fnm
-
 - id: partytown
   name: Partytown
   homepageUrl: https://github.com/BuilderIO/partytown

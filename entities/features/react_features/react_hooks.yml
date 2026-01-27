@@ -65,6 +65,8 @@
       title: A complete guide to the useEffect React Hook
   patterns:
     - use( )?effect(s)?
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: useid
   name: >

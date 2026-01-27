@@ -38,3 +38,6 @@
     - vercel
 
 - id: hooks_issues
+  name: Hooks issues
+  patterns:
+    - hooks
