@@ -29,22 +29,6 @@
   name: CSP issues
   description: Issues with implementing a Content Security Policy
 
-# date_management
-
-- id: date_management
-  name: Date management
-  description: Managing dates and times
-  patterns:
-    - date
-    - temporal
-
-- id: time_zones
-  parentId: date_management
-  name: Timezones
-  description: Managing timezones
-  patterns:
-    - time( )?zone
-
 # image_management
 
 - id: image_management

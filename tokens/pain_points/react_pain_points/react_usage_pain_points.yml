@@ -1,6 +1,9 @@
 - id: react_lack_of_signals
+  parentId: react_issues
+  name: Lack of signals
   patterns:
-    - signals
+    - signals, react [l]
+    - signels, react [l]
 
 - id: excessive_rerendering
   parentId: context_api

@@ -98,13 +98,6 @@
     - popular, react [l]
     - widely, react [l]
 
-- id: react_lack_of_signals
-  parentId: react_issues
-  name: Lack of signals
-  patterns:
-    - signals, react [l]
-    - signels, react [l]
-
 - id: react_slow_progress
   parentId: react_issues
   name: Slow progress

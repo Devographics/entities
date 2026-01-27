@@ -187,3 +187,7 @@
 - id: rolldown
   name: Rolldown
   homepageUrl: https://rolldown.rs/
+
+- id: tsdown
+  name: tsdown
+  homepageUrl: https://tsdown.dev/

@@ -147,3 +147,8 @@
   description: |
     Performance problems caused by having a very large or complex DOM tree.
   parentId: rendering
+
+- id: resource_intensive
+  name: Resource-intensive
+  patterns:
+    - resource, intensive [l]

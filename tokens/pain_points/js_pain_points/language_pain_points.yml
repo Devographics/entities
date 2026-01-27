@@ -270,10 +270,45 @@
     - piping
     - pipeline
 
-- id: signals
+- id: lack_of_signals
   name: |
     Signals
   description: >
-    Desire for a native implementation of the Signals pattern for fine-grained
+    Lack of a native implementation of the Signals pattern for fine-grained
     reactivity.
   parentId: reactivity
+  patterns:
+    - signals
+
+- id: lack_of_decorators
+  name: |
+    Decorators
+  description: >
+    Lack of native decorators implementation.
+  patterns:
+    - decorators
+
+- id: lack_of_static_typing
+  name: Lack of static typing
+  description: Lack of native typing
+  patterns:
+    - typing
+    - typings
+    - type
+    - types
+    - typed
+    - dynamic language
+    - dynamically typed
+    - loosely typed
+    - strongly typed
+    - typesafety
+    - typechecking
+    - dynamic
+    - typeless
+    - untyped
+    - it's not typescript
+    - lack of type
+    - lack of typing
+    - tipado
+    - typescript support
+    - typesafety

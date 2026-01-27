@@ -3318,7 +3318,7 @@
   twitterName: devongovett
   blueskyId: devongovett.bsky.social
   tags:
-    - Parcel
+    - parcel
 
 - id: diego_haz
   name: Diego Haz
@@ -3357,7 +3357,7 @@
   twitterName: rauchg
   blueskyId: rauchg.blue
   tags:
-    - Nextjs
+    - nextjs
 
 - id: jenna_smith
   name: Jenna Smith
@@ -3450,12 +3450,18 @@
   youtubeUrl: https://www.youtube.com/channel/UCVJ5qp8Vw8gXQ9RkuNdYWMw
   blueskyId: thealexlichter.com
   twitchName: TheAlexLichter
+  tags:
+    - state_of_js_sources
   patterns:
     - alexander_lichter_video_vue_security
     - alex lichter
     - lichter
     - litcher
     - thealexlichter
+    - thealexlichter_twitter
+    - thealexlichtertwitter
+    - thealexlichter_bsky
+    - thealexlichterbsky
 
 - id: andrew_burgess
   name: Andrew Burgess
@@ -4225,3 +4231,22 @@
   name: Nuno Maduro
   homepageUrl: https://nunomaduro.com/
   youtubeUrl: https://www.youtube.com/nunomaduro
+
+- id: ankita_kulkarni
+  name: Ankita Kulkarni
+  homepageUrl: https://www.frontendsnacks.dev/
+  youtubeUrl: https://www.youtube.com/@kulkarniankita
+
+- id: erik_johnson
+  name: Erik Johnson
+  twitterName: ejtweet
+  patterns:
+    - ej(_| )?tweet
+
+- id: michael_rambeau
+  name: Michael Rambeau
+  homepageUrl: https://www.michaelrambeau.com/
+
+- id: jenn_schiffer
+  name: Jenn Schiffer
+  homepageUrl: http://jennschiffer.com/

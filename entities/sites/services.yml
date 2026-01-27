@@ -108,14 +108,14 @@
 - id: alibaba_cloud
   name: Alibaba Cloud
   patterns:
-    - alibaba [p]
-    - ali [p]
+    - alibaba
+    - ali
   homepageUrl: https://www.alibabacloud.com/
 
 - id: clever_cloud
   name: Clever Cloud
   patterns:
-    - clever [p]
+    - clever
   homepageUrl: https://www.clever-cloud.com/
 
 - id: coolify
@@ -126,7 +126,7 @@
   name: Cyclic
   homepageUrl: https://www.cyclic.sh/
   patterns:
-    - cyclic [p]
+    - cyclic
 
 - id: deno_deploy
   name: Deno Deploy
@@ -531,3 +531,7 @@
   homepageUrl: https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook
   patterns:
     - outlook.live.com
+
+- id: customer_io
+  name: Customer.io
+  homepageUrl: https://customer.io/

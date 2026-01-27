@@ -48,7 +48,10 @@
     - browser.*support [p]
     - support.*browser [p]
     - compatibility
+    - compatiblity
+    - compitapilaty
     - compatability
+    - compatibilidad
     - interopability
     - interoperability
     - browser, behavior [l]
@@ -167,6 +170,9 @@
     - build size
     - installation size
     - package size
+    - code size
+    - library size
+    - too heavy
 
 - id: hydration
   name: Hydration
@@ -859,3 +865,9 @@
     Issues related to features not working when loading files directly from the
     filesystem (file:// protocol), requiring a local server for development and
     preventing simple offline sharing.
+
+- id: separation_of_concerns
+  name: |
+    Separation of Concerns
+  description: >
+    Ensuring features with different purposes are written and function separately.

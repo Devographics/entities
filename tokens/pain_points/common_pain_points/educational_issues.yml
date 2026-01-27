@@ -50,6 +50,8 @@
 - id: lack_of_good_examples
   name: Lack of best practices
   parentId: educational_issues
+  patterns:
+    - lack, example [l]
 
 - id: lack_of_knowledge
   name: Lack of knowledge

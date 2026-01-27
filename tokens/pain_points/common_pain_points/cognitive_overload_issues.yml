@@ -102,7 +102,7 @@
     hard to get started.
   parentId: cognitive_overload
   patterns:
-    - complex [e]
+    - complex
     - complicated [p]
     - complication [p]
     - over( |-)?engineer [p]
@@ -137,3 +137,12 @@
   name: |
     Poor composability
   parentId: cognitive_overload
+
+- id: foot_guns
+  name: |
+    Footguns
+  description: |
+    Features that make it too easy to commit mistakes.
+  parentId: cognitive_overload
+  patterns:
+    - foot( |-)?gun

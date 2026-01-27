@@ -43,13 +43,32 @@
     - post_survey_share_email
     - participated before
     - previous
+    - email_announcement
+    - js2025_announcement
+    - js2025reminder
+    - js2025_reminder
+    - emailannouncement
+    - post_survey_share_chat
+    - postsurveysharechat
   tags:
     - sources_state_of_js
+
+- id: state_of_ai_survey
+  patterns:
+    - ai2025_banner
+    - ai2025_email_announcement
 
 - id: state_of_css_survey
   patterns:
     - css2024
     - css2024_announcement_email
+    - css2025_banner
+    - css2025_results_announcement
+
+- id: state_of_devs_survey
+  patterns:
+    - devto_devs2025_announcement
+    - devs2025_banner
 
 - id: angular
   patterns:
@@ -80,3 +99,7 @@
   name: Reddit Ad Campaign
   patterns:
     - r_women_in_tech_campaign
+
+- id: jetbrains_js_day
+  name: JetBrains JavaScript Day
+  homepageUrl: https://lp.jetbrains.com/javascript-day-2025/

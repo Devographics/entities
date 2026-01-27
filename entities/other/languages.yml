@@ -118,6 +118,7 @@
 
 - id: lua
   name: Lua
+  homepageUrl: https://www.lua.org/
 
 - id: lisp
   name: Lisp

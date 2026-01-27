@@ -18,3 +18,19 @@
     Pain points related to generating high-quality, accessible, and consistently
     rendered PDFs from HTML and CSS content.
   parentId: pdf
+
+# date_management
+
+- id: date_management
+  name: Date management
+  description: Managing dates and times
+  patterns:
+    - date
+    - temporal
+
+- id: time_zones
+  parentId: date_management
+  name: Timezones
+  description: Managing timezones
+  patterns:
+    - time( )?zone

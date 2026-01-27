@@ -66,6 +66,9 @@
 - id: indexed_db
   name: IndexedDB
   mdn: /en-US/docs/Web/API/IndexedDB_API
+  patterns:
+    - indexdb
+    - index db
 
 - id: cache_storage
   name: Cache Storage
@@ -93,7 +96,6 @@
   tags:
     - html_interoperability_features
     - interactivity_pain_points
-    - language_pain_points
     - front_end_frameworks_pain_points
   patterns:
     - web component
@@ -749,6 +751,7 @@
     - native typing
     - types [e]
     - typing [e]
+    - tipado [e]
 
 - id: js_safe_assignment_operator
   name: Safe Assignment Operator
@@ -788,3 +791,35 @@
         .postTask(() => "Task executing")
         .then((taskResult) => console.log(`${taskResult}`)) // Log result
         .catch((error) => console.error(`Error: ${error}`)); // Log errors
+
+- id: js_generators
+  webFeaturesId: generators
+  name: Generator Functions
+  description: |
+    Generator functions (`function*``) create iterators that return multiple values, one after another, on-demand.
+  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator
+  example:
+    language: js
+    code: |
+      function* generator() {
+        yield 1;
+        yield 2;
+        yield 3;
+      }
+
+      const gen = generator(); // "Generator { }"
+  patterns:
+    - generators
+    - generator function
+
+- id: js_directives
+  name: Directives
+  description: |
+    `use` mentions at the top of a document such as `use strict`.
+  mdn: en-US/docs/Web/JavaScript/Reference/Strict_mode
+  example:
+    language: js
+    code: |
+      `use strict`
+  patterns:
+    - directives

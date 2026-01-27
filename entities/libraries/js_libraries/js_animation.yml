@@ -109,6 +109,8 @@
   homepageUrl: https://motion.dev/
   tags:
     - animation
+  patterns:
+    - motion [e]
 
 - id: react_motion
   name: React Motion

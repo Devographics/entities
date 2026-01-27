@@ -16,3 +16,7 @@
 - id: plugin_issues
   patterns:
     - plug( |-)?in
+
+- id: tree_shaking_issues
+  patterns:
+    - tree( |-)?shaking

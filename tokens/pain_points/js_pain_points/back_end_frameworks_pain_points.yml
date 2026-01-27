@@ -1,0 +1,5 @@
+- id: lack_of_all_in_one_frameworks
+  name: |
+    Lack of “all in one” framework
+  patterns:
+    - batteries, included [l]

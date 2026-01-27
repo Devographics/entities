@@ -106,6 +106,7 @@
     - it's not typescript
     - lack of type
     - lack of typing
+    - tipado
 
 - id: js_math_clamp
   name: |

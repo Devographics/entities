@@ -91,6 +91,8 @@
   github: moment/moment
   description: "Parse, validate, manipulate, and display dates in javascript."
   homepageUrl: "https://momentjs.com/"
+  patterns:
+    - moment( |.|-)?js
 
 - id: dayjs
   name: Day.js
@@ -293,13 +295,6 @@
   github: motdotla/dotenv
   description: Loads environment variables from .env for nodejs projects.
   homepageUrl: https://github.com/motdotla/dotenv
-
-- id: chartjs
-  name: Chart.js
-  npm: chart.js
-  github: chartjs/Chart.js
-  description: Simple HTML5 Charts using the <canvas> tag
-  homepageUrl: "https://www.chartjs.org/"
 
 - id: joi
   name: joi
@@ -652,3 +647,7 @@
 - id: type_fest
   name: type-fest
   homepageUrl: https://github.com/sindresorhus/type-fest
+
+- id: chalk
+  name: Chalk
+  homepageUrl: https://github.com/chalk/chalk
