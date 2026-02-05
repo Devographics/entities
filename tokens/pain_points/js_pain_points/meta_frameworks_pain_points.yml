@@ -3,6 +3,7 @@
 ##################################################################
 
 - id: file_based_routing
+  name: File-based routing
   patterns:
     - file.*routing [p]
     - file.*router [p]
@@ -32,10 +33,6 @@
   patterns:
     - next, 13 [l]
 
-- id: nuxt
-
-- id: remix
-
 - id: routing
   name: Routing
   patterns:
@@ -43,9 +40,8 @@
 
 - id: maturity
 
-- id: react
-
 - id: javascript_on_the_server
+  name: JavaScript on the server
 
 - id: server_components_issues
   name: Server components issues
@@ -59,14 +55,12 @@
 - id: serverless
 
 - id: unnecessary
+  name: Unnecessary
   patterns:
     - should not exist
 
-- id: vercel
-
 - id: idiosyncrasies
-
-- id: abstraction
+  name: Idiosyncrasies
 
 - id: middleware_issues
   patterns:
@@ -75,5 +69,3 @@
 - id: lack_of_websockets_support
   patterns:
     - websocket
-
-- id: astro_issues

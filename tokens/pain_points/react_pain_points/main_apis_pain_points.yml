@@ -1,4 +1,5 @@
 - id: context_api
+  name: Context API
   patterns:
     - context
 

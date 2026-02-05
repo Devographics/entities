@@ -48,3 +48,7 @@
     - stateofcss.com
     - css2024 [p]
     - css survey
+
+- id: state_of_html_survey
+  patterns:
+    - html2025_announcement

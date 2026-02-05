@@ -38,6 +38,7 @@
     - typescript
 
 - id: async_testing
+  name: Async testing
   patterns:
     - async
     - asynchronous
@@ -56,8 +57,10 @@
     - test, env
 
 - id: lack_of_bun_support
+  name: Lack of Bun support
 
 - id: browser_testing_issues
+  name: Browser testing
   patterns:
     - browser
 

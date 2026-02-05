@@ -387,3 +387,15 @@
     Pain points specific to `<input type="file">`, especially around styling the
     button and displaying selected files.
   parentId: forms_issues
+
+- id: content_editable_attribute
+  name: >
+    `contentEditable`
+  mdn: en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable
+  patterns:
+    - content( |-)?editable
+  tags:
+    - forms_pain_points
+    - browser_apis_pain_points
+    - html_interoperability_features
+    - html_functionality_features

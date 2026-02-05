@@ -76,6 +76,8 @@
 - id: too_many_choices
   name: Choice overload
   description: Overwhelming amount of options and choices
+  tags:
+    - front_end_frameworks_pain_points
   patterns:
     - to(o)? many choice [p]
     - decision fatigue
@@ -92,6 +94,10 @@
     - hard to choose
     - hard to decide
     - hard to pick
+    - there are too many
+    - there's too many
+    - there are way too many
+    - there are too much
   parentId: cognitive_overload
 
 - id: excessive_complexity
@@ -120,6 +126,7 @@
     - over( )?complicating
 
 - id: hard_to_memorize
+  name: Hard to memorize
   patterns:
     - remembering
     - memorize

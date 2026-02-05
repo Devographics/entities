@@ -24,6 +24,7 @@
   tags:
     - graphql
     - databases
+    - companies
 
 - id: aws
   name: AWS
@@ -32,10 +33,14 @@
 - id: cloudflare
   name: Cloudflare
   homepageUrl: https://www.cloudflare.com/
+  tags:
+    - companies
 
 - id: fastly
   name: Fastly
   homepageUrl: https://www.fastly.com/
+  tags:
+    - companies
 
 - id: github_pages
   name: GitHub Pages
@@ -50,40 +55,57 @@
 - id: planetscale
   name: PlanetScale
   homepageUrl: https://planetscale.com/
+  tags:
+    - companies
 
 - id: netlify
   name: Netlify
   homepageUrl: https://www.netlify.com/
+  tags:
+    - companies
 
 - id: render
   name: Render
   homepageUrl: https://render.com/
   tags:
     - edge_runtimes
+    - companies
 
 - id: vercel
   name: Vercel
   homepageUrl: https://vercel.com/
+  tags:
+    - companies
 
 - id: sentry
   name: Sentry
   homepageUrl: https://sentry.com/
+  tags:
+    - companies
 
 - id: digital_ocean
   name: Digital Ocean
   homepageUrl: https://digitalocean.com/
+  tags:
+    - companies
 
 - id: upstash
   name: Upstash
   homepageUrl: https://upstash.com/
+  tags:
+    - companies
 
 - id: azure
   name: Azure
   homepageUrl: https://azure.microsoft.com/
+  tags:
+    - companies
 
 - id: heroku
   name: Heroku
   homepageUrl: https://heroku.com/
+  tags:
+    - companies
 
 - id: firebase
   name: Firebase
@@ -92,18 +114,26 @@
 - id: hetzner
   name: Hetzner
   homepageUrl: https://www.hetzner.com/
+  tags:
+    - companies
 
 - id: vmware
-  name: Hetzner
-  homepageUrl: https://www.hetzner.com/
+  name: VMWare
+  homepageUrl: https://www.vmware.com/
+  tags:
+    - companies
 
 - id: netlify
   name: Netlify
   homepageUrl: https://www.netlify.com/
+  tags:
+    - companies
 
 - id: linode
   name: Linode
   homepageUrl: https://www.linode.com/
+  tags:
+    - companies
 
 - id: alibaba_cloud
   name: Alibaba Cloud

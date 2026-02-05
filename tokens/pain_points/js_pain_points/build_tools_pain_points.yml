@@ -9,6 +9,7 @@
     - webpack
 
 - id: hot_module_reloading_issues
+  name: Hot module reloading
   patterns:
     - hmr
     - hot module reloading
@@ -18,5 +19,6 @@
     - plug( |-)?in
 
 - id: tree_shaking_issues
+  name: Tree-shaking issues
   patterns:
     - tree( |-)?shaking

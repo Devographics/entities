@@ -241,14 +241,19 @@
   homepageUrl: https://github.com/ladjs/supertest
 
 - id: chromatic
+  name: Chromatic
 
 - id: detox
+  name: Detox
 
 - id: ladle
+  name: Ladle
 
 - id: maestro
+  name: Maestro
 
 - id: sinon
+  name: Sinon
 
 - id: node_test_runner
   name: Node Test Runner

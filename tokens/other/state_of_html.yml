@@ -2,28 +2,6 @@
 #                 html_interoperability_features                 #
 ##################################################################
 
-- id: contenteditable
-  patterns:
-    - content(-| )?editable
-  tags:
-    - html_interoperability_features
-    - html_functionality_features
-
-- id: safari_issues
-  name: Safari issues
-  patterns:
-    - safari
-  tags:
-    - html_interoperability_features
-
-- id: firefox_issues
-  name: Firefox issues
-  patterns:
-    - firefox
-  tags:
-    - html_interoperability_features
-    - mobile_web_apps_pain_points
-
 - id: svg_features
   name: SVG Features
   patterns:

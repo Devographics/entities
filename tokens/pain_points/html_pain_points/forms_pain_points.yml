@@ -273,10 +273,6 @@
     - DELETE
     - http
 
-- id: content_editable
-  name: >
-    `contentEditable`
-
 - id: combo_box
   name: Combobox
 

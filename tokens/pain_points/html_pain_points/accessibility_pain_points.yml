@@ -116,7 +116,7 @@
 - id: a11y_implementation_issues
   name: Implementation issues
 
-- id: too_hard_to_implement
+- id: a11y_too_hard_to_implement
   name: Too hard to implement
   parentId: a11y_implementation_issues
   patterns:
@@ -126,18 +126,18 @@
     - hard to test
     - hard, implement [l]
 
-- id: lack_of_time
+- id: a11y_lack_of_time
   name: Too time-consuming
   parentId: a11y_implementation_issues
   patterns:
     - time [e]
     - time, consuming [l]
 
-- id: excessive_complexity
+- id: a11y_excessive_complexity
   name: Excessive complexity
   parentId: a11y_implementation_issues
 
-- id: lack_of_testers
+- id: a11y_lack_of_testers
   name: Hard to find testers
   parentId: a11y_implementation_issues
 

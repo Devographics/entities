@@ -6,16 +6,20 @@
     - signels, react [l]
 
 - id: excessive_rerendering
-  parentId: context_api
+  name: Excessive Re-rendering
   tags:
     - state_management_pain_points
     - main_apis_pain_points
+    - hooks_pain_points
+    - component_libraries_pain_points
+    - front_end_frameworks_pain_points
   patterns:
     - re(-| )?render [p]
     - double, render [l]
     - double, rendering [l]
     - double, renders [l]
     - rendering twice
+    - re(-| )?rendering
 
 # backwards compatibility typo
 # TODO: delete

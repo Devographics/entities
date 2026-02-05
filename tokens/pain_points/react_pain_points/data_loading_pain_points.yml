@@ -13,5 +13,6 @@
     - optimistic
 
 - id: cancelling_requests
+  name: Cancelling requests
   patterns:
     - cancel [p]

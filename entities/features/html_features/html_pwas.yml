@@ -104,6 +104,9 @@
   name: Web Bluetooth
   description: |
     Connect to and communicate with nearby Bluetooth Low Energy (BLE) devices.
+  descriptionIssues: >
+    Issues around the web bluetooth API and generally accessing bluetooth
+    capabilities from web apps.
   example:
     language: js
     code: |
@@ -114,6 +117,9 @@
   resources:
     - url: https://developer.chrome.com/docs/capabilities/bluetooth
       title: Communicating with Bluetooth devices over JavaScript
+  parentId: apis_capabilities
+  tags:
+    - browser_apis_pain_points
 
 - id: webgpu
   name: WebGPU
@@ -178,6 +184,8 @@
   mdn: en-US/docs/Web/API/HTML_Drag_and_Drop_API
   patterns:
     - drag, drop, api [l]
+  tags:
+    - browser_apis_pain_points
 
 - id: history_api
   name: History API

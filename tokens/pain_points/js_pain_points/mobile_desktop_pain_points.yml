@@ -3,6 +3,7 @@
 ##################################################################
 
 - id: app_stores
+  name: App stores issues
   patterns:
     - app store
 
@@ -13,8 +14,6 @@
 
 - id: android_issues
   name: Android issues
-
-- id: javascript
 
 - id: pwas
   patterns:
@@ -29,8 +28,6 @@
     - native, limited [l]
 
 - id: native_code_integration
-
-- id: build_issues
 
 - id: plugins_issues
   patterns:

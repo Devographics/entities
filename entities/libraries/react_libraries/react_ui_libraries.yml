@@ -51,3 +51,7 @@
 - id: base_ui
   name: base ui
   homepageUrl: https://base-ui.com/
+
+- id: ring_ui
+  name: Ring UI
+  homepageUrl: https://jetbrains.github.io/ring-ui/

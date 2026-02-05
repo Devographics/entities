@@ -2,12 +2,6 @@
 #                  browser_apis_pain_points                      #
 ##################################################################
 
-- id: bluetooth
-
-- id: firefox_issues
-  patterns:
-    - firefox
-
 - id: dom_api
   name: DOM API
   patterns:
@@ -39,20 +33,7 @@
     - pwa
 
 - id: cookies
-
-- id: content_editable
-
-- id: canvas_element
-  patterns:
-    - canvas
-
-- id: drag_and_drop_api
-  patterns:
-    - drag, drop [l]
-
-- id: history_api
-  patterns:
-    - history
+  name: Cookies
 
 - id: web_audio
   patterns:
@@ -78,6 +59,7 @@
     - web worker
 
 - id: lack_of_hardware_apis
+  name: Lack of hardware APIs
   patterns:
     - hardware
 

@@ -746,6 +746,7 @@
       title: Float16Array Proposal
 
 - id: js_native_types
+  name: JavaScript native types
   patterns:
     - native type
     - native typing

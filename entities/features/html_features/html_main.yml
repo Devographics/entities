@@ -2112,14 +2112,6 @@
     - url: https://developer.chrome.com/docs/capabilities/usb
       title: Access USB Devices on the Web
 
-- id: web_bluetooth
-  name: |
-    Web Bluetooth
-  descriptionIssues: >
-    Issues around the web bluetooth API and generally accessing bluetooth
-    capabilities from web apps.
-  parentId: apis_capabilities
-
 - id: web_midi_api
   name: |
     Web MIDI API

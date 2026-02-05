@@ -146,48 +146,54 @@
     - server( |-)?side components
     - rsc(s)?
 
-- id: renderToNodeStream
-#   name:
+- id: render_to_node_stream
+  name: >
+    `renderToNodeStream`
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: renderToPipeableStream
-#   name:
+- id: render_to_pipeable_stream
+  name: >
+    `renderToPipeableStream`
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: renderToReadableStream
-#   name:
+- id: render_to_readable_stream
+  name: >
+    `renderToReadableStream``
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: renderToStaticMarkup
-#   name:
+- id: render_to_static_markup
+  name: >
+    `renderToStaticMarkup`
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: renderToStaticNodeStream
-#   name:
+- id: render_to_static_node_stream
+  name: >
+    `renderToStaticNodeStream`
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: renderToString
-#   name:
+- id: render_to_string
+  name: >
+    `renderToString`
 #   example:
 #     language: jsx
 #     code: |
@@ -196,7 +202,7 @@
 
 # legacy_apis
 
-- id: cloneelement
+- id: clone_element
   name: >
     `cloneElement`
   example:
@@ -219,7 +225,7 @@
 
   homepageUrl: https://react.dev/reference/react/Component
 
-- id: createelement
+- id: create_element
   name: >
     `createElement`
   description: >
@@ -230,32 +236,37 @@
       const element = createElement(type, props, ...children)
   homepageUrl: https://react.dev/reference/react/createElement
 #
-- id: createFactory
-#   name:
+- id: create_factory
+  name: >
+    `createFactory`
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: createRef
-#   name:
+- id: create_ref
+  name: >
+    `createRef`
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: isValidElement
-#   name:
+- id: is_valid_element
+  name: >
+    `isValidElement`
 #   example:
 #     language: jsx
 #     code: |
 
 #   homepageUrl:
 #
-- id: PureComponent
-#   name:
+- id: pure_component
+  name: >
+    `PureComponent`
+
 #   example:
 #     language: jsx
 #     code: |

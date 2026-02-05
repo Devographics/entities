@@ -423,6 +423,7 @@
     - legacy project
 
 - id: too_time_consuming
+  name: Too time-consuming
   patterns:
     - time consuming
 
@@ -457,6 +458,7 @@
     security risks.
 
 - id: lack_of_flexibility
+  name: Lack of flexibility
   patterns:
     - not flexible
     - inflexib [p]
@@ -472,11 +474,13 @@
     - auth
 
 - id: cache_issues
+  name: Cache issues
   patterns:
     - cache
     - caching
 
 - id: scaling_issues
+  name: Scaling issues
   patterns:
     - scaling
     - scalability
@@ -871,3 +875,7 @@
     Separation of Concerns
   description: >
     Ensuring features with different purposes are written and function separately.
+
+- id: pricing_issues
+  patterns:
+    - pricing

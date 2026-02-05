@@ -22,3 +22,4 @@
     - typescript
 
 - id: imports_issues
+  name: Imports issues

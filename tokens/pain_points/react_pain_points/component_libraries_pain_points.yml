@@ -2,7 +2,7 @@
   patterns:
     - css, in, js [l]
 
-- id: tailwind_issues
+- id: tailwind
   patterns:
     - tailwind [p]
 

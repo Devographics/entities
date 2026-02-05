@@ -97,6 +97,7 @@
     - float [p]
 
 - id: array_methods
+  name: Array methods
   description: Issues with array methods
   patterns:
     - array methods
@@ -118,6 +119,7 @@
     - backwards
 
 - id: callbacks
+  name: Callbacks
   description: Issues with callbacks
   patterns:
     - callback
@@ -130,7 +132,7 @@
     - classes
 
 - id: closures
-  description: Closures
+  name: Closures
   patterns:
     - closure
 
@@ -158,7 +160,7 @@
     - import
 
 - id: js_fatigue
-  description: JavaScript Fatigue
+  name: JavaScript Fatigue
 
 - id: this_keyword
   description: >
@@ -225,41 +227,50 @@
     - transpil [p]
 
 - id: try_catch
+  name: "Try/catch"
   patterns:
     - try.*catch
 
-- id: community
-
 - id: flexibility
+  name: Flexibility
 
 - id: ease_of_use
+  name: Ease of use
 
 - id: syntax_issues
+  name: Syntax issues
   patterns:
     - syntax
 
 - id: hoisting_issues
+  name: Hoisting issues
   patterns:
     - hoisting
     - hoist
 
 - id: race_conditions
+  name: Race conditions
   patterns:
     - race
 
 - id: readability_issues
+  name: Readability issues
   patterns:
     - readability
 
 - id: references_issues
+  name: Reference issues
   patterns:
     - reference
 
 - id: this_keyword_issues
+  name: >
+    `this` keyword issues
   patterns:
     - this [e]
 
 - id: lack_of_pattern_matching
+  name: Pattern matching
   patterns:
     - pattern matching
     - pattern match
@@ -267,6 +278,7 @@
     - matching operator
 
 - id: lack_of_pipe_operator
+  name: Pipe operator
   patterns:
     - pipe
     - piping
@@ -291,7 +303,7 @@
     - decorators
 
 - id: lack_of_static_typing
-  name: Lack of static typing
+  name: Static typing
   description: Lack of native typing
   patterns:
     - typing
