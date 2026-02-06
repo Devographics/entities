@@ -13,6 +13,8 @@
   description: >
     Ariakit is an open source library that provides lower-level React components and hooks for building accessible web apps, design systems, and component libraries.
   homepageUrl: https://ariakit.org/
+  patterns:
+    - aria( |-)?kit
 
 - id: react_aria
   name: React Aria
@@ -49,9 +51,13 @@
   homepageUrl: https://www.telerik.com/kendo-react-ui
 
 - id: base_ui
-  name: base ui
+  name: Base UI
   homepageUrl: https://base-ui.com/
 
 - id: ring_ui
   name: Ring UI
   homepageUrl: https://jetbrains.github.io/ring-ui/
+
+- id: coss_ui
+  name: Coss UI
+  homepageUrl: https://coss.com/ui
