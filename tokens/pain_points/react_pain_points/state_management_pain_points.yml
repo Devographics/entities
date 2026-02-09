@@ -1,11 +1,3 @@
-- id: redux_issues
-  patterns:
-    - redux
-
-- id: mobx_issues
-  patterns:
-    - mobx
-
 - id: global_state_management
   name: Global state management
   patterns:

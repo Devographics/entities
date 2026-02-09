@@ -1,7 +1,3 @@
-# GraphQL API Generators
-- id: prisma
-  name: Prisma
-  homepageUrl: https://www.prisma.io/graphql
 - id: postgraphile
   name: PostGraphile
   homepageUrl: https://github.com/graphile/postgraphile

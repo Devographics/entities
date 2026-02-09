@@ -367,12 +367,6 @@
   description: The official, opinionated, batteries-included toolset for efficient Redux development
   homepageUrl: https://redux-toolkit.js.org/
 
-- id: prisma
-  name: Prisma
-  homepageUrl: https://www.prisma.io/
-  tags:
-    - orm
-
 - id: drizzle
   name: Drizzle
   homepageUrl: https://orm.drizzle.team/

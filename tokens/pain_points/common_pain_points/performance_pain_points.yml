@@ -152,3 +152,9 @@
   name: Resource-intensive
   patterns:
     - resource, intensive [l]
+
+- id: caching_issues
+  name: Caching issues
+  patterns:
+    - caching
+    - cache

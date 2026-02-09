@@ -41,9 +41,6 @@
 - id: react
   name: React
 
-- id: caching
-  name: Caching
-
 - id: typescript_issues
   name: TypeScript issues
   descriptionIssues: >

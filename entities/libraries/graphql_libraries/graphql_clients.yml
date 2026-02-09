@@ -24,9 +24,6 @@
 - id: graphql_request
   name: graphql-request
   homepageUrl: https://github.com/prisma-labs/graphql-request
-- id: fetch
-  name: fetch or equivalent (no GraphQL client)
-  homepageUrl: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - id: gquery
   name: gQuery
   homepageUrl: https://gquery.leveluptutorials.com/

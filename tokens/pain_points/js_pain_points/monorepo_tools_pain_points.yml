@@ -2,10 +2,6 @@
 #                    monorepo_tools_pain_points                  #
 ##################################################################
 
-- id: caching
-  patterns:
-    - cache
-
 - id: multi_language_support
   patterns:
     - cross( |-)?language

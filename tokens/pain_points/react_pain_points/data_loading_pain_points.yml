@@ -1,5 +1,3 @@
-- id: caching
-
 - id: graphql_issues
   patterns:
     - graphql

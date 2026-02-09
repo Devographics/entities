@@ -43,12 +43,6 @@
     - stores
     - storing
 
-- id: caching_issues
-  name: Caching issues
-  patterns:
-    - caching
-    - cache
-
 - id: gesture_handling
   patterns:
     - gesture

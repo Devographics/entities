@@ -365,6 +365,8 @@
 - id: contentful
 
 - id: convex
+  name: Convex
+  homepageUrl: https://www.convex.dev/
 
 - id: launch_darkly
 
@@ -565,3 +567,10 @@
 - id: customer_io
   name: Customer.io
   homepageUrl: https://customer.io/
+
+- id: prisma
+  name: Prisma
+  homepageUrl: https://www.prisma.io/
+  tags:
+    - orm
+    - graphql
