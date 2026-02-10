@@ -1,25 +1,11 @@
 - id: css_in_js_issues
+  name: CSS-in-JS issues
   patterns:
     - css, in, js [l]
-
-- id: tailwind
-  patterns:
-    - tailwind [p]
-
-- id: mui_issues
-  patterns:
-    - mui
-
-- id: styled_components_issues
-  patterns:
-    - styled components
-
-# redundant with "styling & customization"
-# - id: css_issues
-#   name: CSS issues
-#   patterns:
-#     - css
 
 - id: prop_drilling
   patterns:
     - passing props
+
+- id: scoping_issues
+  name: Scoping issues

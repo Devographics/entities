@@ -473,12 +473,6 @@
   patterns:
     - auth
 
-- id: cache_issues
-  name: Cache issues
-  patterns:
-    - cache
-    - caching
-
 - id: scaling_issues
   name: Scaling issues
   patterns:
@@ -552,7 +546,7 @@
     - companies
     - employer
     - boss
-    - management
+    # - management # false positives with state management
 
 - id: lack_of_budget
   name: Lack of budget
@@ -879,3 +873,6 @@
 - id: pricing_issues
   patterns:
     - pricing
+
+- id: poor_naming
+  name: Poor naming

@@ -92,6 +92,7 @@
   tags:
     - css_pain_points
     - gamechanger_feature
+    - component_libraries_pain_points
 
 - id: tailwind_ui
   name: Tailwind UI

@@ -8,6 +8,7 @@
     End-user experience
   description: >
     Issues around difficulties providing a good user experience for end-users.
+  instructions: >
     Do not include DX issues here (use `ergonomics` for that).
 
 - id: too_much_work
@@ -153,3 +154,10 @@
   parentId: cognitive_overload
   patterns:
     - foot( |-)?gun
+
+- id: too_much_to_learn
+  name: |
+    Too much to learn
+  description: >
+    Wide API surface, too many things to learn.
+  parentId: cognitive_overload

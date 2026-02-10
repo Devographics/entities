@@ -79,7 +79,7 @@
       const id = useId()
   homepageUrl: https://react.dev/reference/react/useId
 #
-- id: useImperativeHandle
+- id: useimperativehandle
 #   name:
 #   example:
 #     language: jsx
@@ -87,7 +87,7 @@
 
 #   homepageUrl:
 #
-- id: useInsertionEffect
+- id: useinsertioneffect
 #   name:
 #   example:
 #     language: jsx
@@ -95,7 +95,7 @@
 
 #   homepageUrl:
 #
-- id: useLayoutEffect
+- id: uselayouteffect
   name: >
     `useLayoutEffect`
 #   name:

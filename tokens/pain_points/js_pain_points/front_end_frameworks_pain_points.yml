@@ -101,23 +101,11 @@
 
 # vue issues
 
-- id: vue_issues
-  name: Vue.js issues
-  patterns:
-    - vue
-
 - id: vue_migration_issues
-  parentId: vue_issues
+  parentId: vuejs
   name: Migration issues
   patterns:
     - vue, migrat [l]
-
-# angular issues
-
-- id: angular_issues
-  name: Angular issues
-  patterns:
-    - angular
 
 - id: async_issues
   name: Async issues

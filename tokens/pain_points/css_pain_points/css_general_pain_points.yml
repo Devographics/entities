@@ -74,14 +74,14 @@
 - id: generated_content_replaced_elements
   name: |
     ::before and ::after on replaced elements
-  parentId: css_issues
+  parentId: styling_customization
 
 - id: css_values_units
   name: |
     CSS Values & Units
   description: |
     Pain points related to specific CSS values and units.
-  parentId: css_issues
+  parentId: styling_customization
 
 - id: top_layer
   name: |
@@ -90,4 +90,4 @@
     Issues related to the top layer, where elements like <dialog> and popovers
     are rendered. Includes z-index conflicts, stacking order control, and
     interactions between multiple top-layer elements.
-  parentId: css_issues
+  parentId: styling_customization

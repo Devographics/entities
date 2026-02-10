@@ -65,6 +65,8 @@
         {createPortal(children, domNode, key?)}
       </div>
   homepageUrl: https://react.dev/reference/react-dom/createPortal
+  patterns:
+    - portal
 #
 # - id: flushSync
 #   name:

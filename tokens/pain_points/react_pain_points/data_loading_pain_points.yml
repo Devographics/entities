@@ -2,10 +2,6 @@
   patterns:
     - graphql
 
-- id: apollo_issues
-  patterns:
-    - apollo
-
 - id: optimistic_updates
   patterns:
     - optimistic
@@ -14,3 +10,9 @@
   name: Cancelling requests
   patterns:
     - cancel [p]
+
+- id: data_loading_issues
+  name: Data loading issues
+
+- id: typesafe_data_loading
+  name: Typesafe data loading

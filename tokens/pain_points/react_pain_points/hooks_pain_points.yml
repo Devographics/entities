@@ -1,3 +1,6 @@
+- id: hooks_general_issues
+  name: Bad programming pattern
+
 - id: rules_of_hooks
   patterns:
     - rules, hooks [l]

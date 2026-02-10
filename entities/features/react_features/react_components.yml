@@ -13,6 +13,8 @@
         <OneChild />
         <AnotherChild />
       </>
+  patterns:
+    - fragments
 
 - id: profiler
   name: >
