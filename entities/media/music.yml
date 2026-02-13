@@ -736,8 +736,10 @@
   name: Gorillaz
 - genre: rock
   homepageUrl: https://www.rush.com/
-  id: rush
+  id: rush_music
   name: Rush
+  patterns:
+    - rush
 - genre: hip_hop
   homepageUrl: https://www.renmakesmusic.co.uk/
   id: ren
