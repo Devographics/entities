@@ -9,9 +9,6 @@
 - id: yoga_graphql
   name: Yoga
   homepageUrl: https://www.graphql-yoga.com/
-- id: helix
-  name: Helix
-  homepageUrl: https://www.graphql-helix.com/
 - id: express_graphql
   name: Express-GraphQL
   homepageUrl: https://github.com/graphql/express-graphql

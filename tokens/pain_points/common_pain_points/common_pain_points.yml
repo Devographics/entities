@@ -441,6 +441,7 @@
     - flakiness
 
 - id: overuse_issues
+  name: Overuse
   patterns:
     - overkill
     - overuse
