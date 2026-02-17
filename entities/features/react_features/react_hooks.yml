@@ -27,6 +27,7 @@
   patterns:
     - context [e]
     - context api
+    - react context
 
 - id: usedebugvalue
   name: >

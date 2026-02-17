@@ -154,13 +154,6 @@
   description: ️ The Jamstack framework for Vue.js
   homepageUrl: "https://gridsome.org"
 
-- id: blitz
-  name: Blitz
-  npm: blitz
-  github: blitz-js/blitz
-  description: ️The Fullstack React Framework — built on Next.js
-  homepageUrl: "https://Blitzjs.com"
-
 - id: loopback_4
   name: LoopBack 4
   npm: "@loopback/core"

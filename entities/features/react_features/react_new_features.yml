@@ -17,10 +17,6 @@
   name: Activity (formerly Offscreen)
   homepageUrl: https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024#offscreen-renamed-to-activity
 
-- id: react_activity
-  name: Activity (formerly Offscreen)
-  homepageUrl: https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024#offscreen-renamed-to-activity
-
 - id: react_forget
   name: React Compiler
   homepageUrl: https://react.dev/learn/react-compiler

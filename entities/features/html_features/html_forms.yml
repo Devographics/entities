@@ -142,16 +142,6 @@
   name: |
     `<input type="url">`
 
-- id: input_type_month
-  name: |
-    `<input type="month">`
-
-- id: input_type_number
-  name: |
-    `<input type="number">`
-  patterns:
-    - number
-
 - id: input_type_range
   name: |
     `<input type="range">`

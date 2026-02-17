@@ -170,11 +170,17 @@
   name: TanStack Query
   homepageUrl: https://tanstack.com/query/v4
   patterns:
-    - react query
+    - react(-| |_)?query
     - tanstack [e]
     - tan( )?stack( )?query
   tags:
     - data_fetching
+
+- id: tanstack_store
+  name: TanStack Store
+  homepageUrl: https://tanstack.com/store/latest
+  patterns:
+    - tan( |-)?stack( |-)?store
 
 - id: tanstack_forms
   name: TanStack Forms
@@ -241,3 +247,7 @@
 - id: nuqs
   name: nuqs
   homepageUrl: https://nuqs.47ng.com/
+
+- id: reatom
+  name: Reatom
+  homepageUrl: https://v1000.reatom.dev/

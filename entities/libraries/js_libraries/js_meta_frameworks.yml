@@ -25,6 +25,8 @@
   description: >-
     The Fullstack React Framework
   homepageUrl: https://blitzjs.com/
+  tags:
+    - js_backend_frameworks
 
 - id: remix
   name: Remix

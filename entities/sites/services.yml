@@ -123,12 +123,6 @@
   tags:
     - companies
 
-- id: netlify
-  name: Netlify
-  homepageUrl: https://www.netlify.com/
-  tags:
-    - companies
-
 - id: linode
   name: Linode
   homepageUrl: https://www.linode.com/

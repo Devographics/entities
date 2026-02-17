@@ -307,16 +307,16 @@
 - id: sandbox_attribute
   name: "`sandbox` attribute on `<iframe>`"
   needsTranslation: true
-  description: Enables additional restrictions on `<iframe>` content.
+  description: Applies restrictions to the content embedded in the `<iframe>`.
   example:
     language: html
     code: |-
-      <iframe sandbox="allow-scripts allow-same-origin"></iframe>
+      <iframe sandbox="allow-forms allow-same-origin" src="blank.html"></iframe>
   mdn: en-US/docs/Web/HTML/Element/iframe#sandbox
   resources:
     - url: https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox
       title: HTML Standard
-  caniuse: mdn-html_elements_iframe_sandbox
+  caniuse: iframe-sandbox
   tags:
     - features
 
@@ -932,6 +932,7 @@
   name: Landmark elements
   needsTranslation: true
   description: "`<main>`, `<nav>`, `<aside>`, `<header>`, `<footer>`, `<section>`"
+  homepageUrl: https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html
   resources:
     - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/main
       title: |
@@ -1504,21 +1505,6 @@
     - url: https://html.spec.whatwg.org/multipage/links.html#link-type-prerender
       title: HTML Standard
   caniuse: link-rel-prerender
-  tags:
-    - features
-
-- id: sandbox_attribute
-  name: "`sandbox` attribute for iframes"
-  needsTranslation: true
-  description: Applies restrictions to the content embedded in the `<iframe>`.
-  example:
-    language: html
-    code: <iframe sandbox="allow-forms allow-same-origin" src="blank.html"></iframe>
-  mdn: en-US/docs/Web/HTML/Element/iframe#sandbox
-  resources:
-    - url: https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox
-      title: HTML Standard
-  caniuse: iframe-sandbox
   tags:
     - features
 

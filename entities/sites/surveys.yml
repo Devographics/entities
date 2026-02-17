@@ -178,12 +178,6 @@
   name: State of React Native (Software Mansion)
   homepageUrl: https://results.stateofreactnative.com/
 
-- id: netlify_survey
-  name: Netlify Web Development Survey
-  homepageUrl: https://www.netlify.com/blog/announcing-the-2023-web-development-survey/
-  patterns:
-    - netlify
-
 - id: state_of_vue_survey
   name: State of Vue.js
   homepageUrl: https://stateofvue.framer.website/

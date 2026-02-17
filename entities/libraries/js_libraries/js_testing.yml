@@ -263,10 +263,6 @@
   name: Cucumber
   homepageUrl: https://cucumber.io/
 
-- id: node_tap
-  name: Node-Tap
-  homepageUrl: https://node-tap.org/
-
 - id: bun_test
   name: >
     `bun test`
