@@ -120,7 +120,7 @@
   description: >
     The lack of a native way to create buttons that act as toggles (pressed =
     on), including toggle button groups.
-  parentId: forms_issues
+  parentId: form_issues
 
 - id: editing_apis
   name: |

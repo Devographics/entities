@@ -413,7 +413,7 @@
     - build time
 
 - id: form_issues
-  name: Form issues
+  name: Forms issues
   patterns:
     - form
 
@@ -777,7 +777,6 @@
     Scrollbars
   description: |
     Issues related to scrollbars.
-  parentId: forms_issues
   instructions: >
     For pain points around styling scrollbars, combine with `styling` and
     `browser_support` or `limitations` depending on whether it’s an interop

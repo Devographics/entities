@@ -373,7 +373,7 @@
   descriptionIssues: >
     Pain points related to the `<datalist>` element, including styling and
     inconsistent UI.
-  parentId: forms_issues
+  parentId: form_input_issues
   example:
     language: html
     code: |-

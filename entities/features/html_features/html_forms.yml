@@ -24,7 +24,7 @@
     - html_functionality_features
   descriptionIssues: |
     Pain points related to the `<select>` element.
-  parentId: forms_issues
+  parentId: form_input_issues
 
 - id: select_multiple_element
   name: |
@@ -149,7 +149,7 @@
     - html_missing_elements
   descriptionIssues: |
     Pain points related to `<input type="range">`.
-  parentId: forms_issues
+  parentId: form_input_issues
 
 - id: input_type_range_list
   name: |
@@ -255,7 +255,7 @@
   descriptionIssues: >
     General pain points with the `<input>` element or for input types not
     covered by more specific codes.
-  parentId: forms_issues
+  parentId: form_input_issues
 
 - id: color_picker
   name: |
@@ -294,7 +294,7 @@
     `<textarea>`
   descriptionIssues: |
     Pain points specific to the `<textarea>` element.
-  parentId: forms_issues
+  parentId: form_input_issues
   tags:
     - forms_pain_points
   patterns:
@@ -305,7 +305,7 @@
   description: Autocomplete, comboxbox, typeahead, etc. inputs
   descriptionIssues: |
     Pain points with the `autocomplete` attribute and browser autofill behavior.
-  parentId: forms_issues
+  parentId: form_input_issues
   patterns:
     - combo( |-)?box
     - autocomplete
@@ -327,7 +327,7 @@
     `<input type="checkbox">`
   descriptionIssues: |
     Pain points specific to `<input type="checkbox">`.
-  parentId: forms_issues
+  parentId: form_input_issues
   mdn: en-US/docs/Web/HTML/Reference/Elements/input/checkbox
   patterns:
     - checkbox [p]
@@ -337,7 +337,7 @@
     `<input type="radio">`
   descriptionIssues: |
     Pain points specific to `<input type="radio">`.
-  parentId: forms_issues
+  parentId: form_input_issues
   mdn: en-US/docs/Web/HTML/Reference/Elements/input/radio
   patterns:
     - radio
@@ -348,7 +348,7 @@
   descriptionIssues: >
     Pain points related to styling and using the `<fieldset>` and `<legend>`
     elements.
-  parentId: forms_issues
+  parentId: form_issues
   patterns:
     - fieldset
 
@@ -360,7 +360,7 @@
   descriptionIssues: >
     Pain points specific to `<input type="number">`, including styling stepper
     buttons and inconsistent behavior.
-  parentId: forms_issues
+  parentId: form_input_issues
   patterns:
     - number, input [l]
 
@@ -372,7 +372,7 @@
   description: >
     Pain points specific to `<input type="file">`, especially around styling the
     button and displaying selected files.
-  parentId: forms_issues
+  parentId: form_input_issues
   patterns:
     - file
 

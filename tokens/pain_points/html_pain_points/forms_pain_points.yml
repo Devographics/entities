@@ -188,7 +188,7 @@
   descriptionIssues: >
     Pain points related to the `<button>` element, including its default
     behaviors within a form.
-  parentId: forms_issues
+  parentId: form_issues
   patterns:
     - button
   tags:
@@ -294,7 +294,7 @@
   descriptionIssues: >
     Pain points related to implementing forms that are broken into multiple
     steps or pages.
-  parentId: forms_issues
+  parentId: form_issues
   patterns:
     - multi(-| )?step
     - multi(-| )?page
@@ -321,7 +321,7 @@
   description: >
     Pain points related to the UI that "picks" a value for an input, such as a
     calendar or color swatch.
-  parentId: forms_issues
+  parentId: form_input_issues
 
 - id: multi_handle_slider
   name: |
@@ -338,7 +338,7 @@
     Form Validation
   description: |
     General pain points with form validation.
-  parentId: forms_issues
+  parentId: form_issues
 
 - id: validation_errors
   name: |
@@ -370,7 +370,7 @@
     Forms & JS
   description: |
     Pain points related to handling forms with JS, form JS APIs, events, etc.
-  parentId: forms_issues
+  parentId: form_issues
 
 - id: multi_value_inputs
   name: |
@@ -378,14 +378,14 @@
   description: >
     Issues around difficulties with using or creating input elements for
     complex, structured values, involving multiple elementary form controls.
-  parentId: forms_issues
+  parentId: form_input_issues
 
 - id: form_submission_issues
   name: |
     Form Submission
   description: |
     Pain points related to the process of submitting form data.
-  parentId: forms_issues
+  parentId: form_issues
 
 - id: forms_state_management
   name: |
@@ -410,7 +410,7 @@
     The lack of a native, accessible combobox element that combines a text input
     with a dropdown list of suggestions, similar to `<datalist>` but with more
     control.
-  parentId: forms_issues
+  parentId: form_input_issues
 
 - id: select_element_search
   name: |
@@ -490,7 +490,7 @@
   description: >
     Pain points related to the HTML specification's limitation that <form>
     elements cannot be nested inside one another.
-  parentId: forms_issues
+  parentId: form_issues
 
 - id: input_state_management
   name: |
