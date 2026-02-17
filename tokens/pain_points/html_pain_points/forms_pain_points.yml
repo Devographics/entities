@@ -194,9 +194,6 @@
   tags:
     - html_pwas
 
-- id: input_type_file
-  parentId: form_input_issues
-
 - id: input_type_radio
   parentId: form_input_issues
 
@@ -207,11 +204,6 @@
   parentId: form_input_issues
   patterns:
     - range
-
-- id: input_type_number
-  parentId: form_input_issues
-  patterns:
-    - number, input [l]
 
 - id: input_type_color
   parentId: form_input_issues

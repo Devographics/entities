@@ -155,12 +155,6 @@
   name: |
     `<input type="range" list>` for ticks
 
-- id: input_type_file
-  name: |
-    `<input type="file">`
-  patterns:
-    - file
-
 - id: output_element
   name: |
     `<output>`
@@ -367,6 +361,8 @@
     Pain points specific to `<input type="number">`, including styling stepper
     buttons and inconsistent behavior.
   parentId: forms_issues
+  patterns:
+    - number, input [l]
 
 - id: input_type_file
   idAliases:
@@ -377,6 +373,8 @@
     Pain points specific to `<input type="file">`, especially around styling the
     button and displaying selected files.
   parentId: forms_issues
+  patterns:
+    - file
 
 - id: content_editable_attribute
   name: >
