@@ -13,10 +13,6 @@
 
 - id: polyfills
 
-- id: pwas
-  patterns:
-    - pwa
-
 - id: cookies
   name: Cookies
 
