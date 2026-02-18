@@ -374,9 +374,6 @@
     If a feature makes SEO hard, combine with `ergonomics`. If a feature makes
     content inaccessible to SEO with no way out, combine with `limitations`.
 
-- id: testing
-  name: Testing
-
 - id: frustration_with_frameworks
   name: Reliance on frameworks
   description: Excessive reliance on frameworks and libraries over native APIs
@@ -726,6 +723,12 @@
     Things being hard to test, unclear how to test them, difficulty procuring
     the right tools or resources to test, etc.
   parentId: debugging_issues
+  patterns:
+    - testing
+  tags:
+    - mobile_web_apps_pain_points
+    - mobile_desktop_pain_points
+    - accessibility_pain_poins
 
 - id: debugging_issues
   name: |
@@ -744,13 +747,12 @@
     Issues related to UI animations across all technologies, regardless of
     technology used to implement them (CSS animations, Lottie, etc)
 
-- id: rendering_issues
+- id: browser_rendering_issues
   name: |
     Rendering
   description: >
     General issues related to the browser's process of painting pixels on the
     screen, including layout, style recalculation, and compositing.
-  parentId: poor_design_issues
 
 - id: virtualization
   name: |

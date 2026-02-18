@@ -88,8 +88,6 @@
     For issues around import maps being hard to manage, combine with
     `ergonomics` or a suitable leaf.
 
-- id: indexed_db
-
 - id: marquee
 
 - id: math_ml
@@ -125,10 +123,6 @@
 - id: navigator_share_api
   patterns:
     - navigator, share
-
-- id: intl_api
-  patterns:
-    - intl
 
 - id: keyboard_api
   patterns:

@@ -9,21 +9,6 @@
   tags:
     - front_end_frameworks_pain_points
 
-- id: fetch_api
-  name: Fetch API
-  patterns:
-    - fetch
-
-- id: indexed_db
-  patterns:
-    - fetch
-
-- id: intl_api
-  patterns:
-    - intl
-
-- id: local_storage
-
 - id: permissions
 
 - id: polyfills
@@ -34,29 +19,6 @@
 
 - id: cookies
   name: Cookies
-
-- id: web_audio
-  patterns:
-    - audio
-
-- id: browser_support
-  patterns:
-    - availability
-    - browser parity
-    - browser, implement
-    - coverage
-    - inconsistencies
-    - inconsistency
-    - inconsistent
-    - support
-
-- id: discoverability
-  patterns:
-    - discover
-
-- id: web_workers
-  patterns:
-    - web worker
 
 - id: lack_of_hardware_apis
   name: Lack of hardware APIs

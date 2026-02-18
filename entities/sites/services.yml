@@ -379,6 +379,10 @@
 - id: rollbar
 
 - id: sanity
+  name: Sanity
+  patterns:
+    - sanity [p]
+  homepageUrl: https://www.sanity.io/
 
 - id: turso
   name: Turso

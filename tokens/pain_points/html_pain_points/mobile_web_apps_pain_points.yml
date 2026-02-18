@@ -31,9 +31,6 @@
 
 - id: os_support
 
-- id: testing
-  name: Testing
-
 - id: storage
   name: Storage
   descriptionIssues: |

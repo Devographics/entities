@@ -7,6 +7,10 @@
 
 - id: routing
   name: Routing
+  patterns:
+    - router
+  tags:
+    - meta_frameworks_pain_points
 
 - id: server_components
   name: Server components
@@ -35,10 +39,6 @@
     - abstraction
   tags:
     - meta_frameworks_pain_points
-
-- id: styling_customization
-  patterns:
-    - css
 
 - id: cross_framework_integration
   name: Cross-framework integration
@@ -127,12 +127,6 @@
   patterns:
     - change, detection [l]
 
-- id: data_loading_issues
-  name: Data loading
-  patterns:
-    - data, loading [l]
-    - data, management [l]
-
 - id: lack_of_skill_transferability
   name: Poor skill transferability
   patterns:
@@ -150,12 +144,6 @@
   patterns:
     - memoization
     - memo
-
-- id: rendering_issues
-  name: Rendering issues
-  patterns:
-    - render
-    - rendering
 
 - id: prefer_vanilla_js
 

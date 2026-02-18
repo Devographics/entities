@@ -56,6 +56,7 @@
   homepageUrl: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
   tags:
     - runtimes
+    - browser_apis_pain_points
 
 - id: gjs
   name: gjs
@@ -134,12 +135,6 @@
     - next
     - vercel
     - edge, runtime [l]
-  tags:
-    - edge_runtimes
-
-- id: netlify_edge_functions
-  name: Netlify Edge Functions
-  homepageUrl: https://docs.netlify.com/edge-functions/overview/
   tags:
     - edge_runtimes
 

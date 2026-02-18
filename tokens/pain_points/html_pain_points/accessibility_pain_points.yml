@@ -59,9 +59,9 @@
     `tabindex`
   parentId: a11y_technical_issues
 
-- id: testing
-  name: Testing
-  parentId: a11y_technical_issues
+# - id: testing
+#   name: Testing
+#   parentId: a11y_technical_issues
 
 - id: carousels
   parentId: a11y_technical_issues
@@ -70,8 +70,8 @@
   name: ARIA
   parentId: a11y_technical_issues
 
-- id: styling_customization
-  parentId: a11y_technical_issues
+# - id: styling_customization
+#   parentId: a11y_technical_issues
 
 - id: web_components_issues
   name: Web components issues

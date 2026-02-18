@@ -2,11 +2,6 @@
 #                     js_missing_features                        #
 ##################################################################
 
-- id: optional_chaining
-  name: Optional Chaining
-  patterns:
-    - conditional chaining
-
 - id: battery_api
   name: Battery API
 
@@ -31,11 +26,11 @@
   patterns:
     - currying
 
-- id: simplicity
+- id: lack_of_simplicity
   name: Simplicity
-
-- id: sanity
-  name: Sanity
+  patterns:
+    - simplicity
+    - sanity
 
 - id: tree_shaking
   name: Tree Shaking
@@ -264,7 +259,7 @@
   patterns:
     - list, comprehension [l]
 
-- id: memory_management
+- id: js_memory_management
   name: Memory management
   patterns:
     - memory, control [l]

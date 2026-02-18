@@ -13,15 +13,6 @@
     Iff the API/capability does not correspond to a specific descendant, use
     `apis_capabilities` directly.
 
-- id: web_audio_api
-  name: |
-    Web Audio API
-  description: >
-    Issues related to the Web Audio API, such as latency (combine with
-    `performance`), dropouts (combine with `quality`), or cross-browser
-    inconsistencies (combine with `browser_support`).
-  parentId: apis_capabilities
-
 - id: audio_issues
   name: |
     Audio

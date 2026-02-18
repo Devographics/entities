@@ -33,11 +33,6 @@
   patterns:
     - next, 13 [l]
 
-- id: routing
-  name: Routing
-  patterns:
-    - router
-
 - id: maturity
 
 - id: javascript_on_the_server

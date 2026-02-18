@@ -30,11 +30,3 @@
     Issues related to the localization of number inputs and programmatic number
     formatting, such as handling different decimal separators.
   parentId: i18n_issues
-
-- id: intl_apis
-  name: |
-    Intl API
-  description: >
-    Pain points related to the JavaScript `Intl` object and its APIs, such as
-    being too low-level, missing features, or ergonomic issues.
-  parentId: i18n_issues

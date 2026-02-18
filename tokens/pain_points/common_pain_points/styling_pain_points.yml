@@ -19,14 +19,6 @@
     changing text, adding or removing controls, etc.
   parentId: styling_customization
 
-- id: poor_design_issues
-  name: |
-    Poor design
-  description: >
-    Fidelity issues that are outside the developer’s control or API limitations
-    making it hard to produce high-fidelity results. E.g. rendering is too low
-    quality, low dpi, blurry, browser-generated UI is poor or ugly, etc.
-
 - id: color_management
   name: |
     Color management

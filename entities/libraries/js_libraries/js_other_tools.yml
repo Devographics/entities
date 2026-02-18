@@ -47,12 +47,6 @@
   homepageUrl: http://restify.com/
   github: restify/node-restify
 
-- id: sanity
-  name: Sanity
-  patterns:
-    - sanity [p]
-  homepageUrl: https://www.sanity.io/
-
 #################################################
 # Other Tools
 #################################################

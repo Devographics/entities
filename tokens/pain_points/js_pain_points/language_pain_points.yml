@@ -5,9 +5,6 @@
 - id: npm
   name: npm
 
-- id: dependencies
-  name: Dependencies
-
 - id: immutability
   name: Immutability
   patterns:
@@ -30,16 +27,19 @@
     - front_end_frameworks_pain_points
     - build_tools_pain_points
 
-- id: data_fetching
-  name: Data Fetching
-
 - id: monorepos
   name: Monorepos
   patterns:
     - monorepo
 
-- id: react
-  name: React
+- id: typescript_support
+  name: TypeScript support
+  patterns:
+    - typescript
+  tags:
+    - build_tools_pain_points
+    - monorepo_tools_pain_points
+    - testing_pain_points
 
 - id: typescript_issues
   name: TypeScript issues
@@ -60,11 +60,6 @@
 
 - id: javascript_fatigue
   name: JavaScript Fatigue
-
-- id: legacy_support
-  name: Legacy Code & Support
-  patterns:
-    - legacy
 
 - id: node_modules
   name: node_modules Directory

@@ -9,9 +9,6 @@
 - id: graphcms
   name: Hygraph (ex-GraphCMS)
   homepageUrl: https://hygraph.com/
-- id: sanity
-  name: Sanity
-  homepageUrl: https://www.sanity.io/docs/graphql
 - id: wpgraphql
   name: WPGraphQL
   homepageUrl: https://www.wpgraphql.com/

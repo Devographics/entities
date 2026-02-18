@@ -7,21 +7,8 @@
   patterns:
     - app store
 
-- id: testing
-  name: Testing
-  patterns:
-    - test [p]
-
 - id: android_issues
   name: Android issues
-
-- id: pwas
-  patterns:
-    - pwa
-
-- id: pwas
-  patterns:
-    - pwa
 
 - id: limitations_compared_to_native
   patterns:

@@ -2,8 +2,6 @@
 #                       testing_pain_points                      #
 ##################################################################
 
-- id: cypress
-
 - id: mocking
   name: Mocking
   patterns:
@@ -31,11 +29,6 @@
   name: Integration with tools
   patterns:
     - integration
-
-- id: typescript_support
-  name: TypeScript support
-  patterns:
-    - typescript
 
 - id: async_testing
   name: Async testing

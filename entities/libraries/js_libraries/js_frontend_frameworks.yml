@@ -7,6 +7,8 @@
   npm: react
   github: facebook/react
   homepageUrl: https://reactjs.org/
+  tags:
+    - language_pain_points
   # description: >-
   #   A declarative, efficient, and flexible JavaScript library for building user
   #   interfaces.

@@ -13,6 +13,9 @@
 
 - id: data_loading_issues
   name: Data loading issues
+  patterns:
+    - data, loading [l]
+    - data, management [l]
 
 - id: typesafe_data_loading
   name: Typesafe data loading
