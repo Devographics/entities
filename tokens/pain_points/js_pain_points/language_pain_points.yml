@@ -94,7 +94,7 @@
   patterns:
     - array methods
 
-- id: async
+- id: async_issues
   name: Async programming
   tags:
     - testing
@@ -157,6 +157,8 @@
 - id: this_keyword
   description: >
     `this` keyword
+  patterns:
+    - this [e]
 
 - id: regexps
   description: Regular expressions
@@ -254,12 +256,6 @@
   name: Reference issues
   patterns:
     - reference
-
-- id: this_keyword_issues
-  name: >
-    `this` keyword issues
-  patterns:
-    - this [e]
 
 - id: lack_of_pattern_matching
   name: Pattern matching

@@ -10,6 +10,8 @@
     A bundler for javascript and friends. Packs many modules into a few bundled
     assets.
   homepageUrl: "https://webpack.js.org"
+  tags:
+    - build_tools_pain_points
 
 - id: babel
   name: Babel

@@ -38,15 +38,6 @@
 - id: javascript_on_the_server
   name: JavaScript on the server
 
-- id: server_components_issues
-  name: Server components issues
-  patterns:
-    - server, component [l]
-
-- id: server_actions_issues
-  patterns:
-    - server, action [l]
-
 - id: serverless
 
 - id: unnecessary

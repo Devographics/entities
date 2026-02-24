@@ -34,3 +34,8 @@
   description: Managing timezones
   patterns:
     - time( )?zone
+
+- id: plugin_issues
+  name: Plug-in issues
+  patterns:
+    - plug( |-)?in

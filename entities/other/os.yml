@@ -2,8 +2,12 @@
   idAliases:
     - android_issues
   name: Android
+  descriptionIssues:
+    - Android issues
   homepageUrl: https://www.android.com/
   parentId: google
+  tags:
+    - mobile_desktop_pain_points
 
 - id: mac_os
   idAliases:

@@ -554,6 +554,8 @@
   needsTranslation: false
   description: Assign hidden semantics to custom elements, facilitating
     accessibility and allowing them to participate fully in forms.
+  descriptionIssues: |
+    Issues related to the ElementInternals APIs.
   example:
     language: js
     code: |-
@@ -564,6 +566,7 @@
     - url: https://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface
       title: HTML Standard
   caniuse: mdn-api_elementinternals
+  parentId: web_components
   tags:
     - features
 
@@ -902,7 +905,7 @@
   tags:
     - features
 
-- id: filesystem_access
+- id: file_system_access
   webFeaturesId: file-system-access
   name: File System Access API
   parentId: filesystem_apis
@@ -916,7 +919,8 @@
       const writable = await handle.createWritable();
       await writable.write("Hello, world!");
       await writable.close();
-  mdn: en-US/docs/Web/API/File_System_API
+  mdn: /en-US/docs/Web/API/File_System_Access_API
+  caniuse: native-filesystem-api
   resources:
     - url: https://web.dev/file-system-access/
       title: File System Access API
@@ -927,6 +931,8 @@
     - file system
   tags:
     - browser_apis_pain_points
+    - mobile_web_apps_pain_points
+    - js_other
 
 - id: landmark_elements
   name: Landmark elements
@@ -2140,13 +2146,6 @@
     Issues with accessing device motion and orientation data, including the
     Accelerometer, Gyroscope, and Magnetometer APIs.
   parentId: apis_capabilities
-
-- id: indexeddb
-  name: |
-    IndexedDB
-  descriptionIssues: |
-    Issues specific to the IndexedDB API.
-  parentId: storage
 
 - id: gyroscope
   name: |

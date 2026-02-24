@@ -49,10 +49,6 @@
   patterns:
     - app( )?store
 
-- id: indexeddb_issues
-  patterns:
-    - indexeddb
-
 - id: offline_support
   name: Offline support
   patterns:
@@ -174,10 +170,6 @@
   parentId: apple_ios_issues
   patterns:
     - safari
-
-- id: file_system_access
-  patterns:
-    - file( |-)?system
 
 - id: permissions_issues
   name: Permissions

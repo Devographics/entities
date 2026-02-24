@@ -74,6 +74,10 @@
         }
         await db.users.updateName(name);
       }
+  tags:
+    - meta_frameworks_pain_points
+  patterns:
+    - server, action [l]
 
 - id: useformstate
   name: useFormState

@@ -24,7 +24,11 @@
 
 - id: decorators
   name: Decorators
-  # mdn:
+  instructions: >
+    For issues around lack of support of decorators in browsers combine with
+    `browser_support`.
+  tags:
+    - language_pain_points
 
 - id: maps
   name: Maps
@@ -68,11 +72,16 @@
 - id: indexed_db
   name: IndexedDB
   mdn: /en-US/docs/Web/API/IndexedDB_API
+  descriptionIssues: |
+    Issues specific to the IndexedDB API.
+  parentId: storage
   patterns:
     - indexdb
     - index db
   tags:
     - html_missing_features
+    - mobile_desktop_pain_points
+    - mobile_web_apps_pain_points
 
 - id: cache_storage
   name: Cache Storage
@@ -150,11 +159,6 @@
   parentId: apis_capabilities
   mdn: /en-US/docs/Web/API/Geolocation_API
   caniuse: geolocation
-
-- id: file_system_access
-  name: File System Access API
-  mdn: /en-US/docs/Web/API/File_System_Access_API
-  caniuse: native-filesystem-api
 
 - id: web_share
   name: Web Share API

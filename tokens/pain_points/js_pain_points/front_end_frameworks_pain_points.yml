@@ -2,9 +2,6 @@
 #              front_end_frameworks_pain_points                  #
 ##################################################################
 
-- id: prop_driling
-  name: Prop drilling
-
 - id: routing
   name: Routing
   patterns:
@@ -14,8 +11,10 @@
 
 - id: server_components
   name: Server components
+  descriptionIssues: Server components issues
   patterns:
     - rsc
+    - server, component [l]
   tags:
     - meta_frameworks_pain_points
 
@@ -66,14 +65,6 @@
 
   # react_issues
 
-- id: react_issues
-  name: React issues
-  description: |
-    Issues around compatibility with React.
-  parentId: framework_issues
-  patterns:
-    - react
-
 - id: react_dominance
   parentId: react_issues
   name: Excessive dominance
@@ -106,21 +97,6 @@
   name: Migration issues
   patterns:
     - vue, migrat [l]
-
-- id: async_issues
-  name: Async issues
-  patterns:
-    - async [p]
-
-- id: build_tools_issues
-  name: Build tools issues
-  patterns:
-    - build
-    - bundler
-    - compiler
-    - building
-  tags:
-    - mobile_desktop_pain_points
 
 - id: change_detection_issues
   name: Change detection

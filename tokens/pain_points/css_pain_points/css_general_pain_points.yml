@@ -25,11 +25,6 @@
 - id: forms
   name: Forms
 
-- id: debugging
-  name: Debugging
-  patterns:
-    - debug
-
 - id: compatibility
   name: Compatibility
 

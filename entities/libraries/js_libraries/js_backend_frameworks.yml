@@ -18,6 +18,8 @@
   patterns:
     - next( |.|-)?js
     - next [e]
+  tags:
+    - react_usage_pain_points
 
 - id: koa
   name: Koa

@@ -153,7 +153,7 @@
     CSS states
   description: |
     Issues related to the :state() pseudo-class and its corresponding JS API.
-  parentId: elementinternals
+  parentId: element_internals
 
 - id: slotted_descendants
   name: |

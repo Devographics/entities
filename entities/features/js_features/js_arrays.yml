@@ -47,23 +47,7 @@
       console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
 
 - id: array_find_last
-  webFeaturesId: array-findlast
-  name: >
-    `array.findLast()`
-  mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast
-  example:
-    language: js
-    code: |
-      const inventory = [
-        { name: "bananas", quantity: 0 },
-        { name: "fish", quantity: 1 },
-        { name: "cherries", quantity: 5 },
-      ];
-      console.log(inventory.findLast(item => item.quantity <2));
-      // { name: "fish", quantity: 1 }
-
-# alias
-- id: array_findlast
+  alias: array_findlast
   webFeaturesId: array-findlast
   name: >
     `array.findLast()`

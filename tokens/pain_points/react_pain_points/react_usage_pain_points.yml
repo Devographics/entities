@@ -21,26 +21,6 @@
     - rendering twice
     - re(-| )?rendering
 
-# backwards compatibility typo
-# TODO: delete
-- id: excesssive_rerendering
-  parentId: context_api
-  tags:
-    - state_management_pain_points
-  patterns:
-    - re(-| )?render [p]
-
-- id: nextjs_issues
-  tags:
-    - new_apis_pain_points
-    - back_end_infrastructure_pain_points
-  patterns:
-    - next( |.)?js
-
-- id: vercel_issues
-  patterns:
-    - vercel
-
 - id: hooks_issues
   name: Hooks issues
   patterns:

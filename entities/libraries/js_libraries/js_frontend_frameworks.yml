@@ -12,6 +12,9 @@
   # description: >-
   #   A declarative, efficient, and flexible JavaScript library for building user
   #   interfaces.
+  descriptionIssues: |
+    Issues around React, and compatibility with React.
+  parentId: framework_issues
 
 # TODO: get rid of duplicate
 # - id: vue

@@ -18,14 +18,6 @@
     - accesibility
     - accessbility
 
-- id: animation_issues
-  name: Animations
-  description: Animation issues
-  patterns:
-    - animation
-    - animate
-    - animating
-
 - id: browser_support
   name: Browser support
   description: Browser support, compatibility, and consistency issues.
@@ -61,11 +53,6 @@
     - browser, interop [l]
   tags:
     - css_missing_features
-
-- id: safari_issues
-  name: Safari
-  patterns:
-    - safari
 
 - id: styling_customization
   name: Styling & customization
@@ -143,6 +130,9 @@
     - build process
     - build chain
     - build system
+    - bundler
+    - compiler
+    - building
 
 - id: bundler_issues
   name: Bundlers
@@ -196,11 +186,7 @@
   description: Data fetching issues
   patterns: []
 
-- id: scaling
-  name: Scaling
-  description: Scaling issues
-
-- id: security
+- id: security_issues
   name: Security
   description: Security issues
 
@@ -210,12 +196,6 @@
   patterns:
     - server( |-)?side rendering
     - server rendering
-
-- id: debugging
-  name: Debugging
-  description: Debugging issues
-  patterns:
-    - debug [p]
 
 # - id: tooling
 #   name: Tooling
@@ -478,7 +458,11 @@
     - scalability
 
 - id: server_client_issues
-  name: Frontend and backend integration
+  name: |
+    Server-client communication
+  description: >
+    Issues around server-client integration & communication, server-side
+    rendering, etc.
   patterns:
     - client, server [l]
     - sharing, code [l]
@@ -670,13 +654,6 @@
     Issues around compatibility with JS frameworks.
   parentId: ecosystem
 
-- id: server_client
-  name: |
-    Server-client communication
-  description: >
-    Issues around server-client integration & communication, server-side
-    rendering, etc.
-
 - id: reliability
   name: |
     Reliability
@@ -746,6 +723,10 @@
   description: >
     Issues related to UI animations across all technologies, regardless of
     technology used to implement them (CSS animations, Lottie, etc)
+  patterns:
+    - animation
+    - animate
+    - animating
 
 - id: browser_rendering_issues
   name: |

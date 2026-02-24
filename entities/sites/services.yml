@@ -76,6 +76,7 @@
   homepageUrl: https://vercel.com/
   tags:
     - companies
+    - react_usage_pain_points
 
 - id: sentry
   name: Sentry
