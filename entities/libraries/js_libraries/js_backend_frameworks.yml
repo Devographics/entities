@@ -254,3 +254,8 @@
 - id: orpc
   name: oRPC
   homepageUrl: https://orpc.dev/
+
+- id: nitro
+  name: Nitro
+  homepageUrl: https://nitro.build/
+  github: nitrojs/nitro

@@ -26,11 +26,6 @@
   homepageUrl: https://loopback.io/
   github: loopbackio/loopback-next
 
-- id: nitro
-  name: Nitro
-  homepageUrl: https://nitro.unjs.io/
-  github: unjs/nitro
-
 - id: payload_cms
   name: Payload
   patterns:

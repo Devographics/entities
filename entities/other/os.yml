@@ -2,8 +2,7 @@
   idAliases:
     - android_issues
   name: Android
-  descriptionIssues:
-    - Android issues
+  descriptionIssues: Android issues
   homepageUrl: https://www.android.com/
   parentId: google
   tags:
