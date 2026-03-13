@@ -50,6 +50,7 @@
   tags:
     - runtimes
     - libraries
+    - js_libraries
 
 - id: web_workers
   name: Web Workers
