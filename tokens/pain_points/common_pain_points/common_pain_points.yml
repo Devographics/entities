@@ -4,6 +4,11 @@
   description: |
     Nonsense or non‑actionable or off-topic content.
 
+- id: no_pain_point
+  name: No pain point
+  description: |
+    Respondent wrote "none", "no issues", etc.
+
 ##################################################################
 #                       General Pain points                      #
 ##################################################################
