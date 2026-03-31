@@ -5,10 +5,15 @@
   homepageUrl: https://www.tabnine.com/
 
 - id: chat_gpt
+  idAliases:
+    - chatgpt
   name: ChatGPT
   homepageUrl: https://chat.openai.com/
   tags:
     - first_steps
+    - sites
+  patterns:
+    - open( )?ai
 
 - id: bard
   name: Google Gemini
@@ -85,6 +90,10 @@
   homepageUrl: https://claude.ai/
   patterns:
     - claud
+
+- id: claude_code
+  name: Claude Code
+  homepageUrl: https://code.claude.com/docs/en/overview
 
 - id: you_com
   name: You.com
@@ -495,3 +504,39 @@
   homepageUrl: https://kilocode.ai/
   patterns:
     - kilo
+
+- id: luma_ai
+  name: Luma
+  homepageUrl: https://lumalabs.ai/
+
+- id: sora
+  name: Sora
+  homepageUrl: https://sora.chatgpt.com/explore
+
+- id: runway
+  name: Runway
+  homepageUrl: https://runwayml.com/
+
+- id: kling
+  name: KlingAI
+  homepageUrl: https://kling.ai/
+
+- id: sourcery
+  name: Sourcery
+  homepageUrl: https://www.sourcery.ai/
+
+- id: pr_agent
+  name: PR Agent
+  homepageUrl: https://github.com/qodo-ai/pr-agent
+
+- id: greptile
+  name: Greptile
+  homepageUrl: https://www.greptile.com/
+
+- id: gitar
+  name: Gitar
+  homepageUrl: https://gitar.ai/
+
+- id: antigravity
+  name: Antigravity
+  homepageUrl: https://antigravity.google/

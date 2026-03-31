@@ -493,7 +493,7 @@
       }
 
 - id: interpolate_size
-  webFeaturesId: interpolate-size/
+  webFeaturesId: interpolate-size
   name: "`interpolate-size()`"
   mdn: en-US/docs/Web/CSS/interpolate-size
   resources:
