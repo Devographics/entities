@@ -540,3 +540,7 @@
 - id: antigravity
   name: Antigravity
   homepageUrl: https://antigravity.google/
+
+- id: nano_banana
+  name: Nano Banana
+  homepageUrl: https://gemini.google/overview/image-generation/
