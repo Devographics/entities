@@ -544,3 +544,9 @@
 - id: nano_banana
   name: Nano Banana
   homepageUrl: https://gemini.google/overview/image-generation/
+
+- id: google_veo
+  name: Veo
+  homepageUrl: https://deepmind.google/models/veo/
+  patterns:
+    - veo
