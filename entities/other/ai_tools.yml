@@ -518,7 +518,7 @@
   homepageUrl: https://runwayml.com/
 
 - id: kling
-  name: KlingAI
+  name: Kling AI
   homepageUrl: https://kling.ai/
 
 - id: sourcery
@@ -550,3 +550,51 @@
   homepageUrl: https://deepmind.google/models/veo/
   patterns:
     - veo
+
+- id: composer_ai
+  name: Composer
+  homepageUrl: https://cursor.com/blog/composer
+  patterns:
+    - composer
+
+- id: minimax
+  name: MiniMax
+  homepageUrl: https://www.minimax.io/
+
+- id: moonshot
+  name: Moonshot
+  homepageUrl: https://www.moonshot.ai/
+
+- id: z_ai
+  name: Z.ai
+  homepageUrl: https://chat.z.ai/
+
+- id: open_claw
+  name: OpenClaw
+  homepageUrl: https://openclaw.ai/
+
+- id: pi_ai
+  name: Pi
+  homepageUrl: https://hey.pi.ai/
+  patterns:
+    - pi
+
+- id: t3_code
+  name: T3 Code
+  homepageUrl: https://t3.codes/
+
+- id: chef_ai
+  name: Chef
+  homepageUrl: https://chef.convex.dev/
+  patterns:
+    - chef
+
+- id: conductor_ai
+  name: Conductor
+  homepageUrl: https://www.conductor.build/
+  patterns:
+    - conductor
+
+- id: pika
+  name: Pika
+  homepageUrl: https://pika.art/
