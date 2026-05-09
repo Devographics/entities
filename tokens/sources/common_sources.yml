@@ -16,11 +16,14 @@
     - boss
     - cto
     - job
+    - team( |-)?mate
 
 - id: word_of_mouth
   patterns:
     - friend
     - family
+
+- id: group_chat
 
 - id: discord
 
@@ -36,6 +39,7 @@
   patterns:
     - mastadon
     - masstodon
+    - post_survey_share_mastodon
 
 - id: brave
   patterns:
@@ -98,6 +102,8 @@
 
 - id: not_sure
   patterns:
-    - don't remember
+    - don('| )?t remember
+    - do not remember
     - not sure
     - don't know
+    - forgot

@@ -52,3 +52,23 @@
     - spell( )?check
     - proof( )?reading
     - editing
+
+- id: project_planning
+  patterns:
+    - planning
+
+- id: generating_documentation
+  patterns:
+    - documentation
+
+- id: ai_search
+  patterns:
+    - search
+
+- id: video_generation
+  patterns:
+    - video
+
+- id: workflow_automation
+  patterns:
+    - automation

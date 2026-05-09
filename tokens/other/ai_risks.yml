@@ -1,0 +1,17 @@
+- id: all_of_the_above
+  patterns:
+    - all [e]
+    - everything
+    - all of them
+    - all of the above
+    - all above
+    - all of these
+    - all of it
+  tags:
+    - ai_pain_points
+    - ai_missing_features
+    - ai_generated_code_type
+
+- id: mass_surveillance
+  patterns:
+    - surveillance

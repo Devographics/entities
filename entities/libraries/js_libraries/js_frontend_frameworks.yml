@@ -80,6 +80,7 @@
   homepageUrl: "https://svelte.dev"
   tags:
     - accessibility_tools
+    - languages
 
 - id: alpinejs
   name: Alpine.js

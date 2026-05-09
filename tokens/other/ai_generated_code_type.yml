@@ -37,3 +37,18 @@
   patterns:
     - repetition
     - repetitive
+
+- id: iac
+  name: Infrastructure as Code (IaC)
+  patterns:
+    - infra [p]
+
+- id: generated_types
+  name: Types
+  patterns:
+    - types
+
+- id: regex_code
+  name: Regex
+  patterns:
+    - regex

@@ -34,6 +34,11 @@
 - id: copilot
   name: GitHub Copilot
   homepageUrl: https://github.com/features/copilot
+  patterns:
+    - co(-| )?pilot
+    - copliot
+    - colpilot
+    - githubcopilot
 
 - id: codeium
   name: Codeium
@@ -313,7 +318,9 @@
 
 - id: gemma
   name: Gemma
-  homepageUrl: https://ai.google.dev/gemma
+  homepageUrl: https://deepmind.google/models/gemma/
+  patterns:
+    - gemma [p]
 
 - id: groq
   name: Groq
@@ -560,10 +567,14 @@
 - id: minimax
   name: MiniMax
   homepageUrl: https://www.minimax.io/
+  patterns:
+    - minmax
 
 - id: moonshot
   name: Moonshot
   homepageUrl: https://www.moonshot.ai/
+  patterns:
+    - moonshot [p]
 
 - id: z_ai
   name: Z.ai
@@ -598,3 +609,132 @@
 - id: pika
   name: Pika
   homepageUrl: https://pika.art/
+
+- id: big_pickle
+  name: Big Pickle
+  homepageUrl: https://grokipedia.com/page/Big_Pickle_model
+
+- id: lumo
+  name: Lumo
+  homepageUrl: https://lumo.proton.me/
+
+- id: manus
+  name: Manus
+  homepageUrl: https://manus.im/
+
+- id: mimo
+  name: Mimo
+  homepageUrl: https://mimo.xiaomi.com/
+
+- id: nemotron
+  name: Nemotron
+  homepageUrl: https://developer.nvidia.com/nemotron
+
+- id: notebook_lm
+  name: NotebookLM
+  homepageUrl: https://notebooklm.google/
+
+- id: factory_ai
+  name: Factory
+  homepageUrl: https://factory.ai/
+  patterns:
+    - factory
+    - droid
+
+- id: figma_make
+  name: Figma Make
+  homepageUrl: https://www.figma.com/make/
+  patterns:
+    - figma
+
+- id: goose
+  name: Goose
+  homepageUrl: https://goose.ai/
+
+- id: hermes_agent
+  name: Hermes Agent
+  homepageUrl: https://hermes-agent.nousresearch.com/
+  patterns:
+    - hermes
+
+- id: z_image
+  name: Z-Image
+  homepageUrl: https://github.com/Tongyi-MAI/Z-Image
+
+- id: hey_gen
+  name: HeyGen
+  homepageUrl: https://www.heygen.com/
+
+- id: seedance
+  name: Seedance
+  homepageUrl: https://seed.bytedance.com/en/seedance2_0
+
+- id: ltx
+  name: LTX
+  homepageUrl: https://ltx.studio/
+
+- id: wan
+  name: Wan
+  homepageUrl: https://wan.video/
+
+- id: ai_studio
+  name: Google AI Studio
+  homepageUrl: https://aistudio.google.com/prompts/new_chat
+
+- id: base44
+  name: Base44
+  homepageUrl: https://base44.com/
+
+- id: stitch
+  name: Google Stitch
+  homepageUrl: https://stitch.withgoogle.com/
+
+- id: bugbot
+  name: Bugbot
+  homepageUrl: https://www.bugraptors.com/bugbot
+
+- id: cubic
+  name: Cubic
+  homepageUrl: https://www.cubic.dev/
+
+- id: rovo
+  name: Rovo
+  homepageUrl: https://www.atlassian.com/software/rovo
+
+- id: custom_tool
+  name: Custom Tool
+  patterns:
+    - custom
+    - in-house
+    - internal
+
+- id: sentry_seer
+  name: Sentry Seer
+  homepageUrl: https://sentry.io/product/seer/
+  patterns:
+    - sentry
+    - seer
+
+- id: eleven_labs
+  name: ElevenLabs
+  homepageUrl: https://elevenlabs.io/
+
+- id: granola
+  name: Granola
+  homepageUrl: https://www.granola.ai/
+
+- id: relume
+  name: Relume
+  homepageUrl: https://www.relume.io/
+
+- id: wispr_flow
+  name: Wispr Flow
+  homepageUrl: https://wisprflow.ai/
+
+- id: gpt_oss
+  name: gpt-oss
+  homepageUrl: https://github.com/openai/gpt-oss
+
+- id: notion_ai
+  name: Notion AI
+  homepageUrl: https://www.notion.com/product/ai

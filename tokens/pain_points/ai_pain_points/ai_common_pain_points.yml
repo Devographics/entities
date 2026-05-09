@@ -259,3 +259,11 @@
     - stuck
     - loop
     - off-track
+
+- id: poor_security
+  patterns:
+    - security
+
+- id: review_verification_overhead
+
+- id: cognitive_load_burnout

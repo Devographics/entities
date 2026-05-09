@@ -85,3 +85,21 @@
 - id: runtime_behavior_awareness
 
 - id: ai_accountability
+
+- id: ethics
+  patterns:
+    - ethical
+
+- id: determinism
+
+- id: ethical_training_data
+
+- id: privacy_security
+
+- id: ui_visual_understanding
+
+- id: trust_transparency_accountability
+
+- id: performance_efficiency
+
+- id: local_models_offline

@@ -1,4 +1,4 @@
-- id: bad_architecture
+- id: architectural_issues
   patterns:
     - architecture
 
@@ -35,6 +35,37 @@
 
 - id: not_matching_requirements
 
+- id: not_following_conventions
+  patterns:
+    - convention
+
 - id: gaining_better_understanding
 
 - id: incomplete_implementation
+
+- id: poor_abstractions
+  patterns:
+    - abstraction
+    - abstract
+
+- id: excessive_complexity
+  patterns:
+    - complex
+    - complexity
+    - convoluted
+    - over(-| )?engineering
+    - over(-| )?engineered
+    - over(-| )?complicated
+    - over(-| )?complicates
+
+- id: poor_accessibility
+  patterns:
+    - accessibility
+    - a11y
+    - accessible
+
+- id: manual_speed_advantage
+
+- id: css_styling_issues
+
+- id: understanding_and_learning

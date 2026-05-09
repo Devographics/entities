@@ -606,3 +606,7 @@
   homepageUrl: https://modern-css.davecross.co.uk/
   patterns:
     - modern-css
+
+- id: gitnation
+  name: GitNation
+  homepageUrl: https://gitnation.com/

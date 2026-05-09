@@ -17,3 +17,14 @@
   patterns:
     - none
     - don't want
+
+- id: ai_content_detection
+  patterns:
+    - detection
+    - slop
+    - detect
+
+- id: spell_check
+  patterns:
+    - spell
+    - grammar

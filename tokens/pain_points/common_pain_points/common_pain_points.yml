@@ -192,8 +192,7 @@
   patterns: []
 
 - id: security_issues
-  name: Security
-  description: Security issues
+  name: Security issues
 
 - id: ssr
   name: SSR

@@ -344,3 +344,7 @@
 - id: zen_hub
   name: Zenhub
   homepageUrl: https://www.zenhub.com/
+
+- id: irc
+  name: IRC
+  homepageUrl: https://en.wikipedia.org/wiki/IRC

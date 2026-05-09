@@ -98,6 +98,7 @@
     - biometric
     - bioscience
     - biology
+    - biotechnology
 
 - id: pharma
 
@@ -118,6 +119,7 @@
 - id: law
   patterns:
     - legal
+    - legaltech
 
 - id: education
   patterns:
@@ -261,6 +263,7 @@
     - medicine
     - health
     - medical
+    - wellness
 
 - id: retired
 
@@ -300,3 +303,5 @@
     - personal application
     - side project
     - hobby
+
+- id: accessibility

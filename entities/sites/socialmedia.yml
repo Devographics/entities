@@ -174,3 +174,9 @@
 - id: mixi2
   name: mixi2
   homepageUrl: https://mixi.social/
+
+- id: ok_tech
+  name: OK Tech
+  homepageUrl: https://oktech.jp/
+  patterns:
+    - oktech_discord

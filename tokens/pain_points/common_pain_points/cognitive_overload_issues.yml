@@ -103,7 +103,6 @@
 
 - id: excessive_complexity
   name: Excessive complexity
-  description: Too much complexity
   descriptionIssues: >
     The landscape or technology feels overengineered, overcomplicated, making it
     hard to get started.
