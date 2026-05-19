@@ -280,6 +280,8 @@
   homepageUrl: https://x.ai/
 
 - id: qwen
+  idAliases:
+    - gwen
   name: Qwen
   homepageUrl: https://chat.qwen.ai/
   patterns:

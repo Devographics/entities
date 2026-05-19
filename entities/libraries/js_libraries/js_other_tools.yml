@@ -27,6 +27,8 @@
   github: loopbackio/loopback-next
 
 - id: payload_cms
+  idAliases:
+    - payload
   name: Payload
   patterns:
     - payload
@@ -413,6 +415,8 @@
   github: lukeed/clsx
 
 - id: effect_ts
+  idAliases:
+    - effect
   name: Effect
   homepageUrl: https://www.effect.website/
   github: Effect-TS/effect

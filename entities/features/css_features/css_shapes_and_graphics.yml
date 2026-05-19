@@ -198,3 +198,45 @@
           curve to 0% 100% with 50% 0%,
         );
       }
+
+- id: css_gap_decorations
+  webFeaturesId: gap-decorations
+  name: Gap decorations
+  resources:
+    - url: https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css/
+      title: |
+        Minding the gaps: A new way to draw separators in CSS
+    - url: https://drafts.csswg.org/css-gaps-1/
+      title: CSS Gaps Module Level 1
+    - url: https://developer.chrome.com/blog/gap-decorations
+      title: A new way to style gaps in CSS
+  example:
+    language: css
+    code: |
+      .alternate-red-blue {
+        display: grid;
+        grid-template: repeat(auto-fill, 30px) / repeat(6, 100px);
+        gap: 10px;
+        row-rule: 1px solid;
+        row-rule-color: red blue;
+      }
+
+- id: css_corner_shape
+  webFeaturesId: corner-shape
+  name: |
+    `corner-shape`
+  mdn: en-US/docs/Web/CSS/Reference/Properties/corner-shape
+  resources:
+    - url: https://frontendmasters.com/blog/understanding-css-corner-shape-and-the-power-of-the-superellipse/
+      title: Understanding CSS corner-shape and the Power of the Superellipse
+    - url: https://drafts.csswg.org/css-borders-4/#corner-shaping
+      title: |
+        Corner Shaping: the corner-*-shape properties
+  example:
+    language: css
+    code: |
+      .rhombus {
+        aspect-ratio: 2 / 3;
+        border-radius: 50%;
+        corner-shape: bevel;
+      }

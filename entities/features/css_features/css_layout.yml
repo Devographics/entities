@@ -290,3 +290,22 @@
   name: "`float`"
   mdn: /en-US/docs/Web/CSS/float
   caniuse: mdn-css_properties_float
+
+- id: css_grid_lanes
+  name: Grid Lanes
+  webFeaturesId: masonry
+  mdn: en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout
+  caniuse: css-grid-lanes
+  resources:
+    - url: https://webkit.org/blog/17660/introducing-css-grid-lanes/
+      title: Introducing CSS Grid Lanes
+    - url: https://css-tricks.com/masonry-layout-is-now-grid-lanes/
+      title: Masonry Layout is Now grid-lanes
+  example:
+    language: css
+    code: |
+      .container {
+        display: grid-lanes;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 16px;
+      }
