@@ -610,3 +610,7 @@
 - id: gitnation
   name: GitNation
   homepageUrl: https://gitnation.com/
+
+- id: chrome_for_developers
+  name: Chrome for Developers
+  homepageUrl: https://developer.chrome.com/

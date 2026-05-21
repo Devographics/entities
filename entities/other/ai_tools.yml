@@ -588,7 +588,7 @@
 
 - id: pi_ai
   name: Pi
-  homepageUrl: https://hey.pi.ai/
+  homepageUrl: https://pi.dev/
   patterns:
     - pi
 
