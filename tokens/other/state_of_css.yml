@@ -1,12 +1,5 @@
 # browser interoperability, missing features, pain points
 
-- id: scrollbar
-  name: Scrollbar Styling
-  patterns:
-    - scroll( )?bar
-  tags:
-    - browser_interoperability
-
 - id: overflow
   name: Overflow
   tags:

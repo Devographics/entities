@@ -89,7 +89,7 @@
 - id: scrollbar_styling
   name: Scrollbar styling
   patterns:
-    - scrollbar
+    - scroll( )?bar
   tags:
     - html_interoperability_features
 

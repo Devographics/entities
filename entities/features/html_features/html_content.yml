@@ -168,5 +168,5 @@
 
 - id: contenteditable_plaintext_only
   name: |
-    contenteditable=”plaintext-only”
+    contenteditable="plaintext-only"
   parentId: contenteditable_attribute

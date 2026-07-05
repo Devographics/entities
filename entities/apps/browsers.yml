@@ -42,7 +42,7 @@
     Issues specific to the Firefox browser, across all platforms.
 
 - id: firefox_developer
-  name: Firefox Quantum
+  name: Firefox Developer Edition
   homepageUrl: https://www.mozilla.org/en-US/firefox/developer/
   parentId: mozilla
   patterns:

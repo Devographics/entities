@@ -36,10 +36,6 @@
   patterns:
     - sub( |-)?grid
 
-- id: regions
-  name: CSS Regions
-  caniuse: css-regions
-
 - id: flexbox
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
