@@ -347,6 +347,10 @@
   patterns:
     - attr, property [l]
     - attr, properties [l]
+    - advanced attr
+    - modern attr
+    - new attr
+
   example:
     language: css
     code: |
@@ -360,6 +364,7 @@
       url: https://ishadeed.com/article/modern-attr/
 
 - id: individual_transform_properties
+  name: Individual Transform Properties
   # mdn:
   # caniuse:
   example:
@@ -532,6 +537,7 @@
   name: "`@function`"
   description: |
     The `@function` CSS at-rule defines a custom function that takes CSS values or custom properties as arguments, and returns a CSS value.
+  mdn: en-US/docs/Web/CSS/Reference/At-rules/@function
   resources:
     - title: Functions in CSS?!
       url: https://css-tricks.com/functions-in-css/
@@ -543,6 +549,8 @@
       @function --negate(--value) {
         result: calc(-1 * var(--value));
       }
+  patterns:
+    - "@function"
 
 - id: display_contents
   webFeaturesId: display-contents
@@ -563,6 +571,7 @@
   descriptionIssues: >
     The desire for a native `if()` or conditional function within CSS to apply
     values based on a condition, without needing media or container queries.
+  mdn: en-US/docs/Web/CSS/Reference/Values/if
   example:
     language: css
     code: |
@@ -575,6 +584,13 @@
       url: https://chromestatus.com/feature/6313805904347136
     - title: “If” CSS Gets Inline Conditionals
       url: https://css-tricks.com/if-css-gets-inline-conditionals/
+  patterns:
+    - conditional
+    - if statement
+    - if()
+    - if, then [l]
+    - if, else [l]
+    - when, else [l]
 
 - id: is_function
   name: "`:is()`"

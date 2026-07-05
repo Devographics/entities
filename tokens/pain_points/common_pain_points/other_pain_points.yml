@@ -39,3 +39,8 @@
   name: Plug-in issues
   patterns:
     - plug( |-)?in
+
+- id: syntax_issues
+  name: Syntax issues
+  patterns:
+    - syntax

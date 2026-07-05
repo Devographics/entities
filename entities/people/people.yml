@@ -139,6 +139,8 @@
     - blogs
   patterns:
     - shadeed
+    - ishadeed
+    - shaheed
 
 - id: andy_bell
   twitterName: piccalilli_
@@ -155,7 +157,7 @@
     - css
     - blogs
   patterns:
-    - picc?alil\.?l?(i|y)
+    - picc?alil?l\.?l?(i|y)
     - andy()?bell
 
 - id: chen_hui_jing
@@ -389,9 +391,10 @@
   tags:
     - css
   patterns:
-    - Chris Coier
-    - Chris Coiyer
-    - Chris Coyer
+    - coier
+    - coiyer
+    - coyier
+    - coyer
 
 - id: christian_heilmann
   twitterName: codepo8
@@ -590,6 +593,10 @@
   tags:
     - css
     - women
+  patterns:
+    - miriam, eric [l]
+    - miriam, suzanne [l]
+    - eric, suzanne [l]
 
 - id: bramus_van_damme
   twitterName: bramus
@@ -4249,3 +4256,35 @@
 - id: jenn_schiffer
   name: Jenn Schiffer
   homepageUrl: http://jennschiffer.com/
+
+- id: alvaro_montero
+  name: Alvaro Montero
+  homepageUrl: https://moterux.com/
+
+- id: chris_lilley
+  name: Chris Lilley
+  homepageUrl: https://svgees.us/
+
+- id: cyd_stumpel
+  name: Cyd Stumpel
+  homepageUrl: https://cydstumpel.nl/
+
+- id: estelle_weyl
+  name: Estelle Weyl
+  homepageUrl: https://estelle.github.io/
+
+- id: jen_kramer
+  name: Jen Kramer
+  homepageUrl: https://www.jenkramer.org/
+
+- id: lyra_rebane
+  name: Lyra Rebane
+  homepageUrl: https://lyra.horse/
+
+- id: matthias_ott
+  name: Matthias Ott
+  homepageUrl: https://matthiasott.com/
+
+- id: stephanie_stimac
+  name: Stephanie Stimac
+  homepageUrl: https://stephaniestimac.com/

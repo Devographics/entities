@@ -609,3 +609,20 @@
     - weekly, brew [l]
   tags:
     - podcasts
+
+- id: fallthrough
+  name: Fallthrough
+  homepageUrl: https://fallthrough.transistor.fm/
+
+- id: frontkec
+  name: Frontkec
+  homepageUrl: https://www.frontendisti.cz/en/frontkec
+
+- id: igalia_chats
+  name: Igalia Chats
+  homepageUrl: https://www.igalia.com/chats/
+
+- id: wookash
+  name: Wookash Podcast
+  homepageUrl: https://wooka.sh/
+  youtubeUrl: https://www.youtube.com/@WookashPodcast

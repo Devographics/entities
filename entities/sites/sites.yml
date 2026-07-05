@@ -488,6 +488,10 @@
   patterns:
     - duckduckgo.com
 
+- id: kagi
+  name: Kagi
+  homepageUrl: https://kagi.com/
+
 - id: gigazine
   name: Gigazine
   homepageUrl: https://gigazine.net/
@@ -614,3 +618,9 @@
 - id: chrome_for_developers
   name: Chrome for Developers
   homepageUrl: https://developer.chrome.com/
+
+- id: web_platform_tests
+  name: web-platform-tests dashboard
+  hompageUrl: https://wpt.fyi/
+  patterns:
+    - wpt

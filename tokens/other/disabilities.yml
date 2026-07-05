@@ -3,6 +3,13 @@
 - id: blindness
   name: Blindness
 
+- id: vision_issues
+  name: Vision impairments
+  patterns:
+    - astigmatism
+    - astigamtism
+    - myopia
+
 - id: adhd
   name: ADHD
   patterns:
@@ -36,7 +43,7 @@
   name: Epilepsy
 
 - id: color_blindness
-  name: Color Blindness
+  name: Color blindness
   patterns:
     - color( )?blind
     - colour( )?blind
@@ -55,10 +62,10 @@
     - dyslectic
 
 - id: chronic_fatigue
-  name: Chronic Fatigue
+  name: Chronic fatigue
 
 - id: chronic_pain
-  name: Chronic Pain
+  name: Chronic pain
 
 - id: ocd
   name: OCD
@@ -70,7 +77,7 @@
     - migraines
 
 - id: speech_impairment
-  name: Speech Impairment
+  name: Speech impairments
   patterns:
     - stutter
     - speech impediment
@@ -128,7 +135,7 @@
   name: Multiple Sclerosis
 
 - id: mobility_impairments
-  name: Mobility Impairments
+  name: Mobility impairments
 
 - id: carpal_tunnel
   parentId: mobility_impairments
@@ -147,3 +154,5 @@
 - id: asthma
 
 - id: chronic_illness
+
+- id: neurological_disorders

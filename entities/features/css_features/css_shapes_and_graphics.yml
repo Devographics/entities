@@ -198,6 +198,9 @@
           curve to 0% 100% with 50% 0%,
         );
       }
+  patterns:
+    - shape [e]
+    - "shape()"
 
 - id: css_gap_decorations
   webFeaturesId: gap-decorations
@@ -240,3 +243,27 @@
         border-radius: 50%;
         corner-shape: bevel;
       }
+  patterns:
+    - corner( |-)?shape
+
+- id: css_border_shape
+  webFeaturesId: border-shape
+  name: |
+    `border-shape`
+  resources:
+    - url: https://una.im/border-shape
+      title: |
+        border-shape: the future of the non-rectangular web
+  example:
+    language: css
+    code: |
+      border-shape: shape(
+        from top left,                            
+        hline to calc(100% - var(--arrow-size)), 
+        line to right center,                           
+        line to calc(100% - var(--arrow-size)) bottom,
+        hline to left,      
+        close                                      
+      );
+  patterns:
+    - border( |-)?shape

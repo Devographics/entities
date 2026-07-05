@@ -1,4 +1,4 @@
-- id: survey_length
+- id: survey_too_long
   description: Found the survey too long
   patterns:
     - too long

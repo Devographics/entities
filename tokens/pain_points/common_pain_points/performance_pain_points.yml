@@ -40,6 +40,7 @@
   parentId: performance
 
 - id: ram_usage
+  name: RAM usage
   parentId: performance
 
 - id: threading

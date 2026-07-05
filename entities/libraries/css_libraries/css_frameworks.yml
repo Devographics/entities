@@ -327,3 +327,7 @@
 - id: magic_ui
   name: Magic UI
   homepageUrl: https://magicui.design/
+
+- id: web_awesome
+  name: Web Awesome
+  homepageUrl: https://webawesome.com/

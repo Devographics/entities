@@ -1,5 +1,8 @@
 - id: european
   name: European
+  patterns:
+    - europa
+    - europe
 
 - id: human
   name: Human

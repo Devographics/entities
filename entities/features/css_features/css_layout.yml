@@ -275,6 +275,8 @@
       @media (400px < width < 1000px) {
         /* ... */
       }
+  patterns:
+    - range, syntax [l]
 
 - id: media_queries
   name: Media Queries
@@ -309,3 +311,5 @@
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 16px;
       }
+  patterns:
+    - grid(-| )?lanes

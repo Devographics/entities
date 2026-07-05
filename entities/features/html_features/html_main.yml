@@ -1614,6 +1614,10 @@
     - selectmenu
     - select menu
     - custom select
+    - "appearance: base-select"
+    - customizable select
+    - appearance, base, select [l]
+    - base, select [l]
   parentId: select_element
 
 - id: selectlist_element

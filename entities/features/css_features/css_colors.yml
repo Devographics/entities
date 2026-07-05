@@ -114,6 +114,7 @@
   patterns:
     - relative color
     - relative colour
+    - color from
 
 - id: forced_colors
   webFeaturesId: forced-colors

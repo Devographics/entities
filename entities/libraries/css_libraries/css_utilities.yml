@@ -95,3 +95,7 @@
   tags:
     - css
     - utilities
+
+- id: oxfmt
+  name: Oxfmt
+  homepageUrl: https://oxc.rs/docs/guide/usage/formatter.html

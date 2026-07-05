@@ -56,8 +56,6 @@
     - browser, inconsistent [l]
     - browser, across [l]
     - browser, interop [l]
-  tags:
-    - css_missing_features
 
 - id: styling_customization
   name: Styling & customization
@@ -285,6 +283,7 @@
     - hosting
 
 - id: memory_management
+  name: Memory management
   description: Memory usage & management
   patterns:
     - garbage
@@ -384,6 +383,7 @@
     - discover
 
 - id: tribalism_and_toxicity
+  name: Tribalism and toxicity
   patterns:
     - tribalism
     - toxicity
@@ -399,6 +399,7 @@
     - form
 
 - id: legacy_codebases
+  name: Legacy codebases
   patterns:
     - legacy code
     - legacy project
@@ -409,6 +410,7 @@
     - time consuming
 
 - id: poor_developer_experience
+  name: Poor developer experience
   patterns:
     - bad dx
     - poor dx
@@ -472,6 +474,7 @@
     - sharing, code [l]
 
 - id: fragility
+  name: Fragility
   patterns:
     - fragile
     - unreliable
@@ -500,6 +503,8 @@
   parentId: data_binding
 
 - id: community_issues
+  name: |
+    Community issues
   patterns:
     - community
   descriptionIssues: >
@@ -858,6 +863,7 @@
     Ensuring features with different purposes are written and function separately.
 
 - id: pricing_issues
+  name: Pricing
   patterns:
     - pricing
 

@@ -231,11 +231,6 @@
 - id: ease_of_use
   name: Ease of use
 
-- id: syntax_issues
-  name: Syntax issues
-  patterns:
-    - syntax
-
 - id: hoisting_issues
   name: Hoisting issues
   patterns:

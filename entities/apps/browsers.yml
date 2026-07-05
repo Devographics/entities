@@ -175,3 +175,21 @@
   patterns:
     - zen
   parentId: interop_issues
+
+- id: dia_browser
+  name: Dia
+  homepageUrl: https://www.diabrowser.com/
+  patterns:
+    - dia
+
+- id: helium_browser
+  name: Helium
+  homepageUrl: https://helium.computer/
+  patterns:
+    - helium
+
+- id: waterfox_browser
+  name: Waterfox
+  homepageUrl: https://www.waterfox.com/
+  patterns:
+    - waterfox

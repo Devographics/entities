@@ -23,16 +23,6 @@
     - function [e]
     - custom functions
 
-- id: conditional_logic
-  name: Conditional Logic
-  patterns:
-    - conditional
-    - if statement
-    - if()
-    - if, then [l]
-    - if, else [l]
-    - when, else [l]
-
 - id: houdini
   name: CSS Houdini
 
@@ -59,8 +49,8 @@
     - form element
     - form fields
 
-- id: print
-  # name: Print Support
+- id: print_support
+  name: Print Support
 
 - id: css_regions
   name: CSS Regions
@@ -71,8 +61,6 @@
   patterns:
     - "Animating to-&-from display: none"
     - "animate to visibility: hidden or display: none"
-
-- id: anchored_positioning
 
 - id: loops
   name: For Loops
@@ -326,6 +314,7 @@
   name: Better Animations
 
 - id: safari_unsupported_features
+  name: Safari unsupported features
   patterns:
     - safari
   tags:

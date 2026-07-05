@@ -87,6 +87,7 @@
     `launch_handler`
 
 - id: scrollbar_styling
+  name: Scrollbar styling
   patterns:
     - scrollbar
   tags:

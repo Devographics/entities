@@ -1143,3 +1143,34 @@
     - ムーざる
   tags:
     - japanese
+
+- id: beyond_coding
+  name: Beyond Coding
+  youtubeUrl: https://www.youtube.com/c/beyondcoding
+
+- id: dave_s_garage
+  name: Dave's Garage
+  youtubeUr: https://www.youtube.com/@DavesGarage
+
+- id: molly_rocket
+  name: Molly Rocket
+  youtubeUrl: https://www.youtube.com/mollyrocket
+  homepageUrl: https://mollyrocket.com/
+
+- id: pixel_grid_ui
+  name: Pixel Grid UI
+  youtubeUrl: https://www.youtube.com/@pixelgridui
+
+- id: tode_pond
+  name: TodePond
+  youtubeUrl: https://www.youtube.com/todepond
+
+- id: you_suck_at_programming
+  name: You Suck At Programming
+  youtubeUrl: https://www.youtube.com/@yousuckatprogramming
+
+- id: nerd_snipe
+  name: Nerd Snipe
+  youtubeUrl: https://www.youtube.com/channel/UC2mPtIOYm1XihpmfrJKXjMw
+  tags:
+    - podcasts

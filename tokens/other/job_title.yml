@@ -9,6 +9,8 @@
 - id: student
 
 - id: freelancer
+  patterns:
+    - freelance
 
 - id: intern
 
@@ -43,6 +45,10 @@
 - id: head_of_product
   patterns:
     - head, product [l]
+
+- id: head_of_it
+  patterns:
+    - head, it [l]
 
 # architect
 
@@ -210,3 +216,7 @@
 - id: systems_analyst
 
 - id: unemployed
+
+- id: research_assistant
+
+- id: researcher
