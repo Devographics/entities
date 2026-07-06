@@ -8,6 +8,7 @@
     - google.com
   tags:
     - common_sources
+    - companies
 
 - id: github
   name: GitHub

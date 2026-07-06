@@ -37,6 +37,7 @@
     - sub( |-)?grid
 
 - id: flexbox
+  webFeaturesId: flexbox
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
   caniuse: flexbox
