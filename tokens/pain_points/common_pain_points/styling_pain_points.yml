@@ -24,3 +24,8 @@
     Color management
   description: |
     Color‑management and color‑space handling across web platform features
+
+- id: design_systems_issues
+  name: Design systems
+  description: |
+    Issues related to the creation, maintenance, and implementation of design systems and component libraries.
