@@ -105,6 +105,7 @@
     - "height(:| )auto"
     - animate, auto [l]
     - animating, auto [l]
+  parentId: animations_issues
 
 - id: at_custom_media
   name: "`@custom-media`"

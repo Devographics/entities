@@ -92,6 +92,7 @@
     - scroll( )?bar
   tags:
     - html_interoperability_features
+  parentId: scrollbars
 
 - id: web_bluetooth_api
   webFeaturesId: web-bluetooth

@@ -4,6 +4,10 @@
   parentId: interop_issues
   descriptionIssues: >
     Issues specific to the Google ecosystem (e.g., Chrome, Blink, Android).
+  patterns:
+    - google.com
+  tags:
+    - common_sources
 
 - id: github
   name: GitHub

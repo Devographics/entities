@@ -3,8 +3,10 @@
 #################################################
 
 - id: css_transitions
+  name: CSS Transitions
   mdn: /en-US/docs/Web/CSS/CSS_Transitions
   caniuse: css-transitions
+  parentId: animations_issues
 
 - id: css_transforms
   mdn: /en-US/docs/Web/CSS/CSS_Transforms

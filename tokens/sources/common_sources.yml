@@ -56,10 +56,6 @@
     - yt
     - youtube.com
 
-- id: google
-  patterns:
-    - google.com
-
 - id: diversify_tech
 
 - id: ecosia
