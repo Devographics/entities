@@ -13,7 +13,7 @@
 #                       General Pain points                      #
 ##################################################################
 
-- id: accessibility
+- id: accessibility_issues
   name: Accessibility
   description: Accessibility issues
   patterns:
