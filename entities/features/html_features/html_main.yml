@@ -1222,7 +1222,7 @@
   webFeaturesId: svg
   name: "`<svg>` (Inline SVG)"
   description: Embed SVG vector graphics directly in markup
-  parentId: graphics_issues
+  parentId: svg_technology
   example:
     language: html
     code: |-
