@@ -190,7 +190,7 @@
   name: Media Queries Variables
   description: Being able to use variables inside media queries.
 
-- id: mixins
+- id: css_mixins
   name: Mixins
   description: Group and reuse definitions dynamically.
   patterns:
