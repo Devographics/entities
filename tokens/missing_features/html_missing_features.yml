@@ -132,8 +132,6 @@
   patterns:
     - image, capture [l]
 
-- id: temporal
-
 - id: text_wrap_balance
   patterns:
     - text, wrap, balance [l]

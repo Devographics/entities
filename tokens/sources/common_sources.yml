@@ -96,7 +96,7 @@
   patterns:
     - sg_twitter
 
-- id: not_sure
+- id: source_not_sure
   patterns:
     - don('| )?t remember
     - do not remember
