@@ -62,7 +62,7 @@
     - "Animating to-&-from display: none"
     - "animate to visibility: hidden or display: none"
 
-- id: loops
+- id: css_loops
   name: For Loops
   patterns:
     - loop
@@ -125,6 +125,7 @@
 
 - id: previous_sibling_selector
   name: Previous Sibling Selector
+  parentId: has_selector
 
 - id: cursor_position
   name: Cursor Position
