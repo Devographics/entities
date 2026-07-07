@@ -19,7 +19,7 @@
     about security and privacy on the web.
   instructions: >
     If security & privacy mitigations are making a feature hard to use, combine
-    with `ergonomics`.
+    with `developer_experience`.
   patterns:
     - security
     - privacy

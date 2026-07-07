@@ -82,7 +82,7 @@
     If no way to achieve desired customization combine with `limitations`. If
     pain point is caused due to inconsistent browser support of customization
     capabilities, combine with `browser_support`. If customization is possible,
-    but too hard, combine with `ergonomics`.
+    but too hard, combine with `developer_experience`.
   parentId: styling_customization
 
 - id: error_handling
@@ -354,7 +354,7 @@
     Issues related to difficulties around Search Engine Optimization (SEO).
   parentId: environments_consumers
   instructions: >
-    If a feature makes SEO hard, combine with `ergonomics`. If a feature makes
+    If a feature makes SEO hard, combine with `developer_experience`. If a feature makes
     content inaccessible to SEO with no way out, combine with `limitations`.
 
 - id: frustration_with_frameworks
@@ -570,8 +570,12 @@
     - customer, demand [l]
     - convincing, client [l]
 
-# limitations
+- id: developer_experience
+  name: Developer Experience
+  description: >
+    Issues related not to being unable to achieve something, but to *how* it's achieved. Bad syntax, confusing APIs, performance issues, etc.
 
+# limitations
 - id: limitations
   name: |
     Limitations
@@ -585,7 +589,7 @@
   description: >
     Complaints about lack of declarative APIs (combine with `limitations`), or
     current declarative APIs (as a whole) being hard to use (combine with
-    `ergonomics`).
+    `developer_experience`).
 
 - id: interop_issues
   name: |

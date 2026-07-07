@@ -9,7 +9,7 @@
   description: >
     Issues around difficulties providing a good user experience for end-users.
   instructions: >
-    Do not include DX issues here (use `ergonomics` for that).
+    Do not include DX issues here (use `developer_experience` for that).
 
 - id: too_much_work
   name: |

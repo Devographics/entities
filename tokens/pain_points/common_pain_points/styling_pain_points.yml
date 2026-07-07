@@ -9,7 +9,7 @@
     If no way to accomplish desired styling, combine with `limitations`. If pain
     point is caused due to lack of browser adoption, combine with
     `browser_support`. If styling is possible, but too hard, combine with
-    `ergonomics`.
+    `developer_experience`.
 
 - id: ui_customization
   name: |

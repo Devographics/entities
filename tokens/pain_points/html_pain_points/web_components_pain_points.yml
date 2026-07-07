@@ -274,7 +274,7 @@
   name: |
     Defining and styling parts
   description: >
-    For issues around ::part() being hard to use, combine with `ergonomics` (or
+    For issues around ::part() being hard to use, combine with `developer_experience` (or
     a suitable leaf). For issues around ::part() being unable to style certain
     things, combine with `limitations` and `styling`.
   parentId: wc_css_integration

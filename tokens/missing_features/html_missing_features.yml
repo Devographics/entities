@@ -86,7 +86,7 @@
   name: Import Maps
   instructions: >
     For issues around import maps being hard to manage, combine with
-    `ergonomics` or a suitable leaf.
+    `developer_experience` or a suitable leaf.
 
 - id: marquee
 
