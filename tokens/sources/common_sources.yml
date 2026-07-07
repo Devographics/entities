@@ -33,8 +33,6 @@
 
 - id: apollo
 
-- id: mozilla
-
 - id: mastodon
   patterns:
     - mastadon

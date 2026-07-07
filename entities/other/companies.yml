@@ -19,3 +19,6 @@
   parentId: interop_issues
   descriptionIssues: |
     Issues specific to the Mozilla ecosystem (e.g., Firefox, Gecko).
+  tags:
+    - sources
+    - common_sources
