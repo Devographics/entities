@@ -110,10 +110,6 @@
   patterns:
     - permission [p]
 
-- id: oklch_colors
-  patterns:
-    - oklch
-
 - id: notification_api
   name: Notification API
   patterns:

@@ -19,8 +19,17 @@
 - id: houdini
   name: CSS Houdini
 
-- id: flow_control
-  name: Flow Control
+- id: css_control_flow
+  name: Control Flow
+  description: >
+    Imperative control-flow constructs in CSS — loops and conditionals— for repeating or branching styles.
+
+- id: css_conditional_logic
+  oldId: conditional_logic
+  name: Conditional logic
+  parentId: css_control_flow
+  descriptionIssues: >
+    Branching/conditional styling — choosing values or rules based on conditions (if()/else).
 
 - id: center
   name: Centering
@@ -60,6 +69,9 @@
   patterns:
     - loop
     - looping
+  parentId: css_control_flow
+  descriptionIssues: >
+    Native loop constructs to repeat declarations or generate rules, currently only possible via preprocessors.
 
 - id: input_styling
   name: Input Styling

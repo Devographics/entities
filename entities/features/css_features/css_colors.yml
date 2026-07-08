@@ -81,6 +81,10 @@
   name: Wide Gamut Colors
   description: >
     `lch()`, `lab()`, `oklch()`, `oklab()`
+  descriptionIssues: >
+    Pain points specific to the OKLCH color space: its syntax, mental
+    model, and the unintuitive or unpredictable feel of its numeric values.
+  parentId: wide_gamut_colors
   mdn: /en-US/docs/Web/CSS/color_value/lch
   caniuse: css-lch-lab
   example:
