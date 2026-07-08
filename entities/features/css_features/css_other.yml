@@ -36,6 +36,7 @@
     - "@supports [e]"
 
 - id: containment
+  webFeaturesId: contain
   name: Contain
   mdn: /en-US/docs/Web/CSS/contain
 
@@ -45,6 +46,7 @@
   caniuse: will-change
 
 - id: calc
+  webFeaturesId: calc
   name: "`calc()`"
   mdn: /en-US/docs/Web/CSS/calc
   caniuse: calc
@@ -76,11 +78,13 @@
     - "@property [e]"
 
 - id: resize
+  webFeaturesId: resize
   name: "`resize`"
   mdn: /en-US/docs/Web/CSS/resize
   caniuse: css-resize
 
 - id: content_visibility
+  webFeaturesId: content-visibility
   name: "`content-visibility`"
   mdn: /en-US/docs/Web/CSS/content-visibility
   caniuse: css-content-visibility
@@ -93,8 +97,9 @@
       }
 
 - id: viewport_units
-  mdn: /en-US/docs/Web/CSS/length
+  webFeaturesId: viewport-units
   caniuse: viewport-units
+  mdn: en-US/docs/Web/CSS/Reference/Values/length#relative_length_units_based_on_viewport
   patterns:
     - vh
     - vw
@@ -450,6 +455,7 @@
       }
 
 - id: at_import
+  webFeaturesId: import
   name: "`@import`"
   description: >
     The @import CSS at-rule is used to import style rules from other valid stylesheets.
@@ -596,6 +602,7 @@
     - when, else [l]
 
 - id: is_function
+  webFeaturesId: is
   name: "`:is()`"
   mdn: en-US/docs/Web/CSS/:is
   caniuse: css-matches-pseudo

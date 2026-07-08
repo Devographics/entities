@@ -1,6 +1,7 @@
 # browser interoperability, missing features, pain points
 
 - id: overflow
+  webFeaturesId: overflow
   name: Overflow
   tags:
     - browser_interoperability

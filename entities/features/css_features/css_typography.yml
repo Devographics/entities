@@ -3,6 +3,7 @@
 #################################################
 
 - id: web_fonts
+  webFeaturesId: font-face
   name: "`@font-face`"
   mdn: /en-US/docs/Web/CSS/@font-face
   caniuse: fontface
@@ -218,6 +219,7 @@
     - css_typography
 
 - id: text_wrap
+  webFeaturesId: text-wrap
   name: "`text-wrap`"
   caniuse: mdn-css_properties_text-wrap
   # w3c:
@@ -249,6 +251,7 @@
     - css_typography
 
 - id: first_letter
+  webFeaturesId: first-letter
   name: "`::first-letter`"
   mdn: /en-US/docs/Web/CSS/::first-letter
   caniuse: css-first-letter

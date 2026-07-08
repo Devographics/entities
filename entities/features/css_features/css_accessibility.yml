@@ -42,6 +42,7 @@
     - accessibility
 
 - id: color_gamut
+  webFeaturesId: color-gamut
   name: "`@media (color-gamut)`"
   mdn: /en-US/docs/Web/CSS/@media/color-gamut
   caniuse: mdn-css_at-rules_media_color-gamut

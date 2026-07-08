@@ -475,6 +475,7 @@
     - detail.*summary
 
 - id: details_content_pseudo_element
+  webFeaturesId: details-content
   name: |
     ::details-content
   parentId: details_element
@@ -2070,6 +2071,7 @@
   parentId: apis_capabilities
 
 - id: interest_invokers
+  webFeaturesId: interest-invokers
   name: |
     Interest invokers
   parentId: invokers

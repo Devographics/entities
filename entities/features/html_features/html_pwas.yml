@@ -164,6 +164,7 @@
     - html_interoperability_features
 
 - id: table_element
+  webFeaturesId: table
   name: |
     `<table>`
   patterns:

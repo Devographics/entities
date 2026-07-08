@@ -32,6 +32,7 @@
     - css_shapes_and_graphics
 
 - id: color_contrast
+  webFeaturesId: color-contrast
   name: "`color-contrast()`"
   descriptionIssues: |
     Issues around evaluating and/or maintaining adequate color contrast.
@@ -48,6 +49,7 @@
       }
 
 - id: currentcolor
+  webFeaturesId: currentcolor
   name: "`currentColor`"
   mdn: /en-US/docs/Web/CSS/color_value#currentcolor_keyword
   example:

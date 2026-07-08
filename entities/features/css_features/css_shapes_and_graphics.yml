@@ -3,6 +3,7 @@
 #################################################
 
 - id: shapes
+  webFeaturesId: shapes
   name: Shapes
   description: >
     `shape-image-threshold`, `shape-margin`, `shape-outside`
@@ -23,6 +24,7 @@
     Desire for shape-inside to flow an element's content within a custom-shaped container, complementing shape-outside.
 
 - id: object_fit
+  webFeaturesId: object-fit
   name: "`object-fit`"
   mdn: /en-US/docs/Web/CSS/object-fit
   caniuse: object-fit
@@ -34,11 +36,13 @@
       }
 
 - id: clip_path
+  webFeaturesId: clip-path
   name: "`clip-path`"
   mdn: /en-US/docs/Web/CSS/clip-path
   caniuse: css-clip-path
 
 - id: masks
+  webFeaturesId: masks
   name: Masking
   mdn: /en-US/docs/Web/CSS/CSS_Masking
   caniuse: css-masks
@@ -132,6 +136,7 @@
       }
 
 - id: border_image
+  webFeaturesId: border_image
   name: "`border-image`"
   mdn: /en-US/docs/Web/CSS/border-image
   caniuse: border-image

@@ -126,6 +126,7 @@
       }
 
 - id: flexbox_gap
+  webFeaturesId: flexbox-gap
   # name: Flexbox `gap`
   mdn: /en-US/docs/Web/CSS/gap
   caniuse: flexbox-gap
@@ -276,11 +277,13 @@
     - range, syntax [l]
 
 - id: media_queries
+  webFeaturesId: media-queries
   name: Media Queries
   mdn: /en-US/docs/Web/CSS/Media_Queries/Using_media_queries
   caniuse: css-mediaqueries
 
 - id: margin_trim
+  webFeaturesId: margin-trim
   name: "`margin-trim`"
   mdn: /en-US/docs/Web/CSS/margin-trim
   caniuse: mdn-css_properties_margin-trim
