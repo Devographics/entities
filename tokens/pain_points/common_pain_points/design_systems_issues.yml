@@ -1,0 +1,27 @@
+- id: design_systems_issues
+  name: Design systems
+  descriptionIssues: >
+    Pain points with design systems and component libraries: adopting or building one, overriding or theming its components, keeping design tokens and CSS in sync, and lock-in to a specific system.
+
+- id: design_tokens
+  name: Design tokens
+  parentId: design_systems
+  descriptionIssues: >
+    Issues around managing design tokens, including organizing, naming, and maintaining large numbers of custom properties across a design system.
+
+- id: theming
+  name: Theming
+  descriptionIssues: >
+    Implementing and managing color themes: supporting more than light/dark (high-contrast, custom, user themes) and reconciling system vs user theme preference.
+
+- id: dark_mode_issues
+  name: Light & dark mode theming
+  parentId: theming
+  descriptionIssues: >
+    Authoring and managing light and dark mode themes
+
+- id: design_handoff_issues
+  name: Design handoff & tools
+  parentId: design_systems_issues
+  descriptionIssues: >
+    Friction between design and development, such as rigid pixel-perfect deliverables or design tools that don't map to responsive CSS layout.

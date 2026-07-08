@@ -1,24 +1,31 @@
+- id: tooling_issues
+  name: |
+    Tooling
+  description: >
+    Issues around third party tools, or lack thereof, including tooling in the
+    browser (extensions, devtools, etc.).
+
 - id: tools_export_formats
   name: |
     Export formats
   description: >
     Design tools/exporters lacking modern codecs/containers (e.g., AVIF/JPEG
     XL).
-  parentId: tooling
+  parentId: tooling_issues
 
 - id: tools_visual_editors
   name: |
     Visual editors
   description: |
     Graphical authoring tools for SVG/canvas have gaps for common tasks.
-  parentId: tooling
+  parentId: tooling_issues
 
 - id: ide_support
   name: |
     IDE support & autocomplete
   description: |
     Editor completion/import for custom tags/attributes/parts/events.
-  parentId: tooling
+  parentId: tooling_issues
 
 - id: tooling_profiling
   name: |
@@ -26,4 +33,28 @@
   description: >
     Issues related to choosing and using tools that measure performance or
     report performance issues.
-  parentId: tooling
+  parentId: tooling_issues
+
+- id: shape_authoring_tools
+  name: Shape authoring tools
+  parentId: tooling_issues
+  description: >
+    Reliance on external generators or visual editors to author clip-path/shape()/path values, and desire for in-browser or IDE tools to create and copy them.
+
+- id: preprocessor_reliance
+  name: Preprocessor reliance
+  parentId: tooling_issues
+  description: >
+    Native CSS still lacking features that Sass/SCSS/PostCSS provide (mixins, @use, selector concatenation), forcing continued reliance on preprocessors.
+
+- id: browser_devtools
+  name: Browser DevTools
+  parentId: tooling_issues
+  descriptionIssues: >
+    Inspecting, debugging, and editing CSS in browser developer tools, including support for modern features like layers, container queries, and view transitions.
+
+- id: design_tool_compatibility
+  name: Design tool compatibility
+  parentId: tooling_issues
+  descriptionIssues: >
+    Translating designs from Figma, Photoshop, etc. from/to CSS, bridging design tokens, and design tools lagging behind CSS capabilities. Modern CSS color features (OKLCH, wide gamut, relative colors) unsupported in design tools like Figma, causing designer/developer disconnect and hardcoded hex handoffs.

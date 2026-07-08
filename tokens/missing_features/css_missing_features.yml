@@ -16,13 +16,6 @@
     - isolation
     - scop(e|ing)
 
-- id: css_functions
-  name: CSS Functions
-  patterns:
-    - functions [e]
-    - function [e]
-    - custom functions
-
 - id: houdini
   name: CSS Houdini
 
@@ -326,3 +319,13 @@
 
 - id: flex_wrap_balance
   name: "`flex-wrap: balance;`"
+
+- id: irregular_element_shape
+  name: Non-rectangular element shape
+  description: >
+    Giving an element a genuinely non-rectangular shape that the box itself takes on — so its border, box-shadow, and outline follow the new outline — rather than faking it by clipping the element (which drops borders/shadows) or layering shapes via pseudo-elements.
+
+- id: child_count
+  name: "`children-count()`"
+  descriptionIssues: >
+    Desire to extend sibling-count()/sibling-index() with children-count(), descendant-count(), or selector-filtered variants.

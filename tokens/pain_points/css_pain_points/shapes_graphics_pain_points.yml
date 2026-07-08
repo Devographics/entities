@@ -9,3 +9,47 @@
 - id: shape_issues
   patterns:
     - shape
+
+- id: path_syntax
+  name: Path syntax
+  parentId: svg_technology
+  descriptionIssues: >
+    The verbosity and unreadability of path() and SVG d syntax, which is hard to author or edit by hand.
+
+- id: svg_embedding_modes
+  name: SVG embedding modes
+  parentId: svg_technology
+  descriptionIssues: >
+    Differences and adjustments needed depending on how SVG is embedded (inline, <img>, <use> sprites, url()), affecting styling, sizing, and behavior.
+
+- id: css_icons
+  name: Icons
+  descriptionIssues: >
+    Working with icons in CSS: choosing between icon fonts, inline SVG, and mask/background approaches; sizing and aligning icons with text; recoloring via currentColor; multi-color or interactive icons; and adapting icons via CSS (media queries, selectors, and state) rather than swapping assets.
+
+- id: advanced_borders
+  name: Advanced borders
+  parentId: styling_customization
+  descriptionIssues: >
+    Decorative border effects: multiple/stacked or offset borders, custom dash spacing, gradient borders, and corner-only decoration.
+
+- id: css_textures
+  name: Textures
+  parentId: filter_effects
+  descriptionIssues: >
+    Native support for generating textures and surface detail — noise, grain, turbulence, and procedural patterns — without images or SVG filters.
+
+- id: responsive_shapes
+  name: Responsive shapes
+  parentId: shapes
+  descriptionIssues: >
+    Shapes, clip-paths, and SVGs breaking, skewing, or cropping when elements scale or change aspect ratio across viewport sizes.
+
+- id: stacking_context
+  name: z-index & stacking contexts
+  descriptionIssues: Managing z-index, stacking contexts, and layering conflicts ("z-index hell"), including unexpected interactions with transforms, sticky, and the top layer.
+
+- id: box_model_issues
+  name: Box model & box-sizing
+  descriptionIssues: >
+    Confusion around the box model: box-sizing defaults, collapsing margins, and how border/padding interact with declared sizes.

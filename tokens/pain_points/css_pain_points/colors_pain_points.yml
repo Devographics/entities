@@ -57,3 +57,55 @@
   description: |
     Issues related to the Accessible Perceptual Contrast Algorithm (APCA).
   parentId: color_contrast
+
+- id: gamut_mapping
+  name: Gamut mapping and display variability
+  parentId: color_management
+  descriptionIssues: >
+    Handling out-of-gamut colors (especially OKLCH): lack of browser gamut mapping, colors being clamped or made invalid rather than mapped, and preserving intended appearance across gamuts. Colors rendering differently across screens, monitors, and OSes, including HDR/wide-gamut display variability, profiles, and calibration.
+
+- id: color_conversion
+  name: Color conversion
+  parentId: color_management
+  descriptionIssues: >
+    Converting between color formats and spaces (hex, RGB, HSL, Lab, LCH, OKLCH), including the lack of a native JS API for conversion.
+
+- id: color_api
+  name: Color API
+  parentId: color_management
+  descriptionIssues: >
+    The lack of a native JS API for color manipulation, conversion, etc.
+
+- id: color_alpha
+  name: Adjusting alpha/opacity
+  parentId: color_management
+  descriptionIssues: >
+    Applying or adjusting transparency on an existing color, variable, hex value, or currentColor, without verbose color-mix or relative-color syntax.
+
+- id: color_palettes
+  name: Palettes & scales
+  parentId: theming
+  descriptionIssues: >
+    Generating and managing coordinated color sets from a base color: palettes, shades, tints, numbered scales (e.g. 50–950), and derived variants such as lighter/darker or hover/focus/active state colors, kept consistent and accessible.
+
+- id: system_colors
+  name: System colors
+  parentId: color_management
+  descriptionIssues: CSS system color keywords (Canvas, CanvasText, AccentColor) and the inability to redefine or rely on them consistently.
+
+- id: contrast_algorithms
+  name: Contrast algorithms
+  parentId: color_management
+  descriptionIssues: >
+    Algorithms for evaluating perceptual or accessibility contrast, including complaints about WCAG 2.x accuracy and desire for APCA or a choice of algorithm.
+
+- id: css_gradients
+  name: CSS gradients
+  descriptionIssues: >
+    Creating good-looking gradients: uneven/banded transitions, non-linear fades toward transparency, interpolation, and animating gradients.
+
+- id: mesh_gradients
+  name: Mesh gradients
+  descriptionIssues: >
+    Desire for native mesh gradients — 2D gradients defined by a grid of color points that blend in multiple directions — for smooth, organic multi-color transitions not achievable with 1D linear, radial, or conic gradients.
+  parentId: css_gradients

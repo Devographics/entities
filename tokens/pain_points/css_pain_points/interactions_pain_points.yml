@@ -1,0 +1,29 @@
+- id: gestures
+  name: Touch & pointer gestures
+  parentId: limitations
+  descriptionIssues: >
+    Lack of native primitives for gestures such as swipe, pinch, drag, and drag-to-scroll, forcing reliance on JavaScript or scroll hacks.
+
+- id: interaction_pseudo_classes
+  name: Interaction-state pseudo-classes
+  parentId: styling_customization
+  descriptionIssues: >
+    Interaction-state pseudo-classes (:hover, :active, :focus) and their quirks, notably sticky :hover/:active on touch devices making UIs feel buggy.
+
+- id: focus_outline_styling
+  name: Focus outline styling
+  parentId: focus_management
+  descriptionIssues: >
+    Styling and customizing focus outlines and rings, including outlines clipped by overflow/paint containment and manually recreating keyboard-only focus indicators.
+
+- id: lack_of_native_tooltips
+  name: Native tooltips
+  parentId: limitations
+  descriptionIssues: >
+    Lack of a native, stylable tooltip mechanism (e.g. a ::tooltip pseudo-element), forcing custom components or the title attribute.
+
+- id: input_modality
+  name: Input modality
+  parentId: environments_consumers
+  descriptionIssues: >
+    Designing interactions that work across mouse, touch, keyboard, and stylus, and handling the differences between input modes.

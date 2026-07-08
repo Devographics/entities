@@ -1,0 +1,57 @@
+- id: interop_issues
+  name: |
+    Browser support
+  description: >
+    Browser support issues, implementation bugs, cross‑browser implementation
+    differences or inconsistencies, browser prioritization, speed of adoption of
+    new features, any issues where specific browsers, browser engines, or
+    browser companies are mentioned (and it’s not to praise them).
+  instructions: >
+    Do not use for issues around browser adoption being too fast for developers
+    to keep up, use `educational_issues` for that.
+
+- id: vendor_prefixes
+  name: Vendor prefixes
+  parentId: interop_issues
+  descriptionIssues: >
+    Continued reliance on vendor prefixes for shape/graphics features (e.g. -webkit-line-clamp), cited as clutter and an interop failing.
+
+- id: browser_support
+  name: Browser support
+  description: Browser support, compatibility, and consistency issues.
+  patterns:
+    - browser adoption
+    - consistency
+    - consistent support
+    - cross( |-)browser
+    - browser.*inconsisten [p]
+    - inconsisten.*browser [p]
+    - browser.*incompat [p]
+    - incompat*browser [p]
+    - browser.*compat [p]
+    - compat.*browser [p]
+    - lack of support
+    - different browser
+    - inconsistent browser
+    - browser.*differen [p]
+    - differen.*browser [p]
+    - browser.*support [p]
+    - support.*browser [p]
+    - compatibility
+    - compatiblity
+    - compitapilaty
+    - compatability
+    - compatibilidad
+    - interopability
+    - interoperability
+    - browser, behavior [l]
+    - browser, consistent [l]
+    - browser, inconsistent [l]
+    - browser, across [l]
+    - browser, interop [l]
+
+- id: fallbacks_polyfills
+  name: Fallbacks & polyfills
+  parentId: interop_issues
+  descriptionIssues: >
+    The burden of writing and maintaining fallbacks, polyfills, or progressive enhancement for newer features with uneven browser support. This also includes complaints about the difficulty of authoring CSS polyfills.

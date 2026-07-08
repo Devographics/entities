@@ -27,3 +27,26 @@
     Performance issues with animations that are linked to the user's scroll
     position.
   parentId: animations_issues
+
+- id: entry_exit_animations
+  name: Enter/exit animations
+  parentId: animations_issues
+  descriptionIssues: Difficulty animating elements as they enter or are removed from the DOM, and transitioning between hidden and visible states, often requiring @starting-style, allow-discrete, or JS.
+
+- id: animation_sequencing
+  name: Animation sequencing
+  parentId: animations_issues
+  descriptionIssues: >
+    Coordinating, ordering, and timing multiple animations or transitions relative to each other, and reasoning about what happens when.
+
+- id: animation_triggers
+  name: Triggering animations
+  parentId: animations_issues
+  descriptionIssues: >
+    Firing, re-firing, pausing, or preventing animations and transitions, including one-off triggers that today require JS to remove and re-add classes.
+
+- id: non_animatable_properties
+  name: Non-animatable properties
+  parentId: animations_issues
+  descriptionIssues: >
+    Frustration that certain properties, keywords, or sizes (e.g. gradients, sizing keywords) cannot be animated or transitioned.

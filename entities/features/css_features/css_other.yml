@@ -551,6 +551,9 @@
       }
   patterns:
     - "@function"
+    - functions [e]
+    - function [e]
+    - custom functions
 
 - id: display_contents
   webFeaturesId: display-contents

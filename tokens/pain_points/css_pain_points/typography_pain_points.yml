@@ -20,3 +20,9 @@
     Issues related to web font loading, performance, and rendering, including
     Flash of Unstyled Text (FOUT) and Flash of Invisible Text (FOIT).
   parentId: typography_issues
+
+- id: vertical_rhythm
+  name: Vertical rhythm & baseline
+  parentId: typography_issues
+  descriptionIssues: >
+    Maintaining consistent vertical rhythm and baseline alignment of text and elements across a layout.

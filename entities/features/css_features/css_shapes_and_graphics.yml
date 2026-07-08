@@ -16,6 +16,12 @@
         shape-outside: circle(50%);
       }
 
+- id: shape_inside
+  name: "`shape-inside`"
+  parentId: shapes
+  descriptionIssues: >
+    Desire for shape-inside to flow an element's content within a custom-shaped container, complementing shape-outside.
+
 - id: object_fit
   name: "`object-fit`"
   mdn: /en-US/docs/Web/CSS/object-fit
@@ -267,3 +273,14 @@
       );
   patterns:
     - border( |-)?shape
+
+- id: css_in_svg
+  name: CSS inside SVG
+  descriptionIssues: >
+    Modern CSS primitives not working, or behaving inconsistently, inside SVG — e.g. custom properties and functions, shape(), or color functions unavailable in SVG geometry/presentation contexts (such as shape() in <path>).
+
+- id: svg_css_properties
+  name: SVG attributes as CSS properties
+  parentId: css_in_svg
+  descriptionIssues: >
+    SVG geometry and presentation attributes (path d, viewBox, cx/cy/r, points, etc.) not being fully exposed as settable or animatable CSS properties.

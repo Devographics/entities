@@ -74,3 +74,9 @@
     Frustration from receiving conflicting or contradictory information and best
     practices from different sources (specs, experts, community).
   parentId: educational_issues
+
+- id: baseline_awareness
+  name: Baseline availability awareness
+  parentId: educational_issues
+  descriptionIssues: >
+    Knowing which features are widely/newly supported and when they are safe to use in production (Baseline, caniuse, etc.).
