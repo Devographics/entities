@@ -162,6 +162,7 @@
     - accessibility_features
 
 - id: light_dark
+  parentId: dark_mode
   webFeaturesId: light-dark
   name: "`light-dark()`"
   mdn: en-US/docs/Web/CSS/color_value/light-dark

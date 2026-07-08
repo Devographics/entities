@@ -153,6 +153,7 @@
       }
 
 - id: gradient_color_spaces
+  parentId: css_gradients
   webFeaturesId: gradient-interpolation
   name: Interpolation Color Spaces
   # mdn:

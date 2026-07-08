@@ -113,6 +113,7 @@
   parentId: animations_issues
 
 - id: at_custom_media
+  parentId: css_abstractions
   name: "`@custom-media`"
   resources:
     - url: https://www.w3.org/TR/mediaqueries-5/#custom-mq
@@ -266,6 +267,7 @@
   name: Nth-of-class Selector
 
 - id: gradient_borders
+  parentId: css_gradients
   name: Gradient Borders
   patterns:
     - border, gradient [l]
@@ -286,6 +288,7 @@
     - media, quer(y|ies), variable(s)? [l]
 
 - id: custom_functions
+  parentId: css_abstractions
   name: Custom Functions
   patterns:
     - custom, function(s)? [l]

@@ -62,6 +62,7 @@
     - podcasts
 
 - id: mdn
+  parentId: baseline_awareness
   name: MDN
   homepageUrl: https://developer.mozilla.org/en-US/
   patterns:
@@ -104,6 +105,7 @@
   homepageUrl: https://wptavern.com/
 
 - id: caniuse
+  parentId: baseline_awareness
   name: Can I Use
   homepageUrl: https://caniuse.com/
 
@@ -189,6 +191,7 @@
     - blogs
 
 - id: web_dev
+  parentId: baseline_awareness
   name: Web.dev
   homepageUrl: https://web.dev/
   patterns:

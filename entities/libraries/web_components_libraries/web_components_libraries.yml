@@ -3,6 +3,7 @@
 #################################################
 
 - id: shoelace
+  parentId: design_systems
   name: Shoelace
   homepageUrl: https://shoelace.style/
 

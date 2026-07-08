@@ -101,6 +101,7 @@
       }
 
 - id: intrinsic_sizing
+  parentId: sizing
   webFeaturesId: min-max-content
   name: Intrinsic Sizing
   description: >
@@ -119,11 +120,13 @@
     - max-content
 
 - id: repeating_linear_gradient
+  parentId: css_gradients
   name: "`repeating-linear-gradient()`"
   mdn: /en-US/docs/Web/CSS/gradient/repeating-linear-gradient()
   caniuse: mdn-css_types_image_gradient_repeating-linear-gradient
 
 - id: conic_gradient
+  parentId: css_gradients
   webFeaturesId: conic-gradients
   name: "`conic-gradient()`"
   mdn: /en-US/docs/Web/CSS/gradient/conic-gradient()
@@ -236,6 +239,7 @@
       }
 
 - id: css_corner_shape
+  parentId: element_shape
   webFeaturesId: corner-shape
   name: |
     `corner-shape`
@@ -258,6 +262,7 @@
     - corner( |-)?shape
 
 - id: css_border_shape
+  parentId: element_shape
   webFeaturesId: border-shape
   name: |
     `border-shape`

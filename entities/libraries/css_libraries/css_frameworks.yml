@@ -2,6 +2,7 @@
 # CSS frameworks
 #################################################
 - id: bootstrap
+  parentId: css_frameworks
   name: Bootstrap
   contexts: [state_of_css]
   github: twbs/bootstrap
@@ -9,6 +10,7 @@
   npm: bootstrap
 
 - id: materialize_css
+  parentId: css_frameworks
   name: Materialize CSS
   contexts: [state_of_css]
   github: Dogfalo/materialize
@@ -16,6 +18,7 @@
   homepageUrl: https://materializecss.com/
 
 - id: material_ui
+  parentId: design_systems
   name: Material UI
   contexts: [state_of_css]
   github: mui-org/material-ui
@@ -26,6 +29,7 @@
     - material
 
 - id: ant_design
+  parentId: design_systems
   name: Ant Design
   contexts: [state_of_css]
   github: ant-design/ant-design
@@ -35,6 +39,7 @@
     - ant design
 
 - id: semantic_ui
+  parentId: css_frameworks
   name: Semantic UI/Fomantic UI
   contexts: [state_of_css]
   github: Semantic-Org/Semantic-UI
@@ -42,6 +47,7 @@
   npm: semantic-ui
 
 - id: semanticui
+  parentId: css_frameworks
   name: Semantic UI/Fomantic UI
   contexts: [state_of_css]
   github: Semantic-Org/Semantic-UI
@@ -49,6 +55,7 @@
   npm: semantic-ui
 
 - id: bulma
+  parentId: css_frameworks
   name: Bulma
   contexts: [state_of_css]
   github: jgthms/bulma
@@ -56,12 +63,14 @@
   homepageUrl: https://bulma.io/
 
 - id: foundation
+  parentId: css_frameworks
   name: Foundation
   contexts: [state_of_css]
   github: zurb/foundation-sites
   homepageUrl: https://get.foundation/
 
 - id: ui_kit
+  parentId: css_frameworks
   name: UIKit
   contexts: [state_of_css]
   github: uikit/uikit
@@ -69,12 +78,14 @@
   homepageUrl: https://getuikit.com/
 
 - id: tachyons
+  parentId: css_frameworks
   name: Tachyons
   contexts: [state_of_css]
   github: tachyons-css/tachyons
   homepageUrl: https://tachyons.io/
 
 - id: primer
+  parentId: design_systems
   name: Primer
   contexts: [state_of_css]
   github: primer/css
@@ -82,6 +93,7 @@
   npm: "@primer/css"
 
 - id: tailwind_css
+  parentId: css_frameworks
   name: Tailwind CSS
   contexts: [state_of_css]
   github: tailwindcss/tailwindcss
@@ -95,10 +107,12 @@
     - component_libraries_pain_points
 
 - id: tailwind_ui
+  parentId: css_frameworks
   name: Tailwind UI
   homepageUrl: https://tailwindui.com/
 
 - id: pure_css
+  parentId: css_frameworks
   name: PureCSS
   contexts: [state_of_css]
   github: pure-css/pure
@@ -106,12 +120,14 @@
   homepageUrl: https://purecss.io/
 
 - id: skeleton
+  parentId: css_frameworks
   name: Skeleton
   contexts: [state_of_css]
   homepageUrl: http://getskeleton.com/
   github: dhg/Skeleton
 
 - id: spectre_css
+  parentId: css_frameworks
   name: Spectre.css
   contexts: [state_of_css]
   homepageUrl: https://picturepan2.github.io/spectre/
@@ -119,6 +135,7 @@
   npm: spectre.css
 
 - id: halfmoon
+  parentId: css_frameworks
   name: Halfmoon
   contexts: [state_of_css]
   homepageUrl: https://www.gethalfmoon.com/
@@ -126,6 +143,7 @@
   npm: halfmoon
 
 - id: radix
+  parentId: css_frameworks
   name: Radix
   contexts: [state_of_css]
   homepageUrl: https://www.radix-ui.com/
@@ -133,18 +151,21 @@
   npm: "@radix-ui"
 
 - id: uno_css
+  parentId: css_frameworks
   name: UnoCSS
   contexts: [state_of_css]
   homepageUrl: https://uno.antfu.me/
   github: unocss/unocss
 
 - id: open_props
+  parentId: css_frameworks
   name: Open Props
   contexts: [state_of_css]
   homepageUrl: https://open-props.style/
   github: argyleink/open-props
 
 - id: mantine
+  parentId: design_systems
   name: Mantine
   contexts: [state_of_css]
   homepageUrl: https://mantine.dev/
@@ -155,6 +176,7 @@
     - mantineui
 
 - id: ark_ui
+  parentId: css_frameworks
   name: Ark UI
   description: >
     Get fully customizable, accessible and unstyled UI components
@@ -163,6 +185,7 @@
     - ui_libraries
 
 - id: next_ui
+  parentId: design_systems
   name: HeroUI (previously NextUI)
   description: >
     Beautiful, fast and modern React UI library.
@@ -171,12 +194,14 @@
     - react
 
 - id: headless_ui
+  parentId: css_frameworks
   github: tailwindlabs/headlessui
   npm: "@headlessui/react"
   name: Headless UI
   homepageUrl: https://headlessui.com/
 
 - id: pico_css
+  parentId: css_frameworks
   name: Pico.css
   contexts: [state_of_css]
   homepageUrl: https://picocss.com/
@@ -185,18 +210,21 @@
     - pico
 
 - id: shoelace
+  parentId: design_systems
   name: Shoelace
   contexts: [state_of_css]
   homepageUrl: https://shoelace.style/
   github: shoelace-style/shoelace
 
 - id: daisy_ui
+  parentId: css_frameworks
   name: daisyUI
   contexts: [state_of_css]
   homepageUrl: https://daisyui.com/
   github: saadeghi/daisyui
 
 - id: water_css
+  parentId: css_frameworks
   name: Water.css
   contexts: [state_of_css]
   homepageUrl: https://watercss.kognise.dev/
@@ -205,27 +233,32 @@
     - water
 
 - id: master_css
+  parentId: css_frameworks
   name: Master CSS
   contexts: [state_of_css]
   homepageUrl: https://css.master.co/
   github: master-co/css
 
 - id: automatic_css
+  parentId: css_frameworks
   name: Automatic.css
   contexts: [state_of_css]
   homepageUrl: https://automaticcss.com/
 
 - id: milligram
+  parentId: css_frameworks
   name: Milligram
   contexts: [state_of_css]
   homepageUrl: https://milligram.io/
 
 - id: blaze_ui
+  parentId: css_frameworks
   name: Blaze UI
   homepageUrl: https://www.blazeui.com/
   github: https://github.com/BlazeSoftware/atoms
 
 - id: mvp_css
+  parentId: css_frameworks
   name: MVP.css
   homepageUrl: https://andybrewer.github.io/mvp/
   github: https://github.com/andybrewer/mvp/
@@ -233,20 +266,24 @@
     - mvp
 
 - id: codyframe
+  parentId: css_frameworks
   name: CodyFrame
   homepageUrl: https://codyhouse.co/ds/docs/framework
   patterns:
     - codyhouse
 
 - id: element_ui
+  parentId: design_systems
   name: Element
   homepageUrl: https://element.eleme.io/#/en-US
 
 - id: blueprint
+  parentId: design_systems
   name: Blueprint
   homepageUrl: http://www.blueprintcss.org/
 
 - id: inuit_css
+  parentId: css_frameworks
   name: Inuit CSS
   github: inuitcss/inuitcss
   homepageUrl: http://inuitcss.com/
@@ -254,10 +291,12 @@
     - inuit
 
 - id: primereact
+  parentId: design_systems
   name: PrimeReact
   homepageUrl: https://primereact.org/
 
 - id: fluent_ui_web
+  parentId: design_systems
   name: Fluent UI
   homepageUrl: https://developer.microsoft.com/en-us/fluentui#/
   patterns:
@@ -265,34 +304,42 @@
     - fluentui
 
 - id: tailwind_elements
+  parentId: css_frameworks
   name: Tailwind Elements
   homepageUrl: https://tw-elements.com/
 
 - id: flowbite
+  parentId: css_frameworks
   name: Flowbite
   homepageUrl: https://flowbite.com/
 
 - id: clarity
+  parentId: design_systems
   name: Clarity Design System
   homepageUrl: https://clarity.design/
 
 - id: element_plus
+  parentId: design_systems
   name: Element Plus
   homepageUrl: https://element-plus.org/
 
 - id: primeflex
+  parentId: css_frameworks
   name: Primeflex
   homepageUrl: https://primeflex.org/
 
 - id: primeng
+  parentId: design_systems
   name: PrimeNG
   homepageUrl: https://primeng.org/
 
 - id: primevue
+  parentId: design_systems
   name: PrimeVue
   homepageUrl: https://primevue.org/
 
 - id: aceternity_ui
+  parentId: design_systems
   name: Aceternity UI
   homepageUrl: https://ui.aceternity.com/
   tags:
@@ -301,6 +348,7 @@
     - aceternity
 
 - id: carbon_design_system
+  parentId: design_systems
   name: Carbon Design System
   homepageUrl: https://carbondesignsystem.com/
   tags:
@@ -309,25 +357,30 @@
     - carbon
 
 - id: glue_stack
+  parentId: design_systems
   name: GlueStack
   homepageUrl: https://gluestack.io/
   tags:
     - react
 
 - id: grommet
+  parentId: design_systems
   name: Grommet
   homepageUrl: https://v2.grommet.io/
   tags:
     - react
 
 - id: park_ui
+  parentId: design_systems
   name: Park UI
   homepageUrl: https://park-ui.com/
 
 - id: magic_ui
+  parentId: design_systems
   name: Magic UI
   homepageUrl: https://magicui.design/
 
 - id: web_awesome
+  parentId: design_systems
   name: Web Awesome
   homepageUrl: https://webawesome.com/

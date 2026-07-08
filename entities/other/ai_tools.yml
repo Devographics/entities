@@ -5,6 +5,7 @@
   homepageUrl: https://www.tabnine.com/
 
 - id: chat_gpt
+  parentId: ai_tools
   idAliases:
     - chatgpt
   name: ChatGPT

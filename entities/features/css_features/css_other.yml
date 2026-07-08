@@ -46,6 +46,7 @@
   caniuse: will-change
 
 - id: calc
+  parentId: math_functions
   webFeaturesId: calc
   name: "`calc()`"
   mdn: /en-US/docs/Web/CSS/calc
@@ -126,6 +127,7 @@
   caniuse: css-math-functions
 
 - id: comparison_functions
+  parentId: math_functions
   webFeaturesId: min-max-clamp
   name: Comparison Functions
   description: >
@@ -143,6 +145,7 @@
     - clamp\(\) [e]
 
 - id: trigonometric_functions
+  parentId: math_functions
   webFeaturesId: trig-functions
   name: Trigonometric Functions
   description: >
@@ -158,6 +161,7 @@
       }
 
 - id: exponential_functions
+  parentId: math_functions
   webFeaturesId: exp-functions
   name: Exponential Functions
   description: >
@@ -172,6 +176,7 @@
       }
 
 - id: sign_related_functions
+  parentId: math_functions
   webFeaturesId: abs-sign
   name: Sign-related Functions
   description: >
@@ -187,6 +192,7 @@
       }
 
 - id: stepped_value_functions
+  parentId: math_functions
   webFeaturesId: round-mod-rem
   name: Stepped Value Functions
   description: >
@@ -484,6 +490,7 @@
     - "@page [e]"
 
 - id: calc_size
+  parentId: intrinsic_sizing
   webFeaturesId: calc-size
   name: "`calc-size()`"
   resources:
@@ -504,6 +511,7 @@
       }
 
 - id: interpolate_size
+  parentId: intrinsic_sizing
   webFeaturesId: interpolate-size
   name: "`interpolate-size()`"
   mdn: en-US/docs/Web/CSS/interpolate-size
@@ -539,6 +547,7 @@
       url: https://www.w3.org/TR/css-values-5/#tree-counting
 
 - id: at_function
+  parentId: custom_functions
   webFeaturesId: function
   name: "`@function`"
   description: |
@@ -573,6 +582,7 @@
     - browser_interoperability
 
 - id: if_function
+  parentId: css_conditional_logic
   webFeaturesId: if
   name: "`if()`"
   description: |

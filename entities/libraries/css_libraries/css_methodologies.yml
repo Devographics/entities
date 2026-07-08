@@ -2,6 +2,7 @@
 # CSS methodologies
 #################################################
 - id: bem
+  parentId: naming_conventions
   name: BEM
   contexts: [state_of_css]
   description: |
@@ -18,6 +19,7 @@
   homepageUrl: "https://acss.io"
 
 - id: oocss
+  parentId: naming_conventions
   name: OOCSS
   contexts: [state_of_css]
   homepageUrl: http://oocss.org/
@@ -26,6 +28,7 @@
     write CSS that is succinct and easy to maintain.
 
 - id: smacss
+  parentId: naming_conventions
   name: SMACSS
   contexts: [state_of_css]
   homepageUrl: http://smacss.com/
@@ -37,6 +40,7 @@
     a flexible thought process.
 
 - id: it_css
+  parentId: naming_conventions
   name: ITCSS
   description: |
     ITCSS is a sane, scalable, managed
@@ -44,6 +48,7 @@
   homepageUrl: https://itcss.io/
 
 - id: cube_css
+  parentId: naming_conventions
   name: CUBE CSS
   homepageUrl: https://piccalil.li/blog/cube-css/
 
@@ -51,5 +56,6 @@
   name: CSS-in-JS
 
 - id: rscss
+  parentId: naming_conventions
   name: RSCSS
   homepageUrl: https://rscss.io/

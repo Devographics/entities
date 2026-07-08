@@ -5,6 +5,7 @@
 - id: plain_css
 
 - id: sass
+  parentId: preprocessors
   name: Sass/SCSS
   github: sass/sass
   npm: node-sass
@@ -18,6 +19,7 @@
     - scss
 
 - id: less
+  parentId: preprocessors
   name: Less
   contexts: []
   github: less/less.js
@@ -29,6 +31,7 @@
     - state_of_css
 
 - id: post_css
+  parentId: preprocessors
   name: PostCSS
   contexts: [state_of_css]
   github: postcss/postcss
@@ -38,6 +41,7 @@
     - css_pre_post_processors
 
 - id: stylus
+  parentId: preprocessors
   name: Stylus
   contexts: [state_of_css]
   github: stylus/stylus
@@ -48,6 +52,7 @@
     - css_pre_post_processors
 
 - id: acss
+  parentId: preprocessors
   name: Atomizer
   contexts: [state_of_css]
   github: acss-io/atomizer
@@ -58,6 +63,7 @@
     - css_pre_post_processors
 
 - id: assembler_css
+  parentId: preprocessors
   name: Assembler CSS
   contexts: [state_of_css]
   github: asmcss/assembler
@@ -68,6 +74,7 @@
     - css_pre_post_processors
 
 - id: lightning_css
+  parentId: preprocessors
   name: Lightning CSS
   contexts: [state_of_css]
   github: parcel-bundler/lightningcss

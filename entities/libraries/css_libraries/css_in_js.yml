@@ -1,4 +1,5 @@
 - id: styled_components
+  parentId: css_in_js
   name: Styled Components
   contexts: [state_of_css]
   npm: styled-components
@@ -12,12 +13,14 @@
     - style(d)?( |-|_)?componetns
 
 - id: jss
+  parentId: css_in_js
   name: JSS
   contexts: [state_of_css]
   github: cssinjs/jss
   homepageUrl: https://cssinjs.org
 
 - id: styled_jsx
+  parentId: css_in_js
   name: Styled JSX
   contexts: [state_of_css]
   npm: styled-jsx
@@ -26,6 +29,7 @@
   homepageUrl: https://github.com/vercel/styled-jsx
 
 - id: radium
+  parentId: css_in_js
   name: Radium
   contexts: [state_of_css]
   github: FormidableLabs/radium
@@ -33,6 +37,7 @@
   homepageUrl: https://formidable.com/open-source/radium/
 
 - id: emotion
+  parentId: css_in_js
   name: Emotion
   contexts: [state_of_css]
   npm: emotion
@@ -41,6 +46,7 @@
   homepageUrl: "https://emotion.sh/"
 
 - id: css_modules
+  parentId: css_in_js
   name: CSS Modules
   descriptionIssues: >
     Importing CSS via ES modules/import attributes (e.g., import sheet from
@@ -50,23 +56,27 @@
   homepageUrl: https://github.com/css-modules/css-modules
 
 - id: styled_system
+  parentId: css_in_js
   name: Styled System
   contexts: [state_of_css]
   homepageUrl: https://styled-system.com/
 
 - id: stitches
+  parentId: css_in_js
   name: Stitches
   contexts: [state_of_css]
   github: modulz/stitches
   homepageUrl: https://stitches.dev/
 
 - id: panda_css
+  parentId: css_in_js
   name: Panda
   homepageUrl: https://panda-css.com/
   patterns:
     - panda
 
 - id: styletron
+  parentId: css_in_js
   name: Styletron
   contexts: [state_of_css]
   npm: styletron-engine-atomic
@@ -75,6 +85,7 @@
   homepageUrl: "https://www.styletron.org"
 
 - id: fela
+  parentId: css_in_js
   name: Fela
   contexts: [state_of_css]
   npm: fela
@@ -83,6 +94,7 @@
   homepageUrl: "http://fela.js.org"
 
 - id: linaria
+  parentId: css_in_js
   name: Linaria
   contexts: [state_of_css]
   npm: linaria
@@ -91,6 +103,7 @@
   homepageUrl: "https://linaria.dev/"
 
 - id: astroturf
+  parentId: css_in_js
   name: Astroturf
   contexts: [state_of_css]
   npm: astroturf
@@ -100,6 +113,7 @@
     An "artificial" CSS-in-JS for those that want it all.
 
 - id: twin
+  parentId: css_in_js
   name: Twin
   contexts: [state_of_css]
   npm: twin.macro
@@ -108,6 +122,7 @@
     Twin blends the magic of Tailwind with the flexibility of css-in-js.
 
 - id: goober
+  parentId: css_in_js
   name: Goober
   contexts: [state_of_css]
   npm: twin.macro
@@ -117,6 +132,7 @@
     A less than 1KB css-in-js alternative with a familiar API.
 
 - id: windi_css
+  parentId: css_in_js
   name: Windi CSS
   contexts: [state_of_css]
   homepageUrl: https://windicss.org/
@@ -125,45 +141,55 @@
     Next generation utility-first CSS framework.
 
 - id: goober
+  parentId: css_in_js
   name: Goober
   homepageUrl: https://github.com/cristianbote/goober
   github: cristianbote/goober
 
 - id: vanilla_extract
+  parentId: css_in_js
   name: vanilla-extract
   homepageUrl: https://vanilla-extract.style/
   github: seek-oss/vanilla-extract
 
 - id: aphrodite
+  parentId: css_in_js
   name: Aphrodite
   homepageUrl: https://github.com/Khan/aphrodite
   github: Khan/aphrodite
 
 - id: griffel
+  parentId: css_in_js
   name: Griffel
   homepageUrl: https://griffel.js.org/
 
 - id: style_x
+  parentId: css_in_js
   name: StyleX
   homepageUrl: https://stylexjs.com/
 
 - id: tamagui
+  parentId: css_in_js
   name: Tamagui
   homepageUrl: https://tamagui.dev/
 
 - id: typestyle
+  parentId: css_in_js
   name: TypeStyle
   homepageUrl: https://typestyle.github.io/
 
 - id: pigment_css
+  parentId: css_in_js
   name: Pigment CSS
   homepageUrl: https://mui.com/blog/introducing-pigment-css/
 
 - id: ecsstatic
+  parentId: css_in_js
   name: ecsstatic
   homepageUrl: https://www.ecsstatic.dev/
 
 - id: unistyles
+  parentId: css_in_js
   name: Unistyles
   homepageUrl: https://www.unistyl.es/
   patterns:

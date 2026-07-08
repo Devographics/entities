@@ -17,6 +17,7 @@
     - anchor
 
 - id: aspect_ratio
+  parentId: sizing
   patterns:
     - aspect, ratio [l]
 

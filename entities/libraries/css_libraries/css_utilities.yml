@@ -14,6 +14,7 @@
   homepageUrl: https://stylis.js.org/
 
 - id: autoprefixer
+  parentId: vendor_prefixes
   name: Autoprefixer
   homepageUrl: https://autoprefixer.github.io/
   patterns:
@@ -53,6 +54,7 @@
     - css
 
 - id: purge_css
+  parentId: unused_css
   name: PurgeCSS
   homepageUrl: https://purgecss.com/
   contexts: [state_of_css]
@@ -60,6 +62,7 @@
     - css
 
 - id: purify_css
+  parentId: unused_css
   name: PurifyCSS
   homepageUrl: https://purifycss.online/
   contexts: [state_of_css]
