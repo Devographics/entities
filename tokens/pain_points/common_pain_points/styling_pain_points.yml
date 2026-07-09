@@ -19,12 +19,6 @@
     changing text, adding or removing controls, etc.
   parentId: styling_customization
 
-- id: color_management
-  name: |
-    Color management
-  description: |
-    Color‑management and color‑space handling across web platform features
-
 - id: design_systems_issues
   name: Design systems
   description: |

@@ -86,7 +86,7 @@
   descriptionIssues: >
     Pain points specific to the OKLCH color space: its syntax, mental
     model, and the unintuitive or unpredictable feel of its numeric values.
-  parentId: wide_gamut_colors
+  parentId: color_management
   mdn: /en-US/docs/Web/CSS/color_value/lch
   caniuse: css-lch-lab
   example:

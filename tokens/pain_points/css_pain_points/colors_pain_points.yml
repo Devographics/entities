@@ -1,3 +1,9 @@
+- id: color_management
+  name: |
+    Color management
+  description: |
+    Color‑management and color‑space handling across web platform features
+
 - id: contrast_issues
   patterns:
     - contrast
