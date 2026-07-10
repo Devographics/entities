@@ -17,7 +17,7 @@
   name: Subgrid
   descriptionIssues: |
     Issues specific to CSS Grid Layout.
-  parentId: css_layout
+  parentId: css_layout_issues
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
   caniuse: css-subgrid
   example:

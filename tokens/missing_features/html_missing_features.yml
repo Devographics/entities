@@ -8,14 +8,6 @@
   patterns:
     - 3d
 
-- id: anchor_positioning
-  descriptionIssues: >
-    Pain points related to the CSS Anchor Positioning API, often in conjunction
-    with the Popover API. Includes issues with browser support and the perceived
-    necessity of this API for positioning popovers and tooltips effectively.
-  patterns:
-    - anchor
-
 - id: aspect_ratio
   parentId: sizing_issues
   patterns:

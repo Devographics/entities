@@ -180,7 +180,7 @@
   description: Native support for Pinterest-style free-flowing grid layouts.
   descriptionIssues: |
     Issues related to the desire for a native CSS Masonry layout.
-  parentId: css_layout
+  parentId: css_layout_issues
   patterns:
     - grid, masonry [l]
     - grid, masonry, layout [l]

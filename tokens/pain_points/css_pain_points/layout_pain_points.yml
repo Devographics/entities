@@ -1,6 +1,6 @@
 - id: css_layout_issues
   name: |
-    CSS Layout
+    CSS layout issues
   description: |
     General issues related to CSS layout models.
 
@@ -31,10 +31,6 @@
 - id: margin_issues
   patterns:
     - margin
-
-- id: positioning_issues
-  patterns:
-    - position [p]
 
 - id: z_index_issues
   patterns:
