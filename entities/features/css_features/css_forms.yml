@@ -1,5 +1,5 @@
 - id: field_sizing
-  parentId: sizing
+  parentId: sizing_issues
   webFeaturesId: field-sizing
   name: "`field-sizing`"
   description: |

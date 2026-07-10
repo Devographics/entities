@@ -19,6 +19,7 @@
 - id: browser_support
   name: Browser support
   description: Browser support, compatibility, and consistency issues.
+  parentId: interop_issues
   patterns:
     - browser adoption
     - consistency

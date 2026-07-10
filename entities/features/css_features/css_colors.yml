@@ -84,8 +84,7 @@
   description: >
     `lch()`, `lab()`, `oklch()`, `oklab()`
   descriptionIssues: >
-    Pain points specific to the OKLCH color space: its syntax, mental
-    model, and the unintuitive or unpredictable feel of its numeric values.
+    Pain points specific to wide gamut color spaces.
   parentId: color_management
   mdn: /en-US/docs/Web/CSS/color_value/lch
   caniuse: css-lch-lab
@@ -97,8 +96,25 @@
         background-color: lch(29.2345% 44.2 27);
       }
   patterns:
-    - oklch
     - p3
+
+- id: oklch_colors
+  webFeaturesId: oklab
+  name: OKLCH Colors
+  descriptionIssues: >
+    Pain points specific to the OKLCH color space: its syntax, mental
+    model, and the unintuitive or unpredictable feel of its numeric values.
+  parentId: wide_gamut_colors
+  mdn: en-US/docs/Web/CSS/Reference/Values/color_value/oklch
+  caniuse: wf-oklab
+  example:
+    language: css
+    code: |
+      .foo {
+        background-color: oklch(40.1% 0.123 21.57)
+      }
+  patterns:
+    - oklch
 
 - id: relative_colors
   webFeaturesId: relative-color

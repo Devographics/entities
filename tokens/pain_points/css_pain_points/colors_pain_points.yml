@@ -5,6 +5,8 @@
     Color‑management and color‑space handling across web platform features
 
 - id: contrast_issues
+  name: Contrast issues
+  parentId: accessibility_issues
   patterns:
     - contrast
     - constrast
@@ -34,6 +36,8 @@
     - color spaces
 
 - id: color_manipulation_issues
+  name: Color manipulation
+  parentId: color_management
 
 - id: color_syntax_issues
   patterns:
@@ -84,7 +88,7 @@
 
 - id: color_alpha
   name: Adjusting alpha/opacity
-  parentId: color_management
+  parentId: color_manipulation_issues
   descriptionIssues: >
     Applying or adjusting transparency on an existing color, variable, hex value, or currentColor, without verbose color-mix or relative-color syntax.
 
@@ -101,7 +105,7 @@
 
 - id: contrast_algorithms
   name: Contrast algorithms
-  parentId: color_management
+  parentId: accessibility_issues
   descriptionIssues: >
     Algorithms for evaluating perceptual or accessibility contrast, including complaints about WCAG 2.x accuracy and desire for APCA or a choice of algorithm.
 

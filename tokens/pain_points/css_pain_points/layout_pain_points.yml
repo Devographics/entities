@@ -69,8 +69,13 @@
     - table
 
 - id: sizing_issues
+  name: Sizing
   patterns:
     - sizing
+
+- id: dynamic_sizing
+  name: Dynamic sizing
+  parentId: sizing_issues
 
 - id: spacing_issues
   patterns:
@@ -94,7 +99,7 @@
   name: Extrinsic sizing
   descriptionIssues: >
     Sizing elements to fill available or viewport width or height: 100% height chains, full-height children without an explicit parent height, and stretching to fit remaining space.
-  parentId: sizing
+  parentId: sizing_issues
 
 - id: container_query_wrapper
   name: Container query wrapper requirement
@@ -115,7 +120,7 @@
 
 - id: automatic_min_size
   name: Automatic minimum size
-  parentId: sizing
+  parentId: sizing_issues
   descriptionIssues: >
     The automatic minimum size of flex and grid items causing overflow or squishing, often requiring the min-width: 0 / min-height: 0 workaround.
 

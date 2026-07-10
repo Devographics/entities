@@ -18,7 +18,7 @@
   homepageUrl: https://materializecss.com/
 
 - id: material_ui
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Material UI
   contexts: [state_of_css]
   github: mui-org/material-ui
@@ -29,7 +29,7 @@
     - material
 
 - id: ant_design
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Ant Design
   contexts: [state_of_css]
   github: ant-design/ant-design
@@ -85,7 +85,7 @@
   homepageUrl: https://tachyons.io/
 
 - id: primer
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Primer
   contexts: [state_of_css]
   github: primer/css
@@ -165,7 +165,7 @@
   github: argyleink/open-props
 
 - id: mantine
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Mantine
   contexts: [state_of_css]
   homepageUrl: https://mantine.dev/
@@ -185,7 +185,7 @@
     - ui_libraries
 
 - id: next_ui
-  parentId: design_systems
+  parentId: design_systems_issues
   name: HeroUI (previously NextUI)
   description: >
     Beautiful, fast and modern React UI library.
@@ -210,7 +210,7 @@
     - pico
 
 - id: shoelace
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Shoelace
   contexts: [state_of_css]
   homepageUrl: https://shoelace.style/
@@ -273,12 +273,12 @@
     - codyhouse
 
 - id: element_ui
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Element
   homepageUrl: https://element.eleme.io/#/en-US
 
 - id: blueprint
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Blueprint
   homepageUrl: http://www.blueprintcss.org/
 
@@ -291,12 +291,12 @@
     - inuit
 
 - id: primereact
-  parentId: design_systems
+  parentId: design_systems_issues
   name: PrimeReact
   homepageUrl: https://primereact.org/
 
 - id: fluent_ui_web
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Fluent UI
   homepageUrl: https://developer.microsoft.com/en-us/fluentui#/
   patterns:
@@ -314,12 +314,12 @@
   homepageUrl: https://flowbite.com/
 
 - id: clarity
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Clarity Design System
   homepageUrl: https://clarity.design/
 
 - id: element_plus
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Element Plus
   homepageUrl: https://element-plus.org/
 
@@ -329,17 +329,17 @@
   homepageUrl: https://primeflex.org/
 
 - id: primeng
-  parentId: design_systems
+  parentId: design_systems_issues
   name: PrimeNG
   homepageUrl: https://primeng.org/
 
 - id: primevue
-  parentId: design_systems
+  parentId: design_systems_issues
   name: PrimeVue
   homepageUrl: https://primevue.org/
 
 - id: aceternity_ui
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Aceternity UI
   homepageUrl: https://ui.aceternity.com/
   tags:
@@ -348,7 +348,7 @@
     - aceternity
 
 - id: carbon_design_system
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Carbon Design System
   homepageUrl: https://carbondesignsystem.com/
   tags:
@@ -357,30 +357,30 @@
     - carbon
 
 - id: glue_stack
-  parentId: design_systems
+  parentId: design_systems_issues
   name: GlueStack
   homepageUrl: https://gluestack.io/
   tags:
     - react
 
 - id: grommet
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Grommet
   homepageUrl: https://v2.grommet.io/
   tags:
     - react
 
 - id: park_ui
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Park UI
   homepageUrl: https://park-ui.com/
 
 - id: magic_ui
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Magic UI
   homepageUrl: https://magicui.design/
 
 - id: web_awesome
-  parentId: design_systems
+  parentId: design_systems_issues
   name: Web Awesome
   homepageUrl: https://webawesome.com/

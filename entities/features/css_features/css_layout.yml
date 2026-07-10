@@ -114,7 +114,7 @@
       }
 
 - id: aspect_ratio
-  parentId: sizing
+  parentId: sizing_issues
   webFeaturesId: aspect-ratio
   name: "`aspect-ratio`"
   mdn: /en-US/docs/Web/CSS/aspect-ratio

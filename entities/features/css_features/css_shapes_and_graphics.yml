@@ -101,7 +101,7 @@
       }
 
 - id: intrinsic_sizing
-  parentId: sizing
+  parentId: sizing_issues
   webFeaturesId: min-max-content
   name: Intrinsic Sizing
   description: >
