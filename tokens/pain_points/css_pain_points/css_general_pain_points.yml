@@ -127,7 +127,7 @@
   descriptionIssues: >
     Referencing a custom property whose name is composed dynamically (e.g. var(--color-<state>)) — indirection / computed variable names — to enable keyed lookups rather than only static var() references.
 
-- id: css_frameworks_issues
+- id: css_frameworks
   name: CSS frameworks
   parentId: ecosystem
   descriptionIssues: >

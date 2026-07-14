@@ -31,9 +31,6 @@
   descriptionIssues: >
     Branching/conditional styling — choosing values or rules based on conditions (if()/else).
 
-- id: center
-  name: Centering
-
 - id: simplicity
   name: Simplicity
 
@@ -333,6 +330,7 @@
 - id: grid_gap_border
 
 - id: flex_wrap_balance
+  parentId: flexbox
   name: "`flex-wrap: balance;`"
 
 - id: irregular_element_shape

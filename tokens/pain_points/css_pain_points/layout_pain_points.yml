@@ -21,6 +21,8 @@
     - overflow [p]
 
 - id: centering_issues
+  name: Centering issues
+  parentId: positioning_issues
   patterns:
     - center [p]
 
@@ -65,7 +67,7 @@
     - table
 
 - id: sizing_issues
-  name: Sizing
+  name: Element sizing
   patterns:
     - sizing
 
@@ -84,12 +86,6 @@
     Issues with styling tables, including responsiveness, sticky
     headers/columns, and layout control.
   parentId: tables
-
-- id: choosing_layout_method
-  name: Choosing a layout method
-  parentId: cognitive_overload
-  descriptionIssues: >
-    Difficulty deciding which layout system (grid, flexbox, floats) is the right fit for a given situation.
 
 - id: extrinsic_sizing
   name: Extrinsic sizing
@@ -127,5 +123,6 @@
 
 - id: box_alignment
   name: Alignment properties
+  parentId: alignment_issues
   descriptionIssues: >
     The align-*/justify-* and place-* properties, especially how their meaning flips with flex direction and writing mode.

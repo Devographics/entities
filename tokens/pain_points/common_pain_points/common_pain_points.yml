@@ -145,6 +145,7 @@
 
 - id: too_much_boilerplate
   name: Excessive boilerplate
+  parentId: cognitive_overload
   description: Too much boilerplate required
   patterns:
     - boiler( )?plate
@@ -167,12 +168,6 @@
 
 # - id: tooling
 #   name: Tooling
-
-- id: verbosity
-  name: Excessive verbosity
-  description: APIs that are overly verbose
-  patterns:
-    - verbose
 
 - id: configuration
   name: Configuration
@@ -326,20 +321,6 @@
 - id: frustration_with_frameworks
   name: Reliance on frameworks
   description: Excessive reliance on frameworks and libraries over native APIs
-
-- id: focus_management
-  name: Focus management
-  description: Managing user focus
-  descriptionIssues: >
-    Challenges with managing focus, especially in dynamic contexts. Includes
-    focus trapping, roving tabindex, moving focus programmatically, and
-    preserving focus when DOM elements are added, removed, or moved.
-  parentId: a11y_technical_issues
-  patterns:
-    - focus
-  tags:
-    - html_missing_features
-    - accessibility_pain_poins
 
 - id: discoverability
   name: Discoverability

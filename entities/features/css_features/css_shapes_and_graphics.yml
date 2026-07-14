@@ -239,7 +239,7 @@
       }
 
 - id: css_corner_shape
-  parentId: element_shape
+  parentId: irregular_element_shape
   webFeaturesId: corner-shape
   name: |
     `corner-shape`
@@ -262,7 +262,7 @@
     - corner( |-)?shape
 
 - id: css_border_shape
-  parentId: element_shape
+  parentId: irregular_element_shape
   webFeaturesId: border-shape
   name: |
     `border-shape`

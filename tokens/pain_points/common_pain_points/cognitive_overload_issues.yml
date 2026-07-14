@@ -77,6 +77,8 @@
 - id: too_many_choices
   name: Choice overload
   description: Overwhelming amount of options and choices
+  descriptionIssues: >
+    Overwhelming amount of options and choices. For example, for CSS layouts this could mean difficulty deciding which layout system (grid, flexbox, floats) is the right fit for a given situation.
   tags:
     - front_end_frameworks_pain_points
   patterns:
@@ -135,7 +137,7 @@
 
 - id: verbosity_boilerplate
   name: |
-    Excessive verbosity / Boilerplate
+    Excessive verbosity
   description: |
     APIs being overly verbose and/or requiring too much boilerplate.
   parentId: cognitive_overload

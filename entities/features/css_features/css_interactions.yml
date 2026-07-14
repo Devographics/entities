@@ -156,6 +156,7 @@
 
 - id: scrollbar_gutter
   webFeaturesId: scrollbar-gutter
+  parentId: scrollbars
   name: "`scrollbar-gutter`"
   mdn: /en-US/docs/Web/CSS/scrollbar-gutter
   caniuse: mdn-css_properties_scrollbar-gutter

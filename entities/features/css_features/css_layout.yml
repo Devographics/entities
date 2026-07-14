@@ -4,6 +4,7 @@
 - id: grid
   webFeaturesId: grid
   name: Grid
+  parentId: css_layout_issues
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
   patterns:
@@ -14,10 +15,10 @@
 
 - id: subgrid
   webFeaturesId: subgrid
+  parentId: grid
   name: Subgrid
   descriptionIssues: |
     Issues specific to CSS Grid Layout.
-  parentId: css_layout_issues
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
   caniuse: css-subgrid
   example:
@@ -296,6 +297,7 @@
 
 - id: css_grid_lanes
   name: Grid Lanes
+  parentId: grid
   webFeaturesId: masonry
   mdn: en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout
   caniuse: css-grid-lanes

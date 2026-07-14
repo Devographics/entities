@@ -1,6 +1,5 @@
 - id: ai_tools_issues
-  name: Issues with AI coding tools
-  parentId: ai_tools
+  name: AI tools
   descriptionIssues: >
     LLM-based assistants writing poor, outdated, or unnecessary code, being unaware of new features, and the effort to review and clean up their output.
 
