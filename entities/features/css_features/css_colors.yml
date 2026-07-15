@@ -198,3 +198,8 @@
         background-color: var(--background-color);
         color: contrast-color(var(--background-color));
       }
+
+- id: rgb_color
+  name: "`rgb()` and `rgba()`"
+  webFeaturesId: rgb
+  mdn: en-US/docs/Web/CSS/Reference/Values/color_value/rgb

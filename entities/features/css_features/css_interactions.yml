@@ -212,3 +212,8 @@
   patterns:
     - carousel
     - carosel
+
+- id: user_action_pseudo_classes
+  name: |
+    `:active`, `:focus`, and `:hover`
+  webFeaturesId: user-action-pseudos

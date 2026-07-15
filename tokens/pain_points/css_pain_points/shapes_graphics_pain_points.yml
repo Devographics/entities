@@ -54,3 +54,14 @@
   name: Box model & box-sizing
   descriptionIssues: >
     Confusion around the box model: box-sizing defaults, collapsing margins, and how border/padding interact with declared sizes.
+
+- id: css_in_svg
+  name: CSS inside SVG
+  descriptionIssues: >
+    Modern CSS primitives not working, or behaving inconsistently, inside SVG — e.g. custom properties and functions, shape(), or color functions unavailable in SVG geometry/presentation contexts (such as shape() in <path>).
+
+- id: svg_css_properties
+  name: SVG attributes as CSS properties
+  parentId: css_in_svg
+  descriptionIssues: >
+    SVG geometry and presentation attributes (path d, viewBox, cx/cy/r, points, etc.) not being fully exposed as settable or animatable CSS properties.

@@ -2,6 +2,7 @@
 # CSS other features
 #################################################
 - id: css_custom_properties
+  webFeaturesId: custom-properties
   name: Custom Properties (Variables)
   mdn: /en-US/docs/Web/CSS/CSS_Variables
   caniuse: css-variables

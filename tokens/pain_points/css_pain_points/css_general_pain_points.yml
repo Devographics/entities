@@ -7,9 +7,6 @@
   patterns:
     - ie( |-)?11
 
-- id: z_index
-  name: z-index
-
 - id: svg
 
 - id: select

@@ -2174,3 +2174,9 @@
     the Escape key) in a consistent way for components like dialogs and
     popovers.
   parentId: declarative_apis
+
+- id: table_element
+  name: |
+    `<table>`
+  webFeaturesId: table
+  mdn: en-US/docs/Web/HTML/Reference/Elements/table

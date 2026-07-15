@@ -4,6 +4,7 @@
 
 - id: css_transitions
   name: CSS Transitions
+  webFeaturesId: transitions
   mdn: /en-US/docs/Web/CSS/CSS_Transitions
   caniuse: css-transitions
   parentId: animations_issues
@@ -64,6 +65,11 @@
     - allow, discrete [l]
     - discrete
     - starting(-| )?style
+
+- id: same_document_view_transitions
+  webFeaturesId: view-transitions
+  name: View Transition API (same document)
+  parentId: animations_issues
 
 - id: view_transitions
   webFeaturesId: cross-document-view-transitions

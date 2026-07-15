@@ -49,9 +49,9 @@
     - flex( |-)?box
 
 - id: multi_column
-  webFeaturesId: column-fill
+  webFeaturesId: multi-column
   name: Multi-Column Layout
-  mdn: /en-US/docs/Web/CSS/CSS_Columns
+  mdn: en-US/docs/Web/CSS/Reference/Properties/columns
   caniuse: multicolumn
   patterns:
     - column
@@ -239,6 +239,17 @@
     - url: https://ishadeed.com/article/css-object-view-box/
       title: First Look At The CSS object-view-box Property
 
+- id: css_viewport_units
+  webFeaturesId: viewport-units
+  name: Viewport Units
+  description: >
+    `vw` / `vh` / `vmin` / `vmax`
+  patterns:
+    - vw
+    - vh
+    - vmin
+    - vmax
+
 - id: viewport_percentage_length_units
   webFeaturesId: viewport-unit-variants
   name: Viewport-Relative Units
@@ -316,3 +327,13 @@
       }
   patterns:
     - grid(-| )?lanes
+
+- id: css_width_height
+  webFeaturesId: width-height
+  name: |
+    `width` and `height`
+
+- id: z_index
+  name: "`z-index`"
+  webFeaturesId: z-index
+  mdn: en-US/docs/Web/CSS/Reference/Properties/z-index

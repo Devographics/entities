@@ -109,11 +109,6 @@
   descriptionIssues: >
     Algorithms for evaluating perceptual or accessibility contrast, including complaints about WCAG 2.x accuracy and desire for APCA or a choice of algorithm.
 
-- id: css_gradients
-  name: CSS gradients
-  descriptionIssues: >
-    Creating good-looking gradients: uneven/banded transitions, non-linear fades toward transparency, interpolation, and animating gradients.
-
 - id: mesh_gradients
   name: Mesh gradients
   descriptionIssues: >

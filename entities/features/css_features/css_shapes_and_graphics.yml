@@ -119,6 +119,13 @@
     - min-content
     - max-content
 
+- id: css_gradients
+  name: CSS Gradients
+  webFeaturesId: gradients
+  mdn: en-US/docs/Web/CSS/Guides/Images/Using_gradients
+  descriptionIssues: >
+    Creating good-looking gradients: uneven/banded transitions, non-linear fades toward transparency, interpolation, and animating gradients.
+
 - id: repeating_linear_gradient
   parentId: css_gradients
   name: "`repeating-linear-gradient()`"
@@ -194,8 +201,14 @@
         offset-distance: 5%;
       }
 
+- id: css_shape_functions
+  webFeaturesId: shapes
+  name: CSS Shapes
+  mdn: en-US/docs/Web/CSS/Reference/Values/basic-shape
+
 - id: css_shape_function
   name: "`shape()`"
+  webFeaturesId: shape-function
   mdn: en-US/docs/Web/CSS/basic-shape/shape
   caniuse: mdn-css_types_basic-shape_shape
   resources:
@@ -237,6 +250,13 @@
         row-rule: 1px solid;
         row-rule-color: red blue;
       }
+
+- id: css_border_radius
+  webFeaturesId: border-radius
+  parentId: irregular_element_shape
+  name: |
+    `border-radius`
+  mdn: en-US/docs/Web/CSS/Reference/Properties/corner-shape
 
 - id: css_corner_shape
   parentId: irregular_element_shape
@@ -284,13 +304,7 @@
   patterns:
     - border( |-)?shape
 
-- id: css_in_svg
-  name: CSS inside SVG
-  descriptionIssues: >
-    Modern CSS primitives not working, or behaving inconsistently, inside SVG — e.g. custom properties and functions, shape(), or color functions unavailable in SVG geometry/presentation contexts (such as shape() in <path>).
-
-- id: svg_css_properties
-  name: SVG attributes as CSS properties
-  parentId: css_in_svg
-  descriptionIssues: >
-    SVG geometry and presentation attributes (path d, viewBox, cx/cy/r, points, etc.) not being fully exposed as settable or animatable CSS properties.
+- id: css_border
+  webFeaturesId: borders
+  name: CSS Borders
+  mdn: en-US/docs/Web/CSS/Reference/Properties/border
