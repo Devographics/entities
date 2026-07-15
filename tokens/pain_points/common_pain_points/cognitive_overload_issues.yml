@@ -162,3 +162,10 @@
   description: >
     Wide API surface, too many things to learn.
   parentId: cognitive_overload
+
+- id: unclear_use_cases
+  name: |
+    Unclear use cases
+  description: >
+    Not clear why you would use a specific feature
+  parentId: cognitive_overload

@@ -124,8 +124,13 @@
   descriptionIssues: >
     Referencing a custom property whose name is composed dynamically (e.g. var(--color-<state>)) — indirection / computed variable names — to enable keyed lookups rather than only static var() references.
 
-- id: css_frameworks
+- id: css_frameworks_issues
   name: CSS frameworks
   parentId: ecosystem
   descriptionIssues: >
     Pain points about CSS frameworks and component libraries: their dominance, being forced to adopt them, abstraction over native CSS, and overriding their styles.
+
+- id: preprocessors
+  name: Preprocessors
+  descriptionIssues: >
+    Issues related to using preprocessors such as SASS, LESS, etc.

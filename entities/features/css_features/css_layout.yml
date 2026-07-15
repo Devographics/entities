@@ -240,8 +240,8 @@
       title: First Look At The CSS object-view-box Property
 
 - id: css_viewport_units
-  webFeaturesId: viewport-units
   name: Viewport Units
+  webFeaturesId: viewport-units
   description: >
     `vw` / `vh` / `vmin` / `vmax`
   patterns:
