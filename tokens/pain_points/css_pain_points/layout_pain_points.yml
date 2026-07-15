@@ -17,6 +17,8 @@
     - height [p]
 
 - id: overflow_issues
+  name: |
+    Overflow issues
   patterns:
     - overflow [p]
 
@@ -34,7 +36,10 @@
   patterns:
     - margin
 
-- id: z_index_issues
+- id: stacking_context_issues
+  name: |
+    Stacking contexts & `z-index`
+  descriptionIssues: Managing z-index, stacking contexts, and layering conflicts ("z-index hell"), including unexpected interactions with transforms, sticky, and the top layer.
   patterns:
     - z, index [l]
     - stack

@@ -48,16 +48,6 @@
     - abstraction
     - abstract
 
-- id: excessive_complexity
-  patterns:
-    - complex
-    - complexity
-    - convoluted
-    - over(-| )?engineering
-    - over(-| )?engineered
-    - over(-| )?complicated
-    - over(-| )?complicates
-
 - id: poor_accessibility
   patterns:
     - accessibility
