@@ -76,7 +76,7 @@
   parentId: educational_issues
 
 - id: baseline_awareness
-  name: Baseline availability awareness
+  name: Baseline awareness
   parentId: educational_issues
   descriptionIssues: >
     Knowing which features are widely/newly supported and when they are safe to use in production (Baseline, caniuse, etc.).

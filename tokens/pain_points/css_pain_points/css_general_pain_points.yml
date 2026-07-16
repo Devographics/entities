@@ -11,11 +11,6 @@
 
 - id: select
 
-- id: stacking_context
-  name: |
-    Stacking contexts & `z-index`
-  descriptionIssues: Managing z-index, stacking contexts, and layering conflicts ("z-index hell"), including unexpected interactions with transforms, sticky, and the top layer.
-
 - id: specificity
   name: Specificity
 

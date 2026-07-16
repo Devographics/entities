@@ -334,7 +334,7 @@
   name: "`flex-wrap: balance;`"
 
 - id: irregular_element_shape
-  name: Custom element shapes
+  name: Complex element shapes
   description: >
     Giving an element a genuinely non-rectangular shape that the box itself takes on — so its border, box-shadow, and outline follow the new outline — rather than faking it by clipping the element (which drops borders/shadows) or layering shapes via pseudo-elements.
 
