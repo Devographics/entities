@@ -18,8 +18,3 @@
     Issues around customizing the browser-provided UI, *beyond styling*, such as
     changing text, adding or removing controls, etc.
   parentId: styling_customization
-
-- id: design_systems_issues
-  name: Design systems
-  description: |
-    Issues related to the creation, maintenance, and implementation of design systems and component libraries.

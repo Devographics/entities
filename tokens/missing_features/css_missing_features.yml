@@ -16,9 +16,6 @@
     - isolation
     - scop(e|ing)
 
-- id: houdini
-  name: CSS Houdini
-
 - id: css_control_flow
   name: Control Flow
   description: >
@@ -55,11 +52,6 @@
   name: CSS Regions
   patterns:
     - regions
-
-- id: animate_to_auto
-  patterns:
-    - "Animating to-&-from display: none"
-    - "animate to visibility: hidden or display: none"
 
 - id: css_loops
   name: For Loops
@@ -273,11 +265,6 @@
   name: Squircle Border Radius
   patterns:
     - squircle
-
-- id: media_query_variables
-  name: Media Query Variables
-  patterns:
-    - media, quer(y|ies), variable(s)? [l]
 
 - id: media_query_variables
   name: Media Query Variables

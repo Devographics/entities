@@ -2180,3 +2180,5 @@
     `<table>`
   webFeaturesId: table
   mdn: en-US/docs/Web/HTML/Reference/Elements/table
+  patterns:
+    - <table

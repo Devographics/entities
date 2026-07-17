@@ -163,13 +163,6 @@
   tags:
     - html_interoperability_features
 
-- id: table_element
-  webFeaturesId: table
-  name: |
-    `<table>`
-  patterns:
-    - <table
-
 - id: webp_format
   name: WebP
   patterns:

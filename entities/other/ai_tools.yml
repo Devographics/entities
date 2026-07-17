@@ -9,12 +9,17 @@
   idAliases:
     - chatgpt
   name: ChatGPT
-  homepageUrl: https://chat.openai.com/
+  homepageUrl: https://chatgpt.com/
   tags:
     - first_steps
     - sites
   patterns:
     - open( )?ai
+
+- id: chat_gpt_images
+  parentId: ai_tools
+  name: ChatGPT Images
+  homepageUrl: https://chatgpt.com/images/
 
 - id: bard
   name: Google Gemini

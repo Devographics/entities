@@ -57,6 +57,9 @@
   name: CSS Houdini
   mdn: /en-US/docs/Web/Houdini
   caniuse: css-paint-api
+  tags:
+    - css_missing_features
+    - html_missing_features
 
 - id: scroll_margin_scroll_padding
   name: "`scroll-padding`"

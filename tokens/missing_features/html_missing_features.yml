@@ -61,8 +61,6 @@
   patterns:
     - fullscreen
 
-- id: houdini
-
 - id: html_imports
   name: HTML imports
   description: Lack of native HTML imports or templating
