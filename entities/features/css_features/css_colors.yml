@@ -31,23 +31,6 @@
     - css
     - css_shapes_and_graphics
 
-- id: color_contrast
-  webFeaturesId: color-contrast
-  name: "`color-contrast()`"
-  descriptionIssues: |
-    Issues around evaluating and/or maintaining adequate color contrast.
-  instructions: >
-    For issues around WCAG color contrast recommendations or algorithms, combine
-    with `wcag`.
-  mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
-  caniuse: mdn-css_types_color_color-contrast
-  example:
-    language: css
-    code: |
-      .high-contrast {
-        color: color-contrast(#008080 vs olive, var(--myColor), #d2691e);
-      }
-
 - id: currentcolor
   webFeaturesId: currentcolor
   name: "`currentColor`"
@@ -186,6 +169,7 @@
       }
 
 - id: contrast_color
+  parentId: contrast_issues
   name: "`contrast-color()`"
   webFeaturesId: contrast-color
   mdn: en-US/docs/Web/CSS/color_value/contrast-color

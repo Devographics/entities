@@ -45,11 +45,6 @@
   descriptionIssues: >
     Shapes, clip-paths, and SVGs breaking, skewing, or cropping when elements scale or change aspect ratio across viewport sizes.
 
-- id: stacking_context
-  name: |
-    Stacking contexts & `z-index`
-  descriptionIssues: Managing z-index, stacking contexts, and layering conflicts ("z-index hell"), including unexpected interactions with transforms, sticky, and the top layer.
-
 - id: box_model_issues
   name: Box model & box-sizing
   descriptionIssues: >

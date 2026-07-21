@@ -12,6 +12,7 @@
     - constrast
 
 - id: dark_mode_issues
+  parentId: theming_issues
   name: |
     Dark mode issues
   patterns:
