@@ -632,3 +632,7 @@
   hompageUrl: https://wpt.fyi/
   patterns:
     - wpt
+
+- id: certificates_dev
+  name: Certificates.dev
+  homepageUrl: https://certificates.dev/

@@ -417,7 +417,7 @@
 - id: anchor_positioning
   name: Anchor Positioning
   webFeaturesId: anchor-positioning
-  parentId: positioning_issues
+  parentId: positioning
   descriptionIssues: >
     Pain points related to the CSS Anchor Positioning API, often in conjunction
     with the Popover API. Includes issues with browser support and the perceived

@@ -24,7 +24,7 @@
 
 - id: centering_issues
   name: Centering issues
-  parentId: positioning_issues
+  parentId: positioning
   patterns:
     - center [p]
 
@@ -36,7 +36,9 @@
   patterns:
     - margin
 
-- id: stacking_context_issues
+- id: stacking_context
+  idAliases:
+    - stacking_context_issues
   name: |
     Stacking contexts & `z-index`
   descriptionIssues: Managing z-index, stacking contexts, and layering conflicts ("z-index hell"), including unexpected interactions with transforms, sticky, and the top layer.
@@ -121,7 +123,9 @@
   descriptionIssues: >
     The automatic minimum size of flex and grid items causing overflow or squishing, often requiring the min-width: 0 / min-height: 0 workaround.
 
-- id: positioning_issues
+- id: positioning
+  idAliases:
+    - positioning_issues
   name: Positioning
   descriptionIssues: >
     The CSS position model in general: relative, absolute, and fixed positioning relationships, and positioning relative to the viewport.

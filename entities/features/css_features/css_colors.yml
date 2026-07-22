@@ -169,7 +169,7 @@
       }
 
 - id: contrast_color
-  parentId: contrast_issues
+  parentId: color_contrast
   name: "`contrast-color()`"
   webFeaturesId: contrast-color
   mdn: en-US/docs/Web/CSS/color_value/contrast-color

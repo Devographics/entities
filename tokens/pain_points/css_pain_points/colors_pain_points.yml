@@ -4,7 +4,9 @@
   description: |
     Color‑management and color‑space handling across web platform features
 
-- id: contrast_issues
+- id: color_contrast
+  idAliases:
+    - contrast_issues
   name: Contrast issues
   parentId: accessibility_issues
   patterns:
