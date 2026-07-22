@@ -60,3 +60,8 @@
   parentId: css_in_svg
   descriptionIssues: >
     SVG geometry and presentation attributes (path d, viewBox, cx/cy/r, points, etc.) not being fully exposed as settable or animatable CSS properties.
+
+- id: icons
+  name: Icons issues
+  descriptionIssues: >
+    Issues related to using icons.
