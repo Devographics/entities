@@ -73,7 +73,7 @@
 
 - id: gamut_mapping
   name: Gamut mapping and display variability
-  parentId: color_management
+  parentId: wide_gamut_colors
   descriptionIssues: >
     Handling out-of-gamut colors (especially OKLCH): lack of browser gamut mapping, colors being clamped or made invalid rather than mapped, and preserving intended appearance across gamuts. Colors rendering differently across screens, monitors, and OSes, including HDR/wide-gamut display variability, profiles, and calibration.
 
