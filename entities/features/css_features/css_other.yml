@@ -359,6 +359,7 @@
   webFeaturesId: attr
   name: Advanced `attr()`
   description: Support for properties other than content
+  parentId: attr_function
   patterns:
     - attr, property [l]
     - attr, properties [l]
