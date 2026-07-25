@@ -21,6 +21,7 @@
     - dark
 
 - id: theming_issues
+  parentId: theming
   patterns:
     - theme
     - theming
