@@ -184,6 +184,4 @@
       }
 
 - id: rgb_color
-  name: "`rgb()` and `rgba()`"
-  webFeaturesId: rgb
-  mdn: en-US/docs/Web/CSS/Reference/Values/color_value/rgb
+  name: "RGB colors (hex, `rgb()` and `rgba()`, HSL etc)"
