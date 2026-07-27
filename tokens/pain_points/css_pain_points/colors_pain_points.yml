@@ -13,20 +13,6 @@
     - contrast
     - constrast
 
-- id: dark_mode_issues
-  parentId: theming_issues
-  name: |
-    Dark mode issues
-  patterns:
-    - dark
-
-- id: theming_issues
-  parentId: theming
-  patterns:
-    - theme
-    - theming
-    - system
-
 - id: selecting_best_color_mode
   patterns:
     - too many

@@ -13,12 +13,23 @@
   name: Theming
   descriptionIssues: >
     Implementing and managing color themes: supporting more than light/dark (high-contrast, custom, user themes) and reconciling system vs user theme preference.
+  patterns:
+    - theme
+    - theming
+    - system
+  tags:
+    - colors_pain_points
 
-- id: dark_mode_issues
-  name: Light & dark mode theming
+- id: dark_mode
+  name: Light/dark mode
   parentId: theming
   descriptionIssues: >
     Authoring and managing light and dark mode themes
+  patterns:
+    - dark
+  tags:
+    - colors_pain_points
+    - accessibility_techniques
 
 - id: design_handoff_issues
   name: Design handoff & tools
