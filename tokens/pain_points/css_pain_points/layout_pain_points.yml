@@ -24,11 +24,12 @@
 
 - id: centering_issues
   name: Centering issues
-  parentId: positioning
+  parentId: alignment_issues
   patterns:
     - center [p]
 
 - id: alignment_issues
+  name: Alignment issues
   patterns:
     - align [p]
 

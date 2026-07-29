@@ -29,7 +29,7 @@
 
 - id: advanced_borders
   name: Advanced borders
-  parentId: styling_customization
+  parentId: css_border
   descriptionIssues: >
     Decorative border effects: multiple/stacked or offset borders, custom dash spacing, gradient borders, and corner-only decoration.
 

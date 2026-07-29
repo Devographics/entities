@@ -66,7 +66,7 @@
 
 - id: color_conversion
   name: Color conversion
-  parentId: color_management
+  parentId: color_manipulation_issues
   descriptionIssues: >
     Converting between color formats and spaces (hex, RGB, HSL, Lab, LCH, OKLCH), including the lack of a native JS API for conversion.
 
@@ -95,7 +95,7 @@
 
 - id: contrast_algorithms
   name: Contrast algorithms
-  parentId: accessibility_issues
+  parentId: contrast_issues
   descriptionIssues: >
     Algorithms for evaluating perceptual or accessibility contrast, including complaints about WCAG 2.x accuracy and desire for APCA or a choice of algorithm.
 

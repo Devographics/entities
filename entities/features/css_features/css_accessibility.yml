@@ -79,6 +79,7 @@
 - id: color_scheme
   webFeaturesId: color-scheme
   name: "`color-scheme`"
+  parentId: theming
   mdn: /en-US/docs/Web/CSS/color-scheme
   caniuse: mdn-css_properties_color-scheme
   example:

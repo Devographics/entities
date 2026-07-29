@@ -330,10 +330,12 @@
 
 - id: css_width_height
   webFeaturesId: width-height
+  parentId: sizing_issues
   name: |
     `width` and `height`
 
 - id: z_index
   name: "`z-index`"
   webFeaturesId: z-index
+  parentId: stacking_context
   mdn: en-US/docs/Web/CSS/Reference/Properties/z-index
