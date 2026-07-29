@@ -331,6 +331,7 @@
 - id: css_width_height
   webFeaturesId: width-height
   parentId: sizing_issues
+  mdn: en-US/docs/Web/CSS/Reference/Properties/width
   name: |
     `width` and `height`
 
