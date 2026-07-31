@@ -1,0 +1,15 @@
+- id: bible_book
+  name: The Bible
+  patterns:
+    - bible
+
+- id: dungeon_crawler_carl
+  name: Dungeon Crawler Carl
+
+- id: project_hail_mary
+  name: Project Hail Mary
+
+- id: tomorrow_and_tomorrow_and_tomorrow
+  name: Tomorrow, and Tomorrow, and Tomorrow
+  patterns:
+    - tomorrow, tomorrow, tomorrow [l]

@@ -1,0 +1,147 @@
+# laptop_keyboard
+- id: laptop_keyboard
+  patterns:
+    - laptop
+    - built( |-)?in
+
+- id: apple_macbook_keyboard
+  parentId: laptop_keyboard
+  patterns:
+    - macbook
+
+# apple_keyboard
+
+- id: apple_keyboard
+  patterns:
+    - apple
+
+- id: apple_magic_keyboard
+  parentId: apple_keyboard
+  patterns:
+    - apple, magic [l]
+
+# ergonomic_keyboard
+
+- id: ergonomic_keyboard
+  patterns:
+    - ergonomic
+
+- id: ergodox_keyboard
+  name: Ergodox
+  parentId: ergonomic_keyboard
+  patterns:
+    - ergodox
+
+# zsa_keyboard
+
+- id: zsa_keyboard
+  name: ZSA
+  parentId: ergonomic_keyboard
+  patterns:
+    - zsa
+
+- id: zsa_moonlander_keyboard
+  name: ZSA Moonlander
+  parentId: zsa_keyboard
+  patterns:
+    - zsa, moonlander [l]
+
+# mechanical_keyboard
+
+- id: mechanical_keyboard
+  patterns:
+    - mechanical
+
+# nuphy_keyboard
+
+- id: nuphy_keyboard
+  name: Nuphy
+  parentId: mechanical_keyboard
+  patterns:
+    - nuphy
+
+- id: nuphy_air75_keyboard
+  name: Nuphy Air75
+  parentId: nuphy_keyboard
+  patterns:
+    - nuphy, air75 [l]
+
+# keychron_keyboard
+
+- id: keychron_keyboard
+  name: Keychron
+  parentId: mechanical_keyboard
+  patterns:
+    - keychron
+
+- id: keychron_k1_keyboard
+  name: Keychron K1
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k1 [l]
+
+- id: keychron_k2_keyboard
+  name: Keychron K2
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k2 [l]
+
+- id: keychron_k3_keyboard
+  name: Keychron K3
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k3 [l]
+
+- id: keychron_k4_keyboard
+  name: Keychron K4
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k4 [l]
+
+- id: keychron_k5_keyboard
+  name: Keychron K5
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k5 [l]
+
+- id: keychron_k6_keyboard
+  name: Keychron K6
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k6 [l]
+
+- id: keychron_k7_keyboard
+  name: Keychron K7
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k7 [l]
+
+- id: keychron_k8_keyboard
+  name: Keychron K8
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k8 [l]
+
+- id: keychron_k9_keyboard
+  name: Keychron K9
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k9 [l]
+
+- id: keychron_k10_keyboard
+  name: Keychron K10
+  parentId: keychron_keyboard
+  patterns:
+    - keychron, k10 [l]
+
+# logitech
+
+- id: logitech_keyboard
+  name: Logitech
+  patterns:
+    - logitech
+
+- id: logitech_mx_keyboard
+  name: Logitech MX
+  patterns:
+    - logitech, mx [l]

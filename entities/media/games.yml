@@ -688,3 +688,13 @@
   name: Grand Theft Auto V
   genre: action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto_V
+
+- id: 007_first_light
+  name: 007 First Light
+  genre: action_adventure
+  homepageUrl: https://ioi.dk/007firstlightgame
+
+- id: deltarune
+  name: Deltarune
+  genre: rpg
+  homepageUrl: https://deltarune.com/
