@@ -244,6 +244,8 @@
   webFeaturesId: viewport-units
   description: >
     `vw` / `vh` / `vmin` / `vmax`
+  caniuse: viewport-units
+  mdn: en-US/docs/Web/CSS/Reference/Values/length#relative_length_units_based_on_viewport
   patterns:
     - vw
     - vh

@@ -63,6 +63,7 @@
 
 - id: scroll_timeline
   webFeaturesId: scroll-driven-animations
+  parentId: scroll_driven_animations
   name: "`scroll-timeline`"
   caniuse: css-scroll-timeline
   mdn: /en-US/docs/Web/CSS/scroll-timeline
@@ -80,6 +81,7 @@
 
 - id: view_timeline
   webFeaturesId: scroll-driven-animations
+  parentId: scroll_driven_animations
   name: "`view-timeline`"
   caniuse: css-view-timeline
   mdn: /en-US/docs/Web/CSS/view-timeline

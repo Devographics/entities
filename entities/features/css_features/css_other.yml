@@ -101,14 +101,6 @@
         contain-intrinsic-size: 350px;
       }
 
-- id: viewport_units
-  webFeaturesId: viewport-units
-  caniuse: viewport-units
-  mdn: en-US/docs/Web/CSS/Reference/Values/length#relative_length_units_based_on_viewport
-  patterns:
-    - vh
-    - vw
-
 - id: cascade_layers
   name: Cascade Layers
   webFeaturesId: cascade-layers

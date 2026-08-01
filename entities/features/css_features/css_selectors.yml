@@ -76,6 +76,7 @@
     - css_selectors
 
 - id: not_selector
+  webFeaturesId: not
   name: "`:not()`"
   mdn: en-US/docs/Web/CSS/:not
   caniuse: mdn-css_selectors_not

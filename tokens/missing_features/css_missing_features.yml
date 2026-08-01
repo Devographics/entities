@@ -327,3 +327,27 @@
   name: "`children-count()`"
   descriptionIssues: >
     Desire to extend sibling-count()/sibling-index() with children-count(), descendant-count(), or selector-filtered variants.
+
+- id: css_counter_value
+  name: |
+    `counter()` value
+  resources:
+    url: https://github.com/w3c/csswg-drafts/issues/1026#issuecomment-4394902075
+    title: Enable the use of counter() inside calc()
+
+- id: css_custom_units
+  name: Custom units
+  resources:
+    - url: https://github.com/w3c/csswg-drafts/issues/7379
+      title: Custom units as simple variable desugaring
+
+- id: css_reset_defaults
+  name: CSS Reset and/or better defaults
+  description: |
+    A native way to reset all styles or opt into modern browser defaults, without relying on reset stylesheets like Normalize or Reboot.
+
+- id: css_author_defined_state
+  parentId: css_toggles
+  name: Author-defined state
+  description: |
+    Native CSS-managed component state or state machines beyond built-in pseudo-classes, replacing checkbox hacks and JS state classes.
