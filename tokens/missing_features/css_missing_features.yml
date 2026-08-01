@@ -332,8 +332,8 @@
   name: |
     `counter()` value
   resources:
-    url: https://github.com/w3c/csswg-drafts/issues/1026#issuecomment-4394902075
-    title: Enable the use of counter() inside calc()
+    - url: https://github.com/w3c/csswg-drafts/issues/1026#issuecomment-4394902075
+      title: Enable the use of counter() inside calc()
 
 - id: css_custom_units
   name: Custom units
