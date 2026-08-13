@@ -122,6 +122,7 @@
 - id: same_document_view_transitions
   webFeaturesId: view-transitions
   name: View Transition API (same document)
+  mdn: en-US/docs/Web/API/View_Transitions_API
   parentId: animations_issues
 
 - id: view_transitions
