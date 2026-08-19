@@ -170,3 +170,16 @@
   name: |
     contenteditable="plaintext-only"
   parentId: contenteditable_attribute
+
+- id: import_attributes
+  webFeaturesId: json-modules
+  name: |
+    Import attributes
+  parentId: loading_issues
+  mdn: en-US/docs/Web/JavaScript/Reference/Statements/import/with
+
+- id: web_mcp
+  name: WebMCP
+  resources:
+    - url: https://developer.chrome.com/blog/webmcp-epp
+      title: WebMCP is available for early preview

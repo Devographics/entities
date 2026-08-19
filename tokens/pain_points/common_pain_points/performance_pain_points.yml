@@ -110,11 +110,6 @@
     fetchpriority attribute
   parentId: resource_hints
 
-- id: import_attributes
-  name: |
-    Import attributes
-  parentId: loading_issues
-
 - id: css_loading
   name: |
     CSS Loading

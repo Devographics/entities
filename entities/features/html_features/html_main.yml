@@ -1077,6 +1077,7 @@
     - features
 
 - id: navigation_api
+  webFeaturesId: navigation
   name: Navigation API
   needsTranslation: true
   description:
@@ -1533,6 +1534,7 @@
     - features
 
 - id: scoped_element_registries
+  webFeaturesId: scoped-custom-element-registries
   isExperimental: true # proposal/unsupported feature
   name: Scoped Custom Element Registries
   needsTranslation: true
@@ -2085,6 +2087,7 @@
   parentId: apis_capabilities
 
 - id: web_transport_api
+  webFeaturesId: webtransport
   name: |
     WebTransport API
   descriptionIssues: |
