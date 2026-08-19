@@ -119,6 +119,14 @@
     - modularform
     - modular form
 
+- id: formisch
+  name: Formisch
+  npm: "@formisch/react"
+  github: open-circle/formisch
+  homepageUrl: https://formisch.dev/
+  tags:
+    - forms
+
 - id: informed
   name: Informed
   github: https://github.com/teslamotors/informed
