@@ -1,19 +1,58 @@
-# non-fiction
+# non_fiction
+
+- id: how_to_win_friends_and_influence_people
+  name: How to Win Friends and Influence People
+  author: Dale Carnegie
+  homepageUrl: https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People
+  tags:
+    - non_fiction
+    - self_help
+  patterns:
+    - win, friends [l]
+
+- id: reverse_centaurs_guide_to_life_after_ai
+  name: The Reverse Centaur's Guide to Life After AI
+  author: Cory Doctorow
+  homepageUrl: https://www.versobooks.com/products/3584-the-reverse-centaur-s-guide-to-life-after-ai
+  tags:
+    - non_fiction
+    - technology
+    - artificial-intelligence
+  patterns:
+    - reverse, centaur [l]
+
+- id: play_nice
+  name: "Play Nice: The Rise, Fall, and Future of Blizzard Entertainment"
+  author: Jason Schreier
+  homepageUrl: https://en.wikipedia.org/wiki/Play_Nice
+  tags:
+    - non_fiction
+    - video-games
+    - business
+  patterns:
+    - play, nice [l]
+    - blizzard
 
 - id: designing_data_intensive_applications
   name: Designing Data-Intensive Applications
   tags:
     - nonfiction
+  patterns:
+    - designing, data, intensive [l]
 
 - id: the_pragmatic_programmer
   name: The Pragmatic Programmer
   tags:
     - nonfiction
+  patterns:
+    - pragmatic, programmer [l]
 
 - id: the_psychology_of_money
   name: The Psychology of Money
   tags:
     - nonfiction
+  patterns:
+    - psychology, money [l]
 
 - id: the_software_engineer_s_guidebook
   name: The Software Engineer's Guidebook
@@ -191,6 +230,12 @@
 
 - id: the_three_body_problem
   name: The Three-Body Problem
+  author: Liu Cixin
+  homepageUrl: https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)
+  tags:
+    - sci_fi
+  patterns:
+    - three, body [l]
 
 - id: the_way_of_kings
   name: The Way of Kings
@@ -232,11 +277,111 @@
   patterns:
     - yumi, nightmare [l]
 
-- id:
-  name:
+- id: monk_and_robot
+  name: Monk & Robot
+  author: Becky Chambers
+  homepageUrl: https://torpublishinggroup.com/monk-and-robot/
+  tags:
+    - sci_fi
+    - solarpunk
+    - cozy
 
-- id:
-  name:
+- id: a_psalm_for_the_wild_built
+  name: A Psalm for the Wild-Built
+  author: Becky Chambers
+  homepageUrl: https://en.wikipedia.org/wiki/A_Psalm_for_the_Wild-Built
+  tags:
+    - sci_fi
+    - solarpunk
+    - cozy
 
-- id:
-  name:
+- id: bobiverse
+  name: Bobiverse
+  author: Dennis E. Taylor
+  homepageUrl: https://en.wikipedia.org/wiki/Dennis_E._Taylor
+  tags:
+    - sci_fi
+    - space-opera
+    - humor
+
+- id: the_thursday_murder_club
+  name: The Thursday Murder Club
+  author: Richard Osman
+  homepageUrl: https://en.wikipedia.org/wiki/The_Thursday_Murder_Club
+  tags:
+    - mystery
+
+- id: crime_and_punishment
+  name: Crime and Punishment
+  author: Fyodor Dostoevsky
+  homepageUrl: https://en.wikipedia.org/wiki/Crime_and_Punishment
+  tags:
+    - classic
+
+- id: the_count_of_monte_cristo
+  name: The Count of Monte Cristo
+  author: Alexandre Dumas
+  homepageUrl: https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo
+  tags:
+    - classic
+
+- id: the_hobbit
+  name: The Hobbit
+  author: J.R.R. Tolkien
+  homepageUrl: https://en.wikipedia.org/wiki/The_Hobbit
+  tags:
+    - fantasy
+    - classic
+    - adventure
+
+- id: silo
+  name: Silo
+  author: Hugh Howey
+  homepageUrl: https://en.wikipedia.org/wiki/Silo_(series)
+  tags:
+    - sci_fi
+
+- id: the_long_way_to_a_small_angry_planet
+  name: The Long Way to a Small, Angry Planet
+  author: Becky Chambers
+  homepageUrl: https://en.wikipedia.org/wiki/The_Long_Way_to_a_Small,_Angry_Planet
+  tags:
+    - sci_fi
+
+- id: discworld
+  name: Discworld
+  author: Terry Pratchett
+  homepageUrl: https://en.wikipedia.org/wiki/Discworld
+  tags:
+    - fantasy
+    - humor
+    - satire
+
+- id: the_dark_tower
+  name: The Dark Tower
+  author: Stephen King
+  homepageUrl: https://en.wikipedia.org/wiki/The_Dark_Tower_(series)
+  tags:
+    - fantasy
+
+- id: hyperion
+  name: Hyperion
+  author: Dan Simmons
+  homepageUrl: https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)
+  tags:
+    - sci_fi
+
+- id: isles_of_the_emberdark
+  name: Isles of the Emberdark
+  author: Brandon Sanderson
+  homepageUrl: https://us.macmillan.com/books/9781250415394/islesoftheemberdark/
+  tags:
+    - fantasy
+
+- id: sunrise_on_the_reaping
+  name: Sunrise on the Reaping
+  author: Suzanne Collins
+  homepageUrl: https://en.wikipedia.org/wiki/Sunrise_on_the_Reaping
+  tags:
+    - young_adult
+    - sci_fi
