@@ -120,6 +120,8 @@
   homepageUrl: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
   tags:
     - sci_fi
+  patterns:
+    - dungeon, crawler [l]
 
 - id: tomorrow_and_tomorrow_and_tomorrow
   name: Tomorrow, and Tomorrow, and Tomorrow
@@ -508,6 +510,8 @@
   name: Monk & Robot
   author: Becky Chambers
   homepageUrl: https://torpublishinggroup.com/monk-and-robot/
+  patterns:
+    - monk, robot [l]
   tags:
     - sci_fi
     - solarpunk
