@@ -1,3 +1,32 @@
+# non-fiction
+
+- id: designing_data_intensive_applications
+  name: Designing Data-Intensive Applications
+  tags:
+    - nonfiction
+
+- id: the_pragmatic_programmer
+  name: The Pragmatic Programmer
+  tags:
+    - nonfiction
+
+- id: the_psychology_of_money
+  name: The Psychology of Money
+  tags:
+    - nonfiction
+
+- id: the_software_engineer_s_guidebook
+  name: The Software Engineer's Guidebook
+  tags:
+    - nonfiction
+
+- id: atomic_habits
+  name: Atomic Habits
+  tags:
+    - nonfiction
+
+# fiction
+
 - id: bible_book
   name: The Bible
   patterns:
@@ -13,3 +42,201 @@
   name: Tomorrow, and Tomorrow, and Tomorrow
   patterns:
     - tomorrow, tomorrow, tomorrow [l]
+
+- id: book_1984
+  name: "1984"
+  patterns:
+    - 1984
+
+- id: a_wizard_of_earthsea
+  name: A Wizard of Earthsea
+  patterns:
+    - earthsea
+
+- id: animal_farm
+  name: Animal Farm
+
+- id: automatic_noodle
+  name: Automatic Noodle
+
+- id: babel_book
+  name: Babel
+  patterns:
+    - babel
+
+- id: careless_people
+  name: Careless People
+
+- id: children_of_time
+  name: Children of Time
+
+- id: cryptonomicon
+  name: Cryptonomicon
+
+- id: demon_copperhead
+  name: Demon Copperhead
+
+- id: dune_book
+  name: dune
+  tags:
+    - sci_fi
+  patterns:
+    - dune
+
+- id: empire_of_ai
+  name: Empire of AI
+
+- id: enshittification
+  name: Enshittification
+
+- id: farenheit_451
+  name: Farenheit 451
+
+- id: foundation_book
+  name: Foundation
+  patterns:
+    - foundation
+
+- id: frankenstein
+  name: Frankenstein
+
+- id: a_song_of_ice_and_fire
+  name: A Song of Ice and Fire
+  tags:
+    - fantasy
+  patterns:
+    - game of thrones
+
+- id: gideon_the_ninth
+  name: Gideon the Ninth
+
+- id: project_hail_mary
+  name: Hail Mary
+  patterns:
+    - hail mary
+
+- id: harry_potter
+  name: Harry Potter
+
+- id: hitchhiker_s_guide_to_the_galaxy
+  name: Hitchhiker's Guide to the Galaxy
+  patterns:
+    - hitchhiker
+
+- id: house_of_leaves
+  name: House Of Leaves
+
+- id: katabasis
+  name: Katabasis
+
+- id: the_lord_of_the_Rings
+  name: The Lord of the Rings
+  patterns:
+    - lord, rings [l]
+
+- id: mistborn
+  name: Mistborn
+
+- id: the_murderbot_diaries
+  name: The Murderbot Diaries
+  patterns:
+    - murderbot
+
+- id: neuromancer
+  name: Neuromancer
+
+- id: one_day_everyone_will_have_always_been_against_this
+  name: One Day, Everyone Will Have Always Been Against This
+
+- id: piranesi
+  name: Piranesi
+
+- id: red_rising
+  name: Red Rising
+
+- id: sapiens
+  name: Sapiens
+
+- id: slow_gods
+  name: Slow Gods
+
+- id: the_stormlight_archive
+  name: The Stormlight Archive
+  patterns:
+    - stormlight, archive [l]
+
+- id: the_courage_to_be_disliked
+  name: The Courage to be Disliked
+
+- id: the_dawn_of_everything
+  name: The Dawn of Everything
+
+- id: the_devils
+  name: The Devils
+
+- id: the_dispossessed
+  name: The Dispossessed
+
+- id: the_expanse
+  name: The Expanse
+
+- id: the_left_hand_of_darkness
+  name: The Left Hand of Darkness
+
+- id: the_martian
+  name: The Martian
+
+- id: the_tainted_cup
+  name: The Tainted Cup
+
+- id: the_three_body_problem
+  name: The Three-Body Problem
+
+- id: the_way_of_kings
+  name: The Way of Kings
+
+- id: the_will_of_the_many
+  name: The Will of the Many
+
+- id: there_is_no_anti_memetics_division
+  name: There Is No Anti-Memetics Division
+
+- id: to_kill_a_mockingbird
+  name: To Kill a Mockingbird
+
+- id: tress_of_the_emerald_sea
+  name: Tress of the Emerald Sea
+
+- id: wheel_of_time
+  name: Wheel of Time
+  tags:
+    - fantasy
+
+- id: wind_and_truth
+  name: Wind and Truth
+
+- id: the_witcher
+  name: The Witcher
+  tags:
+    - fantasy
+  patterns:
+    - witcher
+
+- id: wool_book
+  name: Wool
+  patterns:
+    - wool
+
+- id: yumi_and_the_nightmare_painter
+  name: Yumi and the Nightmare Painter
+  patterns:
+    - yumi, nightmare [l]
+
+- id:
+  name:
+
+- id:
+  name:
+
+- id:
+  name:

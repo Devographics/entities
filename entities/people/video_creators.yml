@@ -264,12 +264,14 @@
   tags:
     - youtube
 
-- id: javaScript_mastery
+- id: javascript_mastery
   belongsTo: adrian_hajdin
   name: JavaScript Mastery
   youtubeUrl: https://www.youtube.com/c/javascriptmastery
   tags:
     - youtube
+  patterns:
+    - js( )?mastery
 
 - id: joma_tech
   belongsTo: jonathan_ma

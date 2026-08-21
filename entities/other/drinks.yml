@@ -1,0 +1,37 @@
+- id: non_alcoholic_beer
+  name: Non-alcoholic beer
+  patterns:
+    - non-alc beer
+    - alcohol-free beer
+
+- id: bubble_tea
+  name: Bubble tea
+
+- id: hot_chocolate
+  name: Hot chocolate
+
+- id: kombucha
+  name: Kombucha
+
+- id: yerba_mate
+  name: Mate
+  patterns:
+    - mate
+
+- id: milk
+  name: Milk
+
+- id: protein_shake
+  name: Protein shake
+
+- id: still_water
+  name: Water
+  patterns:
+    - still water
+    - tap water
+    - water [e]
+
+- id: drink_wine
+  name: Wine
+  patterns:
+    - wine

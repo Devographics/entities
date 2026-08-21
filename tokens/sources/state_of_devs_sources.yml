@@ -46,6 +46,8 @@
     - news letter
     - state_of_js_email2
     - other surveys
+    - devs2026_announcement
+    - post_survey_share_chat
   tags:
     - sources_state_of_devs
 
@@ -54,8 +56,16 @@
     - ai2025_banner
     - ai2025_devto_article
     - state of ai
+    - ai2026_banner
     - ai2025_email_announcement
     - ai2025_results_announcement
+    - ai2026_announcement_email
+
+- id: state_of_css_survey
+  patterns:
+    - css2026_banner
+    - css2026_announcement
+    - css2026_reminder
 
 - id: tokyodev
 

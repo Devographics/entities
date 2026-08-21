@@ -76,6 +76,8 @@
   homepageUrl: https://en.wikipedia.org/wiki/Dark_Souls_III
   id: dark_souls_iii
   name: Dark Souls III
+  patterns:
+    - dark souls 3
 
 - genre: fps
   homepageUrl: https://en.wikipedia.org/wiki/Overwatch_(video_game)
@@ -698,3 +700,293 @@
   name: Deltarune
   genre: rpg
   homepageUrl: https://deltarune.com/
+
+- id: 7_days_to_die
+  name: 7 Days to Die
+
+- id: alan_wake
+  name: Alan Wake
+
+- id: alan_wake_2
+  name: Alan Wake 2
+
+- id: animal_well
+  name: Animal Well
+
+- id: arc_raiders
+  name: Arc Raiders
+
+- id: arknights_endfield
+  name: "Arknights: Endfield"
+
+- id: astro_bot
+  name: Astro Bot
+
+- id: ball_x_pit
+  name: Ball x Pit
+
+- id: battlefield_6
+  name: Battlefield 6
+  patterns:
+    - bf6
+
+- id: big_walk
+  name: Big Walk
+
+- id: blasphemous_2
+  name: Blasphemous 2
+  patterns:
+    - blasphemous ii
+
+- id: borderlands_4
+  name: Borderlands 4
+
+- id: brotato
+  name: Brotato
+
+- id: cairn
+  name: Cairn
+
+- id: chants_of_senaar
+  name: Chants of Senaar
+
+- id: chess_game
+  name: Chess
+
+- id: cities_skylines_2
+  name: Cities Skylines 2
+
+- id: clash_of_clans
+  name: Clash of Clans
+
+- id: counter_strike_2
+  name: Counter-Strike 2
+  patterns:
+    - cs2
+
+- id: crimson_desert
+  name: Crimson Desert
+
+- id: dave_the_diver
+  name: Dave The Diver
+
+- id: day_z
+  name: DayZ
+
+- id: deadlock
+  name: Deadlock
+
+- id: deep_rock_galactic
+  name: Deep Rock Galactic
+
+- id: destiny_2
+  name: Destiny 2
+
+- id: dispatch
+  name: Dispatch
+
+- id: donkey_kong_bananza
+  name: Donkey Kong Bananza
+
+- id: doom_the_dark_ages
+  name: Doom The Dark Ages
+
+- id: dota_2
+  name: Dota 2
+
+- id: Dredge
+  name: dredge
+
+- id: enshrouded
+  name: Enshrouded
+
+- id: esoteric_ebb
+  name: Esoteric Ebb
+
+- id: expedition_33
+  name: Expedition 33
+
+- id: fallout_4
+  name: Fallout 4
+
+- id: fifa
+  name: FIFA
+
+- id: ghost_of_yotei
+  name: Ghost of Yotei
+
+- id: gothic_remake
+  name: Gothic Remake
+  patterns:
+    - gothic, remake [l]
+
+- id: graveyard_keeper
+  name: Graveyard Keeper
+
+- id: grim_dawn
+  name: Grim Dawn
+
+- id: guild_wars_2
+  name: Guild Wars 2
+
+- id: hytale
+  name: Hytale
+
+- id: indiana_jones_and_the_great_circle
+  name: Indiana Jones and the Great Circle
+
+- id: kerbal_space_program
+  name: Kerbal Space Program
+
+- id: kingdom_come_deliverance_2
+  name: Kingdom Come Deliverance 2
+  patterns:
+    - kingdom, come, 2 [l]
+
+- id: life_is_strange
+  name: Life is Strange
+
+- id: mass_effect
+  name: Mass Effect
+
+- id: meccha_cameleon
+  name: Meccha Cameleon
+
+- id: mewgenics
+  name: Mewgenics
+
+- id: mina_the_hollower
+  name: Mina the Hollower
+
+- id: mixtape
+  name: Mixtape
+
+- id: nba_2k
+  name: NBA 2K
+
+- id: no_man_s_sky
+  name: No Man's Sky
+
+- id: noita
+  name: Noita
+
+- id: old_school_runescape
+  name: Oldschool Runescape
+
+- id: open_ttd
+  name: OpenTTD
+
+- id: oxygen_not_included
+  name: Oxygen Not Included
+
+- id: paralives
+  name: Paralives
+
+- id: pathogenic
+  name: Pathogenic
+
+- id: peak
+  name: Peak
+
+- id: planet of_lana
+  name: Planet of Lana
+
+- id: pokemon_go
+  name: Pokemon Go
+
+- id: pokemon_pokopia
+  name: Pokemon Pokopia
+  patterns:
+    - pokopia
+
+- id: pragmata
+  name: Pragmata
+
+- id: project_zomboid
+  name: Project Zomboid
+
+- id: pubg
+  name: PUBG
+
+- id: raft
+  name: Raft
+
+- id: red_dead_redemption
+  name: Red Dead Redemption
+
+- id: resident_evil_requiem
+  name: Resident Evil Requiem
+
+- id: rhythm_heaven_groove
+  name: Rhythm Heaven Groove
+
+- id: rogue_trader
+  name: Rogue Trader
+
+- id: shapez_2
+  name: Shapez 2
+
+- id: hollow_kinght_silk_song
+  name: Hollow Knight Silksong
+  patterns:
+    - silk( )?song
+
+- id: skyrim
+  name: Skyrim
+
+- id: space_marine_2
+  name: Space Marine 2
+
+- id: spiderman_2
+  name: Spiderman 2
+
+- id: splatoon_raiders
+  name: Splatoon Raiders
+
+- id: stalker_2
+  name: Stalker 2
+
+- id: star_fox
+  name: Starfox
+
+- id: star_wars_outlaws
+  name: Star Wars Outlaws
+
+- id: stellaris
+  name: Stellaris
+
+- id: stray
+  name: Stray
+
+- id: street_fighter_6
+  name: Street Fighter 6
+
+- id: subnautica
+  name: Subnautica
+
+- id: subnautica_2
+  name: Subnautica 2
+
+- id: terraria
+  name: Terraria
+
+- id: timberborn
+  name: Timberborn
+
+- id: trackmania
+  name: Trackmania
+
+- id: valorant
+  name: Valorant
+
+- id: vampire_survivors
+  name: Vampire Survivors
+
+- id: warframe
+  name: Warframe
+
+- id: witchfire
+  name: Witchfire
+
+- id: zenless_zone_zero
+  name: Zenless Zone Zero

@@ -1,28 +1,82 @@
+# regular_keyboard
+
+- id: regular_keyboard
+  name: Regular keyboard
+  patterns:
+    - regular
+    - normal
+    - default
+    - standard
+
 # laptop_keyboard
+
 - id: laptop_keyboard
+  name: Laptop keyboard
   patterns:
     - laptop
     - built( |-)?in
 
-- id: apple_macbook_keyboard
-  parentId: laptop_keyboard
+# thinkpad_keyboard
+
+- id: thinkpad_keyboard
+  name: Thinkpad keyboard
   patterns:
-    - macbook
+    - thinkpad
 
 # apple_keyboard
 
 - id: apple_keyboard
+  name: Apple keyboard
   patterns:
     - apple
+    - mac
 
 - id: apple_magic_keyboard
+  name: Apple Magic Keyboard
   parentId: apple_keyboard
   patterns:
-    - apple, magic [l]
+    - magic
+
+- id: apple_macbook_keyboard
+  name: Apple MacBook keyboard
+  parentId: apple_keyboard
+  patterns:
+    - macbook
+
+# lenovo_keyboard
+
+- id: lenovo_keyboard
+  name: Lenovo keyboard
+  homepageUrl: https://www.lenovo.com/
+  patterns:
+    - lenovo
+
+# dell_keyboard
+
+- id: dell_keyboard
+  name: Dell keyboard
+  homepageUrl: http://dell.com/
+  patterns:
+    - dell
+
+# hp_keyboard
+
+- id: hp_keyboard
+  name: HP keyboard
+  patterns:
+    - hp
+
+# microsoft_keyboard
+
+- id: microsoft_keyboard
+  name: Microsoft keyboard
+  patterns:
+    - microsoft
 
 # ergonomic_keyboard
 
 - id: ergonomic_keyboard
+  name: Ergonomic keyboard
   patterns:
     - ergonomic
 
@@ -31,6 +85,36 @@
   parentId: ergonomic_keyboard
   patterns:
     - ergodox
+
+- id: dygma_keyboard
+  name: Dygma
+  homepageUrl: https://dygma.com/
+  parentId: ergonomic_keyboard
+  patterns:
+    - dygma
+
+- id: dygma_defy
+  name: Dygma Defy
+  parentId: dygma_keyboard
+
+- id: kinesis_keyboard
+  name: Kinesis
+  homepageUrl: https://kinesis-ergo.com/
+  parentId: ergonomic_keyboard
+
+- id: kinesis_advantage_360
+  name: Kinesis Advantage 360
+  parentId: kinesis_keyboard
+  patterns:
+    - kinesis, 360 [l]
+
+- id: kinesis_advantage
+  name: Kinesis Advantage
+  parentId: kinesis_keyboard
+
+- id: kinesis_freestyle
+  name: Kinesis Freestyle
+  parentId: kinesis_keyboard
 
 # zsa_keyboard
 
@@ -44,13 +128,59 @@
   name: ZSA Moonlander
   parentId: zsa_keyboard
   patterns:
-    - zsa, moonlander [l]
+    - moonlander
 
 # mechanical_keyboard
 
 - id: mechanical_keyboard
+  name: Mechanical keyboard
   patterns:
     - mechanical
+
+- id: cherry_keyboard
+  name: Cherry switch keyboard
+  parentId: mechanical_keyboard
+  patterns:
+    - cherry
+
+# redragon_keyboard
+
+- id: glorious_keyboard
+  name: Redragon
+  homepageUrl: https://redragon.com/
+  parentId: mechanical_keyboard
+  patterns:
+    - red( )?dragon
+
+# glorious_keyboard
+
+- id: glorious_keyboard
+  name: Glorious
+  homepageUrl: https://www.gloriousgaming.com/
+  parentId: mechanical_keyboard
+  patterns:
+    - glorious
+
+- id: glorious_gmmk2
+  name: Glorious GMMK2
+  parentId: glorious_keyboard
+  patterns:
+    - gmmk2
+
+- id: glorious_gmmk3
+  name: Glorious GMMK3
+  parentId: glorious_keyboard
+  patterns:
+    - gmmk3
+
+# hhk_keyboard
+
+- id: hhkb_keyboard
+  name: HHKB
+  homepageUrl: https://happyhackingkb.com/
+  parentId: mechanical_keyboard
+  patterns:
+    - hhkb
 
 # nuphy_keyboard
 
@@ -65,6 +195,33 @@
   parentId: nuphy_keyboard
   patterns:
     - nuphy, air75 [l]
+
+# razer_keyboard
+
+- id: razer_keyboard
+  name: Razer
+  homepageUrl: https://www.razer.com/pc/gaming-keyboards-and-keypads
+  parentId: mechanical_keyboard
+  patterns:
+    - razer
+
+# drop_keyboard
+
+- id: drop_keyboard
+  name: Drop
+  homepageUrl: https://drop.com/
+  parentId: mechanical_keyboard
+  patterns:
+    - drop
+
+# ducky_keyboard
+
+- id: ducky_keyboard
+  name: Ducky
+  homepageUrl: https://ducky.global/
+  parentId: mechanical_keyboard
+  patterns:
+    - ducky
 
 # keychron_keyboard
 
@@ -140,8 +297,25 @@
   name: Logitech
   patterns:
     - logitech
+    - logi
+    - logitec
 
 - id: logitech_mx_keyboard
   name: Logitech MX
   patterns:
     - logitech, mx [l]
+    - logi, mx [l]
+    - logitec, mx [l]
+    - mx keys
+
+# layout
+
+- id: azerty_keyboard
+  name: Azerty Layout
+  patterns:
+    - azerty
+
+- id: qwerty_keyboard
+  name: Qwerty Layout
+  patterns:
+    - qwerty

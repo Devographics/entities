@@ -155,6 +155,9 @@
 - id: r_reactnative
   name: r/reactnative
 
+- id: r_womenintech
+  name: r/womenintech
+
 - id: 4_chan
   name: 4chan
   homepageUrl: https://4chan.org/index.php

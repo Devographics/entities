@@ -183,3 +183,13 @@
   resources:
     - url: https://developer.chrome.com/blog/webmcp-epp
       title: WebMCP is available for early preview
+
+- id: geolocation_element
+  webFeaturesId: geolocation-element
+  name: "`<geolocation/>`"
+  mdn: en-US/docs/Web/HTML/Reference/Elements/geolocation
+  resources:
+    - url: https://developer.chrome.com/blog/geolocation-html-element
+      title: Introducing the <geolocation> HTML element
+    - url: https://piccalil.li/blog/a-look-at-the-geolocation-html-element-and-how-it-works/
+      title: A look at the geolocation HTML element and how it works
