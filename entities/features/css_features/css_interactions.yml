@@ -169,6 +169,18 @@
         scrollbar-gutter: stable;
       }
 
+- id: scrollbar_width
+  webFeaturesId: scrollbar-width
+  parentId: scrollbars
+  name: "`scrollbar-width`"
+  mdn: en-US/docs/Web/CSS/Reference/Properties/scrollbar-width
+
+- id: scrollbar_color
+  webFeaturesId: scrollbar-color
+  parentId: scrollbars
+  name: "`scrollbar-color`"
+  mdn: en-US/docs/Web/CSS/Reference/Properties/scrollbar-color
+
 - id: scroll_state
   webFeaturesId: container-scroll-state-queries
   name: Container scroll-state queries
