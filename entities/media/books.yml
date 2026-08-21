@@ -1,5 +1,34 @@
 # non_fiction
 
+- id: the_courage_to_be_disliked
+  name: The Courage to be Disliked
+  author: Ichiro Kishimi and Fumitake Koga
+  homepageUrl: https://en.wikipedia.org/wiki/The_Courage_to_Be_Disliked
+  tags:
+    - non_fiction
+    - self_help
+
+- id: the_dawn_of_everything
+  name: The Dawn of Everything
+  author: David Graeber and David Wengrow
+  homepageUrl: https://en.wikipedia.org/wiki/The_Dawn_of_Everything
+  tags:
+    - non_fiction
+
+- id: careless_people
+  name: Careless People
+  author: Sarah Wynn-Williams
+  homepageUrl: https://en.wikipedia.org/wiki/Careless_People
+  tags:
+    - non_fiction
+
+- id: sapiens
+  name: Sapiens
+  author: Yuval Noah Harari
+  homepageUrl: https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind
+  tags:
+    - non_fiction
+
 - id: how_to_win_friends_and_influence_people
   name: How to Win Friends and Influence People
   author: Dale Carnegie
@@ -35,6 +64,8 @@
 
 - id: designing_data_intensive_applications
   name: Designing Data-Intensive Applications
+  author: Martin Kleppmann
+  homepageUrl: https://dataintensive.net/
   tags:
     - nonfiction
   patterns:
@@ -42,6 +73,8 @@
 
 - id: the_pragmatic_programmer
   name: The Pragmatic Programmer
+  author: David Thomas and Andrew Hunt
+  homepageUrl: https://en.wikipedia.org/wiki/The_Pragmatic_Programmer
   tags:
     - nonfiction
   patterns:
@@ -49,6 +82,8 @@
 
 - id: the_psychology_of_money
   name: The Psychology of Money
+  author: Morgan Housel
+  homepageUrl: https://en.wikipedia.org/wiki/The_Psychology_of_Money
   tags:
     - nonfiction
   patterns:
@@ -56,11 +91,15 @@
 
 - id: the_software_engineer_s_guidebook
   name: The Software Engineer's Guidebook
+  author: Gergely Orosz
+  homepageUrl: https://www.engguidebook.com/
   tags:
     - nonfiction
 
 - id: atomic_habits
   name: Atomic Habits
+  author: James Clear
+  homepageUrl: https://en.wikipedia.org/wiki/Atomic_Habits
   tags:
     - nonfiction
 
@@ -68,55 +107,98 @@
 
 - id: bible_book
   name: The Bible
+  author: Various
+  homepageUrl: https://en.wikipedia.org/wiki/Bible
+  tags:
+    - religion
   patterns:
     - bible
 
 - id: dungeon_crawler_carl
   name: Dungeon Crawler Carl
-
-- id: project_hail_mary
-  name: Project Hail Mary
+  author: Matt Dinniman
+  homepageUrl: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
+  tags:
+    - sci_fi
 
 - id: tomorrow_and_tomorrow_and_tomorrow
   name: Tomorrow, and Tomorrow, and Tomorrow
+  author: Gabrielle Zevin
+  homepageUrl: https://en.wikipedia.org/wiki/Tomorrow,_and_Tomorrow,_and_Tomorrow
+  tags:
+    - fiction
   patterns:
     - tomorrow, tomorrow, tomorrow [l]
 
 - id: book_1984
   name: "1984"
+  author: George Orwell
+  homepageUrl: https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
+  tags:
+    - sci_fi
+    - classic
   patterns:
     - 1984
 
 - id: a_wizard_of_earthsea
   name: A Wizard of Earthsea
+  author: Ursula K. Le Guin
+  homepageUrl: https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea
+  tags:
+    - fantasy
+    - classic
   patterns:
     - earthsea
 
 - id: animal_farm
   name: Animal Farm
+  author: George Orwell
+  homepageUrl: https://en.wikipedia.org/wiki/Animal_Farm
+  tags:
+    - classic
+    - satire
 
 - id: automatic_noodle
   name: Automatic Noodle
+  author: Annalee Newitz
+  homepageUrl: https://us.macmillan.com/books/9781250357465/automaticnoodle/
+  tags:
+    - sci_fi
 
 - id: babel_book
   name: Babel
+  author: R.F. Kuang
+  homepageUrl: https://en.wikipedia.org/wiki/Babel,_or_the_Necessity_of_Violence
+  tags:
+    - fantasy
   patterns:
     - babel
 
-- id: careless_people
-  name: Careless People
-
 - id: children_of_time
   name: Children of Time
+  author: Adrian Tchaikovsky
+  homepageUrl: https://en.wikipedia.org/wiki/Children_of_Time
+  tags:
+    - sci_fi
 
 - id: cryptonomicon
   name: Cryptonomicon
+  author: Neal Stephenson
+  homepageUrl: https://en.wikipedia.org/wiki/Cryptonomicon
+  tags:
+    - sci_fi
 
 - id: demon_copperhead
   name: Demon Copperhead
+  author: Barbara Kingsolver
+  homepageUrl: https://en.wikipedia.org/wiki/Demon_Copperhead
+  tags:
+    - fiction
 
 - id: dune_book
   name: dune
+  author: Frank Herbert
+  homepageUrl: https://en.wikipedia.org/wiki/Dune_(novel)
   tags:
     - sci_fi
   patterns:
@@ -124,23 +206,49 @@
 
 - id: empire_of_ai
   name: Empire of AI
+  author: Karen Hao
+  homepageUrl: https://en.wikipedia.org/wiki/Empire_of_AI
+  tags:
+    - non_fiction
+    - technology
 
 - id: enshittification
   name: Enshittification
+  author: Cory Doctorow
+  homepageUrl: https://www.versobooks.com/products/3341-enshittification
+  tags:
+    - non_fiction
+    - technology
 
 - id: farenheit_451
   name: Farenheit 451
+  author: Ray Bradbury
+  homepageUrl: https://en.wikipedia.org/wiki/Fahrenheit_451
+  tags:
+    - sci_fi
+    - classic
 
 - id: foundation_book
   name: Foundation
+  author: Isaac Asimov
+  homepageUrl: https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)
+  tags:
+    - sci_fi
+    - classic
   patterns:
     - foundation
 
 - id: frankenstein
   name: Frankenstein
+  author: Mary Shelley
+  homepageUrl: https://en.wikipedia.org/wiki/Frankenstein
+  tags:
+    - classic
 
 - id: a_song_of_ice_and_fire
   name: A Song of Ice and Fire
+  author: George R.R. Martin
+  homepageUrl: https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire
   tags:
     - fantasy
   patterns:
@@ -148,85 +256,167 @@
 
 - id: gideon_the_ninth
   name: Gideon the Ninth
+  author: Tamsyn Muir
+  homepageUrl: https://en.wikipedia.org/wiki/Gideon_the_Ninth
+  tags:
+    - sci_fi
+    - fantasy
 
 - id: project_hail_mary
-  name: Hail Mary
+  name: Project Hail Mary
+  author: Andy Weir
+  homepageUrl: https://en.wikipedia.org/wiki/Project_Hail_Mary
+  tags:
+    - sci_fi
   patterns:
     - hail mary
 
 - id: harry_potter
   name: Harry Potter
+  author: J.K. Rowling
+  homepageUrl: https://en.wikipedia.org/wiki/Harry_Potter
+  tags:
+    - fantasy
 
 - id: hitchhiker_s_guide_to_the_galaxy
   name: Hitchhiker's Guide to the Galaxy
+  author: Douglas Adams
+  homepageUrl: https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy
+  tags:
+    - sci_fi
+    - humor
   patterns:
     - hitchhiker
 
 - id: house_of_leaves
   name: House Of Leaves
+  author: Mark Z. Danielewski
+  homepageUrl: https://en.wikipedia.org/wiki/House_of_Leaves
+  tags:
+    - horror
 
 - id: katabasis
   name: Katabasis
+  author: R.F. Kuang
+  homepageUrl: https://en.wikipedia.org/wiki/Katabasis_(novel)
+  tags:
+    - fantasy
 
 - id: the_lord_of_the_Rings
   name: The Lord of the Rings
+  author: J.R.R. Tolkien
+  homepageUrl: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings
+  tags:
+    - fantasy
+    - classic
   patterns:
     - lord, rings [l]
 
 - id: mistborn
   name: Mistborn
+  author: Brandon Sanderson
+  homepageUrl: https://en.wikipedia.org/wiki/Mistborn
+  tags:
+    - fantasy
 
 - id: the_murderbot_diaries
   name: The Murderbot Diaries
+  author: Martha Wells
+  homepageUrl: https://en.wikipedia.org/wiki/The_Murderbot_Diaries
+  tags:
+    - sci_fi
   patterns:
     - murderbot
 
 - id: neuromancer
   name: Neuromancer
+  author: William Gibson
+  homepageUrl: https://en.wikipedia.org/wiki/Neuromancer
+  tags:
+    - sci_fi
+    - classic
 
 - id: one_day_everyone_will_have_always_been_against_this
   name: One Day, Everyone Will Have Always Been Against This
+  author: Omar El Akkad
+  homepageUrl: https://en.wikipedia.org/wiki/One_Day,_Everyone_Will_Have_Always_Been_Against_This
+  tags:
+    - non_fiction
 
 - id: piranesi
   name: Piranesi
+  author: Susanna Clarke
+  homepageUrl: https://en.wikipedia.org/wiki/Piranesi_(novel)
+  tags:
+    - fantasy
 
 - id: red_rising
   name: Red Rising
-
-- id: sapiens
-  name: Sapiens
+  author: Pierce Brown
+  homepageUrl: https://en.wikipedia.org/wiki/Red_Rising_(novel)
+  tags:
+    - sci_fi
 
 - id: slow_gods
   name: Slow Gods
+  author: Claire North
+  homepageUrl: https://www.goodreads.com/book/show/223296158-slow-gods
+  tags:
+    - sci_fi
 
 - id: the_stormlight_archive
   name: The Stormlight Archive
+  author: Brandon Sanderson
+  homepageUrl: https://en.wikipedia.org/wiki/The_Stormlight_Archive
+  tags:
+    - fantasy
   patterns:
     - stormlight, archive [l]
 
-- id: the_courage_to_be_disliked
-  name: The Courage to be Disliked
-
-- id: the_dawn_of_everything
-  name: The Dawn of Everything
-
 - id: the_devils
   name: The Devils
+  author: Joe Abercrombie
+  homepageUrl: https://en.wikipedia.org/wiki/The_Devils_(Abercrombie_novel)
+  tags:
+    - fantasy
 
 - id: the_dispossessed
   name: The Dispossessed
+  author: Ursula K. Le Guin
+  homepageUrl: https://en.wikipedia.org/wiki/The_Dispossessed
+  tags:
+    - sci_fi
+    - classic
 
 - id: the_expanse
   name: The Expanse
+  author: James S.A. Corey
+  homepageUrl: https://en.wikipedia.org/wiki/The_Expanse_(novel_series)
+  tags:
+    - sci_fi
 
 - id: the_left_hand_of_darkness
   name: The Left Hand of Darkness
+  author: Ursula K. Le Guin
+  homepageUrl: https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness
+  tags:
+    - sci_fi
+    - classic
 
 - id: the_martian
   name: The Martian
+  author: Andy Weir
+  homepageUrl: https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)
+  tags:
+    - sci_fi
 
 - id: the_tainted_cup
   name: The Tainted Cup
+  author: Robert Jackson Bennett
+  homepageUrl: https://en.wikipedia.org/wiki/The_Tainted_Cup
+  tags:
+    - fantasy
+    - mystery
 
 - id: the_three_body_problem
   name: The Three-Body Problem
@@ -239,29 +429,58 @@
 
 - id: the_way_of_kings
   name: The Way of Kings
+  author: Brandon Sanderson
+  homepageUrl: https://en.wikipedia.org/wiki/The_Way_of_Kings
+  tags:
+    - fantasy
 
 - id: the_will_of_the_many
   name: The Will of the Many
+  author: James Islington
+  homepageUrl: https://en.wikipedia.org/wiki/The_Will_of_the_Many
+  tags:
+    - fantasy
 
 - id: there_is_no_anti_memetics_division
   name: There Is No Anti-Memetics Division
+  author: qntm
+  homepageUrl: https://en.wikipedia.org/wiki/There_Is_No_Antimemetics_Division
+  tags:
+    - sci_fi
+    - horror
 
 - id: to_kill_a_mockingbird
   name: To Kill a Mockingbird
+  author: Harper Lee
+  homepageUrl: https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird
+  tags:
+    - classic
 
 - id: tress_of_the_emerald_sea
   name: Tress of the Emerald Sea
+  author: Brandon Sanderson
+  homepageUrl: https://en.wikipedia.org/wiki/Tress_of_the_Emerald_Sea
+  tags:
+    - fantasy
 
 - id: wheel_of_time
   name: Wheel of Time
+  author: Robert Jordan
+  homepageUrl: https://en.wikipedia.org/wiki/The_Wheel_of_Time
   tags:
     - fantasy
 
 - id: wind_and_truth
   name: Wind and Truth
+  author: Brandon Sanderson
+  homepageUrl: https://en.wikipedia.org/wiki/Wind_and_Truth
+  tags:
+    - fantasy
 
 - id: the_witcher
   name: The Witcher
+  author: Andrzej Sapkowski
+  homepageUrl: https://en.wikipedia.org/wiki/The_Witcher
   tags:
     - fantasy
   patterns:
@@ -269,11 +488,19 @@
 
 - id: wool_book
   name: Wool
+  author: Hugh Howey
+  homepageUrl: https://en.wikipedia.org/wiki/Wool_(novel)
+  tags:
+    - sci_fi
   patterns:
     - wool
 
 - id: yumi_and_the_nightmare_painter
   name: Yumi and the Nightmare Painter
+  author: Brandon Sanderson
+  homepageUrl: https://en.wikipedia.org/wiki/Yumi_and_the_Nightmare_Painter
+  tags:
+    - fantasy
   patterns:
     - yumi, nightmare [l]
 
