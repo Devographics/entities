@@ -1,459 +1,443 @@
 - id: legend_of_zelda
   name: Legend of Zelda
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
 
-- tags:
+- id: breath_of_the_wild
+  name: "The Legend of Zelda: Breath of the Wild"
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild
-  id: breath_of_the_wild
-  name: "The Legend of Zelda: Breath of the Wild"
   parentId: legend_of_zelda
   patterns:
     - botw
 
-- tags:
+- id: echoes_of_wisdom
+  name: "The Legend of Zelda: Echoes of Wisdom"
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
-  id: echoes_of_wisdom
-  name: "The Legend of Zelda: Echoes of Wisdom"
   parentId: legend_of_zelda
   patterns:
     - eow
 
-- tags:
+- id: tears_of_the_kingdom
+  name: "The Legend of Zelda: Tears of the Kingdom"
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom
-  id: tears_of_the_kingdom
-  name: "The Legend of Zelda: Tears of the Kingdom"
   parentId: legend_of_zelda
   patterns:
     - totk
 
-- tags:
+- id: elden_ring
+  name: Elden Ring
+  tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Elden_Ring
-  id: elden_ring
-  name: Elden Ring
 
-- tags:
+- id: god_of_war
+  name: God of War
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)
-  id: god_of_war
-  name: God of War
 
 - id: god_of_war_ragnarok
   name: God of War Ragnarök
+  tags:
+    - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/God_of_War_Ragnar%C3%B6k
   parentId: god_of_war
 
-- tags:
+- id: the_witcher_3_wild_hunt
+  name: "The Witcher 3: Wild Hunt"
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt
-  id: the_witcher_3_wild_hunt
-  name: "The Witcher 3: Wild Hunt"
   patterns:
     - witcher 3
 
-- tags:
+- id: red_dead_redemption_2
+  name: Red Dead Redemption 2
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Red_Dead_Redemption_2
-  id: red_dead_redemption_2
-  name: Red Dead Redemption 2
 
-- tags:
+- id: hades
+  name: Hades
+  tags:
     - rogue_like
   homepageUrl: https://en.wikipedia.org/wiki/Hades_(video_game)
-  id: hades
-  name: Hades
 
-- tags:
+- id: animal_crossing_new_horizons
+  name: "Animal Crossing: New Horizons"
+  tags:
     - life_sim
   homepageUrl: https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons
-  id: animal_crossing_new_horizons
-  name: "Animal Crossing: New Horizons"
 
-- tags:
+- id: fortnite
+  name: Fortnite
+  tags:
     - battle_royale
   homepageUrl: https://en.wikipedia.org/wiki/Fortnite
-  id: fortnite
-  name: Fortnite
 
-- tags:
+- id: among_us
+  name: Among Us
+  tags:
     - party
   homepageUrl: https://en.wikipedia.org/wiki/Among_Us
-  id: among_us
-  name: Among Us
 
-- tags:
+- id: dark_souls_iii
+  name: Dark Souls III
+  tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Dark_Souls_III
-  id: dark_souls_iii
-  name: Dark Souls III
   patterns:
     - dark souls 3
 
-- tags:
+- id: overwatch
+  name: Overwatch
+  tags:
     - fps
   homepageUrl: https://en.wikipedia.org/wiki/Overwatch_(video_game)
-  id: overwatch
-  name: Overwatch
 
-- tags:
+- id: persona_5
+  name: Persona 5
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Persona_5
-  id: persona_5
-  name: Persona 5
 
-- tags:
+- id: minecraft
+  name: Minecraft
+  tags:
     - sandbox
   homepageUrl: https://en.wikipedia.org/wiki/Minecraft
-  id: minecraft
-  name: Minecraft
 
-- tags:
+- id: celeste
+  name: Celeste
+  tags:
     - platformer
   homepageUrl: https://en.wikipedia.org/wiki/Celeste_(video_game)
-  id: celeste
-  name: Celeste
 
-- tags:
+- id: hollow_knight
+  name: Hollow Knight
+  tags:
     - metroidvania
   homepageUrl: https://en.wikipedia.org/wiki/Hollow_Knight
-  id: hollow_knight
-  name: Hollow Knight
 
-- tags:
+- id: disco_elysium
+  name: Disco Elysium
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Disco_Elysium
-  id: disco_elysium
-  name: Disco Elysium
 
-- tags:
+- id: resident_evil_2_2019
+  name: Resident Evil 2 (2019)
+  tags:
     - survival_horror
   homepageUrl: https://en.wikipedia.org/wiki/Resident_Evil_2_(2019_video_game)
-  id: resident_evil_2_2019
-  name: Resident Evil 2 (2019)
 
-- tags:
+- id: doom_eternal
+  name: DOOM Eternal
+  tags:
     - fps
   homepageUrl: https://en.wikipedia.org/wiki/Doom_Eternal
-  id: doom_eternal
-  name: DOOM Eternal
 
 - id: monster_hunter
   name: Monster Hunter
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter
 
-- tags:
+- id: monster_hunter_wilds
+  name: "Monster Hunter Wilds"
+  tags:
     - action_rpg
   parentId: monster_hunter
   homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter_Wilds
-  id: monster_hunter_wilds
-  name: "Monster Hunter Wilds"
 
-- tags:
+- id: monster_hunter_world
+  name: "Monster Hunter: World"
+  tags:
     - action_rpg
   parentId: monster_hunter
   homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter:_World
-  id: monster_hunter_world
-  name: "Monster Hunter: World"
 
-- tags:
+- id: super_mario_odyssey
+  name: Super Mario Odyssey
+  tags:
     - platformer
   homepageUrl: https://en.wikipedia.org/wiki/Super_Mario_Odyssey
-  id: super_mario_odyssey
-  name: Super Mario Odyssey
+  patterns:
+    - mario, odyssey [l]
 
-- tags:
+- id: marvels_spider_man
+  name: Marvel’s Spider-Man
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Spider-Man_(2018_video_game)
-  id: marvels_spider_man
-  name: Marvel’s Spider-Man
 
-- tags:
-    - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Cyberpunk_2077
-  id: cyberpunk_2077
-  name: Cyberpunk 2077
-
-- tags:
+- id: death_stranding
+  name: Death Stranding
+  tags:
     - action
   homepageUrl: https://en.wikipedia.org/wiki/Death_Stranding
-  id: death_stranding
-  name: Death Stranding
 
-- tags:
+- id: return_of_the_obra_dinn
+  name: Return of the Obra Dinn
+  tags:
     - puzzle
   homepageUrl: https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn
-  id: return_of_the_obra_dinn
-  name: Return of the Obra Dinn
 
-- tags:
+- id: fire_emblem_three_houses
+  name: "Fire Emblem: Three Houses"
+  tags:
     - strategy_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Fire_Emblem:_Three_Houses
-  id: fire_emblem_three_houses
-  name: "Fire Emblem: Three Houses"
 
-- tags:
+- id: ghost_of_tsushima
+  name: Ghost of Tsushima
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Ghost_of_Tsushima
-  id: ghost_of_tsushima
-  name: Ghost of Tsushima
 
-- tags:
+- id: it_takes_two
+  name: It Takes Two
+  tags:
     - co_op
   homepageUrl: https://en.wikipedia.org/wiki/It_Takes_Two_(video_game)
-  id: it_takes_two
-  name: It Takes Two
 
-- tags:
+- id: inside
+  name: Inside
+  tags:
     - platformer
   homepageUrl: https://en.wikipedia.org/wiki/Inside_(video_game)
-  id: inside
-  name: Inside
 
-- tags:
+- id: the_outer_worlds
+  name: The Outer Worlds
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/The_Outer_Worlds
-  id: the_outer_worlds
-  name: The Outer Worlds
 
-- tags:
+- id: control
+  name: Control
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Control_(video_game)
-  id: control
-  name: Control
 
-- tags:
+- id: slay_the_spire
+  name: Slay the Spire
+  tags:
     - rogue_like
   homepageUrl: https://en.wikipedia.org/wiki/Slay_the_Spire
-  id: slay_the_spire
-  name: Slay the Spire
 
-- tags:
+- id: genshin_impact
+  name: Genshin Impact
+  tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Genshin_Impact
-  id: genshin_impact
-  name: Genshin Impact
 
-- tags:
+- id: undertale
+  name: Undertale
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Undertale
-  id: undertale
-  name: Undertale
 
-- tags:
+- id: stardew_valley
+  name: Stardew Valley
+  tags:
     - farming_sim
   homepageUrl: https://en.wikipedia.org/wiki/Stardew_Valley
-  id: stardew_valley
-  name: Stardew Valley
 
-- tags:
+- id: splatoon_2
+  name: Splatoon 2
+  tags:
     - third_person_shooter
   homepageUrl: https://en.wikipedia.org/wiki/Splatoon_2
-  id: splatoon_2
-  name: Splatoon 2
 
-- tags:
+- id: titanfall_2
+  name: Titanfall 2
+  tags:
     - fps
   homepageUrl: https://en.wikipedia.org/wiki/Titanfall_2
-  id: titanfall_2
-  name: Titanfall 2
 
-- tags:
+- id: bloodborne
+  name: Bloodborne
+  tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Bloodborne
-  id: bloodborne
-  name: Bloodborne
 
-- tags:
+- id: bayonetta_2
+  name: Bayonetta 2
+  tags:
     - action
   homepageUrl: https://en.wikipedia.org/wiki/Bayonetta_2
-  id: bayonetta_2
-  name: Bayonetta 2
 
-- tags:
+- id: doki_doki_literature_club
+  name: Doki Doki Literature Club!
+  tags:
     - visual_novel
   homepageUrl: https://en.wikipedia.org/wiki/Doki_Doki_Literature_Club!
-  id: doki_doki_literature_club
-  name: Doki Doki Literature Club!
 
-- tags:
+- id: cuphead
+  name: Cuphead
+  tags:
     - run_and_gun
   homepageUrl: https://en.wikipedia.org/wiki/Cuphead
-  id: cuphead
-  name: Cuphead
 
-- tags:
+- id: nier_automata
+  name: "NieR: Automata"
+  tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/NieR:_Automata
-  id: nier_automata
-  name: "NieR: Automata"
 
-- tags:
+- id: apex_legends
+  name: Apex Legends
+  tags:
     - battle_royale
   homepageUrl: https://en.wikipedia.org/wiki/Apex_Legends
-  id: apex_legends
-  name: Apex Legends
 
-- tags:
+- id: the_last_of_us_part_ii
+  name: The Last of Us Part II
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/The_Last_of_Us_Part_II
-  id: the_last_of_us_part_ii
-  name: The Last of Us Part II
 
-- tags:
+- id: super_smash_bros_ultimate
+  name: Super Smash Bros. Ultimate
+  tags:
     - fighting
   homepageUrl: https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate
-  id: super_smash_bros_ultimate
-  name: Super Smash Bros. Ultimate
 
-- tags:
+- id: metroid_dread
+  name: Metroid Dread
+  tags:
     - metroidvania
   homepageUrl: https://en.wikipedia.org/wiki/Metroid_Dread
-  id: metroid_dread
-  name: Metroid Dread
 
-- tags:
+- id: dead_cells
+  name: Dead Cells
+  tags:
     - rogue_like
   homepageUrl: https://en.wikipedia.org/wiki/Dead_Cells
-  id: dead_cells
-  name: Dead Cells
 
-- tags:
+- id: tunic
+  name: Tunic
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Tunic_(video_game)
-  id: tunic
-  name: Tunic
 
-- tags:
+- id: loop_hero
+  name: Loop Hero
+  tags:
     - rogue_like
   homepageUrl: https://en.wikipedia.org/wiki/Loop_Hero
-  id: loop_hero
-  name: Loop Hero
 
-- tags:
+- id: valheim
+  name: Valheim
+  tags:
     - survival
   homepageUrl: https://en.wikipedia.org/wiki/Valheim
-  id: valheim
-  name: Valheim
 
-- tags:
+- id: outer_wilds
+  name: Outer Wilds
+  tags:
     - exploration
   homepageUrl: https://en.wikipedia.org/wiki/Outer_Wilds
-  id: outer_wilds
-  name: Outer Wilds
 
-- tags:
+- id: sea_of_thieves
+  name: Sea of Thieves
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Sea_of_Thieves
-  id: sea_of_thieves
-  name: Sea of Thieves
 
-- tags:
+- id: balatro
+  name: Balatro
+  tags:
     - rogue_like
   homepageUrl: https://en.wikipedia.org/wiki/Balatro_(video_game)
-  id: balatro
-  name: Balatro
 
-- tags:
-    - sandbox
-  homepageUrl: https://en.wikipedia.org/wiki/Minecraft
-  id: minecraft
-  name: Minecraft
-
-- tags:
+- id: kingdom_come_deliverance
+  name: "Kingdom Come: Deliverance"
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance
-  id: kingdom_come_deliverance
-  name: "Kingdom Come: Deliverance"
 
-- tags:
-    - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance_II
-  id: kingdom_come_deliverance_2
-  name: "Kingdom Come: Deliverance II"
-  parentId: kingdom_come_deliverance
-  patterns:
-    - kingdom come deliverence ii
-
-- tags:
+- id: league_of_legends
+  name: League of Legends
+  tags:
     - moba
   homepageUrl: https://en.wikipedia.org/wiki/League_of_Legends
-  id: league_of_legends
-  name: League of Legends
 
-- tags:
+- id: factorio
+  name: Factorio
+  tags:
     - simulation
   homepageUrl: https://en.wikipedia.org/wiki/Factorio
-  id: factorio
-  name: Factorio
 
-- tags:
+- id: cyberpunk_2077
+  name: Cyberpunk 2077
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Cyberpunk_2077
-  id: cyberpunk_2077
-  name: Cyberpunk 2077
   patterns:
     - cyberpunk
 
-- tags:
+- id: monument_valley
+  name: Monument Valley
+  tags:
     - puzzle
   homepageUrl: https://en.wikipedia.org/wiki/Monument_Valley_(video_game)
-  id: monument_valley
-  name: Monument Valley
 
-- tags:
-    - farming_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Stardew_Valley
-  id: stardew_valley
-  name: Stardew Valley
-
-- tags:
+- id: mario_kart
+  name: Mario Kart 8 Deluxe
+  tags:
     - racing
   homepageUrl: https://en.wikipedia.org/wiki/Mario_Kart_8
-  id: mario_kart
-  name: Mario Kart 8 Deluxe
 
 - id: mario_wonder
   name: Super Mario Bros. Wonder
+  tags:
+    - platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Super_Mario_Bros._Wonder
   patterns:
     - mario, wonder [l]
 
 - id: mario_odyssey
   name: Super Mario Odyssey
+  tags:
+    - platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Super_Mario_Odyssey
   patterns:
     - mario, odyssey
 
-- tags:
+- id: the_last_of_us
+  name: The Last of Us
+  tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/The_Last_of_Us
-  id: the_last_of_us
-  name: The Last of Us
 
-- tags:
+- id: last_epoch
+  name: Last Epoch
+  tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Last_Epoch
-  id: last_epoch
-  name: Last Epoch
 
-- tags:
+- id: blue_prince
+  name: The Blue Prince
+  tags:
     - puzzle
   homepageUrl: https://en.wikipedia.org/wiki/Blue_Prince_(video_game)
-  id: blue_prince
-  name: The Blue Prince
 
-- tags:
+- id: clair_obscur_expedition_33
+  name: "Clair Obscur: Expedition 33"
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33
-  id: clair_obscur_expedition_33
-  name: "Clair Obscur: Expedition 33"
   patterns:
     - clair, obscur [l]
 
-- tags:
-    - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)
-  id: god_of_war
-  name: God of War (2018)
 - id: rimworld
   name: RimWorld
   tags:
@@ -467,9 +451,9 @@
   homepageUrl: https://en.wikipedia.org/wiki/Palworld
 
 - id: world_of_warcraft
+  name: World of Warcraft
   patterns:
     - wow
-  name: World of Warcraft
   tags:
     - mmorpg
   homepageUrl: https://en.wikipedia.org/wiki/World_of_Warcraft
@@ -487,45 +471,48 @@
   homepageUrl: https://en.wikipedia.org/wiki/Horizon_(video_game_series)
 
 - id: horizon_forbidden_west
-  parentId: horizon_game
   name: Horizon Forbidden West
+  parentId: horizon_game
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Horizon_Forbidden_West
 
 - id: horizon_zero_dawn
-  parentId: horizon_game
   name: Horizon Zero Dawn
+  parentId: horizon_game
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Horizon_Zero_Dawn
 
 - id: final_fantasy
   name: Final Fantasy
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy
 
 - id: final_fantasy_14
+  name: Final Fantasy XIV
   parentId: final_fantasy
   patterns:
     - final, fantasy, xiv [l]
-  name: Final Fantasy XIV
   tags:
     - mmorpg
   homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XIV
 
 - id: final_fantasy_16
+  name: Final Fantasy XVI
   parentId: final_fantasy
   patterns:
     - final, fantasy, xvi [l]
-  name: Final Fantasy XVI
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XVI
 
 - id: final_fantasy_7
+  name: Final Fantasy VII Remake
   parentId: final_fantasy
   patterns:
     - final, fantasy, vii [l]
-  name: Final Fantasy VII Remake
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake
@@ -538,6 +525,9 @@
 
 - id: assassins_creed
   name: Assassin's Creed
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed
   patterns:
     - assassin, creed [l]
     - assassins, creed [l]
@@ -564,6 +554,9 @@
 
 - id: civilization
   name: Civilization
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Civilization_(series)
 
 - id: civilization_5
   name: Civilization 5
@@ -594,15 +587,22 @@
 
 - id: elder_scrolls_oblivion_remastered
   name: "The Elder Scrolls IV: Oblivion Remastered"
+  tags:
+    - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
   patterns:
     - oblivion
 
 - id: age_of_empires
   name: Age of Empires
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires
 
 - id: age_of_empires_2
   name: Age of Empires II
+  tags:
+    - strategy
   homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires_II
   parentId: age_of_empires
   patterns:
@@ -610,10 +610,13 @@
 
 - id: age_of_empires_4
   name: Age of Empires IV
+  tags:
+    - strategy
   homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires_IV
   parentId: age_of_empires
   patterns:
     - age, empires, iv [l]
+
 - id: satisfactory
   name: Satisfactory
   tags:
@@ -633,8 +636,8 @@
   homepageUrl: https://en.wikipedia.org/wiki/StarCraft
 
 - id: starcraft_2
-  parentId: starcraft
   name: StarCraft II
+  parentId: starcraft
   tags:
     - rts
   homepageUrl: https://en.wikipedia.org/wiki/StarCraft_II
@@ -670,10 +673,10 @@
   homepageUrl: https://en.wikipedia.org/wiki/Call_of_Duty
 
 - id: call_of_duty_black_ops_6
+  name: "Call of Duty: Black Ops 6"
   parentId: call_of_duty
   patterns:
     - black ops 6
-  name: "Call of Duty: Black Ops 6"
   tags:
     - fps
   homepageUrl: https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_6
@@ -703,28 +706,28 @@
   homepageUrl: https://en.wikipedia.org/wiki/Diablo_(series)
 
 - id: diablo_2
+  name: Diablo II
   parentId: diablo
   patterns:
     - diablo ii
-  name: Diablo II
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Diablo_II
 
 - id: diablo_3
+  name: Diablo III
   parentId: diablo
   patterns:
     - diablo iii
-  name: Diablo III
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Diablo_III
 
 - id: diablo_4
+  name: Diablo IV
   parentId: diablo
   patterns:
     - diablo iv
-  name: Diablo IV
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Diablo_IV
@@ -736,9 +739,9 @@
   homepageUrl: https://en.wikipedia.org/wiki/Marvel_Rivals
 
 - id: helldivers_2
+  name: Helldivers 2
   patterns:
     - helldivers
-  name: Helldivers 2
   tags:
     - third_person_shooter
   homepageUrl: https://en.wikipedia.org/wiki/Helldivers_2
@@ -749,19 +752,19 @@
     - sports
   homepageUrl: https://en.wikipedia.org/wiki/Rocket_League
 
-- tags:
+- id: baldurs_gate
+  name: Baldur's Gate 3
+  tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Baldur%27s_Gate_3
-  id: baldurs_gate
-  name: Baldur's Gate 3
   patterns:
     - baldur's gate
     - baldur, 3 [l]
 
 - id: hogwarts_legacy
+  name: Hogwarts Legacy
   patterns:
     - hogwart, legacy [l]
-  name: Hogwarts Legacy
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Hogwarts_Legacy
@@ -773,8 +776,8 @@
   homepageUrl: https://en.wikipedia.org/wiki/Path_of_Exile
 
 - id: path_of_exile_2
-  parentId: path_of_exile
   name: Path of Exile 2
+  parentId: path_of_exile
   tags:
     - action_rpg
   homepageUrl: https://en.wikipedia.org/wiki/Path_of_Exile_2
@@ -786,10 +789,10 @@
   homepageUrl: https://en.wikipedia.org/wiki/Dragon_Age
 
 - id: dragon_age_the_veilguard
+  name: "Dragon Age: The Veilguard"
   parentId: dragon_age
   patterns:
     - veilguard
-  name: "Dragon Age: The Veilguard"
   tags:
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Dragon_Age:_The_Veilguard
@@ -801,8 +804,8 @@
   homepageUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto
 
 - id: gta_v
-  parentId: gta
   name: Grand Theft Auto V
+  parentId: gta
   tags:
     - action_adventure
   homepageUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto_V
@@ -821,293 +824,566 @@
 
 - id: 7_days_to_die
   name: 7 Days to Die
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/7_Days_to_Die
 
 - id: alan_wake
   name: Alan Wake
+  tags:
+    - survival_horror
+  homepageUrl: https://en.wikipedia.org/wiki/Alan_Wake
 
 - id: alan_wake_2
   name: Alan Wake 2
+  tags:
+    - survival_horror
+  homepageUrl: https://en.wikipedia.org/wiki/Alan_Wake_2
 
 - id: animal_well
   name: Animal Well
+  tags:
+    - metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Animal_Well
 
 - id: arc_raiders
   name: Arc Raiders
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/ARC_Raiders
 
 - id: arknights_endfield
   name: "Arknights: Endfield"
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Arknights:_Endfield
 
 - id: astro_bot
   name: Astro Bot
+  tags:
+    - platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Astro_Bot
 
 - id: ball_x_pit
   name: Ball x Pit
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Ball_x_Pit
 
 - id: battlefield_6
   name: Battlefield 6
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Battlefield_6
   patterns:
     - bf6
 
 - id: big_walk
   name: Big Walk
+  tags:
+    - co_op
+  homepageUrl: https://en.wikipedia.org/wiki/Big_Walk
 
 - id: blasphemous_2
   name: Blasphemous 2
+  tags:
+    - metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Blasphemous_2
   patterns:
     - blasphemous ii
 
 - id: borderlands_4
   name: Borderlands 4
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Borderlands_4
 
 - id: brotato
   name: Brotato
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Brotato
 
 - id: cairn
   name: Cairn
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Cairn_(video_game)
 
 - id: chants_of_senaar
   name: Chants of Senaar
+  tags:
+    - puzzle
+  homepageUrl: https://en.wikipedia.org/wiki/Chants_of_Sennaar
 
 - id: chess_game
   name: Chess
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Chess
 
 - id: cities_skylines_2
   name: Cities Skylines 2
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Cities:_Skylines_II
 
 - id: clash_of_clans
   name: Clash of Clans
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Clash_of_Clans
 
 - id: counter_strike_2
   name: Counter-Strike 2
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Counter-Strike_2
   patterns:
     - cs2
 
 - id: crimson_desert
   name: Crimson Desert
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Crimson_Desert
 
 - id: dave_the_diver
   name: Dave The Diver
+  tags:
+    - adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Dave_the_Diver
 
 - id: day_z
   name: DayZ
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/DayZ_(video_game)
 
 - id: deadlock
   name: Deadlock
+  tags:
+    - moba
+  homepageUrl: https://en.wikipedia.org/wiki/Deadlock_(video_game)
 
 - id: deep_rock_galactic
   name: Deep Rock Galactic
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Deep_Rock_Galactic
 
 - id: destiny_2
   name: Destiny 2
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Destiny_2
 
 - id: dispatch
   name: Dispatch
+  tags:
+    - adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Dispatch_(video_game)
 
 - id: donkey_kong_bananza
   name: Donkey Kong Bananza
+  tags:
+    - platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Donkey_Kong_Bananza
 
 - id: doom_the_dark_ages
   name: Doom The Dark Ages
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Doom:_The_Dark_Ages
 
 - id: dota_2
   name: Dota 2
+  tags:
+    - moba
+  homepageUrl: https://en.wikipedia.org/wiki/Dota_2
 
 - id: Dredge
   name: dredge
+  tags:
+    - adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Dredge_(video_game)
 
 - id: enshrouded
   name: Enshrouded
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Enshrouded
 
 - id: esoteric_ebb
   name: Esoteric Ebb
-
-- id: expedition_33
-  name: Expedition 33
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Esoteric_Ebb
 
 - id: fallout_4
   name: Fallout 4
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Fallout_4
 
 - id: fifa
   name: FIFA
+  tags:
+    - sports
+  homepageUrl: https://en.wikipedia.org/wiki/FIFA_(video_game_series)
 
 - id: ghost_of_yotei
   name: Ghost of Yotei
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Ghost_of_Y%C5%8Dtei
 
 - id: gothic_remake
   name: Gothic Remake
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Gothic_1_Remake
   patterns:
     - gothic, remake [l]
 
 - id: graveyard_keeper
   name: Graveyard Keeper
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Graveyard_Keeper
 
 - id: grim_dawn
   name: Grim Dawn
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Grim_Dawn
 
 - id: guild_wars_2
   name: Guild Wars 2
+  tags:
+    - mmorpg
+  homepageUrl: https://en.wikipedia.org/wiki/Guild_Wars_2
 
 - id: hytale
   name: Hytale
+  tags:
+    - sandbox
+  homepageUrl: https://en.wikipedia.org/wiki/Hytale
 
 - id: indiana_jones_and_the_great_circle
   name: Indiana Jones and the Great Circle
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Great_Circle
 
 - id: kerbal_space_program
   name: Kerbal Space Program
+  tags:
+    - space_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Kerbal_Space_Program
 
 - id: kingdom_come_deliverance_2
-  name: Kingdom Come Deliverance 2
+  name: "Kingdom Come: Deliverance II"
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance_II
+  parentId: kingdom_come_deliverance
   patterns:
-    - kingdom, come, 2 [l]
+    - kingdom come deliverence ii
 
 - id: life_is_strange
   name: Life is Strange
+  tags:
+    - adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Life_Is_Strange
 
 - id: mass_effect
   name: Mass Effect
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Mass_Effect
 
-- id: meccha_cameleon
-  name: Meccha Cameleon
+- id: meccha_chameleon
+  name: Meccha Chameleon
+  patterns:
+    - me(c)?cha c(h)?ameleon
+  tags:
+    - party
+  homepageUrl: https://en.wikipedia.org/wiki/Meccha_Chameleon
 
 - id: mewgenics
   name: Mewgenics
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Mewgenics
 
 - id: mina_the_hollower
   name: Mina the Hollower
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Mina_the_Hollower
 
 - id: mixtape
   name: Mixtape
+  tags:
+    - adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Mixtape_(video_game)
 
 - id: nba_2k
   name: NBA 2K
+  tags:
+    - sports
+  homepageUrl: https://en.wikipedia.org/wiki/NBA_2K
 
 - id: no_man_s_sky
   name: No Man's Sky
+  tags:
+    - space_sim
+  homepageUrl: https://en.wikipedia.org/wiki/No_Man%27s_Sky
 
 - id: noita
   name: Noita
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Noita_(video_game)
 
 - id: old_school_runescape
   name: Oldschool Runescape
+  tags:
+    - mmorpg
+  homepageUrl: https://en.wikipedia.org/wiki/Old_School_RuneScape
 
 - id: open_ttd
   name: OpenTTD
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/OpenTTD
 
 - id: oxygen_not_included
   name: Oxygen Not Included
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Oxygen_Not_Included
 
 - id: paralives
   name: Paralives
+  tags:
+    - life_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Paralives
 
 - id: pathogenic
   name: Pathogenic
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Pathogenic_(video_game)
 
 - id: peak
   name: Peak
+  tags:
+    - co_op
+  homepageUrl: https://en.wikipedia.org/wiki/Peak_(video_game)
 
 - id: planet of_lana
   name: Planet of Lana
+  tags:
+    - puzzle_platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Planet_of_Lana
 
 - id: pokemon_go
   name: Pokemon Go
+  tags:
+    - mobile
+  homepageUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go
 
 - id: pokemon_pokopia
   name: Pokemon Pokopia
+  tags:
+    - life_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pokopia
   patterns:
     - pokopia
 
 - id: pragmata
   name: Pragmata
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Pragmata
 
 - id: project_zomboid
   name: Project Zomboid
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Project_Zomboid
 
 - id: pubg
   name: PUBG
+  tags:
+    - battle_royale
+  homepageUrl: https://en.wikipedia.org/wiki/PUBG:_Battlegrounds
 
 - id: raft
   name: Raft
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Raft_(video_game)
 
 - id: red_dead_redemption
   name: Red Dead Redemption
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Red_Dead_Redemption
 
 - id: resident_evil_requiem
   name: Resident Evil Requiem
+  tags:
+    - survival_horror
+  homepageUrl: https://en.wikipedia.org/wiki/Resident_Evil_Requiem
 
 - id: rhythm_heaven_groove
   name: Rhythm Heaven Groove
+  tags:
+    - rhythm
+  homepageUrl: https://en.wikipedia.org/wiki/Rhythm_Heaven_Groove
 
 - id: rogue_trader
   name: Rogue Trader
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Rogue_Trader_(video_game)
 
 - id: shapez_2
   name: Shapez 2
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Shapez_2
 
 - id: hollow_kinght_silk_song
   name: Hollow Knight Silksong
+  tags:
+    - metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong
   patterns:
     - silk( )?song
 
 - id: skyrim
   name: Skyrim
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim
 
 - id: space_marine_2
   name: Space Marine 2
+  tags:
+    - third_person_shooter
+  homepageUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Space_Marine_2
 
 - id: spiderman_2
   name: Spiderman 2
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man_2_(2023_video_game)
 
 - id: splatoon_raiders
   name: Splatoon Raiders
+  tags:
+    - third_person_shooter
+  homepageUrl: https://en.wikipedia.org/wiki/Splatoon_Raiders
 
 - id: stalker_2
   name: Stalker 2
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/S.T.A.L.K.E.R._2:_Heart_of_Chornobyl
 
 - id: star_fox
   name: Starfox
+  tags:
+    - action
+  homepageUrl: https://en.wikipedia.org/wiki/Star_Fox
 
 - id: star_wars_outlaws
   name: Star Wars Outlaws
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Star_Wars_Outlaws
 
 - id: stellaris
   name: Stellaris
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Stellaris_(video_game)
 
 - id: stray
   name: Stray
+  tags:
+    - adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Stray_(video_game)
 
 - id: street_fighter_6
   name: Street Fighter 6
+  tags:
+    - fighting
+  homepageUrl: https://en.wikipedia.org/wiki/Street_Fighter_6
 
 - id: subnautica
   name: Subnautica
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Subnautica
 
 - id: subnautica_2
   name: Subnautica 2
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Subnautica_2
 
 - id: terraria
   name: Terraria
+  tags:
+    - sandbox
+  homepageUrl: https://en.wikipedia.org/wiki/Terraria
 
 - id: timberborn
   name: Timberborn
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Timberborn
 
 - id: trackmania
   name: Trackmania
+  tags:
+    - racing
+  homepageUrl: https://en.wikipedia.org/wiki/Trackmania
 
 - id: valorant
   name: Valorant
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Valorant
 
 - id: vampire_survivors
   name: Vampire Survivors
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Vampire_Survivors
 
 - id: warframe
   name: Warframe
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Warframe
 
 - id: witchfire
   name: Witchfire
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Witchfire
 
 - id: zenless_zone_zero
   name: Zenless Zone Zero
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Zenless_Zone_Zero
 
 - id: vintage_story
   name: Vintage Story
