@@ -46,7 +46,7 @@
   tags:
     - non_fiction
     - technology
-    - artificial-intelligence
+    - artificial_intelligence
   patterns:
     - reverse, centaur [l]
 
@@ -56,7 +56,7 @@
   homepageUrl: https://en.wikipedia.org/wiki/Play_Nice
   tags:
     - non_fiction
-    - video-games
+    - video_games
     - business
   patterns:
     - play, nice [l]
@@ -532,7 +532,6 @@
   homepageUrl: https://en.wikipedia.org/wiki/Dennis_E._Taylor
   tags:
     - sci_fi
-    - space-opera
     - humor
 
 - id: the_thursday_murder_club

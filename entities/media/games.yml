@@ -88,6 +88,14 @@
     - party
   homepageUrl: https://en.wikipedia.org/wiki/Among_Us
 
+- id: dark_souls
+  name: Dark Souls
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Dark_Souls
+  patterns:
+    - dark souls
+
 - id: dark_souls_iii
   name: Dark Souls III
   tags:
@@ -760,6 +768,7 @@
   patterns:
     - baldur's gate
     - baldur, 3 [l]
+    - bg3
 
 - id: hogwarts_legacy
   name: Hogwarts Legacy
@@ -921,6 +930,8 @@
   tags:
     - strategy
   homepageUrl: https://en.wikipedia.org/wiki/Chess
+  patterns:
+    - chess
 
 - id: cities_skylines_2
   name: Cities Skylines 2
