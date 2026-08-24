@@ -1,0 +1,163 @@
+# Topics identified from free-text answers in devs2026__ai_outlook__0_1230__input.json
+# (State of Devs 2026 survey — "what's your outlook on AI" open-ended responses)
+
+# anti-AI sentiment topics
+
+- id: ai_bubble_fear
+  name: Fear of an AI bubble
+  tags:
+    - anti_ai_sentiment
+
+- id: ai_hype_skepticism
+  name: Skepticism about AI hype
+  tags:
+    - anti_ai_sentiment
+
+- id: wealth_concentration_concern
+  name: Concern about wealth concentration and corporate greed
+  tags:
+    - anti_ai_sentiment
+
+- id: billionaire_enrichment
+  name: AI enriching billionaires and tech oligarchs
+  parentId: wealth_concentration_concern
+  tags:
+    - anti_ai_sentiment
+
+- id: worker_solidarity_call
+  name: Calls for worker unionization and solidarity
+  parentId: wealth_concentration_concern
+  tags:
+    - anti_ai_sentiment
+
+- id: code_quality_decline
+  name: Decline in code quality
+  tags:
+    - anti_ai_sentiment
+
+- id: ai_slop
+  name: AI-generated code slop
+  parentId: code_quality_decline
+  tags:
+    - anti_ai_sentiment
+
+- id: reduced_code_review
+  name: Reduced code review rigor
+  parentId: code_quality_decline
+  tags:
+    - anti_ai_sentiment
+
+- id: job_loss_fear
+  name: Fear of job losses
+  tags:
+    - anti_ai_sentiment
+
+- id: junior_developer_impact
+  name: Fewer opportunities for junior developers
+  parentId: job_loss_fear
+  tags:
+    - anti_ai_sentiment
+
+- id: skill_erosion_concern
+  name: Concern about eroding skills
+  tags:
+    - anti_ai_sentiment
+
+- id: critical_thinking_decline
+  name: Decline in critical thinking
+  parentId: skill_erosion_concern
+  tags:
+    - anti_ai_sentiment
+
+- id: overreliance_on_ai
+  name: Overreliance on AI
+  parentId: skill_erosion_concern
+  tags:
+    - anti_ai_sentiment
+
+- id: forced_adoption_frustration
+  name: Frustration with forced AI adoption
+  tags:
+    - anti_ai_sentiment
+
+- id: environmental_impact_concern
+  name: Concern about AI's environmental impact
+  tags:
+    - anti_ai_sentiment
+
+- id: ai_ethics_concern
+  name: Ethical concerns about AI companies
+  tags:
+    - anti_ai_sentiment
+
+- id: training_data_exploitation
+  name: Exploitation of creators' work to train AI
+  parentId: ai_ethics_concern
+  tags:
+    - anti_ai_sentiment
+
+- id: distrust_of_ai_output
+  name: Distrust of AI-generated output
+  tags:
+    - anti_ai_sentiment
+
+- id: job_satisfaction_loss
+  name: Loss of job satisfaction and enjoyment
+  tags:
+    - anti_ai_sentiment
+
+- id: societal_harm_concern
+  name: Concern about broader societal harm
+  tags:
+    - anti_ai_sentiment
+
+- id: misinformation_spread
+  name: Spread of misinformation
+  parentId: societal_harm_concern
+  tags:
+    - anti_ai_sentiment
+
+- id: calls_for_regulation
+  name: Calls for stronger AI regulation
+  parentId: societal_harm_concern
+  tags:
+    - anti_ai_sentiment
+
+# pro-AI sentiment topics
+
+- id: useful_tool_for_specific_tasks
+  name: AI as a useful tool for specific tasks
+  tags:
+    - pro_ai_sentiment
+
+- id: boilerplate_automation
+  name: Automating boilerplate and repetitive tasks
+  parentId: useful_tool_for_specific_tasks
+  tags:
+    - pro_ai_sentiment
+
+- id: debugging_and_rubber_ducking
+  name: Useful for debugging and rubber-duck reasoning
+  parentId: useful_tool_for_specific_tasks
+  tags:
+    - pro_ai_sentiment
+
+- id: productivity_boost
+  name: Productivity boost from AI tools
+  tags:
+    - pro_ai_sentiment
+
+- id: learning_and_accessibility_aid
+  name: AI as a learning and accessibility aid
+  tags:
+    - pro_ai_sentiment
+
+- id: augments_skilled_engineers
+  name: Augments already-skilled engineers
+  tags:
+    - pro_ai_sentiment
+
+- id: optimism_about_future
+  name: Optimism about AI's future potential
+  tags:
+    - pro_ai_sentiment

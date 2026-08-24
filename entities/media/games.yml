@@ -766,8 +766,9 @@
     - rpg
   homepageUrl: https://en.wikipedia.org/wiki/Baldur%27s_Gate_3
   patterns:
-    - baldur's gate
+    - baldur(')?s gate
     - baldur, 3 [l]
+    - baulder(')?s
     - bg3
 
 - id: hogwarts_legacy
@@ -1537,3 +1538,485 @@
   tags:
     - horror
   homepageUrl: https://whiteknuckle.net/
+
+- id: pokemon
+  name: Pokemon
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon
+
+- id: resident_evil_4
+  name: Resident Evil 4
+  tags:
+    - survival_horror
+  homepageUrl: https://en.wikipedia.org/wiki/Resident_Evil_4
+
+- id: fallout_76
+  name: Fallout 76
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Fallout_76
+
+- id: the_long_dark
+  name: The Long Dark
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/The_Long_Dark
+
+- id: fallout
+  name: Fallout
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Fallout_(franchise)
+
+- id: blasphemous
+  name: Blasphemous
+  tags:
+    - metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Blasphemous_(video_game)
+
+- id: dishonored_2
+  name: Dishonored 2
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Dishonored_2
+
+- id: arma_reforger
+  name: Arma Reforger
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Arma_Reforger
+
+- id: the_binding_of_isaac
+  name: The Binding of Isaac
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+
+- id: windrose
+  name: Windrose
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Windrose_(video_game)
+
+- id: icarus
+  name: Icarus
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Icarus_(video_game)
+
+- id: pentiment
+  name: Pentiment
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Pentiment_(video_game)
+
+- id: manor_lords
+  name: Manor Lords
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Manor_Lords
+
+- id: cities_skylines
+  name: Cities Skylines
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Cities:_Skylines
+
+- id: age_of_wonders_4
+  name: Age of Wonders 4
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Wonders_4
+
+- id: hearthstone
+  name: Hearthstone
+  tags:
+    - card
+  homepageUrl: https://en.wikipedia.org/wiki/Hearthstone
+
+- id: core_keeper
+  name: Core Keeper
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Core_Keeper
+
+- id: nine_sols
+  name: Nine Sols
+  tags:
+    - metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Nine_Sols
+
+- id: battlefield
+  name: Battlefield
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Battlefield_(video_game_series)
+
+- id: world_of_tanks
+  name: World of Tanks
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/World_of_Tanks
+
+- id: europa_universalis_5
+  name: Europa Universalis V
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Europa_Universalis_V
+
+- id: neva
+  name: Neva
+  tags:
+    - platformer
+  homepageUrl: https://en.wikipedia.org/wiki/Neva_(video_game)
+
+- id: prey
+  name: Prey
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Prey_(2017_video_game)
+
+- id: victoria_3
+  name: Victoria 3
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Victoria_3
+
+- id: fc26
+  name: EA Sports FC 26
+  tags:
+    - sports
+  homepageUrl: https://en.wikipedia.org/wiki/EA_Sports_FC_26
+  patterns:
+    - fc26
+    - fc 26
+
+- id: elite_dangerous
+  name: Elite Dangerous
+  tags:
+    - space_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Elite_Dangerous
+
+- id: grounded
+  name: Grounded
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Grounded_(video_game)
+
+- id: mouthwashing
+  name: Mouthwashing
+  tags:
+    - horror
+  homepageUrl: https://en.wikipedia.org/wiki/Mouthwashing_(video_game)
+
+- id: fields_of_mistria
+  name: Fields of Mistria
+  tags:
+    - farming_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Fields_of_Mistria
+
+- id: corsair_cove
+  name: Corsair Cove
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Corsair_Cove
+
+- id: counter_strike
+  name: Counter-Strike
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Counter-Strike
+
+- id: osu
+  name: osu!
+  tags:
+    - rhythm
+  homepageUrl: https://en.wikipedia.org/wiki/Osu!
+
+- id: incident_at_galley_house
+  name: The Incident at Galley House
+  tags:
+    - puzzle
+  homepageUrl: https://en.wikipedia.org/wiki/The_Incident_at_Galley_House
+
+- id: schedule_i
+  name: Schedule I
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Schedule_I_(video_game)
+
+- id: iracing
+  name: iRacing
+  tags:
+    - racing
+  homepageUrl: https://en.wikipedia.org/wiki/IRacing
+
+- id: the_alters
+  name: The Alters
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/The_Alters
+
+- id: elder_scrolls_online
+  name: Elder Scrolls Online
+  tags:
+    - mmorpg
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online
+
+- id: plateup
+  name: PlateUp!
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/PlateUp!
+
+- id: rv_there_yet
+  name: RV There Yet
+  tags:
+    - co_op
+  homepageUrl: https://en.wikipedia.org/wiki/RV_There_Yet%3F
+
+- id: into_the_breach
+  name: Into the Breach
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Into_the_Breach
+
+- id: risk_of_rain_2
+  name: Risk of Rain 2
+  tags:
+    - rogue_like
+    - third_person_shooter
+  homepageUrl: https://en.wikipedia.org/wiki/Risk_of_Rain_2
+
+- id: age_of_mythology
+  name: Age of Mythology
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Mythology
+
+- id: darktide
+  name: "Warhammer 40,000: Darktide"
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Darktide
+
+- id: snowrunner
+  name: SnowRunner
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/SnowRunner
+
+- id: doom_ii
+  name: Doom II
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Doom_II
+  patterns:
+    - doom 2
+
+- id: beamng_drive
+  name: BeamNG.drive
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/BeamNG.drive
+
+- id: captain_of_industry
+  name: Captain of Industry
+  tags:
+    - simulation
+  homepageUrl: https://www.captain-of-industry.com/
+
+- id: ultrakill
+  name: ULTRAKILL
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Ultrakill
+
+- id: the_message_from_deep_space
+  name: The Message from Deep Space
+  tags:
+    - puzzle
+  homepageUrl: https://store.steampowered.com/app/4080030/The_Message_from_Deep_Space/
+
+- id: anno_117
+  name: "Anno 117: Pax Romana"
+  tags:
+    - strategy
+  homepageUrl: https://en.wikipedia.org/wiki/Anno_117
+  patterns:
+    - anno 117
+
+- id: rust
+  name: Rust
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Rust_(video_game)
+
+- id: ready_or_not
+  name: Ready or Not
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Ready_or_Not_(video_game)
+
+- id: metaphor_refantazio
+  name: "Metaphor: ReFantazio"
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Metaphor:_ReFantazio
+
+- id: abiotic_factor
+  name: Abiotic Factor
+  tags:
+    - survival
+  homepageUrl: https://en.wikipedia.org/wiki/Abiotic_Factor
+
+- id: repo
+  name: R.E.P.O.
+  tags:
+    - horror
+  homepageUrl: https://en.wikipedia.org/wiki/R.E.P.O.
+
+- id: titanfall
+  name: Titanfall
+  tags:
+    - fps
+  homepageUrl: https://en.wikipedia.org/wiki/Titanfall_(video_game)
+
+- id: frostpunk
+  name: Frostpunk
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Frostpunk
+
+- id: dome_keeper
+  name: Dome Keeper
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Dome_Keeper
+
+- id: he_is_coming
+  name: He is Coming
+  tags:
+    - rogue_like
+  homepageUrl: https://store.steampowered.com/app/2824490/He_is_Coming/
+
+- id: silent_hill_f
+  name: Silent Hill f
+  tags:
+    - survival_horror
+  homepageUrl: https://en.wikipedia.org/wiki/Silent_Hill_f
+
+- id: slay_the_princess
+  name: Slay the Princess
+  tags:
+    - visual_novel
+    - horror
+  homepageUrl: https://en.wikipedia.org/wiki/Slay_the_Princess
+
+- id: unbeatable
+  name: Unbeatable
+  tags:
+    - rhythm
+  homepageUrl: https://en.wikipedia.org/wiki/Unbeatable_(video_game)
+
+- id: runescape
+  name: RuneScape
+  tags:
+    - mmorpg
+  homepageUrl: https://en.wikipedia.org/wiki/RuneScape
+
+- id: silent_hill_2_2024
+  name: Silent Hill 2
+  tags:
+    - survival_horror
+  homepageUrl: https://en.wikipedia.org/wiki/Silent_Hill_2_(2024_video_game)
+
+- id: tomodachi_life_living_the_dream
+  name: "Tomodachi Life: Living the Dream"
+  tags:
+    - life_sim
+  homepageUrl: https://en.wikipedia.org/wiki/Tomodachi_Life:_Living_the_Dream
+
+- id: batman_arkham_city
+  name: "Batman: Arkham City"
+  tags:
+    - action_adventure
+  homepageUrl: https://en.wikipedia.org/wiki/Batman:_Arkham_City
+
+- id: octopath_traveler
+  name: Octopath Traveler
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Octopath_Traveler
+
+- id: brawl_stars
+  name: Brawl Stars
+  tags:
+    - moba
+  homepageUrl: https://en.wikipedia.org/wiki/Brawl_Stars
+
+- id: black_myth_wukong
+  name: "Black Myth: Wukong"
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Black_Myth:_Wukong
+
+- id: prince_of_persia_the_lost_crown
+  name: "Prince of Persia: The Lost Crown"
+  tags:
+    - metroidvania
+  homepageUrl: https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Lost_Crown
+
+- id: ea_sports_college_football_27
+  name: EA Sports College Football 27
+  tags:
+    - sports
+  homepageUrl: https://en.wikipedia.org/wiki/EA_Sports_College_Football_27
+  patterns:
+    - ncaa football 27
+    - ncaa 27
+
+- id: fallout_new_vegas
+  name: "Fallout: New Vegas"
+  tags:
+    - action_rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Fallout:_New_Vegas
+
+- id: cult_of_the_lamb
+  name: Cult of the Lamb
+  tags:
+    - rogue_like
+  homepageUrl: https://en.wikipedia.org/wiki/Cult_of_the_Lamb
+
+- id: divinity_original_sin_2
+  name: "Divinity: Original Sin 2"
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Divinity:_Original_Sin_II
+
+- id: persona_3_reload
+  name: Persona 3 Reload
+  tags:
+    - rpg
+  homepageUrl: https://en.wikipedia.org/wiki/Persona_3_Reload
+
+- id: farming_simulator_25
+  name: Farming Simulator 25
+  tags:
+    - simulation
+  homepageUrl: https://en.wikipedia.org/wiki/Farming_Simulator_25
+
+- id: hitman_world_of_assassination
+  name: "Hitman: World of Assassination"
+  parentId: hitman
+  tags:
+    - stealth
+  homepageUrl: https://en.wikipedia.org/wiki/Hitman:_World_of_Assassination
+
+- id: mobile_legends
+  name: "Mobile Legends: Bang Bang"
+  tags:
+    - moba
+  homepageUrl: https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang

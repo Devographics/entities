@@ -1,5 +1,65 @@
 # non_fiction
 
+- id: more_everything_forever
+  name: More Everything Forever
+  author: Adam Becker
+  homepageUrl: https://www.hachettebookgroup.com/titles/adam-becker/more-everything-forever/9781541619593/
+  tags:
+    - non_fiction
+    - technology
+
+- id: ikigai
+  name: Ikigai
+  author: Héctor García and Francesc Miralles
+  homepageUrl: https://www.penguinrandomhouse.com/books/549469/ikigai-by-hector-garcia-and-francesc-miralles/
+  tags:
+    - non_fiction
+    - self_help
+
+- id: unreasonable_hospitality
+  name: Unreasonable Hospitality
+  author: Will Guidara
+  homepageUrl: https://www.penguinrandomhouse.com/books/674289/unreasonable-hospitality-by-will-guidara/
+  tags:
+    - non_fiction
+    - business
+
+- id: surrounded_by_idiots
+  name: Surrounded by Idiots
+  author: Thomas Erikson
+  homepageUrl: https://en.wikipedia.org/wiki/Surrounded_by_Idiots
+  tags:
+    - non_fiction
+    - self_help
+
+- id: the_creative_act
+  name: The Creative Act
+  author: Rick Rubin
+  homepageUrl: https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin/
+  tags:
+    - non_fiction
+
+- id: the_service_berry
+  name: The Serviceberry
+  author: Robin Wall Kimmerer
+  homepageUrl: https://en.wikipedia.org/wiki/The_Serviceberry
+  tags:
+    - non_fiction
+
+- id: the_48_laws_of_power
+  name: 48 Laws of Power
+  author: Robert Greene
+  homepageUrl: https://en.wikipedia.org/wiki/The_48_Laws_of_Power
+  tags:
+    - non_fiction
+
+- id: thinking_in_systems
+  name: Thinking in Systems
+  author: Donella Meadows
+  homepageUrl: https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer
+  tags:
+    - non_fiction
+
 - id: the_courage_to_be_disliked
   name: The Courage to be Disliked
   author: Ichiro Kishimi and Fumitake Koga
@@ -615,3 +675,484 @@
   tags:
     - young_adult
     - sci_fi
+
+- id: service_model
+  name: Service Model
+  author: Adrian Tchaikovsky
+  homepageUrl: https://en.wikipedia.org/wiki/Service_Model
+  tags:
+    - sci_fi
+
+- id: the_midnight_library
+  name: The Midnight Library
+  author: Matt Haig
+  homepageUrl: https://en.wikipedia.org/wiki/The_Midnight_Library
+  tags:
+    - fiction
+  patterns:
+    - midnight, library [l]
+
+- id: a_short_stay_in_hell
+  name: A Short Stay in Hell
+  author: Steven L. Peck
+  homepageUrl: https://en.wikipedia.org/wiki/A_Short_Stay_in_Hell
+  tags:
+    - horror
+
+- id: the_grapes_of_wrath
+  name: The Grapes of Wrath
+  author: John Steinbeck
+  homepageUrl: https://en.wikipedia.org/wiki/The_Grapes_of_Wrath
+  tags:
+    - classic
+  patterns:
+    - grapes, wrath [l]
+
+- id: atlas_shrugged
+  name: Atlas Shrugged
+  author: Ayn Rand
+  homepageUrl: https://en.wikipedia.org/wiki/Atlas_Shrugged
+  tags:
+    - classic
+
+- id: alice_in_wonderland
+  name: Alice in Wonderland
+  author: Lewis Carroll
+  homepageUrl: https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland
+  tags:
+    - classic
+    - fantasy
+  patterns:
+    - alice, wonderland [l]
+
+- id: words_of_radiance
+  name: Words of Radiance
+  author: Brandon Sanderson
+  homepageUrl: https://en.wikipedia.org/wiki/Words_of_Radiance
+  tags:
+    - fantasy
+  patterns:
+    - words, radiance [l]
+
+- id: jade_city
+  name: Jade City
+  author: Fonda Lee
+  homepageUrl: https://en.wikipedia.org/wiki/Jade_City_(novel)
+  tags:
+    - fantasy
+
+- id: the_ministry_of_time
+  name: The Ministry of Time
+  author: Kaliane Bradley
+  homepageUrl: https://en.wikipedia.org/wiki/The_Ministry_of_Time_(novel)
+  tags:
+    - sci_fi
+  patterns:
+    - ministry, time [l]
+
+- id: remarkably_bright_creatures
+  name: Remarkably Bright Creatures
+  author: Shelby Van Pelt
+  homepageUrl: https://en.wikipedia.org/wiki/Remarkably_Bright_Creatures
+  tags:
+    - fiction
+
+- id: kafka_on_the_shore
+  name: Kafka on the Shore
+  author: Haruki Murakami
+  homepageUrl: https://en.wikipedia.org/wiki/Kafka_on_the_Shore
+  tags:
+    - fiction
+  patterns:
+    - kafka, shore [l]
+
+- id: fire_and_blood
+  name: Fire and Blood
+  author: George R.R. Martin
+  homepageUrl: https://en.wikipedia.org/wiki/Fire_and_Blood
+  parentId: a_song_of_ice_and_fire
+  tags:
+    - fantasy
+
+- id: theo_of_golden
+  name: Theo of Golden
+  author: Allen Levi
+  homepageUrl: https://en.wikipedia.org/wiki/Theo_of_Golden
+  tags:
+    - fiction
+
+- id: the_phoenix_project
+  name: The Phoenix Project
+  author: Gene Kim, Kevin Behr, and George Spafford
+  homepageUrl: https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)
+  tags:
+    - business
+    - technology
+
+- id: rendez_vous_with_rama
+  name: Rendezvous with Rama
+  author: Arthur C. Clarke
+  homepageUrl: https://en.wikipedia.org/wiki/Rendezvous_with_Rama
+  tags:
+    - sci_fi
+    - classic
+
+- id: i_who_have_never_known_men
+  name: I Who Have Never Known Men
+  author: Jacqueline Harpman
+  homepageUrl: https://en.wikipedia.org/wiki/I_Who_Have_Never_Known_Men
+  tags:
+    - sci_fi
+
+- id: far_seer_trilogy
+  name: Farseer Trilogy
+  author: Robin Hobb
+  homepageUrl: https://en.wikipedia.org/wiki/Farseer_Trilogy
+  tags:
+    - fantasy
+
+- id: east_of_eden
+  name: East of Eden
+  author: John Steinbeck
+  homepageUrl: https://en.wikipedia.org/wiki/East_of_Eden_(novel)
+  tags:
+    - classic
+
+- id: the_word_for_world_is_forest
+  name: The Word for World Is Forest
+  author: Ursula K. Le Guin
+  homepageUrl: https://en.wikipedia.org/wiki/The_Word_for_World_Is_Forest
+  tags:
+    - sci_fi
+    - classic
+
+- id: the_secret_of_secrets
+  name: The Secret of Secrets
+  author: Dan Brown
+  homepageUrl: https://en.wikipedia.org/wiki/The_Secret_of_Secrets_(novel)
+  tags:
+    - fiction
+
+- id: never_split_the_difference
+  name: Never Split the Difference
+  author: Chris Voss and Tahl Raz
+  homepageUrl: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
+  tags:
+    - non_fiction
+    - business
+
+- id: masters_of_doom
+  name: Masters of Doom
+  author: David Kushner
+  homepageUrl: https://en.wikipedia.org/wiki/Masters_of_Doom
+  tags:
+    - non_fiction
+    - video_games
+
+- id: cant_hurt_me
+  name: Can't Hurt Me
+  author: David Goggins
+  homepageUrl: https://davidgoggins.com/book/
+  tags:
+    - non_fiction
+    - self_help
+
+- id: i_robot
+  name: I, Robot
+  author: Isaac Asimov
+  homepageUrl: https://en.wikipedia.org/wiki/I,_Robot
+  tags:
+    - sci_fi
+    - classic
+
+- id: dresden_files
+  name: The Dresden Files
+  author: Jim Butcher
+  homepageUrl: https://en.wikipedia.org/wiki/The_Dresden_Files
+  tags:
+    - fantasy
+
+- id: twelve_months
+  name: Twelve Months
+  author: Jim Butcher
+  homepageUrl: https://en.wikipedia.org/wiki/Twelve_Months_(novel)
+  parentId: dresden_files
+  tags:
+    - fantasy
+
+- id: throne_of_glass
+  name: Throne of Glass
+  author: Sarah J. Maas
+  homepageUrl: https://en.wikipedia.org/wiki/Throne_of_Glass
+  tags:
+    - fantasy
+    - young_adult
+
+- id: the_art_of_doing_science_and_engineering
+  name: The Art of Doing Science and Engineering
+  author: Richard Hamming
+  homepageUrl: https://en.wikipedia.org/wiki/The_Art_of_Doing_Science_and_Engineering
+  tags:
+    - non_fiction
+    - technology
+
+- id: the_name_of_the_wind
+  name: The Name of the Wind
+  author: Patrick Rothfuss
+  homepageUrl: https://en.wikipedia.org/wiki/The_Name_of_the_Wind
+  tags:
+    - fantasy
+
+- id: everything_is_tuberculosis
+  name: Everything Is Tuberculosis
+  author: John Green
+  homepageUrl: https://en.wikipedia.org/wiki/Everything_Is_Tuberculosis
+  tags:
+    - non_fiction
+
+- id: meditations_book
+  name: Meditations
+  author: Marcus Aurelius
+  homepageUrl: https://en.wikipedia.org/wiki/Meditations
+  tags:
+    - classic
+    - non_fiction
+
+- id: a_philosophy_of_software_design
+  name: A Philosophy of Software Design
+  author: John Ousterhout
+  homepageUrl: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
+  tags:
+    - non_fiction
+    - technology
+
+- id: the_comfort_crisis
+  name: The Comfort Crisis
+  author: Michael Easter
+  homepageUrl: https://www.penguinrandomhouse.com/books/634446/the-comfort-crisis-by-michael-easter/
+  tags:
+    - non_fiction
+
+- id: the_stranger
+  name: The Stranger
+  author: Albert Camus
+  homepageUrl: https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)
+  tags:
+    - classic
+
+- id: on_the_calculation_of_volume
+  name: On the Calculation of Volume
+  author: Solvej Balle
+  homepageUrl: https://en.wikipedia.org/wiki/On_the_Calculation_of_Volume
+  tags:
+    - fiction
+
+- id: convenience_store_woman
+  name: Convenience Store Woman
+  author: Sayaka Murata
+  homepageUrl: https://en.wikipedia.org/wiki/Convenience_Store_Woman
+  tags:
+    - fiction
+
+- id: witch_hat_atelier
+  name: Witch Hat Atelier
+  author: Kamome Shirahama
+  homepageUrl: https://en.wikipedia.org/wiki/Witch_Hat_Atelier
+  tags:
+    - fantasy
+
+- id: zen_and_the_art_of_motorcycle_maintenance
+  name: Zen and the Art of Motorcycle Maintenance
+  author: Robert M. Pirsig
+  homepageUrl: https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance
+  tags:
+    - classic
+    - non_fiction
+
+- id: shoe_dog
+  name: Shoe Dog
+  author: Phil Knight
+  homepageUrl: https://en.wikipedia.org/wiki/Shoe_Dog
+  tags:
+    - non_fiction
+    - business
+
+- id: a_drop_of_corruption
+  name: A Drop of Corruption
+  author: Robert Jackson Bennett
+  homepageUrl: https://en.wikipedia.org/wiki/A_Drop_of_Corruption
+  parentId: the_tainted_cup
+  tags:
+    - fantasy
+    - mystery
+
+- id: catch_22
+  name: Catch-22
+  author: Joseph Heller
+  homepageUrl: https://en.wikipedia.org/wiki/Catch-22
+  tags:
+    - classic
+
+- id: legends_and_lattes
+  name: Legends & Lattes
+  author: Travis Baldree
+  homepageUrl: https://en.wikipedia.org/wiki/Legends_%26_Lattes
+  tags:
+    - fantasy
+    - cozy
+
+- id: this_is_how_you_lose_the_time_war
+  name: This Is How You Lose the Time War
+  author: Amal El-Mohtar and Max Gladstone
+  homepageUrl: https://en.wikipedia.org/wiki/This_Is_How_You_Lose_the_Time_War
+  tags:
+    - sci_fi
+
+- id: the_odyssey
+  name: The Odyssey
+  author: Homer
+  homepageUrl: https://en.wikipedia.org/wiki/Odyssey
+  tags:
+    - classic
+
+- id: the_alchemist
+  name: The Alchemist
+  author: Paulo Coelho
+  homepageUrl: https://en.wikipedia.org/wiki/The_Alchemist_(novel)
+  tags:
+    - fiction
+    - classic
+
+- id: learning_go
+  name: Learning Go
+  author: Jon Bodner
+  homepageUrl: https://www.oreilly.com/library/view/learning-go/9781492077206/
+  tags:
+    - non_fiction
+    - technology
+
+- id: blood_in_the_machine
+  name: Blood in the Machine
+  author: Brian Merchant
+  homepageUrl: https://www.hachettebookgroup.com/titles/brian-merchant/blood-in-the-machine/9780316487740/
+  tags:
+    - non_fiction
+    - technology
+
+- id: the_subtle_art_of_not_giving_a_fuck
+  name: The Subtle Art of Not Giving a F*ck
+  author: Mark Manson
+  homepageUrl: https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_Fuck
+  tags:
+    - non_fiction
+    - self_help
+
+- id: assassins_apprentice
+  name: Assassin's Apprentice
+  author: Robin Hobb
+  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Apprentice
+  parentId: far_seer_trilogy
+  tags:
+    - fantasy
+
+- id: book_2001_a_space_odyssey
+  name: "2001: A Space Odyssey"
+  author: Arthur C. Clarke
+  homepageUrl: https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)
+  tags:
+    - sci_fi
+    - classic
+
+- id: blood_meridian
+  name: Blood Meridian
+  author: Cormac McCarthy
+  homepageUrl: https://en.wikipedia.org/wiki/Blood_Meridian
+  tags:
+    - classic
+
+- id: moral_ambition
+  name: Moral Ambition
+  author: Rutger Bregman
+  homepageUrl: https://www.moralambition.org/book
+  tags:
+    - non_fiction
+
+- id: the_design_of_everyday_things
+  name: The Design of Everyday Things
+  author: Don Norman
+  homepageUrl: https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things
+  tags:
+    - non_fiction
+    - technology
+
+- id: the_faith_of_beasts
+  name: The Faith of Beasts
+  author: James S.A. Corey
+  homepageUrl: https://en.wikipedia.org/wiki/The_Faith_of_Beasts
+  tags:
+    - sci_fi
+
+- id: ancillary_justice
+  name: Ancillary Justice
+  author: Ann Leckie
+  homepageUrl: https://en.wikipedia.org/wiki/Ancillary_Justice
+  tags:
+    - sci_fi
+
+- id: radiant_star
+  name: Radiant Star
+  author: Ann Leckie
+  homepageUrl: https://www.hachettebookgroup.com/titles/ann-leckie/radiant-star/9780316290357/
+  tags:
+    - sci_fi
+
+- id: tailored_realities
+  name: Tailored Realities
+  author: Brandon Sanderson
+  homepageUrl: https://coppermind.net/wiki/Tailored_Realities
+  tags:
+    - fiction
+
+- id: la_horde_du_contrevent
+  name: La Horde du Contrevent
+  author: Alain Damasio
+  homepageUrl: https://fr.wikipedia.org/wiki/La_Horde_du_Contrevent
+  tags:
+    - sci_fi
+    - fantasy
+
+- id: john_dies_at_the_end
+  name: John Dies at the End
+  author: Jason Pargin
+  homepageUrl: https://en.wikipedia.org/wiki/John_Dies_at_the_End
+  tags:
+    - horror
+
+- id: no_longer_human
+  name: No Longer Human
+  author: Osamu Dazai
+  homepageUrl: https://en.wikipedia.org/wiki/No_Longer_Human
+  tags:
+    - classic
+
+- id: the_body_keeps_the_score
+  name: The Body Keeps the Score
+  author: Bessel van der Kolk
+  homepageUrl: https://en.wikipedia.org/wiki/The_Body_Keeps_the_Score
+  tags:
+    - non_fiction
+
+- id: operating_systems_three_easy_pieces
+  name: "Operating Systems: Three Easy Pieces"
+  author: Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
+  homepageUrl: https://pages.cs.wisc.edu/~remzi/OSTEP/
+  tags:
+    - non_fiction
+    - technology
+
+- id: lord_of_the_mysteries
+  name: Lord of the Mysteries
+  author: Cuttlefish That Loves Diving
+  homepageUrl: https://en.wikipedia.org/wiki/Lord_of_Mysteries
+  tags:
+    - fantasy

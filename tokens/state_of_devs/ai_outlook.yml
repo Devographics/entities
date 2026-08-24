@@ -1,0 +1,8 @@
+- id: desire_for_bubble_to_pop
+  name: Can't wait for the bubble to pop
+
+- id: anti_ai_sentiment
+  name: Negative Sentiment
+
+- id: pro_ai_sentiment
+  name: Positive Sentiment
