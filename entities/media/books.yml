@@ -52,6 +52,8 @@
   homepageUrl: https://en.wikipedia.org/wiki/The_48_Laws_of_Power
   tags:
     - non_fiction
+  patterns:
+    - 48, laws, power [l]
 
 - id: thinking_in_systems
   name: Thinking in Systems
