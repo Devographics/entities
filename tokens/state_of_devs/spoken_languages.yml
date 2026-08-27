@@ -1,6 +1,13 @@
 - id: english
+  patterns:
+    - englisch
+    - anglais
+    - ingles
 
 - id: french
+  patterns:
+    - français
+    - francais
 
 - id: chinese
 
@@ -9,6 +16,8 @@
 - id: japanese
 
 - id: german
+  patterns:
+    - deutsch
 
 - id: italian
 
@@ -17,14 +26,22 @@
 - id: dutch
 
 - id: portuguese
+  patterns:
+    - portugues
+    - portugese
 
 - id: spanish
+  patterns:
+    - espanol
+    - español
 
 - id: afrikaans
 
 - id: swedish
 
 - id: ukrainian
+  patterns:
+    - ukranian
 
 - id: polish
 
@@ -33,3 +50,56 @@
 - id: hindi
 
 - id: greek
+
+- id: hungarian
+- id: finnish
+- id: romanian
+- id: norwegian
+- id: bulgarian
+- id: slovak
+- id: hebrew
+- id: danish
+- id: turkish
+
+- id: catalan
+- id: serbian
+- id: mandarin
+- id: vietnamese
+- id: tamil
+- id: cantonese
+- id: estonian
+- id: belarussian
+  patterns:
+    - belarusian
+- id: croatian
+- id: tagalog
+- id: latvian
+- id: lithuanian
+- id: korean
+- id: marathi
+- id: bhojpuri
+- id: indonesian
+  patterns:
+    - bahasa indonesia
+- id: icelandic
+- id: filipino
+- id: persian
+- id: kannada
+- id: latin
+- id: punjabi
+- id: malayalam
+- id: telugu
+- id: thai
+- id: bosnian
+- id: gujarati
+- id: irish
+- id: sinhala
+- id: swahili
+- id: slovenian
+- id: malay
+  patterns:
+    - bahasa malaysia
+
+- id: american_sign_language
+  patterns:
+    - asl
