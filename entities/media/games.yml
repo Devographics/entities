@@ -95,6 +95,18 @@
   wikipediaUrl: https://en.wikipedia.org/wiki/Hades_(video_game)
   steamUrl: https://store.steampowered.com/app/1145360/
 
+- id: hades_2
+  parentId: hades
+  name: Hades II
+  description: "Follow-up to the roguelike dungeon crawler in which the son of Hades fights his way up out of the Underworld, with the god family arguing at his back."
+  patterns:
+    - hades ii
+  tags:
+    - rogue_like
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hades_II
+  steamUrl: https://store.steampowered.com/app/1145350/Hades_II/
+
 - id: animal_crossing_new_horizons
   name: "Animal Crossing: New Horizons"
   description: "Life simulation about turning a deserted island into a village, with real-time seasons, crafting, and animal neighbours."
@@ -328,6 +340,16 @@
     - year_2019
   wikipediaUrl: https://en.wikipedia.org/wiki/Slay_the_Spire
   steamUrl: https://store.steampowered.com/app/646570/
+
+- id: slay_the_spire_2
+  parentId: slay_the_spire
+  name: Slay the Spire 2
+  description: "Follow-up to the deck-building roguelike in which each climb of an ever-changing tower combines card drafting, relics, and turn-based combat against escalating bosses."
+  tags:
+    - rogue_like
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Slay_the_Spire_2
+  steamUrl: https://store.steampowered.com/app/2868840/Slay_the_Spire_2/
 
 - id: genshin_impact
   name: Genshin Impact
@@ -1785,6 +1807,7 @@
   steamUrl: https://store.steampowered.com/app/1030300/
   patterns:
     - silk( )?song
+    - hollow, knight, silk, song [l]
 
 - id: skyrim
   name: Skyrim
