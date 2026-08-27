@@ -1,770 +1,1063 @@
 - id: legend_of_zelda
   name: Legend of Zelda
+  description: "Long-running action-adventure series following a hero named Link across the land of Hyrule, mixing exploration, dungeon puzzles, and item-gated combat."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
 
 - id: breath_of_the_wild
   name: "The Legend of Zelda: Breath of the Wild"
+  description: "Open-world action-adventure across a ruined Hyrule, built around free-form climbing, cooking, and physics-driven puzzle solving."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild
   parentId: legend_of_zelda
   patterns:
     - botw
 
 - id: echoes_of_wisdom
   name: "The Legend of Zelda: Echoes of Wisdom"
+  description: "Top-down adventure in which Zelda uses a magic rod to copy objects and creatures as reusable echoes and solve problems with them."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
   parentId: legend_of_zelda
   patterns:
     - eow
 
 - id: tears_of_the_kingdom
   name: "The Legend of Zelda: Tears of the Kingdom"
+  description: "Open-world adventure adding sky islands and underground depths, with powers for fusing objects and weapons into vehicles and tools."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom
   parentId: legend_of_zelda
   patterns:
     - totk
 
 - id: elden_ring
   name: Elden Ring
+  description: "Open-world action RPG set in the Lands Between, where a Tarnished explores vast regions, dungeons, and demigod boss fights."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Elden_Ring
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Elden_Ring
+  steamUrl: https://store.steampowered.com/app/1245620/
 
 - id: god_of_war
   name: God of War
+  description: "Third-person action-adventure following Kratos and his son through Norse lands, combining axe combat with mythological exploration."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)
+  steamUrl: https://store.steampowered.com/app/1593500/
 
 - id: god_of_war_ragnarok
   name: God of War Ragnarök
+  description: "Norse action-adventure sequel in which Kratos and Atreus travel the Nine Realms as the prophesied end of the world approaches."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/God_of_War_Ragnar%C3%B6k
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/God_of_War_Ragnar%C3%B6k
+  steamUrl: https://store.steampowered.com/app/2322010/
   parentId: god_of_war
 
 - id: the_witcher_3_wild_hunt
   name: "The Witcher 3: Wild Hunt"
+  description: "Open-world RPG following monster hunter Geralt of Rivia across a war-torn continent, with branching quests and monster contracts."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt
+    - year_2015
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt
+  steamUrl: https://store.steampowered.com/app/292030/
   patterns:
     - witcher 3
 
 - id: red_dead_redemption_2
   name: Red Dead Redemption 2
+  description: "Open-world western following an outlaw gang in 1899 America, mixing gunplay, hunting, and horseback travel."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Red_Dead_Redemption_2
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Red_Dead_Redemption_2
+  steamUrl: https://store.steampowered.com/app/1174180/
 
 - id: hades
   name: Hades
+  description: "Roguelike dungeon crawler in which the son of Hades fights his way up out of the Underworld, with the god family arguing at his back."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Hades_(video_game)
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hades_(video_game)
+  steamUrl: https://store.steampowered.com/app/1145360/
 
 - id: animal_crossing_new_horizons
   name: "Animal Crossing: New Horizons"
+  description: "Life simulation about turning a deserted island into a village, with real-time seasons, crafting, and animal neighbours."
   tags:
     - life_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons
 
 - id: fortnite
   name: Fortnite
+  description: "Free-to-play battle royale shooter with building mechanics, seasonal events, and creative modes for up to 100 players."
   tags:
     - battle_royale
-  homepageUrl: https://en.wikipedia.org/wiki/Fortnite
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fortnite
 
 - id: among_us
   name: Among Us
+  description: "Online social deduction game where crewmates complete tasks aboard a spaceship while hidden impostors sabotage and eliminate them."
   tags:
     - party
-  homepageUrl: https://en.wikipedia.org/wiki/Among_Us
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Among_Us
+  steamUrl: https://store.steampowered.com/app/945360/
 
 - id: dark_souls
   name: Dark Souls
+  description: "Third-person action RPG through the decaying kingdom of Lordran, known for punishing combat and densely interlocking level design."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Dark_Souls
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dark_Souls
+  steamUrl: https://store.steampowered.com/app/570940/
   patterns:
     - dark souls
 
 - id: dark_souls_iii
   name: Dark Souls III
+  description: "Action RPG set in a dying world of fading flame, with demanding boss fights and stamina-based melee combat."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Dark_Souls_III
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dark_Souls_III
+  steamUrl: https://store.steampowered.com/app/374320/
   patterns:
     - dark souls 3
 
 - id: overwatch
   name: Overwatch
+  description: "Team-based hero shooter with objective maps and a roster of characters split across damage, tank, and support roles."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Overwatch_(video_game)
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Overwatch_(video_game)
+  steamUrl: https://store.steampowered.com/app/2357570/
 
 - id: persona_5
   name: Persona 5
+  description: "Turn-based RPG splitting time between a Tokyo student's daily life and dungeon raids carried out as a masked phantom thief."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Persona_5
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Persona_5
+  steamUrl: https://store.steampowered.com/app/1687950/
 
 - id: minecraft
   name: Minecraft
+  description: "Sandbox game of mining blocks, crafting tools, and building in procedurally generated worlds, with survival and creative modes."
   tags:
     - sandbox
-  homepageUrl: https://en.wikipedia.org/wiki/Minecraft
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/Minecraft
 
 - id: celeste
   name: Celeste
+  description: "Precision platformer about a young woman climbing a mountain, built on tight air-dash movement and optional challenge rooms."
   tags:
     - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Celeste_(video_game)
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Celeste_(video_game)
+  steamUrl: https://store.steampowered.com/app/504230/
 
 - id: hollow_knight
   name: Hollow Knight
+  description: "Hand-drawn metroidvania exploring the ruined insect kingdom of Hallownest, with demanding combat and heavily hidden areas."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Hollow_Knight
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hollow_Knight
+  steamUrl: https://store.steampowered.com/app/367520/
 
 - id: disco_elysium
   name: Disco Elysium
+  description: "Detective RPG without combat, solving a murder in a decaying city through dialogue, skill checks, and competing inner voices."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Disco_Elysium
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Disco_Elysium
+  steamUrl: https://store.steampowered.com/app/632470/
 
 - id: resident_evil_2_2019
   name: Resident Evil 2 (2019)
+  description: "Survival horror remake in which a rookie police officer and a college student navigate a zombie outbreak in Raccoon City."
   tags:
     - survival_horror
-  homepageUrl: https://en.wikipedia.org/wiki/Resident_Evil_2_(2019_video_game)
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Resident_Evil_2_(2019_video_game)
+  steamUrl: https://store.steampowered.com/app/883710/
 
 - id: doom_eternal
   name: DOOM Eternal
+  description: "Fast first-person shooter about a demon-slaying marine, built on aggressive movement, resource juggling, and glory kills."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Doom_Eternal
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Doom_Eternal
+  steamUrl: https://store.steampowered.com/app/782330/
 
 - id: monster_hunter
   name: Monster Hunter
+  description: "Action RPG series about hunting large beasts in themed ecosystems, then crafting weapons and armour from their parts."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter
+  wikipediaUrl: https://en.wikipedia.org/wiki/Monster_Hunter
 
 - id: monster_hunter_wilds
   name: "Monster Hunter Wilds"
+  description: "Action RPG hunting large monsters across the shifting weather and ecosystems of the Forbidden Lands, solo or in online co-op."
   tags:
     - action_rpg
+    - year_2025
   parentId: monster_hunter
-  homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter_Wilds
+  wikipediaUrl: https://en.wikipedia.org/wiki/Monster_Hunter_Wilds
+  steamUrl: https://store.steampowered.com/app/2246340/
 
 - id: monster_hunter_world
   name: "Monster Hunter: World"
+  description: "Action RPG in which hunters track and slay giant monsters across a living ecosystem, harvesting parts to craft better gear, solo or in four-player co-op."
   tags:
     - action_rpg
+    - year_2018
   parentId: monster_hunter
-  homepageUrl: https://en.wikipedia.org/wiki/Monster_Hunter:_World
-
-- id: super_mario_odyssey
-  name: Super Mario Odyssey
-  tags:
-    - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Super_Mario_Odyssey
-  patterns:
-    - mario, odyssey [l]
+  wikipediaUrl: https://en.wikipedia.org/wiki/Monster_Hunter:_World
+  steamUrl: https://store.steampowered.com/app/582010/
 
 - id: marvels_spider_man
   name: Marvel’s Spider-Man
+  description: "Open-world action game set in New York, combining acrobatic web-swinging traversal with combat and stealth as Spider-Man juggles heroics and civilian life."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man_(2018_video_game)
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Spider-Man_(2018_video_game)
+  steamUrl: https://store.steampowered.com/app/1817070/
 
 - id: death_stranding
   name: Death Stranding
+  description: "Open-world delivery game in a fractured America, hauling cargo across hazardous terrain to reconnect isolated settlements while avoiding supernatural threats."
   tags:
     - action
-  homepageUrl: https://en.wikipedia.org/wiki/Death_Stranding
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Death_Stranding
+  steamUrl: https://store.steampowered.com/app/1190460/
 
 - id: return_of_the_obra_dinn
   name: Return of the Obra Dinn
+  description: "First-person mystery aboard a merchant ship that returned crewless, using a pocket watch that replays each death to identify every soul on the manifest."
   tags:
     - puzzle
-  homepageUrl: https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn
+  steamUrl: https://store.steampowered.com/app/653530/
 
 - id: fire_emblem_three_houses
   name: "Fire Emblem: Three Houses"
+  description: "Tactical RPG in which a professor at an officers academy teaches one of three student houses and leads them through grid-based battles on a continent nearing war."
   tags:
     - strategy_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Fire_Emblem:_Three_Houses
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fire_Emblem:_Three_Houses
 
 - id: ghost_of_tsushima
   name: Ghost of Tsushima
+  description: "Open-world samurai action game set during the Mongol invasion of Tsushima, mixing honorable duels with stealth tactics across a windswept island."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Ghost_of_Tsushima
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Ghost_of_Tsushima
+  steamUrl: https://store.steampowered.com/app/2215430/
 
 - id: it_takes_two
   name: It Takes Two
+  description: "Co-op only platform adventure in which two players control a couple shrunk into doll bodies, solving puzzles built on constantly changing paired mechanics."
   tags:
     - co_op
-  homepageUrl: https://en.wikipedia.org/wiki/It_Takes_Two_(video_game)
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/It_Takes_Two_(video_game)
+  steamUrl: https://store.steampowered.com/app/1426210/
 
 - id: inside
   name: Inside
+  description: "Puzzle-platformer following a boy through a bleak monochrome world, evading pursuers and manipulating machinery with no dialogue or interface."
   tags:
     - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Inside_(video_game)
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Inside_(video_game)
+  steamUrl: https://store.steampowered.com/app/304430/
 
 - id: the_outer_worlds
   name: The Outer Worlds
+  description: "First-person RPG set in a corporate-run colony on the fringes of space, where dialogue choices, skills, and companions shape how missions play out."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/The_Outer_Worlds
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Outer_Worlds
+  steamUrl: https://store.steampowered.com/app/578650/
 
 - id: control
   name: Control
+  description: "Third-person shooter set in a shifting government building, wielding a transforming service weapon and telekinetic powers against a paranatural incursion."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Control_(video_game)
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Control_(video_game)
+  steamUrl: https://store.steampowered.com/app/870780/
 
 - id: slay_the_spire
   name: Slay the Spire
+  description: "Deck-building roguelike in which each climb of an ever-changing tower combines card drafting, relics, and turn-based combat against escalating bosses."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Slay_the_Spire
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Slay_the_Spire
+  steamUrl: https://store.steampowered.com/app/646570/
 
 - id: genshin_impact
   name: Genshin Impact
+  description: "Free-to-play open-world action RPG with elemental combat and a rotating cast of gacha-obtained characters exploring the fantasy world of Teyvat."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Genshin_Impact
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Genshin_Impact
 
 - id: undertale
   name: Undertale
+  description: "Role-playing game set in an underground world of monsters, where every encounter can be resolved through combat or conversation."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Undertale
+    - year_2015
+  wikipediaUrl: https://en.wikipedia.org/wiki/Undertale
+  steamUrl: https://store.steampowered.com/app/391540/
 
 - id: stardew_valley
   name: Stardew Valley
+  description: "Farming and life simulation in which an inherited plot in a rural valley is restored through crops, livestock, mining, fishing, and village relationships."
   tags:
     - farming_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Stardew_Valley
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Stardew_Valley
+  steamUrl: https://store.steampowered.com/app/413150/
 
 - id: splatoon_2
   name: Splatoon 2
+  description: "Team-based third-person shooter in which squid-like kids cover turf with colored ink, splatting opponents and swimming through their own team's paint."
   tags:
     - third_person_shooter
-  homepageUrl: https://en.wikipedia.org/wiki/Splatoon_2
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Splatoon_2
 
 - id: titanfall_2
   name: Titanfall 2
+  description: "First-person shooter pairing wall-running, high-mobility infantry combat with piloting a towering mech, across a campaign and competitive multiplayer."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Titanfall_2
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Titanfall_2
+  steamUrl: https://store.steampowered.com/app/1237970/
 
 - id: bloodborne
   name: Bloodborne
+  description: "Action RPG set in a gothic city gripped by a beastly scourge, built around aggressive, fast-paced combat and cryptic interconnected level design."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Bloodborne
+    - year_2015
+  wikipediaUrl: https://en.wikipedia.org/wiki/Bloodborne
 
 - id: bayonetta_2
   name: Bayonetta 2
+  description: "Character action game starring a gun-toting witch who battles angels and demons with combo-driven combat and time-slowing dodges."
   tags:
     - action
-  homepageUrl: https://en.wikipedia.org/wiki/Bayonetta_2
+    - year_2014
+  wikipediaUrl: https://en.wikipedia.org/wiki/Bayonetta_2
 
 - id: doki_doki_literature_club
   name: Doki Doki Literature Club!
+  description: "Visual novel about a student who joins a high school literature club, writing poems and getting to know its four members."
   tags:
     - visual_novel
-  homepageUrl: https://en.wikipedia.org/wiki/Doki_Doki_Literature_Club!
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Doki_Doki_Literature_Club!
+  steamUrl: https://store.steampowered.com/app/698780/
 
 - id: cuphead
   name: Cuphead
+  description: "Run-and-gun action game centered on boss fights, drawn in 1930s rubber-hose cartoon style with hand-inked animation and a jazz score."
   tags:
     - run_and_gun
-  homepageUrl: https://en.wikipedia.org/wiki/Cuphead
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Cuphead
+  steamUrl: https://store.steampowered.com/app/268910/
 
 - id: nier_automata
   name: "NieR: Automata"
+  description: "Action RPG in which combat androids fight machine lifeforms on an abandoned Earth, blending hack-and-slash melee with shooter and bullet-hell sequences."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/NieR:_Automata
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/NieR:_Automata
+  steamUrl: https://store.steampowered.com/app/524220/
 
 - id: apex_legends
   name: Apex Legends
+  description: "Free-to-play battle royale shooter with squads of characters who each bring distinct tactical abilities, fighting to be the last team standing."
   tags:
     - battle_royale
-  homepageUrl: https://en.wikipedia.org/wiki/Apex_Legends
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Apex_Legends
+  steamUrl: https://store.steampowered.com/app/1172470/
 
 - id: the_last_of_us_part_ii
   name: The Last of Us Part II
+  description: "Third-person action adventure set years after an outbreak, following a survivor through a hostile post-pandemic America with crafting, stealth, and brutal combat."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/The_Last_of_Us_Part_II
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Last_of_Us_Part_II
+  steamUrl: https://store.steampowered.com/app/2531310/
 
 - id: super_smash_bros_ultimate
   name: Super Smash Bros. Ultimate
+  description: "Platform fighter in which characters from across gaming brawl on interactive stages, aiming to knock opponents off the screen."
   tags:
     - fighting
-  homepageUrl: https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate
 
 - id: metroid_dread
   name: Metroid Dread
+  description: "Side-scrolling action-platformer in which Samus Aran explores a hostile alien planet, hunted by relentless robotic E.M.M.I. units while recovering lost abilities."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Metroid_Dread
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/Metroid_Dread
 
 - id: dead_cells
   name: Dead Cells
+  description: "Roguelike action-platformer in which a reanimating mass of cells fights through a cursed island's shifting castle, losing its gear and starting over on each death."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Dead_Cells
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dead_Cells
+  steamUrl: https://store.steampowered.com/app/588650/
 
 - id: tunic
   name: Tunic
+  description: "Isometric action-adventure starring a small fox in a mysterious land, where scattered pages of an in-game instruction manual gradually explain the world and its systems."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Tunic_(video_game)
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Tunic_(video_game)
+  steamUrl: https://store.steampowered.com/app/553420/
 
 - id: loop_hero
   name: Loop Hero
+  description: "Card-driven roguelike where a hero automatically walks an endless loop while the player places terrain, enemies and buildings around the path to shape each run."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Loop_Hero
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/Loop_Hero
+  steamUrl: https://store.steampowered.com/app/1282730/
 
 - id: valheim
   name: Valheim
+  description: "Survival and base-building sandbox set in a procedurally generated Norse afterlife, where fallen Vikings gather resources, craft gear and hunt down monstrous bosses."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Valheim
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/Valheim
+  steamUrl: https://store.steampowered.com/app/892970/
 
 - id: outer_wilds
   name: Outer Wilds
+  description: "Open-world exploration game set in a small hand-crafted solar system, where an astronaut pieces together the mysteries of an alien civilization inside a time loop."
   tags:
     - exploration
-  homepageUrl: https://en.wikipedia.org/wiki/Outer_Wilds
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Outer_Wilds
+  steamUrl: https://store.steampowered.com/app/753640/
 
 - id: sea_of_thieves
   name: Sea of Thieves
+  description: "Shared-world pirate adventure in which crews sail, fight and hunt treasure across an open sea, crossing paths with other players and their ships."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Sea_of_Thieves
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Sea_of_Thieves
+  steamUrl: https://store.steampowered.com/app/1172620/
 
 - id: balatro
   name: Balatro
+  description: "Poker-themed roguelike deckbuilder in which the player builds scoring hands and stacks joker cards for escalating multipliers against increasingly demanding blinds."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Balatro_(video_game)
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Balatro_(video_game)
+  steamUrl: https://store.steampowered.com/app/2379780/
 
 - id: kingdom_come_deliverance
   name: "Kingdom Come: Deliverance"
+  description: "First-person medieval RPG set in 15th-century Bohemia, following a blacksmith's son caught up in a civil war, with grounded combat and no fantasy elements."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance
+  steamUrl: https://store.steampowered.com/app/379430/
 
 - id: league_of_legends
   name: League of Legends
+  description: "Free-to-play multiplayer online battle arena where two teams of five champions push lanes, farm minions and try to destroy the opposing base."
   tags:
     - moba
-  homepageUrl: https://en.wikipedia.org/wiki/League_of_Legends
+    - year_2009
+  wikipediaUrl: https://en.wikipedia.org/wiki/League_of_Legends
 
 - id: factorio
   name: Factorio
+  description: "Factory-building simulation in which a stranded engineer mines resources, automates production with belts and machines, and defends the sprawling factory from native life."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Factorio
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Factorio
+  steamUrl: https://store.steampowered.com/app/427520/
 
 - id: cyberpunk_2077
   name: Cyberpunk 2077
+  description: "Open-world action RPG set in Night City, following a mercenary chasing a one-of-a-kind implant while upgrading their body with cybernetic augmentations."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Cyberpunk_2077
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Cyberpunk_2077
+  steamUrl: https://store.steampowered.com/app/1091500/
   patterns:
     - cyberpunk
 
 - id: monument_valley
   name: Monument Valley
+  description: "Minimalist puzzle game about guiding a silent princess through impossible architecture by rotating and shifting optical-illusion monuments."
   tags:
     - puzzle
-  homepageUrl: https://en.wikipedia.org/wiki/Monument_Valley_(video_game)
+    - year_2014
+  wikipediaUrl: https://en.wikipedia.org/wiki/Monument_Valley_(video_game)
+  steamUrl: https://store.steampowered.com/app/1927720/
 
 - id: mario_kart
   name: Mario Kart 8 Deluxe
+  description: "Kart racer with Nintendo characters competing on themed tracks using items and anti-gravity sections, across single-player cups and local or online multiplayer."
   tags:
     - racing
-  homepageUrl: https://en.wikipedia.org/wiki/Mario_Kart_8
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mario_Kart_8
 
 - id: mario_wonder
   name: Super Mario Bros. Wonder
+  description: "Side-scrolling Mario platformer set in the Flower Kingdom, where Wonder Flowers transform levels in unpredictable ways, playable solo or in co-op."
   tags:
     - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Super_Mario_Bros._Wonder
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Super_Mario_Bros._Wonder
   patterns:
     - mario, wonder [l]
 
 - id: mario_odyssey
   name: Super Mario Odyssey
+  description: "3D platformer in which Mario travels between varied kingdoms with a sentient hat that lets him take control of creatures and objects while collecting Power Moons."
   tags:
     - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Super_Mario_Odyssey
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Super_Mario_Odyssey
   patterns:
     - mario, odyssey
 
 - id: the_last_of_us
   name: The Last of Us
+  description: "Third-person action-adventure across a United States ruined by a fungal pandemic, following a smuggler escorting a teenage girl on a cross-country journey."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/The_Last_of_Us
+    - year_2013
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Last_of_Us
+  steamUrl: https://store.steampowered.com/app/1888930/
 
 - id: last_epoch
   name: Last Epoch
+  description: "Action RPG about hunting loot and building characters across shattered eras of a fantasy world, with deep skill customization and a long-running endgame."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Last_Epoch
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Last_Epoch
+  steamUrl: https://store.steampowered.com/app/899770/
 
 - id: blue_prince
   name: The Blue Prince
+  description: "Roguelike puzzle adventure in which an heir explores a manor whose floor plan is drafted room by room anew each day, searching for a room that should not exist."
   tags:
     - puzzle
-  homepageUrl: https://en.wikipedia.org/wiki/Blue_Prince_(video_game)
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Blue_Prince_(video_game)
+  steamUrl: https://store.steampowered.com/app/1569580/
 
 - id: clair_obscur_expedition_33
   name: "Clair Obscur: Expedition 33"
+  description: "Turn-based RPG with real-time dodges and parries, following an expedition that sets out to stop the Paintress from erasing everyone of a given age."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33
+  steamUrl: https://store.steampowered.com/app/1903340/
   patterns:
     - clair, obscur [l]
 
 - id: rimworld
   name: RimWorld
+  description: "Sci-fi colony simulation driven by an AI storyteller, where crash-landed survivors build a base, manage relationships and weather escalating disasters."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/RimWorld
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/RimWorld
+  steamUrl: https://store.steampowered.com/app/294100/
 
 - id: palworld
   name: Palworld
+  description: "Open-world survival crafting game in which players catch creatures called Pals, put them to work in bases and factories, and fight alongside them with firearms."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Palworld
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Palworld
+  steamUrl: https://store.steampowered.com/app/1623730/
 
 - id: world_of_warcraft
   name: World of Warcraft
+  description: "Long-running fantasy MMORPG set in Azeroth, where players quest, group for dungeons and raids, and take sides in the conflict between the Alliance and the Horde."
   patterns:
     - wow
   tags:
     - mmorpg
-  homepageUrl: https://en.wikipedia.org/wiki/World_of_Warcraft
+    - year_2004
+  wikipediaUrl: https://en.wikipedia.org/wiki/World_of_Warcraft
 
 - id: forza_horizon
   name: Forza Horizon 5
+  description: "Open-world racing game set across a fictionalized Mexico, built around a festival of street races, off-road events and a large roster of licensed cars."
   tags:
     - racing
-  homepageUrl: https://en.wikipedia.org/wiki/Forza_Horizon_5
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/Forza_Horizon_5
+  steamUrl: https://store.steampowered.com/app/1551360/
 
 - id: horizon_game
   name: Horizon
+  description: "Action-RPG series set in a far-future world reclaimed by nature and roamed by robotic creatures, following a hunter through open tribal lands."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Horizon_(video_game_series)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Horizon_(video_game_series)
 
 - id: horizon_forbidden_west
   name: Horizon Forbidden West
+  description: "Open-world action RPG following hunter Aloy westward across a post-apocalyptic America of robotic creatures, tracking a blight that is killing the land."
   parentId: horizon_game
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Horizon_Forbidden_West
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Horizon_Forbidden_West
+  steamUrl: https://store.steampowered.com/app/2420110/
 
 - id: horizon_zero_dawn
   name: Horizon Zero Dawn
+  description: "Open-world action RPG in which an outcast hunter uncovers the truth of a far-future world where machine animals roam the ruins of civilization."
   parentId: horizon_game
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Horizon_Zero_Dawn
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Horizon_Zero_Dawn
+  steamUrl: https://store.steampowered.com/app/1151640/
 
 - id: final_fantasy
   name: Final Fantasy
+  description: "Long-running Japanese RPG series, each entry a self-contained story of a party battling through worlds that mix magic, technology and recurring creatures."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy
+  wikipediaUrl: https://en.wikipedia.org/wiki/Final_Fantasy
 
 - id: final_fantasy_14
   name: Final Fantasy XIV
+  description: "Massively multiplayer online RPG set in Eorzea, with class-swapping combat, group dungeons and an ongoing story told across successive expansions."
   parentId: final_fantasy
   patterns:
     - final, fantasy, xiv [l]
   tags:
     - mmorpg
-  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XIV
+    - year_2010
+  wikipediaUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XIV
+  steamUrl: https://store.steampowered.com/app/39210/
 
 - id: final_fantasy_16
   name: Final Fantasy XVI
+  description: "Action RPG set in Valisthea, where nations fight over magic crystals and Clive Rosfield is drawn into a conflict involving colossal summoned Eikons."
   parentId: final_fantasy
   patterns:
     - final, fantasy, xvi [l]
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XVI
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Final_Fantasy_XVI
+  steamUrl: https://store.steampowered.com/app/2515020/
 
 - id: final_fantasy_7
   name: Final Fantasy VII Remake
+  description: "Remake of the opening chapters of the 1997 RPG, in which a mercenary joins an eco-terrorist cell against the Shinra corporation, with real-time combat."
   parentId: final_fantasy
   patterns:
     - final, fantasy, vii [l]
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake
+  steamUrl: https://store.steampowered.com/app/1462040/
 
 - id: the_finals
   name: The Finals
+  description: "Free-to-play team shooter staged as a televised game show, with squads grabbing cash across arenas whose buildings can be destroyed."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/The_Finals_(video_game)
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Finals_(video_game)
+  steamUrl: https://store.steampowered.com/app/2073850/
 
 - id: assassins_creed
   name: Assassin's Creed
+  description: "Action-adventure series built on a centuries-long conflict between Assassins and Templars, mixing stealth, parkour and combat in historical settings."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed
+  wikipediaUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed
   patterns:
     - assassin, creed [l]
     - assassins, creed [l]
 
 - id: assassins_creed_shadows
   name: Assassin's Creed Shadows
+  description: "Open-world action RPG set in late-Sengoku Japan, alternating between a shinobi and a samurai as playable characters."
   parentId: assassins_creed
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed_Shadows
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed_Shadows
+  steamUrl: https://store.steampowered.com/app/3159330/
 
 - id: assassins_creed_odyssey
   name: Assassin's Creed Odyssey
+  description: "Open-world action RPG set during the Peloponnesian War, playing a Greek mercenary who sails the Aegean and picks sides through dialogue choices."
   parentId: assassins_creed
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed_Odyssey
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Assassin%27s_Creed_Odyssey
+  steamUrl: https://store.steampowered.com/app/812140/
 
 - id: split_fiction
   name: Split Fiction
-  homepageUrl: https://en.wikipedia.org/wiki/Split_Fiction
+  description: "Co-op action adventure for two players, cast as sci-fi and fantasy writers trapped inside their own stories and leaping between the two worlds."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Split_Fiction
+  steamUrl: https://store.steampowered.com/app/2001120/
   tags:
     - action_adventure
+    - year_2025
 
 - id: civilization
   name: Civilization
+  description: "Turn-based 4X strategy series in which players guide a civilization from antiquity into the future through research, diplomacy and war."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Civilization_(series)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Civilization_(series)
 
 - id: civilization_5
   name: Civilization 5
+  description: "Turn-based 4X strategy on a hex map, growing a civilization from a single settler toward victory by conquest, culture, science or diplomacy."
   parentId: civilization
   patterns:
     - civilization, v [l]
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Civilization_V
+    - year_2010
+  wikipediaUrl: https://en.wikipedia.org/wiki/Civilization_V
+  steamUrl: https://store.steampowered.com/app/8930/
 
 - id: civilization_6
   name: Civilization 6
+  description: "Turn-based 4X strategy in which cities spread across the map as specialized districts, with era bonuses and rival leaders competing for victory."
   parentId: civilization
   patterns:
     - civilization, vi [l]
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Civilization_VI
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Civilization_VI
+  steamUrl: https://store.steampowered.com/app/289070/
 
 - id: civilization_7
   name: Civilization 7
+  description: "Turn-based 4X strategy divided into three Ages, pairing a chosen leader with a new civilization at each transition."
   parentId: civilization
   patterns:
     - civilization, vii [l]
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Civilization_(series)
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Civilization_(series)
+  steamUrl: https://store.steampowered.com/app/1295660/
 
 - id: elder_scrolls_oblivion_remastered
   name: "The Elder Scrolls IV: Oblivion Remastered"
+  description: "Remaster of the 2006 open-world fantasy RPG, exploring the province of Cyrodiil and sealing gates to a demonic realm, rebuilt with new visuals."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion_Remastered
+  steamUrl: https://store.steampowered.com/app/2623190/
   patterns:
     - oblivion
 
 - id: age_of_empires
   name: Age of Empires
+  description: "Real-time strategy series about gathering resources, advancing through historical ages and fielding armies drawn from civilizations across history."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires
+  wikipediaUrl: https://en.wikipedia.org/wiki/Age_of_Empires
 
 - id: age_of_empires_2
   name: Age of Empires II
+  description: "Real-time strategy spanning the Middle Ages, with resource gathering, age advancement, dozens of civilizations and historical campaigns."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires_II
+    - year_1999
+  wikipediaUrl: https://en.wikipedia.org/wiki/Age_of_Empires_II
+  steamUrl: https://store.steampowered.com/app/813780/
   parentId: age_of_empires
   patterns:
     - age, empires, ii [l]
 
 - id: age_of_empires_4
   name: Age of Empires IV
+  description: "Real-time strategy set in the medieval era, with asymmetric civilizations, siege warfare and campaigns framed by documentary footage."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Empires_IV
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/Age_of_Empires_IV
+  steamUrl: https://store.steampowered.com/app/1466860/
   parentId: age_of_empires
   patterns:
     - age, empires, iv [l]
 
 - id: satisfactory
   name: Satisfactory
+  description: "First-person factory-building sim on an alien planet, automating mining, production lines and transport networks solo or in co-op."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Satisfactory_(video_game)
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Satisfactory_(video_game)
+  steamUrl: https://store.steampowered.com/app/526870/
 
 - id: starfield
   name: Starfield
+  description: "Open-world space RPG in which a miner joins a group of explorers, customizes ships and travels between planets across a settled Milky Way."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Starfield_(video_game)
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Starfield_(video_game)
+  steamUrl: https://store.steampowered.com/app/1716740/
 
 - id: starcraft
   name: StarCraft
+  description: "Real-time strategy series pitting the Terran, Zerg and Protoss against one another in a military science fiction setting."
   tags:
     - rts
-  homepageUrl: https://en.wikipedia.org/wiki/StarCraft
+    - year_1998
+  wikipediaUrl: https://en.wikipedia.org/wiki/StarCraft
 
 - id: starcraft_2
   name: StarCraft II
+  description: "Real-time strategy sequel continuing the war between Terran, Zerg and Protoss, with story campaigns and competitive multiplayer."
   parentId: starcraft
   tags:
     - rts
-  homepageUrl: https://en.wikipedia.org/wiki/StarCraft_II
+    - year_2010
+  wikipediaUrl: https://en.wikipedia.org/wiki/StarCraft_II
 
 - id: star_wars_jedi_fallen_order
   name: "Star Wars Jedi: Fallen Order"
+  description: "Third-person action adventure following a surviving Padawan hunted by the Empire, with lightsaber combat, Force powers and exploration."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Fallen_Order
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Fallen_Order
+  steamUrl: https://store.steampowered.com/app/1172380/
 
 - id: star_wars_jedi_survivor
   name: "Star Wars Jedi: Survivor"
+  description: "Third-person action adventure sequel in which Cal Kestis fights the Empire, with added lightsaber stances and larger explorable worlds."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Survivor
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Survivor
+  steamUrl: https://store.steampowered.com/app/1774580/
 
 - id: star_citizen
   name: Star Citizen
+  description: "Crowdfunded space sim combining first-person shipboard combat, trading, mining and exploration in a persistent online universe."
   tags:
     - space_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Star_Citizen
+  wikipediaUrl: https://en.wikipedia.org/wiki/Star_Citizen
 
 - id: sea_of_stars
   name: Sea of Stars
+  description: "Turn-based RPG in which two Children of the Solstice combine sun and moon magic to battle an alchemist's creations, styled after 16-bit era adventures."
   tags:
     - jrpg
-  homepageUrl: https://en.wikipedia.org/wiki/Sea_of_Stars_(video_game)
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Sea_of_Stars_(video_game)
+  steamUrl: https://store.steampowered.com/app/1244090/
 
 - id: call_of_duty
   name: Call of Duty
+  description: "Long-running series of military first-person shooters spanning World War II, modern conflicts and near-future settings, with campaigns and competitive multiplayer."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Call_of_Duty
+  wikipediaUrl: https://en.wikipedia.org/wiki/Call_of_Duty
 
 - id: call_of_duty_black_ops_6
   name: "Call of Duty: Black Ops 6"
+  description: "First-person shooter with a spy-thriller campaign set in the early 1990s, alongside competitive multiplayer and round-based Zombies modes."
   parentId: call_of_duty
   patterns:
     - black ops 6
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_6
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_6
+  steamUrl: https://store.steampowered.com/app/2933620/
 
 - id: euro_truck_simulator
   name: Euro Truck Simulator
+  description: "Trucking simulator in which players run freight deliveries across European road networks, managing fuel, fatigue and traffic rules."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Euro_Truck_Simulator
+    - year_2008
+  wikipediaUrl: https://en.wikipedia.org/wiki/Euro_Truck_Simulator
+  steamUrl: https://store.steampowered.com/app/232010/
 
 - id: power_wash_simulator
   name: PowerWash Simulator
+  description: "First-person cleaning sim about blasting dirt from houses, vehicles and playgrounds with pressure washers, playable solo or co-op."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/PowerWash_Simulator
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/PowerWash_Simulator
+  steamUrl: https://store.steampowered.com/app/1290000/
 
 - id: microsoft_flight_simulator
   name: Microsoft Flight Simulator
+  description: "Civil aviation simulator flying light aircraft and airliners over a satellite-derived recreation of the entire planet, with live weather and traffic."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator
+  steamUrl: https://store.steampowered.com/app/1250410/
 
 - id: diablo
   name: Diablo
+  description: "Series of isometric action RPGs in the dark fantasy world of Sanctuary, built on randomized dungeons, loot hunting and demon slaying."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Diablo_(series)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Diablo_(series)
 
 - id: diablo_2
   name: Diablo II
+  description: "Remaster of the isometric action RPG, following a hero across four acts of demon-infested wilderness with deep character builds and loot."
   parentId: diablo
   patterns:
     - diablo ii
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Diablo_II
+    - year_2000
+  wikipediaUrl: https://en.wikipedia.org/wiki/Diablo_II
+  steamUrl: https://store.steampowered.com/app/2536520/
 
 - id: diablo_3
   name: Diablo III
+  description: "Isometric action role-playing game of loot-driven combat against demonic hordes in the world of Sanctuary, with several distinct character classes."
   parentId: diablo
   patterns:
     - diablo iii
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Diablo_III
+    - year_2012
+  wikipediaUrl: https://en.wikipedia.org/wiki/Diablo_III
 
 - id: diablo_4
   name: Diablo IV
+  description: "Open-world action RPG set in Sanctuary, where players build a class hero, hunt loot and fight demons across a shared, seasonal world."
   parentId: diablo
   patterns:
     - diablo iv
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Diablo_IV
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Diablo_IV
+  steamUrl: https://store.steampowered.com/app/2344520/
 
 - id: marvel_rivals
   name: Marvel Rivals
+  description: "Team-based third-person hero shooter with 6v6 matches, Marvel characters, destructible environments and combo abilities between teammates."
   tags:
     - third_person_shooter
-  homepageUrl: https://en.wikipedia.org/wiki/Marvel_Rivals
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Marvel_Rivals
+  steamUrl: https://store.steampowered.com/app/2767030/
 
 - id: helldivers_2
   name: Helldivers 2
+  description: "Co-op third-person shooter in which squads of four drop onto hostile planets to spread managed democracy, calling in orbital stratagems."
   patterns:
     - helldivers
   tags:
     - third_person_shooter
-  homepageUrl: https://en.wikipedia.org/wiki/Helldivers_2
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Helldivers_2
+  steamUrl: https://store.steampowered.com/app/553850/
 
 - id: rocket_league
   name: Rocket League
+  description: "Vehicular soccer in which rocket-powered cars boost, flip and fly to knock an oversized ball into the opposing goal."
   tags:
     - sports
-  homepageUrl: https://en.wikipedia.org/wiki/Rocket_League
+    - year_2015
+  wikipediaUrl: https://en.wikipedia.org/wiki/Rocket_League
+  steamUrl: https://store.steampowered.com/app/252950/
 
 - id: baldurs_gate
   name: Baldur's Gate 3
+  description: "Party-based role-playing game built on Dungeons & Dragons rules, following characters infected by a mind flayer parasite across the Forgotten Realms."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Baldur%27s_Gate_3
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Baldur%27s_Gate_3
+  steamUrl: https://store.steampowered.com/app/1086940/
   patterns:
     - baldur(')?s gate
     - baldur, 3 [l]
@@ -773,1250 +1066,1798 @@
 
 - id: hogwarts_legacy
   name: Hogwarts Legacy
+  description: "Open-world action RPG casting the player as a student at Hogwarts in the late 1800s, learning spells and exploring the wizarding world."
   patterns:
     - hogwart, legacy [l]
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Hogwarts_Legacy
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hogwarts_Legacy
+  steamUrl: https://store.steampowered.com/app/990080/
 
 - id: path_of_exile
   name: Path of Exile
+  description: "Free-to-play action RPG set on the dark continent of Wraeclast, known for its enormous passive skill tree and gem-based skill customization."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Path_of_Exile
+    - year_2013
+  wikipediaUrl: https://en.wikipedia.org/wiki/Path_of_Exile
+  steamUrl: https://store.steampowered.com/app/238960/
 
 - id: path_of_exile_2
   name: Path of Exile 2
+  description: "Sequel action RPG with a new campaign, slower tactical combat and reworked skill systems, set generations after the original."
   parentId: path_of_exile
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Path_of_Exile_2
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Path_of_Exile_2
+  steamUrl: https://store.steampowered.com/app/2694490/
 
 - id: dragon_age
   name: Dragon Age
+  description: "Dark fantasy role-playing series set in Thedas, mixing party-based combat with branching story choices and companion relationships."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Dragon_Age
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dragon_Age
 
 - id: dragon_age_the_veilguard
   name: "Dragon Age: The Veilguard"
+  description: "Action RPG in which Rook assembles a party of seven companions to stop ancient elven gods threatening Thedas."
   parentId: dragon_age
   patterns:
     - veilguard
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Dragon_Age:_The_Veilguard
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dragon_Age:_The_Veilguard
+  steamUrl: https://store.steampowered.com/app/1845910/
 
 - id: gta
   name: Grand Theft Auto
+  description: "Open-world crime series letting players drive, shoot and scheme their way through satirical recreations of American cities."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto
+  wikipediaUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto
 
 - id: gta_v
   name: Grand Theft Auto V
+  description: "Open-world crime game following three criminals in the city of Los Santos, with a story campaign and the persistent GTA Online mode."
   parentId: gta
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto_V
+    - year_2013
+  wikipediaUrl: https://en.wikipedia.org/wiki/Grand_Theft_Auto_V
+  steamUrl: https://store.steampowered.com/app/271590/
 
 - id: 007_first_light
   name: 007 First Light
+  description: "Third-person spy action-adventure telling an origin story for James Bond, mixing stealth, gadgets, gunplay and driving as he earns 00 status."
   tags:
     - action_adventure
+    - year_2026
   homepageUrl: https://ioi.dk/007firstlightgame
+  steamUrl: https://store.steampowered.com/app/3768760/
 
 - id: deltarune
   name: Deltarune
+  description: "Episodic role-playing adventure from the creator of Undertale, where a group of teens fall into a strange world and fight or spare its inhabitants."
   tags:
     - rpg
+    - year_2025
   homepageUrl: https://deltarune.com/
+  steamUrl: https://store.steampowered.com/app/1671210/
 
 - id: 7_days_to_die
   name: 7 Days to Die
+  description: "Open-world survival crafting game set after a zombie apocalypse, combining base building, voxel terrain destruction and nightly horde attacks."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/7_Days_to_Die
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/7_Days_to_Die
+  steamUrl: https://store.steampowered.com/app/251570/
 
 - id: alan_wake
   name: Alan Wake
+  description: "Third-person action thriller in which a bestselling novelist hunts for his missing wife in a Pacific Northwest town, using light as a weapon against shadowy enemies."
   tags:
     - survival_horror
-  homepageUrl: https://en.wikipedia.org/wiki/Alan_Wake
+    - year_2010
+  wikipediaUrl: https://en.wikipedia.org/wiki/Alan_Wake
+  steamUrl: https://store.steampowered.com/app/108710/
 
 - id: alan_wake_2
   name: Alan Wake 2
+  description: "Survival horror sequel following a writer trapped in a dark dimension and an investigator working ritual killings in a Pacific Northwest town."
   tags:
     - survival_horror
-  homepageUrl: https://en.wikipedia.org/wiki/Alan_Wake_2
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Alan_Wake_2
 
 - id: animal_well
   name: Animal Well
+  description: "Atmospheric 2D metroidvania set in a dark pixel-art labyrinth, where progress comes from odd tools, animal encounters and hidden secrets rather than combat."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Animal_Well
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Animal_Well
+  steamUrl: https://store.steampowered.com/app/813230/
 
 - id: arc_raiders
   name: Arc Raiders
+  description: "Extraction shooter on a ruined Earth overrun by machines called ARC, where squads of up to three scavenge for loot while facing robots and rival players."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/ARC_Raiders
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/ARC_Raiders
+  steamUrl: https://store.steampowered.com/app/1808500/
 
 - id: arknights_endfield
   name: "Arknights: Endfield"
+  description: "Real-time strategy RPG in which an administrator rebuilds civilization on an alien planet through exploration, factory building and squad-based tactical combat."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Arknights:_Endfield
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Arknights:_Endfield
+  steamUrl: https://store.steampowered.com/app/4732690/
 
 - id: astro_bot
   name: Astro Bot
+  description: "3D platformer starring a small robot who explores themed galaxies to rescue scattered crewmates, built around inventive gadgets and controller feedback."
   tags:
     - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Astro_Bot
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Astro_Bot
 
 - id: ball_x_pit
   name: Ball x Pit
+  description: "Action roguelite that mixes brick-breaking with base building, as ricocheting balls clear hordes in the pit and gathered resources expand a town above it."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Ball_x_Pit
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Ball_x_Pit
+  steamUrl: https://store.steampowered.com/app/2062430/
 
 - id: battlefield_6
   name: Battlefield 6
+  description: "Large-scale military shooter with vehicles, destructible environments and class-based squad combat across multiplayer modes and a single-player campaign."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Battlefield_6
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Battlefield_6
+  steamUrl: https://store.steampowered.com/app/2807960/
   patterns:
     - bf6
 
 - id: big_walk
   name: Big Walk
+  description: "Cooperative open-world adventure for groups of friends, built around wandering a large landscape, solving puzzles together and talking over proximity voice chat."
   tags:
     - co_op
-  homepageUrl: https://en.wikipedia.org/wiki/Big_Walk
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Big_Walk
+  steamUrl: https://store.steampowered.com/app/1478500/
 
 - id: blasphemous_2
   name: Blasphemous 2
+  description: "Dark 2D action platformer set in a grim, religiously charged world, combining punishing combat, interconnected exploration and multiple unlockable weapons."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Blasphemous_2
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Blasphemous_2
+  steamUrl: https://store.steampowered.com/app/2114740/
   patterns:
     - blasphemous ii
 
 - id: borderlands_4
   name: Borderlands 4
+  description: "Co-op looter shooter in which four new vault hunters explore a hostile planet, gathering randomized guns and gear across a cel-shaded open world."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Borderlands_4
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Borderlands_4
+  steamUrl: https://store.steampowered.com/app/1285190/
 
 - id: brotato
   name: Brotato
+  description: "Top-down arena survival roguelite where a potato wielding up to six weapons at once fends off waves of aliens in short timed rounds between shop visits."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Brotato
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Brotato
+  steamUrl: https://store.steampowered.com/app/1942280/
 
 - id: cairn
   name: Cairn
+  description: "Survival climbing adventure following a climber attempting the first ascent of Mount Kami, combining hands-on route planning with supply and stamina management."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Cairn_(video_game)
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Cairn_(video_game)
+  steamUrl: https://store.steampowered.com/app/1588550/
 
 - id: chants_of_senaar
   name: Chants of Senaar
+  description: "Puzzle adventure about deciphering unknown written languages while ascending a tower whose separated peoples cannot understand one another."
   tags:
     - puzzle
-  homepageUrl: https://en.wikipedia.org/wiki/Chants_of_Sennaar
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Chants_of_Sennaar
+  steamUrl: https://store.steampowered.com/app/1931770/
 
 - id: chess_game
   name: Chess
+  description: "Abstract two-player strategy board game played on an eight-by-eight grid, where each side maneuvers ranked pieces to trap the opposing king."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Chess
+  wikipediaUrl: https://en.wikipedia.org/wiki/Chess
   patterns:
     - chess
 
 - id: cities_skylines_2
   name: Cities Skylines 2
+  description: "City-building simulation covering zoning, road networks, utilities and economy as a settlement grows into a sprawling metropolis."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Cities:_Skylines_II
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Cities:_Skylines_II
+  steamUrl: https://store.steampowered.com/app/949230/
 
 - id: clash_of_clans
   name: Clash of Clans
+  description: "Mobile strategy game in which players build and upgrade a village, train troops, and raid other players' bases while cooperating in clans."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Clash_of_Clans
+    - year_2012
+  wikipediaUrl: https://en.wikipedia.org/wiki/Clash_of_Clans
 
 - id: counter_strike_2
   name: Counter-Strike 2
+  description: "Round-based tactical first-person shooter pitting terrorists against counter-terrorists in bomb-defusal and hostage maps with a weapon-buying economy."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Counter-Strike_2
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Counter-Strike_2
+  steamUrl: https://store.steampowered.com/app/730/
   patterns:
     - cs2
 
 - id: crimson_desert
   name: Crimson Desert
+  description: "Open-world action adventure set on the continent of Pywel, following a mercenary rebuilding his faction amid war, with fast-paced melee and traversal."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Crimson_Desert
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Crimson_Desert
+  steamUrl: https://store.steampowered.com/app/3321460/
 
 - id: dave_the_diver
   name: Dave The Diver
+  description: "Adventure that alternates between scuba diving to catch fish in a shifting undersea trench and running a sushi restaurant on the surface at night."
   tags:
     - adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Dave_the_Diver
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dave_the_Diver
+  steamUrl: https://store.steampowered.com/app/1868140/
 
 - id: day_z
   name: DayZ
+  description: "Open-world multiplayer survival on a post-Soviet landmass ravaged by infection, where scavenging for food, medicine and gear plays out among hostile players."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/DayZ_(video_game)
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/DayZ_(video_game)
+  steamUrl: https://store.steampowered.com/app/221100/
 
 - id: deadlock
   name: Deadlock
+  description: "Third-person shooter and MOBA hybrid in which two teams of six push lanes, farm creeps and build items in a stylized city setting."
   tags:
     - moba
-  homepageUrl: https://en.wikipedia.org/wiki/Deadlock_(video_game)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Deadlock_(video_game)
+  steamUrl: https://store.steampowered.com/app/1422450/
 
 - id: deep_rock_galactic
   name: Deep Rock Galactic
+  description: "Co-op first-person shooter in which four space dwarves mine, fight and dig through procedurally generated caves on a hostile planet."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Deep_Rock_Galactic
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Deep_Rock_Galactic
+  steamUrl: https://store.steampowered.com/app/548430/
 
 - id: destiny_2
   name: Destiny 2
+  description: "Online multiplayer looter shooter where Guardians take on story missions, raids and competitive modes while chasing weapons and armor."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Destiny_2
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Destiny_2
+  steamUrl: https://store.steampowered.com/app/1085660/
 
 - id: dispatch
   name: Dispatch
+  description: "Narrative superhero workplace comedy in which a former hero runs a dispatch desk, assigning reformed supervillains to calls and managing their egos."
   tags:
     - adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Dispatch_(video_game)
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dispatch_(video_game)
+  steamUrl: https://store.steampowered.com/app/2592160/
 
 - id: donkey_kong_bananza
   name: Donkey Kong Bananza
+  description: "3D action platformer in which Donkey Kong tunnels toward the planet's core, smashing through almost fully destructible terrain alongside a young singer named Pauline."
   tags:
     - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Donkey_Kong_Bananza
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Donkey_Kong_Bananza
 
 - id: doom_the_dark_ages
   name: Doom The Dark Ages
+  description: "First-person shooter prequel casting the Doom Slayer as a medieval war machine, tearing through demons with a shield saw, mace and heavy weaponry."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Doom:_The_Dark_Ages
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Doom:_The_Dark_Ages
+  steamUrl: https://store.steampowered.com/app/3017860/
 
 - id: dota_2
   name: Dota 2
+  description: "Free-to-play MOBA in which two teams of five heroes battle across three lanes to destroy the opposing team's Ancient."
   tags:
     - moba
-  homepageUrl: https://en.wikipedia.org/wiki/Dota_2
+    - year_2013
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dota_2
+  steamUrl: https://store.steampowered.com/app/570/
 
-- id: Dredge
-  name: dredge
+- id: dredge
+  name: Dredge
+  description: "Single-player fishing adventure set in a sinister archipelago, trawling for increasingly strange catches by day and contending with what stirs after dark."
   tags:
     - adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Dredge_(video_game)
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dredge_(video_game)
+  steamUrl: https://store.steampowered.com/app/1562430/
 
 - id: enshrouded
   name: Enshrouded
+  description: "Co-op survival action RPG in a voxel-built fantasy world, mixing base building, crafting and combat against creatures lurking in a corrupting fog."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Enshrouded
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Enshrouded
+  steamUrl: https://store.steampowered.com/app/1203620/
 
 - id: esoteric_ebb
   name: Esoteric Ebb
+  description: "Single-player CRPG inspired by tabletop adventures, in which a cleric investigates a political conspiracy with a goblin sidekick and dice rolls in tense encounters."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Esoteric_Ebb
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Esoteric_Ebb
+  steamUrl: https://store.steampowered.com/app/2057760/
 
 - id: fallout_4
   name: Fallout 4
+  description: "Open-world action RPG set in post-apocalyptic Boston, where a vault survivor searches for missing family amid raiders, warring factions and settlement building."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Fallout_4
+    - year_2015
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fallout_4
+  steamUrl: https://store.steampowered.com/app/377160/
 
 - id: fifa
   name: FIFA
+  description: "Long-running association football simulation series featuring licensed clubs and players, league campaigns and online competitive modes."
   tags:
     - sports
-  homepageUrl: https://en.wikipedia.org/wiki/FIFA_(video_game_series)
+  wikipediaUrl: https://en.wikipedia.org/wiki/FIFA_(video_game_series)
 
 - id: ghost_of_yotei
   name: Ghost of Yotei
+  description: "Open-world action adventure set in 1600s Hokkaido, following a wandering swordswoman tracking down the outlaws tied to her past."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Ghost_of_Y%C5%8Dtei
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Ghost_of_Y%C5%8Dtei
 
 - id: gothic_remake
   name: Gothic Remake
+  description: "Remake of the 2001 action RPG in which a prisoner is dropped into a penal colony sealed under a magic barrier and must find a place among its warring camps."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Gothic_1_Remake
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Gothic_1_Remake
+  steamUrl: https://store.steampowered.com/app/1297900/
   patterns:
     - gothic, remake [l]
 
 - id: graveyard_keeper
   name: Graveyard Keeper
+  description: "Medieval graveyard management sim mixing farming, crafting and dark humour as you run a cemetery with questionable business ethics."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Graveyard_Keeper
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Graveyard_Keeper
+  steamUrl: https://store.steampowered.com/app/599140/
 
 - id: grim_dawn
   name: Grim Dawn
+  description: "Action RPG set in a ruined Victorian-era world caught between two invading otherworldly powers, built on dual-class characters and loot-driven combat."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Grim_Dawn
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Grim_Dawn
+  steamUrl: https://store.steampowered.com/app/219990/
 
 - id: guild_wars_2
   name: Guild Wars 2
+  description: "Buy-to-play fantasy MMORPG set in Tyria, centred on open-world dynamic events, structured PvP and large-scale world-versus-world battles."
   tags:
     - mmorpg
-  homepageUrl: https://en.wikipedia.org/wiki/Guild_Wars_2
+    - year_2012
+  wikipediaUrl: https://en.wikipedia.org/wiki/Guild_Wars_2
+  steamUrl: https://store.steampowered.com/app/1284210/
 
 - id: hytale
   name: Hytale
+  description: "Block-based sandbox RPG combining voxel building and exploration with adventure zones, procedurally generated worlds and extensive modding tools."
   tags:
     - sandbox
-  homepageUrl: https://en.wikipedia.org/wiki/Hytale
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hytale
 
 - id: indiana_jones_and_the_great_circle
   name: Indiana Jones and the Great Circle
+  description: "First-person action adventure set in 1937, following the archaeologist across the globe as he investigates an ancient mystery linking sites around the world."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Great_Circle
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Great_Circle
+  steamUrl: https://store.steampowered.com/app/2677660/
 
 - id: kerbal_space_program
   name: Kerbal Space Program
+  description: "Space flight simulation in which you design rockets and spacecraft for a race of small green aliens and fly them on missions across a physics-driven solar system."
   tags:
     - space_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Kerbal_Space_Program
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/Kerbal_Space_Program
+  steamUrl: https://store.steampowered.com/app/220200/
 
 - id: kingdom_come_deliverance_2
   name: "Kingdom Come: Deliverance II"
+  description: "First-person medieval RPG set in 15th-century Bohemia, continuing the story of the blacksmith's son Henry with realistic combat and a systemic open world."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance_II
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance_II
+  steamUrl: https://store.steampowered.com/app/1771300/
   parentId: kingdom_come_deliverance
   patterns:
     - kingdom come deliverence ii
 
 - id: life_is_strange
   name: Life is Strange
+  description: "Episodic narrative adventure series about young protagonists with supernatural abilities, driven by dialogue choices and branching consequences."
   tags:
     - adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Life_Is_Strange
+  wikipediaUrl: https://en.wikipedia.org/wiki/Life_Is_Strange
 
 - id: mass_effect
   name: Mass Effect
+  description: "Science fiction action RPG series in which a player-shaped commander assembles a crew and confronts a galaxy-wide threat, with choices carrying between games."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Mass_Effect
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mass_Effect
 
 - id: meccha_chameleon
   name: Meccha Chameleon
+  description: "Multiplayer hide-and-seek party game where hiders paint their blank bodies and strike poses to blend into the scenery while seekers try to spot them."
   patterns:
     - me(c)?cha c(h)?ameleon
   tags:
     - party
-  homepageUrl: https://en.wikipedia.org/wiki/Meccha_Chameleon
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Meccha_Chameleon
+  steamUrl: https://store.steampowered.com/app/4704690/
 
 - id: mewgenics
   name: Mewgenics
+  description: "Turn-based tactics roguelite about breeding an army of mutant cats and sending them into challenging dungeon runs."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Mewgenics
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mewgenics
+  steamUrl: https://store.steampowered.com/app/686060/
 
 - id: mina_the_hollower
   name: Mina the Hollower
+  description: "Action adventure in the style of Game Boy Color classics, following an inventor who burrows underground and fights with a whip across a cursed island."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Mina_the_Hollower
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mina_the_Hollower
+  steamUrl: https://store.steampowered.com/app/1875580/
 
 - id: mixtape
   name: Mixtape
+  description: "Narrative adventure following three friends on their last night together, playing out as a series of memories set to a period soundtrack."
   tags:
     - adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Mixtape_(video_game)
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mixtape_(video_game)
+  steamUrl: https://store.steampowered.com/app/2582320/
 
 - id: nba_2k
   name: NBA 2K
+  description: "Long-running basketball simulation series with licensed NBA teams and players, career and franchise modes, and online play."
   tags:
     - sports
-  homepageUrl: https://en.wikipedia.org/wiki/NBA_2K
+  wikipediaUrl: https://en.wikipedia.org/wiki/NBA_2K
 
 - id: no_man_s_sky
   name: No Man's Sky
+  description: "Space exploration and survival game set in a procedurally generated universe of planets to scan, mine, trade and travel between, alone or with others."
   tags:
     - space_sim
-  homepageUrl: https://en.wikipedia.org/wiki/No_Man%27s_Sky
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/No_Man%27s_Sky
+  steamUrl: https://store.steampowered.com/app/275850/
 
 - id: noita
   name: Noita
+  description: "Roguelite action platformer in which every pixel is simulated, as a witch descends through procedurally generated caves armed with wands built from chaotic spells."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Noita_(video_game)
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Noita_(video_game)
+  steamUrl: https://store.steampowered.com/app/881100/
 
 - id: old_school_runescape
   name: Oldschool Runescape
+  description: "The classic 2007 build of the fantasy MMORPG, with point-and-click questing, long skill grinds and player-driven trading, updated through community polls."
   tags:
     - mmorpg
-  homepageUrl: https://en.wikipedia.org/wiki/Old_School_RuneScape
+    - year_2013
+  wikipediaUrl: https://en.wikipedia.org/wiki/Old_School_RuneScape
+  steamUrl: https://store.steampowered.com/app/1343370/
 
 - id: open_ttd
   name: OpenTTD
+  description: "Open-source remake of Transport Tycoon Deluxe in which players lay road, rail, sea and air networks to haul freight and passengers for profit."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/OpenTTD
+    - year_2004
+  wikipediaUrl: https://en.wikipedia.org/wiki/OpenTTD
+  steamUrl: https://store.steampowered.com/app/1536610/
 
 - id: oxygen_not_included
   name: Oxygen Not Included
+  description: "Space-colony survival sim where duplicants dig out an asteroid while the player balances oxygen, heat, food, power and waste in interlocking systems."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Oxygen_Not_Included
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Oxygen_Not_Included
+  steamUrl: https://store.steampowered.com/app/457140/
 
 - id: paralives
   name: Paralives
+  description: "Life simulation about creating characters, building and decorating homes with flexible tools, and guiding them through careers, relationships and daily routines."
   tags:
     - life_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Paralives
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Paralives
+  steamUrl: https://store.steampowered.com/app/1118520/
 
 - id: pathogenic
   name: Pathogenic
+  description: "Cellular roguelike twin-stick shooter in which the player is a pathogen infecting a human body, evolving with organelles while the immune system fights back."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Pathogenic_(video_game)
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Pathogenic_(video_game)
+  steamUrl: https://store.steampowered.com/app/3808690/
 
 - id: peak
   name: Peak
+  description: "Co-op survival climbing game for up to four players scaling a procedurally generated mountain on a remote island, managing stamina, injuries and scarce gear."
   tags:
     - co_op
-  homepageUrl: https://en.wikipedia.org/wiki/Peak_(video_game)
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Peak_(video_game)
+  steamUrl: https://store.steampowered.com/app/3527290/
 
-- id: planet of_lana
+- id: planet_of_lana
   name: Planet of Lana
+  description: "Cinematic puzzle-platform adventure following a girl and her small animal companion across a painterly world, evading machines and solving environmental puzzles."
   tags:
     - puzzle_platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Planet_of_Lana
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Planet_of_Lana
+  steamUrl: https://store.steampowered.com/app/1608230/
 
 - id: pokemon_go
   name: Pokemon Go
+  description: "Mobile augmented-reality game in which players walk real-world locations to find, catch and battle Pokemon through their phone camera and map."
   tags:
     - mobile
-  homepageUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go
 
 - id: pokemon_pokopia
   name: Pokemon Pokopia
+  description: "Life sim in which a Ditto in human form uses Pokemon moves to reshape the land, grow crops and build a town for the Pokemon who move in."
   tags:
     - life_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pokopia
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pokopia
   patterns:
     - pokopia
 
 - id: pragmata
   name: Pragmata
+  description: "Sci-fi action game following an investigator and an android girl through a lunar facility overrun by rogue AI, combining shooting with simultaneous hacking."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Pragmata
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Pragmata
+  steamUrl: https://store.steampowered.com/app/3357650/
 
 - id: project_zomboid
   name: Project Zomboid
+  description: "Isometric zombie survival sim set in rural Kentucky, where players scavenge, fortify and manage health, hunger and morale in an unforgiving open sandbox."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Project_Zomboid
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/Project_Zomboid
+  steamUrl: https://store.steampowered.com/app/108600/
 
 - id: pubg
   name: PUBG
+  description: "Battle royale shooter that drops up to 100 players onto an island to loot weapons and vehicles and fight inside a shrinking play zone until one side remains."
   tags:
     - battle_royale
-  homepageUrl: https://en.wikipedia.org/wiki/PUBG:_Battlegrounds
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/PUBG:_Battlegrounds
+  steamUrl: https://store.steampowered.com/app/578080/
 
 - id: raft
   name: Raft
+  description: "Ocean survival game about hooking floating debris to expand a raft, gathering resources and exploring islands solo or in co-op while sharks circle."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Raft_(video_game)
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Raft_(video_game)
+  steamUrl: https://store.steampowered.com/app/648800/
 
 - id: red_dead_redemption
   name: Red Dead Redemption
+  description: "Open-world western following former outlaw John Marston across the dying American frontier, riding, shooting and taking on jobs as he hunts his old gang."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Red_Dead_Redemption
+    - year_2010
+  wikipediaUrl: https://en.wikipedia.org/wiki/Red_Dead_Redemption
+  steamUrl: https://store.steampowered.com/app/2668510/
 
 - id: resident_evil_requiem
   name: Resident Evil Requiem
+  description: "Survival horror in which an FBI analyst investigates deaths linked to Raccoon City, alternating with more action-driven sections led by Leon S. Kennedy."
   tags:
     - survival_horror
-  homepageUrl: https://en.wikipedia.org/wiki/Resident_Evil_Requiem
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Resident_Evil_Requiem
+  steamUrl: https://store.steampowered.com/app/3764200/
 
 - id: rhythm_heaven_groove
   name: Rhythm Heaven Groove
+  description: "Collection of short rhythm minigames played by tapping in time with the music, with single-player and multiplayer sets in the series' cartoon style."
   tags:
     - rhythm
-  homepageUrl: https://en.wikipedia.org/wiki/Rhythm_Heaven_Groove
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Rhythm_Heaven_Groove
 
 - id: rogue_trader
   name: Rogue Trader
+  description: "Isometric CRPG set in Warhammer 40000, where a Rogue Trader commands a dynasty, voidship and companions across the Koronus Expanse in turn-based tactical combat."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Rogue_Trader_(video_game)
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Rogue_Trader_(video_game)
+  steamUrl: https://store.steampowered.com/app/2186680/
 
 - id: shapez_2
   name: Shapez 2
+  description: "Factory-building sim about automating the extraction and processing of geometric shapes across multi-layer 3D facilities, with no combat or time pressure."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Shapez_2
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Shapez_2
+  steamUrl: https://store.steampowered.com/app/2162800/
 
-- id: hollow_kinght_silk_song
+- id: hollow_knight_silk_song
   name: Hollow Knight Silksong
+  description: "Metroidvania sequel in which Hornet, captured and carried to an unfamiliar insect kingdom ruled by silk and song, fights her way upward with fast, acrobatic combat."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong
+  steamUrl: https://store.steampowered.com/app/1030300/
   patterns:
     - silk( )?song
 
 - id: skyrim
   name: Skyrim
+  description: "Open-world fantasy RPG set in the northern province of Tamriel, where the player explores dungeons, joins factions and confronts the return of dragons."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim
+  steamUrl: https://store.steampowered.com/app/489830/
 
 - id: space_marine_2
   name: Space Marine 2
+  description: "Third-person action game in which an Ultramarine cuts through Tyranid swarms with chainsword and bolter, across a campaign with co-op and competitive modes."
   tags:
     - third_person_shooter
-  homepageUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Space_Marine_2
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Space_Marine_2
+  steamUrl: https://store.steampowered.com/app/2183900/
 
 - id: spiderman_2
   name: Spiderman 2
+  description: "Open-world superhero action game in which Peter Parker and Miles Morales swing across New York, fighting crime and juggling their lives outside the mask."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Spider-Man_2_(2023_video_game)
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Spider-Man_2_(2023_video_game)
+  steamUrl: https://store.steampowered.com/app/2651280/
 
 - id: splatoon_raiders
   name: Splatoon Raiders
+  description: "Spinoff in which Deep Cut and a mechanic hunt treasure across the Spirhalite Islands, mixing story-driven third-person shooting with co-op modes."
   tags:
     - third_person_shooter
-  homepageUrl: https://en.wikipedia.org/wiki/Splatoon_Raiders
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Splatoon_Raiders
 
 - id: stalker_2
   name: Stalker 2
+  description: "Open-world first-person shooter set in the irradiated Chornobyl Exclusion Zone, mixing survival and scavenging with anomalies, mutants and faction gunfights."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/S.T.A.L.K.E.R._2:_Heart_of_Chornobyl
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/S.T.A.L.K.E.R._2:_Heart_of_Chornobyl
+  steamUrl: https://store.steampowered.com/app/1643320/
 
 - id: star_fox
   name: Starfox
+  description: "Space combat series following Fox McCloud and his mercenary squad of anthropomorphic pilots, flying Arwing starfighters through on-rails and open shooting stages."
   tags:
     - action
-  homepageUrl: https://en.wikipedia.org/wiki/Star_Fox
+  wikipediaUrl: https://en.wikipedia.org/wiki/Star_Fox
 
 - id: star_wars_outlaws
   name: Star Wars Outlaws
+  description: "Open-world action adventure following a scoundrel and her companion creature through the galactic underworld, taking jobs for rival crime syndicates."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Star_Wars_Outlaws
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Star_Wars_Outlaws
+  steamUrl: https://store.steampowered.com/app/2842040/
 
 - id: stellaris
   name: Stellaris
+  description: "Grand strategy in space, guiding a civilization from its first faster-than-light flight through exploration, diplomacy and war across a procedurally generated galaxy."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Stellaris_(video_game)
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Stellaris_(video_game)
+  steamUrl: https://store.steampowered.com/app/281990/
 
 - id: stray
   name: Stray
+  description: "Adventure in which a stray cat, aided by a small drone companion, navigates a walled city inhabited by robots and looks for a way back to the surface."
   tags:
     - adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Stray_(video_game)
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Stray_(video_game)
+  steamUrl: https://store.steampowered.com/app/1332010/
 
 - id: street_fighter_6
   name: Street Fighter 6
+  description: "Head-to-head fighting game with Capcom's roster, combining ranked versus matches, a single-player world tour mode and an online social hub."
   tags:
     - fighting
-  homepageUrl: https://en.wikipedia.org/wiki/Street_Fighter_6
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Street_Fighter_6
+  steamUrl: https://store.steampowered.com/app/1364780/
 
 - id: subnautica
   name: Subnautica
+  description: "Underwater survival on an alien ocean planet, scavenging resources, crafting gear and submersibles, and exploring the depths after a crash landing."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Subnautica
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Subnautica
+  steamUrl: https://store.steampowered.com/app/264710/
 
 - id: subnautica_2
   name: Subnautica 2
+  description: "Underwater survival sequel set on a new alien ocean world, with crafting, base building and deep-sea exploration playable solo or in co-op."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Subnautica_2
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Subnautica_2
+  steamUrl: https://store.steampowered.com/app/1962700/
 
 - id: terraria
   name: Terraria
+  description: "Two-dimensional sandbox of digging, building and combat across procedurally generated worlds, with hundreds of items to craft and bosses to fight."
   tags:
     - sandbox
-  homepageUrl: https://en.wikipedia.org/wiki/Terraria
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/Terraria
+  steamUrl: https://store.steampowered.com/app/105600/
 
 - id: timberborn
   name: Timberborn
+  description: "City-builder in which lumberpunk beavers dam rivers, ration water through drought cycles and grow settlements in a world humans have left behind."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Timberborn
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Timberborn
+  steamUrl: https://store.steampowered.com/app/1062090/
 
 - id: trackmania
   name: Trackmania
+  description: "Arcade time-attack racing over stunt-filled tracks, with a built-in track editor and constant online competition against other players' ghost times."
   tags:
     - racing
-  homepageUrl: https://en.wikipedia.org/wiki/Trackmania
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Trackmania
+  steamUrl: https://store.steampowered.com/app/2225070/
 
 - id: valorant
   name: Valorant
+  description: "Team-based tactical first-person shooter with round-based attack and defense play, where agents bring distinct abilities alongside precise gunplay."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Valorant
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Valorant
 
 - id: vampire_survivors
   name: Vampire Survivors
+  description: "Minimalistic action roguelike in which weapons fire automatically while the player dodges ever-growing monster hordes and stacks upgrades between waves."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Vampire_Survivors
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Vampire_Survivors
+  steamUrl: https://store.steampowered.com/app/1794680/
 
 - id: warframe
   name: Warframe
+  description: "Free-to-play cooperative third-person shooter in which players control agile armored space ninjas on missions across the solar system."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Warframe
+    - year_2013
+  wikipediaUrl: https://en.wikipedia.org/wiki/Warframe
+  steamUrl: https://store.steampowered.com/app/230410/
 
 - id: witchfire
   name: Witchfire
+  description: "Dark fantasy first-person shooter with roguelite structure, following a witch hunter who wields firearms and spells against cursed lands."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Witchfire
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Witchfire
+  steamUrl: https://store.steampowered.com/app/3156770/
 
 - id: zenless_zone_zero
   name: Zenless Zone Zero
+  description: "Urban fantasy action role-playing game set in a surviving metropolis, where a Proxy guides squads of agents through dimensional rifts called Hollows."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Zenless_Zone_Zero
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Zenless_Zone_Zero
+  steamUrl: https://store.steampowered.com/app/4162040/
 
 - id: vintage_story
   name: Vintage Story
+  description: "Voxel sandbox survival game emphasizing realistic crafting, geology and seasons in a low-fantasy world shaped by exploration and building."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Vintage_Story
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Vintage_Story
 
 - id: saros
   name: Saros
+  description: "Third-person roguelike action shooter set on an eclipse-stricken off-world colony, where an enforcer fights corrupted creatures across repeating runs."
   tags:
     - third_person_shooter
-  homepageUrl: https://en.wikipedia.org/wiki/Saros_(video_game)
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Saros_(video_game)
 
 - id: crusader_kings_3
   name: Crusader Kings III
+  description: "Medieval grand strategy role-playing as a noble dynasty, balancing warfare, intrigue, marriage and succession across generations."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Crusader_Kings_III
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Crusader_Kings_III
+  steamUrl: https://store.steampowered.com/app/1158310/
   patterns:
     - crusader kings 3
 
 - id: halo
   name: Halo
+  description: "Military science fiction shooter series following Master Chief and humanity's war against the alien Covenant, known for its campaigns and arena multiplayer."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Halo_(franchise)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Halo_(franchise)
 
 - id: beat_saber
   name: Beat Saber
+  description: "Virtual reality rhythm game in which players slash approaching blocks with sabers in time to music while dodging obstacles."
   tags:
     - rhythm
-  homepageUrl: https://en.wikipedia.org/wiki/Beat_Saber
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Beat_Saber
+  steamUrl: https://store.steampowered.com/app/620980/
 
 - id: titanium_court
   name: Titanium Court
+  description: "Surreal strategy game built on puzzle-like battles where players command terrain rather than troops, following branching story-driven careers."
   tags:
     - roguelike
-  homepageUrl: https://en.wikipedia.org/wiki/Titanium_Court
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Titanium_Court
+  steamUrl: https://store.steampowered.com/app/2364580/
 
 - id: doom
   name: Doom
+  description: "First-person shooter series pitting a lone marine against demonic invasions, built on fast movement and heavy weaponry."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Doom_(franchise)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Doom_(franchise)
 
 - id: escape_from_tarkov
   name: Escape from Tarkov
+  description: "Hardcore extraction shooter set in a war-torn Russian city, where players scavenge loot through raids and must reach an exit to keep what they carry."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Escape_from_Tarkov
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Escape_from_Tarkov
+  steamUrl: https://store.steampowered.com/app/3932890/
 
 - id: hitman
   name: Hitman
+  description: "Stealth series following contract killer Agent 47 through sandbox locations where disguises and staged accidents are used to reach targets."
   tags:
     - stealth
-  homepageUrl: https://en.wikipedia.org/wiki/Hitman_(franchise)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hitman_(franchise)
 
 - id: planet_crafter
   name: The Planet Crafter
+  description: "Survival crafting game about terraforming a hostile planet, building machines that raise heat, oxygen and pressure until life can take hold."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/The_Planet_Crafter
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Planet_Crafter
+  steamUrl: https://store.steampowered.com/app/1284190/
   patterns:
     - planet crafter
 
 - id: tetris
   name: Tetris
+  description: "Puzzle series in which falling tetromino blocks must be rotated and packed into complete horizontal lines that clear before the stack reaches the top."
   tags:
     - puzzle
-  homepageUrl: https://en.wikipedia.org/wiki/Tetris
+  wikipediaUrl: https://en.wikipedia.org/wiki/Tetris
 
 - id: overcooked
   name: Overcooked
+  description: "Chaotic co-op cooking game where teams of chefs chop, fry, and plate orders against the clock in kitchens that shift and fall apart around them."
   tags:
     - co_op
-  homepageUrl: https://en.wikipedia.org/wiki/Overcooked
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Overcooked
+  steamUrl: https://store.steampowered.com/app/448510/
 
 - id: darkest_dungeon
   name: Darkest Dungeon
+  description: "Gothic turn-based roguelike dungeon crawler in which a party of flawed adventurers battles horrors while stress and affliction wear down their sanity."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Darkest_Dungeon
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Darkest_Dungeon
+  steamUrl: https://store.steampowered.com/app/262060/
 
 - id: gran_turismo_7
   name: Gran Turismo 7
+  description: "Realistic racing simulator combining licensed cars, real-world circuits, tuning, and car collecting across a career-style campaign."
   tags:
     - racing
-  homepageUrl: https://en.wikipedia.org/wiki/Gran_Turismo_7
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Gran_Turismo_7
 
 - id: the_bazaar
   name: The Bazaar
+  description: "Multiplayer roguelike auto-battler where players draft heroes and arrange weapons, skills, and items on a board, then fight other players' builds."
   tags:
     - auto_battler
+    - year_2025
   homepageUrl: https://playthebazaar.com/
+  steamUrl: https://store.steampowered.com/app/1617400/
 
 - id: transport_fever_2
   name: Transport Fever 2
+  description: "Transport-network tycoon simulation spanning 200 years, building rail, road, air, and shipping routes to move goods and passengers across evolving maps."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Transport_Fever_2
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Transport_Fever_2
+  steamUrl: https://store.steampowered.com/app/1066780/
 
 - id: shattered_pixel_dungeon
   name: Shattered Pixel Dungeon
+  description: "Traditional roguelike dungeon crawler with procedurally generated floors, permadeath, and heroes descending through a monster-filled dungeon."
   tags:
     - rogue_like
+    - year_2014
   homepageUrl: https://shatteredpixel.com/shatteredpd/
+  steamUrl: https://store.steampowered.com/app/1769170/
 
 - id: solitaire
   name: Solitaire
+  description: "Family of single-player card games in which a shuffled deck is sorted into ordered sequences or foundation piles."
   tags:
     - card
-  homepageUrl: https://en.wikipedia.org/wiki/Patience_(game)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Patience_(game)
 
 - id: portal
   name: Portal
+  description: "First-person puzzle game in which a test subject uses a gun that shoots linked portals to solve physics-based chambers under a watchful AI."
   tags:
     - puzzle_platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Portal_(video_game)
+    - year_2007
+  wikipediaUrl: https://en.wikipedia.org/wiki/Portal_(video_game)
+  steamUrl: https://store.steampowered.com/app/400/
 
 - id: stellar_blade
   name: Stellar Blade
+  description: "Action game set on a ruined future Earth, following an airborne squad member fighting hostile creatures with combo-driven melee combat."
   tags:
     - action
-  homepageUrl: https://en.wikipedia.org/wiki/Stellar_Blade
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Stellar_Blade
+  steamUrl: https://store.steampowered.com/app/3489700/
 
 - id: team_fortress_2
   name: Team Fortress 2
+  description: "Class-based multiplayer first-person shooter with nine distinct mercenary classes, cartoon styling, and objective modes like capture the flag and payload."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Team_Fortress_2
+    - year_2007
+  wikipediaUrl: https://en.wikipedia.org/wiki/Team_Fortress_2
+  steamUrl: https://store.steampowered.com/app/440/
 
 - id: palia
   name: Palia
+  description: "Free-to-play cozy MMO in which players settle a fantasy village, farming, cooking, fishing, and building homes alongside other players."
   tags:
     - life_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Palia
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Palia
+  steamUrl: https://store.steampowered.com/app/2707930/
 
 - id: white_knuckle
   name: White Knuckle
+  description: "First-person climbing survival horror roguelike about ascending an enormous industrial shaft while something rises from below."
   tags:
     - horror
+    - year_2025
   homepageUrl: https://whiteknuckle.net/
+  steamUrl: https://store.steampowered.com/app/3195790/
 
 - id: pokemon
   name: Pokemon
+  description: "Monster-collecting RPG series in which trainers catch, raise, and battle creatures with elemental types across regional adventures."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon
+  wikipediaUrl: https://en.wikipedia.org/wiki/Pok%C3%A9mon
 
 - id: resident_evil_4
   name: Resident Evil 4
+  description: "Third-person survival horror action game in which an agent travels to a remote European village to rescue a kidnapped woman from a hostile cult."
   tags:
     - survival_horror
-  homepageUrl: https://en.wikipedia.org/wiki/Resident_Evil_4
+    - year_2005
+  wikipediaUrl: https://en.wikipedia.org/wiki/Resident_Evil_4
+  steamUrl: https://store.steampowered.com/app/2050650/
 
 - id: fallout_76
   name: Fallout 76
+  description: "Online multiplayer entry in the post-apocalyptic Fallout series, set in West Virginia where players emerge from a vault to rebuild and survive."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Fallout_76
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fallout_76
+  steamUrl: https://store.steampowered.com/app/1151340/
 
 - id: the_long_dark
   name: The Long Dark
+  description: "First-person wilderness survival game set in a frozen Canadian backcountry after a geomagnetic disaster, managing cold, hunger, and wildlife."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/The_Long_Dark
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Long_Dark
+  steamUrl: https://store.steampowered.com/app/305620/
 
 - id: fallout
   name: Fallout
+  description: "Post-apocalyptic RPG series set in a retro-futuristic America after nuclear war, mixing vault dwellers, mutants, and factional wasteland politics."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Fallout_(franchise)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fallout_(franchise)
 
 - id: blasphemous
   name: Blasphemous
+  description: "Brutal 2D action platformer set in a cursed land of religious torment, where a silent penitent fights grotesque enemies through nonlinear regions."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Blasphemous_(video_game)
+    - year_2019
+  wikipediaUrl: https://en.wikipedia.org/wiki/Blasphemous_(video_game)
+  steamUrl: https://store.steampowered.com/app/774361/
 
 - id: dishonored_2
   name: Dishonored 2
+  description: "First-person immersive sim of stealth, powers, and assassination, set in a plague-touched industrial world where each mission allows lethal or nonlethal paths."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Dishonored_2
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dishonored_2
+  steamUrl: https://store.steampowered.com/app/403640/
 
 - id: arma_reforger
   name: Arma Reforger
+  description: "Military sandbox shooter set on a Cold War island, featuring large-scale infantry and vehicle combat plus scenario-editing tools."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Arma_Reforger
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Arma_Reforger
+  steamUrl: https://store.steampowered.com/app/1874880/
 
 - id: the_binding_of_isaac
   name: The Binding of Isaac
+  description: "Roguelike twin-stick dungeon shooter in which a boy flees into a monstrous basement, collecting bizarre items that mutate his abilities each run."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)
+  steamUrl: https://store.steampowered.com/app/113200/
 
 - id: windrose
   name: Windrose
+  description: "Open-world pirate survival adventure with land and sea combat, ship command, crafting and exploration, playable solo or cooperatively."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Windrose_(video_game)
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Windrose_(video_game)
+  steamUrl: https://store.steampowered.com/app/3041230/
 
 - id: icarus
   name: Icarus
+  description: "Session-based survival crafting game where prospectors drop onto a hostile terraformed planet to complete timed missions and return to orbit."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Icarus_(video_game)
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/Icarus_(video_game)
+  steamUrl: https://store.steampowered.com/app/1149460/
 
 - id: pentiment
   name: Pentiment
+  description: "Narrative adventure set in 16th-century Bavaria, following an artist caught up in a series of murders, told in illuminated-manuscript art style."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Pentiment_(video_game)
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Pentiment_(video_game)
+  steamUrl: https://store.steampowered.com/app/1205520/
 
 - id: manor_lords
   name: Manor Lords
+  description: "Medieval city builder and real-time strategy sim focused on organic town growth, seasonal resource management, and large-scale tactical battles."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Manor_Lords
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Manor_Lords
+  steamUrl: https://store.steampowered.com/app/1363080/
 
 - id: cities_skylines
   name: Cities Skylines
+  description: "Modern city-building simulation covering zoning, traffic, budgets, and public services as a settlement grows into a metropolis."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Cities:_Skylines
+    - year_2015
+  wikipediaUrl: https://en.wikipedia.org/wiki/Cities:_Skylines
+  steamUrl: https://store.steampowered.com/app/255710/
 
 - id: age_of_wonders_4
   name: Age of Wonders 4
+  description: "Turn-based 4X strategy with tactical combat, where players create custom fantasy factions and expand empires across randomized realms."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Wonders_4
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Age_of_Wonders_4
+  steamUrl: https://store.steampowered.com/app/1669000/
 
 - id: hearthstone
   name: Hearthstone
+  description: "Free-to-play digital collectible card game set in the Warcraft universe, built around deck construction and turn-based duels."
   tags:
     - card
-  homepageUrl: https://en.wikipedia.org/wiki/Hearthstone
+    - year_2014
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hearthstone
 
 - id: core_keeper
   name: Core Keeper
+  description: "Top-down sandbox survival game set in an underground cavern, combining mining, farming, crafting, and boss fights in solo or co-op play."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Core_Keeper
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Core_Keeper
+  steamUrl: https://store.steampowered.com/app/1621690/
 
 - id: nine_sols
   name: Nine Sols
+  description: "Hand-drawn action platformer with deflection-focused combat, set in a taopunk world blending ancient Chinese mythology and science fiction."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Nine_Sols
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Nine_Sols
+  steamUrl: https://store.steampowered.com/app/1809540/
 
 - id: battlefield
   name: Battlefield
+  description: "First-person shooter series known for large-scale multiplayer battles with vehicles, destructible environments, and class-based squads."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Battlefield_(video_game_series)
+  wikipediaUrl: https://en.wikipedia.org/wiki/Battlefield_(video_game_series)
 
 - id: world_of_tanks
   name: World of Tanks
+  description: "Free-to-play team-based multiplayer game featuring armored vehicles of the 20th century in tactical arena battles."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/World_of_Tanks
+    - year_2010
+  wikipediaUrl: https://en.wikipedia.org/wiki/World_of_Tanks
+  steamUrl: https://store.steampowered.com/app/1407200/
 
 - id: europa_universalis_5
   name: Europa Universalis V
+  description: "Grand strategy game spanning centuries of history, with diplomacy, trade, warfare, and internal politics played out on a world map."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Europa_Universalis_V
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Europa_Universalis_V
+  steamUrl: https://store.steampowered.com/app/3450310/
 
 - id: neva
   name: Neva
+  description: "Hand-painted action platformer following a woman and a young wolf traveling through a decaying world, mixing combat and exploration."
   tags:
     - platformer
-  homepageUrl: https://en.wikipedia.org/wiki/Neva_(video_game)
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Neva_(video_game)
+  steamUrl: https://store.steampowered.com/app/2420660/
 
 - id: prey
   name: Prey
+  description: "First-person science fiction immersive sim aboard a space station overrun by hostile aliens, emphasizing improvised tools and abilities."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Prey_(2017_video_game)
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Prey_(2017_video_game)
+  steamUrl: https://store.steampowered.com/app/480490/
 
 - id: victoria_3
   name: Victoria 3
+  description: "Grand strategy game of the 19th and early 20th centuries, focused on economics, population groups, politics, and social reform."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Victoria_3
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Victoria_3
+  steamUrl: https://store.steampowered.com/app/529340/
 
 - id: fc26
   name: EA Sports FC 26
+  description: "Association football simulation with licensed clubs and players, offering career, ultimate team, and online competitive modes."
   tags:
     - sports
-  homepageUrl: https://en.wikipedia.org/wiki/EA_Sports_FC_26
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/EA_Sports_FC_26
+  steamUrl: https://store.steampowered.com/app/3405690/
   patterns:
     - fc26
     - fc 26
 
 - id: elite_dangerous
   name: Elite Dangerous
+  description: "Open-world space simulation set in a full-scale Milky Way, where players trade, fight, explore, and mine in customizable ships."
   tags:
     - space_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Elite_Dangerous
+    - year_2014
+  wikipediaUrl: https://en.wikipedia.org/wiki/Elite_Dangerous
+  steamUrl: https://store.steampowered.com/app/359320/
 
 - id: grounded
   name: Grounded
+  description: "Survival crafting game in which shrunken teenagers navigate a suburban backyard, building bases and fending off insects solo or in co-op."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Grounded_(video_game)
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Grounded_(video_game)
+  steamUrl: https://store.steampowered.com/app/962130/
 
 - id: mouthwashing
   name: Mouthwashing
+  description: "Narrative psychological horror set aboard a stranded cargo freighter, told through the perspectives of its remaining crew."
   tags:
     - horror
-  homepageUrl: https://en.wikipedia.org/wiki/Mouthwashing_(video_game)
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mouthwashing_(video_game)
+  steamUrl: https://store.steampowered.com/app/2475490/
 
 - id: fields_of_mistria
   name: Fields of Mistria
+  description: "Pixel-art farming and life simulation with crop tending, mining, crafting, and relationships in a small mountain town."
   tags:
     - farming_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Fields_of_Mistria
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fields_of_Mistria
+  steamUrl: https://store.steampowered.com/app/2142790/
 
 - id: corsair_cove
   name: Corsair Cove
+  description: "Pirate settlement builder and strategy sim about production chains, crew management, and naval fleets in the late Age of Piracy."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Corsair_Cove
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Corsair_Cove
+  steamUrl: https://store.steampowered.com/app/1368140/
 
 - id: counter_strike
   name: Counter-Strike
+  description: "Team-based tactical first-person shooter pitting terrorists against counter-terrorists across round-based objective maps."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Counter-Strike
+    - year_2000
+  wikipediaUrl: https://en.wikipedia.org/wiki/Counter-Strike
+  steamUrl: https://store.steampowered.com/app/10/
 
 - id: osu
   name: osu!
+  description: "Free rhythm game played with mouse, tablet, or keyboard, using community-made beatmaps across several play modes."
   tags:
     - rhythm
-  homepageUrl: https://en.wikipedia.org/wiki/Osu!
+    - year_2007
+  wikipediaUrl: https://en.wikipedia.org/wiki/Osu!
 
 - id: incident_at_galley_house
   name: The Incident at Galley House
+  description: "Detective adventure set in 1936, using a device that reveals echoes of the past to reconstruct events at a country house."
   tags:
     - puzzle
-  homepageUrl: https://en.wikipedia.org/wiki/The_Incident_at_Galley_House
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Incident_at_Galley_House
+  steamUrl: https://store.steampowered.com/app/3641000/
 
 - id: schedule_i
   name: Schedule I
+  description: "First-person crime simulation about growing a drug operation from street dealing into production, distribution, and territory control."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Schedule_I_(video_game)
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Schedule_I_(video_game)
+  steamUrl: https://store.steampowered.com/app/3164500/
 
 - id: iracing
   name: iRacing
+  description: "Subscription-based racing simulation with laser-scanned tracks and licensed cars, organized around structured online competition."
   tags:
     - racing
-  homepageUrl: https://en.wikipedia.org/wiki/IRacing
+    - year_2008
+  wikipediaUrl: https://en.wikipedia.org/wiki/IRacing
+  steamUrl: https://store.steampowered.com/app/266410/
 
 - id: the_alters
   name: The Alters
+  description: "Science fiction survival base builder in which a stranded worker creates alternate versions of himself to staff a mobile base on a hostile planet."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/The_Alters
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Alters
+  steamUrl: https://store.steampowered.com/app/1601570/
 
 - id: elder_scrolls_online
   name: Elder Scrolls Online
+  description: "Massively multiplayer online role-playing game set in Tamriel, with questing, crafting, and player-versus-player warfare across many regions."
   tags:
     - mmorpg
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online
+    - year_2014
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online
+  steamUrl: https://store.steampowered.com/app/306130/
 
 - id: plateup
   name: PlateUp!
+  description: "Co-op restaurant management roguelite where up to four cooks design kitchens, prep dishes and serve customers across escalating day-long shifts."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/PlateUp!
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/PlateUp!
+  steamUrl: https://store.steampowered.com/app/1599600/
 
 - id: rv_there_yet
   name: RV There Yet
+  description: "Physics-driven co-op adventure about hauling a recreational vehicle home through a rugged valley, using winches and teamwork to clear obstacles."
   tags:
     - co_op
-  homepageUrl: https://en.wikipedia.org/wiki/RV_There_Yet%3F
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/RV_There_Yet%3F
+  steamUrl: https://store.steampowered.com/app/3949040/
 
 - id: into_the_breach
   name: Into the Breach
+  description: "Turn-based tactics roguelike in which mechs defend cities from giant insects on small grids, with enemy attacks telegraphed a turn in advance."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Into_the_Breach
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Into_the_Breach
+  steamUrl: https://store.steampowered.com/app/590380/
 
 - id: risk_of_rain_2
   name: Risk of Rain 2
+  description: "Third-person roguelike shooter where one to four survivors loot stacking items and fight escalating alien waves across procedurally arranged planets."
   tags:
     - rogue_like
     - third_person_shooter
-  homepageUrl: https://en.wikipedia.org/wiki/Risk_of_Rain_2
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Risk_of_Rain_2
+  steamUrl: https://store.steampowered.com/app/632360/
 
 - id: age_of_mythology
   name: Age of Mythology
+  description: "Remake of the mythological real-time strategy classic, with Greek, Norse, Egyptian, Atlantean, Chinese and Japanese pantheons, divine powers and campaigns."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Age_of_Mythology
+    - year_2002
+  wikipediaUrl: https://en.wikipedia.org/wiki/Age_of_Mythology
+  steamUrl: https://store.steampowered.com/app/1934680/
 
 - id: darktide
   name: "Warhammer 40,000: Darktide"
+  description: "Four-player cooperative first-person shooter set in a Warhammer 40,000 hive city, mixing melee and gunplay against swarms of heretics."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Darktide
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Warhammer_40,000:_Darktide
+  steamUrl: https://store.steampowered.com/app/1361210/
 
 - id: snowrunner
   name: SnowRunner
+  description: "Off-road driving simulation about hauling cargo with heavy trucks through mud, snow and rivers using winches and terrain-deforming physics."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/SnowRunner
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/SnowRunner
+  steamUrl: https://store.steampowered.com/app/1465360/
 
 - id: doom_ii
   name: Doom II
+  description: "1994 first-person shooter sequel in which a lone marine fights demons through 30 levels with an arsenal that adds the super shotgun."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Doom_II
+    - year_1994
+  wikipediaUrl: https://en.wikipedia.org/wiki/Doom_II
+  steamUrl: https://store.steampowered.com/app/2300/
   patterns:
     - doom 2
 
 - id: beamng_drive
   name: BeamNG.drive
+  description: "Open-world driving sandbox built on soft-body physics, with detailed vehicle damage, varied terrain, scenario modes and extensive modding."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/BeamNG.drive
+    - year_2013
+  wikipediaUrl: https://en.wikipedia.org/wiki/BeamNG.drive
+  steamUrl: https://store.steampowered.com/app/284160/
 
 - id: captain_of_industry
   name: Captain of Industry
+  description: "Factory-building and colony management simulation about mining an island, refining raw materials and running production chains to sustain survivors."
   tags:
     - simulation
+    - year_2022
   homepageUrl: https://www.captain-of-industry.com/
+  steamUrl: https://store.steampowered.com/app/1594320/
 
 - id: ultrakill
   name: ULTRAKILL
+  description: "Fast-paced retro-styled first-person shooter about a machine descending through hell, rewarding aggressive movement and style-based scoring."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Ultrakill
+    - year_2020
+  wikipediaUrl: https://en.wikipedia.org/wiki/Ultrakill
+  steamUrl: https://store.steampowered.com/app/1229490/
 
 - id: the_message_from_deep_space
   name: The Message from Deep Space
+  description: "Puzzle game set in 1973 in which a mission translator deciphers an alien language from scratch and composes radio replies to a distant signal."
   tags:
     - puzzle
-  homepageUrl: https://store.steampowered.com/app/4080030/The_Message_from_Deep_Space/
+    - year_2026
+  steamUrl: https://store.steampowered.com/app/4080030/
 
 - id: anno_117
   name: "Anno 117: Pax Romana"
+  description: "City-building strategy set in the Roman Empire, where a governor develops provinces and expands influence through trade, diplomacy or military force."
   tags:
     - strategy
-  homepageUrl: https://en.wikipedia.org/wiki/Anno_117
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Anno_117
+  steamUrl: https://store.steampowered.com/app/3274580/
   patterns:
     - anno 117
 
 - id: rust
   name: Rust
+  description: "Multiplayer open-world survival game about gathering resources, building and defending bases, and contending with other players on persistent servers."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Rust_(video_game)
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Rust_(video_game)
+  steamUrl: https://store.steampowered.com/app/252490/
 
 - id: ready_or_not
   name: Ready or Not
+  description: "Tactical first-person shooter about a police SWAT team clearing hostile locations, with realistic weapon handling, planning and rules of engagement."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Ready_or_Not_(video_game)
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Ready_or_Not_(video_game)
+  steamUrl: https://store.steampowered.com/app/1144200/
 
 - id: metaphor_refantazio
   name: "Metaphor: ReFantazio"
+  description: "Turn-based fantasy role-playing game following a traveler caught in a kingdom's race for the throne, with archetype classes and a calendar-driven schedule."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Metaphor:_ReFantazio
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Metaphor:_ReFantazio
+  steamUrl: https://store.steampowered.com/app/2679460/
 
 - id: abiotic_factor
   name: Abiotic Factor
+  description: "Cooperative survival crafting game for up to six scientists trapped in an underground research facility after an interdimensional containment failure."
   tags:
     - survival
-  homepageUrl: https://en.wikipedia.org/wiki/Abiotic_Factor
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Abiotic_Factor
+  steamUrl: https://store.steampowered.com/app/427410/
 
 - id: repo
   name: R.E.P.O.
+  description: "Cooperative horror game for up to six players who extract fragile physics-based valuables from haunted buildings while avoiding monsters."
   tags:
     - horror
-  homepageUrl: https://en.wikipedia.org/wiki/R.E.P.O.
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/R.E.P.O.
+  steamUrl: https://store.steampowered.com/app/3241660/
 
 - id: titanfall
   name: Titanfall
+  description: "Multiplayer first-person shooter combining wall-running pilots with summonable mechs, set in a frontier war between militia and corporate forces."
   tags:
     - fps
-  homepageUrl: https://en.wikipedia.org/wiki/Titanfall_(video_game)
+    - year_2014
+  wikipediaUrl: https://en.wikipedia.org/wiki/Titanfall_(video_game)
+  steamUrl: https://store.steampowered.com/app/1454890/
 
 - id: frostpunk
   name: Frostpunk
+  description: "Survival city-builder in a frozen world where a steam generator settlement demands heat, food and hard laws to keep its people alive."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Frostpunk
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Frostpunk
+  steamUrl: https://store.steampowered.com/app/323190/
 
 - id: dome_keeper
   name: Dome Keeper
+  description: "Roguelite mixing mining and tower defense, alternating between digging for resources underground and defending the surface dome from waves of aliens."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Dome_Keeper
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dome_Keeper
+  steamUrl: https://store.steampowered.com/app/1637320/
 
 - id: he_is_coming
   name: He is Coming
+  description: "Roguelite auto-battler in which three-day cycles are spent gathering weapons and artifacts to prepare a build for a rotating cast of bosses."
   tags:
     - rogue_like
-  homepageUrl: https://store.steampowered.com/app/2824490/He_is_Coming/
+    - year_2025
+  steamUrl: https://store.steampowered.com/app/2824490/
 
 - id: silent_hill_f
   name: Silent Hill f
+  description: "Survival horror set in 1960s rural Japan, following a schoolgirl through a fog-shrouded town overtaken by disturbing creatures."
   tags:
     - survival_horror
-  homepageUrl: https://en.wikipedia.org/wiki/Silent_Hill_f
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Silent_Hill_f
+  steamUrl: https://store.steampowered.com/app/2947440/
 
 - id: slay_the_princess
   name: Slay the Princess
+  description: "Horror visual novel in which a narrator instructs the player to kill a princess held in a cabin, with branching dialogue shaping each encounter."
   tags:
     - visual_novel
     - horror
-  homepageUrl: https://en.wikipedia.org/wiki/Slay_the_Princess
+    - year_2023
+  wikipediaUrl: https://en.wikipedia.org/wiki/Slay_the_Princess
+  steamUrl: https://store.steampowered.com/app/1989270/
 
 - id: unbeatable
   name: Unbeatable
+  description: "Narrative rhythm game set in a world where music is outlawed, alternating band life exploration with two-button timing performances."
   tags:
     - rhythm
-  homepageUrl: https://en.wikipedia.org/wiki/Unbeatable_(video_game)
+    - year_2025
+  wikipediaUrl: https://en.wikipedia.org/wiki/Unbeatable_(video_game)
+  steamUrl: https://store.steampowered.com/app/2240620/
 
 - id: runescape
   name: RuneScape
+  description: "Long-running fantasy MMORPG set in the world of Gielinor, with skill-based progression across dozens of disciplines, quests, and a player-driven economy."
   tags:
     - mmorpg
-  homepageUrl: https://en.wikipedia.org/wiki/RuneScape
+    - year_2001
+  wikipediaUrl: https://en.wikipedia.org/wiki/RuneScape
+  steamUrl: https://store.steampowered.com/app/1343400/
 
 - id: silent_hill_2_2024
   name: Silent Hill 2
+  description: "Survival horror remake following a man who travels to a fog-shrouded lakeside town after receiving a letter from his late wife."
   tags:
     - survival_horror
-  homepageUrl: https://en.wikipedia.org/wiki/Silent_Hill_2_(2024_video_game)
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Silent_Hill_2_(2024_video_game)
+  steamUrl: https://store.steampowered.com/app/2124490/
 
 - id: tomodachi_life_living_the_dream
   name: "Tomodachi Life: Living the Dream"
+  description: "Life simulation in which Mii-style residents of an island community form friendships, romances, and daily routines the player nudges along."
   tags:
     - life_sim
-  homepageUrl: https://en.wikipedia.org/wiki/Tomodachi_Life:_Living_the_Dream
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/Tomodachi_Life:_Living_the_Dream
 
 - id: batman_arkham_city
   name: "Batman: Arkham City"
+  description: "Open-world action game set in a walled-off prison district of Gotham, mixing free-flow melee combat, stealth takedowns, and gadget-driven detective work."
   tags:
     - action_adventure
-  homepageUrl: https://en.wikipedia.org/wiki/Batman:_Arkham_City
+    - year_2011
+  wikipediaUrl: https://en.wikipedia.org/wiki/Batman:_Arkham_City
+  steamUrl: https://store.steampowered.com/app/200260/
 
 - id: octopath_traveler
   name: Octopath Traveler
+  description: "Turn-based JRPG in HD-2D pixel art following eight travelers with separate stories, distinct field actions, and a break-and-boost battle system."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Octopath_Traveler
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Octopath_Traveler
+  steamUrl: https://store.steampowered.com/app/921570/
 
 - id: brawl_stars
   name: Brawl Stars
+  description: "Mobile multiplayer arena brawler built on short 3v3 and battle royale matches across a roster of characters with unique attacks and abilities."
   tags:
     - moba
-  homepageUrl: https://en.wikipedia.org/wiki/Brawl_Stars
+    - year_2018
+  wikipediaUrl: https://en.wikipedia.org/wiki/Brawl_Stars
 
 - id: black_myth_wukong
   name: "Black Myth: Wukong"
+  description: "Action RPG drawing on Journey to the West, following a monkey-like Destined One who fights mythic beasts with staff combat and shapeshifting."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Black_Myth:_Wukong
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Black_Myth:_Wukong
+  steamUrl: https://store.steampowered.com/app/2358720/
 
 - id: prince_of_persia_the_lost_crown
   name: "Prince of Persia: The Lost Crown"
+  description: "Side-scrolling action platformer set in a mythological Persia, following a young warrior who explores a cursed mountain city and gains time-bending powers."
   tags:
     - metroidvania
-  homepageUrl: https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Lost_Crown
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Lost_Crown
+  steamUrl: https://store.steampowered.com/app/2751000/
 
 - id: ea_sports_college_football_27
   name: EA Sports College Football 27
+  description: "American college football simulation with licensed schools, stadiums, and traditions, alongside team-building and dynasty modes."
   tags:
     - sports
-  homepageUrl: https://en.wikipedia.org/wiki/EA_Sports_College_Football_27
+    - year_2026
+  wikipediaUrl: https://en.wikipedia.org/wiki/EA_Sports_College_Football_27
   patterns:
     - ncaa football 27
     - ncaa 27
 
 - id: fallout_new_vegas
   name: "Fallout: New Vegas"
+  description: "Post-apocalyptic first-person role-playing game set in the Mojave Wasteland, where a courier left for dead navigates warring factions contesting New Vegas."
   tags:
     - action_rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Fallout:_New_Vegas
+    - year_2010
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fallout:_New_Vegas
+  steamUrl: https://store.steampowered.com/app/22380/
 
 - id: cult_of_the_lamb
   name: Cult of the Lamb
+  description: "Roguelike dungeon crawler blended with base management, in which a possessed lamb builds and tends a devoted flock between combat runs."
   tags:
     - rogue_like
-  homepageUrl: https://en.wikipedia.org/wiki/Cult_of_the_Lamb
+    - year_2022
+  wikipediaUrl: https://en.wikipedia.org/wiki/Cult_of_the_Lamb
+  steamUrl: https://store.steampowered.com/app/1313140/
 
 - id: divinity_original_sin_2
   name: "Divinity: Original Sin 2"
+  description: "Party-based fantasy role-playing game with turn-based tactical combat, where outcast spellcasters shape a branching story alone or in co-op."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Divinity:_Original_Sin_II
+    - year_2017
+  wikipediaUrl: https://en.wikipedia.org/wiki/Divinity:_Original_Sin_II
+  steamUrl: https://store.steampowered.com/app/435150/
 
 - id: persona_3_reload
   name: Persona 3 Reload
+  description: "Remake of a Japanese role-playing game about students who balance high school life with battling shadows during a hidden hour between days."
   tags:
     - rpg
-  homepageUrl: https://en.wikipedia.org/wiki/Persona_3_Reload
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Persona_3_Reload
+  steamUrl: https://store.steampowered.com/app/2161700/
 
 - id: farming_simulator_25
   name: Farming Simulator 25
+  description: "Agricultural simulation covering crops, livestock and forestry across American, European and Asian settings, playable solo or in multiplayer."
   tags:
     - simulation
-  homepageUrl: https://en.wikipedia.org/wiki/Farming_Simulator_25
+    - year_2024
+  wikipediaUrl: https://en.wikipedia.org/wiki/Farming_Simulator_25
+  steamUrl: https://store.steampowered.com/app/2300320/
 
 - id: hitman_world_of_assassination
   name: "Hitman: World of Assassination"
+  description: "Stealth sandbox in which a contract killer infiltrates elaborate international locations and eliminates targets using disguises, gadgets and improvisation."
   parentId: hitman
   tags:
     - stealth
-  homepageUrl: https://en.wikipedia.org/wiki/Hitman:_World_of_Assassination
+    - year_2021
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hitman:_World_of_Assassination
+  steamUrl: https://store.steampowered.com/app/1659040/
 
 - id: mobile_legends
   name: "Mobile Legends: Bang Bang"
+  description: "Mobile MOBA with 5v5 matches on a three-lane map, short match durations, and a roster of heroes filling distinct combat roles."
   tags:
     - moba
-  homepageUrl: https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang
+    - year_2016
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang
