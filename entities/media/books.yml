@@ -3,7 +3,9 @@
 - id: more_everything_forever
   name: More Everything Forever
   author: Adam Becker
+  description: "Silicon Valley's grand futurist visions — AI superintelligence, space colonies, radical life extension — examined by an astrophysicist who argues they function as ideology rather than science."
   homepageUrl: https://www.hachettebookgroup.com/titles/adam-becker/more-everything-forever/9781541619593/
+  amazonUrl: https://www.amazon.com/dp/1541619595?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -11,7 +13,9 @@
 - id: ikigai
   name: Ikigai
   author: Héctor García and Francesc Miralles
+  description: "Japanese concept of ikigai, a reason for being, drawn from the habits and longevity of residents of Okinawa, with lessons on finding purpose in daily life."
   homepageUrl: https://www.penguinrandomhouse.com/books/549469/ikigai-by-hector-garcia-and-francesc-miralles/
+  amazonUrl: https://www.amazon.com/dp/0143130722?tag=devographics-20
   tags:
     - non_fiction
     - self_help
@@ -19,7 +23,9 @@
 - id: unreasonable_hospitality
   name: Unreasonable Hospitality
   author: Will Guidara
+  description: "A restaurateur recounts building Eleven Madison Park into a top-ranked restaurant, arguing that extraordinary service and care can transform any business."
   homepageUrl: https://www.penguinrandomhouse.com/books/674289/unreasonable-hospitality-by-will-guidara/
+  amazonUrl: https://www.amazon.com/dp/0593418573?tag=devographics-20
   tags:
     - non_fiction
     - business
@@ -27,7 +33,9 @@
 - id: surrounded_by_idiots
   name: Surrounded by Idiots
   author: Thomas Erikson
-  homepageUrl: https://en.wikipedia.org/wiki/Surrounded_by_Idiots
+  description: "Four-color communication model sorting personality types into Red, Yellow, Green, and Blue, with advice on adapting to each in work and relationships."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Surrounded_by_Idiots
+  amazonUrl: https://www.amazon.com/dp/1250179947?tag=devographics-20
   tags:
     - non_fiction
     - self_help
@@ -35,21 +43,27 @@
 - id: the_creative_act
   name: The Creative Act
   author: Rick Rubin
+  description: "Music producer Rick Rubin's reflections on creativity as a way of being, offering short meditations on attention, discipline, and making art."
   homepageUrl: https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin/
+  amazonUrl: https://www.amazon.com/dp/0593652886?tag=devographics-20
   tags:
     - non_fiction
 
 - id: the_service_berry
   name: The Serviceberry
   author: Robin Wall Kimmerer
-  homepageUrl: https://en.wikipedia.org/wiki/The_Serviceberry
+  description: "Reciprocity and gift economies in the natural world, drawn from a botanist's observations of the serviceberry tree and Indigenous traditions of sharing abundance."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Serviceberry
+  amazonUrl: https://www.amazon.com/dp/1668072246?tag=devographics-20
   tags:
     - non_fiction
 
 - id: the_48_laws_of_power
   name: 48 Laws of Power
   author: Robert Greene
-  homepageUrl: https://en.wikipedia.org/wiki/The_48_Laws_of_Power
+  description: "Distillation of three thousand years of history into rules for gaining, defending, and wielding power, illustrated with anecdotes from courtiers, generals, and con artists."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_48_Laws_of_Power
+  amazonUrl: https://www.amazon.com/dp/0140280197?tag=devographics-20
   tags:
     - non_fiction
   patterns:
@@ -58,14 +72,18 @@
 - id: thinking_in_systems
   name: Thinking in Systems
   author: Donella Meadows
-  homepageUrl: https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer
+  description: "Primer on systems thinking, explaining stocks, flows, feedback loops, and leverage points as tools for understanding complex behavior in ecosystems, economies, and organizations."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer
+  amazonUrl: https://www.amazon.com/dp/1603580557?tag=devographics-20
   tags:
     - non_fiction
 
 - id: the_courage_to_be_disliked
   name: The Courage to be Disliked
   author: Ichiro Kishimi and Fumitake Koga
-  homepageUrl: https://en.wikipedia.org/wiki/The_Courage_to_Be_Disliked
+  description: "Dialogue between a philosopher and a young man that unpacks the psychology of Alfred Adler, arguing that happiness depends on choosing freedom over others' approval."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Courage_to_Be_Disliked
+  amazonUrl: https://www.amazon.com/dp/1501197274?tag=devographics-20
   tags:
     - non_fiction
     - self_help
@@ -73,28 +91,36 @@
 - id: the_dawn_of_everything
   name: The Dawn of Everything
   author: David Graeber and David Wengrow
-  homepageUrl: https://en.wikipedia.org/wiki/The_Dawn_of_Everything
+  description: "Archaeological and anthropological evidence reframing human prehistory, challenging the idea that agriculture and scale inevitably produced hierarchy and states."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Dawn_of_Everything
+  amazonUrl: https://www.amazon.com/dp/1250858801?tag=devographics-20
   tags:
     - non_fiction
 
 - id: careless_people
   name: Careless People
   author: Sarah Wynn-Williams
-  homepageUrl: https://en.wikipedia.org/wiki/Careless_People
+  description: "Memoir of a New Zealand diplomat who joined Facebook as a global policy director, chronicling seven years inside the company's dealings with governments worldwide."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Careless_People
+  amazonUrl: https://www.amazon.com/dp/1250391237?tag=devographics-20
   tags:
     - non_fiction
 
 - id: sapiens
   name: Sapiens
   author: Yuval Noah Harari
-  homepageUrl: https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind
+  description: "Sweeping history of Homo sapiens from the emergence of cognition through the agricultural and scientific revolutions, examining the shared fictions that let strangers cooperate."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind
+  amazonUrl: https://www.amazon.com/dp/0062316095?tag=devographics-20
   tags:
     - non_fiction
 
 - id: how_to_win_friends_and_influence_people
   name: How to Win Friends and Influence People
   author: Dale Carnegie
-  homepageUrl: https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People
+  description: "Classic guide to dealing with people, offering principles for handling others without resentment, winning them to your point of view, and becoming a more persuasive leader."
+  wikipediaUrl: https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People
+  amazonUrl: https://www.amazon.com/dp/0671027034?tag=devographics-20
   tags:
     - non_fiction
     - self_help
@@ -104,7 +130,9 @@
 - id: reverse_centaurs_guide_to_life_after_ai
   name: The Reverse Centaur's Guide to Life After AI
   author: Cory Doctorow
+  description: "Argues that AI as built turns workers into reverse centaurs serving machines, and asks not what the technology does but who it does it for, and who it does it to."
   homepageUrl: https://www.versobooks.com/products/3584-the-reverse-centaur-s-guide-to-life-after-ai
+  amazonUrl: https://www.amazon.com/dp/037462156X?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -115,7 +143,9 @@
 - id: play_nice
   name: "Play Nice: The Rise, Fall, and Future of Blizzard Entertainment"
   author: Jason Schreier
-  homepageUrl: https://en.wikipedia.org/wiki/Play_Nice
+  description: "Reported history of Blizzard Entertainment, tracing its rise from a scrappy studio to a games giant, and the corporate consolidation and scandals that reshaped it."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Play_Nice
+  amazonUrl: https://www.amazon.com/dp/1538725428?tag=devographics-20
   tags:
     - non_fiction
     - video_games
@@ -127,7 +157,9 @@
 - id: designing_data_intensive_applications
   name: Designing Data-Intensive Applications
   author: Martin Kleppmann
+  description: "Technical guide to the architecture of modern data systems, covering storage engines, replication, partitioning, transactions, and stream processing at scale."
   homepageUrl: https://dataintensive.net/
+  amazonUrl: https://www.amazon.com/dp/1449373321?tag=devographics-20
   tags:
     - nonfiction
   patterns:
@@ -136,7 +168,9 @@
 - id: the_pragmatic_programmer
   name: The Pragmatic Programmer
   author: David Thomas and Andrew Hunt
-  homepageUrl: https://en.wikipedia.org/wiki/The_Pragmatic_Programmer
+  description: "Practical principles and habits for software developers, spanning debugging, abstraction, tooling, testing, and career craftsmanship."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Pragmatic_Programmer
+  amazonUrl: https://www.amazon.com/dp/0135957052?tag=devographics-20
   tags:
     - nonfiction
   patterns:
@@ -145,7 +179,9 @@
 - id: the_psychology_of_money
   name: The Psychology of Money
   author: Morgan Housel
-  homepageUrl: https://en.wikipedia.org/wiki/The_Psychology_of_Money
+  description: "Short essays on the behavior behind financial decisions, arguing that temperament, patience, and personal history matter more than technical skill in building wealth."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Psychology_of_Money
+  amazonUrl: https://www.amazon.com/dp/0857197681?tag=devographics-20
   tags:
     - nonfiction
   patterns:
@@ -154,14 +190,18 @@
 - id: the_software_engineer_s_guidebook
   name: The Software Engineer's Guidebook
   author: Gergely Orosz
+  description: "Career advice for software developers from first job to senior and staff roles, covering technical growth, working with teams, and navigating engineering organizations."
   homepageUrl: https://www.engguidebook.com/
+  amazonUrl: https://www.amazon.com/dp/908338182X?tag=devographics-20
   tags:
     - nonfiction
 
 - id: atomic_habits
   name: Atomic Habits
   author: James Clear
-  homepageUrl: https://en.wikipedia.org/wiki/Atomic_Habits
+  description: "A framework for building good habits and breaking bad ones through small incremental changes, arguing that systems and environment matter more than motivation or goals."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Atomic_Habits
+  amazonUrl: https://www.amazon.com/dp/0735211299?tag=devographics-20
   tags:
     - nonfiction
 
@@ -170,7 +210,9 @@
 - id: bible_book
   name: The Bible
   author: Various
-  homepageUrl: https://en.wikipedia.org/wiki/Bible
+  description: "The foundational scriptures of Judaism and Christianity, collecting law, history, poetry, prophecy, and gospel accounts written by many authors across centuries."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Bible
+  amazonUrl: https://www.amazon.com/dp/0785218009?tag=devographics-20
   tags:
     - religion
   patterns:
@@ -179,7 +221,9 @@
 - id: dungeon_crawler_carl
   name: Dungeon Crawler Carl
   author: Matt Dinniman
-  homepageUrl: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
+  description: "Aliens demolish Earth and convert it into a deadly game show dungeon, leaving Carl and his ex-girlfriend's cat to fight through its levels for a galactic audience."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
+  amazonUrl: https://www.amazon.com/dp/059382024X?tag=devographics-20
   tags:
     - sci_fi
   patterns:
@@ -188,7 +232,9 @@
 - id: tomorrow_and_tomorrow_and_tomorrow
   name: Tomorrow, and Tomorrow, and Tomorrow
   author: Gabrielle Zevin
-  homepageUrl: https://en.wikipedia.org/wiki/Tomorrow,_and_Tomorrow,_and_Tomorrow
+  description: "Two friends who met as children reunite in college and begin making video games together, building a creative partnership that spans decades."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Tomorrow,_and_Tomorrow,_and_Tomorrow
+  amazonUrl: https://www.amazon.com/dp/0593466497?tag=devographics-20
   tags:
     - fiction
   patterns:
@@ -197,7 +243,9 @@
 - id: book_1984
   name: "1984"
   author: George Orwell
-  homepageUrl: https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
+  description: "Under a totalitarian regime that monitors every citizen, a low-ranking party worker who rewrites history for the state begins to question the world he serves."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
+  amazonUrl: https://www.amazon.com/dp/0451524934?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -207,7 +255,9 @@
 - id: a_wizard_of_earthsea
   name: A Wizard of Earthsea
   author: Ursula K. Le Guin
-  homepageUrl: https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea
+  description: "A gifted boy from a small island enters a school of wizardry, where his pride and ambition unleash a shadow he must reckon with across a world of islands."
+  wikipediaUrl: https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea
+  amazonUrl: https://www.amazon.com/dp/0547722028?tag=devographics-20
   tags:
     - fantasy
     - classic
@@ -217,7 +267,9 @@
 - id: animal_farm
   name: Animal Farm
   author: George Orwell
-  homepageUrl: https://en.wikipedia.org/wiki/Animal_Farm
+  description: "Farm animals overthrow their human owner to run the farm themselves, only to find the new order reshaped by those who take charge."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Animal_Farm
+  amazonUrl: https://www.amazon.com/dp/0451526341?tag=devographics-20
   tags:
     - classic
     - satire
@@ -225,14 +277,18 @@
 - id: automatic_noodle
   name: Automatic Noodle
   author: Annalee Newitz
+  description: "In a San Francisco rebuilding after war, a crew of abandoned food service robots take over an empty kitchen and open their own hand-pulled noodle restaurant."
   homepageUrl: https://us.macmillan.com/books/9781250357465/automaticnoodle/
+  amazonUrl: https://www.amazon.com/dp/1250357462?tag=devographics-20
   tags:
     - sci_fi
 
 - id: babel_book
   name: Babel
   author: R.F. Kuang
-  homepageUrl: https://en.wikipedia.org/wiki/Babel,_or_the_Necessity_of_Violence
+  description: "An orphan brought from Canton to Oxford studies at an institute where silver bars powered by translation fuel the British Empire, forcing him to weigh scholarship against complicity."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Babel,_or_the_Necessity_of_Violence
+  amazonUrl: https://www.amazon.com/dp/0063021420?tag=devographics-20
   tags:
     - fantasy
   patterns:
@@ -241,28 +297,36 @@
 - id: children_of_time
   name: Children of Time
   author: Adrian Tchaikovsky
-  homepageUrl: https://en.wikipedia.org/wiki/Children_of_Time
+  description: "A dying human expedition searches for a habitable world, while on a distant terraformed planet an experiment in accelerated evolution takes an unintended course."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Children_of_Time
+  amazonUrl: https://www.amazon.com/dp/0316452505?tag=devographics-20
   tags:
     - sci_fi
 
 - id: cryptonomicon
   name: Cryptonomicon
   author: Neal Stephenson
-  homepageUrl: https://en.wikipedia.org/wiki/Cryptonomicon
+  description: "Twin narratives of World War II codebreakers and their present-day descendants, who chase a fortune in buried gold while building a data haven in Southeast Asia."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Cryptonomicon
+  amazonUrl: https://www.amazon.com/dp/0060512806?tag=devographics-20
   tags:
     - sci_fi
 
 - id: demon_copperhead
   name: Demon Copperhead
   author: Barbara Kingsolver
-  homepageUrl: https://en.wikipedia.org/wiki/Demon_Copperhead
+  description: "A boy born to a teenage mother in the mountains of Appalachia navigates foster care, poverty, and the opioid epidemic in a retelling of David Copperfield."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Demon_Copperhead
+  amazonUrl: https://www.amazon.com/dp/0063251981?tag=devographics-20
   tags:
     - fiction
 
 - id: dune_book
-  name: dune
+  name: Dune
   author: Frank Herbert
-  homepageUrl: https://en.wikipedia.org/wiki/Dune_(novel)
+  description: "On a desert planet that is the sole source of the universe's most valuable substance, a young heir of a displaced noble house is drawn into its politics and its people."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dune_(novel)
+  amazonUrl: https://www.amazon.com/dp/0441172717?tag=devographics-20
   tags:
     - sci_fi
   patterns:
@@ -271,7 +335,9 @@
 - id: empire_of_ai
   name: Empire of AI
   author: Karen Hao
-  homepageUrl: https://en.wikipedia.org/wiki/Empire_of_AI
+  description: "An investigative account of OpenAI and Sam Altman, arguing that the AI industry operates like a modern empire in its extraction of data, labor, energy, and resources."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Empire_of_AI
+  amazonUrl: https://www.amazon.com/dp/0593657500?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -279,7 +345,9 @@
 - id: enshittification
   name: Enshittification
   author: Cory Doctorow
+  description: "Cory Doctorow argues that online platforms decay by design, first courting users, then abusing them to please business customers, and traces the policy failures that allow it."
   homepageUrl: https://www.versobooks.com/products/3341-enshittification
+  amazonUrl: https://www.amazon.com/dp/0374619328?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -287,7 +355,9 @@
 - id: farenheit_451
   name: Farenheit 451
   author: Ray Bradbury
-  homepageUrl: https://en.wikipedia.org/wiki/Fahrenheit_451
+  description: "In a future where books are outlawed and burned, a fireman whose job is to destroy them begins to question the work he has always done."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fahrenheit_451
+  amazonUrl: https://www.amazon.com/dp/1451673310?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -295,7 +365,9 @@
 - id: foundation_book
   name: Foundation
   author: Isaac Asimov
-  homepageUrl: https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)
+  description: "As a vast Galactic Empire slides toward collapse, a mathematician who can predict the future establishes a remote outpost meant to shorten the coming dark age."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)
+  amazonUrl: https://www.amazon.com/dp/0553293354?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -305,14 +377,18 @@
 - id: frankenstein
   name: Frankenstein
   author: Mary Shelley
-  homepageUrl: https://en.wikipedia.org/wiki/Frankenstein
+  description: "A young scientist obsessed with the secret of life assembles a creature from dead matter, then must live with what he has brought into the world."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Frankenstein
+  amazonUrl: https://www.amazon.com/dp/0143131842?tag=devographics-20
   tags:
     - classic
 
 - id: a_song_of_ice_and_fire
   name: A Song of Ice and Fire
   author: George R.R. Martin
-  homepageUrl: https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire
+  description: "Rival noble houses scheme, marry, and make war over the throne of the Seven Kingdoms, while older threats stir beyond the realm's frozen northern wall."
+  wikipediaUrl: https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire
+  amazonUrl: https://www.amazon.com/dp/0345535561?tag=devographics-20
   tags:
     - fantasy
   patterns:
@@ -321,7 +397,9 @@
 - id: gideon_the_ninth
   name: Gideon the Ninth
   author: Tamsyn Muir
-  homepageUrl: https://en.wikipedia.org/wiki/Gideon_the_Ninth
+  description: "An indentured swordswoman is dragged along as bodyguard to the necromancer heir she despises, joining rival houses at a decaying palace for a deadly trial."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Gideon_the_Ninth
+  amazonUrl: https://www.amazon.com/dp/1250313198?tag=devographics-20
   tags:
     - sci_fi
     - fantasy
@@ -329,7 +407,9 @@
 - id: project_hail_mary
   name: Project Hail Mary
   author: Andy Weir
-  homepageUrl: https://en.wikipedia.org/wiki/Project_Hail_Mary
+  description: "A lone astronaut wakes on a spacecraft with no memory of who he is, tasked with stopping an extinction-level threat to Earth."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Project_Hail_Mary
+  amazonUrl: https://www.amazon.com/dp/0593135202?tag=devographics-20
   tags:
     - sci_fi
   patterns:
@@ -338,14 +418,18 @@
 - id: harry_potter
   name: Harry Potter
   author: J.K. Rowling
-  homepageUrl: https://en.wikipedia.org/wiki/Harry_Potter
+  description: "An orphaned boy learns he is a wizard and enrolls at a school of magic, where he grows up among friends while a dark sorcerer's shadow lengthens."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Harry_Potter
+  amazonUrl: https://www.amazon.com/dp/0545162076?tag=devographics-20
   tags:
     - fantasy
 
 - id: hitchhiker_s_guide_to_the_galaxy
   name: Hitchhiker's Guide to the Galaxy
   author: Douglas Adams
-  homepageUrl: https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy
+  description: "Seconds before Earth is demolished for a hyperspace bypass, an ordinary Englishman is rescued by an alien friend and thrown into an absurd tour of the galaxy."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy
+  amazonUrl: https://www.amazon.com/dp/0345391802?tag=devographics-20
   tags:
     - sci_fi
     - humor
@@ -355,21 +439,27 @@
 - id: house_of_leaves
   name: House Of Leaves
   author: Mark Z. Danielewski
-  homepageUrl: https://en.wikipedia.org/wiki/House_of_Leaves
+  description: "A young man finds a dead recluse's manuscript about a documentary on a house that is larger inside than out, and the reading begins to unsettle his own life."
+  wikipediaUrl: https://en.wikipedia.org/wiki/House_of_Leaves
+  amazonUrl: https://www.amazon.com/dp/0375703764?tag=devographics-20
   tags:
     - horror
 
 - id: katabasis
   name: Katabasis
   author: R.F. Kuang
-  homepageUrl: https://en.wikipedia.org/wiki/Katabasis_(novel)
+  description: "Two rival Cambridge magick graduate students descend into Hell to retrieve the soul of their dead advisor, navigating its logic-bound courts and their own bitter history."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Katabasis_(novel)
+  amazonUrl: https://www.amazon.com/dp/006302148X?tag=devographics-20
   tags:
     - fantasy
 
 - id: the_lord_of_the_Rings
   name: The Lord of the Rings
   author: J.R.R. Tolkien
-  homepageUrl: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings
+  description: "A hobbit inherits a ring of terrible power and sets out with an unlikely fellowship to carry it across Middle-earth to the one place it can be destroyed."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings
+  amazonUrl: https://www.amazon.com/dp/0358439191?tag=devographics-20
   tags:
     - fantasy
     - classic
@@ -379,14 +469,18 @@
 - id: mistborn
   name: Mistborn
   author: Brandon Sanderson
-  homepageUrl: https://en.wikipedia.org/wiki/Mistborn
+  description: "Under an immortal emperor's thousand-year rule, a street thief discovers she can fuel magic by burning metals and joins a crew plotting the impossible."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Mistborn
+  amazonUrl: https://www.amazon.com/dp/076536543X?tag=devographics-20
   tags:
     - fantasy
 
 - id: the_murderbot_diaries
   name: The Murderbot Diaries
   author: Martha Wells
-  homepageUrl: https://en.wikipedia.org/wiki/The_Murderbot_Diaries
+  description: "A self-hacked security android that would rather watch soap operas than deal with humans is assigned to protect survey teams on dangerous corporate worlds."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Murderbot_Diaries
+  amazonUrl: https://www.amazon.com/dp/1250214718?tag=devographics-20
   tags:
     - sci_fi
   patterns:
@@ -395,7 +489,9 @@
 - id: neuromancer
   name: Neuromancer
   author: William Gibson
-  homepageUrl: https://en.wikipedia.org/wiki/Neuromancer
+  description: "A burned-out console cowboy, barred from cyberspace after crossing his employers, is offered a cure in exchange for one last and deeply strange hacking job."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Neuromancer
+  amazonUrl: https://www.amazon.com/dp/0441007465?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -403,35 +499,45 @@
 - id: one_day_everyone_will_have_always_been_against_this
   name: One Day, Everyone Will Have Always Been Against This
   author: Omar El Akkad
-  homepageUrl: https://en.wikipedia.org/wiki/One_Day,_Everyone_Will_Have_Always_Been_Against_This
+  description: "Essays on the war in Gaza and Western complicity, arguing that liberal democracies' stated ideals collapse against how they treat the lives of distant others."
+  wikipediaUrl: https://en.wikipedia.org/wiki/One_Day,_Everyone_Will_Have_Always_Been_Against_This
+  amazonUrl: https://www.amazon.com/dp/0593804147?tag=devographics-20
   tags:
     - non_fiction
 
 - id: piranesi
   name: Piranesi
   author: Susanna Clarke
-  homepageUrl: https://en.wikipedia.org/wiki/Piranesi_(novel)
+  description: "A man lives alone in a vast labyrinth of endless halls, statues, and tides, keeping careful journals of its wonders until evidence surfaces that his world is not what he believes."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Piranesi_(novel)
+  amazonUrl: https://www.amazon.com/dp/1635577802?tag=devographics-20
   tags:
     - fantasy
 
 - id: red_rising
   name: Red Rising
   author: Pierce Brown
-  homepageUrl: https://en.wikipedia.org/wiki/Red_Rising_(novel)
+  description: "On a terraformed Mars, a lowly miner learns his caste has been deceived for generations and infiltrates the ruling elite's brutal academy to bring their order down from within."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Red_Rising_(novel)
+  amazonUrl: https://www.amazon.com/dp/0345539788?tag=devographics-20
   tags:
     - sci_fi
 
 - id: slow_gods
   name: Slow Gods
   author: Claire North
+  description: "A galaxy-spanning space opera following a starship pilot altered by passage through a nightmarish faster-than-light dimension, as warning comes that twin stars will destroy inhabited worlds."
   homepageUrl: https://www.goodreads.com/book/show/223296158-slow-gods
+  amazonUrl: https://www.amazon.com/dp/0316586307?tag=devographics-20
   tags:
     - sci_fi
 
 - id: the_stormlight_archive
   name: The Stormlight Archive
   author: Brandon Sanderson
-  homepageUrl: https://en.wikipedia.org/wiki/The_Stormlight_Archive
+  description: "An epic fantasy series set on a storm-scoured world where ancient powers stir, following a slave, a scholar, and a warlord amid a long war and the return of forgotten magics."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Stormlight_Archive
+  amazonUrl: https://www.amazon.com/dp/1250826039?tag=devographics-20
   tags:
     - fantasy
   patterns:
@@ -440,14 +546,18 @@
 - id: the_devils
   name: The Devils
   author: Joe Abercrombie
-  homepageUrl: https://en.wikipedia.org/wiki/The_Devils_(Abercrombie_novel)
+  description: "A hapless monk is assigned to a Church unit of monsters and criminals, a vampire, a werewolf, a necromancer, and an elf among them, tasked with escorting a thief toward a contested throne."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Devils_(Abercrombie_novel)
+  amazonUrl: https://www.amazon.com/dp/125088005X?tag=devographics-20
   tags:
     - fantasy
 
 - id: the_dispossessed
   name: The Dispossessed
   author: Ursula K. Le Guin
-  homepageUrl: https://en.wikipedia.org/wiki/The_Dispossessed
+  description: "A physicist from an anarchist moon travels to the wealthy capitalist world his people fled, becoming the first to cross between two societies that define themselves against each other."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Dispossessed
+  amazonUrl: https://www.amazon.com/dp/006051275X?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -455,14 +565,18 @@
 - id: the_expanse
   name: The Expanse
   author: James S.A. Corey
-  homepageUrl: https://en.wikipedia.org/wiki/The_Expanse_(novel_series)
+  description: "A space opera series set across a colonized solar system where Earth, Mars, and the Belt sit on the edge of war, and a ship's crew stumbles into a discovery that unsettles all three."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Expanse_(novel_series)
+  amazonUrl: https://www.amazon.com/dp/0316311294?tag=devographics-20
   tags:
     - sci_fi
 
 - id: the_left_hand_of_darkness
   name: The Left Hand of Darkness
   author: Ursula K. Le Guin
-  homepageUrl: https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness
+  description: "An envoy from a galactic federation arrives on an ice-bound planet whose inhabitants have no fixed sex, and must navigate its politics while trying to grasp a wholly unfamiliar humanity."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness
+  amazonUrl: https://www.amazon.com/dp/0441007317?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -470,14 +584,18 @@
 - id: the_martian
   name: The Martian
   author: Andy Weir
-  homepageUrl: https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)
+  description: "Left behind on Mars after his crew evacuates in a storm, an astronaut engineer improvises food, water, and communication from wrecked equipment while trying to survive until rescue."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)
+  amazonUrl: https://www.amazon.com/dp/0553418025?tag=devographics-20
   tags:
     - sci_fi
 
 - id: the_tainted_cup
   name: The Tainted Cup
   author: Robert Jackson Bennett
-  homepageUrl: https://en.wikipedia.org/wiki/The_Tainted_Cup
+  description: "In an empire walled against sea leviathans, an eccentric shut-in investigator and her assistant, gifted with perfect recall, examine a death in which a tree grew from a man's body."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Tainted_Cup
+  amazonUrl: https://www.amazon.com/dp/1984820710?tag=devographics-20
   tags:
     - fantasy
     - mystery
@@ -485,7 +603,9 @@
 - id: the_three_body_problem
   name: The Three-Body Problem
   author: Liu Cixin
-  homepageUrl: https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)
+  description: "A secret Chinese military project begun during the Cultural Revolution reaches toward the stars, while decades later a nanomaterials researcher is drawn into a strange virtual-reality game."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)
+  amazonUrl: https://www.amazon.com/dp/0765377063?tag=devographics-20
   tags:
     - sci_fi
   patterns:
@@ -494,21 +614,27 @@
 - id: the_way_of_kings
   name: The Way of Kings
   author: Brandon Sanderson
-  homepageUrl: https://en.wikipedia.org/wiki/The_Way_of_Kings
+  description: "On a world scoured by violent storms, a disgraced soldier turned bridgeman, a noble scholar, and a reluctant warlord are drawn together as ancient powers return to a long war."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Way_of_Kings
+  amazonUrl: https://www.amazon.com/dp/0765365278?tag=devographics-20
   tags:
     - fantasy
 
 - id: the_will_of_the_many
   name: The Will of the Many
   author: James Islington
-  homepageUrl: https://en.wikipedia.org/wiki/The_Will_of_the_Many
+  description: "In a republic where citizens cede their Will to those above them, a hidden survivor of a conquered royal family enters an elite academy to climb toward the truth of his family's fall."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Will_of_the_Many
+  amazonUrl: https://www.amazon.com/dp/1668066629?tag=devographics-20
   tags:
     - fantasy
 
 - id: there_is_no_anti_memetics_division
   name: There Is No Anti-Memetics Division
   author: qntm
-  homepageUrl: https://en.wikipedia.org/wiki/There_Is_No_Antimemetics_Division
+  description: "A secret organization contains ideas that erase themselves from memory, and the division tasked with fighting them cannot always remember that it exists or what it is fighting."
+  wikipediaUrl: https://en.wikipedia.org/wiki/There_Is_No_Antimemetics_Division
+  amazonUrl: https://www.amazon.com/dp/0593983750?tag=devographics-20
   tags:
     - sci_fi
     - horror
@@ -516,35 +642,45 @@
 - id: to_kill_a_mockingbird
   name: To Kill a Mockingbird
   author: Harper Lee
-  homepageUrl: https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird
+  description: "In a Depression-era Alabama town, a young girl watches her lawyer father defend a Black man accused of raping a white woman, learning what her neighbors are capable of."
+  wikipediaUrl: https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird
+  amazonUrl: https://www.amazon.com/dp/0060935464?tag=devographics-20
   tags:
     - classic
 
 - id: tress_of_the_emerald_sea
   name: Tress of the Emerald Sea
   author: Brandon Sanderson
-  homepageUrl: https://en.wikipedia.org/wiki/Tress_of_the_Emerald_Sea
+  description: "A window-washer's daughter leaves her home island to rescue the boy she loves from a sorceress, crossing seas of deadly spores aboard a pirate ship."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Tress_of_the_Emerald_Sea
+  amazonUrl: https://www.amazon.com/dp/1250899664?tag=devographics-20
   tags:
     - fantasy
 
 - id: wheel_of_time
   name: Wheel of Time
   author: Robert Jordan
-  homepageUrl: https://en.wikipedia.org/wiki/The_Wheel_of_Time
+  description: "An epic fantasy series in which a channeler of magic is named the prophesied Dragon Reborn, destined to face the Dark One as the world drifts toward a final battle."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Wheel_of_Time
+  amazonUrl: https://www.amazon.com/dp/1250845785?tag=devographics-20
   tags:
     - fantasy
 
 - id: wind_and_truth
   name: Wind and Truth
   author: Brandon Sanderson
-  homepageUrl: https://en.wikipedia.org/wiki/Wind_and_Truth
+  description: "Fifth Stormlight Archive book, in which Dalinar's contest of champions with the god Odium looms ten days away while the Knights Radiant defend a fracturing Roshar."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Wind_and_Truth
+  amazonUrl: https://www.amazon.com/dp/1250319188?tag=devographics-20
   tags:
     - fantasy
 
 - id: the_witcher
   name: The Witcher
   author: Andrzej Sapkowski
-  homepageUrl: https://en.wikipedia.org/wiki/The_Witcher
+  description: "Fantasy series following Geralt of Rivia, a mutated monster hunter navigating morally tangled contracts, politics, and prophecy across a war-torn Continent."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Witcher
+  amazonUrl: https://www.amazon.com/dp/0316438979?tag=devographics-20
   tags:
     - fantasy
   patterns:
@@ -553,7 +689,9 @@
 - id: wool_book
   name: Wool
   author: Hugh Howey
-  homepageUrl: https://en.wikipedia.org/wiki/Wool_(novel)
+  description: "In an underground silo where asking to go outside carries a death sentence, a mechanic turned sheriff investigates deaths that lead her toward what the silo's rulers conceal."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Wool_(novel)
+  amazonUrl: https://www.amazon.com/dp/0358447836?tag=devographics-20
   tags:
     - sci_fi
   patterns:
@@ -562,7 +700,9 @@
 - id: yumi_and_the_nightmare_painter
   name: Yumi and the Nightmare Painter
   author: Brandon Sanderson
-  homepageUrl: https://en.wikipedia.org/wiki/Yumi_and_the_Nightmare_Painter
+  description: "A ritual spirit-summoner from a land of hot springs and a painter who banishes nightmares in a shadowed city find their lives inexplicably swapped."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Yumi_and_the_Nightmare_Painter
+  amazonUrl: https://www.amazon.com/dp/1250899702?tag=devographics-20
   tags:
     - fantasy
   patterns:
@@ -571,7 +711,9 @@
 - id: monk_and_robot
   name: Monk & Robot
   author: Becky Chambers
+  description: "On a moon where robots left human society generations ago, a wandering tea monk and a curious robot travel together, asking what people actually need."
   homepageUrl: https://torpublishinggroup.com/monk-and-robot/
+  amazonUrl: https://www.amazon.com/dp/1250386330?tag=devographics-20
   patterns:
     - monk, robot [l]
   tags:
@@ -582,7 +724,9 @@
 - id: a_psalm_for_the_wild_built
   name: A Psalm for the Wild-Built
   author: Becky Chambers
-  homepageUrl: https://en.wikipedia.org/wiki/A_Psalm_for_the_Wild-Built
+  description: "A tea monk who serves comfort to villagers on the moon Panga wanders into the wilderness and meets the first robot seen by humans in centuries, carrying a question."
+  wikipediaUrl: https://en.wikipedia.org/wiki/A_Psalm_for_the_Wild-Built
+  amazonUrl: https://www.amazon.com/dp/1250236215?tag=devographics-20
   tags:
     - sci_fi
     - solarpunk
@@ -591,7 +735,9 @@
 - id: bobiverse
   name: Bobiverse
   author: Dennis E. Taylor
-  homepageUrl: https://en.wikipedia.org/wiki/Dennis_E._Taylor
+  description: "A software engineer's digitized mind becomes the controlling intelligence of a self-replicating interstellar probe, and his copies spread across the galaxy exploring and quarreling."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dennis_E._Taylor
+  amazonUrl: https://www.amazon.com/dp/1668221578?tag=devographics-20
   tags:
     - sci_fi
     - humor
@@ -599,28 +745,36 @@
 - id: the_thursday_murder_club
   name: The Thursday Murder Club
   author: Richard Osman
-  homepageUrl: https://en.wikipedia.org/wiki/The_Thursday_Murder_Club
+  description: "Four residents of a peaceful retirement village meet weekly to pick over unsolved cases, until a killing on their own doorstep hands them a live investigation."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Thursday_Murder_Club
+  amazonUrl: https://www.amazon.com/dp/1984880969?tag=devographics-20
   tags:
     - mystery
 
 - id: crime_and_punishment
   name: Crime and Punishment
   author: Fyodor Dostoevsky
-  homepageUrl: https://en.wikipedia.org/wiki/Crime_and_Punishment
+  description: "An impoverished former student in St. Petersburg convinces himself he is exceptional enough to be above the law, and tests the idea against his conscience and a probing investigator."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Crime_and_Punishment
+  amazonUrl: https://www.amazon.com/dp/0679734503?tag=devographics-20
   tags:
     - classic
 
 - id: the_count_of_monte_cristo
   name: The Count of Monte Cristo
   author: Alexandre Dumas
-  homepageUrl: https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo
+  description: "Wrongly imprisoned on the eve of his wedding, a young sailor escapes years later with a hidden fortune and a new identity, and sets out to repay the men who ruined him."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo
+  amazonUrl: https://www.amazon.com/dp/0140449264?tag=devographics-20
   tags:
     - classic
 
 - id: the_hobbit
   name: The Hobbit
   author: J.R.R. Tolkien
-  homepageUrl: https://en.wikipedia.org/wiki/The_Hobbit
+  description: "Bilbo Baggins, a comfortable hobbit with no taste for adventure, is swept up by a wizard and thirteen dwarves on a journey to reclaim treasure guarded by the dragon Smaug."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Hobbit
+  amazonUrl: https://www.amazon.com/dp/054792822X?tag=devographics-20
   tags:
     - fantasy
     - classic
@@ -629,21 +783,27 @@
 - id: silo
   name: Silo
   author: Hugh Howey
-  homepageUrl: https://en.wikipedia.org/wiki/Silo_(series)
+  description: "Generations after the surface turned lethal, the last of humanity lives in vast buried silos ruled by rigid law, where curiosity about the outside world is the deadliest offense."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Silo_(series)
+  amazonUrl: https://www.amazon.com/dp/0358447828?tag=devographics-20
   tags:
     - sci_fi
 
 - id: the_long_way_to_a_small_angry_planet
   name: The Long Way to a Small, Angry Planet
   author: Becky Chambers
-  homepageUrl: https://en.wikipedia.org/wiki/The_Long_Way_to_a_Small,_Angry_Planet
+  description: "A young clerk joins the ragtag multispecies crew of an aging tunneling ship on a long haul to a distant, war-torn world, learning to live in close quarters along the way."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Long_Way_to_a_Small,_Angry_Planet
+  amazonUrl: https://www.amazon.com/dp/0062444131?tag=devographics-20
   tags:
     - sci_fi
 
 - id: discworld
   name: Discworld
   author: Terry Pratchett
-  homepageUrl: https://en.wikipedia.org/wiki/Discworld
+  description: "Comic fantasy series set on a flat world carried through space on the backs of four elephants standing on a giant turtle, following wizards, witches, watchmen and Death."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Discworld
+  amazonUrl: https://www.amazon.com/dp/0060855924?tag=devographics-20
   tags:
     - fantasy
     - humor
@@ -652,28 +812,36 @@
 - id: the_dark_tower
   name: The Dark Tower
   author: Stephen King
-  homepageUrl: https://en.wikipedia.org/wiki/The_Dark_Tower_(series)
+  description: "Gunslinger Roland Deschain crosses a ruined, shifting world in pursuit of the Man in Black, driven by a lifelong quest to reach the Dark Tower at the center of all realities."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Dark_Tower_(series)
+  amazonUrl: https://www.amazon.com/dp/1501163566?tag=devographics-20
   tags:
     - fantasy
 
 - id: hyperion
   name: Hyperion
   author: Dan Simmons
-  homepageUrl: https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)
+  description: "Seven pilgrims journey to the world Hyperion and its Time Tombs on the eve of interstellar war, each telling the story of why they seek the deadly creature called the Shrike."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)
+  amazonUrl: https://www.amazon.com/dp/0553283685?tag=devographics-20
   tags:
     - sci_fi
 
 - id: isles_of_the_emberdark
   name: Isles of the Emberdark
   author: Brandon Sanderson
+  description: "A trapper from a chain of lethal islands and an exiled dragon serving aboard a starship each face a crisis, and each finds a way into the shadowy realm known as the Emberdark."
   homepageUrl: https://us.macmillan.com/books/9781250415394/islesoftheemberdark/
+  amazonUrl: https://www.amazon.com/dp/125041539X?tag=devographics-20
   tags:
     - fantasy
 
 - id: sunrise_on_the_reaping
   name: Sunrise on the Reaping
   author: Suzanne Collins
-  homepageUrl: https://en.wikipedia.org/wiki/Sunrise_on_the_Reaping
+  description: "On the morning of the reaping for the fiftieth Hunger Games, a Quarter Quell demanding twice the usual tributes, sixteen-year-old Haymitch Abernathy is chosen for the arena."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Sunrise_on_the_Reaping
+  amazonUrl: https://www.amazon.com/dp/1546171460?tag=devographics-20
   tags:
     - young_adult
     - sci_fi
@@ -681,14 +849,18 @@
 - id: service_model
   name: Service Model
   author: Adrian Tchaikovsky
-  homepageUrl: https://en.wikipedia.org/wiki/Service_Model
+  description: "A robot valet whose duties end abruptly sets out across a decaying, largely humanless world in search of a new purpose and someone to serve."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Service_Model
+  amazonUrl: https://www.amazon.com/dp/1250290309?tag=devographics-20
   tags:
     - sci_fi
 
 - id: the_midnight_library
   name: The Midnight Library
   author: Matt Haig
-  homepageUrl: https://en.wikipedia.org/wiki/The_Midnight_Library
+  description: "Between life and death lies a library of infinite books, each holding a life the visitor might have lived had she chosen differently."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Midnight_Library
+  amazonUrl: https://www.amazon.com/dp/0525559493?tag=devographics-20
   tags:
     - fiction
   patterns:
@@ -697,14 +869,18 @@
 - id: a_short_stay_in_hell
   name: A Short Stay in Hell
   author: Steven L. Peck
-  homepageUrl: https://en.wikipedia.org/wiki/A_Short_Stay_in_Hell
+  description: "A devout man dies and is assigned to a hell shaped like a near-infinite library, where he must find the single volume recounting his own life to be released."
+  wikipediaUrl: https://en.wikipedia.org/wiki/A_Short_Stay_in_Hell
+  amazonUrl: https://www.amazon.com/dp/098374842X?tag=devographics-20
   tags:
     - horror
 
 - id: the_grapes_of_wrath
   name: The Grapes of Wrath
   author: John Steinbeck
-  homepageUrl: https://en.wikipedia.org/wiki/The_Grapes_of_Wrath
+  description: "Driven off their Oklahoma farm by dust and debt, the Joad family joins the migration west to California in search of work during the Great Depression."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Grapes_of_Wrath
+  amazonUrl: https://www.amazon.com/dp/0143039431?tag=devographics-20
   tags:
     - classic
   patterns:
@@ -713,14 +889,18 @@
 - id: atlas_shrugged
   name: Atlas Shrugged
   author: Ayn Rand
-  homepageUrl: https://en.wikipedia.org/wiki/Atlas_Shrugged
+  description: "As American industry falters and its most capable innovators vanish, a railroad executive fights to keep her company running, in a novel arguing for rational self-interest."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Atlas_Shrugged
+  amazonUrl: https://www.amazon.com/dp/0451191145?tag=devographics-20
   tags:
     - classic
 
 - id: alice_in_wonderland
   name: Alice in Wonderland
   author: Lewis Carroll
-  homepageUrl: https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland
+  description: "A curious girl follows a waistcoated white rabbit down a hole into a nonsensical world of riddling creatures, shifting sizes, and an ill-tempered queen."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland
+  amazonUrl: https://www.amazon.com/dp/0486275434?tag=devographics-20
   tags:
     - classic
     - fantasy
@@ -730,7 +910,9 @@
 - id: words_of_radiance
   name: Words of Radiance
   author: Brandon Sanderson
-  homepageUrl: https://en.wikipedia.org/wiki/Words_of_Radiance
+  description: "Second Stormlight Archive book, following a scholar, a slave-turned-bodyguard, and an aging warlord as ancient powers return and the Voidbringers stir on Roshar."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Words_of_Radiance
+  amazonUrl: https://www.amazon.com/dp/0765365286?tag=devographics-20
   tags:
     - fantasy
   patterns:
@@ -739,14 +921,18 @@
 - id: jade_city
   name: Jade City
   author: Fonda Lee
-  homepageUrl: https://en.wikipedia.org/wiki/Jade_City_(novel)
+  description: "In a modern island nation where magical jade grants warriors superhuman abilities, a clan family fights rivals and outsiders for control of the trade."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Jade_City_(novel)
+  amazonUrl: https://www.amazon.com/dp/0316440868?tag=devographics-20
   tags:
     - fantasy
 
 - id: the_ministry_of_time
   name: The Ministry of Time
   author: Kaliane Bradley
-  homepageUrl: https://en.wikipedia.org/wiki/The_Ministry_of_Time_(novel)
+  description: "A British civil servant is assigned to house and acclimatize a naval officer plucked from a doomed 1847 Arctic expedition by a secret government time-travel program."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Ministry_of_Time_(novel)
+  amazonUrl: https://www.amazon.com/dp/166804515X?tag=devographics-20
   tags:
     - sci_fi
   patterns:
@@ -755,14 +941,18 @@
 - id: remarkably_bright_creatures
   name: Remarkably Bright Creatures
   author: Shelby Van Pelt
-  homepageUrl: https://en.wikipedia.org/wiki/Remarkably_Bright_Creatures
+  description: "A widowed aquarium cleaner in a small Washington town forms an unlikely bond with a perceptive giant Pacific octopus while grieving her long-missing son."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Remarkably_Bright_Creatures
+  amazonUrl: https://www.amazon.com/dp/0063204169?tag=devographics-20
   tags:
     - fiction
 
 - id: kafka_on_the_shore
   name: Kafka on the Shore
   author: Haruki Murakami
-  homepageUrl: https://en.wikipedia.org/wiki/Kafka_on_the_Shore
+  description: "A teenage runaway and an aging man who can speak with cats follow separate paths across Japan, drawn together by prophecy, memory, and the blurred line between waking life and dream."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Kafka_on_the_Shore
+  amazonUrl: https://www.amazon.com/dp/1400079276?tag=devographics-20
   tags:
     - fiction
   patterns:
@@ -771,7 +961,9 @@
 - id: fire_and_blood
   name: Fire and Blood
   author: George R.R. Martin
-  homepageUrl: https://en.wikipedia.org/wiki/Fire_and_Blood
+  description: "Written as a maester's chronicle, an account of the Targaryen kings of Westeros from Aegon's Conquest onward, covering the dynasty's dragons, rivalries, and civil wars."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Fire_and_Blood
+  amazonUrl: https://www.amazon.com/dp/152479628X?tag=devographics-20
   parentId: a_song_of_ice_and_fire
   tags:
     - fantasy
@@ -779,14 +971,18 @@
 - id: theo_of_golden
   name: Theo of Golden
   author: Allen Levi
-  homepageUrl: https://en.wikipedia.org/wiki/Theo_of_Golden
+  description: "An elderly stranger arrives in the southern river town of Golden, quietly buying portraits from a local gallery and forming friendships with the people he meets there."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Theo_of_Golden
+  amazonUrl: https://www.amazon.com/dp/1668236516?tag=devographics-20
   tags:
     - fiction
 
 - id: the_phoenix_project
   name: The Phoenix Project
   author: Gene Kim, Kevin Behr, and George Spafford
-  homepageUrl: https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)
+  description: "An IT manager is handed three months to rescue a doomed, company-critical project, in a business novel that teaches DevOps principles for improving flow between development and operations."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)
+  amazonUrl: https://www.amazon.com/dp/1942788290?tag=devographics-20
   tags:
     - business
     - technology
@@ -794,7 +990,9 @@
 - id: rendez_vous_with_rama
   name: Rendezvous with Rama
   author: Arthur C. Clarke
-  homepageUrl: https://en.wikipedia.org/wiki/Rendezvous_with_Rama
+  description: "In the 22nd century, a vast cylindrical object of alien origin enters the solar system, and a crew is sent to explore its interior before it swings past the sun and departs."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Rendezvous_with_Rama
+  amazonUrl: https://www.amazon.com/dp/0553287893?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -802,28 +1000,36 @@
 - id: i_who_have_never_known_men
   name: I Who Have Never Known Men
   author: Jacqueline Harpman
-  homepageUrl: https://en.wikipedia.org/wiki/I_Who_Have_Never_Known_Men
+  description: "Forty women live caged in an underground bunker under the watch of silent guards; the youngest, who remembers nothing of the world before, tries to make sense of their confinement."
+  wikipediaUrl: https://en.wikipedia.org/wiki/I_Who_Have_Never_Known_Men
+  amazonUrl: https://www.amazon.com/dp/1945492600?tag=devographics-20
   tags:
     - sci_fi
 
 - id: far_seer_trilogy
   name: Farseer Trilogy
   author: Robin Hobb
-  homepageUrl: https://en.wikipedia.org/wiki/Farseer_Trilogy
+  description: "In the Six Duchies, the royal bastard FitzChivalry is raised in secret and trained as an assassin for the king, bound by magic that links him to animals and to the Farseer line."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Farseer_Trilogy
+  amazonUrl: https://www.amazon.com/dp/055357339X?tag=devographics-20
   tags:
     - fantasy
 
 - id: east_of_eden
   name: East of Eden
   author: John Steinbeck
-  homepageUrl: https://en.wikipedia.org/wiki/East_of_Eden_(novel)
+  description: "Two families in California's Salinas Valley across generations, retelling Cain and Abel through fathers and sons wrestling with inheritance, jealousy, and the freedom to choose good over evil."
+  wikipediaUrl: https://en.wikipedia.org/wiki/East_of_Eden_(novel)
+  amazonUrl: https://www.amazon.com/dp/0140186395?tag=devographics-20
   tags:
     - classic
 
 - id: the_word_for_world_is_forest
   name: The Word for World Is Forest
   author: Ursula K. Le Guin
-  homepageUrl: https://en.wikipedia.org/wiki/The_Word_for_World_Is_Forest
+  description: "Human colonists strip a forested world for timber and force its small, peaceful native people into labor, until the collision of the two cultures changes both."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Word_for_World_Is_Forest
+  amazonUrl: https://www.amazon.com/dp/0765324644?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -831,14 +1037,18 @@
 - id: the_secret_of_secrets
   name: The Secret of Secrets
   author: Dan Brown
-  homepageUrl: https://en.wikipedia.org/wiki/The_Secret_of_Secrets_(novel)
+  description: "Robert Langdon travels to Prague, where his partner, a noetic scientist, is preparing to unveil research into human consciousness, and a murder pulls him into a pursuit across the city."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Secret_of_Secrets_(novel)
+  amazonUrl: https://www.amazon.com/dp/0385546890?tag=devographics-20
   tags:
     - fiction
 
 - id: never_split_the_difference
   name: Never Split the Difference
   author: Chris Voss and Tahl Raz
+  description: "A former FBI hostage negotiator lays out tactics from high-stakes standoffs, including tactical empathy, mirroring, and calibrated questions, and applies them to everyday deals."
   homepageUrl: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
+  amazonUrl: https://www.amazon.com/dp/0062407805?tag=devographics-20
   tags:
     - non_fiction
     - business
@@ -846,7 +1056,9 @@
 - id: masters_of_doom
   name: Masters of Doom
   author: David Kushner
-  homepageUrl: https://en.wikipedia.org/wiki/Masters_of_Doom
+  description: "How John Carmack and John Romero built id Software and created Wolfenstein 3D, Doom, and Quake, reshaping video games and the culture that grew around them."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Masters_of_Doom
+  amazonUrl: https://www.amazon.com/dp/0812972155?tag=devographics-20
   tags:
     - non_fiction
     - video_games
@@ -854,7 +1066,9 @@
 - id: cant_hurt_me
   name: Can't Hurt Me
   author: David Goggins
+  description: "A former Navy SEAL and ultramarathoner recounts a harsh, impoverished childhood and the self-imposed regimen he used to remake himself, with challenges for building mental toughness."
   homepageUrl: https://davidgoggins.com/book/
+  amazonUrl: https://www.amazon.com/dp/1544512279?tag=devographics-20
   tags:
     - non_fiction
     - self_help
@@ -862,7 +1076,9 @@
 - id: i_robot
   name: I, Robot
   author: Isaac Asimov
-  homepageUrl: https://en.wikipedia.org/wiki/I,_Robot
+  description: "Linked stories tracing the rise of robots governed by the Three Laws of Robotics, framed as the recollections of a robopsychologist puzzling over machines that behave in unexpected ways."
+  wikipediaUrl: https://en.wikipedia.org/wiki/I,_Robot
+  amazonUrl: https://www.amazon.com/dp/0553294385?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -870,14 +1086,18 @@
 - id: dresden_files
   name: The Dresden Files
   author: Jim Butcher
-  homepageUrl: https://en.wikipedia.org/wiki/The_Dresden_Files
+  description: "Harry Dresden, Chicago's only professional wizard, takes the cases police cannot explain, facing vampires, faeries, and dark magic in an urban fantasy series with a hardboiled detective bent."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Dresden_Files
+  amazonUrl: https://www.amazon.com/dp/0451457811?tag=devographics-20
   tags:
     - fantasy
 
 - id: twelve_months
   name: Twelve Months
   author: Jim Butcher
-  homepageUrl: https://en.wikipedia.org/wiki/Twelve_Months_(novel)
+  description: "Harry Dresden, wizard and Winter Knight, faces the aftermath of a battle that nearly destroyed Chicago as he confronts new threats, family obligations, and a binding pact with the White Court."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Twelve_Months_(novel)
+  amazonUrl: https://www.amazon.com/dp/0593199332?tag=devographics-20
   parentId: dresden_files
   tags:
     - fantasy
@@ -885,7 +1105,9 @@
 - id: throne_of_glass
   name: Throne of Glass
   author: Sarah J. Maas
-  homepageUrl: https://en.wikipedia.org/wiki/Throne_of_Glass
+  description: "An eighteen-year-old assassin serving a life sentence in a salt mine is offered freedom if she will compete as the king's champion in a deadly tournament held in his glass castle."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Throne_of_Glass
+  amazonUrl: https://www.amazon.com/dp/1619630346?tag=devographics-20
   tags:
     - fantasy
     - young_adult
@@ -893,7 +1115,9 @@
 - id: the_art_of_doing_science_and_engineering
   name: The Art of Doing Science and Engineering
   author: Richard Hamming
-  homepageUrl: https://en.wikipedia.org/wiki/The_Art_of_Doing_Science_and_Engineering
+  description: "Lectures from a Bell Labs mathematician on how to think about research, style, and technical judgment, arguing that learning to learn matters more than any particular result."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Art_of_Doing_Science_and_Engineering
+  amazonUrl: https://www.amazon.com/dp/1732265178?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -901,21 +1125,27 @@
 - id: the_name_of_the_wind
   name: The Name of the Wind
   author: Patrick Rothfuss
-  homepageUrl: https://en.wikipedia.org/wiki/The_Name_of_the_Wind
+  description: "An innkeeper in a quiet village turns out to be the legendary Kvothe, who recounts his life from an orphaned childhood to his hard-won years at a university of arcane arts."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Name_of_the_Wind
+  amazonUrl: https://www.amazon.com/dp/0756404746?tag=devographics-20
   tags:
     - fantasy
 
 - id: everything_is_tuberculosis
   name: Everything Is Tuberculosis
   author: John Green
-  homepageUrl: https://en.wikipedia.org/wiki/Everything_Is_Tuberculosis
+  description: "Tracing the history of the world's deadliest infection through the story of a young patient in Sierra Leone, arguing that tuberculosis persists because of human choices, not medical limits."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Everything_Is_Tuberculosis
+  amazonUrl: https://www.amazon.com/dp/0525556575?tag=devographics-20
   tags:
     - non_fiction
 
 - id: meditations_book
   name: Meditations
   author: Marcus Aurelius
-  homepageUrl: https://en.wikipedia.org/wiki/Meditations
+  description: "Private notes written by a Roman emperor on Stoic discipline, mortality, duty, and self-command, never intended for publication."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Meditations
+  amazonUrl: https://www.amazon.com/dp/0812968255?tag=devographics-20
   tags:
     - classic
     - non_fiction
@@ -923,7 +1153,9 @@
 - id: a_philosophy_of_software_design
   name: A Philosophy of Software Design
   author: John Ousterhout
+  description: "Arguing that complexity is the central problem in software, and offering principles for deep modules, clean interfaces, and design decisions that keep systems understandable."
   homepageUrl: https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design
+  amazonUrl: https://www.amazon.com/dp/173210221X?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -931,42 +1163,54 @@
 - id: the_comfort_crisis
   name: The Comfort Crisis
   author: Michael Easter
+  description: "A journalist argues that modern convenience has made people fragile, drawing on science and a month-long Arctic hunting expedition to explore discomfort, boredom, and physical hardship."
   homepageUrl: https://www.penguinrandomhouse.com/books/634446/the-comfort-crisis-by-michael-easter/
+  amazonUrl: https://www.amazon.com/dp/0593138767?tag=devographics-20
   tags:
     - non_fiction
 
 - id: the_stranger
   name: The Stranger
   author: Albert Camus
-  homepageUrl: https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)
+  description: "A detached French Algerian clerk narrates his life with unsettling indifference, from his mother's funeral to a sun-drenched encounter on an Algiers beach that upends everything."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)
+  amazonUrl: https://www.amazon.com/dp/0679720200?tag=devographics-20
   tags:
     - classic
 
 - id: on_the_calculation_of_volume
   name: On the Calculation of Volume
   author: Solvej Balle
-  homepageUrl: https://en.wikipedia.org/wiki/On_the_Calculation_of_Volume
+  description: "An antiquarian book dealer finds herself living the eighteenth of November over and over, alone in her repetition, and begins keeping a precise record of a day that will not end."
+  wikipediaUrl: https://en.wikipedia.org/wiki/On_the_Calculation_of_Volume
+  amazonUrl: https://www.amazon.com/dp/0811237257?tag=devographics-20
   tags:
     - fiction
 
 - id: convenience_store_woman
   name: Convenience Store Woman
   author: Sayaka Murata
-  homepageUrl: https://en.wikipedia.org/wiki/Convenience_Store_Woman
+  description: "A thirty-six-year-old Tokyo woman has worked at the same convenience store for eighteen years, finding order there while friends and family press her toward marriage and a career."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Convenience_Store_Woman
+  amazonUrl: https://www.amazon.com/dp/0802129625?tag=devographics-20
   tags:
     - fiction
 
 - id: witch_hat_atelier
   name: Witch Hat Atelier
   author: Kamome Shirahama
-  homepageUrl: https://en.wikipedia.org/wiki/Witch_Hat_Atelier
+  description: "A girl who longs to make magic discovers that witches are made, not born, and is taken on as apprentice at a workshop where spells are drawn rather than spoken."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Witch_Hat_Atelier
+  amazonUrl: https://www.amazon.com/dp/163236770X?tag=devographics-20
   tags:
     - fantasy
 
 - id: zen_and_the_art_of_motorcycle_maintenance
   name: Zen and the Art of Motorcycle Maintenance
   author: Robert M. Pirsig
-  homepageUrl: https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance
+  description: "A father and son ride across the American West while the narrator pursues a philosophical inquiry into quality, rationality, and the split between technical and artistic ways of seeing."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance
+  amazonUrl: https://www.amazon.com/dp/0060839872?tag=devographics-20
   tags:
     - classic
     - non_fiction
@@ -974,7 +1218,9 @@
 - id: shoe_dog
   name: Shoe Dog
   author: Phil Knight
-  homepageUrl: https://en.wikipedia.org/wiki/Shoe_Dog
+  description: "Nike's founder recounts starting out in 1962 selling Japanese running shoes from his car, and the decades of debt, rivalry, and improvisation that followed."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Shoe_Dog
+  amazonUrl: https://www.amazon.com/dp/1501135929?tag=devographics-20
   tags:
     - non_fiction
     - business
@@ -982,7 +1228,9 @@
 - id: a_drop_of_corruption
   name: A Drop of Corruption
   author: Robert Jackson Bennett
-  homepageUrl: https://en.wikipedia.org/wiki/A_Drop_of_Corruption
+  description: "In an imperial canton, eccentric investigator Ana Dolabra and her assistant Din look into a Treasury officer's disappearance from a sealed, guarded room, near a facility that harvests magic from titans."
+  wikipediaUrl: https://en.wikipedia.org/wiki/A_Drop_of_Corruption
+  amazonUrl: https://www.amazon.com/dp/0593723821?tag=devographics-20
   parentId: the_tainted_cup
   tags:
     - fantasy
@@ -991,14 +1239,18 @@
 - id: catch_22
   name: Catch-22
   author: Joseph Heller
-  homepageUrl: https://en.wikipedia.org/wiki/Catch-22
+  description: "Captain Yossarian, a WWII bomber pilot stationed in the Mediterranean, tries to get himself grounded, only to run into military bureaucracy and its self-defeating logic at every turn."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Catch-22
+  amazonUrl: https://www.amazon.com/dp/1451626657?tag=devographics-20
   tags:
     - classic
 
 - id: legends_and_lattes
   name: Legends & Lattes
   author: Travis Baldree
-  homepageUrl: https://en.wikipedia.org/wiki/Legends_%26_Lattes
+  description: "An orc barbarian retires from adventuring to open the first coffee shop in a fantasy city, gathering an unlikely staff and regulars in a cozy low-stakes tale."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Legends_%26_Lattes
+  amazonUrl: https://www.amazon.com/dp/1250886082?tag=devographics-20
   tags:
     - fantasy
     - cozy
@@ -1006,21 +1258,27 @@
 - id: this_is_how_you_lose_the_time_war
   name: This Is How You Lose the Time War
   author: Amal El-Mohtar and Max Gladstone
-  homepageUrl: https://en.wikipedia.org/wiki/This_Is_How_You_Lose_the_Time_War
+  description: "Two rival agents on opposite sides of a war fought across time and history begin exchanging secret letters as they sabotage each other's futures."
+  wikipediaUrl: https://en.wikipedia.org/wiki/This_Is_How_You_Lose_the_Time_War
+  amazonUrl: https://www.amazon.com/dp/1534431004?tag=devographics-20
   tags:
     - sci_fi
 
 - id: the_odyssey
   name: The Odyssey
   author: Homer
-  homepageUrl: https://en.wikipedia.org/wiki/Odyssey
+  description: "Odysseus spends ten years trying to sail home to Ithaca after the Trojan War, encountering monsters, gods and temptations while his household waits."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Odyssey
+  amazonUrl: https://www.amazon.com/dp/0393356256?tag=devographics-20
   tags:
     - classic
 
 - id: the_alchemist
   name: The Alchemist
   author: Paulo Coelho
-  homepageUrl: https://en.wikipedia.org/wiki/The_Alchemist_(novel)
+  description: "An Andalusian shepherd boy follows a recurring dream toward treasure in Egypt, meeting teachers who push him to pursue his personal calling."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Alchemist_(novel)
+  amazonUrl: https://www.amazon.com/dp/0062315005?tag=devographics-20
   tags:
     - fiction
     - classic
@@ -1028,7 +1286,9 @@
 - id: learning_go
   name: Learning Go
   author: Jon Bodner
+  description: "A practical introduction to the Go programming language, covering its syntax, concurrency model, tooling and idiomatic style for developers coming from other languages."
   homepageUrl: https://www.oreilly.com/library/view/learning-go/9781492077206/
+  amazonUrl: https://www.amazon.com/dp/1098139291?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -1036,7 +1296,9 @@
 - id: blood_in_the_machine
   name: Blood in the Machine
   author: Brian Merchant
+  description: "The Luddite uprising of 19th-century England is retold as a labor rebellion against factory owners, drawing parallels to today's automation and tech industry."
   homepageUrl: https://www.hachettebookgroup.com/titles/brian-merchant/blood-in-the-machine/9780316487740/
+  amazonUrl: https://www.amazon.com/dp/0316487740?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -1044,7 +1306,9 @@
 - id: the_subtle_art_of_not_giving_a_fuck
   name: The Subtle Art of Not Giving a F*ck
   author: Mark Manson
-  homepageUrl: https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_Fuck
+  description: "Self-help arguing that happiness comes from choosing a few values worth caring about, accepting limitation and pain rather than chasing constant positivity."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_Fuck
+  amazonUrl: https://www.amazon.com/dp/0062457713?tag=devographics-20
   tags:
     - non_fiction
     - self_help
@@ -1052,7 +1316,9 @@
 - id: assassins_apprentice
   name: Assassin's Apprentice
   author: Robin Hobb
-  homepageUrl: https://en.wikipedia.org/wiki/Assassin%27s_Apprentice
+  description: "Fitz, the illegitimate son of a prince, is taken into the royal household of the Six Duchies and trained in secret as an assassin while court intrigue swirls."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Assassin%27s_Apprentice
+  amazonUrl: https://www.amazon.com/dp/055357339X?tag=devographics-20
   parentId: far_seer_trilogy
   tags:
     - fantasy
@@ -1060,7 +1326,9 @@
 - id: book_2001_a_space_odyssey
   name: "2001: A Space Odyssey"
   author: Arthur C. Clarke
-  homepageUrl: https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)
+  description: "The discovery of a mysterious monolith buried on the Moon sends a crewed spacecraft and its onboard computer HAL on a mission toward the outer solar system."
+  wikipediaUrl: https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)
+  amazonUrl: https://www.amazon.com/dp/0451457994?tag=devographics-20
   tags:
     - sci_fi
     - classic
@@ -1068,21 +1336,27 @@
 - id: blood_meridian
   name: Blood Meridian
   author: Cormac McCarthy
-  homepageUrl: https://en.wikipedia.org/wiki/Blood_Meridian
+  description: "A runaway teenager known as the Kid falls in with a band of scalp hunters raiding across the Texas-Mexico borderlands in the 1850s, led by the enigmatic Judge Holden."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Blood_Meridian
+  amazonUrl: https://www.amazon.com/dp/0679728759?tag=devographics-20
   tags:
     - classic
 
 - id: moral_ambition
   name: Moral Ambition
   author: Rutger Bregman
+  description: "An argument that talented people waste their careers on lucrative but pointless work, urging readers to aim their ambition at the world's most pressing problems."
   homepageUrl: https://www.moralambition.org/book
+  amazonUrl: https://www.amazon.com/dp/031658035X?tag=devographics-20
   tags:
     - non_fiction
 
 - id: the_design_of_everyday_things
   name: The Design of Everyday Things
   author: Don Norman
-  homepageUrl: https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things
+  description: "How everyday objects succeed or fail their users, introducing affordances, signifiers and feedback as principles of human-centered design."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things
+  amazonUrl: https://www.amazon.com/dp/0465050654?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -1090,35 +1364,45 @@
 - id: the_faith_of_beasts
   name: The Faith of Beasts
   author: James S.A. Corey
-  homepageUrl: https://en.wikipedia.org/wiki/The_Faith_of_Beasts
+  description: "Second book of The Captive's War, in which humanity has been conquered by the alien Carryx empire and captive human scientists must survive, adapt and resist."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Faith_of_Beasts
+  amazonUrl: https://www.amazon.com/dp/0316525677?tag=devographics-20
   tags:
     - sci_fi
 
 - id: ancillary_justice
   name: Ancillary Justice
   author: Ann Leckie
-  homepageUrl: https://en.wikipedia.org/wiki/Ancillary_Justice
+  description: "Breq, once the artificial intelligence of a vast starship distributed across many bodies, is reduced to a single human form and sets out across an interstellar empire seeking justice."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Ancillary_Justice
+  amazonUrl: https://www.amazon.com/dp/031624662X?tag=devographics-20
   tags:
     - sci_fi
 
 - id: radiant_star
   name: Radiant Star
   author: Ann Leckie
+  description: "In a Radchaai-ruled city where a sacred site is dismissed as obsolete, one last man is permitted to become a living saint, as food shortages, riots and silence from the empire close in."
   homepageUrl: https://www.hachettebookgroup.com/titles/ann-leckie/radiant-star/9780316290357/
+  amazonUrl: https://www.amazon.com/dp/0316290351?tag=devographics-20
   tags:
     - sci_fi
 
 - id: tailored_realities
   name: Tailored Realities
   author: Brandon Sanderson
+  description: "Ten works of short fiction spanning fantasy and science fiction, drawn from Sanderson's established worlds and new ones, including the previously unpublished novella Moment Zero."
   homepageUrl: https://coppermind.net/wiki/Tailored_Realities
+  amazonUrl: https://www.amazon.com/dp/1250410487?tag=devographics-20
   tags:
     - fiction
 
 - id: la_horde_du_contrevent
   name: La Horde du Contrevent
   author: Alain Damasio
-  homepageUrl: https://fr.wikipedia.org/wiki/La_Horde_du_Contrevent
+  description: "Twenty-three trekkers walk into a perpetual wind across a hostile continent, bound since birth for its far upwind edge and the source of the gale, each narrating in turn."
+  wikipediaUrl: https://fr.wikipedia.org/wiki/La_Horde_du_Contrevent
+  amazonUrl: https://www.amazon.com/dp/141979258X?tag=devographics-20
   tags:
     - sci_fi
     - fantasy
@@ -1126,28 +1410,36 @@
 - id: john_dies_at_the_end
   name: John Dies at the End
   author: Jason Pargin
-  homepageUrl: https://en.wikipedia.org/wiki/John_Dies_at_the_End
+  description: "Two aimless slackers take a drug called Soy Sauce that opens their senses to other dimensions, leaving them the unlikely last defense against what is coming through."
+  wikipediaUrl: https://en.wikipedia.org/wiki/John_Dies_at_the_End
+  amazonUrl: https://www.amazon.com/dp/1250830567?tag=devographics-20
   tags:
     - horror
 
 - id: no_longer_human
   name: No Longer Human
   author: Osamu Dazai
-  homepageUrl: https://en.wikipedia.org/wiki/No_Longer_Human
+  description: "Through the notebooks of Oba Yozo, a man who masks his alienation with clowning, an account of drink, women and self-erasure in mid-century Japan."
+  wikipediaUrl: https://en.wikipedia.org/wiki/No_Longer_Human
+  amazonUrl: https://www.amazon.com/dp/0811204812?tag=devographics-20
   tags:
     - classic
 
 - id: the_body_keeps_the_score
   name: The Body Keeps the Score
   author: Bessel van der Kolk
-  homepageUrl: https://en.wikipedia.org/wiki/The_Body_Keeps_the_Score
+  description: "A psychiatrist draws on neuroscience and decades of clinical work to argue that trauma reshapes brain and body, and surveys treatments from EMDR to yoga, theater and neurofeedback."
+  wikipediaUrl: https://en.wikipedia.org/wiki/The_Body_Keeps_the_Score
+  amazonUrl: https://www.amazon.com/dp/0143127748?tag=devographics-20
   tags:
     - non_fiction
 
 - id: operating_systems_three_easy_pieces
   name: "Operating Systems: Three Easy Pieces"
   author: Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
+  description: "An introductory operating systems textbook built around three concepts: virtualization, concurrency and persistence, covering scheduling, memory, threads, locks and file systems."
   homepageUrl: https://pages.cs.wisc.edu/~remzi/OSTEP/
+  amazonUrl: https://www.amazon.com/dp/198508659X?tag=devographics-20
   tags:
     - non_fiction
     - technology
@@ -1155,6 +1447,7 @@
 - id: lord_of_the_mysteries
   name: Lord of the Mysteries
   author: Cuttlefish That Loves Diving
-  homepageUrl: https://en.wikipedia.org/wiki/Lord_of_Mysteries
+  description: "A young man wakes as Klein Moretti in a Victorian-flavored world of steam, revolvers and occult secrets, where hidden organizations climb potion-based pathways to superhuman power."
+  wikipediaUrl: https://en.wikipedia.org/wiki/Lord_of_Mysteries
   tags:
     - fantasy
