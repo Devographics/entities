@@ -1,3 +1,22 @@
+# - id: climate_change
+# - id: global_pandemics
+# - id: refugees_immigration
+# - id: healthcare_access
+# - id: geopolitical_tensions
+# - id: ai_threats
+# - id: erosion_traditional_values
+# - id: lack_of_free_speech
+# - id: globalization
+# - id: rising_authoritarianism
+
+- id: economic_inequality
+
+- id: rising_intolerance
+  patterns:
+    - rising, intolerance [l]
+
+- id: social_isolation
+
 - id: trump
 
 - id: war_and_conflict
@@ -24,7 +43,11 @@
   patterns:
     - russia
 
+- id: surveillance
+
 - id: misinformation
+  tags:
+    - ai_risks
 
 - id: economic_inequality
 
@@ -45,3 +68,12 @@
     - antisemitism
 
 - id: education_decline
+
+- id: animal_rights
+  patterns:
+    - animal
+
+- id: declining_population
+  patterns:
+    - declining, population [l]
+    - birth( )?rate(s)?

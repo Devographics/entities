@@ -4,7 +4,12 @@
 
 - id: depends_on_role
   patterns:
-    - depends
+    - depends, role [l]
+
+- id: depends_on_client
+  patterns:
+    - depends, client [l]
+    - depends, customer [l]
 
 - id: unemployed
 
@@ -17,6 +22,8 @@
     - consultant
 
 - id: remote_based_on_distance
+  patterns:
+    - proximity
 
 - id: remote_first
 
@@ -28,3 +35,7 @@
 - id: remote_for_developer_roles
   patterns:
     - developers
+
+- id: work_from_home
+  patterns:
+    - home

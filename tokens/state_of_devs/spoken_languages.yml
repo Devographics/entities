@@ -3,11 +3,13 @@
     - englisch
     - anglais
     - ingles
+    - engish
 
 - id: french
   patterns:
     - français
     - francais
+    - france
 
 - id: chinese
 
@@ -103,3 +105,26 @@
 - id: american_sign_language
   patterns:
     - asl
+
+- id: guarani
+- id: nepali
+- id: urdu
+
+- id: valencian
+- id: yoruba
+- id: igbo
+
+- id: hokkien
+- id: hakka
+
+- id: bangla
+
+- id: cebuano
+- id: georgian
+
+- id: toki_pona
+
+- id: uzbek
+
+- id: welsh
+- id: yiddish

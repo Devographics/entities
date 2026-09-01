@@ -25,3 +25,11 @@
 
 - id: wii
   name: wii
+
+- id: steam_machine
+  name: Steam Machine
+
+- id: retro_hand_helds
+  name: Retro Handhelds
+  patterns:
+    - retro

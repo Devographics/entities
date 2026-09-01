@@ -48,3 +48,5 @@
     - head( )?hunted
 
 - id: unemployed
+  patterns:
+    - jobless

@@ -1,0 +1,6 @@
+- id: customer_support
+
+- id: ui_ux_design
+  patterns:
+    - ui
+    - ux

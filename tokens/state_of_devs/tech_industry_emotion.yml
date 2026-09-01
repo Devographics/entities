@@ -1,0 +1,46 @@
+- id: overwhelmed
+  tags:
+    - negative_sentiment
+- id: disillusioned
+  tags:
+    - negative_sentiment
+- id: angry
+  tags:
+    - negative_sentiment
+- id: exhausted
+  tags:
+    - negative_sentiment
+- id: anxious
+  tags:
+    - negative_sentiment
+- id: excited
+  tags:
+    - positive_sentiment
+- id: curious
+  tags:
+    - positive_sentiment
+- id: hopeful
+  tags:
+    - positive_sentiment
+- id: engaged
+  tags:
+    - positive_sentiment
+- id: motivated
+  tags:
+    - positive_sentiment
+
+- id: annoyed
+- id: bored
+- id: cynical
+- id: frustrated
+- id: grieving
+- id: indifferent
+- id: jaded
+- id: sad
+- id: worried
+
+- id: apathetic
+
+- id: disappointed
+
+- id: disgusted

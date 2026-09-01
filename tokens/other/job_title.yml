@@ -50,6 +50,14 @@
   patterns:
     - head, it [l]
 
+- id: head_of_tech
+  patterns:
+    - head, tech [l]
+
+- id: head_of_software
+  patterns:
+    - head, software [l]
+
 # architect
 
 - id: software_architect
@@ -90,6 +98,8 @@
     - engineer
     - engeneer
     - ingeniero
+    - ingénieur
+    - swe
 
 - id: frontend_engineer
   patterns:
@@ -116,6 +126,7 @@
 - id: senior_engineer
   patterns:
     - senior, engineer [l]
+    - senior, swe [l]
 
 - id: lead_engineer
   patterns:
@@ -189,6 +200,11 @@
   patterns:
     - senior, programmer [l]
 
+# it
+- id: it_specialist
+  patterns:
+    - it, specialist [l]
+
 # manager
 
 - id: manager
@@ -220,3 +236,15 @@
 - id: research_assistant
 
 - id: researcher
+
+- id: member_of_technical_staff
+  patterns:
+    - member, staff [l]
+
+- id: senior_member_of_technical_staff
+  patterns:
+    - senior, member, staff [l]
+
+- id: president
+
+- id: principal

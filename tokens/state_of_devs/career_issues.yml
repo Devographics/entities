@@ -3,6 +3,9 @@
     - bored
     - boreout
     - bore-out
+  tags:
+    - workplace_difficulties
+    - workplace_burnout
 
 - id: gaslighting
 
@@ -34,3 +37,11 @@
     - workplace_difficulties
   patterns:
     - rto
+
+- id: ai_fatigue
+  patterns:
+    - ai
+    - llm
+  tags:
+    - workplace_difficulties
+    - workplace_burnout

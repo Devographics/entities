@@ -1,8 +1,9 @@
 - id: non_alcoholic_beer
   name: Non-alcoholic beer
   patterns:
-    - non-alc beer
-    - alcohol-free beer
+    - non(-| )alc beer
+    - non(-| )alcohol beer
+    - alcohol(-| )free beer
 
 - id: bubble_tea
   name: Bubble tea
@@ -23,6 +24,8 @@
 
 - id: protein_shake
   name: Protein shake
+  patterns:
+    - protein shakes
 
 - id: still_water
   name: Water
@@ -30,6 +33,9 @@
     - still water
     - tap water
     - water [e]
+    - flat water
+    - just water
+    - regular water
 
 - id: drink_wine
   name: Wine

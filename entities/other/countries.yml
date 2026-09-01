@@ -1,3 +1,20 @@
+- id: COL
+  normalizationOnly: true
+  patterns:
+    - colombia
+- id: SVN
+  normalizationOnly: true
+  patterns:
+    - slovenia
+- id: ALB
+  normalizationOnly: true
+  patterns:
+    - albania
+- id: ATA
+  normalizationOnly: true
+  patterns:
+    - antarctica
+    - antartica
 - id: JPN
   normalizationOnly: true
   patterns:
@@ -9,7 +26,7 @@
 - id: NZL
   normalizationOnly: true
   patterns:
-    - new_zealand
+    - new ze(a)?land
 - id: DEU
   normalizationOnly: true
   patterns:
@@ -132,7 +149,7 @@
 - id: CRI
   normalizationOnly: true
   patterns:
-    - costa_rica
+    - costa rica
 - id: POL
   normalizationOnly: true
   patterns:
@@ -193,8 +210,15 @@
   normalizationOnly: true
   patterns:
     - india
+
 - id: CZE
   normalizationOnly: true
   patterns:
     - czechia
-    - czech_republic
+    - czech republic
+    - czech
+
+- id: MYS
+  normalizationOnly: true
+  patterns:
+    - malaysia

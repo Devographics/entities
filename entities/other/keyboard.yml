@@ -15,6 +15,7 @@
   patterns:
     - laptop
     - built( |-)?in
+    - notebook
 
 # thinkpad_keyboard
 
@@ -80,6 +81,39 @@
   patterns:
     - ergonomic
 
+- id: split_keyboard
+  name: Split keyboard
+  patterns:
+    - split
+
+- id: kinesis_keyboard
+  name: Kinesis
+  homepageUrl: https://kinesis-ergo.com/
+  parentId: ergonomic_keyboard
+  patterns:
+    - kinesis
+
+- id: moergo_keyboard
+  name: MoErgo
+  homepageUrl: https://www.moergo.com/
+  parentId: ergonomic_keyboard
+  patterns:
+    - moergo
+
+- id: glove80_keyboard
+  name: Glove80
+  homepageUrl: https://www.moergo.com/pages/glove80
+  parentId: moergo_keyboard
+  patterns:
+    - glove80
+
+- id: corne_keyboard
+  name: Corne
+  homepageUrl: https://github.com/foostan/crkbd
+  parentId: ergonomic_keyboard
+  patterns:
+    - corne
+
 - id: ergodox_keyboard
   name: Ergodox
   parentId: ergonomic_keyboard
@@ -135,7 +169,8 @@
 - id: mechanical_keyboard
   name: Mechanical keyboard
   patterns:
-    - mechanical
+    - mech(a)?nical
+    - mech
 
 - id: cherry_keyboard
   name: Cherry switch keyboard
@@ -150,7 +185,7 @@
   homepageUrl: https://redragon.com/
   parentId: mechanical_keyboard
   patterns:
-    - red( )?dragon
+    - re(d)?( )?dragon
 
 # glorious_keyboard
 
@@ -319,3 +354,47 @@
   name: Qwerty Layout
   patterns:
     - qwerty
+
+- id: qwertz_keyboard
+  name: Qwertz Layout
+  patterns:
+    - qwertz
+
+# other brands
+
+- id: ajazz_keyboard
+  name: Ajazz
+  homepageUrl: https://ajazzstore.com/
+  patterns:
+    - ajazz
+
+- id: aula_keyboard
+  name: Aula
+  homepageUrl: https://www.aulagaming.com/
+  patterns:
+    - aula
+
+- id: corsair_keyboard
+  name: Corsair
+  homepageUrl: https://www.corsair.com/ww/en
+  patterns:
+    - corsair
+
+- id: das_keyboard
+  parentId: mechanical_keyboard
+  name: Das Keyboard
+  homepageUrl: https://www.daskeyboard.com/
+  patterns:
+    - das
+
+- id: steel_series_keyboard
+  name: Steelseries
+  homepageUrl: https://steelseries.com/
+  patterns:
+    - steel( )?series
+
+- id: royal_kludge
+  name: Royal Kludge
+  homepageUrl: https://rkgamingstore.com/
+  patterns:
+    - kludge

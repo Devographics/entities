@@ -645,6 +645,7 @@
   steamUrl: https://store.steampowered.com/app/1903340/
   patterns:
     - clair, obscur [l]
+    - expedition, 33 [l]
 
 - id: rimworld
   name: RimWorld
@@ -1000,6 +1001,8 @@
     - year_2020
   wikipediaUrl: https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator
   steamUrl: https://store.steampowered.com/app/1250410/
+  patterns:
+    - flight, simulator [l]
 
 - id: diablo
   name: Diablo
@@ -1122,6 +1125,13 @@
   tags:
     - rpg
   wikipediaUrl: https://en.wikipedia.org/wiki/Dragon_Age
+
+- id: dragon_quest
+  name: Dragon Quest
+  description: "A series of role-playing video games."
+  tags:
+    - rpg
+  wikipediaUrl: https://en.wikipedia.org/wiki/Dragon_Quest
 
 - id: dragon_age_the_veilguard
   name: "Dragon Age: The Veilguard"
@@ -2633,7 +2643,7 @@
   patterns:
     - anno 117
 
-- id: rust
+- id: rust_game
   name: Rust
   description: "Multiplayer open-world survival game about gathering resources, building and defending bases, and contending with other players on persistent servers."
   tags:
@@ -2641,6 +2651,8 @@
     - year_2018
   wikipediaUrl: https://en.wikipedia.org/wiki/Rust_(video_game)
   steamUrl: https://store.steampowered.com/app/252490/
+  patterns:
+    - rust
 
 - id: ready_or_not
   name: Ready or Not

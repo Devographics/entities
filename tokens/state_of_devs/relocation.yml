@@ -1,0 +1,16 @@
+- id: europe
+  name: Europe
+  patterns:
+    - eu
+
+- id: hong_kong
+  name: Hong Kong
+
+- id: anywhere
+  name: Anywhere
+
+- id: scandinavia
+  name: Scandinavia
+
+- id: asia
+  name: Asia

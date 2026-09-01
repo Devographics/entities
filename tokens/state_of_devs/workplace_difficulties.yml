@@ -30,6 +30,13 @@
     - "401"
     - bonus
 
+- id: lack_of_career_path
+  patterns:
+    - career, path [l]
+    - career, development [l]
+    - promotion
+    - advancement
+
 - id: office_politics
   patterns:
     - politics

@@ -138,12 +138,18 @@
 - id: singing
 
 - id: skateboarding
+  patterns:
+    - stakeboard
 
 - id: skiing
 
 - id: snowboarding
 
+- id: tai_chi
+
 - id: surfing
+  patterns:
+    - surf
 
 - id: tennis
 
@@ -244,3 +250,15 @@
     - horse riding
 
 - id: comedy
+
+- id: astronomy
+
+- id: open_source
+  patterns:
+    - foss
+
+- id: fencing
+
+- id: handball
+
+- id: parkour
