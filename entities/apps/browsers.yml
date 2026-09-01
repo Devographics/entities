@@ -23,6 +23,11 @@
   name: Brave
   homepageUrl: https://brave.com/
   parentId: interop_issues
+  tags:
+    - common_sources
+    - sources
+  patterns:
+    - search.brave.com
 
 - id: chromium
   name: Chromium
@@ -96,6 +101,10 @@
   name: Yandex
   homepageUrl: https://browser.yandex.com/
   parentId: interop_issues
+  tags:
+    - sources
+    - common_sources
+    - sites
 
 - id: safari
   name: Safari
@@ -143,6 +152,10 @@
   name: DuckDuckGo Browser
   homepageUrl: https://duckduckgo.com/app
   parentId: interop_issues
+  tags:
+    - sites
+  patterns:
+    - duckduckgo.com
 
 - id: sidekick
   name: Sidekick

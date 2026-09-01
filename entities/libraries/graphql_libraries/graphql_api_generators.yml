@@ -24,18 +24,11 @@
 - id: graphql_editor
   name: GraphQL Editor
   homepageUrl: https://graphqleditor.com/
-- id: strapi
-  name: Strapi
-  homepageUrl: https://docs.strapi.io/developer-docs/latest/plugins/graphql.html
+  tags:
+    - graphql_ides
 - id: appsync
   name: AWS AppSync
   homepageUrl: https://aws.amazon.com/appsync/
-- id: contentful
-  name: Contentful
-  homepageUrl: https://www.contentful.com/developers/docs/references/graphql/
-- id: nest
-  name: Nest
-  homepageUrl: https://docs.nestjs.com/graphql/quick-start
 - id: pothos
   name: Pothos
   homepageUrl: https://pothos-graphql.dev/

@@ -12,15 +12,12 @@
 - id: altair
   name: Altair
   homepageUrl: https://altair.sirmuel.design/
-- id: insomnia
+- id: insomnia_ide
   name: Insomnia
   homepageUrl: https://insomnia.rest/
 - id: postman
   name: Postman
   homepageUrl: https://www.postman.com/
-- id: graphql_editor
-  name: GraphQL Editor
-  homepageUrl: https://graphqleditor.com/
 - id: apollo_sandbox
   name: Apollo Sandbox
   homepageUrl: https://sandbox.apollo.dev/

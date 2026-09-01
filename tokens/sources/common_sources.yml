@@ -39,10 +39,6 @@
     - masstodon
     - post_survey_share_mastodon
 
-- id: brave
-  patterns:
-    - search.brave.com
-
 - id: eleventy
 
 - id: startpage
@@ -59,8 +55,6 @@
 - id: ecosia
 
 - id: yuque
-
-- id: yandex
 
 - id: fediverse
 

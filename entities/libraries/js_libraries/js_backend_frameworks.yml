@@ -82,6 +82,8 @@
   patterns:
     - nestjs
   homepageUrl: "https://nestjs.com"
+  tags:
+    - graphql_api_generators
 
 - id: strapi
   name: Strapi
@@ -89,6 +91,8 @@
   github: strapi/strapi
   description: Open source Node.js Headless CMS to easily build customisable APIs
   homepageUrl: "https://strapi.io"
+  tags:
+    - graphql_api_generators
 
 - id: razzle
   name: Razzle

@@ -66,10 +66,6 @@
 - id: carousels
   parentId: a11y_technical_issues
 
-- id: aria
-  name: ARIA
-  parentId: a11y_technical_issues
-
 # - id: styling_customization
 #   parentId: a11y_technical_issues
 

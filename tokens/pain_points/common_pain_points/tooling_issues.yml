@@ -47,12 +47,6 @@
   description: >
     Native CSS still lacking features that Sass/SCSS/PostCSS provide (mixins, @use, selector concatenation), forcing continued reliance on preprocessors.
 
-- id: browser_devtools
-  name: Browser DevTools
-  parentId: tooling_issues
-  descriptionIssues: >
-    Inspecting, debugging, and editing CSS in browser developer tools, including support for modern features like layers, container queries, and view transitions.
-
 - id: design_tool_compatibility
   name: Design tool compatibility
   parentId: tooling_issues

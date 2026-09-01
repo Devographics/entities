@@ -27,8 +27,12 @@
     - methodologies
 
 - id: css_comb
-  name: CSSComb
-  github: csscomb/csscomb
+  name: CSScomb
+  homepageUrl: https://github.com/csscomb/csscomb.js
+  github: csscomb/csscomb.js
+  tags:
+    - css
+    - utilities
 
 - id: normalize_css
   name: NormalizeCSS
@@ -75,14 +79,6 @@
 - id: jspm
   name: jspm
   homepageUrl: https://jspm.org/
-
-- id: css_comb
-  name: CSScomb
-  homepageUrl: https://github.com/csscomb/csscomb.js
-  github: csscomb/csscomb.js
-  tags:
-    - css
-    - utilities
 
 - id: csso
   name: CSSO

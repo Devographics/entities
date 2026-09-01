@@ -215,6 +215,8 @@
   contexts: [state_of_css]
   homepageUrl: https://shoelace.style/
   github: shoelace-style/shoelace
+  tags:
+    - web_components_libraries
 
 - id: daisy_ui
   parentId: css_frameworks_issues

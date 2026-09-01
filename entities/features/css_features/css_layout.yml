@@ -36,6 +36,9 @@
       }
   patterns:
     - sub( |-)?grid
+  tags:
+    - css_missing_features
+    - html_missing_features
 
 - id: flexbox
   webFeaturesId: flexbox
@@ -126,6 +129,8 @@
       .square {
         aspect-ratio: 1 / 1;
       }
+  patterns:
+    - aspect, ratio [l]
 
 - id: flexbox_gap
   webFeaturesId: flexbox-gap

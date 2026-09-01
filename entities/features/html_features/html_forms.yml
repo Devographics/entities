@@ -22,6 +22,7 @@
     - selects [e]
   tags:
     - html_functionality_features
+    - forms_pain_points
   descriptionIssues: |
     Pain points related to the `<select>` element.
   parentId: form_input_issues
@@ -67,11 +68,14 @@
     - forms_pain_points
 
 - id: input_type_datetime_locale
+  parentId: form_input_issues
   name: |
     `<input type="datetime-local">`
   patterns:
     - datetime
     - date\/time
+  tags:
+    - forms_pain_points
 
 - id: input_type_month
   name: |
@@ -87,12 +91,14 @@
 
 - id: input_type_color
   webFeaturesId: input-color
+  parentId: form_input_issues
   name: |
     `<input type="color">`
   description: |
     Creates a color picker from which users can choose a color value.
   tags:
     - html_interoperability_features
+    - forms_pain_points
   patterns:
     - color( |-)?picker
   mdn: /en-US/docs/Web/HTML/Reference/Elements/input/color
@@ -147,9 +153,12 @@
     `<input type="range">`
   tags:
     - html_missing_elements
+    - forms_pain_points
   descriptionIssues: |
     Pain points related to `<input type="range">`.
   parentId: form_input_issues
+  patterns:
+    - range
 
 - id: input_type_range_list
   name: |
@@ -169,6 +178,11 @@
   descriptionIssues: |
     Issues related to the `pattern` attribute for validation.
   parentId: form_validation_issues
+  patterns:
+    - pattern
+    - mask [p]
+  tags:
+    - forms_pain_points
 
 - id: input_set_custom_validity
   name: |
@@ -311,6 +325,11 @@
     - autocomplete
     - typeahead
     - autoco [p]
+    - auto( )?complete
+    - auto( )?completion
+    - auto( )?fill
+    - combo( )?box(e)?(s)?
+    - typeahead
   tags:
     - html_missing_elements
     - html_functionality_features

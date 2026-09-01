@@ -263,6 +263,8 @@
   homepageUrl: https://aws.amazon.com/amplify/
   patterns:
     - amplify
+  tags:
+    - graphql_clients
 
 - id: contabo
   name: Contabo
@@ -358,6 +360,10 @@
 - id: cockroach_db
 
 - id: contentful
+  name: Contentful
+  homepageUrl: https://www.contentful.com/developers/docs/references/graphql/
+  tags:
+    - graphql_api_generators
 
 - id: convex
   name: Convex

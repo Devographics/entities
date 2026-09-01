@@ -196,8 +196,11 @@
   tags:
     - css
     - css_typography
+    - css_missing_features
+    - html_missing_features
   patterns:
     - text-balance
+    - text, wrap, balance [l]
 
 - id: text_wrap_pretty
   webFeaturesId: text-wrap-pretty

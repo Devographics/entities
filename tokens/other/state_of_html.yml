@@ -21,12 +21,6 @@
     - html_functionality_features
     - accessibility_pain_points
 
-- id: details_element
-  patterns:
-    - details
-  tags:
-    - html_functionality_features
-
 - id: form_inputs
   name: Form inputs
   description: Form input elements

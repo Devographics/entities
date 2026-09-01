@@ -140,12 +140,6 @@
   description: >
     Next generation utility-first CSS framework.
 
-- id: goober
-  parentId: css_in_js
-  name: Goober
-  homepageUrl: https://github.com/cristianbote/goober
-  github: cristianbote/goober
-
 - id: vanilla_extract
   parentId: css_in_js
   name: vanilla-extract

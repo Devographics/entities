@@ -17,9 +17,6 @@
   patterns:
     - chrome
 
-- id: eslint
-  name: ESLint
-
 - id: firefox_accessibility_inspector
   name: Firefox Accessibility Inspector
   patterns:
@@ -218,10 +215,12 @@
 
 - id: browser_devtools
   name: Browser Devtools
-  descriptionIssues: |
-    Issues around the dev tools built-in to browsers.
-  parentId: tooling
+  descriptionIssues: >
+    Inspecting, debugging, and editing CSS in browser developer tools, including support for modern features like layers, container queries, and view transitions.
+  parentId: tooling_issues
   instructions: >
     Combine with `debugging` if the issue is around debugging using the browser
     dev tools being hard. Combine with `limitations` if the issue is around a
     missing feature in the browser dev tools.
+  tags:
+    - tooling_issues

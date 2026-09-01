@@ -2,11 +2,6 @@
 # Web Components
 #################################################
 
-- id: shoelace
-  parentId: design_systems
-  name: Shoelace
-  homepageUrl: https://shoelace.style/
-
 - id: spectrum_wc
   name: Spectrum Web Components
   homepageUrl: https://opensource.adobe.com/spectrum-web-components/

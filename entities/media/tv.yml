@@ -293,7 +293,7 @@
   name: The Penguin
   homepageUrl: https://en.wikipedia.org/wiki/The_Penguin_(TV_series)
   type: live_action
-- id: foundation
+- id: foundation_tv
   name: Foundation
   homepageUrl: https://en.wikipedia.org/wiki/Foundation_(TV_series)
   type: live_action

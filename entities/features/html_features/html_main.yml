@@ -63,6 +63,7 @@
     - features
 
 - id: aria
+  parentId: a11y_technical_issues
   name: ARIA
   needsTranslation: false
   description: "`role` and `aria-*` attributes"
@@ -94,6 +95,7 @@
       title: HTML Standard
   tags:
     - features
+    - html_missing_features
 
 - id: badging_api
   name: Badging API
@@ -469,7 +471,9 @@
       title: HTML Standard
   tags:
     - features
+    - html_functionality_features
   patterns:
+    - details
     - <details>
     - <summary>
     - detail.*summary
@@ -1624,6 +1628,7 @@
   parentId: select_element
 
 - id: selectlist_element
+  parentId: form_input_issues
   name: "`<selectlist>`"
   needsTranslation: false
   description: |

@@ -74,13 +74,6 @@
 #                             validation                         #
 ##################################################################
 
-- id: validation_issues
-  name: Validation
-  description: Issues with form validation
-  patterns:
-    - custom validity
-    - valid [p]
-
 - id: async_validation
   name: Async validation
   description: Making async calls to validate form inputs
@@ -101,14 +94,6 @@
   patterns:
     - a11y, valid [l]
     - access, valid [l]
-
-- id: pattern_attribute
-  name: >
-    `pattern` attribute
-  parentId: validation_issues
-  patterns:
-    - pattern
-    - mask [p]
 
 ##################################################################
 #                       form_handling                            #
@@ -163,15 +148,6 @@
     - input [e]
     - <input> [e]
 
-- id: autocomplete
-  parentId: form_input_issues
-  patterns:
-    - auto( )?complete
-    - auto( )?completion
-    - auto( )?fill
-    - combo( )?box(e)?(s)?
-    - typeahead
-
 - id: textarea_auto_growing
   name: >
     `<textarea>` auto-growing
@@ -194,38 +170,13 @@
   tags:
     - html_pwas
 
-- id: input_type_radio
-  parentId: form_input_issues
-
 - id: checkbox_input
   parentId: form_input_issues
-
-- id: input_type_range
-  parentId: form_input_issues
-  patterns:
-    - range
-
-- id: input_type_color
-  parentId: form_input_issues
-
-- id: select_element
-  parentId: form_input_issues
-  patterns:
-    - select [e]
 
 - id: select_element_lack_of_search
   parentId: form_input_issues
   patterns:
     - select, search [l]
-
-- id: selectlist_element
-  parentId: form_input_issues
-
-- id: input_type_datetime_locale
-  parentId: form_input_issues
-
-- id: input_type_checkbox
-  parentId: form_input_issues
 
 - id: input_type_toggle
   parentId: form_input_issues

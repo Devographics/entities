@@ -156,6 +156,8 @@
   github: eslint/eslint
   description: Find and fix problems in your JavaScript code.
   homepageUrl: "https://eslint.org"
+  tags:
+    - accessibility
 
 - id: verdaccio
   name: Verdaccio
@@ -352,6 +354,11 @@
   github: apollographql/apollo-client
   description: A comprehensive state management library for JavaScript
   homepageUrl: https://www.apollographql.com/docs/react/
+  tags:
+    - graphql_clients
+    - data_layer_pain_points
+  patterns:
+    - apollo
 
 - id: redux_toolkit
   name: Redux Toolkit

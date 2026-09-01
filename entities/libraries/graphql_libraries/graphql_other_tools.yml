@@ -41,9 +41,6 @@
 - id: graphql_modules
   name: GraphQL Modules
   homepageUrl: https://www.graphql-modules.com/
-- id: graphql_modules
-  name: GraphQL Modules
-  homepageUrl: https://www.graphql-modules.com/
 - id: apollo_datasources
   name: Apollo Data Sources
   homepageUrl: https://www.apollographql.com/docs/apollo-server/data/data-sources/
@@ -59,9 +56,13 @@
 - id: apollo_federation
   name: Apollo Federation
   homepageUrl: https://www.apollographql.com/docs/federation/
+  tags:
+    - graphql_other_features
 - id: schema_stitching
   name: Schema Stitching
   homepageUrl: https://www.apollographql.com/docs/graphql-tools/schema-stitching.html
+  tags:
+    - graphql_other_features
 - id: hasura_data_federation
   name: Hasura Data Federation
   homepageUrl: https://hasura.io/docs/latest/graphql/core/data-federation/index/

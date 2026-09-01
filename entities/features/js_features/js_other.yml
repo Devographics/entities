@@ -150,6 +150,10 @@
   name: Broadcast Channel API
   mdn: /en-US/docs/Web/API/Broadcast_Channel_API
   caniuse: broadcastchannel
+  tags:
+    - html_missing_features
+  patterns:
+    - broadcast
 
 - id: geolocation
   webFeaturesId: geolocation

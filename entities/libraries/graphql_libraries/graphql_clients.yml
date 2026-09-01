@@ -1,21 +1,5 @@
 # GraphQL Clients
 
-- id: relay
-  name: Relay
-  homepageUrl: https://relay.dev/
-
-- id: apollo_client
-  name: Apollo Client
-  homepageUrl: https://www.apollographql.com/docs/react/
-  tags:
-    - data_loading_pain_points
-  patterns:
-    - apollo
-
-- id: urql
-  name: URQL
-  homepageUrl: https://formidable.com/open-source/urql/
-
 - id: apollo_ios
   name: Apollo iOS
   homepageUrl: https://www.apollographql.com/docs/ios
@@ -43,12 +27,6 @@
 - id: villus
   name: Villus
   homepageUrl: https://villus.logaretm.com/
-
-- id: aws_amplify
-  name: AWS Amplify
-  homepageUrl: https://aws.amazon.com/amplify/
-  patterns:
-    - amplify
 
 - id: no_client
   name: No Client

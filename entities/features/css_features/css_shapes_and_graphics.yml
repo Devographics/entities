@@ -99,6 +99,12 @@
       .box {
         backdrop-filter: blur(10px);
       }
+  patterns:
+    - backdrop
+    - background, blur
+  tags:
+    - css_missing_features
+    - html_missing_features
 
 - id: intrinsic_sizing
   parentId: sizing_issues

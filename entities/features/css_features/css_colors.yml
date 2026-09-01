@@ -117,10 +117,12 @@
       }
   tags:
     - html_interoperability_features
+    - html_missing_features
   patterns:
     - relative color
     - relative colour
     - color from
+    - relative, color [l]
 
 - id: forced_colors
   webFeaturesId: forced-colors

@@ -8,41 +8,17 @@
   patterns:
     - 3d
 
-- id: aspect_ratio
-  parentId: sizing_issues
-  patterns:
-    - aspect, ratio [l]
-
-- id: autocomplete_attribute
-
 - id: av1
-
-- id: backdrop_filter
-  patterns:
-    - backdrop
-    - background, blur
 
 - id: barcode_detection_api
   patterns:
     - barcode
-
-- id: broadcast_channel
-  patterns:
-    - broadcast
 
 - id: canvas
 
 - id: cookie_store
   patterns:
     - cookie
-
-- id: relative_colors
-  patterns:
-    - relative, color [l]
-
-- id: subgrid
-  patterns:
-    - sub grid
 
 - id: customized_built_in_elements
   name: Customized built-in elements
@@ -118,10 +94,6 @@
 - id: image_capture_api
   patterns:
     - image, capture [l]
-
-- id: text_wrap_balance
-  patterns:
-    - text, wrap, balance [l]
 
 - id: haptic_feedback
   name: |

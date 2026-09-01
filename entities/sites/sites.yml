@@ -454,10 +454,6 @@
   name: Packt
   homepageUrl: https://www.packtpub.com/
 
-- id: yandex
-  name: Yandex
-  homepageUrl: https://yandex.com/
-
 - id: yuque
   name: Yuque
   homepageUrl: https://www.yuque.com/
@@ -489,12 +485,6 @@
   homepageUrl: https://www.reddit.com/r/reactjs/
   patterns:
     - r(_| |\/)?react
-
-- id: duckduckgo
-  name: DuckDuckGo
-  homepageUrl: https://duckduckgo.com/
-  patterns:
-    - duckduckgo.com
 
 - id: kagi
   name: Kagi

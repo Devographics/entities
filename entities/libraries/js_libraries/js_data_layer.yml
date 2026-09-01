@@ -48,6 +48,8 @@
   github: facebook/relay
   description: Relay is a JavaScript framework for building data-driven React applications.
   homepageUrl: "https://relay.dev"
+  tags:
+    - graphql_clients
 
 - id: xstate
   name: XState
@@ -141,6 +143,8 @@
   github: FormidableLabs/urql
   description: The highly customizable and versatile GraphQL client.
   homepageUrl: "https://formidable.com/open-source/urql/docs/"
+  tags:
+    - graphql_clients
 
 - id: storeon
   name: Storeon
