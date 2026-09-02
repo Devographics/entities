@@ -104,12 +104,6 @@
 
 # build_step_advantages
 
-- id: all_of_the_above
-  tags:
-    - build_step_advantages
-  patterns:
-    - all
-
 - id: obfuscation
   name: Obfuscation
   tags:

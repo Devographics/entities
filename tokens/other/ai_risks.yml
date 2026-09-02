@@ -1,4 +1,17 @@
-- id: all_of_the_above
+- id: militaristic_uses
+- id: environmental_impact
+- id: reaching_agi
+- id: job_displacement
+- id: security_issues
+- id: rising_costs
+- id: entranched_stack_bias
+- id: open_source_disruption
+- id: ai_overuse
+- id: copyright_ethics_issues
+- id: slop_takeover
+- id: cognitive_impact
+
+- id: ai_all_of_the_above
   patterns:
     - all [e]
     - everything
