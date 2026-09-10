@@ -1,8 +1,63 @@
-- id: desire_for_bubble_to_pop
-  name: Can't wait for the bubble to pop
+# ------------------------------------------------------------------- #
+#    AI APPLICATIONS & USES
+#    Concrete ways developers use AI, and the benefits they cite.
+# ------------------------------------------------------------------- #
 
-- id: anti_ai_sentiment
-  name: Negative Sentiment
+- id: ai_applications
+  name: AI Applications & Uses
+  description: Concrete ways developers use AI, and the benefits they cite.
 
-- id: pro_ai_sentiment
-  name: Positive Sentiment
+- id: productivity_gains
+  name: Productivity Gains
+  description: AI meaningfully speeding up development work.
+  parentId: ai_applications
+
+- id: learning_research_aid
+  name: Learning & Research Aid
+  description: Using AI to learn, research, and understand new topics.
+  parentId: ai_applications
+
+- id: prototyping_side_projects
+  name: Prototyping & Side Projects
+  description: AI enabling faster prototyping and personal projects.
+  parentId: ai_applications
+
+- id: disability_neurodivergence_aid
+  name: Accessibility & Neurodivergence Aid
+  description: AI helping developers with disabilities or neurodivergence.
+  parentId: ai_applications
+
+# ------------------------------------------------------------------- #
+#    AI ADOPTION STANCE
+#    Overall stances toward adopting or rejecting AI.
+# ------------------------------------------------------------------- #
+
+- id: ai_adoption_stance
+  name: AI Adoption Stance
+  description: Overall stances toward adopting or rejecting AI.
+
+- id: inevitability
+  name: Inevitability
+  description:
+    Viewing widespread AI adoption as inevitable regardless of one's own
+    preference.
+  parentId: ai_adoption_stance
+
+- id: tool_framing
+  name: AI as Just a Tool
+  description:
+    Framing AI as a neutral tool whose value depends entirely on how it
+    is used.
+  parentId: ai_adoption_stance
+
+- id: wish_it_didnt_exist
+  name: Rejection / Wish It Didn't Exist
+  description: Outright rejection of AI or wishing it had never been developed.
+  parentId: ai_adoption_stance
+
+- id: still_learning_navigating
+  name: Still Figuring It Out
+  description:
+    Undecided or still forming a view, actively navigating what AI means
+    for them.
+  parentId: ai_adoption_stance

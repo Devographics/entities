@@ -1,34 +1,376 @@
-- id: militaristic_uses
-- id: environmental_impact
-- id: reaching_agi
-- id: job_displacement
-- id: security_issues
-- id: rising_costs
-- id: entranched_stack_bias
-- id: open_source_disruption
-- id: ai_overuse
-- id: copyright_ethics_issues
-- id: slop_takeover
-- id: cognitive_impact
+# ------------------------------------------------------------------- #
+#    AI CAREER IMPACT
+#    Effects of AI on jobs, hiring, and professional roles.
+# ------------------------------------------------------------------- #
 
-- id: ai_all_of_the_above
-  patterns:
-    - all [e]
-    - everything
-    - all of them
-    - all of the above
-    - all above
-    - all of these
-    - all of it
-  tags:
-    - ai_pain_points
-    - ai_missing_features
-    - ai_generated_code_type
+- id: ai_career_impact
+  name: AI Career Impact
+  description: Effects of AI on jobs, hiring, and professional roles.
+
+# ai_risks question
+
+- id: job_displacement
+  name: Job Displacement
+  description: >-
+    Concerns that AI will replace workers, reduce demand for developers, or
+    worsen employment prospects.
+  parentId: ai_career_impact
+
+# other items
+
+- id: junior_pipeline_impact
+  name: Junior Pipeline & Education Impact
+  description:
+    Shrinking entry-level roles and disruption of the path from junior
+    to senior, including how people learn to code.
+  parentId: job_displacement
+
+- id: career_change_consideration
+  name: Career Change / Leaving Industry
+  description:
+    Considering leaving software or changing careers because of AI's impact
+    on the profession.
+  parentId: ai_career_impact
+
+- id: role_shift_to_reviewer
+  name: Role Shift to Reviewer/Overseer
+  description:
+    The developer's role shifting from writing code to reviewing, debugging,
+    and overseeing AI output.
+  parentId: ai_career_impact
+
+- id: forced_use_to_stay_competitive
+  name: Pressure to Adopt or Fall Behind
+  description:
+    Individual pressure to use AI to stay employable or competitive, independent
+    of any employer mandate.
+  parentId: ai_career_impact
 
 - id: mass_surveillance
-  patterns:
-    - surveillance
+  name: Mass Surveillance
+  description: >-
+    Concerns that AI enables large-scale monitoring, profiling, tracking, or
+    loss of privacy.
+  parentId: ai_ethics_impact
 
-- id: economic_collapse
+- id: militaristic_uses
+  name: Military Uses
+  description: >-
+    Concerns about AI being used for weapons, warfare, policing, or other
+    coercive state applications.
+  parentId: ai_ethics_impact
+
+# ------------------------------------------------------------------- #
+#    DEVELOPER IMPACT
+#    Psychological and cognitive effects of AI on developers.
+# ------------------------------------------------------------------- #
+
+- id: ai_developer_impact
+  name: Developer impact
+  description: Psychological and cognitive effects of AI on developers.
+
+# ai_risks question
+
+- id: cognitive_impact
+  name: Cognitive Impact
+  description: >-
+    Concerns about AI reducing learning, critical thinking, memory, or developer
+    skill development.
+  parentId: ai_developer_impact
+
+# other items
+
+- id: skill_atrophy
+  name: Skill Atrophy & Deskilling
+  description: Erosion of one's own skills or ability to work without AI assistance.
+  parentId: cognitive_impact
+
+- id: loss_of_joy_in_coding
+  name: Loss of Joy & Meaning
+  description:
+    Reduced enjoyment, meaning, or sense of accomplishment in programming
+    because of AI.
+  parentId: ai_developer_impact
+
+- id: pace_of_change_anxiety
+  name: Pace of Change Anxiety
+  description: Stress from the speed of AI developments and pressure to keep up.
+  parentId: ai_developer_impact
+
+- id: unrealistic_productivity_expectations
+  name: Unrealistic Productivity Expectations
+  description:
+    Pressure from inflated expectations that AI makes developers dramatically
+    faster.
+  parentId: ai_developer_impact
+
+- id: mental_health_impact
+  name: Mental Health Impact
+  description:
+    Anxiety, dread, burnout, or other mental-health effects attributed
+    to AI.
+  parentId: ai_developer_impact
+
+- id: discourse_fatigue
+  name: AI Discourse Fatigue
+  description: Exhaustion with the constant hype, debate, and ubiquity of AI conversation.
+  parentId: ai_developer_impact
+
+- id: moral_injury
+  name: Moral Injury
+  description:
+    Distress from being expected to build or promote AI one finds harmful
+    or unethical.
+  parentId: ai_developer_impact
+
+# ------------------------------------------------------------------- #
+#    AI INDUSTRY IMPACT
+#    Market, corporate, and cultural dynamics of the AI industry.
+# ------------------------------------------------------------------- #
+
+- id: ai_industry_impact
+  name: Industry impact
+  description: Market, corporate, and cultural dynamics of the AI industry.
+
+# ai_risks question
 
 - id: concentration_of_power
+  name: Concentration of Power
+  description: >-
+    Concerns about AI increasing control by a small number of large companies or
+    institutions.
+  parentId: ai_industry_impact
+
+- id: economic_collapse
+  name: Economic Collapse
+  description: >-
+    Concerns that AI could destabilize economies, labor markets, or livelihoods
+    at large scale.
+  parentId: ai_industry_impact
+
+- id: entranched_stack_bias
+  name: Entrenched Stack Bias
+  description: >-
+    Concerns that AI reinforces dominant frameworks, languages, patterns, or
+    legacy choices instead of better alternatives.
+  parentId: ai_industry_impact
+
+- id: ai_overuse
+  name: AI Overuse
+  description: >-
+    Concerns that AI is being adopted too broadly, unnecessarily, or in places
+    where it harms outcomes.
+  parentId: ai_industry_impact
+
+- id: rising_costs
+  name: Rising Costs
+  description: >-
+    Concerns that AI will make tools, services, infrastructure, or development
+    work more expensive.
+  parentId: ai_industry_impact
+
+- id: open_source_disruption
+  name: Open Source Disruption
+  description: >-
+    Concerns that AI undermines open-source communities, maintainers, licenses,
+    or contribution incentives.
+  parentId: ai_industry_impact
+
+# other items
+
+- id: labor_exploitation
+  name: Labor Exploitation
+  description: AI built on exploited or underpaid labor, or used to devalue workers.
+  parentId: concentration_of_power
+
+- id: speculative_bubble_and_hype
+  name: Speculative Bubble & Hype
+  description: Belief that AI is an overhyped, financially unsustainable bubble.
+  parentId: ai_industry_impact
+
+- id: bubble_burst_anticipation
+  name: Bubble Burst Anticipation
+  description:
+    Expectation that the AI bubble will burst, with economic or industry
+    fallout.
+  parentId: speculative_bubble_and_hype
+
+- id: forced_adoption_by_management
+  name: Forced Adoption by Management
+  description:
+    Employers or leadership mandating AI use, often top-down and regardless
+    of utility.
+  parentId: ai_industry_impact
+
+- id: management_misunderstanding
+  name: Management Misunderstanding
+  description: Leadership misunderstanding AI's real capabilities and limits.
+  parentId: ai_industry_impact
+
+- id: distrust_of_ai_leaders
+  name: Distrust of AI Leaders & Labs
+  description:
+    Skepticism toward the motives and claims of AI company leaders and
+    frontier labs.
+  parentId: ai_industry_impact
+
+- id: vendor_lock_in
+  name: Vendor Lock-in & Dependency
+  description: Concern about dependence on proprietary AI vendors and platforms.
+  parentId: ai_industry_impact
+
+- id: decline_in_human_collaboration
+  name: Decline in Human Collaboration
+  description: AI reducing human-to-human interaction, mentorship, and collaboration.
+  parentId: ai_industry_impact
+
+- id: social_isolation
+  name: Social Isolation
+  description: Increased isolation or dehumanized communication attributed to AI.
+  parentId: decline_in_human_collaboration
+
+- id: terminology_imprecision
+  name: Terminology Imprecision
+  description: Imprecise or misleading use of "AI" and related terms.
+  parentId: ai_industry_impact
+
+- id: false_expertise
+  name: False Expertise
+  description:
+    People overstating expertise or passing off AI output as their own
+    competence.
+  parentId: ai_industry_impact
+
+# ------------------------------------------------------------------- #
+#    AI ETHICS IMPACT
+#    Ethical, societal, and policy dimensions of AI.
+# ------------------------------------------------------------------- #
+
+- id: ai_ethics_impact
+  name: Ethics impact
+  description: Ethical, societal, and policy dimensions of AI.
+
+# ai_risks question
+
+- id: reaching_agi
+  name: Reaching AGI
+  description: >-
+    Concerns about AI reaching artificial general intelligence or otherwise
+    becoming uncontrollable.
+  parentId: ai_ethics_impact
+
+- id: environmental_impact
+  name: Environmental Impact
+  description: >-
+    Concerns about AI energy use, emissions, water consumption, or hardware
+    waste.
+  parentId: ai_ethics_impact
+
+- id: copyright_ethics_issues
+  name: Copyright & Ethics
+  description: >-
+    Concerns about AI training data, ownership, plagiarism, consent,
+    attribution, or ethical use.
+  parentId: ai_ethics_impact
+
+# other items
+
+- id: creative_industries_impact
+  name: Creative Industries Impact
+  description: Impact of generative AI on artists, writers, and creative work.
+  parentId: copyright_ethics_issues
+
+- id: social_polarization
+  name: Social Polarization
+  description: AI deepening social or political polarization.
+  parentId: ai_ethics_impact
+
+- id: regulation_and_guardrails
+  name: Regulation & Guardrails
+  description: Calls for, or concerns about, AI regulation and safeguards.
+  parentId: ai_ethics_impact
+
+- id: local_and_open_weight_models
+  name: Local & Open-Weight Models
+  description: Preference for local or open-weight models over proprietary services.
+  parentId: ai_ethics_impact
+
+- id: misinformation
+  name: Misinformation
+  description: >-
+    Concerns about AI generating or amplifying false, misleading, low-trust, or
+    deceptive information.
+  parentId: ai_ethics_impact
+
+# ------------------------------------------------------------------- #
+#    TECHNICAL IMPACT
+#    Quality, correctness, security, and maintainability of AI-assisted work.
+# ------------------------------------------------------------------- #
+
+- id: ai_technical_impact
+  name: Technical impact
+  description:
+    Quality, correctness, security, and maintainability of AI-assisted
+    work.
+
+# ai_risks question
+
+- id: security_issues
+  name: Security Issues
+  description: >-
+    Concerns about AI introducing vulnerabilities, enabling attacks, leaking
+    secrets, or weakening security practices.
+  parentId: ai_technical_impact
+
+- id: slop_takeover
+  name: Slop Takeover
+  description: >-
+    Concerns that low-quality AI-generated content will flood codebases, search
+    results, documentation, or the web.
+  parentId: ai_technical_impact
+
+# other items
+
+- id: code_review_burden
+  name: Review & Testing Burden
+  description: Extra effort to review, verify, and test AI-generated code.
+  parentId: slop_takeover
+
+- id: correctness_and_hallucination
+  name: Correctness & Hallucination
+  description: AI producing incorrect, fabricated, or unreliable output.
+  parentId: ai_technical_impact
+
+- id: technical_debt_and_maintainability
+  name: Technical & Comprehension Debt
+  description:
+    AI increasing technical debt and producing code nobody fully understands
+    or can maintain.
+  parentId: ai_technical_impact
+
+- id: increased_code_volume
+  name: Increased Code Volume
+  description: AI generating more code than teams can meaningfully review or handle.
+  parentId: ai_technical_impact
+
+- id: non_determinism
+  name: Non-Determinism
+  description:
+    Frustration with the unpredictable, non-deterministic nature of AI
+    output.
+  parentId: ai_technical_impact
+
+- id: vibe_coding_and_prompt_engineering
+  name: Vibe Coding & Prompt Engineering
+  description: Reliance on prompting or "vibe coding" rather than genuine understanding.
+  parentId: ai_technical_impact
+
+- id: agentic_workflows
+  name: Agentic Workflows & Tooling
+  description: Comments on AI agents and their integration into development workflows.
+  parentId: ai_technical_impact
+
+- id: skill_dependent_outcomes
+  name: Skill-Dependent Outcomes
+  description: AI's usefulness depending heavily on the user's own expertise.
+  parentId: ai_technical_impact
