@@ -1,0 +1,100 @@
+tree:
+  # --- Engineers ---
+  - id: software_engineer
+    children:
+      - id: frontend_engineer
+      - id: backend_engineer
+      - id: fullstack_engineer
+      - id: systems_engineer
+      - id: junior_engineer
+      - id: senior_engineer
+      - id: lead_engineer
+      - id: principal_engineer
+      - id: member_of_technical_staff
+        children:
+          - id: senior_member_of_technical_staff
+      - id: systems_analyst
+
+  # --- Developers ---
+  - id: developer
+    children:
+      - id: frontend_developer
+      - id: backend_developer
+      - id: fullstack_developer
+      - id: junior_developer
+      - id: senior_developer
+      - id: lead_developer
+      - id: principal_developer
+
+  # --- Programmers ---
+  - id: programmer
+    children:
+      - id: senior_programmer
+      - id: principal_programmer
+
+  # --- Architects ---
+  - id: software_architect
+    children:
+      - id: solution_architect
+      - id: frontend_architect
+
+  # --- Technical leads ---
+  - id: lead
+    children:
+      - id: technical_lead
+      - id: frontend_lead
+
+  # --- Managers ---
+  - id: manager
+    children:
+      - id: project_manager
+      - id: product_manager
+      - id: engineering_manager
+      - id: software_development_manager
+      - id: director_of_engineering
+
+  # --- Designers ---
+  - id: designer
+    children:
+      - id: head_of_design
+      - id: creative_technologist
+
+  # --- Executives & heads ---
+  - id: executive
+    children:
+      - id: ceo
+      - id: cto
+      - id: president
+      - id: owner
+      - id: co_founder
+      # heads of a function nested one level deeper to show grandchildren
+      - id: head_of_engineering
+      - id: head_of_development
+      - id: head_of_product
+      - id: head_of_it
+      - id: head_of_tech
+      - id: head_of_software
+      - id: head_of_technology
+
+  # --- Academia & research ---
+  - id: academia
+    children:
+      - id: student
+      - id: professor
+      - id: lecturer
+      - id: researcher
+        children:
+          - id: research_assistant
+      - id: computer_scientist
+
+  # --- Independent & other ---
+  - id: independent
+    children:
+      - id: freelancer
+      - id: consultant
+      - id: intern
+      - id: it_specialist
+      - id: unemployed
+
+  # Ungrouped top-level root (a one-member "data" family isn't worth a node yet)
+  - id: data_scientist

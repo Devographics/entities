@@ -1,0 +1,25 @@
+tree:
+  - id: junior
+    children:
+      - id: junior_engineer
+      - id: junior_developer
+
+  - id: senior
+    children:
+      - id: senior_engineer
+      - id: senior_developer
+      - id: senior_programmer
+      - id: senior_member_of_technical_staff
+
+  - id: lead
+    children:
+      - id: lead_engineer
+      - id: lead_developer
+      - id: technical_lead
+      - id: frontend_lead
+
+  - id: principal
+    children:
+      - id: principal_engineer
+      - id: principal_developer
+      - id: principal_programmer

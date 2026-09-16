@@ -1,0 +1,33 @@
+tree:
+  - id: front_end
+    children:
+      - id: frontend_engineer
+      - id: frontend_developer
+      - id: frontend_architect
+      - id: frontend_lead
+
+  - id: back_end
+    children:
+      - id: backend_engineer
+      - id: backend_developer
+
+  - id: full_stack
+    children:
+      - id: fullstack_engineer
+      - id: fullstack_developer
+
+  - id: systems
+    children:
+      - id: systems_engineer
+      - id: systems_analyst
+
+  - id: design
+    children:
+      - id: designer
+      - id: head_of_design
+      - id: creative_technologist
+
+  - id: product
+    children:
+      - id: product_manager
+      - id: head_of_product

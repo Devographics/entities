@@ -1,3 +1,9 @@
+- id: executive
+
+- id: academia
+
+- id: independent
+
 - id: ceo
 
 - id: co_founder
@@ -137,6 +143,10 @@
     - system, engineer [l]
     - systems, engineer [l]
 
+- id: principal_engineer
+  patterns:
+    - principal, engineer [l]
+
 # developer
 
 - id: developer
@@ -190,6 +200,8 @@
     - lead, dev [l]
     - development, lead [l]
 
+- id: principal_developer
+
 # programmer
 
 - id: programmer
@@ -199,6 +211,8 @@
 - id: senior_programmer
   patterns:
     - senior, programmer [l]
+
+- id: principal_programmer
 
 # it
 - id: it_specialist
@@ -246,5 +260,3 @@
     - senior, member, staff [l]
 
 - id: president
-
-- id: principal
