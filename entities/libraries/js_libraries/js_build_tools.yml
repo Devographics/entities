@@ -193,3 +193,9 @@
 - id: tsdown
   name: tsdown
   homepageUrl: https://tsdown.dev/
+
+- id: extension_js
+  name: Extension.js
+  homepageUrl: https://extension.js.org/
+  github: extension-js/extension.js
+  npm: extension
