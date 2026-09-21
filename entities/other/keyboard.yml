@@ -42,7 +42,7 @@
   name: Apple MacBook keyboard
   parentId: apple_keyboard
   patterns:
-    - macbook
+    - mac( |-)?book
 
 # lenovo_keyboard
 
@@ -173,8 +173,9 @@
     - mech
 
 - id: cherry_keyboard
-  name: Cherry switch keyboard
+  name: Cherry
   parentId: mechanical_keyboard
+  homepageUrl: https://www.cherry.de/en-gb/products/keyboards
   patterns:
     - cherry
 
@@ -337,6 +338,7 @@
 
 - id: logitech_mx_keyboard
   name: Logitech MX
+  parentId: logitech_keyboard
   patterns:
     - logitech, mx [l]
     - logi, mx [l]
@@ -345,18 +347,24 @@
 
 # layout
 
+- id: keyboard_layouts
+  name: Keyboard layouts
+
 - id: azerty_keyboard
-  name: Azerty Layout
+  parentId: keyboard_layouts
+  name: Azerty layout
   patterns:
     - azerty
 
 - id: qwerty_keyboard
-  name: Qwerty Layout
+  parentId: keyboard_layouts
+  name: Qwerty layout
   patterns:
     - qwerty
 
 - id: qwertz_keyboard
-  name: Qwertz Layout
+  parentId: keyboard_layouts
+  name: Qwertz layout
   patterns:
     - qwertz
 

@@ -30,17 +30,41 @@
     - positive_sentiment
 
 - id: annoyed
+  tags:
+    - negative_sentiment
 - id: bored
+  tags:
+    - negative_sentiment
 - id: cynical
+  tags:
+    - negative_sentiment
 - id: frustrated
+  tags:
+    - negative_sentiment
 - id: grieving
+  tags:
+    - negative_sentiment
 - id: indifferent
+  tags:
+    - negative_sentiment
 - id: jaded
+  tags:
+    - negative_sentiment
 - id: sad
+  tags:
+    - negative_sentiment
 - id: worried
+  tags:
+    - negative_sentiment
 
 - id: apathetic
+  tags:
+    - negative_sentiment
 
 - id: disappointed
+  tags:
+    - negative_sentiment
 
 - id: disgusted
+  tags:
+    - negative_sentiment
