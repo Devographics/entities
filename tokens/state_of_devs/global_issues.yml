@@ -46,8 +46,6 @@
 - id: surveillance
 
 - id: misinformation
-  tags:
-    - ai_risks
 
 - id: economic_inequality
 

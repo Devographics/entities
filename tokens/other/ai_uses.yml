@@ -1,9 +1,6 @@
-- id: brainstorming
-  name: Brainstorming
-  patterns:
-    - brainstorm [p]
-  description: "Using AI to generate ideas, explore options, or think through approaches."
-  parentId: ai_applications
+# ------------------------------------------------------------------- #
+#    Code Assistance
+# ------------------------------------------------------------------- #
 
 - id: code_assistance
   name: Code Assistance
@@ -12,7 +9,6 @@
     - code, assistance [l]
     - code, suggestion [l]
   description: "Using AI for general help with writing, editing, or understanding code."
-  parentId: ai_applications
 
 - id: code_completion
   name: Code Completion
@@ -44,65 +40,6 @@
   description: "Using AI to find, explain, or fix bugs and errors in code."
   parentId: code_assistance
 
-- id: image_generation_processing
-  name: Image Generation
-  description: "Using AI to create, edit, analyze, or transform images."
-  parentId: ai_applications
-  patterns:
-    - image
-    - vision
-    - visual
-
-- id: sound_music_generation
-  name: Sound & Music
-  description: "Using AI to create, edit, transform, or analyze audio, sound, or music."
-  parentId: ai_applications
-  patterns:
-    - music
-    - song
-    - sound
-
-- id: code_assistance
-
-- id: search_information_gathering
-  name: Information Gathering
-  description: >-
-    Using AI to find information, research topics, compare options, or gather
-    references.
-  parentId: ai_applications
-
-- id: not_using
-  name: Not Using
-  description: Responses indicating the respondent does not use AI tools for this purpose.
-  parentId: ai_adoption_stance
-
-- id: data_manipulation_processing
-  name: Data Processing
-  description: "Using AI to clean, transform, summarize, classify, or analyze data."
-  parentId: ai_applications
-  patterns:
-    - data
-
-- id: text_processing
-  name: Text Processing
-  description: >-
-    Using AI to write, rewrite, summarize, translate, classify, or otherwise
-    process text.
-  parentId: ai_applications
-  patterns:
-    - text
-    - spell( )?check
-    - proof( )?reading
-    - editing
-
-- id: project_planning
-  description: >-
-    Using AI to plan projects, break down tasks, estimate work, or organize
-    implementation steps.
-  parentId: ai_applications
-  patterns:
-    - planning
-
 - id: generating_documentation
   name: Generating Documentation
   description: >-
@@ -112,6 +49,71 @@
   patterns:
     - documentation
 
+- id: workflow_automation
+  name: Workflow Automation
+  description: >-
+    Using AI to automate repetitive tasks, connect tools, or streamline
+    development workflows.
+  parentId: code_assistance
+  patterns:
+    - automation
+
+- id: prototyping_side_projects
+  name: Prototyping & Side Projects
+  description: AI enabling faster prototyping and personal projects.
+  parentId: code_assistance
+
+# ------------------------------------------------------------------- #
+#    Image/Video
+# ------------------------------------------------------------------- #
+
+- id: audio_visual_generation
+  name: Audio-visual Generation
+
+- id: image_generation_processing
+  name: Image Generation
+  description: "Using AI to create, edit, analyze, or transform images."
+  parentId: audio_visual_generation
+  patterns:
+    - image
+    - vision
+    - visual
+
+- id: sound_music_generation
+  name: Sound & Music
+  description: "Using AI to create, edit, transform, or analyze audio, sound, or music."
+  parentId: audio_visual_generation
+  patterns:
+    - music
+    - song
+    - sound
+
+- id: video_generation
+  name: Video
+  description: "Using AI to create, edit, transform, or analyze video."
+  parentId: audio_visual_generation
+  patterns:
+    - video
+    - anime
+    - animation
+
+# ------------------------------------------------------------------- #
+#    Information Gathering
+# ------------------------------------------------------------------- #
+
+- id: search_information_gathering
+  name: Information Gathering
+  description: >-
+    Using AI to find information, research topics, compare options, or gather
+    references.
+
+- id: brainstorming
+  name: Brainstorming
+  patterns:
+    - brainstorm [p]
+  description: "Using AI to generate ideas, explore options, or think through approaches."
+  parentId: search_information_gathering
+
 - id: ai_search
   name: AI Search
   patterns:
@@ -119,18 +121,45 @@
   description: Using AI tools as a search engine or question-answering interface.
   parentId: search_information_gathering
 
-- id: video_generation
-  name: Video Generation
-  description: "Using AI to create, edit, transform, or analyze video."
-  parentId: ai_applications
-  patterns:
-    - video
+# ------------------------------------------------------------------- #
+#    Data Manipulation
+# ------------------------------------------------------------------- #
 
-- id: workflow_automation
-  name: Workflow Automation
-  description: >-
-    Using AI to automate repetitive tasks, connect tools, or streamline
-    development workflows.
-  parentId: ai_applications
+- id: data_manipulation_processing
+  name: Data Processing
+  description: "Using AI to clean, transform, summarize, classify, or analyze data."
   patterns:
-    - automation
+    - data
+
+- id: text_processing
+  name: Text Processing
+  description: >-
+    Using AI to write, rewrite, summarize, translate, classify, or otherwise
+    process text.
+  parentId: data_manipulation_processing
+  patterns:
+    - text
+    - spell( )?check
+    - proof( )?reading
+    - editing
+
+# ------------------------------------------------------------------- #
+#    Project Management
+# ------------------------------------------------------------------- #
+
+- id: project_management
+  name: Project management
+  description: >-
+    Using AI to plan projects, break down tasks, estimate work, or organize
+    implementation steps.
+  patterns:
+    - planning
+    - project management
+
+# ------------------------------------------------------------------- #
+#    Other Uses
+# ------------------------------------------------------------------- #
+
+- id: disability_neurodivergence_aid
+  name: Accessibility & Neurodivergence Aid
+  description: AI helping developers with disabilities or neurodivergence.

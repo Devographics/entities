@@ -1,63 +1,101 @@
 # ------------------------------------------------------------------- #
-#    AI APPLICATIONS & USES
-#    Concrete ways developers use AI, and the benefits they cite.
+#    Anti-AI Sentiment
 # ------------------------------------------------------------------- #
 
-- id: ai_applications
-  name: AI Applications & Uses
-  description: Concrete ways developers use AI, and the benefits they cite.
+- id: anti_ai_sentiment
+  name: Anti-AI sentiment
+
+- id: wish_it_didnt_exist
+  name: Rejection / Wish It Didn't Exist
+  description: Outright rejection of AI or wishing it had never been developed.
+  parentId: anti_ai_sentiment
+
+# anti-AI sentiment topics
+
+- id: worker_solidarity_call
+  name: Calls for worker unionization and solidarity
+  parentId: anti_ai_sentiment
+
+- id: regulation_and_guardrails
+  name: Regulation & Guardrails
+  description: Calls for, or concerns about, AI regulation and safeguards.
+  parentId: anti_ai_sentiment
+
+- id: speculative_bubble_and_hype
+  name: Speculative Bubble & Hype
+  description: Belief that AI is an overhyped, financially unsustainable bubble.
+  parentId: anti_ai_sentiment
+
+- id: bubble_burst_anticipation
+  name: Bubble Burst Anticipation
+  description:
+    Expectation that the AI bubble will burst, with economic or industry
+    fallout.
+  parentId: speculative_bubble_and_hype
+
+# ------------------------------------------------------------------- #
+#    Pro-AI Sentiment
+# ------------------------------------------------------------------- #
+
+- id: pro_ai_sentiment
+  name: Pro-AI sentiment
 
 - id: productivity_gains
   name: Productivity Gains
   description: AI meaningfully speeding up development work.
-  parentId: ai_applications
+  parentId: pro_ai_sentiment
 
-- id: learning_research_aid
-  name: Learning & Research Aid
-  description: Using AI to learn, research, and understand new topics.
-  parentId: ai_applications
+- id: useful_tool_for_specific_tasks
+  name: AI as a useful tool for specific tasks
+  parentId: pro_ai_sentiment
 
-- id: prototyping_side_projects
-  name: Prototyping & Side Projects
-  description: AI enabling faster prototyping and personal projects.
-  parentId: ai_applications
+- id: augments_skilled_engineers
+  name: Augments already-skilled engineers
+  parentId: pro_ai_sentiment
 
-- id: disability_neurodivergence_aid
-  name: Accessibility & Neurodivergence Aid
-  description: AI helping developers with disabilities or neurodivergence.
-  parentId: ai_applications
+- id: optimism_about_future
+  name: Optimism about AI's future potential
+  parentId: pro_ai_sentiment
 
 # ------------------------------------------------------------------- #
-#    AI ADOPTION STANCE
-#    Overall stances toward adopting or rejecting AI.
+#    Neutral Sentiment
 # ------------------------------------------------------------------- #
 
-- id: ai_adoption_stance
-  name: AI Adoption Stance
-  description: Overall stances toward adopting or rejecting AI.
+- id: neutral_ai_sentiment
+  name: Neutral sentiment
 
 - id: inevitability
   name: Inevitability
   description:
     Viewing widespread AI adoption as inevitable regardless of one's own
     preference.
-  parentId: ai_adoption_stance
+  parentId: neutral_ai_sentiment
 
 - id: tool_framing
   name: AI as Just a Tool
   description:
     Framing AI as a neutral tool whose value depends entirely on how it
     is used.
-  parentId: ai_adoption_stance
-
-- id: wish_it_didnt_exist
-  name: Rejection / Wish It Didn't Exist
-  description: Outright rejection of AI or wishing it had never been developed.
-  parentId: ai_adoption_stance
+  parentId: neutral_ai_sentiment
 
 - id: still_learning_navigating
   name: Still Figuring It Out
   description:
     Undecided or still forming a view, actively navigating what AI means
     for them.
-  parentId: ai_adoption_stance
+  parentId: neutral_ai_sentiment
+
+- id: not_using_ai
+  name: Not Using
+  description: Responses indicating the respondent does not use AI tools for this purpose.
+  parentId: neutral_ai_sentiment
+
+- id: agentic_workflows
+  name: Agentic Workflows & Tooling
+  description: Comments on AI agents and their integration into development workflows.
+  parentId: neutral_ai_sentiment
+
+- id: skill_dependent_outcomes
+  name: Skill-Dependent Outcomes
+  description: AI's usefulness depending heavily on the user's own expertise.
+  parentId: neutral_ai_sentiment

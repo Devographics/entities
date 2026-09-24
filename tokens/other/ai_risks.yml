@@ -46,20 +46,6 @@
     of any employer mandate.
   parentId: ai_career_impact
 
-- id: mass_surveillance
-  name: Mass Surveillance
-  description: >-
-    Concerns that AI enables large-scale monitoring, profiling, tracking, or
-    loss of privacy.
-  parentId: ai_ethics_impact
-
-- id: militaristic_uses
-  name: Military Uses
-  description: >-
-    Concerns about AI being used for weapons, warfare, policing, or other
-    coercive state applications.
-  parentId: ai_ethics_impact
-
 # ------------------------------------------------------------------- #
 #    DEVELOPER IMPACT
 #    Psychological and cognitive effects of AI on developers.
@@ -183,18 +169,6 @@
   description: AI built on exploited or underpaid labor, or used to devalue workers.
   parentId: concentration_of_power
 
-- id: speculative_bubble_and_hype
-  name: Speculative Bubble & Hype
-  description: Belief that AI is an overhyped, financially unsustainable bubble.
-  parentId: ai_industry_impact
-
-- id: bubble_burst_anticipation
-  name: Bubble Burst Anticipation
-  description:
-    Expectation that the AI bubble will burst, with economic or industry
-    fallout.
-  parentId: speculative_bubble_and_hype
-
 - id: forced_adoption_by_management
   name: Forced Adoption by Management
   description:
@@ -242,6 +216,16 @@
   parentId: ai_industry_impact
 
 # ------------------------------------------------------------------- #
+#    Environmental IMPACT
+# ------------------------------------------------------------------- #
+
+- id: environmental_impact
+  name: Environmental Impact
+  description: >-
+    Concerns about AI energy use, emissions, water consumption, or hardware
+    waste.
+
+# ------------------------------------------------------------------- #
 #    AI ETHICS IMPACT
 #    Ethical, societal, and policy dimensions of AI.
 # ------------------------------------------------------------------- #
@@ -257,13 +241,6 @@
   description: >-
     Concerns about AI reaching artificial general intelligence or otherwise
     becoming uncontrollable.
-  parentId: ai_ethics_impact
-
-- id: environmental_impact
-  name: Environmental Impact
-  description: >-
-    Concerns about AI energy use, emissions, water consumption, or hardware
-    waste.
   parentId: ai_ethics_impact
 
 - id: copyright_ethics_issues
@@ -285,21 +262,30 @@
   description: AI deepening social or political polarization.
   parentId: ai_ethics_impact
 
-- id: regulation_and_guardrails
-  name: Regulation & Guardrails
-  description: Calls for, or concerns about, AI regulation and safeguards.
-  parentId: ai_ethics_impact
-
 - id: local_and_open_weight_models
   name: Local & Open-Weight Models
   description: Preference for local or open-weight models over proprietary services.
   parentId: ai_ethics_impact
 
-- id: misinformation
+- id: ai_misinformation
   name: Misinformation
   description: >-
     Concerns about AI generating or amplifying false, misleading, low-trust, or
     deceptive information.
+  parentId: ai_ethics_impact
+
+- id: mass_surveillance
+  name: Mass Surveillance
+  description: >-
+    Concerns that AI enables large-scale monitoring, profiling, tracking, or
+    loss of privacy.
+  parentId: ai_ethics_impact
+
+- id: militaristic_uses
+  name: Military Uses
+  description: >-
+    Concerns about AI being used for weapons, warfare, policing, or other
+    coercive state applications.
   parentId: ai_ethics_impact
 
 # ------------------------------------------------------------------- #
@@ -363,14 +349,4 @@
 - id: vibe_coding_and_prompt_engineering
   name: Vibe Coding & Prompt Engineering
   description: Reliance on prompting or "vibe coding" rather than genuine understanding.
-  parentId: ai_technical_impact
-
-- id: agentic_workflows
-  name: Agentic Workflows & Tooling
-  description: Comments on AI agents and their integration into development workflows.
-  parentId: ai_technical_impact
-
-- id: skill_dependent_outcomes
-  name: Skill-Dependent Outcomes
-  description: AI's usefulness depending heavily on the user's own expertise.
   parentId: ai_technical_impact
