@@ -69,6 +69,7 @@
 
 - id: audio_visual_generation
   name: Audio-visual Generation
+  description: "Using AI to create or edit images, audio, video, or other multimedia assets."
 
 - id: image_generation_processing
   name: Image Generation

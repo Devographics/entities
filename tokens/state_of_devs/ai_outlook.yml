@@ -4,27 +4,40 @@
 
 - id: anti_ai_sentiment
   name: Anti-AI sentiment
+  description: >-
+    Negative views of AI adoption or impact, including concerns about harm,
+    ethics, jobs, quality, or developer work.
+  tags:
+    - anti_ai_sentiment
 
 - id: wish_it_didnt_exist
   name: Rejection / Wish It Didn't Exist
   description: Outright rejection of AI or wishing it had never been developed.
   parentId: anti_ai_sentiment
-
-# anti-AI sentiment topics
+  tags:
+    - anti_ai_sentiment
 
 - id: worker_solidarity_call
   name: Calls for worker unionization and solidarity
   parentId: anti_ai_sentiment
+  description: >-
+    Arguments that workers should organize collectively, including through unions, in response to AI-related labor impacts.
+  tags:
+    - anti_ai_sentiment
 
 - id: regulation_and_guardrails
   name: Regulation & Guardrails
   description: Calls for, or concerns about, AI regulation and safeguards.
   parentId: anti_ai_sentiment
+  tags:
+    - anti_ai_sentiment
 
 - id: speculative_bubble_and_hype
   name: Speculative Bubble & Hype
   description: Belief that AI is an overhyped, financially unsustainable bubble.
   parentId: anti_ai_sentiment
+  tags:
+    - anti_ai_sentiment
 
 - id: bubble_burst_anticipation
   name: Bubble Burst Anticipation
@@ -32,6 +45,8 @@
     Expectation that the AI bubble will burst, with economic or industry
     fallout.
   parentId: speculative_bubble_and_hype
+  tags:
+    - anti_ai_sentiment
 
 # ------------------------------------------------------------------- #
 #    Pro-AI Sentiment
@@ -39,23 +54,41 @@
 
 - id: pro_ai_sentiment
   name: Pro-AI sentiment
+  description: >-
+    Positive views of AI adoption and its benefits for developers, productivity, or software work.
+  tags:
+    - pro_ai_sentiment
 
 - id: productivity_gains
   name: Productivity Gains
   description: AI meaningfully speeding up development work.
   parentId: pro_ai_sentiment
+  tags:
+    - pro_ai_sentiment
 
 - id: useful_tool_for_specific_tasks
   name: AI as a useful tool for specific tasks
   parentId: pro_ai_sentiment
+  description: >-
+    View of AI as helpful for bounded tasks without necessarily endorsing broad automation or replacement.
+  tags:
+    - pro_ai_sentiment
 
 - id: augments_skilled_engineers
   name: Augments already-skilled engineers
   parentId: pro_ai_sentiment
+  description: >-
+    View that AI is most useful as an assistant that amplifies experienced engineers rather than replacing skill or judgment.
+  tags:
+    - pro_ai_sentiment
 
 - id: optimism_about_future
   name: Optimism about AI's future potential
   parentId: pro_ai_sentiment
+  description: >-
+    Positive expectations that AI tools and models will improve and become more beneficial over time.
+  tags:
+    - pro_ai_sentiment
 
 # ------------------------------------------------------------------- #
 #    Neutral Sentiment
@@ -63,6 +96,9 @@
 
 - id: neutral_ai_sentiment
   name: Neutral sentiment
+  description: "Ambivalent, mixed, undecided, or wait-and-see views about AI and its impact."
+  tags:
+    - neutral_ai_sentiment
 
 - id: inevitability
   name: Inevitability
@@ -70,6 +106,8 @@
     Viewing widespread AI adoption as inevitable regardless of one's own
     preference.
   parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
 
 - id: tool_framing
   name: AI as Just a Tool
@@ -77,6 +115,8 @@
     Framing AI as a neutral tool whose value depends entirely on how it
     is used.
   parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
 
 - id: still_learning_navigating
   name: Still Figuring It Out
@@ -84,18 +124,26 @@
     Undecided or still forming a view, actively navigating what AI means
     for them.
   parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
 
 - id: not_using_ai
   name: Not Using
   description: Responses indicating the respondent does not use AI tools for this purpose.
   parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
 
 - id: agentic_workflows
   name: Agentic Workflows & Tooling
   description: Comments on AI agents and their integration into development workflows.
   parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
 
 - id: skill_dependent_outcomes
   name: Skill-Dependent Outcomes
   description: AI's usefulness depending heavily on the user's own expertise.
   parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
