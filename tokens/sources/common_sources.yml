@@ -84,10 +84,6 @@
   name: Adesso
   homepageUrl: https://www.adesso.de/de/
 
-- id: sacha_greif
-  patterns:
-    - sg_twitter
-
 - id: source_not_sure
   patterns:
     - don('| )?t remember
