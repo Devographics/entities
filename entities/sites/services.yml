@@ -583,3 +583,10 @@
 - id: webflow
   name: Webflow
   homepageUrl: https://webflow.com/
+
+- id: fly_io
+  name: Fly.io
+  homepageUrl: https://fly.io/
+  tags:
+    - edge_runtimes
+    - runtimes

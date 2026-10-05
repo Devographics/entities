@@ -139,12 +139,6 @@
   tags:
     - edge_runtimes
 
-- id: fly_io
-  name: Fly.io
-  homepageUrl: https://fly.io/
-  tags:
-    - edge_runtimes
-
 - id: digital_ocean_functions
   name: Digital Ocean Functions
   homepageUrl: https://www.digitalocean.com/products/functions

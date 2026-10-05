@@ -10,6 +10,15 @@
   tags:
     - anti_ai_sentiment
 
+- id: distrust_of_ai_leaders
+  name: Distrust of AI Leaders & Labs
+  description:
+    Skepticism toward the motives and claims of AI company leaders and
+    frontier labs.
+  parentId: anti_ai_sentiment
+  tags:
+    - anti_ai_sentiment
+
 - id: wish_it_didnt_exist
   name: Rejection / Wish It Didn't Exist
   description: Outright rejection of AI or wishing it had never been developed.
@@ -144,6 +153,20 @@
 - id: skill_dependent_outcomes
   name: Skill-Dependent Outcomes
   description: AI's usefulness depending heavily on the user's own expertise.
+  parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
+
+- id: terminology_imprecision
+  name: Terminology Imprecision
+  description: Imprecise or misleading use of "AI" and related terms.
+  parentId: neutral_ai_sentiment
+  tags:
+    - neutral_ai_sentiment
+
+- id: local_and_open_weight_models
+  name: Local & Open-Weight Models
+  description: Preference for local or open-weight models over proprietary services.
   parentId: neutral_ai_sentiment
   tags:
     - neutral_ai_sentiment

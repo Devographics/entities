@@ -39,13 +39,6 @@
     and overseeing AI output.
   parentId: ai_career_impact
 
-- id: forced_use_to_stay_competitive
-  name: Pressure to Adopt or Fall Behind
-  description:
-    Individual pressure to use AI to stay employable or competitive, independent
-    of any employer mandate.
-  parentId: ai_career_impact
-
 # ------------------------------------------------------------------- #
 #    DEVELOPER IMPACT
 #    Psychological and cognitive effects of AI on developers.
@@ -109,6 +102,16 @@
     or unethical.
   parentId: ai_developer_impact
 
+- id: forced_use_to_stay_competitive
+  name: Pressure to Adopt or Fall Behind
+  description: Individual pressure to use AI to stay employable or competitive, independent of employer mandates.
+  parentId: ai_developer_impact
+
+- id: forced_adoption_by_management
+  name: Forced Adoption by Management
+  description: Employers or leadership mandating AI use, often top-down and regardless of utility.
+  parentId: ai_developer_impact
+
 # ------------------------------------------------------------------- #
 #    AI INDUSTRY IMPACT
 #    Market, corporate, and cultural dynamics of the AI industry.
@@ -169,23 +172,9 @@
   description: AI built on exploited or underpaid labor, or used to devalue workers.
   parentId: concentration_of_power
 
-- id: forced_adoption_by_management
-  name: Forced Adoption by Management
-  description:
-    Employers or leadership mandating AI use, often top-down and regardless
-    of utility.
-  parentId: ai_industry_impact
-
 - id: management_misunderstanding
   name: Management Misunderstanding
   description: Leadership misunderstanding AI's real capabilities and limits.
-  parentId: ai_industry_impact
-
-- id: distrust_of_ai_leaders
-  name: Distrust of AI Leaders & Labs
-  description:
-    Skepticism toward the motives and claims of AI company leaders and
-    frontier labs.
   parentId: ai_industry_impact
 
 - id: vendor_lock_in
@@ -195,17 +184,7 @@
 
 - id: decline_in_human_collaboration
   name: Decline in Human Collaboration
-  description: AI reducing human-to-human interaction, mentorship, and collaboration.
-  parentId: ai_industry_impact
-
-- id: social_isolation
-  name: Social Isolation
-  description: Increased isolation or dehumanized communication attributed to AI.
-  parentId: decline_in_human_collaboration
-
-- id: terminology_imprecision
-  name: Terminology Imprecision
-  description: Imprecise or misleading use of "AI" and related terms.
+  description: AI reducing human-to-human interaction, mentorship, and collaboration, increased isolation or dehumanized communication attributed to AI.
   parentId: ai_industry_impact
 
 - id: false_expertise
@@ -260,11 +239,6 @@
 - id: social_polarization
   name: Social Polarization
   description: AI deepening social or political polarization.
-  parentId: ai_ethics_impact
-
-- id: local_and_open_weight_models
-  name: Local & Open-Weight Models
-  description: Preference for local or open-weight models over proprietary services.
   parentId: ai_ethics_impact
 
 - id: ai_misinformation
