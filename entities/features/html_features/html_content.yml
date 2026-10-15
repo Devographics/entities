@@ -193,3 +193,13 @@
       title: Introducing the <geolocation> HTML element
     - url: https://piccalil.li/blog/a-look-at-the-geolocation-html-element-and-how-it-works/
       title: A look at the geolocation HTML element and how it works
+
+- id: streams_api
+  name: Streams API
+  description: ReadableStream, WritableStream, TransformStream, and streaming request or response bodies with fetch.
+  parentId: apis_capabilities
+
+- id: compression_streams
+  name: Compression Streams API
+  description: Native gzip and deflate compression and decompression via CompressionStream and DecompressionStream.
+  parentId: streams_api

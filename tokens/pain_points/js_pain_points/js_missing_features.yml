@@ -150,14 +150,6 @@
   patterns:
     - struct
 
-- id: pipe_operator
-  name: Pipe operator
-  patterns:
-    - pipe
-    - pipeline
-    - pipelining
-    - piping
-
 - id: feature_signals
   name: Signals
   patterns:

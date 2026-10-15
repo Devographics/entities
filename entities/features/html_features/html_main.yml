@@ -1090,7 +1090,7 @@
   descriptionIssues: >
     Pain points related to the Navigation API for managing client-side routing
     and history in single-page applications (SPAs).
-  parentId: dom_apis
+  parentId: dom_api
   example:
     language: js
     code: |-
@@ -2190,3 +2190,18 @@
   mdn: en-US/docs/Web/HTML/Reference/Elements/table
   patterns:
     - <table
+
+- id: web_crypto_api
+  name: Web Crypto API
+  description: The Web Crypto API (crypto.subtle), including key handling, hashing, and its ergonomics.
+  parentId: security_privacy
+
+- id: web_locks_api
+  name: Web Locks API
+  description: The Web Locks API for coordinating access to resources across tabs and workers.
+  parentId: apis_capabilities
+
+- id: storage_access_api
+  name: Storage Access API
+  description: The Storage Access API for requesting access to unpartitioned cookies and storage in third-party contexts.
+  parentId: security_privacy

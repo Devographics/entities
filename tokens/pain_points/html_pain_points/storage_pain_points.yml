@@ -1,0 +1,13 @@
+- id: storage
+  name: Client-side Storage
+  description: Storing data in the browser, such as IndexedDB, cookies, the Cache API, or Web Storage.
+
+- id: storage_persistence
+  name: Storage Persistence & Quotas
+  description: Whether client-side storage is durable or can be evicted or cleared, and its capacity and quota limits.
+  parentId: storage
+
+- id: browser_sql_database
+  name: In-browser SQL Database
+  description: Desire for a persistent relational or SQL database API in the browser, such as SQLite-like storage.
+  parentId: storage

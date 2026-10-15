@@ -9,7 +9,7 @@
 - id: dom_manipulation
   name: DOM manipulation
   description: Adding, modifying, and removing DOM elements
-  parentId: dom_apis
+  parentId: dom_api
   patterns:
     - dom manipulation
     - creating.*element(s)?
@@ -18,7 +18,7 @@
 - id: element_selection
   name: Element selection
   description: Selecting and targeting DOM elements
-  parentId: dom_apis
+  parentId: dom_api
   patterns:
     - finding, element [l]
 
@@ -38,7 +38,7 @@
 
 - id: shadow_dom_issues
   name: Shadow DOM issues
-  parentId: dom_apis
+  parentId: dom_api
   patterns:
     - shadow, dom [l]
 

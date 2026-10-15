@@ -1,7 +1,16 @@
+- id: security_privacy
+  name: Security & Privacy
+  description: Security, privacy, and permission-related aspects of web platform APIs.
+
 - id: trusted_types
   name: |
     Trusted Types
   description: >
     Issues related to implementing Trusted Types to prevent DOM-based cross-site
     scripting (XSS) attacks.
+  parentId: security_privacy
+
+- id: secure_contexts
+  name: Secure Contexts
+  description: APIs restricted to HTTPS or other secure contexts, including friction during local development and testing.
   parentId: security_privacy

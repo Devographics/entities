@@ -10,11 +10,26 @@
     Challenges related to updating parts of DOM trees to reflect state,
     including strategies like DOM diffing, virtual DOM or API proposals such as
     DOM parts.
-  parentId: dom_apis
+  parentId: dom_api
 
 - id: creating_elements
   name: |
     Creating elements
   description: |
     Issues around creating elements, complex DOM trees, etc.
-  parentId: dom_apis
+  parentId: dom_api
+
+- id: wasm_dom_access
+  name: WebAssembly DOM Access
+  description: Lack of direct DOM access from WebAssembly, and the cost of moving data between WebAssembly and JavaScript.
+  parentId: wasm
+
+- id: dom_collections
+  name: DOM Collections
+  description: Array-like DOM collections such as NodeList and HTMLCollection, and their missing array methods or iteration quirks.
+  parentId: dom_api
+
+- id: dom_morphing
+  name: DOM Diffing & Morphing
+  description: Desire for native DOM diffing, patching, or morphing primitives to update existing DOM trees efficiently.
+  parentId: dom_api

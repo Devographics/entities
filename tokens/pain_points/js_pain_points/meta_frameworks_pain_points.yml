@@ -2,6 +2,9 @@
 #                  meta_frameworks_pain_points                   #
 ##################################################################
 
+- id: nextjs_issues
+  name: Next.js issues
+
 - id: file_based_routing
   name: File-based routing
   patterns:
@@ -16,8 +19,8 @@
 
 - id: nextjs_vendor_lock_in_issues
   name: Next.js vendor lock-in
-  patterns:
   parentId: nextjs_issues
+  patterns:
     - next, lock [l]
     - next, vercel [l]
 

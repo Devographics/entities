@@ -1166,6 +1166,8 @@
 - id: miguel_angel_duran
   name: Midudev
   alias: Midudev
+  idAliases:
+    - midudev
   twitterName: midudev
   homepageUrl: https://midu.dev/
   blogUrl: https://midu.dev/

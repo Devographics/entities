@@ -108,6 +108,11 @@
   # description: Native-ESM powered web dev build tool. It's fast.
   homepageUrl: https://vite.dev/
 
+- id: vite_plus
+  name: Vite+
+  github: voidzero-dev/vite-plus
+  homepageUrl: https://viteplus.dev/
+
 - id: microbundle
   name: Microbundle
   npm: microbundle

@@ -259,6 +259,10 @@
   name: Node Test Runner
   homepageUrl: https://nodejs.org/en/learn/test-runner/introduction
 
+- id: deno_test_runner
+  name: Deno Test Runner
+  homepageUrl: https://docs.deno.com/runtime/test/
+
 - id: cucumber
   name: Cucumber
   homepageUrl: https://cucumber.io/

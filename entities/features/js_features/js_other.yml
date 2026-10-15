@@ -559,6 +559,10 @@
   patterns:
     - pipe
     - pipeline
+    - pipelining
+    - piping
+  tags:
+    - js_missing_features
 
 - id: js_async_context
   name: Async Context
@@ -853,3 +857,18 @@
       `use strict`
   patterns:
     - directives
+
+- id: import_maps
+  name: Import Maps
+  description: Import maps for controlling how bare module specifiers resolve in the browser.
+  parentId: loading_issues
+
+- id: json_modules
+  name: JSON Modules
+  description: Importing JSON files as ES modules with import attributes.
+  parentId: loading_issues
+
+- id: server_sent_events
+  name: Server-Sent Events
+  description: The EventSource / Server-Sent Events API for receiving server-pushed events over HTTP.
+  parentId: apis_capabilities
