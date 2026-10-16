@@ -32,6 +32,11 @@
   patterns:
     - architecture
 
+- id: project_structure
+  name: Project Structure
+  description: Uncertainty or inconsistency about how to organize folders, files, and code in framework projects.
+  parentId: architecture_issues
+
 - id: too_many_abstractions
   name: Too many abstractions
   patterns:
@@ -66,7 +71,7 @@
   # react_issues
 
 - id: react_dominance
-  parentId: react_issues
+  parentId: react
   name: Excessive dominance
   patterns:
     - dominance, react [l]
@@ -78,14 +83,14 @@
     - widely, react [l]
 
 - id: react_slow_progress
-  parentId: react_issues
+  parentId: react
   name: Slow progress
   patterns:
     - dated, react [l]
     - progress, react [l]
 
 - id: react_community_concerns
-  parentId: react_issues
+  parentId: react
   name: Community concerns
   patterns:
     - vercel, react [l]
@@ -125,3 +130,12 @@
 
 - id: framework_specific_syntax
   name: Framework-specific syntax
+
+- id: incremental_adoption
+  name: Incremental Adoption
+  description: Difficulty adopting a framework gradually, or for only part of an existing page or app, instead of going all-in.
+  parentId: difficulties_switching_frameworks
+
+- id: framework_styling
+  name: Styling in Frameworks
+  description: Framework-specific ways of authoring, scoping, and bundling CSS, such as scoped styles or CSS-in-JS, and their limitations.

@@ -862,6 +862,9 @@
   name: Import Maps
   description: Import maps for controlling how bare module specifiers resolve in the browser.
   parentId: loading_issues
+  instructions: >
+    For issues around import maps being hard to manage, combine with
+    `developer_experience` or a suitable leaf.
 
 - id: json_modules
   name: JSON Modules

@@ -1,7 +1,3 @@
-- id: security_privacy
-  name: Security & Privacy
-  description: Security, privacy, and permission-related aspects of web platform APIs.
-
 - id: trusted_types
   name: |
     Trusted Types

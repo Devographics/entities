@@ -84,7 +84,7 @@
 - id: lack_of_tools
   name: Lack of tools
   decription: Lack of adequate tooling and libraries
-  parentId: tooling
+  parentId: tooling_issues
   patterns:
     - lack, tools [l]
     - tooling
@@ -102,6 +102,11 @@
     - bundler
     - compiler
     - building
+
+- id: required_build_step
+  name: Required Build Step
+  description: Frameworks requiring a compile, transpile, or bundle step instead of running natively in the browser.
+  parentId: build_tool_issues
 
 - id: bundler_issues
   name: Bundlers
@@ -166,9 +171,6 @@
     - server( |-)?side rendering
     - server rendering
 
-# - id: tooling
-#   name: Tooling
-
 - id: configuration
   name: Configuration
   description: Difficulties with set-up and configuration
@@ -183,6 +185,21 @@
 
 - id: ecosystem
   name: Ecosystem issues
+
+- id: small_ecosystem
+  name: Small Ecosystem
+  description: Smaller frameworks (Vue, Svelte, Solid, Lit, Qwik, …) lacking the libraries, component kits, tooling, examples, and community support that React has.
+  parentId: ecosystem
+
+- id: ai_framework_bias
+  name: AI Framework Bias
+  description: AI coding assistants defaulting to React or producing outdated or poor code for other frameworks and their latest versions.
+  parentId: ecosystem
+
+- id: meta_framework_coupling
+  name: Meta-framework Coupling
+  description: Frameworks steering users toward a full-stack meta-framework or server-first patterns (e.g. React toward Next.js and RSC) instead of supporting standalone client-side use.
+  parentId: ecosystem
 
 - id: platform_marketing
   name: |
@@ -217,6 +234,11 @@
   name: Maintenance
   patterns:
     - maintain [p]
+
+- id: lts_releases
+  name: Long-term Support
+  description: Lack of long-term support release lines, short support windows, or missing security updates for older framework versions.
+  parentId: maintenance
 
 - id: lock_in
   name: Lock-in
@@ -419,6 +441,11 @@
   patterns:
     - client, server [l]
     - sharing, code [l]
+
+- id: non_js_backend_integration
+  name: Non-JS Backend Integration
+  description: Difficulty using front-end frameworks, including server-side rendering, with non-JavaScript backends such as PHP, Python, Ruby, or .NET stacks and CMSs.
+  parentId: server_client_issues
 
 - id: fragility
   name: Fragility

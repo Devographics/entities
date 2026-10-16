@@ -342,11 +342,6 @@
   description: Tracking upload or download progress for fetch requests, often compared with XHR progress events.
   parentId: fetch
 
-- id: native_templating
-  name: Native Templating
-  description: Desire for native, declarative templating to create and update elements from data without a framework.
-  parentId: templating
-
 - id: post_message_api
   name: postMessage & Message Channels
   description: Messaging between windows, iframes, workers, or tabs via postMessage and MessageChannel.
@@ -356,8 +351,3 @@
   name: Browser Extension APIs
   description: Browser extension (WebExtensions) APIs, manifests, and cross-browser extension differences.
   parentId: apis_capabilities
-
-- id: feature_detection
-  name: Feature Detection
-  description: Detecting at runtime whether a browser API, or a specific capability of it, is available and usable.
-  parentId: interop_issues

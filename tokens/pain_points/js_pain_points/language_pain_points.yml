@@ -46,7 +46,7 @@
   descriptionIssues: >
     Typing components and their JSX/TSX/templating integrations (including
     Custom Elements Manifest).
-  parentId: tooling
+  parentId: tooling_issues
   tags:
     - front_end_frameworks_pain_points
 
@@ -81,6 +81,7 @@
     - maths
 
 - id: number_issues
+  name: Number issues
   description: Issues with numbers
   patterns:
     - number
@@ -105,6 +106,7 @@
     - promises
 
 - id: legacy_support
+  name: Legacy support
   description: Issues because of backwards compatibility
   patterns:
     - legacy
@@ -309,3 +311,76 @@
     - tipado
     - typescript support
     - typesafety
+
+# Proposed additions for tokens/pain_points/js_pain_points/language_pain_points.yml
+# Every id below was checked against the whole entities repo (no existing id or close match),
+# and every parentId already exists in the js2025 codebook.
+
+- id: integer_types
+  name: Integer Types
+  description: Lack of distinct integer or fixed-width number types (int32, int64, …); JavaScript only has float64 numbers plus BigInt.
+  parentId: number_issues
+
+- id: floating_point_precision
+  name: Floating-point Precision
+  description: Floating-point rounding errors (e.g. 0.1 + 0.2) and the lack of native decimal or fixed-precision arithmetic, such as for currency.
+  parentId: number_issues
+
+- id: type_coercion
+  name: Type Coercion
+  description: Surprising implicit type conversions in operators and comparisons, including loose equality (==) and truthy/falsy rules.
+  parentId: syntax_issues
+
+- id: unknown_thrown_errors
+  name: Untyped Thrown Errors
+  description: Not knowing which errors a function can throw or their type; any value can be thrown, and catch blocks receive untyped values.
+  parentId: error_handling
+
+- id: function_coloring
+  name: Function Coloring
+  description: The async/sync divide, where async spreads through a codebase, forcing refactors and causing forgotten awaits.
+  parentId: async_issues
+
+- id: runtime_fragmentation
+  name: Runtime Fragmentation
+  description: Divergent APIs and capabilities across Node.js, Deno, Bun, edge/worker runtimes, and browsers, making code hard to port.
+  parentId: ecosystem
+
+- id: supply_chain_security
+  name: Supply Chain Security
+  description: Malicious, compromised, or untrusted npm packages, and the security risk of large dependency trees.
+  parentId: package_management
+
+- id: standard_toolchain
+  name: Standard Toolchain
+  description: Lack of an official, unified toolchain for formatting, linting, testing, building, and package management.
+  parentId: tooling_issues
+
+- id: tsconfig
+  name: TypeScript Configuration
+  description: Difficulty configuring TypeScript projects through tsconfig files and compiler options.
+  parentId: configuration
+
+- id: type_definitions
+  name: Type Definitions
+  description: Missing, outdated, or incorrect type definitions (.d.ts files, @types packages) for JavaScript libraries.
+  parentId: typescript_issues
+
+- id: stack_traces
+  name: Stack Traces
+  description: Unreadable, inconsistent, or unhelpful stack traces, especially across async code.
+  parentId: debugging_issues
+
+- id: source_maps
+  name: Source Maps
+  description: Problems using source maps to debug bundled, minified, or compiled JavaScript and TypeScript.
+  parentId: debugging_issues
+
+- id: json_serialization
+  name: JSON Serialization
+  description: JSON's limitations for JavaScript values such as Date, BigInt, Map, Set, or undefined, and the lack of comments.
+
+- id: tc39_process
+  name: TC39 Process
+  description: The pace and predictability of the TC39 proposal process, including proposals that stall or take years to reach stage 4.
+  parentId: standards

@@ -147,11 +147,3 @@
     - responsive, table
   tags:
     - html_missing_elements
-
-- id: apis_capabilities
-  name: APIs & Capabilities
-  description: Web platform APIs that expose device, system, or browser capabilities to web pages.
-
-- id: templating
-  name: Templating
-  description: Native facilities for declaring and instantiating reusable HTML templates.

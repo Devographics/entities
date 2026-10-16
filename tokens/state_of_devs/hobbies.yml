@@ -188,6 +188,8 @@
 - id: interior_design
 
 - id: nature
+  tags:
+    - happiness_factors
 
 - id: pinball
 

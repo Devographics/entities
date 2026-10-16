@@ -50,10 +50,6 @@
   parentId: html_reuse
 
 - id: import_maps
-  name: Import Maps
-  instructions: >
-    For issues around import maps being hard to manage, combine with
-    `developer_experience` or a suitable leaf.
 
 - id: marquee
 

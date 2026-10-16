@@ -1,5 +1,5 @@
 - id: react_lack_of_signals
-  parentId: react_issues
+  parentId: react
   name: Lack of signals
   patterns:
     - signals, react [l]
