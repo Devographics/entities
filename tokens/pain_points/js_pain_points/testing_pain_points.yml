@@ -7,6 +7,21 @@
   patterns:
     - mock [p]
 
+- id: module_mocking
+  name: Module Mocking
+  description: Difficulty mocking module imports, including ESM/CommonJS differences, import hoisting, and module resolution.
+  parentId: mocking
+
+- id: network_mocking
+  name: Network & API Mocking
+  description: Mocking HTTP requests, fetch calls, and API responses in tests.
+  parentId: mocking
+
+- id: test_data
+  name: Test Data & Fixtures
+  description: Creating, maintaining, and seeding realistic test data, fixtures, and database state.
+  parentId: mocking
+
 - id: e2e_testing
   name: E2E testing
   patterns:
@@ -20,6 +35,11 @@
 
 - id: front_end
   name: Frontend testing
+
+- id: visual_regression_testing
+  name: Visual Regression Testing
+  description: Screenshot comparison and visual diff testing, including cost, flaky diffs from environment differences, and tool quality.
+  parentId: front_end
 
 - id: not_testing
   patterns:
@@ -43,11 +63,19 @@
   patterns:
     - unit, test [l]
 
+- id: integration_testing
+  name: Integration Testing
+  description: Testing how multiple units, services, or app layers work together, short of full end-to-end tests.
+
 - id: managing_different_environments
   patterns:
     - env, diff [l]
     - inconsist, env [l]
     - test, env
+
+- id: test_environments
+  name: Test Environments
+  description: Pain points with emulated DOM environments such as jsdom or happy-dom, and tests running in a different environment (Node vs browser) than production.
 
 - id: lack_of_bun_support
   name: Lack of Bun support
@@ -58,3 +86,15 @@
     - browser
 
 - id: long_time_to_run
+
+- id: test_parallelism
+  name: Test Parallelism
+  description: Configuring and running tests in parallel, and the race conditions or shared-resource conflicts it causes.
+
+- id: code_coverage
+  name: Code Coverage
+  description: Generating, enforcing, merging, or interpreting code coverage, including coverage giving a false sense of quality.
+
+- id: test_failure_output
+  name: Test Failure Output
+  description: Unclear assertion errors, unhelpful diffs or stack traces, and hard-to-read test reports that make failures hard to understand.

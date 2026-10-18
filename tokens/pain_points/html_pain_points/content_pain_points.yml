@@ -262,7 +262,6 @@
   description: >
     Issues related to core DOM manipulation APIs, including issues around
     creating, updating, or removing DOM nodes via JavaScript APIs.
-  parentId: interactivity
 
 - id: mathml
   name: |

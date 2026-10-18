@@ -54,7 +54,7 @@
     Issues related to streaming HTML content from the server to the client,
     including browser inconsistencies, performance challenges, and hooking up
     interactivity to streamed content.
-  parentId: server_client
+  parentId: server_client_issues
 
 - id: audio_tracks
   name: |

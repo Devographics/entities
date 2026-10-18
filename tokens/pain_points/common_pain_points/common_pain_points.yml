@@ -108,6 +108,21 @@
   description: Frameworks requiring a compile, transpile, or bundle step instead of running natively in the browser.
   parentId: build_tool_issues
 
+- id: build_tool_migration
+  name: Build Tool Migration
+  description: Difficulty migrating between build tools (e.g. off Webpack), including configuration and plugins tied to a specific tool.
+  parentId: build_tool_issues
+
+- id: native_build_tools
+  name: Rust/Go Build Tools
+  description: Build tools rewritten in Rust, Go, or other native languages, and the impact on extensibility, plugins, and the ability of JS developers to contribute.
+  parentId: build_tool_issues
+
+- id: build_error_messages
+  name: Build Error Messages
+  description: Cryptic, unhelpful, or hard-to-trace error messages and logs from build tools.
+  parentId: build_tool_issues
+
 - id: bundler_issues
   name: Bundlers
   description: Bundlers issues
@@ -116,6 +131,26 @@
   patterns:
     - bundling
     - bundle
+
+- id: code_splitting
+  name: Code Splitting & Chunking
+  description: How bundlers split code into chunks, including naive chunking, manual chunk configuration, and lack of control over output.
+  parentId: bundler_issues
+
+- id: asset_processing
+  name: Asset Processing
+  description: Bundling or processing non-JavaScript assets such as CSS, Sass, images, fonts, HTML, and workers through build tools.
+  parentId: bundler_issues
+
+- id: library_bundling
+  name: Library Bundling
+  description: Building and publishing libraries rather than apps, including dual ESM/CommonJS output, package exports maps, and generating TypeScript declarations.
+  parentId: bundler_issues
+
+- id: server_side_bundling
+  name: Server-side Bundling
+  description: Build tools focusing on frontend apps, with poor support for bundling Node.js or other server-side code.
+  parentId: bundler_issues
 
 - id: bloat
   name: Bloat
@@ -264,6 +299,11 @@
     - deploy [p]
     - host
     - hosting
+
+- id: deployment_adapters
+  name: Deployment Adapters
+  description: Needing per-platform adapters to deploy the same app to different hosts, and features that only work fully on one platform.
+  parentId: deployment
 
 - id: memory_management
   name: Memory management
@@ -445,6 +485,31 @@
 - id: non_js_backend_integration
   name: Non-JS Backend Integration
   description: Difficulty using front-end frameworks, including server-side rendering, with non-JavaScript backends such as PHP, Python, Ruby, or .NET stacks and CMSs.
+  parentId: server_client_issues
+
+- id: server_client_boundary
+  name: Server/Client Boundary
+  description: Confusion about where code runs (server, client, or edge), blurred boundaries between them, and accidental leakage of code or data across them.
+  parentId: server_client_issues
+
+- id: rendering_modes
+  name: Rendering Modes
+  description: Choosing between and reasoning about SSR, SSG, ISR, CSR, streaming, and hybrid rendering, and the complexity of having so many modes.
+  parentId: server_client_issues
+
+- id: static_site_generation
+  name: Static Site Generation
+  description: Pain points with static site generation (SSG), build-time rendering, and static export limitations.
+  parentId: rendering_modes
+
+- id: incremental_static_regeneration
+  name: Incremental Static Regeneration
+  description: Pain points with incremental static regeneration (ISR), revalidation, and stale-while-revalidate caching behavior.
+  parentId: rendering_modes
+
+- id: api_routes
+  name: API Routes & Middleware
+  description: Limitations of a meta-framework's built-in backend features, such as API routes, route handlers, and middleware, compared with a dedicated backend.
   parentId: server_client_issues
 
 - id: fragility
@@ -647,7 +712,7 @@
   description: >
     Performance bottlenecks related to the process of making server-rendered
     HTML interactive on the client using JavaScript frameworks.
-  parentId: server_client
+  parentId: server_client_issues
   instructions: >
     Combine with `web_components` for issues specific to Server-Side Rendering
     (SSR) and client-side hydration of web components.
@@ -661,6 +726,11 @@
   instructions: >
     If specific ones are mentioned, combine with the corresponding descendants
     of `specific_platforms_vendors`
+
+- id: vendor_leadership_conduct
+  name: Vendor Leadership Conduct
+  description: Objections to the public conduct or political stances of a company's leadership (e.g. Vercel's CEO) as a reason to avoid its tools.
+  parentId: vendor_politics
 
 - id: standards
   name: |
@@ -691,6 +761,11 @@
   instructions: >
     For issues around debugging tools, combine with `tools` (or a suitable
     leaf).
+
+- id: observability
+  name: Observability
+  description: Lack of built-in logging, monitoring, and tracing support, making it hard to understand how a backend behaves in production.
+  parentId: debugging_issues
 
 - id: animations_issues
   name: |

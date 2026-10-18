@@ -37,6 +37,11 @@
   description: Uncertainty or inconsistency about how to organize folders, files, and code in framework projects.
   parentId: architecture_issues
 
+- id: dependency_injection
+  name: Dependency Injection
+  description: Pain points with dependency injection systems in frameworks, such as being intrusive, verbose, decorator-heavy, or forcing an OOP style.
+  parentId: architecture_issues
+
 - id: too_many_abstractions
   name: Too many abstractions
   patterns:

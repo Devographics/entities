@@ -3,3 +3,21 @@
     Lack of “all in one” framework
   patterns:
     - batteries, included [l]
+
+- id: background_jobs
+  name: Background Jobs
+  description: Lack of built-in support for background jobs, task queues, and scheduled (cron) tasks in backend frameworks.
+  parentId: lack_of_all_in_one_frameworks
+
+- id: database_orm
+  name: Databases & ORMs
+  description: Pain points with database access in backend frameworks, such as ORMs, query builders, database connections, and schema management.
+
+- id: database_migrations
+  name: Database Migrations
+  description: Difficulties with schema and data migrations, rollbacks, and migration reliability.
+  parentId: database_orm
+
+- id: input_validation
+  name: Input Validation
+  description: Validating and parsing request and response data, and the lack of a standard built-in way to do it, forcing third-party schema libraries.
