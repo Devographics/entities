@@ -23,6 +23,10 @@
   tags:
     - html_functionality_features
     - forms_pain_points
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - interactions_pain_points
+    - css_general_pain_points
   descriptionIssues: |
     Pain points related to the `<select>` element.
   parentId: form_input_issues
@@ -154,6 +158,7 @@
   tags:
     - html_missing_elements
     - forms_pain_points
+    - interactions_pain_points
   descriptionIssues: |
     Pain points related to `<input type="range">`.
   parentId: form_input_issues
@@ -219,6 +224,7 @@
   tags:
     - forms_pain_points
     - css_interoperability_features
+    - interactions_pain_points
 
 - id: edit_context
   webFeaturesId: edit-context
@@ -270,6 +276,8 @@
     General pain points with the `<input>` element or for input types not
     covered by more specific codes.
   parentId: form_input_issues
+  tags:
+    - interactions_pain_points
 
 - id: color_picker
   name: |
@@ -302,6 +310,8 @@
   patterns:
     - multi( |-)?select
     - select, multiple [l]
+  tags:
+    - interactions_pain_points
 
 - id: textarea_element
   name: |
@@ -311,6 +321,7 @@
   parentId: form_input_issues
   tags:
     - forms_pain_points
+    - colors_pain_points
   patterns:
     - text(-| )?area
 
@@ -350,6 +361,9 @@
   mdn: en-US/docs/Web/HTML/Reference/Elements/input/checkbox
   patterns:
     - checkbox [p]
+  tags:
+    - colors_pain_points
+    - interactions_pain_points
 
 - id: input_type_radio
   name: |
@@ -360,6 +374,8 @@
   mdn: en-US/docs/Web/HTML/Reference/Elements/input/radio
   patterns:
     - radio
+  tags:
+    - interactions_pain_points
 
 - id: fieldset_element
   name: |
@@ -370,6 +386,9 @@
   parentId: form_issues
   patterns:
     - fieldset
+  tags:
+    - layout_pain_points
+    - css_general_pain_points
 
 - id: input_type_number
   idAliases:
@@ -384,6 +403,7 @@
     - number, input [l]
   tags:
     - front_end_frameworks_pain_points
+    - interactions_pain_points
 
 - id: input_type_file
   idAliases:

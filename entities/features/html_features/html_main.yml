@@ -79,6 +79,7 @@
   w3c: TR/wai-aria-1.2/
   tags:
     - features
+    - interactions_pain_points
 
 - id: autocomplete_attribute
   name: |
@@ -476,6 +477,9 @@
   tags:
     - features
     - html_functionality_features
+    - layout_pain_points
+    - interactions_pain_points
+    - css_general_pain_points
   patterns:
     - details
     - <details>
@@ -516,6 +520,7 @@
     - interactivity_pain_points
     - favorite_new_features
     - testing_pain_points
+    - layout_pain_points
   patterns:
     - dialog
     - dialogue
@@ -701,6 +706,7 @@
         web forward. -     Monorail
   tags:
     - features
+    - layout_pain_points
   patterns:
     - focusgroup
 
@@ -728,6 +734,7 @@
   tags:
     - features
     - language_pain_points
+    - interactions_pain_points
 
 - id: formdata
   name: FormData API
@@ -852,6 +859,7 @@
         Development
   tags:
     - features
+    - interactions_pain_points
   patterns:
     - inert
 
@@ -1188,6 +1196,7 @@
   w3c: TR/html52/embedded-content-0.html#the-iframe-element
   tags:
     - features
+    - layout_pain_points
   patterns:
     - iframe
 
@@ -1236,6 +1245,7 @@
   parentId: graphics_issues
   tags:
     - language_pain_points
+    - shapes_graphics_pain_points
 
 - id: svg_element
   webFeaturesId: svg
@@ -1261,6 +1271,10 @@
   parentId: graphics_issues
   tags:
     - features
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: math_element
   webFeaturesId: mathml
@@ -1332,6 +1346,7 @@
     - favorite_new_features
     - front_end_frameworks_pain_points
     - testing_pain_points
+    - layout_pain_points
   patterns:
     - pop( |-)?over
     - popup
@@ -1465,6 +1480,8 @@
       title: HTML Standard
   tags:
     - features
+    - layout_pain_points
+    - shapes_graphics_pain_points
 
 - id: rh_preconnect
   name: "Resource Hints: preconnect (`<link rel=preconnect>`)"
@@ -1631,6 +1648,9 @@
       title: Open UI's selectmenu demos
   tags:
     - features
+    - layout_pain_points
+    - interactions_pain_points
+    - css_general_pain_points
   patterns:
     - selectlist
     - select list
@@ -1694,6 +1714,10 @@
     - features
     - html_interoperability_features
     - language_pain_points
+    - colors_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: showpicker
   webFeaturesId: show-picker-input
@@ -1998,6 +2022,7 @@
       title: "Invoker Commands: Additional Ways to Work With Dialog, Popover… and More?"
   tags:
     - front_end_frameworks_pain_points
+    - interactions_pain_points
 
 - id: hidden_until_found
   webFeaturesId: hidden-until-found
@@ -2065,6 +2090,8 @@
   name: |
     Virtual Keyboard API
   parentId: apis_capabilities
+  tags:
+    - layout_pain_points
 
 - id: ink_api
   name: |
@@ -2213,6 +2240,8 @@
   mdn: en-US/docs/Web/HTML/Reference/Elements/table
   patterns:
     - <table
+  tags:
+    - layout_pain_points
 
 - id: web_crypto_api
   name: Web Crypto API

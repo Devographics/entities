@@ -96,6 +96,7 @@
     - scroll( )?bar
   tags:
     - html_interoperability_features
+    - interactions_pain_points
   parentId: scrollbars
 
 - id: web_bluetooth_api
@@ -180,6 +181,8 @@
     - drag, drop, api [l]
   tags:
     - browser_apis_pain_points
+    - shapes_graphics_pain_points
+    - interactions_pain_points
 
 - id: history_api
   name: History API
@@ -193,6 +196,8 @@
   patterns:
     - intersection observer
     - intersectionobserver
+  tags:
+    - interactions_pain_points
 
 - id: push_api
   name: Push API

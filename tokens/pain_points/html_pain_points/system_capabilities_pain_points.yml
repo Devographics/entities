@@ -1,6 +1,8 @@
 - id: system_capabilities
   name: |
     System capabilities
+  tags:
+    - layout_pain_points
 
 - id: apis_capabilities
   name: |
@@ -15,6 +17,7 @@
   tags:
     - back_end_frameworks_pain_points
     - top_js_pain_points
+    - layout_pain_points
 
 - id: audio_issues
   name: |

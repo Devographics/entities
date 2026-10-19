@@ -26,3 +26,7 @@
   parentId: typography_issues
   descriptionIssues: >
     Maintaining consistent vertical rhythm and baseline alignment of text and elements across a layout.
+  tags:
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - other_features_pain_points

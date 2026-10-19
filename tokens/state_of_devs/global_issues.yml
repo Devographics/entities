@@ -16,6 +16,8 @@
     - rising, intolerance [l]
 
 - id: social_isolation
+  tags:
+    - ai_outlook
 
 - id: trump
 

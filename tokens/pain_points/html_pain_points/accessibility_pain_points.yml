@@ -51,6 +51,9 @@
   tags:
     - language_pain_points
     - front_end_frameworks_pain_points
+    - shapes_graphics_pain_points
+    - colors_pain_points
+    - interactions_pain_points
 
 - id: automated_testing
   # name: Automated testing

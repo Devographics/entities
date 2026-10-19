@@ -8,6 +8,9 @@
     - parent (of )?(an )?element
     - \:parent
     - (target|select|style) (a )?parent
+  tags:
+    - interactions_pain_points
+    - other_features_pain_points
 
 - id: better_scoping
   name: Scoping
@@ -15,11 +18,20 @@
     - encapsulation
     - isolation
     - scop(e|ing)
+  tags:
+    - layout_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
 
 - id: css_control_flow
   name: Control Flow
   description: >
     Imperative control-flow constructs in CSS — loops and conditionals— for repeating or branching styles.
+  tags:
+    - layout_pain_points
+    - colors_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
 
 - id: css_conditional_logic
   oldId: conditional_logic
@@ -27,6 +39,11 @@
   parentId: css_control_flow
   descriptionIssues: >
     Branching/conditional styling — choosing values or rules based on conditions (if()/else).
+  tags:
+    - layout_pain_points
+    - colors_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
 
 - id: simplicity
   name: Simplicity
@@ -44,14 +61,23 @@
     - input element
     - form element
     - form fields
+  tags:
+    - layout_pain_points
+    - colors_pain_points
+    - interactions_pain_points
 
 - id: print_support
   name: Print Support
+  tags:
+    - layout_pain_points
+    - shapes_graphics_pain_points
 
 - id: css_regions
   name: CSS Regions
   patterns:
     - regions
+  tags:
+    - layout_pain_points
 
 - id: css_loops
   name: For Loops
@@ -70,11 +96,16 @@
   tags:
     - browser_interoperability
     - css_missing_features
+    - layout_pain_points
+    - colors_pain_points
+    - interactions_pain_points
 
 - id: cmyk_colors
   name: CMYK Colors
   patterns:
     - cmyk
+  tags:
+    - colors_pain_points
 
 - id: styling_select
   name: Styling `select` Inputs
@@ -87,6 +118,9 @@
     - stylable select
   tags:
     - css_interoperability_features
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - interactions_pain_points
 
 - id: random
   name: "`random()` Function"
@@ -100,6 +134,9 @@
     - animate, auto [l]
     - animating, auto [l]
   parentId: animations_issues
+  tags:
+    - layout_pain_points
+    - interactions_pain_points
 
 - id: at_custom_media
   name: "`@custom-media`"
@@ -113,13 +150,20 @@
   patterns:
     - "@custom-media [e]"
     - custom media queries
+  tags:
+    - layout_pain_points
+    - other_features_pain_points
 
 - id: flex_wrap_detection
   name: Flex Wrap Detection
+  tags:
+    - layout_pain_points
 
 - id: previous_sibling_selector
   name: Previous Sibling Selector
   parentId: has_selector
+  tags:
+    - other_features_pain_points
 
 - id: cursor_position
   name: Cursor Position
@@ -134,10 +178,14 @@
 
 - id: current_background_color
   name: "`currentBackgroundColor`"
+  tags:
+    - colors_pain_points
 
 - id: native_visually_hidden
   name: Visually Hidden Content
   description: Native support for visually hidden content.
+  tags:
+    - layout_pain_points
 
 - id: generated_content_alt_text
   name: Generated Content Alt Text
@@ -147,6 +195,8 @@
 - id: flex_wrapping_detection
   name: Wrapping Detection
   description: Detecting when a flex or grid item has wrapped to another line.
+  tags:
+    - layout_pain_points
 
 - id: more_pseudo_elements
   name: More Pseudo-Elements
@@ -156,11 +206,16 @@
     - after-2
     - before-1
     - before-2
+  tags:
+    - layout_pain_points
+    - shapes_graphics_pain_points
 
 - id: svg_in_css
   name: SVG-in-CSS
   description: >
     Support for SVG syntax inside CSS code (such as inside `background`).
+  tags:
+    - shapes_graphics_pain_points
 
 - id: masonry_layout
   webFeaturesId: masonry
@@ -180,6 +235,8 @@
 - id: grid_lines_styling
   name: Grid-lines Styling
   description: The ability to style the invisible lines that divide a grid.
+  tags:
+    - layout_pain_points
 
 - id: media_queries_variables
   name: Media Queries Variables
@@ -190,6 +247,10 @@
   description: Group and reuse definitions dynamically.
   patterns:
     - mixins?
+  tags:
+    - layout_pain_points
+    - colors_pain_points
+    - other_features_pain_points
 
 - id: css_toggles
   name: CSS Toggles
@@ -245,11 +306,15 @@
     - inner, border, radius [l]
     - inverted, border, radius [l]
     - outline, radius [l]
+  tags:
+    - shapes_graphics_pain_points
 
 - id: nth_letter_selector
   name: Nth-letter Selector
   patterns:
     - nth, letter [l]
+  tags:
+    - colors_pain_points
 
 - id: nth_of_class
   name: Nth-of-class Selector
@@ -259,27 +324,39 @@
   name: Gradient Borders
   patterns:
     - border, gradient [l]
+  tags:
+    - shapes_graphics_pain_points
 
 - id: squircle_border_radius
   name: Squircle Border Radius
   patterns:
     - squircle
+  tags:
+    - shapes_graphics_pain_points
 
 - id: media_query_variables
   name: Media Query Variables
   patterns:
     - media, quer(y|ies), variable(s)? [l]
+  tags:
+    - layout_pain_points
+    - other_features_pain_points
 
 - id: custom_functions
   name: Custom Functions
   patterns:
     - custom, function(s)? [l]
+  tags:
+    - colors_pain_points
+    - other_features_pain_points
 
 - id: background_image_transparency
   name: Background Image Transparency
   patterns:
     - background, image, transparent [l]
     - background, image, transparency [l]
+  tags:
+    - shapes_graphics_pain_points
 
 - id: inline_comments
   name: Inline Comments
@@ -288,15 +365,24 @@
 
 - id: table_styling
   name: Table Styling
+  tags:
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - colors_pain_points
+    - interactions_pain_points
 
 - id: empty_pseudo_class
   name: |
     `:empty` Pseudo-Class
   patterns:
     - empty, pseudo [l]
+  tags:
+    - interactions_pain_points
 
 - id: reading_order
   name: Reading Order
+  tags:
+    - layout_pain_points
 
 - id: size_shorthand
   name: |
@@ -317,16 +403,24 @@
 - id: flex_wrap_balance
   parentId: flexbox
   name: "`flex-wrap: balance;`"
+  tags:
+    - layout_pain_points
 
 - id: irregular_element_shape
   name: Complex element shapes
   description: >
     Giving an element a genuinely non-rectangular shape that the box itself takes on — so its border, box-shadow, and outline follow the new outline — rather than faking it by clipping the element (which drops borders/shadows) or layering shapes via pseudo-elements.
+  tags:
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - interactions_pain_points
 
 - id: child_count
   name: "`children-count()`"
   descriptionIssues: >
     Desire to extend sibling-count()/sibling-index() with children-count(), descendant-count(), or selector-filtered variants.
+  tags:
+    - other_features_pain_points
 
 - id: css_counter_value
   name: |

@@ -45,6 +45,8 @@
   parentId: mozilla
   descriptionIssues: >
     Issues specific to the Firefox browser, across all platforms.
+  tags:
+    - shapes_graphics_pain_points
 
 - id: firefox_developer
   name: Firefox Developer Edition
@@ -113,12 +115,16 @@
   homepageUrl: https://www.apple.com/safari/
   # parentId: apple
   parentId: apple
+  tags:
+    - shapes_graphics_pain_points
 
 - id: safari_ios
   name: Safari iOS
   homepageUrl: https://www.apple.com/safari/
   # parentId: apple
   parentId: apple
+  tags:
+    - shapes_graphics_pain_points
 
 - id: vivaldi
   name: Vivaldi

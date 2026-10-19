@@ -48,6 +48,9 @@
   name: clean-css
   homepageUrl: https://clean-css.github.io/
   github: clean-css/clean-css
+  tags:
+    - interactions_pain_points
+    - other_features_pain_points
 
 - id: stylelint
   name: Stylelint

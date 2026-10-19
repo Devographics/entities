@@ -8,6 +8,11 @@
   github: twbs/bootstrap
   homepageUrl: https://getbootstrap.com/
   npm: bootstrap
+  tags:
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: materialize_css
   parentId: css_frameworks_issues
@@ -105,6 +110,12 @@
     - css_pain_points
     - gamechanger_feature
     - component_libraries_pain_points
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - colors_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: tailwind_ui
   parentId: css_frameworks_issues

@@ -111,6 +111,9 @@
   name: Tooltips
   descriptionIssues: |
     Pain points related to creating accessible, reliable tooltips.
+  tags:
+    - layout_pain_points
+    - shapes_graphics_pain_points
 
 - id: content_shift
   patterns:

@@ -69,3 +69,5 @@
     language: js
     code: |
       const gl = canvas.getContext("webgl");
+  tags:
+    - colors_pain_points

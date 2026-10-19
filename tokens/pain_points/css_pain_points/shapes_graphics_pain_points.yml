@@ -23,6 +23,8 @@
   parentId: svg_technology
   descriptionIssues: >
     Differences and adjustments needed depending on how SVG is embedded (inline, <img>, <use> sprites, url()), affecting styling, sizing, and behavior.
+  tags:
+    - other_features_pain_points
 
 - id: css_icons
   name: Icons
@@ -34,6 +36,8 @@
   parentId: css_border
   descriptionIssues: >
     Decorative border effects: multiple/stacked or offset borders, custom dash spacing, gradient borders, and corner-only decoration.
+  tags:
+    - layout_pain_points
 
 - id: css_textures
   name: Textures
@@ -51,11 +55,15 @@
   name: Box model & box-sizing
   descriptionIssues: >
     Confusion around the box model: box-sizing defaults, collapsing margins, and how border/padding interact with declared sizes.
+  tags:
+    - css_general_pain_points
 
 - id: css_in_svg
   name: CSS inside SVG
   descriptionIssues: >
     Modern CSS primitives not working, or behaving inconsistently, inside SVG — e.g. custom properties and functions, shape(), or color functions unavailable in SVG geometry/presentation contexts (such as shape() in <path>).
+  tags:
+    - css_general_pain_points
 
 - id: svg_css_properties
   name: SVG attributes as CSS properties
@@ -67,3 +75,5 @@
   name: Icons issues
   descriptionIssues: >
     Issues related to using icons.
+  tags:
+    - layout_pain_points

@@ -54,6 +54,8 @@
   contexts: [state_of_css]
   github: css-modules/css-modules
   homepageUrl: https://github.com/css-modules/css-modules
+  tags:
+    - css_general_pain_points
 
 - id: styled_system
   parentId: css_in_js

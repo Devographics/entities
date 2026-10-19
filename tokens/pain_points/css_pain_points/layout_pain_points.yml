@@ -3,6 +3,11 @@
     CSS layout issues
   description: |
     General issues related to CSS layout models.
+  tags:
+    - shapes_graphics_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: flexbox_issues
   patterns:
@@ -27,11 +32,16 @@
   parentId: alignment_issues
   patterns:
     - center [p]
+  tags:
+    - interactions_pain_points
 
 - id: alignment_issues
   name: Alignment issues
   patterns:
     - align [p]
+  tags:
+    - shapes_graphics_pain_points
+    - interactions_pain_points
 
 - id: margin_issues
   patterns:
@@ -47,6 +57,11 @@
     - z, index [l]
     - stack
     - stacking
+  tags:
+    - shapes_graphics_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: scrollbar_issues
   patterns:
@@ -78,6 +93,11 @@
   name: Element sizing
   patterns:
     - sizing
+  tags:
+    - shapes_graphics_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: dynamic_sizing
   name: Dynamic sizing
@@ -100,18 +120,24 @@
   descriptionIssues: >
     Sizing elements to fill available or viewport width or height: 100% height chains, full-height children without an explicit parent height, and stretching to fit remaining space.
   parentId: sizing_issues
+  tags:
+    - css_general_pain_points
 
 - id: container_query_wrapper
   name: Container query wrapper requirement
   parentId: limitations
   descriptionIssues: >
     Container queries requiring an extra wrapper element because an element cannot query itself; desire for self/element conditionals.
+  tags:
+    - css_general_pain_points
 
 - id: grid_track_sizing
   name: Grid track sizing
   parentId: grid
   descriptionIssues: >
     Sizing grid tracks with fr units, minmax(), and auto-fit/auto-fill repeat, including their behavior and where they can be used.
+  tags:
+    - css_general_pain_points
 
 - id: css_sizing
   name: Sizing
@@ -123,6 +149,8 @@
   parentId: sizing_issues
   descriptionIssues: >
     The automatic minimum size of flex and grid items causing overflow or squishing, often requiring the min-width: 0 / min-height: 0 workaround.
+  tags:
+    - css_general_pain_points
 
 - id: positioning
   idAliases:
@@ -130,9 +158,16 @@
   name: Positioning
   descriptionIssues: >
     The CSS position model in general: relative, absolute, and fixed positioning relationships, and positioning relative to the viewport.
+  tags:
+    - shapes_graphics_pain_points
+    - interactions_pain_points
+    - other_features_pain_points
+    - css_general_pain_points
 
 - id: box_alignment
   name: Alignment properties
   parentId: alignment_issues
   descriptionIssues: >
     The align-*/justify-* and place-* properties, especially how their meaning flips with flex direction and writing mode.
+  tags:
+    - shapes_graphics_pain_points

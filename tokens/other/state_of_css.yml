@@ -5,11 +5,15 @@
   name: Overflow
   tags:
     - browser_interoperability
+    - layout_pain_points
+    - shapes_graphics_pain_points
+    - interactions_pain_points
 
 - id: gap
   name: gap
   tags:
     - browser_interoperability
+    - layout_pain_points
 
 - id: custom_css_framework
   name: Custom CSS Framework
