@@ -9,6 +9,7 @@
   homepageUrl: https://auth0.com/
   tags:
     - services
+    - meta_frameworks_pain_points
 
 - id: clerk
   name: Clerk
@@ -39,6 +40,8 @@
 - id: better_auth
   name: Better Auth
   homepageUrl: https://www.better-auth.com/
+  tags:
+    - top_js_pain_points
 
 - id: kinde
   name: Kinde
@@ -65,3 +68,5 @@
 - id: jwt
   name: JSON Web Tokens
   homepageUrl: https://jwt.io/
+  tags:
+    - back_end_frameworks_pain_points

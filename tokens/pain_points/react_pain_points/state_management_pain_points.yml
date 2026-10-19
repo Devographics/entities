@@ -7,8 +7,13 @@
   name: Synchronization issues
   patterns:
     - sync [p]
+  tags:
+    - top_js_pain_points
 
 - id: side_effects_issues
   name: Side effects
   patterns:
     - side effect
+  tags:
+    - language_pain_points
+    - top_js_pain_points

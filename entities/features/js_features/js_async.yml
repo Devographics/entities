@@ -5,6 +5,9 @@
 - id: promises
   name: Promises
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+  tags:
+    - back_end_frameworks_pain_points
+    - top_js_pain_points
 
 - id: promise_all_settled
   webFeaturesId: promise-allsettled

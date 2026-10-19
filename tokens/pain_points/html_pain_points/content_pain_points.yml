@@ -3,6 +3,10 @@
 - id: content
   name: |
     Content
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 ##################################################################
 #                    content_pain_points                         #
@@ -36,6 +40,9 @@
   description: Managing images
   patterns:
     - image
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
 
 - id: image_dimension_management
   parentId: image_management
@@ -62,6 +69,8 @@
 - id: lack_of_templating
   patterns:
     - templat [p]
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: machine_readable_data
   patterns:
@@ -75,6 +84,8 @@
   patterns:
     - embedding
     - embed
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: headings_issues
   patterns:
@@ -94,6 +105,9 @@
   belongsTo: iframe_element
   patterns:
     - iframe
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
 
 - id: video_issues
   patterns:
@@ -113,6 +127,8 @@
   description: >
     The need to build common UI patterns from scratch due to the lack of
     built-in, accessible HTML elements.
+  tags:
+    - language_pain_points
 
 - id: button_toggle
   name: |
@@ -127,6 +143,9 @@
     Editing APIs
   description: |
     Pain points related to APIs for text editing.
+  tags:
+    - front_end_frameworks_pain_points
+    - testing_pain_points
 
 - id: tabs_element
   name: |
@@ -194,6 +213,10 @@
   description: |
     Pain points related to reusing and modularizing HTML content.
   parentId: content
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 - id: html_fragment_reuse
   name: |
@@ -241,6 +264,9 @@
     Issues related to understanding, choosing, and correctly using semantically
     appropriate HTML elements.
   parentId: content
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
 
 - id: markdown
   name: |
@@ -248,6 +274,8 @@
   description: |
     Desire for native/standardized HTML↔Markdown conversion
   parentId: content
+  tags:
+    - meta_frameworks_pain_points
 
 - id: reparenting
   name: |
@@ -285,6 +313,9 @@
     Pain points related to the `contenteditable` global attribute for in-page
     editing, beyond those covered by `rich_text_editing`.
   parentId: editing_apis
+  tags:
+    - front_end_frameworks_pain_points
+    - testing_pain_points
 
 - id: title_attribute
   name: |
@@ -345,8 +376,13 @@
   name: postMessage & Message Channels
   description: Messaging between windows, iframes, workers, or tabs via postMessage and MessageChannel.
   parentId: event_management
+  tags:
+    - language_pain_points
+    - testing_pain_points
 
 - id: web_extensions
   name: Browser Extension APIs
   description: Browser extension (WebExtensions) APIs, manifests, and cross-browser extension differences.
   parentId: apis_capabilities
+  tags:
+    - testing_pain_points

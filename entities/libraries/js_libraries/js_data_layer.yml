@@ -169,6 +169,8 @@
   homepageUrl: https://trpc.io/
   tags:
     - data_fetching
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 - id: tanstack_query
   name: TanStack Query
@@ -179,6 +181,7 @@
     - tan( )?stack( )?query
   tags:
     - data_fetching
+    - meta_frameworks_pain_points
 
 - id: tanstack_store
   name: TanStack Store

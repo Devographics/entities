@@ -68,6 +68,7 @@
     - use( )?effect(s)?
   tags:
     - front_end_frameworks_pain_points
+    - language_pain_points
 
 - id: useid
   name: >

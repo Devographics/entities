@@ -5,6 +5,8 @@
     Still images across the platform, including performance issues around
     rendering images on a web page.
   parentId: graphics_issues
+  tags:
+    - meta_frameworks_pain_points
 
 - id: responsive_images
   name: |
@@ -13,6 +15,8 @@
     Selecting sources by viewport/container and device characteristics,
     including issues around related syntax (srcset, sizes, etc)
   parentId: images_issues
+  tags:
+    - meta_frameworks_pain_points
 
 - id: img_srcset_sizes
   name: |
@@ -336,6 +340,10 @@
 - id: graphics_issues
   name: |
     Graphics
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
 
 - id: raster_images
   name: |

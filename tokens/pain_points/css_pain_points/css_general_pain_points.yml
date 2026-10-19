@@ -16,6 +16,10 @@
 
 - id: naming
   name: Naming
+  tags:
+    - language_pain_points
+    - back_end_frameworks_pain_points
+    - top_js_pain_points
 
 - id: forms
   name: Forms

@@ -1,21 +1,31 @@
 - id: graphql_issues
   patterns:
     - graphql
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: optimistic_updates
   patterns:
     - optimistic
+  tags:
+    - top_js_pain_points
 
 - id: cancelling_requests
   name: Cancelling requests
   patterns:
     - cancel [p]
+  tags:
+    - language_pain_points
+    - browser_apis_pain_points
+    - back_end_frameworks_pain_points
 
 - id: data_loading_issues
   name: Data loading issues
   patterns:
     - data, loading [l]
     - data, management [l]
+  tags:
+    - meta_frameworks_pain_points
 
 - id: typesafe_data_loading
   name: Typesafe data loading

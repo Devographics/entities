@@ -13,6 +13,7 @@
     - hooks_pain_points
     - component_libraries_pain_points
     - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
   patterns:
     - re(-| )?render [p]
     - double, render [l]
@@ -25,3 +26,6 @@
   name: Hooks issues
   patterns:
     - hooks
+  tags:
+    - language_pain_points
+    - meta_frameworks_pain_points

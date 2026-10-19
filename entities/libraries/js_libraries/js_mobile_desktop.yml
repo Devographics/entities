@@ -8,6 +8,11 @@
   github: electron/electron
   # description: "Build cross-platform desktop apps with JavaScript, HTML, and CSS"
   homepageUrl: "https://electronjs.org"
+  tags:
+    - testing_pain_points
+    - build_tools_pain_points
+    - language_pain_points
+    - browser_apis_pain_points
 
 - id: reactnative
   name: React Native
@@ -22,6 +27,11 @@
   homepageUrl: https://facebook.github.io/react-native/
   patterns:
     - react( |_|-)?native
+  tags:
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - language_pain_points
+    - browser_apis_pain_points
 
 - id: nativeapps
   name: Native Apps
@@ -61,6 +71,8 @@
     An open-source platform for making universal native apps with React. Expo
     runs on Android, iOS, and the web.
   homepageUrl: "https://docs.expo.io"
+  tags:
+    - meta_frameworks_pain_points
 
 - id: flutter
   name: Flutter
@@ -89,6 +101,9 @@
     Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same
     codebase.
   homepageUrl: "https://quasar.dev"
+  tags:
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 - id: nativescript
   name: NativeScript
@@ -156,6 +171,8 @@
 - id: create_react_app
   name: Create React App
   homepageUrl: https://create-react-app.dev/
+  tags:
+    - build_tools_pain_points
 
 - id: wails
   name: Wails

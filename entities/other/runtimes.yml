@@ -51,6 +51,10 @@
     - runtimes
     - libraries
     - js_libraries
+    - back_end_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - language_pain_points
 
 - id: web_workers
   name: Web Workers
@@ -58,6 +62,10 @@
   tags:
     - runtimes
     - browser_apis_pain_points
+    - language_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - top_js_pain_points
 
 - id: gjs
   name: gjs

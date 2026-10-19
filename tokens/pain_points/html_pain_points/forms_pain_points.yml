@@ -104,6 +104,9 @@
   patterns:
     - form, handling [l]
     - forms [e]
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
 
 - id: javascript_form_handling
   name: JavaScript form handling
@@ -120,6 +123,9 @@
   parentId: form_handling
   patterns:
     - form, data [l]
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
 
 - id: default_form_submit_behavior
   name: Native submit behavior
@@ -147,6 +153,11 @@
   patterns:
     - input [e]
     - <input> [e]
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
 
 - id: textarea_auto_growing
   name: >
@@ -255,6 +266,8 @@
   description: Lack of form typesafety
   patterns:
     - type(-| )?safety
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: input_type_search
   idAliases:

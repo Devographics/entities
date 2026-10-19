@@ -13,6 +13,10 @@
     - native, api [l]
     - access, native [l]
     - native, support [l]
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 - id: device_inconsistencies
   name: Device inconsistencies
@@ -28,6 +32,10 @@
     - notification
 
 - id: packaging
+  tags:
+    - front_end_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - top_js_pain_points
 
 - id: os_support
 
@@ -53,6 +61,10 @@
   name: Offline support
   patterns:
     - offline
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
 
 # pwa_issues
 
@@ -104,6 +116,10 @@
 
 - id: ux_issues
   name: UX issues
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
 
 - id: difficulty_achieving_native_feel
   name: Native feel
@@ -121,6 +137,8 @@
     - native, element [l]
     - native, control [l]
     - native, component [l]
+  tags:
+    - language_pain_points
 
 - id: ux_touch_delay
   name: Touch delay
@@ -129,6 +147,8 @@
     - touch, delay [l]
     - touch, interaction [l]
     - touch, responsiveness [l]
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: transitions
   parentId: ux_issues
@@ -139,6 +159,8 @@
   name: Android issues
   patterns:
     - android
+  tags:
+    - front_end_frameworks_pain_points
 
 # apple_ios_issues
 

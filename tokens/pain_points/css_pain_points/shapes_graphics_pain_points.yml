@@ -1,6 +1,8 @@
 - id: svg_issues
   patterns:
     - svg
+  tags:
+    - testing_pain_points
 
 - id: gradient_issues
   patterns:

@@ -29,12 +29,15 @@
 - id: aws
   name: AWS
   homepageUrl: https://aws.amazon.com/
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: cloudflare
   name: Cloudflare
   homepageUrl: https://www.cloudflare.com/
   tags:
     - companies
+    - back_end_frameworks_pain_points
 
 - id: fastly
   name: Fastly
@@ -77,6 +80,7 @@
   tags:
     - companies
     - react_usage_pain_points
+    - language_pain_points
 
 - id: sentry
   name: Sentry
@@ -186,6 +190,8 @@
   homepageUrl: https://kubernetes.io/
   patterns:
     - k8s
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: meteor_cloud
   name: Meteor Cloud
@@ -238,6 +244,9 @@
     - own hosting
     - self(-| )?host
     - self(-| )?hosting
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
 
 - id: surge
   name: Surge
@@ -247,6 +256,9 @@
 
 - id: vps
   name: VPS
+  tags:
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
 
 - id: vultr
   name: Vultr
@@ -579,6 +591,8 @@
   tags:
     - orm
     - graphql
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 - id: webflow
   name: Webflow

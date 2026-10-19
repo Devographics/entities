@@ -8,6 +8,9 @@
   github: pnpm/pnpm
   # description: "Fast, disk space efficient package manager"
   homepageUrl: "https://pnpm.js.org"
+  tags:
+    - back_end_frameworks_pain_points
+    - language_pain_points
 
 - id: yarn_workspaces
   name: Yarn Workspaces
@@ -57,3 +60,6 @@
 - id: bazel
   name: Bazel
   homepageUrl: https://bazel.build/
+  tags:
+    - build_tools_pain_points
+    - language_pain_points

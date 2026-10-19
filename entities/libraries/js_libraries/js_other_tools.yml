@@ -68,6 +68,8 @@
     A modern JavaScript utility library delivering modularity, performance, &
     extras.
   homepageUrl: "https://lodash.com/"
+  tags:
+    - language_pain_points
 
 - id: underscore
   name: Underscore.js
@@ -114,6 +116,8 @@
   github: ramda/ramda
   description: Practical functional Javascript
   homepageUrl: "https://ramdajs.com"
+  tags:
+    - language_pain_points
 
 - id: jquery
   name: jQuery
@@ -121,6 +125,8 @@
   github: jquery/jquery
   # description: jQuery JavaScript Library
   homepageUrl: "https://jquery.com/"
+  tags:
+    - meta_frameworks_pain_points
 
 - id: rxjs
   name: RxJS
@@ -128,6 +134,10 @@
   github: ReactiveX/rxjs
   description: A reactive programming library for JavaScript
   homepageUrl: "https://rxjs.dev"
+  tags:
+    - testing_pain_points
+    - top_js_pain_points
+    - language_pain_points
 
 - id: axios
   name: Axios
@@ -135,6 +145,8 @@
   github: axios/axios
   description: Promise based HTTP client for the browser and node.js
   homepageUrl: https://axios-http.com/
+  tags:
+    - language_pain_points
 
 - id: lerna
   name: Lerna
@@ -149,6 +161,9 @@
   github: prettier/prettier
   # description: Prettier is an opinionated code formatter.
   homepageUrl: "https://prettier.io"
+  tags:
+    - testing_pain_points
+    - language_pain_points
 
 - id: eslint
   name: ESLint
@@ -158,6 +173,11 @@
   homepageUrl: "https://eslint.org"
   tags:
     - accessibility
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - top_js_pain_points
+    - language_pain_points
 
 - id: verdaccio
   name: Verdaccio
@@ -194,6 +214,9 @@
   github: yarnpkg/yarn
   # description: "Fast, reliable, and secure dependency management."
   homepageUrl: "https://classic.yarnpkg.com"
+  tags:
+    - meta_frameworks_pain_points
+    - language_pain_points
 
 - id: nodejs
   name: Node.js
@@ -203,6 +226,14 @@
   homepageUrl: "https://nodejs.org/"
   patterns:
     - node
+  tags:
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - top_js_pain_points
+    - language_pain_points
+    - browser_apis_pain_points
 
 - id: fp_ts
   name: fp-ts
@@ -237,6 +268,11 @@
   github: nrwl/nx
   description: Extensible Dev Tools for Monorepos
   homepageUrl: "https://nx.dev"
+  tags:
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - language_pain_points
 
 - id: husky
   name: Husky
@@ -379,6 +415,8 @@
   name: TypeORM
   homepageUrl: https://typeorm.io/
   github: typeorm/typeorm
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: mui
   name: MUI
@@ -386,6 +424,10 @@
   patterns:
     - mui
     - material
+  tags:
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - language_pain_points
 
 - id: swiper
   name: Swiper
@@ -415,6 +457,8 @@
   name: bcrypt
   homepageUrl: https://github.com/kelektiv/node.bcrypt.js
   github: kelektiv/node.bcrypt.js
+  tags:
+    - language_pain_points
 
 - id: clsx
   name: clsx
@@ -430,6 +474,10 @@
   patterns:
     - effect [e]
     - effect, schema [l]
+  tags:
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - language_pain_points
 
 - id: floating_ui
   name: Floating UI

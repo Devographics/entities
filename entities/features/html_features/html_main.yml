@@ -207,6 +207,9 @@
   caniuse: contentsecuritypolicy2
   tags:
     - features
+    - front_end_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: contenteditable_plaintext
   webFeaturesId: contenteditable-plaintextonly
@@ -426,6 +429,7 @@
   caniuse: declarative-shadow-dom
   tags:
     - features
+    - language_pain_points
 
 - id: decoding_attribute
   name: "`decoding` attribute"
@@ -511,6 +515,7 @@
     - css_interoperability_features
     - interactivity_pain_points
     - favorite_new_features
+    - testing_pain_points
   patterns:
     - dialog
     - dialogue
@@ -722,6 +727,7 @@
       title: HTML Standard
   tags:
     - features
+    - language_pain_points
 
 - id: formdata
   name: FormData API
@@ -740,6 +746,7 @@
   caniuse: mdn-api_formdata](https://caniuse.com/mdn-api_formdata
   tags:
     - features
+    - language_pain_points
 
 - id: host_css
   name: Styling component host (`:host`, `:host()`, `:host-context()`)
@@ -784,6 +791,7 @@
     - url: https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/HTMLModules/designDoc.md
   tags:
     - features
+    - language_pain_points
 
 - id: iframe_seamless
   name: "`<iframe seamless>`"
@@ -991,6 +999,7 @@
   caniuse: loading-lazy-attr
   tags:
     - features
+    - language_pain_points
   parentId: loading_issues
 
 - id: media_capture
@@ -1211,6 +1220,8 @@
   w3c: TR/html52/scripting-0.html#the-canvas-element
   tags:
     - features
+    - front_end_frameworks_pain_points
+    - testing_pain_points
   patterns:
     - <canvas(\/)?>
     - canvas
@@ -1223,6 +1234,8 @@
   descriptionIssues: |
     2D drawing via <canvas>.
   parentId: graphics_issues
+  tags:
+    - language_pain_points
 
 - id: svg_element
   webFeaturesId: svg
@@ -1317,6 +1330,8 @@
     - features
     - interactivity_pain_points
     - favorite_new_features
+    - front_end_frameworks_pain_points
+    - testing_pain_points
   patterns:
     - pop( |-)?over
     - popup
@@ -1536,6 +1551,7 @@
   mdn: /en-US/docs/Web/API/HTML_Sanitizer_API
   tags:
     - features
+    - language_pain_points
 
 - id: scoped_element_registries
   webFeaturesId: scoped-custom-element-registries
@@ -1677,6 +1693,7 @@
   tags:
     - features
     - html_interoperability_features
+    - language_pain_points
 
 - id: showpicker
   webFeaturesId: show-picker-input
@@ -1855,6 +1872,7 @@
   caniuse: https://caniuse.com/mdn-api_urlpattern
   tags:
     - features
+    - back_end_frameworks_pain_points
 
 - id: web_share_api
   webFeaturesId: share
@@ -1978,6 +1996,8 @@
       title: Invoker Commands (Explainer) | Open UI
     - url: https://css-tricks.com/invoker-commands-additional-ways-to-work-with-dialog-popover-and-more/
       title: "Invoker Commands: Additional Ways to Work With Dialog, Popover… and More?"
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: hidden_until_found
   webFeaturesId: hidden-until-found
@@ -2098,6 +2118,9 @@
   descriptionIssues: |
     Issues related to the WebTransport API for client-server messaging.
   parentId: apis_capabilities
+  tags:
+    - language_pain_points
+    - back_end_frameworks_pain_points
 
 - id: web_usb_api
   idAliases:
@@ -2195,6 +2218,8 @@
   name: Web Crypto API
   description: The Web Crypto API (crypto.subtle), including key handling, hashing, and its ergonomics.
   parentId: security_privacy
+  tags:
+    - language_pain_points
 
 - id: web_locks_api
   name: Web Locks API

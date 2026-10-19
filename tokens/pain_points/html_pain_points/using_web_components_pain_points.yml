@@ -1,10 +1,18 @@
 - id: adoption
   name: Adoption
   description: Slow adoption
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: availability
   name: Availability
   decription: Lack of good available options
+  tags:
+    - language_pain_points
 
 - id: missing_features
   name: Lack of features
@@ -27,6 +35,11 @@
   description: Low perceived value or need
   tags:
     - making_web_components_pain_points
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
 
 - id: naming
   name: Naming
@@ -36,5 +49,8 @@
     - naming.*conflicts
 
 - id: lack_of_usage
+  tags:
+    - meta_frameworks_pain_points
+    - testing_pain_points
 
 - id: no_objects_as_attributes

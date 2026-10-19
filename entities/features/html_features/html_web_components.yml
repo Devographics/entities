@@ -46,6 +46,8 @@
 - id: custom_elements_when_defined
   name: |
     `customElements.whenDefined()`
+  tags:
+    - language_pain_points
 
 - id: custom_elements_get_name
   name: |

@@ -2,6 +2,9 @@
   name: End-to-end typesafety
   tags:
     - data_loading_pain_points
+    - browser_apis_pain_points
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
   patterns:
     - type safety
     - sharing types
@@ -9,3 +12,5 @@
 
 - id: hosting_issues
   name: Hosting issues
+  tags:
+    - back_end_frameworks_pain_points

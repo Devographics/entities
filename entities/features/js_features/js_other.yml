@@ -29,6 +29,8 @@
     `browser_support`.
   tags:
     - language_pain_points
+    - back_end_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: maps
   name: Maps
@@ -49,6 +51,10 @@
 - id: fetch
   name: Fetch
   mdn: /en-US/docs/Web/API/Fetch_API/Using_Fetch
+  tags:
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
 
 - id: i18n
   name: i18n
@@ -68,6 +74,8 @@
   name: |
     `document.cookie`
   mdn: /en-US/docs/Web/API/Document/cookie
+  tags:
+    - testing_pain_points
 
 - id: indexed_db
   name: IndexedDB
@@ -115,6 +123,9 @@
     - html_interoperability_features
     - interactivity_pain_points
     - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
   patterns:
     - web component
 
@@ -130,6 +141,9 @@
   mdn: /en-US/docs/Web/API/WebSockets_API
   patterns:
     - websockets
+  tags:
+    - meta_frameworks_pain_points
+    - testing_pain_points
 
 - id: web_speech
   name: Web Speech API
@@ -204,15 +218,23 @@
   webFeaturesId: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly
+  tags:
+    - top_js_pain_points
 
 - id: client_side_rendering
   name: Client-side rendering
   patterns:
     - client-side rendering
     - csr [e]
+  tags:
+    - meta_frameworks_pain_points
 
 - id: micro_frontends
   name: Micro-frontends
+  tags:
+    - meta_frameworks_pain_points
+    - build_tools_pain_points
+    - top_js_pain_points
 
 # Language
 
@@ -264,6 +286,9 @@
     language: js
     code: |
       await import('/modules/my-module.js')
+  tags:
+    - meta_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: big_int
   name: "`BigInt`"
@@ -474,6 +499,8 @@
       }
 
       const filteredFactorials = factorials(128).filter(x => x % 8 === 0);
+  tags:
+    - top_js_pain_points
 
 - id: js_get_or_insert
   name: |
@@ -572,6 +599,8 @@
       url: https://github.com/tc39/proposal-async-context
   patterns:
     - async( )?context
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: js_extractors
   name: Extractors
@@ -769,6 +798,8 @@
   resources:
     - url: https://github.com/tc39/proposal-decorator-metadata
       title: Decorator Metadata Proposal
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: js_float16_arrays
   webFeaturesId: float16array
@@ -806,6 +837,7 @@
     - type, comments [l]
   tags:
     - native_types_proposal
+    - top_js_pain_points
 
 - id: structured_clone
   webFeaturesId: structured-clone
@@ -857,6 +889,8 @@
       `use strict`
   patterns:
     - directives
+  tags:
+    - meta_frameworks_pain_points
 
 - id: import_maps
   name: Import Maps
@@ -865,6 +899,9 @@
   instructions: >
     For issues around import maps being hard to manage, combine with
     `developer_experience` or a suitable leaf.
+  tags:
+    - meta_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: json_modules
   name: JSON Modules
@@ -875,3 +912,6 @@
   name: Server-Sent Events
   description: The EventSource / Server-Sent Events API for receiving server-pushed events over HTTP.
   parentId: apis_capabilities
+  tags:
+    - meta_frameworks_pain_points
+    - testing_pain_points

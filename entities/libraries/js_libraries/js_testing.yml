@@ -8,6 +8,8 @@
   github: facebook/jest
   description: Delightful JavaScript Testing.
   homepageUrl: "https://jestjs.io"
+  tags:
+    - language_pain_points
 
 - id: mocha
   name: Mocha
@@ -26,6 +28,7 @@
   homepageUrl: "https://storybook.js.org"
   tags:
     - accessibility
+    - meta_frameworks_pain_points
 
 - id: cypress
   name: Cypress
@@ -40,6 +43,8 @@
   github: enzymejs/enzyme
   description: JavaScript Testing utilities for React
   homepageUrl: "https://enzymejs.github.io/enzyme/"
+  tags:
+    - meta_frameworks_pain_points
 
 - id: ava
   name: AVA
@@ -207,6 +212,8 @@
   name: Selenium
   github: seleniumhq/selenium
   homepageUrl: https://www.selenium.dev/
+  tags:
+    - language_pain_points
 
 - id: web_test_runner
   name: Web Test Runner
@@ -258,6 +265,8 @@
 - id: node_test_runner
   name: Node Test Runner
   homepageUrl: https://nodejs.org/en/learn/test-runner/introduction
+  tags:
+    - language_pain_points
 
 - id: deno_test_runner
   name: Deno Test Runner

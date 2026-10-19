@@ -13,6 +13,11 @@
   patterns:
     - templating
     - templates
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 - id: native_templating
   name: |
@@ -21,6 +26,8 @@
     HTML‑level template syntax (e.g., interpolation/conditionals/loops) without
     third‑party libraries.
   parentId: templating
+  tags:
+    - language_pain_points
 
 - id: templating_jsx_like
   name: |
@@ -36,6 +43,9 @@
     - classes
     - class-based
     - don't like.*class [p]
+  tags:
+    - front_end_frameworks_pain_points
+    - back_end_frameworks_pain_points
 
 - id: lack_of_scoped_css
   patterns:

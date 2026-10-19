@@ -48,6 +48,9 @@
 
 - id: a11y_technical_issues
   name: Technical issues
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
 
 - id: automated_testing
   # name: Automated testing
@@ -74,6 +77,9 @@
   parentId: a11y_technical_issues
   patterns:
     - web(-| )?component
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
 
 # a11y_design_issues
 
@@ -111,6 +117,8 @@
 
 - id: a11y_implementation_issues
   name: Implementation issues
+  tags:
+    - language_pain_points
 
 - id: a11y_too_hard_to_implement
   name: Too hard to implement
@@ -121,6 +129,8 @@
     - hard to know
     - hard to test
     - hard, implement [l]
+  tags:
+    - language_pain_points
 
 - id: a11y_lack_of_time
   name: Too time-consuming

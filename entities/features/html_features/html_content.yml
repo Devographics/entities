@@ -177,12 +177,16 @@
     Import attributes
   parentId: loading_issues
   mdn: en-US/docs/Web/JavaScript/Reference/Statements/import/with
+  tags:
+    - language_pain_points
 
 - id: web_mcp
   name: WebMCP
   resources:
     - url: https://developer.chrome.com/blog/webmcp-epp
       title: WebMCP is available for early preview
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: geolocation_element
   webFeaturesId: geolocation-element
@@ -198,6 +202,9 @@
   name: Streams API
   description: ReadableStream, WritableStream, TransformStream, and streaming request or response bodies with fetch.
   parentId: apis_capabilities
+  tags:
+    - language_pain_points
+    - testing_pain_points
 
 - id: compression_streams
   name: Compression Streams API

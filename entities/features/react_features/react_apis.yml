@@ -17,6 +17,8 @@
   homepageUrl: https://react.dev/reference/react/forwardRef
   patterns:
     - forward, ref [l]
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: lazy
   name: "`lazy` "
@@ -147,6 +149,12 @@
     - server components
     - server( |-)?side components
     - rsc(s)?
+  tags:
+    - browser_apis_pain_points
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
 
 - id: render_to_node_stream
   name: >

@@ -9,6 +9,10 @@
   homepageUrl: https://reactjs.org/
   tags:
     - language_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - top_js_pain_points
   # description: >-
   #   A declarative, efficient, and flexible JavaScript library for building user
   #   interfaces.
@@ -34,6 +38,10 @@
   homepageUrl: "http://vuejs.org"
   patterns:
     - vue
+  tags:
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
 
 - id: angular
   name: Angular
@@ -41,6 +49,13 @@
   github: angular/angular
   # description: One framework. Mobile & desktop.
   homepageUrl: https://angular.dev/
+  tags:
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - top_js_pain_points
+    - language_pain_points
 
 - id: angular_elements
   name: Angular Elements
@@ -81,6 +96,10 @@
   tags:
     - accessibility_tools
     - languages
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
+    - language_pain_points
 
 - id: alpinejs
   name: Alpine.js
@@ -102,6 +121,9 @@
   homepageUrl: "https://lit.dev/"
   patterns:
     - lit
+  tags:
+    - meta_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: stimulus
   name: Stimulus
@@ -131,6 +153,8 @@
   homepageUrl: https://www.solidjs.com/
   patterns:
     - solidjs
+  tags:
+    - build_tools_pain_points
 
 - id: marko
   name: Marko
@@ -138,6 +162,8 @@
   github: marko-js/marko
   description: "A declarative, HTML-based language that makes building web apps fun"
   homepageUrl: "https://markojs.com/"
+  tags:
+    - meta_frameworks_pain_points
 
 - id: polymer
   name: Polymer
@@ -216,16 +242,22 @@
 - id: openui5
   name: OpenUI5
   homepageUrl: https://openui5.org/
+  tags:
+    - language_pain_points
 
 - id: htmx
   name: HTMX
   homepageUrl: https://htmx.org/
+  tags:
+    - meta_frameworks_pain_points
 
 - id: qwik
   name: Qwik
   # npm: null
   github: builderIO/Qwik
   homepageUrl: https://qwik.builder.io/
+  tags:
+    - meta_frameworks_pain_points
 
 - id: vanjs
   name: VanJS

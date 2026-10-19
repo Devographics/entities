@@ -1,4 +1,6 @@
 - id: web_components_syntax_issues
+  tags:
+    - language_pain_points
 
 - id: shadow_dom_issues
   name: Shadow DOM Issues
@@ -16,6 +18,12 @@
     - framework, interop [l]
     - framework, compat [l]
     - framework, integration [l]
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
 
 - id: react_compatibility
   parentId: framework_compatibility

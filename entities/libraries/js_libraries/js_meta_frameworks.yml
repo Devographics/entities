@@ -9,6 +9,8 @@
     - https://www.11ty.dev/
     - 11ty
   homepageUrl: "https://www.11ty.dev/"
+  tags:
+    - build_tools_pain_points
 
 - id: astro
   name: Astro
@@ -17,6 +19,8 @@
   # description: >-
   #   Build faster websites with less client-side Javascript
   homepageUrl: https://astro.build/
+  tags:
+    - language_pain_points
 
 - id: blitz
   name: Blitz
@@ -88,6 +92,9 @@
   patterns:
     - elysia [p]
   github: elysiajs/elysia
+  tags:
+    - back_end_frameworks_pain_points
+    - build_tools_pain_points
 
 - id: analog
   name: Analog

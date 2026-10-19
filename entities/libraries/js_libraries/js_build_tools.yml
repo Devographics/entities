@@ -12,6 +12,10 @@
   homepageUrl: "https://webpack.js.org"
   tags:
     - build_tools_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - language_pain_points
+    - browser_apis_pain_points
 
 - id: babel
   name: Babel
@@ -19,6 +23,8 @@
   github: babel/babel
   description: A compiler for writing next generation JavaScript.
   homepageUrl: "https://babel.dev"
+  tags:
+    - language_pain_points
 
 - id: parcel
   name: Parcel
@@ -40,6 +46,8 @@
   github: rollup/rollup
   description: Next-generation ES module bundler
   homepageUrl: "https://rollupjs.org"
+  tags:
+    - meta_frameworks_pain_points
 
 - id: fusebox
   name: FuseBox
@@ -71,6 +79,8 @@
   description: >-
     One toolchain for your web project
   homepageUrl: https://biomejs.dev/
+  tags:
+    - top_js_pain_points
 
 - id: snowpack
   name: Snowpack
@@ -86,6 +96,8 @@
   description: >
     swc is a super-fast compiler written in rust;
     producing widely-supported javascript from modern standards and typescript.
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: esbuild
   name: esbuild
@@ -93,6 +105,9 @@
   github: evanw/esbuild
   description: An extremely fast JavaScript bundler and minifier
   homepageUrl: https://esbuild.github.io/
+  tags:
+    - testing_pain_points
+    - top_js_pain_points
 
 - id: tsc
   name: tsc CLI
@@ -100,6 +115,8 @@
   github: microsoft/TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output.
   homepageUrl: "https://www.typescriptlang.org"
+  tags:
+    - language_pain_points
 
 - id: vite
   name: Vite
@@ -107,6 +124,11 @@
   github: vitejs/vite
   # description: Native-ESM powered web dev build tool. It's fast.
   homepageUrl: https://vite.dev/
+  tags:
+    - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
+    - language_pain_points
 
 - id: vite_plus
   name: Vite+
@@ -163,6 +185,8 @@
 - id: turbopack
   name: Turbopack
   homepageUrl: https://turbo.build/pack
+  tags:
+    - meta_frameworks_pain_points
 
 - id: tsup
   name: tsup
@@ -186,6 +210,8 @@
 - id: tsx
   name: tsx
   homepageUrl: https://tsx.is/
+  tags:
+    - back_end_frameworks_pain_points
 
 - id: metro
   name: Metro

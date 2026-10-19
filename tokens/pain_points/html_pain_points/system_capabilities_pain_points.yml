@@ -12,6 +12,9 @@
   instructions: >
     Iff the API/capability does not correspond to a specific descendant, use
     `apis_capabilities` directly.
+  tags:
+    - back_end_frameworks_pain_points
+    - top_js_pain_points
 
 - id: audio_issues
   name: |
@@ -25,6 +28,8 @@
   description: |
     Issues around all file system access APIs.
   parentId: apis_capabilities
+  tags:
+    - language_pain_points
 
 - id: peripheral_access
   name: |
@@ -65,6 +70,8 @@
     Issues related to running tasks when the web page is not active, such as
     background data synchronization or location tracking.
   parentId: system_capabilities
+  tags:
+    - language_pain_points
 
 - id: origin_private_file_system
   name: |
@@ -80,6 +87,8 @@
   description: |
     Issues around achieving a native look and feel.
   parentId: system_capabilities
+  tags:
+    - front_end_frameworks_pain_points
 
 - id: system_ai_integration
   name: |
@@ -89,6 +98,10 @@
     browser-integrated AI, LLM, or other machine learning models (e.g., Apple
     Intelligence, Windows Copilot).
   parentId: system_capabilities
+  tags:
+    - language_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
 
 - id: persistent_storage
   name: |
@@ -105,3 +118,6 @@
     Issues around detecting support for web platform features, device/OS
     capabilities, etc.
   parentId: progressive_enhancement
+  tags:
+    - language_pain_points
+    - front_end_frameworks_pain_points

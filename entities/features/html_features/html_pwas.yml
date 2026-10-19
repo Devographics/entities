@@ -22,6 +22,10 @@
   tags:
     - js_other
     - mobile_web_apps_pain_points
+    - language_pain_points
+    - meta_frameworks_pain_points
+    - build_tools_pain_points
+    - top_js_pain_points
 
 - id: notifications_api
   name: |
@@ -138,6 +142,7 @@
       title: WebGPU demos
   tags:
     - js_missing_features
+    - language_pain_points
 
 - id: avif
   name: AVIF
@@ -215,3 +220,6 @@
   resources:
     - url: https://web.dev/explore/payments
       title: Web Payments
+  tags:
+    - back_end_frameworks_pain_points
+    - top_js_pain_points

@@ -1,2 +1,4 @@
 - id: excessive_server_focus
   name: Excessive server focus
+  tags:
+    - meta_frameworks_pain_points

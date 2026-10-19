@@ -49,6 +49,8 @@
 - id: vuetify
   name: Vuetify
   homepageUrl: https://vuetifyjs.com/
+  tags:
+    - testing_pain_points
 
 - id: webc
   name: WebC

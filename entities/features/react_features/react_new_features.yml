@@ -3,6 +3,8 @@
 - id: asset_loading
   name: Asset Loading
   homepageUrl: https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#asset-loading
+  tags:
+    - meta_frameworks_pain_points
 
 - id: use_hook
   name: >
@@ -45,6 +47,9 @@
 
       export default function RichTextEditor(props) {
         // ...
+  tags:
+    - language_pain_points
+    - meta_frameworks_pain_points
 
 - id: use_server
   name: >
@@ -59,6 +64,10 @@
       }
 
       // <ProductDetailPage addToCart={addToCart} />
+  tags:
+    - language_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
 
 - id: server_actions
   name: Server Functions
@@ -76,6 +85,8 @@
       }
   tags:
     - meta_frameworks_pain_points
+    - back_end_frameworks_pain_points
+    - testing_pain_points
   patterns:
     - server, action [l]
 

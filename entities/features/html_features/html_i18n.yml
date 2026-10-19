@@ -22,6 +22,8 @@
   description: |
     Date/time formatting. Implicitly called by `Date.prototype.toLocaleString(lang, options)`.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
+  tags:
+    - language_pain_points
 
 - id: intl_collator
   name: |
@@ -29,6 +31,8 @@
   description: |
     String comparison. Implicitly called by `String.prototype.localeCompare(lang, options)`.
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator
+  tags:
+    - language_pain_points
 
 - id: intl_listformat
   name: |
@@ -87,6 +91,8 @@
   resources:
     - url: https://github.com/tc39/proposal-intl-messageformat
       title: Intl.MessageFormat proposal (Stage 1)
+  tags:
+    - language_pain_points
 
 - id: intl_localematcher
   name: |

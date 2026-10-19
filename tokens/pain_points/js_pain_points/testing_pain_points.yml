@@ -42,6 +42,7 @@
   parentId: front_end
 
 - id: not_testing
+  name: Not using testing
   patterns:
     - don(')?t use
 
@@ -57,6 +58,7 @@
     - asynchronous
 
 - id: writing_tests
+  name: Writing tests
 
 - id: unit_testing
   name: Unit testing
@@ -86,6 +88,7 @@
     - browser
 
 - id: long_time_to_run
+  name: Long time to run
 
 - id: test_parallelism
   name: Test Parallelism

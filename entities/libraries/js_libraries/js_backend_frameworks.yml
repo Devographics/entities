@@ -20,6 +20,9 @@
     - next [e]
   tags:
     - react_usage_pain_points
+    - meta_frameworks_pain_points
+    - testing_pain_points
+    - build_tools_pain_points
 
 - id: koa
   name: Koa
@@ -61,6 +64,8 @@
   homepageUrl: https://nuxt.com/
   tags:
     - state_of_js_sources
+    - meta_frameworks_pain_points
+    - testing_pain_points
   patterns:
     - nuxt_homepage
 
@@ -70,6 +75,8 @@
   github: gatsbyjs/gatsby
   # description: "Build blazing fast, modern apps and websites with React"
   homepageUrl: "https://www.gatsbyjs.com"
+  tags:
+    - meta_frameworks_pain_points
 
 - id: nest
   name: NestJS
@@ -102,6 +109,8 @@
     Create server-rendered universal JavaScript applications with no
     configuration
   homepageUrl: "https://razzlejs.org"
+  tags:
+    - build_tools_pain_points
 
 - id: fastify
   name: Fastify
@@ -116,6 +125,9 @@
   github: denoland/deno
   description: A secure JavaScript and TypeScript runtime
   homepageUrl: "https://deno.land"
+  tags:
+    - build_tools_pain_points
+    - language_pain_points
 
 - id: redwood
   name: Redwood
@@ -129,6 +141,8 @@
   npm: null
   github: https://github.com/redwoodjs/sdk
   homepageUrl: https://rwsdk.com/
+  tags:
+    - testing_pain_points
 
 - id: hapi
   name: Hapi
@@ -145,6 +159,8 @@
     The Node.js Framework highly focused on developer ergonomics, stability and
     confidence
   homepageUrl: "https://preview.adonisjs.com"
+  tags:
+    - meta_frameworks_pain_points
 
 - id: sapper
   name: Sapper
@@ -263,3 +279,5 @@
   name: Nitro
   homepageUrl: https://nitro.build/
   github: nitrojs/nitro
+  tags:
+    - meta_frameworks_pain_points
