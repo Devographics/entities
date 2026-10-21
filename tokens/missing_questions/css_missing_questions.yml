@@ -1,0 +1,68 @@
+# ------------------------------------------------------------------- #
+#    Features
+# ------------------------------------------------------------------- #
+
+- id: css_feature_opinions
+  name: CSS Feature Opinions
+  description: "Opinions on CSS features in general, including the pace of change."
+
+- id: favorite_css_features
+  name: Favorite CSS Features
+  description: "Most used and most liked CSS features."
+  parentId: css_feature_opinions
+
+- id: css_features_to_remove
+  name: CSS Features to Remove
+  description: "CSS features you dislike, don't want added, or would remove."
+  parentId: css_feature_opinions
+
+- id: wanted_css_features
+  name: Wanted CSS Features
+  description: "What CSS features or proposals do you want next?"
+  parentId: css_feature_opinions
+
+- id: older_css_features
+  name: Older CSS Features
+  description: "Use of and experience with older or established CSS features."
+  parentId: css_feature_opinions
+
+- id: css_adoption_blockers
+  name: CSS Adoption Blockers
+  description: "What stops you from using new CSS features (browser support, tooling, constraints)?"
+  parentId: css_feature_opinions
+
+- id: css_typography
+  name: Typography
+  description: "Typography and text-related CSS."
+
+# ------------------------------------------------------------------- #
+#    Browsers
+# ------------------------------------------------------------------- #
+
+- id: browser_support_targets
+  name: Browser Support Targets
+  description: "Which browsers and versions do you need to support?"
+
+- id: browser_landscape
+  name: Browser Landscape
+  description: "Views on browser diversity, standards, and how browsers implement CSS."
+
+# ------------------------------------------------------------------- #
+#    Practices
+# ------------------------------------------------------------------- #
+
+- id: css_frameworks_vs_vanilla
+  name: Frameworks vs Vanilla CSS
+  description: "Writing CSS by hand vs using frameworks like Tailwind or Sass."
+
+- id: css_architecture_practices
+  name: CSS Architecture
+  description: "How you structure CSS (architecture, design systems, resets)."
+
+- id: css_proficiency
+  name: CSS Proficiency
+  description: "How often and how confidently people write CSS."
+
+- id: css_usage_contexts
+  name: CSS Usage Contexts
+  description: "Where CSS is used: email, web components, paged media, form controls…"

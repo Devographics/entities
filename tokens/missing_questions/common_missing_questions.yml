@@ -1,0 +1,656 @@
+# ------------------------------------------------------------------- #
+#    Survey Format
+# ------------------------------------------------------------------- #
+
+- id: survey_format
+  name: Survey Format
+  description: "Suggestions about how the survey asks questions rather than what it asks about."
+
+- id: more_positive_questions
+  name: Positive Questions
+  description: "Ask what people like or praise, not only pain points."
+  parentId: survey_format
+
+- id: finer_rating_scales
+  name: Finer Rating Scales
+  description: "Use numeric ratings or rankings instead of binary positive/negative sentiment."
+  parentId: survey_format
+
+- id: more_why_questions
+  name: "\"Why\" Questions"
+  description: "Ask why people chose (or didn't choose) a tool or framework."
+  parentId: survey_format
+
+- id: survey_ux_feedback
+  name: Survey Form Feedback
+  description: "Feedback on the survey form itself (bugs, translations, gamification, live results)."
+  parentId: survey_format
+
+- id: more_technical_questions
+  name: More Technical Questions
+  description: "Ask more about technology and development work, fewer personal questions."
+  parentId: survey_format
+
+# ------------------------------------------------------------------- #
+#    AI
+# ------------------------------------------------------------------- #
+
+- id: ai_in_development
+  name: AI in Development
+  description: "Questions about AI in developers' work."
+
+- id: ai_usage_tasks
+  name: AI Use Cases
+  description: "What do you use AI for (code generation, review, debugging, testing, docs…)?"
+  parentId: ai_in_development
+
+- id: ai_tools_used
+  name: AI Tools Used
+  description: "Which AI tools, assistants, or agents do you use?"
+  parentId: ai_in_development
+
+- id: ai_sentiment
+  name: Feelings About AI
+  description: "How do you feel about AI (hopes, fears, ethics)?"
+  parentId: ai_in_development
+
+- id: ai_code_quality
+  name: AI Code Quality
+  description: "How good is AI-generated code, and does AI save or waste time?"
+  parentId: ai_in_development
+
+- id: ai_job_security
+  name: AI & Job Security
+  description: "Will AI replace your job, and how is it affecting junior developers?"
+  parentId: ai_in_development
+
+- id: ai_workplace_pressure
+  name: Pressure to Use AI
+  description: "Is your company or are others pushing you to use AI?"
+  parentId: ai_in_development
+
+- id: ai_non_usage
+  name: Reasons for Not Using AI
+  description: "If you don't use AI, why not?"
+  parentId: ai_in_development
+
+- id: ai_skill_impact
+  name: AI Impact on Skills
+  description: "Is AI affecting your skills, thinking, and independence (deskilling, dependence, cognitive decline)?"
+  parentId: ai_in_development
+
+- id: programming_enjoyment
+  name: Enjoyment of Programming
+  description: "Do you enjoy writing code yourself (vs letting AI do it), and has that changed?"
+  parentId: ai_in_development
+
+- id: ai_company_adoption
+  name: Company AI Adoption
+  description: "How companies and management adopt AI (spending, policies, responsible use, coworkers vs executives)."
+  parentId: ai_in_development
+
+- id: ai_productivity
+  name: AI Productivity
+  description: "Does AI make you more productive or change your workload and output?"
+  parentId: ai_in_development
+
+- id: ai_job_satisfaction
+  name: AI & Job Satisfaction
+  description: "How AI affects enjoyment of the job and mental health at work."
+  parentId: ai_in_development
+
+- id: ai_predictions
+  name: AI Predictions
+  description: "Where will AI and AI adoption be in the coming years?"
+  parentId: ai_in_development
+
+- id: ai_societal_impact
+  name: AI Societal Impact
+  description: "AI's impact on society, culture, education, and privacy."
+  parentId: ai_in_development
+
+- id: ai_colleagues
+  name: AI & Colleagues
+  description: "How colleagues and teams use AI, and how their use affects you."
+  parentId: ai_in_development
+
+- id: ai_ethics_environment
+  name: AI Ethics & Environment
+  description: "Ethical and environmental concerns about AI (copyright, energy use, labor, morality of using it)."
+  parentId: ai_in_development
+
+- id: ai_opt_out
+  name: Opting Out of AI
+  description: "Can you avoid or disable AI; resisting AI adoption; would you remove AI if you could?"
+  parentId: ai_in_development
+
+- id: ai_learning_impact
+  name: AI & Learning
+  description: "AI's effect on learning, education, and junior developers."
+  parentId: ai_in_development
+
+- id: personal_ai_use
+  name: Personal AI Use
+  description: "Using AI outside work (personal life, health, therapy) and work vs personal use."
+  parentId: ai_in_development
+
+- id: ai_literacy
+  name: AI Literacy
+  description: "How well people understand how AI and LLMs work; AI training and certifications."
+  parentId: ai_in_development
+
+- id: ai_regulation
+  name: AI Regulation
+  description: "Should AI be regulated, by whom, and how?"
+  parentId: ai_in_development
+
+- id: ai_company_views
+  name: Views on AI Companies
+  description: "Opinions about AI companies and labs (trust, policies, power)."
+  parentId: ai_in_development
+
+# ------------------------------------------------------------------- #
+#    Career
+# ------------------------------------------------------------------- #
+
+- id: career
+  name: Career
+  description: "Questions about jobs and career paths."
+
+- id: job_market_outlook
+  name: Job Market Outlook
+  description: "How is the job market (hiring trends, layoffs, offshoring, unemployment)?"
+  parentId: career
+
+- id: salary
+  name: Salary
+  description: "Salary, compensation components, and benefits; do you feel paid fairly?"
+  parentId: career
+
+- id: job_interviews
+  name: Job Interviews
+  description: "How well do interviews reflect the real job (soft skills, take-homes)?"
+  parentId: career
+
+- id: junior_developers
+  name: Junior Developers
+  description: "The state of junior developers and how they get started."
+  parentId: career
+
+- id: seniority_level
+  name: Seniority Level
+  description: "What is your seniority level?"
+  parentId: career
+
+- id: employment_status
+  name: Employment Status
+  description: "Are you employed, freelance, a business owner, or part-time?"
+  parentId: career
+
+- id: career_change_plans
+  name: Career Change Plans
+  description: "Do you plan to change careers or relocate?"
+  parentId: career
+
+- id: job_search_experience
+  name: Job Search Experience
+  description: "What is job hunting like (applications, rejections, time unemployed, recruiters)?"
+  parentId: career
+
+- id: layoffs_experience
+  name: Layoffs
+  description: "Have you or your company been affected by layoffs or reorganizations?"
+  parentId: career
+
+- id: career_origins
+  name: Career Origins
+  description: "Why did you become a developer?"
+  parentId: career
+
+- id: career_longevity
+  name: Career Longevity
+  description: "How long do you expect to keep working as a developer, and will the profession last?"
+  parentId: career
+
+- id: career_recommendation
+  name: Career Recommendation
+  description: "Would you recommend this career, or choose it again?"
+  parentId: career
+
+- id: job_changes
+  name: Job Changes
+  description: "Why did you leave previous jobs; how long do you stay?"
+  parentId: career
+
+- id: freelance_work
+  name: Freelance Work
+  description: "Questions for freelancers and self-employed devs (clients, billing, finding work)."
+  parentId: career
+
+- id: migration_visas
+  name: Migration & Visas
+  description: "Immigration, working abroad, visas (H1B)."
+  parentId: career
+
+# ------------------------------------------------------------------- #
+#    Wellbeing
+# ------------------------------------------------------------------- #
+
+- id: wellbeing
+  name: Wellbeing
+  description: "Questions about developers' wellbeing."
+
+- id: burnout
+  name: Burnout & Stress
+  description: "How often do you experience burnout or stress, and what causes it?"
+  parentId: wellbeing
+
+- id: mental_health
+  name: Mental Health
+  description: "Mental health and neurodivergence (e.g. ADHD) as a developer."
+  parentId: wellbeing
+
+- id: how_are_you
+  name: How Are You?
+  description: "How are you doing / are you happy?"
+  parentId: wellbeing
+
+- id: work_life_balance
+  name: Work-Life Balance
+  description: "Balance between work, family, and free time."
+  parentId: wellbeing
+
+- id: fulfillment_purpose
+  name: Fulfillment & Purpose
+  description: "Sense of fulfillment, motivation, and life satisfaction."
+  parentId: wellbeing
+
+- id: physical_health
+  name: Physical Health
+  description: "Diet, physical health, and stress habits."
+  parentId: wellbeing
+
+- id: social_connections
+  name: Social Connections
+  description: "Friendships, loneliness, and relationships with colleagues."
+  parentId: wellbeing
+
+# ------------------------------------------------------------------- #
+#    Demographics
+# ------------------------------------------------------------------- #
+
+- id: demographics
+  name: Demographics
+  description: "Questions about who respondents are."
+
+- id: lgbtq_identity
+  name: LGBTQ+ Identity
+  description: "LGBTQ+ / gender identity questions."
+  parentId: demographics
+
+- id: political_views
+  name: Political Views
+  description: "What are your political views?"
+  parentId: demographics
+
+- id: hobbies_lifestyle
+  name: Hobbies & Lifestyle
+  description: "Hobbies, physical activity, family (e.g. do you have kids?)."
+  parentId: demographics
+
+- id: location
+  name: Location
+  description: "Where do you live?"
+  parentId: demographics
+
+- id: religious_beliefs
+  name: Religion
+  description: "Religious or spiritual beliefs."
+  parentId: demographics
+
+- id: education_background
+  name: Education
+  description: "Education level, degrees, certifications, satisfaction with education."
+  parentId: demographics
+
+- id: living_situation_finances
+  name: Living Situation & Finances
+  description: "Housing, cost of living, savings, financial stability."
+  parentId: demographics
+
+- id: family_life
+  name: Family Life
+  description: "Partner, children, caring for family, household labor."
+  parentId: demographics
+
+- id: pet_ownership
+  name: Pets
+  description: "Do you have pets?"
+  parentId: demographics
+
+- id: personal_tastes
+  name: Personal Tastes
+  description: "Favorite music, food, movies, games."
+  parentId: demographics
+
+- id: background_upbringing
+  name: Background & Upbringing
+  description: "Socioeconomic or cultural background and upbringing."
+  parentId: demographics
+
+# ------------------------------------------------------------------- #
+#    Ethics & Impact
+# ------------------------------------------------------------------- #
+
+- id: tech_ethics
+  name: Tech Ethics
+  description: "Ethics, politics, and social impact of the tech industry."
+
+- id: js_web_harm
+  name: JavaScript's Impact on the Web
+  description: "Is JavaScript making the web worse (bloat, slow sites, requiring JS, engine monoculture, a11y)?"
+  parentId: tech_ethics
+
+- id: big_tech_views
+  name: Views on Big Tech
+  description: "Opinions about big tech companies, monopolies, and tech leadership."
+  parentId: tech_ethics
+
+- id: world_outlook
+  name: World Outlook
+  description: "Views on the economy, environment, politics, and the future of society."
+  parentId: tech_ethics
+
+- id: work_social_impact
+  name: Social Impact of Work
+  description: "Does your work or employer benefit society?"
+  parentId: tech_ethics
+
+- id: labor_organizing
+  name: Labor Organizing
+  description: "Unions and developer welfare."
+  parentId: tech_ethics
+
+- id: civic_engagement
+  name: Civic Engagement
+  description: "Activism, donations, volunteering, community involvement."
+  parentId: tech_ethics
+
+- id: politics_at_work
+  name: Politics at Work
+  description: "Can you discuss politics at work; how politics affects work."
+  parentId: tech_ethics
+
+- id: internet_health
+  name: State of the Internet
+  description: "How the internet and online spaces are changing (dead internet, low-quality content, SEO)."
+  parentId: tech_ethics
+
+# ------------------------------------------------------------------- #
+#    Work Practices
+# ------------------------------------------------------------------- #
+
+- id: work_practices
+  name: Work Practices
+  description: "Questions about how developers work day to day."
+
+- id: time_allocation
+  name: Time Allocation
+  description: "How do you split your time (coding, reviewing, testing, deploying, legacy vs new code)?"
+  parentId: work_practices
+
+- id: dev_methodologies
+  name: Development Methodologies
+  description: "Which methodologies or design philosophies do you follow (Agile, clean architecture…)?"
+  parentId: work_practices
+
+- id: team_composition
+  name: Team Composition
+  description: "How big is your team and how is it organized?"
+  parentId: work_practices
+
+- id: legacy_maintenance
+  name: Legacy Code Maintenance
+  description: "How do you deal with legacy code and long-lived apps?"
+  parentId: work_practices
+
+- id: project_size
+  name: Project Size & Count
+  description: "How many projects do you work on, and how big/old are they?"
+  parentId: work_practices
+
+- id: company_culture
+  name: Company Culture
+  description: "Company culture, stack autonomy, and who makes technical decisions."
+  parentId: work_practices
+
+- id: primary_role
+  name: Primary Role
+  description: "What's your role (frontend/backend/fullstack, % split)?"
+  parentId: work_practices
+
+- id: product_type
+  name: Product Type
+  description: "What do you work on (SaaS, internal tools, client work, startup, OSS)?"
+  parentId: work_practices
+
+- id: work_vs_personal
+  name: Work vs Personal Projects
+  description: "How do your choices differ between work and personal projects?"
+  parentId: work_practices
+
+- id: management_quality
+  name: Management Quality
+  description: "How good is your manager / leadership?"
+  parentId: work_practices
+
+- id: remote_work
+  name: Remote Work
+  description: "Remote vs office work, commute, RTO."
+  parentId: work_practices
+
+- id: industry_sector
+  name: Industry & Company Type
+  description: "Which industry and type of company (startup, enterprise, agency, academia)?"
+  parentId: work_practices
+
+- id: hobby_programming
+  name: Hobby Programming
+  description: "Coding outside of work: side projects, hobbyists."
+  parentId: work_practices
+
+# ------------------------------------------------------------------- #
+#    Learning & Community
+# ------------------------------------------------------------------- #
+
+- id: learning
+  name: Learning
+  description: "Questions about how developers learn."
+
+- id: documentation_sources
+  name: Documentation Sources
+  description: "Where do you look up information (MDN, Stack Overflow, AI…)?"
+  parentId: learning
+
+- id: staying_current
+  name: Staying Current
+  description: "How do you keep learning and stay up to date (time spent, motivation)?"
+  parentId: learning
+
+- id: content_creators
+  name: Content Creators
+  description: "Favorite YouTubers / content creators."
+  parentId: learning
+
+- id: community
+  name: Community
+  description: "Questions about the developer community."
+
+- id: conferences_meetups
+  name: Conferences & Meetups
+  description: "Which conferences or meetups do you attend?"
+  parentId: community
+
+- id: community_inclusion
+  name: Community Inclusion
+  description: "How welcoming are the community and framework communities?"
+  parentId: community
+
+# ------------------------------------------------------------------- #
+#    Open Source
+# ------------------------------------------------------------------- #
+
+- id: open_source_involvement
+  name: Open Source
+  description: "Questions about open source involvement."
+
+- id: oss_contributions
+  name: Open Source Contributions
+  description: "Do you contribute to or maintain open-source projects or libraries?"
+  parentId: open_source_involvement
+
+- id: oss_funding
+  name: Open Source Funding
+  description: "Do you or your company sponsor open source; how do you feel about corporate funding?"
+  parentId: open_source_involvement
+
+- id: oss_licenses
+  name: Open Source Licenses
+  description: "Views on open-source licenses."
+  parentId: open_source_involvement
+
+# ------------------------------------------------------------------- #
+#    Dev Environment
+# ------------------------------------------------------------------- #
+
+- id: dev_environment
+  name: Dev Environment
+  description: "Questions about developers' setup."
+
+- id: browsers_used
+  name: Browsers Used
+  description: "Which browsers / engines do you use for development and browsing?"
+  parentId: dev_environment
+
+- id: least_favorite_browser
+  name: Least Favorite Browser
+  description: "Which browser do you dislike most?"
+  parentId: dev_environment
+
+- id: operating_systems_used
+  name: Operating Systems Used
+  description: "Which OS do you use?"
+  parentId: dev_environment
+
+- id: code_editors_used
+  name: Code Editors Used
+  description: "Which editors, extensions, and terminals do you use?"
+  parentId: dev_environment
+
+- id: dev_hardware
+  name: Dev Hardware
+  description: "What devices / input devices do you use?"
+  parentId: dev_environment
+
+- id: devtools_usage
+  name: Browser DevTools
+  description: "Which browser devtools features do you use, and how satisfied are you with them?"
+  parentId: dev_environment
+
+# ------------------------------------------------------------------- #
+#    Coding Preferences
+# ------------------------------------------------------------------- #
+
+- id: coding_preferences
+  name: Coding Preferences
+  description: "Style debates and conventions."
+
+- id: tabs_vs_spaces
+  name: Tabs vs Spaces
+  description: "Tabs or spaces / indentation style."
+  parentId: coding_preferences
+
+- id: programming_paradigms
+  name: Programming Paradigms
+  description: "Functional vs OOP, declarative vs imperative."
+  parentId: coding_preferences
+
+# ------------------------------------------------------------------- #
+#    Languages
+# ------------------------------------------------------------------- #
+
+- id: other_languages
+  name: Other Languages
+  description: "JavaScript's place among other languages."
+
+- id: other_languages_used
+  name: Other Languages Used
+  description: "Which other languages / non-JS frameworks do you use, and how much JS vs others?"
+  parentId: other_languages
+
+- id: why_javascript
+  name: Why JavaScript
+  description: "Do you choose JS by preference or necessity; would you pick another ecosystem?"
+  parentId: other_languages
+
+- id: platform_switching
+  name: Platform Switching
+  description: "Have you switched to or from JS from another platform?"
+  parentId: other_languages
+
+# ------------------------------------------------------------------- #
+#    Security, Accessibility, Performance, Testing & DevOps
+# ------------------------------------------------------------------- #
+
+- id: security_practices
+  name: Security Practices
+  description: "How do you handle security in your code?"
+
+- id: supply_chain_protection
+  name: Supply Chain Protection
+  description: "How do you protect your dependencies / supply chain?"
+  parentId: security_practices
+
+- id: authentication_tools
+  name: Authentication Tools
+  description: "Which auth solutions do you use?"
+  parentId: security_practices
+
+- id: accessibility_practices
+  name: Accessibility Practices
+  description: "How do you approach accessibility; do you use assistive tech?"
+
+- id: performance_practices
+  name: Performance Practices
+  description: "How do you measure and optimize performance (incl. build speed)?"
+
+- id: testing_practices
+  name: Testing Practices
+  description: "How do you test (TDD, unit/e2e, coverage, flaky tests, browser simulation)?"
+
+- id: deployment_infra
+  name: Deployment & Infrastructure
+  description: "How do you deploy and run apps (CI, containers, IaC, cloud, monitoring)?"
+
+# ------------------------------------------------------------------- #
+#    Technologies
+# ------------------------------------------------------------------- #
+
+- id: technologies_used
+  name: Technologies Used
+  description: "Which technologies developers work with."
+
+- id: tech_stack
+  name: Tech Stack
+  description: "What's your favorite or professional tech stack?"
+  parentId: technologies_used
+
+- id: programming_languages_used
+  name: Programming Languages
+  description: "Which programming languages do you use or learn?"
+  parentId: technologies_used
+
+- id: dev_tools_used
+  name: Dev Tools
+  description: "Which dev tools do you use (source control, project management, cloud)?"
+  parentId: technologies_used

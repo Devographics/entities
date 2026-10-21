@@ -1,4 +1,10 @@
+# ------------------------------------------------------------------- #
+#    Overall
+# ------------------------------------------------------------------- #
+
 - id: no_issues
+  name: No Issues
+  description: Did not run into any technical issues.
   patterns:
     - no [e]
     - no\. [e]
@@ -6,12 +12,222 @@
     - none [e]
     - nope
     - all good
-    - "no,"
+    - no,
     - nop
     - not at all
     - not really
 
+# ------------------------------------------------------------------- #
+#    Lost Answers
+# ------------------------------------------------------------------- #
+
+- id: lost_answers
+  name: Lost Answers
+  description: Answers or progress disappeared.
+
+- id: back_navigation_data_loss
+  name: Lost on Back Navigation
+  description: Going back to a previous page/section (stepper or back button) showed empty answers.
+  parentId: lost_answers
+
+- id: unsaved_page_data_loss
+  name: Lost Before Saving
+  description: >-
+    Answers on the current page were lost on refresh, crash, or tab unload because they only save on
+    'next'.
+  parentId: lost_answers
+
+- id: external_link_data_loss
+  name: Lost After Opening a Link
+  description: Links opened in the same tab, and coming back lost answers.
+  parentId: lost_answers
+
+- id: swipe_back_data_loss
+  name: Lost on Swipe Back
+  description: Mobile back gesture or accidental back navigation lost answers.
+  parentId: lost_answers
+
+- id: language_switch_data_loss
+  name: Lost on Language Switch
+  description: Switching language reset the current page.
+  parentId: lost_answers
+
+# ------------------------------------------------------------------- #
+#    Reading List
+# ------------------------------------------------------------------- #
+
+- id: reading_list_issues
+  name: Reading List Issues
+  description: Bugs with the reading list.
+
+- id: enter_key_reading_list
+  name: Enter Key Adds to Reading List
+  description: >-
+    Pressing Enter in a text/'Other' field added an unrelated item to the reading list or toggled a
+    button.
+  parentId: reading_list_issues
+
+# ------------------------------------------------------------------- #
+#    Interactions
+# ------------------------------------------------------------------- #
+
+- id: sentiment_buttons_issues
+  name: Sentiment Button Issues
+  description: Positive/negative or interested/not interested pills were buggy or confusing.
+
+- id: sentiment_buttons_discoverability
+  name: Missed Sentiment Buttons
+  description: Didn't notice the positive/negative or interested buttons.
+  parentId: sentiment_buttons_issues
+
+- id: double_click_needed
+  name: Double Click Needed
+  description: Next or other buttons needed two clicks (often after a focused text field).
+
+- id: click_target_issues
+  name: Click Targets
+  description: Small or unreliable click targets; labels not clickable.
+
+- id: none_option_issues
+  name: '"None" Option Issues'
+  description: '''None'' missing, or clicking it cleared other selections.'
+
+- id: other_field_issues
+  name: '"Other" Field Issues'
+  description: Can't add several 'Other' entries; unclear whether they need confirming.
+
+- id: selection_limit_issues
+  name: Selection Limit
+  description: The 3-choice limit was too low.
+
+- id: country_dropdown
+  name: Country Dropdown
+  description: The country dropdown is hard to use.
+
+# ------------------------------------------------------------------- #
+#    Skip & Progress
+# ------------------------------------------------------------------- #
+
+- id: skip_progress_confusion
+  name: Skip & Progress Confusion
+  description: Unclear skip vs blank, optional questions counting toward progress.
+
+- id: skip_button_placement
+  name: Skip Button Placement
+  description: Unclear which question the skip button applies to.
+  parentId: skip_progress_confusion
+
+# ------------------------------------------------------------------- #
+#    Performance
+# ------------------------------------------------------------------- #
+
+- id: slow_survey_ui
+  name: Slow Survey
+  description: The survey app was slow, laggy, or froze.
+
+- id: text_input_lag
+  name: Text Input Lag
+  description: Typing in text fields lagged.
+  parentId: slow_survey_ui
+
+# ------------------------------------------------------------------- #
+#    Mobile
+# ------------------------------------------------------------------- #
+
+- id: mobile_issues
+  name: Mobile Issues
+  description: The survey works poorly on mobile.
+
+- id: mobile_tooltips
+  name: Mobile Tooltips
+  description: Tooltips and code previews don't work well on touch devices.
+  parentId: mobile_issues
+
+# ------------------------------------------------------------------- #
+#    Login
+# ------------------------------------------------------------------- #
+
+- id: login_issues
+  name: Login Issues
+  description: Magic link emails slow/missing/spam, guest vs email sessions, auth errors.
+
+- id: email_link_issues
+  name: Email Link Issues
+  description: Links in survey emails didn't work (click tracking, spam flags, expired links).
+
+# ------------------------------------------------------------------- #
+#    Translations
+# ------------------------------------------------------------------- #
+
 - id: translation_issues
+  name: Translation Issues
+  description: Problems with the survey translations.
   patterns:
     - translation
     - translated
+
+- id: partial_translation_issues
+  name: Partial Translations
+  description: Survey only partly translated, mixing languages.
+  parentId: translation_issues
+
+- id: translation_quality_issues
+  name: Translation Quality
+  description: Wrong or confusing translations.
+  parentId: translation_issues
+
+- id: english_only_difficulty
+  name: English Difficulty
+  description: Non-native speakers struggled with English content.
+  parentId: translation_issues
+
+- id: browser_translation_issues
+  name: Browser Translation Issues
+  description: Problems when using the browser's built-in translation.
+  parentId: translation_issues
+
+# ------------------------------------------------------------------- #
+#    Display
+# ------------------------------------------------------------------- #
+
+- id: contrast_font_issues
+  name: Contrast & Font
+  description: Low contrast, invisible text selection, ambiguous font (i/l).
+
+- id: scroll_layout_issues
+  name: Scroll & Layout
+  description: Scroll jumps, overflowing popups, sidebar out of view.
+
+# ------------------------------------------------------------------- #
+#    Content
+# ------------------------------------------------------------------- #
+
+- id: question_content_errors
+  name: Question Content Errors
+  description: Mistakes in questions (TS on both ends of the TS/JS scale, bad links, missing labels).
+
+- id: unfamiliar_terminology
+  name: Unfamiliar Terminology
+  description: >-
+    Respondent didn't know the technologies or terms asked about (not a technical issue, but
+    common).
+
+- id: network_errors
+  name: Network & Access Errors
+  description: Connection errors, VPN/firewall needs, errors on submit.
+
+- id: raw_i18n_keys
+  name: Raw i18n Keys Shown
+  description: >-
+    Labels showed technical keys or placeholders (e.g. options.work_areas.management, 'undefined')
+    instead of text.
+  parentId: question_content_errors
+
+# ------------------------------------------------------------------- #
+#    Network
+# ------------------------------------------------------------------- #
+
+- id: content_blockers
+  name: Blocked by Extensions
+  description: Ad blockers or extensions blocked the survey or its links.
+  parentId: network_errors

@@ -1,7 +1,1 @@
-- id: pets
-  patterns:
-    - dog
-    - cat
-    - pet
-
 - id: freedom

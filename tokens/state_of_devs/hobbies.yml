@@ -78,6 +78,9 @@
   patterns:
     - dog
     - cat
+    - pet
+  tags:
+    - happiness_factors
 
 - id: music
   patterns:

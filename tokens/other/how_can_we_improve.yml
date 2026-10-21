@@ -1,20 +1,9 @@
-- id: survey_too_long
-  description: Found the survey too long
-  patterns:
-    - too long
-    - shorter
-
-- id: information_links
-  description: Add features info links during the survey
-  patterns:
-    - links
-
-- id: light_mode
-  description: Suggested adding a light mode to the user interface
-  patterns:
-    - light theme
+# ------------------------------------------------------------------- #
+#    Overall
+# ------------------------------------------------------------------- #
 
 - id: positive_impression
+  name: Positive Impression
   description: Overall positive impression of the survey
   patterns:
     - doing great
@@ -43,6 +32,7 @@
     - it was great
 
 - id: dont_know
+  name: No Suggestion
   description: No specific suggestion
   patterns:
     - don't know
@@ -51,40 +41,364 @@
     - no need
     - nothing
 
-- id: options_suggestion
-  description: Suggested improving the options provided for existing questions
-  patterns: []
+# ------------------------------------------------------------------- #
+#    Length
+# ------------------------------------------------------------------- #
+
+- id: survey_too_long
+  name: Survey Too Long
+  description: Found the survey too long
+  tags:
+    - did_you_run_into_technical_issues
+  patterns:
+    - too long
+    - shorter
+
+- id: split_survey
+  name: Split the Survey
+  description: Split the survey into several sessions or several smaller surveys (e.g. frontend/backend, AI).
+  parentId: survey_too_long
+
+# ------------------------------------------------------------------- #
+#    Questions
+# ------------------------------------------------------------------- #
 
 - id: questions_suggestion
+  name: Question Changes
   description: Suggested adding, removing, or changing questions
   patterns: []
 
+- id: question_clarity
+  name: Question Clarity
+  description: Questions were ambiguous or unclear.
+  parentId: questions_suggestion
+  tags:
+    - did_you_run_into_technical_issues
+
+- id: usage_timeframe_ambiguity
+  name: Usage Timeframe Ambiguity
+  description: Unclear whether 'used' means ever, in the last year, or regularly.
+  parentId: question_clarity
+
+- id: js_vs_ts_ambiguity
+  name: JS vs TS Ambiguity
+  description: Unclear whether questions about JavaScript include TypeScript.
+  parentId: question_clarity
+
+- id: demographic_questions_concerns
+  name: Demographic Question Concerns
+  description: >-
+    Objections to or problems with demographic or political questions (ethnicity, gender, left/right
+    axis, US-centric framing).
+  parentId: questions_suggestion
+
+- id: fewer_freeform_questions
+  name: Fewer Freeform Questions
+  description: Fewer open text questions, more predefined options.
+  parentId: questions_suggestion
+
+- id: core_js_focus
+  name: Focus on Core JS
+  description: Focus more on the language and standards, less on libraries and tools.
+  parentId: questions_suggestion
+
+- id: more_backend_coverage
+  name: More Backend Coverage
+  description: Cover backend and non-browser JavaScript more.
+  parentId: questions_suggestion
+
+- id: ai_coverage_feedback
+  name: AI Coverage
+  description: More (or less) coverage of AI.
+  parentId: questions_suggestion
+
+- id: new_section_suggestions
+  name: New Sections
+  description: Add a section about a new topic (security, conferences, visualization, templates…).
+  parentId: questions_suggestion
+
+- id: typescript_survey
+  name: TypeScript Survey
+  description: Create a State of TypeScript survey or focus more on TypeScript.
+  parentId: questions_suggestion
+
+- id: framework_bias
+  name: Framework Bias
+  description: Reduce bias toward React or hyped tools.
+  parentId: questions_suggestion
+
+- id: fewer_personal_questions
+  name: Fewer Personal Questions
+  description: Fewer personal or off-topic questions (demographics, health, politics, hobbies, gear).
+  parentId: questions_suggestion
+
+- id: more_technical_focus
+  name: More Technical Focus
+  description: Focus more on technology and development work.
+  parentId: questions_suggestion
+
+- id: negative_framing
+  name: Negative Framing
+  description: Questions feel biased toward negative aspects; add positive or neutral questions.
+  parentId: questions_suggestion
+
+- id: non_employed_respondents
+  name: Non-Employed Respondents
+  description: >-
+    Questions assume paid employment; account for unemployed, students, hobbyists, freelancers,
+    retirees.
+  parentId: questions_suggestion
+  tags:
+    - did_you_run_into_technical_issues
+
+- id: redundant_questions
+  name: Redundant Questions
+  description: Questions that repeat each other or could be inferred from earlier answers.
+  parentId: questions_suggestion
+
+- id: copy_errors
+  name: Typos & Copy Errors
+  description: Typos and grammar mistakes in questions.
+  parentId: questions_suggestion
+
+- id: non_user_options
+  name: Options for Non-Users
+  description: Questions assume the respondent uses the technology (e.g. AI); add options for people who don't.
+  parentId: questions_suggestion
+  tags:
+    - did_you_run_into_technical_issues
+
+- id: leading_questions
+  name: Leading Questions
+  description: Questions or options feel biased toward a particular answer (e.g. pro-AI framing).
+  parentId: questions_suggestion
+
+- id: technology_definitions
+  name: Technology Definitions
+  description: >-
+    Define or distinguish the technologies asked about (AI vs LLMs vs ML; models vs tools vs
+    agents).
+  parentId: question_clarity
+
+- id: work_personal_distinction
+  name: Work vs Personal Use
+  description: Distinguish professional from personal use in questions.
+  parentId: question_clarity
+
+- id: feature_selection
+  name: Feature Selection
+  description: 'Which features to include: focus on widely available ones vs new or experimental ones.'
+  parentId: questions_suggestion
+
+# ------------------------------------------------------------------- #
+#    Options
+# ------------------------------------------------------------------- #
+
+- id: options_suggestion
+  name: Option Changes
+  description: Suggested improving the options provided for existing questions
+  patterns: []
+
+- id: missing_items
+  name: Missing Items
+  description: A specific library, tool, editor, or language missing from the options (incl. 'Web Components').
+  parentId: options_suggestion
+  tags:
+    - did_you_run_into_technical_issues
+
+- id: category_structure
+  name: Category Structure
+  description: Sections or categories are too broad or mix different kinds of tools.
+  parentId: options_suggestion
+
+- id: selection_limit
+  name: Selection Limit
+  description: Allow selecting more than 3 items.
+  parentId: options_suggestion
+  tags:
+    - missing_questions
+
+- id: finer_answer_scales
+  name: Finer Answer Scales
+  description: More nuanced answer scales (ratings, neutral, used-but-not-recently, want-to-use).
+  parentId: options_suggestion
+
+- id: none_option
+  name: '"None" Option'
+  description: Add a 'None' or 'Don't know' option where missing.
+  parentId: options_suggestion
+
+- id: other_option_improvements
+  name: '"Other" Option Improvements'
+  description: Better write-in answers (multiple entries, show others' entries).
+  parentId: options_suggestion
+
+- id: outdated_options
+  name: Outdated Options
+  description: Options list outdated tools or models.
+  parentId: options_suggestion
+
+# ------------------------------------------------------------------- #
+#    Learning Aids
+# ------------------------------------------------------------------- #
+
+- id: learning_aids
+  name: Learning Aids
+  description: Help respondents understand the items they're asked about.
+  tags:
+    - did_you_run_into_technical_issues
+
+- id: information_links
+  name: Links to Docs
+  description: Add features info links during the survey
+  parentId: learning_aids
+  patterns:
+    - links
+
+- id: live_code_examples
+  name: Code Examples
+  description: More code examples or visuals for features.
+  parentId: learning_aids
+  patterns:
+    - interactive
+
+- id: feature_descriptions
+  name: Feature Descriptions
+  description: Short descriptions or tooltips for each item.
+  parentId: learning_aids
+
+# ------------------------------------------------------------------- #
+#    Reading List
+# ------------------------------------------------------------------- #
+
+- id: reading_list_feedback
+  name: Reading List
+  description: Feedback on the reading list feature.
+
+- id: reading_list_discoverability
+  name: Reading List Discoverability
+  description: Didn't notice or understand the reading list.
+  parentId: reading_list_feedback
+
+- id: reading_list_unwanted_adds
+  name: Unwanted Reading List Adds
+  description: Clicking 'interested' shouldn't add items to the reading list.
+  parentId: reading_list_feedback
+
+- id: reading_list_features
+  name: Reading List Features
+  description: Add-all, export, bookmarks, saving answers for learning.
+  parentId: reading_list_feedback
+
+# ------------------------------------------------------------------- #
+#    Translations
+# ------------------------------------------------------------------- #
+
 - id: translations
+  name: Translations
   description: Better-quality or more complete translations
   patterns:
     - translating
     - localization
     - translation
 
-- id: live_code_examples
-  description: Interactive or visual code examples
-  patterns:
-    - interactive
+- id: partial_translations
+  name: Partial Translations
+  description: Half-translated surveys; translate everything or nothing.
+  parentId: translations
 
-- id: sentiment_ui
-  description: Sentiment UI improvements
-  patterns: []
+# ------------------------------------------------------------------- #
+#    UI
+# ------------------------------------------------------------------- #
 
 - id: ui_improvements
+  name: UI Improvements
   description: General UI improvements
   patterns: []
 
+- id: light_mode
+  name: Light Mode
+  description: Suggested adding a light mode to the user interface
+  parentId: ui_improvements
+  tags:
+    - did_you_run_into_technical_issues
+  patterns:
+    - light theme
+
 - id: mobile_version
+  name: Mobile Version
   description: Better mobile version
+  parentId: ui_improvements
   patterns: []
 
-- id: accessibility
+- id: sentiment_ui
+  name: Sentiment Buttons
+  description: Sentiment UI improvements
+  parentId: ui_improvements
+  patterns: []
+
+- id: progress_indicator
+  name: Progress Indicator
+  description: Clearer progress, or a way to see unanswered questions.
+  parentId: ui_improvements
+
+- id: save_progress
+  name: Save Progress
+  description: Save answers as you go so refreshes or navigation don't lose them.
+  parentId: ui_improvements
+
+- id: skip_behavior
+  name: Skip Behavior
+  description: Skip button placement, skip whole sections, auto-skip blanks.
+  parentId: ui_improvements
+
+- id: form_controls
+  name: Form Controls
+  description: Comboboxes, sliders, tables, fonts, selection colors, less whitespace.
+  parentId: ui_improvements
+
+- id: survey_speed
+  name: Survey Speed
+  description: The survey app is slow or laggy.
+  parentId: ui_improvements
+
+- id: survey_accessibility
   name: Accessibility
-  description: Accessibility improvements
+  description: Accessibility improvements to the survey app
+  parentId: ui_improvements
   patterns:
     - accessibility
+
+# ------------------------------------------------------------------- #
+#    Reach & Results
+# ------------------------------------------------------------------- #
+
+- id: survey_reach
+  name: Survey Reach
+  description: Reach more and more diverse respondents.
+
+- id: survey_promotion
+  name: Survey Promotion
+  description: Advertise the survey more (news, fediverse, influencers, browsers).
+  parentId: survey_reach
+
+- id: sample_representativeness
+  name: Sample Representativeness
+  description: Concerns about sample bias or under-represented groups.
+  parentId: survey_reach
+
+- id: results_suggestions
+  name: Results Suggestions
+  description: Faster results, results navigation, more uses of the data.
+
+- id: account_continuity
+  name: Account & Emails
+  description: Remember answers across surveys, login method, notification emails.
+
+- id: incentives_merch
+  name: Incentives & Merch
+  description: T-shirts, rewards, sponsorship links.
+
+- id: privacy_transparency
+  name: Privacy Transparency
+  description: Be clearer about how data is used.

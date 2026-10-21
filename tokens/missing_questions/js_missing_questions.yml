@@ -1,0 +1,262 @@
+# ------------------------------------------------------------------- #
+#    Language
+# ------------------------------------------------------------------- #
+
+- id: language_features_opinions
+  name: Language Features
+  description: "Opinions on JS language features."
+
+- id: favorite_js_features
+  name: Favorite JS Features
+  description: "Favorite JS features / types / under-used parts of the language."
+  parentId: language_features_opinions
+
+- id: js_features_to_remove
+  name: JS Features to Remove
+  description: "What would you remove from JS / which features do you dislike or refuse to adopt?"
+  parentId: language_features_opinions
+
+- id: wanted_js_features
+  name: Wanted JS Features
+  description: "What would you add to JS (stdlib, new features)?"
+  parentId: language_features_opinions
+
+- id: tc39_opinions
+  name: TC39 Opinions
+  description: "Knowledge of / satisfaction with TC39."
+  parentId: language_features_opinions
+
+- id: feature_adoption_blockers
+  name: Feature Adoption Blockers
+  description: "What stops you from adopting new features?"
+  parentId: language_features_opinions
+
+# ------------------------------------------------------------------- #
+#    TypeScript
+# ------------------------------------------------------------------- #
+
+- id: typescript_usage
+  name: TypeScript
+  description: "Questions about how TypeScript is used."
+
+- id: typescript_vs_javascript
+  name: TypeScript vs JavaScript
+  description: "How much TS vs JS do you use, and do you still need TS?"
+  parentId: typescript_usage
+
+- id: typescript_features
+  name: TypeScript Features Used
+  description: "Which TS features do you use (any, enums, strictness, new features)?"
+  parentId: typescript_usage
+
+- id: typescript_pain_points
+  name: TypeScript Pain Points
+  description: "What bothers you about TypeScript (typing, declaration files, HMR)?"
+  parentId: typescript_usage
+
+- id: typescript_tooling_future
+  name: Native TypeScript Support
+  description: "Native TS support in runtimes, TypeScript Go, a TS spec."
+  parentId: typescript_usage
+
+# ------------------------------------------------------------------- #
+#    Frameworks
+# ------------------------------------------------------------------- #
+
+- id: framework_opinions
+  name: Framework Opinions
+  description: "Broader questions about frameworks."
+
+- id: framework_ratings
+  name: Framework Ratings
+  description: "How satisfied are you with each framework (scores, comparisons)?"
+  parentId: framework_opinions
+
+- id: framework_choice_reasons
+  name: Framework Choice Reasons
+  description: "Why do people pick a framework (hiring, management, DX, speed)?"
+  parentId: framework_opinions
+
+- id: framework_switching
+  name: Framework Switching
+  description: "What holds you back from switching frameworks?"
+  parentId: framework_opinions
+
+- id: primary_framework
+  name: Primary Framework
+  description: "Which framework do you use most / would you choose today?"
+  parentId: framework_opinions
+
+- id: framework_experience
+  name: Framework Experience
+  description: "How long have you used each framework?"
+  parentId: framework_opinions
+
+- id: framework_features_used
+  name: Framework Features Used
+  description: "Which parts of your framework do you use most?"
+  parentId: framework_opinions
+
+- id: underdog_projects
+  name: Underdog Projects
+  description: "Lesser-known or upcoming libraries that deserve attention."
+  parentId: framework_opinions
+
+- id: framework_specific
+  name: Framework-Specific Questions
+  description: "More questions about a specific framework (React, Angular, Vue…)."
+  parentId: framework_opinions
+
+# ------------------------------------------------------------------- #
+#    Missing Libraries
+# ------------------------------------------------------------------- #
+
+- id: missing_libraries
+  name: Missing Libraries
+  description: "A specific library or framework the survey should include."
+
+- id: effect_library
+  name: Effect
+  description: "Effect (TypeScript library)."
+  parentId: missing_libraries
+
+# ------------------------------------------------------------------- #
+#    Ecosystem Categories
+# ------------------------------------------------------------------- #
+
+- id: state_management_libraries
+  name: State Management Libraries
+  description: "Which state management libraries do you use?"
+
+- id: data_fetching_libraries
+  name: Data Fetching Libraries
+  description: "TanStack Query, Apollo, and other data libraries."
+
+- id: databases_orms
+  name: Databases & ORMs
+  description: "Databases and data access."
+
+- id: database_usage
+  name: Databases Used
+  description: "Which databases do you use?"
+  parentId: databases_orms
+
+- id: orm_usage
+  name: ORMs Used
+  description: "Which ORMs do you use?"
+  parentId: databases_orms
+
+- id: package_managers_usage
+  name: Package Managers
+  description: "Which package manager do you use and how do you like it?"
+
+- id: npm_packages_usage
+  name: npm Packages
+  description: "Which npm packages do you use; package bloat."
+
+- id: js_runtimes_usage
+  name: JS Runtimes
+  description: "Which runtimes do you use (Node, Deno, Bun, edge) and why?"
+
+- id: native_addons
+  name: Native Addons & Embedded Engines
+  description: "Native addons / bindings and embedded JS engines."
+  parentId: js_runtimes_usage
+
+- id: backend_development
+  name: Backend Development
+  description: "Backend frameworks, services, and libraries."
+
+- id: backend_services
+  name: Backend Services
+  description: "Backend services, messaging, background jobs."
+  parentId: backend_development
+
+- id: cms_ecommerce
+  name: CMS & E-commerce
+  description: "CMSes and e-commerce platforms."
+  parentId: backend_development
+
+- id: compile_to_js_languages
+  name: Compile-to-JS Languages
+  description: "ReScript, Elm, Gleam, Scala.js, etc."
+
+- id: vanilla_js_usage
+  name: Vanilla JS
+  description: "Building without frameworks / minimalist JS."
+
+- id: build_tooling
+  name: Build Tooling
+  description: "Build steps, bundlers, linters, formatters."
+
+- id: monorepo_tools
+  name: Monorepo Tools
+  description: "Monorepo vs multirepo and monorepo tools."
+  parentId: build_tooling
+
+- id: micro_frontends_usage
+  name: Micro Frontends
+  description: "Micro frontends and module federation."
+
+- id: ui_component_libraries
+  name: UI Component Libraries
+  description: "Which UI kits / design systems do you use?"
+
+- id: css_tooling
+  name: CSS Tooling
+  description: "CSS frameworks and CSS-in-JS alongside JS frameworks."
+
+- id: rendering_patterns
+  name: Rendering Patterns
+  description: "SSR / SSG / CSR choices and frontend/backend separation."
+
+- id: mobile_desktop_js
+  name: Mobile & Desktop
+  description: "JS for mobile, desktop, and cross-platform apps."
+
+- id: ai_libraries
+  name: AI Libraries
+  description: "AI SDKs and agent libraries; built-in browser AI."
+
+- id: error_handling_debugging
+  name: Error Handling & Debugging
+  description: "Error handling patterns and debugging techniques."
+
+- id: module_systems
+  name: Module Systems
+  description: "Module systems and import maps."
+
+# ------------------------------------------------------------------- #
+#    Web Platform
+# ------------------------------------------------------------------- #
+
+- id: web_components_usage
+  name: Web Components
+  description: "Usage of and interest in Web Components / Custom Elements."
+  parentId: missing_items
+  tags:
+    - how_can_we_improve
+
+- id: web_platform_apis
+  name: Web Platform APIs
+  description: "Browser APIs and platforms beyond the core language."
+
+- id: pwa_usage
+  name: PWAs
+  description: "Do you build PWAs; are they improving?"
+  parentId: web_platform_apis
+
+- id: graphics_apis
+  name: Graphics APIs
+  description: "WebGPU, WebGL, and creative coding."
+  parentId: web_platform_apis
+
+- id: extension_development
+  name: Browser Extension Development
+  description: "Building browser extensions."
+  parentId: web_platform_apis
+
+- id: webassembly_usage
+  name: WebAssembly
+  description: "WebAssembly usage and problems."
+  parentId: web_platform_apis
