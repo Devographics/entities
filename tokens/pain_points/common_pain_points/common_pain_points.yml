@@ -584,7 +584,7 @@
   patterns:
     - budget
 
-- id: low_priority
+- id: low_priority_at_work
   name: Low priority
   parentId: workplace_issues
   patterns:
