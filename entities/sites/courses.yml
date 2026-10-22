@@ -78,11 +78,12 @@
   homepageUrl: https://designcode.io/
 
 - id: frontendmasters
-  name: Frontend Masters
-  homepageUrl: https://frontendmasters.com/
+  name: Master.dev (ex-Frontend Masters)
+  homepageUrl: https://master.dev/
   patterns:
     - front( |-)?end( |-)?master(s)?
     - frontedmaster
+    - master(.| )?dev
 
 - id: treehouse
   name: Treehouse
