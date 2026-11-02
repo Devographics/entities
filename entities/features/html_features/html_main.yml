@@ -627,6 +627,8 @@
         GitHub"
   tags:
     - features
+  patterns:
+    - custom, element [l]
 
 - id: fencedframe_element
   name: Fenced frames
@@ -2197,11 +2199,6 @@
   parentId: apis_capabilities
   tags:
     - system_capabilities_pain_points
-
-- id: web_nfc
-  name: |
-    Web NFC
-  parentId: apis_capabilities
 
 - id: web_monetization_api
   name: |

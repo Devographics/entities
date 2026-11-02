@@ -20,11 +20,6 @@
   patterns:
     - cookie
 
-- id: customized_built_in_elements
-  name: Customized built-in elements
-  patterns:
-    - custom, element [l]
-
 - id: custom_scrollbars
   patterns:
     - custom, scrollbar [l]
