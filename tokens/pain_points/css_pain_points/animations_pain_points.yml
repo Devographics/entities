@@ -34,6 +34,7 @@
   descriptionIssues: Difficulty animating elements as they enter or are removed from the DOM, and transitioning between hidden and visible states, often requiring @starting-style, allow-discrete, or JS.
   tags:
     - interactions_pain_points
+    - interactivity_pain_points
 
 - id: animation_sequencing
   name: Animation sequencing

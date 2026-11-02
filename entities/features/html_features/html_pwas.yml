@@ -120,6 +120,7 @@
   parentId: apis_capabilities
   tags:
     - browser_apis_pain_points
+    - system_capabilities_pain_points
 
 - id: webgpu
   name: WebGPU
@@ -154,6 +155,8 @@
     Pain points related to the `<progress>` element.
   patterns:
     - <progress [p]
+  tags:
+    - forms_pain_points
 
 - id: shape_detection_api
   name: Shape Detection API
@@ -189,6 +192,8 @@
   mdn: en-US/docs/Web/API/History_API
   patterns:
     - history, api
+  tags:
+    - interactivity_pain_points
 
 - id: intersection_observer_api
   name: Intersection Observer API
@@ -204,6 +209,8 @@
   mdn: https://developer.mozilla.org/en-US/docs/Web/API/Push_API
   patterns:
     - push, notification [l]
+  tags:
+    - system_capabilities_pain_points
 
 - id: payment_request_api
   webFeaturesId: payment-request

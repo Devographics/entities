@@ -70,6 +70,7 @@
     - making_web_components_pain_points
     - testing_pain_points
     - top_js_pain_points
+    - web_components_pain_points
 
 - id: frustration_with_javascript
   tags:
@@ -159,6 +160,7 @@
   tags:
     - using_web_components_pain_points
     - language_pain_points
+    - web_components_pain_points
 
 - id: native_htmx_like_features
   description: >
@@ -212,4 +214,4 @@
   description: >
     Pain points around creating sortable lists, including drag and drop
     functionality and reordering elements.
-  parentId: interactivity
+  parentId: lack_of_native_features

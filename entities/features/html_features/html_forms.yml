@@ -147,6 +147,8 @@
 - id: input_type_tel
   name: |
     `<input type="tel">`
+  tags:
+    - forms_pain_points
 
 - id: input_type_url
   name: |
@@ -210,7 +212,7 @@
     `:invalid` CSS pseudo-class
 
 - id: valid_invalid_pseudo_class
-  parentId: validation
+  parentId: form_validation_issues
   name: |
     `:invalid`/`:valid` CSS pseudo-classes
   # note: whole-word matching ([b]) breaks when using : character in a string
@@ -300,6 +302,7 @@
   parentId: input_type_date
   tags:
     - html_missing_elements
+    - forms_pain_points
 
 - id: select_element_multiselect
   name: |
@@ -312,6 +315,7 @@
     - select, multiple [l]
   tags:
     - interactions_pain_points
+    - forms_pain_points
 
 - id: textarea_element
   name: |
@@ -389,6 +393,7 @@
   tags:
     - layout_pain_points
     - css_general_pain_points
+    - forms_pain_points
 
 - id: input_type_number
   idAliases:
@@ -404,6 +409,7 @@
   tags:
     - front_end_frameworks_pain_points
     - interactions_pain_points
+    - forms_pain_points
 
 - id: input_type_file
   idAliases:
@@ -419,6 +425,7 @@
   tags:
     - back_end_frameworks_pain_points
     - testing_pain_points
+    - forms_pain_points
 
 - id: content_editable_attribute
   name: >

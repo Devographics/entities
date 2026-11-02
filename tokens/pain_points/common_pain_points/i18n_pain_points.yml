@@ -22,6 +22,8 @@
     The desire for internationalization and localization features to be built
     into HTML declaratively, rather than relying on JavaScript.
   parentId: i18n_issues
+  tags:
+    - content_pain_points
 
 - id: i18n_number_formatting
   name: |

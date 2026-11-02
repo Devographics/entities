@@ -33,3 +33,5 @@
   name: DOM Diffing & Morphing
   description: Desire for native DOM diffing, patching, or morphing primitives to update existing DOM trees efficiently.
   parentId: dom_api
+  tags:
+    - interactivity_pain_points

@@ -14,6 +14,7 @@
     - component_libraries_pain_points
     - front_end_frameworks_pain_points
     - meta_frameworks_pain_points
+    - performance_pain_points
   patterns:
     - re(-| )?render [p]
     - double, render [l]

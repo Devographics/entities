@@ -67,7 +67,7 @@
     `Intl.Segmenter` API
   description: |
     Language-sensitive segmentation of text into graphemes, words or sentences.
-  parentId: intl_apis
+  parentId: intl_api
   mdn: en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter
   example:
     language: js

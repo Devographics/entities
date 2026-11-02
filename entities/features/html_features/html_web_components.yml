@@ -85,6 +85,8 @@
   resources:
     - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Declarative-Custom-Elements-Strawman.md
       title: Declarative Syntax for Custom Elements
+  tags:
+    - web_components_pain_points
 
 - id: reference_target_api
   isExperimental: true # proposal/unsupported feature
@@ -103,6 +105,8 @@
   resources:
     - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/reference-target-explainer.md
       title: Reference Target for Cross-Root ARIA
+  tags:
+    - web_components_pain_points
 
 - id: has_slotted
   webFeaturesId: has-slotted

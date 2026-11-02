@@ -5,7 +5,7 @@
     Concerns about the job market, including the low number of roles for HTML
     specialists, low pay, and the perception that companies and other developers
     do not value deep HTML skills.
-  parentId: workplace
+  parentId: workplace_issues
 
 - id: team_buy_in
   name: |
@@ -13,4 +13,6 @@
   description: >
     Difficulties in convincing teammates, managers, clients, or other
     stakeholders of the importance and priority of accessibility work.
-  parentId: workplace
+  parentId: workplace_issues
+  tags:
+    - accessibility_pain_points

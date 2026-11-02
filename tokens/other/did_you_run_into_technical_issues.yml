@@ -206,6 +206,16 @@
   name: Question Content Errors
   description: Mistakes in questions (TS on both ends of the TS/JS scale, bad links, missing labels).
 
+- id: scale_label_errors
+  name: Scale Label Errors
+  description: "Incorrect or inconsistent labels on scale questions, such as \"1 - 50% - 9\"."
+  parentId: question_content_errors
+
+- id: intro_message_misplaced
+  name: Misplaced Welcome Message
+  description: "The survey's welcome message appearing partway through the survey instead of on the first page."
+  parentId: question_content_errors
+
 - id: unfamiliar_terminology
   name: Unfamiliar Terminology
   description: >-

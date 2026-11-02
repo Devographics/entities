@@ -63,6 +63,8 @@
   parentId: image_management
   patterns:
     - srcset
+  tags:
+    - performance_pain_points
 
 # other
 
@@ -164,6 +166,11 @@
     Issues around tables and table layout
   parentId: content
 
+- id: responsive_tables
+  name: Responsive Tables
+  description: "Making tables adapt to small screens or scroll gracefully."
+  parentId: tables
+
 - id: table_treegrid
   name: |
     Treegrid Tables
@@ -180,14 +187,6 @@
     Desire for native browser features for tables like sorting, filtering, and
     pagination, without relying on JavaScript libraries.
   parentId: tables
-
-- id: tabs_element
-  name: |
-    Tabs element
-  description: >
-    Pain points from the lack of a native HTML element for tabbed interfaces, a
-    common UI pattern.
-  parentId: missing_elements
 
 - id: footnotes_endnotes
   name: |
@@ -325,6 +324,8 @@
     inaccessibility on touch devices, styling limitations, and inconsistent user
     experience.
   parentId: content
+  tags:
+    - interactivity_pain_points
 
 - id: social_meta_tags
   name: |
@@ -353,6 +354,11 @@
     For issues around headings in web components combine with web_components.
     For issues around headings in components in general, combine with
     `component_based_architectures`
+
+- id: heading_levels_components
+  name: Heading Levels in Components
+  description: "Managing heading levels across reusable components and CMS content, including the lack of a heading offset."
+  parentId: headings
 
 - id: xslt
   name: |

@@ -30,6 +30,7 @@
     `reliance_on_javascript`.
   tags:
     - accessibility_pain_poins
+    - accessibility_pain_points
   parentId: a11y_technical_issues
 
 - id: language_barrier

@@ -51,6 +51,8 @@
   name: Fonts
   patterns:
     - fonts [e]
+  tags:
+    - performance_pain_points
 
 - id: layout_and_positioning_issues
   name: Layout & positioning
@@ -95,6 +97,8 @@
     are rendered. Includes z-index conflicts, stacking order control, and
     interactions between multiple top-layer elements.
   parentId: styling_customization
+  tags:
+    - interactivity_pain_points
 
 - id: css_architecture
   name: CSS architecture & organization

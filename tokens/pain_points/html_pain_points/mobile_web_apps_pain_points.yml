@@ -77,6 +77,8 @@
   patterns:
     - pwa
     - pwa, hard [l]
+  tags:
+    - system_capabilities_pain_points
 
 - id: pwa_lack_of_education
   name: Lack of education
@@ -166,6 +168,8 @@
 
 - id: apple_ios_issues
   name: Apple/iOS issues
+  tags:
+    - system_capabilities_pain_points
 
 - id: ios_lack_of_pwa_support
   name: Lack of PWA support
@@ -174,6 +178,8 @@
     - apple, pwa [l]
     - ios, pwa [l]
     - ios, support [l]
+  tags:
+    - system_capabilities_pain_points
 
 - id: ios_general_issues
   name: iOS issues
@@ -201,6 +207,8 @@
   parentId: security_privacy
   patterns:
     - permission
+  tags:
+    - system_capabilities_pain_points
 
 - id: keyboard_issues
   patterns:

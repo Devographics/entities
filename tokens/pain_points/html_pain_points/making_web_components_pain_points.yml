@@ -28,6 +28,9 @@
   parentId: templating
   tags:
     - language_pain_points
+    - interactivity_pain_points
+    - content_pain_points
+    - web_components_pain_points
 
 - id: templating_jsx_like
   name: |

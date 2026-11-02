@@ -37,6 +37,7 @@
   tags:
     - language_pain_points
     - build_tools_pain_points
+    - performance_pain_points
 
 - id: immutable_data_structures
   name: Immutable Data Structure

@@ -51,6 +51,11 @@
     - browser, across [l]
     - browser, interop [l]
 
+- id: chrome_only_features
+  name: Chrome-Only Features
+  description: "Features and APIs that only work in Chromium-based browsers."
+  parentId: browser_support
+
 - id: fallbacks_polyfills
   name: Fallbacks & polyfills
   parentId: interop_issues

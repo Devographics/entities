@@ -144,6 +144,9 @@
     - focus( |-)?trap
   tags:
     - accessibility_features
+    - interactivity_pain_points
+    - content_pain_points
+    - accessibility_pain_points
 
 - id: zoom_support
   name: Zoom Support

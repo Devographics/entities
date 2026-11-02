@@ -33,6 +33,9 @@
     Issues related to generating/displaying video thumbnails and posters, either
     for scrubbing or static display
   parentId: video_element
+  tags:
+    - content_pain_points
+    - performance_pain_points
 
 - id: tracks
   name: |
@@ -46,6 +49,8 @@
   description: |
     Authoring/playing adaptive streams (HLS/DASH/m3u8).
   parentId: video_element
+  tags:
+    - content_pain_points
 
 - id: streaming
   name: |

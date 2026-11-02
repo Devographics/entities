@@ -50,6 +50,8 @@
     Issues related to creating and using Form-Associated Custom Elements (FACE)
     and issues around form participation and semantics for web components.
   parentId: web_components
+  tags:
+    - forms_pain_points
 
 - id: cross_root_aria
   name: |

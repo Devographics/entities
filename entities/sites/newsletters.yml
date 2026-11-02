@@ -123,6 +123,7 @@
   patterns:
     - tl;dr
     - tldrwebdev
+    - tldrdev
 
 - id: elm_weekly
   name: Elm Weekly

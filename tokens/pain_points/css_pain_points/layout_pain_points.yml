@@ -114,6 +114,8 @@
     Issues with styling tables, including responsiveness, sticky
     headers/columns, and layout control.
   parentId: tables
+  tags:
+    - content_pain_points
 
 - id: extrinsic_sizing
   name: Extrinsic sizing
@@ -130,6 +132,7 @@
     Container queries requiring an extra wrapper element because an element cannot query itself; desire for self/element conditionals.
   tags:
     - css_general_pain_points
+    - content_pain_points
 
 - id: grid_track_sizing
   name: Grid track sizing
@@ -163,6 +166,7 @@
     - interactions_pain_points
     - other_features_pain_points
     - css_general_pain_points
+    - interactivity_pain_points
 
 - id: box_alignment
   name: Alignment properties

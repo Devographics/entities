@@ -85,12 +85,12 @@
 - id: conditional_validation
   name: Conditional validation
   description: Validating inputs conditionally based on other inputs
-  parentId: validation_issues
+  parentId: form_validation_issues
 
 - id: accessible_validation
   name: Validation accessibility
   description: Ensuring validation hints are properly accessible
-  parentId: validation_issues
+  parentId: form_validation_issues
   patterns:
     - a11y, valid [l]
     - access, valid [l]
@@ -164,6 +164,11 @@
     - interactions_pain_points
     - css_general_pain_points
 
+- id: missing_native_controls
+  name: Missing Native Controls
+  description: "Common form controls with no native element, such as address, duration, or other controls found in component libraries."
+  parentId: form_input_issues
+
 - id: textarea_auto_growing
   name: >
     `<textarea>` auto-growing
@@ -195,6 +200,8 @@
     - select, search [l]
 
 - id: input_type_toggle
+  name: Toggle Switch
+  description: "Lack of a native toggle switch control."
   parentId: form_input_issues
   pattern:
     - toggle
@@ -273,6 +280,7 @@
     - type(-| )?safety
   tags:
     - front_end_frameworks_pain_points
+    - web_components_pain_points
 
 - id: input_type_search
   idAliases:
@@ -300,7 +308,7 @@
   description: >
     The lack of a native range input that supports multiple thumbs or handles,
     for selecting a min/max range.
-  parentId: slider
+  parentId: input_type_range
 
 # validation
 
@@ -310,6 +318,26 @@
   description: |
     General pain points with form validation.
   parentId: form_issues
+
+- id: custom_validation_api
+  name: Custom Validation API
+  description: "Difficulty adding custom validation rules alongside native validation, and clunky validation APIs."
+  parentId: form_validation_issues
+
+- id: declarative_validation_messages
+  name: Declarative Validation Messages
+  description: "Not being able to set validation states and custom error messages without JavaScript."
+  parentId: form_validation_issues
+
+- id: form_dirty_state
+  name: Dirty State & Validation Timing
+  description: "Tracking pristine, dirty, or touched state, and controlling when validation errors appear."
+  parentId: form_validation_issues
+
+- id: form_error_summary
+  name: Form Error Summary
+  description: "Lack of a native, accessible way to list all of a form's errors at once."
+  parentId: form_validation_issues
 
 - id: validation_errors
   name: |
@@ -445,6 +473,8 @@
   description: >
     Issues related to managing dates and times, including lack of support of
     modern APIs.
+  tags:
+    - content_pain_points
 
 - id: form_submission_json
   name: |
@@ -486,3 +516,10 @@
     The inability to nest `<optgroup>` elements within a `<select>` to create
     hierarchical option lists.
   parentId: select_element
+
+- id: date_format_localization
+  name: Date Format & Localization
+  description: "Controlling date input formats and locale, such as display format, 12/24-hour time, or first day of the week."
+  parentId: input_type_date
+  tags:
+    - forms_pain_points

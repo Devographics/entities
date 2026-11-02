@@ -383,6 +383,7 @@
   name: Reading Order
   tags:
     - layout_pain_points
+    - accessibility_pain_points
 
 - id: size_shorthand
   name: |
@@ -397,6 +398,7 @@
     - safari
   tags:
     - css_interoperability_features
+    - system_capabilities_pain_points
 
 - id: grid_gap_border
 

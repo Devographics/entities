@@ -15,6 +15,16 @@
   tags:
     - ai_common_pain_points
 
+- id: performance_measurement
+  name: Performance Measurement
+  description: "Knowing how to measure performance, interpret the metrics, and turn them into actions."
+  parentId: performance
+
+- id: css_rendering_performance
+  name: CSS Rendering Performance
+  description: "Slow CSS features, compositor and paint costs, and lack of insight into CSS performance."
+  parentId: performance
+
 - id: core_web_vitals
   name: |
     Core Web Vitals
@@ -135,14 +145,14 @@
     Non-render blocking
   description: |
     The desire to opt-out of render blocking (usually for stylesheets)
-  parentId: rendering
+  parentId: performance
 
 - id: large_dom
   name: |
     Large DOM Trees
   description: |
     Performance problems caused by having a very large or complex DOM tree.
-  parentId: rendering
+  parentId: performance
 
 - id: resource_intensive
   name: Resource-intensive

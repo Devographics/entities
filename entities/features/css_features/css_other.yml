@@ -440,6 +440,7 @@
       url: https://css-tricks.com/css-anchor-positioning-guide/
   tags:
     - html_interoperability_features
+    - interactivity_pain_points
   patterns:
     - anchor
     - anchor, api [l]

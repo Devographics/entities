@@ -308,6 +308,7 @@
     - html_interoperability_features
     - browser_apis_pain_points
     - html_missing_features
+    - content_pain_points
 
 - id: custom_elements
   name: Custom Elements
@@ -643,6 +644,8 @@
   mdn: en-US/docs/Web/API/Web_NFC_API
   patterns:
     - nfc
+  tags:
+    - system_capabilities_pain_points
 
 - id: web_serial_api
   name: Web Serial API
@@ -650,6 +653,8 @@
   mdn: en-US/docs/Web/API/Web_Serial_API
   patterns:
     - serial, api [l]
+  tags:
+    - system_capabilities_pain_points
 
 - id: speech_recognition_api
   webFeaturesId: speech-recognition
@@ -670,6 +675,8 @@
   mdn: en-US/docs/Web/API/SpeechRecognition
   patterns:
     - speech( )?recognition
+  tags:
+    - system_capabilities_pain_points
 
 - id: eye_dropper_api
   name: EyeDropper API

@@ -196,6 +196,9 @@
     - front_end_frameworks_pain_points
     - making_web_components_pain_points
     - state_management_pain_points
+    - interactivity_pain_points
+    - content_pain_points
+    - web_components_pain_points
 
 - id: scope
   description: Issues with scope
@@ -278,6 +281,9 @@
   parentId: reactivity
   patterns:
     - signals
+  tags:
+    - interactivity_pain_points
+    - web_components_pain_points
 
 - id: lack_of_decorators
   name: |

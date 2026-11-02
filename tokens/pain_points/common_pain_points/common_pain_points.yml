@@ -221,6 +221,11 @@
 - id: ecosystem
   name: Ecosystem issues
 
+- id: ai_impact_on_web
+  name: AI's Impact on the Web
+  description: "AI-generated slop, forced AI use, and AI scrapers affecting the web."
+  parentId: ecosystem
+
 - id: small_ecosystem
   name: Small Ecosystem
   description: Smaller frameworks (Vue, Svelte, Solid, Lit, Qwik, …) lacking the libraries, component kits, tooling, examples, and community support that React has.
@@ -261,6 +266,8 @@
     Issues caused by scripts not authored by the site owner, such as analytics,
     ads, trackers, and customer support widgets.
   parentId: ecosystem
+  tags:
+    - performance_pain_points
 
 - id: fragmentation
   name: Fragmentation
@@ -791,12 +798,16 @@
   description: >
     The need for or issues with techniques for rendering long lists or large
     tables by only rendering the visible items (virtual scrolling).
-  parentId: rendering
+  parentId: performance
+  tags:
+    - performance_pain_points
 
 - id: render_blocking
   name: |
     blocking=render attribute
-  parentId: rendering
+  parentId: performance
+  tags:
+    - performance_pain_points
 
 - id: scrollbars
   name: |
@@ -857,6 +868,11 @@
   name: |
     Privacy
   parentId: security_privacy
+
+- id: device_fingerprinting
+  name: Device Fingerprinting
+  description: "Device and system APIs enabling fingerprinting and user tracking."
+  parentId: privacy_issues
 
 - id: pwa_installation
   name: |

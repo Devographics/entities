@@ -42,10 +42,14 @@
 - id: browser_support_targets
   name: Browser Support Targets
   description: "Which browsers and versions do you need to support?"
+  tags:
+    - html_missing_questions
 
 - id: browser_landscape
   name: Browser Landscape
   description: "Views on browser diversity, standards, and how browsers implement CSS."
+  tags:
+    - html_missing_questions
 
 # ------------------------------------------------------------------- #
 #    Practices

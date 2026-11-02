@@ -4,6 +4,7 @@
     - shapes_graphics_pain_points
     - colors_pain_points
     - css_general_pain_points
+    - content_pain_points
 
 - id: gestures
   name: Touch & pointer gestures
@@ -36,6 +37,7 @@
     - accessibility_pain_poins
     - shapes_graphics_pain_points
     - colors_pain_points
+    - interactivity_pain_points
 
 - id: focus_outline_styling
   name: Focus outline styling
@@ -51,6 +53,8 @@
   parentId: interactions_issues
   descriptionIssues: >
     Lack of a native, stylable tooltip mechanism (e.g. a ::tooltip pseudo-element), forcing custom components or the title attribute.
+  tags:
+    - content_pain_points
 
 - id: input_modality
   name: Input modality

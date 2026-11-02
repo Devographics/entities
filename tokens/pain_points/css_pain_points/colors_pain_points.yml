@@ -108,9 +108,11 @@
 
 - id: contrast_algorithms
   name: Contrast algorithms
-  parentId: contrast_issues
+  parentId: wcag_contrast_issues
   descriptionIssues: >
     Algorithms for evaluating perceptual or accessibility contrast, including complaints about WCAG 2.x accuracy and desire for APCA or a choice of algorithm.
+  tags:
+    - accessibility_pain_points
 
 - id: mesh_gradients
   name: Mesh gradients

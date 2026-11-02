@@ -40,6 +40,7 @@
   tags:
     - features
     - css_missing_features
+    - interactivity_pain_points
   patterns:
     - accordion
 
@@ -480,6 +481,7 @@
     - layout_pain_points
     - interactions_pain_points
     - css_general_pain_points
+    - interactivity_pain_points
   patterns:
     - details
     - <details>
@@ -584,6 +586,7 @@
   parentId: web_components
   tags:
     - features
+    - web_components_pain_points
 
 - id: exportparts_attribute
   name: "`exportparts` attribute"
@@ -799,6 +802,7 @@
   tags:
     - features
     - language_pain_points
+    - content_pain_points
 
 - id: iframe_seamless
   name: "`<iframe seamless>`"
@@ -954,6 +958,7 @@
     - browser_apis_pain_points
     - mobile_web_apps_pain_points
     - js_other
+    - system_capabilities_pain_points
 
 - id: landmark_elements
   name: Landmark elements
@@ -1008,6 +1013,7 @@
   tags:
     - features
     - language_pain_points
+    - performance_pain_points
   parentId: loading_issues
 
 - id: media_capture
@@ -1034,6 +1040,7 @@
   tags:
     - features
     - html_graphics
+    - system_capabilities_pain_points
 
 - id: menu_element
   name: "`<menu>` element"
@@ -1124,6 +1131,7 @@
         single-page application navigations."
   tags:
     - features
+    - interactivity_pain_points
 
 - id: part_attribute
   name: Exposing component parts (`part` attribute)
@@ -1377,6 +1385,8 @@
       title: What is popover=hint?
     - url: https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint
       title: HTML Standard
+  tags:
+    - interactivity_pain_points
 
 - id: portal_element
   name: "`<portal>`"
@@ -1651,6 +1661,7 @@
     - layout_pain_points
     - interactions_pain_points
     - css_general_pain_points
+    - forms_pain_points
   patterns:
     - selectlist
     - select list
@@ -1918,6 +1929,7 @@
   caniuse: web-share
   tags:
     - features
+    - system_capabilities_pain_points
   patterns:
     - share api
     - navigator\.share
@@ -2001,7 +2013,6 @@
   descriptionIssues: >
     Pain points and feedback related to the proposed Invokers and Command
     attributes for declaratively triggering actions on other elements.
-  parentId: interactivity
   example:
     language: html
     code: |
@@ -2023,6 +2034,7 @@
   tags:
     - front_end_frameworks_pain_points
     - interactions_pain_points
+    - interactivity_pain_points
 
 - id: hidden_until_found
   webFeaturesId: hidden-until-found
@@ -2058,6 +2070,8 @@
   resources:
     - url: https://developer.chrome.com/blog/movebefore-api
       title: Preserve state during DOM mutations with moveBefore()
+  tags:
+    - interactivity_pain_points
 
 - id: element_before
   name: |
@@ -2118,6 +2132,8 @@
     Issues related to the Web Speech API's speech synthesis (text-to-speech)
     capabilities, such as inconsistent voice quality across browsers.
   parentId: apis_capabilities
+  tags:
+    - system_capabilities_pain_points
 
 - id: summarizer_api
   name: |
@@ -2128,7 +2144,9 @@
   webFeaturesId: interest-invokers
   name: |
     Interest invokers
-  parentId: invokers
+  parentId: command_invokers
+  tags:
+    - interactivity_pain_points
 
 - id: picture_in_picture_api
   name: |
@@ -2167,6 +2185,8 @@
   resources:
     - url: https://developer.chrome.com/docs/capabilities/usb
       title: Access USB Devices on the Web
+  tags:
+    - system_capabilities_pain_points
 
 - id: web_midi_api
   name: |
@@ -2175,6 +2195,8 @@
     Issues specific to the Web MIDI API for interacting with musical
     instruments.
   parentId: apis_capabilities
+  tags:
+    - system_capabilities_pain_points
 
 - id: web_nfc
   name: |

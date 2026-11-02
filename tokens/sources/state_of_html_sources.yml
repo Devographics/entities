@@ -42,6 +42,7 @@
     - post_survey_share
     - you [e]
     - emailed
+    - html2026_announcement
 
 - id: state_of_css_survey
   patterns:
@@ -51,3 +52,7 @@
 - id: state_of_js_survey
   patterns:
     - stateofjs.com
+
+- id: state_of_devs_survey
+  patterns:
+    - devs2026_banner
