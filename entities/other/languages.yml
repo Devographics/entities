@@ -35,6 +35,8 @@
   homepageUrl: https://kotlinlang.org
 
 - id: golang
+  idAliases:
+    - go
   name: Go
   homepageUrl: https://go.dev/
   patterns:
