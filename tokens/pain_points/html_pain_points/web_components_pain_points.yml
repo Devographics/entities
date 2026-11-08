@@ -1,9 +1,10 @@
 - id: web_components_syntax_issues
+  name: Web Components syntax issues
   tags:
     - language_pain_points
 
 - id: shadow_dom_issues
-  name: Shadow DOM Issues
+  name: Shadow DOM issues
   patterns:
     - shadow
 

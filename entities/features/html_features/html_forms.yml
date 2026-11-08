@@ -167,6 +167,18 @@
   patterns:
     - range
 
+- id: multi_handle_slider
+  name: |
+    Multi-Handle Slider
+  description: >
+    The lack of a native range input that supports multiple thumbs or handles,
+    for selecting a min/max range.
+  parentId: input_type_range
+  tags:
+    - pain_points
+    - html_pain_points
+    - forms_pain_points
+
 - id: input_type_range_list
   name: |
     `<input type="range" list>` for ticks

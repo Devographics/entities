@@ -302,14 +302,6 @@
   tags:
     - interactions_pain_points
 
-- id: multi_handle_slider
-  name: |
-    Multi-Handle Slider
-  description: >
-    The lack of a native range input that supports multiple thumbs or handles,
-    for selecting a min/max range.
-  parentId: input_type_range
-
 # validation
 
 - id: form_validation_issues
