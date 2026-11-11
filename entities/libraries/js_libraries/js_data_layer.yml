@@ -211,6 +211,15 @@
   name: Dexie
   homepageUrl: https://dexie.org/
 
+- id: rxdb
+  name: RxDB
+  npm: rxdb
+  github: pubkey/rxdb
+  description: Local-first, reactive NoSQL database for JavaScript
+  homepageUrl: https://rxdb.info/
+  patterns:
+    - rx( |-)?db
+
 - id: valtio
   name: Valtio
   homepageUrl: https://valtio.pmnd.rs/
